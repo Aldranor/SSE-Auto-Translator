@@ -248,7 +248,7 @@ class EditorTab(qtw.QWidget):
                 self.loc.main.editor_id,
                 self.loc.main.original,
                 self.loc.main.string,
-                self.loc.index
+                "Index"
             ]
         )
 

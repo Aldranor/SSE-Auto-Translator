@@ -518,6 +518,11 @@ def merge_plugin_strings(
         f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###{string.index}": string
         for string in translation_strings
     }
+    
+    translation_editor_dict = {
+        f"{string.editor_id}###{string.type}": string
+        for string in translation_strings
+    }
 
     if not translation_strings and not original_strings_list:
         return []
@@ -527,20 +532,24 @@ def merge_plugin_strings(
     )
 
     updated_original_strings: list[String] = []
-
+    
     # Iterate over original strings and update where possible
     for original_string in original_strings_list:
         key = f"{original_string.form_id.lower()[2:]}###{original_string.editor_id}###{original_string.type}###{original_string.index}"
         translation_string = translation_strings_dict.get(key)
 
-        if translation_strings is None and original_string.index == 1:
+        if translation_string is None and original_string.index == 1:
             key = f"{original_string.form_id.lower()[2:]}###{original_string.editor_id}###{original_string.type}###None"
             translation_string = translation_strings_dict.get(key)
             
-        if translation_strings is None and isDSD:
+        if translation_string is None and isDSD:
             key = f"{original_string.original_string.strip()}"
             translation_string = translation_original_dict.get(key)
-                
+                       
+        if translation_string is None and original_string.index == None:
+            key = f"{original_string.editor_id}###{original_string.type}"
+            translation_string = translation_editor_dict.get(key)
+
         if translation_string:
             original_string.translated_string = translation_string.original_string if not isDSD else translation_string.translated_string
             original_string.status = String.Status.TranslationComplete
@@ -549,8 +558,7 @@ def merge_plugin_strings(
             original_string.translated_string = original_string.original_string
             original_string.status = String.Status.TranslationRequired
             updated_original_strings.append(original_string)
-            log.warning(f"No matching translation found for: {original_string}")
-    
+
     log.debug(f"Updated {len(updated_original_strings)} of {len(original_strings_list)} original String(s) with translations.")
 
     return original_strings_list

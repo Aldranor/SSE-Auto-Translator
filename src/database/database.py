@@ -336,21 +336,18 @@ class TranslationDatabase:
             if matching is None:
                 matching = database_originals.get(string.original_string.lower())
                 full_matching = False
-                print('partial_matching')
 
             if matching is None:
                 matching = database_ids.get(
                     f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###{string.index}"
                 )
                 full_matching = False
-                print('partial id matching')
                 
             if matching is None and string.index is None:
                 matching = database_ids.get(
                     f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###1"
                 )
                 full_matching = False
-                print('partial id matching')
                         
             if matching is None:
                 continue

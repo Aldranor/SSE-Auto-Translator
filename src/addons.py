@@ -2,12 +2,10 @@ import json
 import os
 import pickle
 import re
-import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import qtawesome as qta
 import qtpy.QtGui as qtg
-from lxml import etree as ET
 from qtpy.QtWidgets import QFileDialog, QProgressDialog
 from qtpy.QtCore import *
 
@@ -116,7 +114,6 @@ class EditorAddon(QObject):
         self.editor = editor
         self.threadpool = QThreadPool()
         self.progress_dialog = None  # Initialize progress dialog as None
-        print("initialize_addons")
 
     def load_from_db(self, path=None):
         self.progress_dialog = QProgressDialog("Loading data...", "Cancel", 0, 100, self.editor)

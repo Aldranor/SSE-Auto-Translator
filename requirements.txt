@@ -24,3 +24,7 @@ pyzmq
 https://github.com/MSeal/cython_hunspell/archive/refs/tags/2.0.3.tar.gz
 pytz
 comtypes
+lz4
+virtual_glob
+bs4
+lxml
