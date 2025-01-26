@@ -70,48 +70,20 @@ class Record:
         stream = BytesIO(self.data)
         self.subrecords = []
 
-        def calc_condition_index() -> int:
+        def calc_index(record_type: str) -> int:
             """
-            Creates unique index from hashes of previous block
-            of CTDA subrecords and previous INDX subrecord.
-
-            Returns hash of INDX subrecord if there is no CTDA block.
+            Generates a unique index by incrementing a counter.
+            This ensures each condition index is unique and sequential, per record type.
             """
+            if not hasattr(calc_index, "counters"):
+                calc_index.counters = {}
 
-            # Get previous block of CTDA subrecords
-            # after previous INDX subrecord
-            ctda_subrecords: list[Subrecord] = []
-            indx_subrecord: Subrecord = None
+            if record_type not in calc_index.counters:
+                calc_index.counters[record_type] = 0
 
-            for subrecord in self.subrecords[::-1]:
-                if subrecord.type == "CTDA":
-                    ctda_subrecords.append(subrecord)
+            calc_index.counters[record_type] += 1
 
-                # Break if INDX subrecord is reached
-                elif subrecord.type == "INDX":
-                    indx_subrecord = subrecord
-                    break
-
-                # Only break if INDX subrecord is reached
-                elif ctda_subrecords and indx_subrecord is not None:
-                    break
-
-            stage_index = abs(hash(indx_subrecord.data))
-
-            if not ctda_subrecords:
-                return get_checksum(stage_index)
-
-            # Bring CTDA subrecords back in original order
-            ctda_subrecords.reverse()
-
-            hash_value: int = 0
-            for subrecord in ctda_subrecords:
-                value = abs(hash(subrecord.data))
-                hash_value += value
-
-            index = get_checksum(hash_value - stage_index)
-
-            return index
+            return calc_index.counters[record_type]
 
         current_objective_index = 0
 
@@ -129,7 +101,7 @@ class Record:
             match subrecord_type:
                 # Set current log entry index as index of string
                 case "CNAM":
-                    subrecord.index = calc_condition_index()
+                    subrecord.index = calc_index('CNAM')
 
                 # Get quest objective index
                 case "QOBJ":

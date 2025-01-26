@@ -10,6 +10,7 @@ import time
 from copy import copy
 from fnmatch import fnmatch
 from pathlib import Path
+import pickle
 
 import jstyleson as json
 import qtpy.QtCore as qtc
@@ -46,6 +47,7 @@ class Processor:
         app.log.info("Scanning modlist for required translations...")
 
         def process(ldialog: LoadingDialog):
+
             ldialog.updateProgress(text1=app.loc.main.loading_database)
             database_originals = list(
                 set(
@@ -72,8 +74,8 @@ class Processor:
                     for plugin in mod.plugins
                     if plugin.tree_item.checkState(0) == qtc.Qt.CheckState.Checked
                 ]
-
-                for p, plugin in enumerate(plugins):
+                
+                for p, plugin in enumerate(plugins):        
                     ldialog.updateProgress(
                         text1=f"{app.loc.main.scanning_modlist} ({m}/{len(modlist)})",
                         value1=m,
@@ -89,7 +91,7 @@ class Processor:
                     if app.database.get_translation_by_plugin_name(plugin.name):
                         plugin.status = plugin.Status.TranslationInstalled
                         continue
-
+                    
                     ldialog.updateProgress(text3=app.loc.main.extracting_strings)
 
                     strings = app.cacher.get_plugin_strings(plugin.path)
@@ -100,10 +102,6 @@ class Processor:
                     ldialog.updateProgress(text3=app.loc.main.detecting_language)
 
                     if detector.requires_translation(strings):
-                        ldialog.updateProgress(
-                            text3=app.loc.main.scanning_for_required_translations
-                        )
-
                         for string in strings:
                             if (
                                 string.original_string not in database_originals
@@ -135,7 +133,6 @@ class Processor:
             )
 
             Processor.import_dsd_translations(modlist, app)
-
         loadingdialog = LoadingDialog(app.root, app, process)
         loadingdialog.exec()
 
@@ -160,14 +157,16 @@ class Processor:
                     "**/SKSE/Plugins/DynamicStringDistributor/*/*.json"
                 )
                 if not fnmatch(
-                    file.name, "*_SSEAT.json"
-                )  # Do not import DSD files from generated Output mod
+                   file.name, "*_SSEAT.json"
+                )
             ]
 
             if not len(dsd_files):
                 continue
 
             strings: dict[str, list[utils.String]] = {}
+
+            app.log.info("Checking file list")
 
             for dsd_file in dsd_files:
                 try:
@@ -922,12 +921,6 @@ class Processor:
                 if translation is None:
                     continue
 
-                if (
-                    mod.mod_id == translation.mod_id
-                    and mod.file_id == translation.file_id
-                ):
-                    continue
-
                 app.log.info(f"Scanning {mod.name!r} > {plugin.name!r}...")
 
                 ldialog.updateProgress(
@@ -942,29 +935,35 @@ class Processor:
                     text2=f"{plugin.name}: {app.loc.main.extracting_strings}"
                 )
 
-                plugin_strings = app.cacher.get_plugin_strings(plugin.path)
-
-                translation_strings = {
-                    f"{string.editor_id}###{string.type}": string
-                    for string in translation.strings[plugin.name.lower()]
-                }
-
+                original_plugin = Plugin(plugin.path)
+                plugin_strings = original_plugin.extract_strings()
+                
+                #plugin_strings = app.cacher.get_plugin_strings(plugin.path)
+                 
                 ldialog.updateProgress(
                     text2=f"{plugin.name}: {app.loc.main.scanning_strings}"
                 )
+                
+                translation_strings = {
+                    f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###{string.index}": string
+                    for string in translation.strings[plugin.name.lower()]
+                }
 
                 translation_complete = True
                 for plugin_string in plugin_strings:
                     matching = translation_strings.get(
-                        f"{plugin_string.editor_id}###{plugin_string.type}"
-                    )
-
+                    f"{plugin_string.form_id.lower()[2:]}###{plugin_string.editor_id}###{plugin_string.type}###{plugin_string.index}"
+                    )          
+                        
+                    if matching is None and plugin_string.index is None:
+                        matching = translation_strings.get(f"{plugin_string.form_id.lower()[2:]}###{plugin_string.editor_id}###{plugin_string.type}###1")
+                              
                     if matching is None:
                         new_string = copy(plugin_string)
                         new_string.status = new_string.Status.TranslationRequired
                         new_string.translated_string = new_string.original_string
                         translation_strings[
-                            f"{new_string.editor_id}###{new_string.type}"
+                            f"{new_string.form_id.lower()[2:]}###{new_string.editor_id}###{new_string.type}###{new_string.index}"                        
                         ] = new_string
                         translation.strings[plugin.name.lower()].append(new_string)
                         translation_complete = False
@@ -974,13 +973,11 @@ class Processor:
                         or matching.status == utils.String.Status.TranslationRequired
                     ):
                         translation_complete = False
-
+                        
                 if not translation_complete:
                     plugin.status = plugin.Status.TranslationIncomplete
                     app.log.info(f"Translation for {plugin.name!r} is incomplete.")
-                else:
-                    app.log.info(f"Translation for {plugin.name!r} is complete.")
-
+                    
         loadingdialog = LoadingDialog(app.root, app, process)
         loadingdialog.exec()
 

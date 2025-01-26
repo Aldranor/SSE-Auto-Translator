@@ -303,6 +303,7 @@ class DownloadsWidget(qtw.QWidget):
                         )
                         translation.save_translation()
                         self.app.database.add_translation(translation)
+                        self.app.database.apply_db_to_translation(translation)
 
                         utils.import_non_plugin_files(
                             downloaded_file,

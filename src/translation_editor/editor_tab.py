@@ -50,6 +50,10 @@ class EditorTab(qtw.QWidget):
         self.translation = translation
         self.plugin_name = plugin_name
 
+        from addons import EditorAddon
+        self.esp_importer = EditorAddon(self)
+        self.esp_importer.import_gui()
+
         save_shortcut = qtg.QShortcut(qtg.QKeySequence("Ctrl+S"), self)
         save_shortcut.activated.connect(self.save)
 
@@ -244,16 +248,21 @@ class EditorTab(qtw.QWidget):
                 self.loc.main.editor_id,
                 self.loc.main.original,
                 self.loc.main.string,
+                self.loc.index
             ]
         )
 
         translation.load_translation()
+        
+        self.strings_widget.sortItems(5, qtc.Qt.AscendingOrder)
 
         self.items = {}
         self.plugins = {}
         if plugin_name:
             self.plugins[plugin_name] = []
             for string in translation.strings[plugin_name]:
+                index = 1 if string.index is None else string.index
+
                 item = qtw.QTreeWidgetItem(
                     [
                         string.type,
@@ -268,6 +277,8 @@ class EditorTab(qtw.QWidget):
                 item.setFont(1, qtg.QFont("Consolas"))
                 item.setFont(2, qtg.QFont("Consolas"))
 
+                item.setData(5, qtc.Qt.DisplayRole, int(index)) 
+                
                 # Create copy of string to prevent unwanted changes to original string
                 string = copy(string)
                 self.items[item] = string
@@ -278,6 +289,8 @@ class EditorTab(qtw.QWidget):
             for plugin_name, strings in translation.strings.items():
                 self.plugins[plugin_name] = []
                 for string in strings:
+                    index = 1 if string.index is None else string.index
+                    
                     item = qtw.QTreeWidgetItem(
                         [
                             string.type,
@@ -287,11 +300,13 @@ class EditorTab(qtw.QWidget):
                             utils.trim_string(string.translated_string),
                         ]
                     )
-
+                    
+                    item.setData(5, qtc.Qt.DisplayRole, int(index)) 
+                    
                     item.setFont(0, qtg.QFont("Consolas"))
                     item.setFont(1, qtg.QFont("Consolas"))
                     item.setFont(2, qtg.QFont("Consolas"))
-
+                    
                     # Create copy of string to prevent unwanted changes to original string
                     string = copy(string)
                     self.items[item] = string
@@ -720,6 +735,9 @@ class EditorTab(qtw.QWidget):
         )
         newly_translated_strings -= pre_translated_strings
 
+        for item, string in self.items.items():
+            item.setText(4, utils.trim_string(string.translated_string))
+                
         self.update_string_list()
         if newly_translated_strings:
             self.changes_signal.emit()

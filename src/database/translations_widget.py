@@ -1000,7 +1000,9 @@ class TranslationsWidget(qtw.QWidget):
                     translation.strings = strings
                     translation.save_translation()
                     self.app.database.add_translation(translation)
-
+                    self.app.database.apply_db_to_translation(translation)
+                    self.app.database.save_database()
+                    
                     original_mod: utils.Mod = None
 
                     for mod in self.app.mainpage_widget.mods:

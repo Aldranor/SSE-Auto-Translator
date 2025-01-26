@@ -19,7 +19,7 @@ import requests
 import plugin_interface
 import utilities as utils
 from main import MainApp
-
+from plugin_interface import Plugin
 
 class Cacher:
     """
@@ -72,8 +72,10 @@ class Cacher:
         """
         Gets strings of `plugin_path` from cache or extracts them if not in cache.
         """
+        original_plugin = Plugin(plugin_path)
+        strings = original_plugin.extract_strings()
 
-        identifier = utils.get_file_identifier(plugin_path)
+        """identifier = utils.get_file_identifier(plugin_path)
 
         if identifier not in self.__plugin_strings_cache:
             cache_file = self.path / "plugin_strings" / f"{identifier}.cache"
@@ -98,7 +100,7 @@ class Cacher:
 
         self.log.debug(
             f"Loaded {len(strings)} string(s) for plugin {str(plugin_path)!r} from cache."
-        )
+        ) """
 
         return strings
 

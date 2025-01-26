@@ -163,8 +163,9 @@ class Translation:
             strings = [
                 string.to_string_data()
                 for string in plugin_strings
-                if string.original_string != string.translated_string
-                and string.translated_string
+                #if string.original_string != string.translated_string
+                #and string.translated_string
+                if string.translated_string
             ]
 
             translation_path = plugin_folder / "SSE-AT_exported.json"

@@ -28,7 +28,7 @@ class TranslationEditor(qtw.QSplitter):
         self.app = app
         self.loc = app.loc
         self.mloc = app.loc.editor
-
+                
         self.setOrientation(qtc.Qt.Orientation.Horizontal)
 
         self.translations_list = qtw.QTreeWidget()
@@ -49,6 +49,7 @@ class TranslationEditor(qtw.QSplitter):
         self.translations_list.currentItemChanged.connect(
             lambda cur, _: self.set_tab_from_item(cur)
         )
+        
 
     def set_tab_from_item(self, item: qtw.QTreeWidgetItem):
         """

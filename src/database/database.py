@@ -12,6 +12,7 @@ from shutil import rmtree
 import jstyleson as json
 
 from cacher import Cacher
+from plugin_interface.plugin import Plugin
 from utilities import Mod, Source, String
 
 from .translation import Translation
@@ -279,8 +280,16 @@ class TranslationDatabase:
 
         installed_translations = [self.vanilla_translation] + self.user_translations
 
+        database_ids = {
+            f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###{string.index}": string
+            for _translation in installed_translations
+            for _plugin_name, plugin_strings in _translation.strings.items()
+            if _translation != translation or _plugin_name != plugin_name
+            for string in plugin_strings
+            if string.status != String.Status.TranslationRequired
+        }
         database_originals = {
-            string.original_string: string
+            string.original_string.lower(): string
             for _translation in installed_translations
             for _plugin_name, plugin_strings in _translation.strings.items()
             if _translation != translation or _plugin_name != plugin_name
@@ -288,7 +297,7 @@ class TranslationDatabase:
             if string.status != String.Status.TranslationRequired
         }
         database_strings = {
-            f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###{string.index}": string
+            f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###{string.original_string}": string
             for translation in installed_translations
             for plugin_strings in translation.strings.values()
             for string in plugin_strings
@@ -319,17 +328,33 @@ class TranslationDatabase:
 
         translated = 0
         for string in strings:
+            full_matching = True
             matching = database_strings.get(
-                f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###{string.index}"
+                f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###{string.original_string}"
             )
+            
+            if matching is None:
+                matching = database_originals.get(string.original_string.lower())
+                full_matching = False
+                print('partial_matching')
 
             if matching is None:
-                matching = database_originals.get(string.original_string)
-
+                matching = database_ids.get(
+                    f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###{string.index}"
+                )
+                full_matching = False
+                print('partial id matching')
+                
+            if matching is None and string.index is None:
+                matching = database_ids.get(
+                    f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###1"
+                )
+                full_matching = False
+                print('partial id matching')
+                        
             if matching is None:
                 continue
 
-            full_matching = string == matching
             string.translated_string = matching.translated_string
 
             if full_matching or matching.status == String.Status.NoTranslationRequired:
@@ -351,8 +376,9 @@ class TranslationDatabase:
         if translation:
             return translation
 
-        plugin_strings = cache.get_plugin_strings(plugin_path)
-
+        original_plugin = Plugin(plugin_path)
+        plugin_strings = original_plugin.extract_strings()
+        
         for string in plugin_strings:
             string.translated_string = string.original_string
             string.status = string.Status.TranslationRequired

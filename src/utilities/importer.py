@@ -406,9 +406,14 @@ def import_from_archive(
 
             plugin_strings = merge_plugin_strings(extracted_file, plugin.path, cache)
             if plugin_strings:
+                isComplete = True
                 for string in plugin_strings:
-                    string.status = String.Status.TranslationComplete
+                    if string.status == String.Status.TranslationRequired:
+                        isComplete = False
 
+                if not isComplete:
+                    plugin.status = plugin.Status.TranslationIncomplete
+                
                 if plugin_name.lower() in translation_strings:
                     translation_strings[plugin_name.lower()].extend(plugin_strings)
                 else:
@@ -428,7 +433,27 @@ def import_from_archive(
         for d, dsd_file in enumerate(dsd_files):
             extracted_file = archive_path.parent / dsd_file
             plugin_name = extracted_file.parent.name
+            
+            installed_plugins = [
+                plugin
+                for mod in modlist
+                for plugin in mod.plugins
+                if plugin.status != plugin.Status.TranslationInstalled
+                and plugin.status != plugin.Status.IsTranslated
+                and plugin.tree_item.checkState(0) == qtc.Qt.CheckState.Checked
+            ]
+            matching = list(
+                filter(
+                    lambda plugin: plugin.name.lower() == plugin_name.lower(),
+                    installed_plugins,
+                )
+            )
 
+            if not matching:
+                continue
+
+            plugin = matching[-1]
+            
             if ldialog:
                 ldialog.updateProgress(
                     text1=f"{ldialog.loc.main.processing_plugins} ({d}/{len(dsd_files)})",
@@ -440,22 +465,21 @@ def import_from_archive(
 
             archive.extract(dsd_file, archive_path.parent)
 
-            with open(extracted_file, encoding="utf8") as file:
-                string_datas: list[dict[str, str]] = json.load(file)
+            plugin_strings = merge_plugin_strings(extracted_file, plugin.path, cache, True)
+            if plugin_strings:
+                isComplete = True
+                for string in plugin_strings:
+                    if string.status == String.Status.TranslationRequired:
+                        isComplete = False
 
-                strings = [
-                    String.from_string_data(string_data)
-                    for string_data in string_datas
-                    if string_data.get("form_id")
-                ]
-                for string in strings:
-                    string.status = String.Status.TranslationComplete
-
-            if len(strings):
+                if not isComplete:
+                    plugin.status = plugin.Status.TranslationIncomplete
+                
                 if plugin_name.lower() in translation_strings:
-                    translation_strings[plugin_name.lower()] += strings
+                    translation_strings[plugin_name.lower()].extend(plugin_strings)
                 else:
-                    translation_strings[plugin_name.lower()] = strings
+                    translation_strings[plugin_name.lower()] = plugin_strings
+
 
     for plugin_name, plugin_strings in translation_strings.items():
         translation_strings[plugin_name] = list(set(plugin_strings))
@@ -464,50 +488,70 @@ def import_from_archive(
 
 
 def merge_plugin_strings(
-    translation_plugin_path: Path, original_plugin_path: Path, cache
+    translation_plugin_path: Path, original_plugin_path: Path, cache, isDSD=False
 ) -> list[String]:
     """
     Extracts strings from translation and original plugin and merges.
     """
+    original_plugin = Plugin(original_plugin_path)
+    original_strings_list = original_plugin.extract_strings()
+    
+    if not isDSD:
+        translation_plugin = Plugin(translation_plugin_path)
+        translation_strings = translation_plugin.extract_strings()
+    else:
+        with open(translation_plugin_path, encoding="utf8") as file:
+            string_datas: list[dict[str, str]] = json.load(file)
 
-    translation_plugin = Plugin(translation_plugin_path)
-    translation_strings = translation_plugin.extract_strings()
+            translation_strings = [
+                String.from_string_data(string_data)
+                for string_data in string_datas
+                if string_data.get("form_id")
+            ]
 
-    original_strings = {
+        translation_original_dict = {
+            f"{string.original_string.strip()}": string
+            for string in translation_strings
+        }
+
+    translation_strings_dict = {
         f"{string.form_id.lower()[2:]}###{string.editor_id}###{string.type}###{string.index}": string
-        for string in cache.get_plugin_strings(original_plugin_path)
+        for string in translation_strings
     }
 
-    if not translation_strings and not original_strings:
+    if not translation_strings and not original_strings_list:
         return []
 
     log.debug(
-        f"Merging {len(original_strings)} original String(s) to {len(translation_strings)} translated String(s)..."
+        f"Merging {len(original_strings_list)} original String(s) to {len(translation_strings)} translated String(s)..."
     )
 
-    merged_strings: list[String] = []
-    unmerged_strings: list[String] = []
+    updated_original_strings: list[String] = []
 
-    for translation_string in translation_strings:
-        original_string = original_strings.get(
-            f"{translation_string.form_id.lower()[2:]}###{translation_string.editor_id}###{translation_string.type}###{translation_string.index}"
-        )
+    # Iterate over original strings and update where possible
+    for original_string in original_strings_list:
+        key = f"{original_string.form_id.lower()[2:]}###{original_string.editor_id}###{original_string.type}###{original_string.index}"
+        translation_string = translation_strings_dict.get(key)
 
-        if original_string is None:
-            unmerged_strings.append(translation_string)
-            continue
+        if translation_strings is None and original_string.index == 1:
+            key = f"{original_string.form_id.lower()[2:]}###{original_string.editor_id}###{original_string.type}###None"
+            translation_string = translation_strings_dict.get(key)
+            
+        if translation_strings is None and isDSD:
+            key = f"{original_string.original_string.strip()}"
+            translation_string = translation_original_dict.get(key)
+                
+        if translation_string:
+            original_string.translated_string = translation_string.original_string if not isDSD else translation_string.translated_string
+            original_string.status = String.Status.TranslationComplete
+            updated_original_strings.append(original_string)
+        else:            
+            original_string.translated_string = original_string.original_string
+            original_string.status = String.Status.TranslationRequired
+            updated_original_strings.append(original_string)
+            log.warning(f"No matching translation found for: {original_string}")
+    
+    log.debug(f"Updated {len(updated_original_strings)} of {len(original_strings_list)} original String(s) with translations.")
 
-        translation_string = copy(translation_string)
-        translation_string.translated_string = translation_string.original_string
-        translation_string.original_string = original_string.original_string
-        merged_strings.append(translation_string)
-
-    if len(unmerged_strings) < len(translation_strings):
-        for unmerged_string in unmerged_strings:
-            log.warning(f"Not found in Original: {unmerged_string}")
-
-        log.debug(f"Merged {len(merged_strings)} String(s).")
-    else:
-        log.error("Merging failed!")
-
-    return merged_strings
+    return original_strings_list
+    

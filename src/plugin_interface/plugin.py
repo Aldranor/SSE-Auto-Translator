@@ -144,7 +144,7 @@ class Plugin:
                                     else PluginString.Status.NoTranslationRequired
                                 ),
                             )
-
+                            
                             strings[string_data] = subrecord
 
         return strings
@@ -159,7 +159,7 @@ class Plugin:
         """
 
         strings: list[PluginString] = []
-
+        
         for group in self.groups:
             current_group: list[PluginString] = list(
                 self.extract_group_strings(group, extract_localized, unfiltered).keys()
