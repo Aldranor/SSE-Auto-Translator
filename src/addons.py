@@ -2,17 +2,19 @@ import json
 import os
 import pickle
 import re
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import qtawesome as qta
 import qtpy.QtGui as qtg
+from lxml import etree as ET
 from qtpy.QtWidgets import QFileDialog, QProgressDialog
 from qtpy.QtCore import *
 
 import utilities as utils
-from database.translations_widget import TranslationsWidget
 from plugin_interface import Plugin
 from translation_editor.editor_tab import EditorTab
+
 
 
 class WorkerSignals(QObject):
@@ -293,7 +295,45 @@ class EditorAddon(QObject):
 
         load_db_shortcut = qtg.QShortcut(qtg.QKeySequence("Ctrl+E"), self.editor)
         load_db_shortcut.activated.connect(lambda: self.load_from_db())
+        
+        export_eet_shortcut = qtg.QShortcut(qtg.QKeySequence("Ctrl+M"), self.editor)
+        export_eet_shortcut.activated.connect(lambda: self.export_eet())
 
+    def export_eet(self):
+        print('CONVERSION STARTED')
+
+        path = self.editor.translation.path / (self.editor.plugin_name + ".ats")
+
+        with open(path, 'rb') as file:
+            data = pickle.load(file)
+
+        root = ET.Element("DocumentElement")
+
+        for item in data:
+            esp = ET.SubElement(root, "ESP")
+            status = item.status
+
+            ET.SubElement(esp, "GRUP").text = item.type.split(' ')[0]  #
+            ET.SubElement(esp, "ID").text = item.form_id.split('|')[0]
+            ET.SubElement(esp, "EDID").text = item.editor_id
+            ET.SubElement(esp, "CHAMP").text = "CNAM"
+            ET.SubElement(esp, "ORIGINAL").text = item.original_string
+            ET.SubElement(esp, "TRADUIT").text = item.translated_string
+            ET.SubElement(esp, "INDEX").text = str(item.index)
+            ET.SubElement(esp, "STATUS").text = '99' if status == 'TranslationComplete' else '98' if status == 'TranslationIncomplete' else '0'
+            ET.SubElement(esp, "IDSTEXTE").text = "-1"
+            ET.SubElement(esp, "COMMENTAIRE").text = ""
+
+        tree = ET.ElementTree(root)
+
+        # Define the output path
+        path = self.editor.app.data_path / "user" / "export" / self.editor.plugin_name
+        output_path = str(path) + '.xml'
+        tree.write(output_path, pretty_print=True, encoding='utf-8', xml_declaration=True)
+
+        print('CONVERSION MADE')
+        
+        
     def extract_translation_strings(self, translation_plugin: Path, only_edid=False) -> dict:
         plugin = Plugin(translation_plugin)
         translation_strings = plugin.extract_strings()

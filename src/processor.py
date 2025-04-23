@@ -797,8 +797,11 @@ class Processor:
                         break
                 else:
                     # Fallback to plugin search
-                    plugin_name = list(translation.strings.keys())[0].lower()
-
+                    try:
+                        plugin_name = list(translation.strings.keys())[0].lower()
+                    except:
+                        continue
+                    
                     for _mod in modlist:
                         if any(
                             (

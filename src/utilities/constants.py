@@ -100,6 +100,7 @@ SUPPORTED_LANGS: list[tuple[str]] = [
     ("korean", "ko_KR"),
     ("polish", "pl_PL"),
     ("portuguese", "pt_BR"),
+    ("indonesian", "id_ID"),
     ("russian", "ru_RU"),
     ("spanish", "es_ES"),
 ]
