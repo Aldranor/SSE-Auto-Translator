@@ -14,6 +14,7 @@ import sys
 import tempfile
 import time
 import traceback
+import webbrowser
 from datetime import datetime
 from pathlib import Path
 from winsound import MessageBeep as alert
@@ -32,7 +33,7 @@ class MainApp(qtw.QApplication):
     """
 
     name = "SSE Auto Translator"
-    version = "2.1.8"
+    version = "development"
 
     loc: "utils.Localisator" = None
     cur_path = (  # Get path of executable/script depending on building status
@@ -114,7 +115,7 @@ class MainApp(qtw.QApplication):
     cacher: "Cacher" = None
 
     def __init__(self):
-        super().__init__()
+        super().__init__(sys.argv)
 
         self.setApplicationName(self.name)
         self.setApplicationDisplayName(f"{self.name} v{self.version}")
@@ -139,7 +140,10 @@ class MainApp(qtw.QApplication):
         self.log.info("Application started.")
 
         # Check for updates
-        updater.Updater(self).run()
+        try:
+            updater.Updater(self).run()
+        except Exception as ex:
+            self.log.warning(f"Failed to check for app updates: {ex}", exc_info=ex)
 
         if self.first_start:
             self.setup_complete = False
@@ -265,9 +269,9 @@ class MainApp(qtw.QApplication):
 
         if self.translator_conf_path.is_file():
             with open(self.translator_conf_path, encoding="utf8") as file:
-              self.translator_config = self.default_translator_config | json.load(
-                     file
-                 )
+                self.translator_config = self.default_translator_config | json.load(
+                    file
+                )
         else:
             os.makedirs(self.translator_conf_path.parent, exist_ok=True)
             with open(self.translator_conf_path, "w", encoding="utf8") as file:
@@ -705,7 +709,7 @@ class MainApp(qtw.QApplication):
         licenses_tab.addItems(utils.LICENSES.keys())
 
         licenses_tab.itemDoubleClicked.connect(
-            lambda item: os.startfile(utils.LICENSES[item.text()])
+            lambda item: webbrowser.open(utils.LICENSES[item.text()])
         )
 
         dialog.exec()

@@ -91,11 +91,12 @@ AE_CC_PLUGINS = [
 ]
 
 # Supported languages
-SUPPORTED_LANGS: list[tuple[str]] = [
+SUPPORTED_LANGS: list[tuple[str, str]] = [
     ("chinese", "zh_CN"),
     ("french", "fr_FR"),
     ("german", "de_DE"),
     ("italian", "it_IT"),
+    ("indonesian", "id_ID"),
     ("japanese", "jp_JP"),
     ("korean", "ko_KR"),
     ("polish", "pl_PL"),
@@ -103,4 +104,5 @@ SUPPORTED_LANGS: list[tuple[str]] = [
     ("indonesian", "id_ID"),
     ("russian", "ru_RU"),
     ("spanish", "es_ES"),
+    ("turkish", "tr_TR"),
 ]
