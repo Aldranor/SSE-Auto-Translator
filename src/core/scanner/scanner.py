@@ -121,6 +121,12 @@ class Scanner(QObject):
             if string.status != StringStatus.TranslationRequired
         }
 
+        database_translations: dict[str, tuple[Translation, StringList]] = {}
+        for translation in self.__database.user_translations:
+            for modfile_key, strings in translation.strings.items():
+                norm_key: str = str(modfile_key).lower().replace("\\", "/")
+                database_translations[norm_key] = (translation, strings)
+
         scan_result: dict[Mod, dict[ModFile, TranslationStatus]] = {}
         failed_modfiles: int = 0
         with ProgressExecutor(
@@ -138,6 +144,7 @@ class Scanner(QObject):
                             mod=m,
                             modfile=mf,
                             database_originals=database_originals,
+                            database_translations=database_translations,
                             update_callback=ucb,
                         )
                     )
@@ -164,6 +171,7 @@ class Scanner(QObject):
         mod: Mod,
         modfile: ModFile,
         database_originals: set[str],
+        database_translations: dict[str, tuple[Translation, StringList]],
         update_callback: Optional[UpdateCallback] = None,
     ) -> TranslationStatus:
         modfile_path_text: str = f"{mod.name} > {modfile.name}"
@@ -202,9 +210,20 @@ class Scanner(QObject):
         self.log.debug("Detecting language...")
 
         status: TranslationStatus
+        norm_path: str = str(modfile.path).lower().replace("\\", "/")
         if self.__detector.requires_translation(modfile_strings):
-            if self.__database.get_translation_by_modfile_path(modfile.path) is not None:
-                status = TranslationStatus.TranslationInstalled
+            if norm_path in database_translations:
+                translation, trans_strings = database_translations[norm_path]
+                has_incomplete: bool = any(
+                    string.status > StringStatus.TranslationComplete
+                    for string in trans_strings
+                )
+                is_partially_covered: bool = len(trans_strings) < len(modfile_strings)
+
+                if has_incomplete or is_partially_covered:
+                    status = TranslationStatus.TranslationIncomplete
+                else:
+                    status = TranslationStatus.TranslationInstalled
 
             elif any(
                 string.original not in database_originals
