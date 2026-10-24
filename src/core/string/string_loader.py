@@ -7,6 +7,7 @@ from pathlib import Path
 from types import ModuleType
 
 import sse_plugin_interface
+import sse_plugin_interface.datatypes
 
 from core import utilities
 from core.file_types.plugin import legacy
@@ -27,10 +28,12 @@ class StringLoader:
     MODULE_ALIASES: dict[str, ModuleType] = {
         "core.database.string": legacy,
         "plugin_parser": sse_plugin_interface,
+        "plugin_parser.datatypes": sse_plugin_interface.datatypes,
         "plugin_parser.string": legacy,
         "utilities": utilities,
         "utilities.string": legacy,
         "plugin_interface": sse_plugin_interface,
+        "plugin_interface.datatypes": sse_plugin_interface.datatypes,
     }
     """Dict of module aliases required for deserialization of older translations."""
 
@@ -109,4 +112,7 @@ class StringLoader:
             Status: Converted status.
         """
 
-        return StringStatus(legacy_status.value)
+        try:
+            return StringStatus[legacy_status.name]
+        except KeyError:
+            return StringStatus.TranslationIncomplete
