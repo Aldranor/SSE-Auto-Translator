@@ -59,6 +59,9 @@ class MainToolBar(QToolBar):
     export_states_requested = Signal()
     """Signal when the user clicks on the export states action."""
 
+    apply_db_translations_requested = Signal()
+    """Signal when the user clicks on the apply database translations action."""
+
     __filter_action: QAction
     __filter_menu: Menu
     __state_filter_items: dict[TranslationStatus, QCheckBox]
@@ -70,6 +73,7 @@ class MainToolBar(QToolBar):
     __download_action: QAction
     __build_output_action: QAction
 
+    __apply_db_translations_action: QAction
     __string_search_action: QAction
     __export_states_action: QAction
 
@@ -169,6 +173,18 @@ class MainToolBar(QToolBar):
         self.addSeparator()
 
     def __init_utility_actions(self) -> None:
+        self.__apply_db_translations_action = self.addAction(
+            self.tr("Apply database translations"),
+        )
+        IconProvider.bind_qta_icon(
+            self.__apply_db_translations_action,
+            self.__apply_db_translations_action.setIcon,
+            "mdi6.database-check",
+        )
+        self.__apply_db_translations_action.triggered.connect(
+            self.apply_db_translations_requested.emit
+        )
+
         self.__string_search_action = self.addAction(
             self.tr("Search modlist for string..."),
         )

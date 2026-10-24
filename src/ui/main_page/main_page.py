@@ -8,8 +8,10 @@ import webbrowser
 from pathlib import Path
 from typing import Optional, cast, override
 
+from cutleast_core_lib.core.multithreading.progress import ProgressUpdate
 from cutleast_core_lib.core.utilities.exe_info import get_current_path
 from cutleast_core_lib.ui.progress.dialog import ProgressDialog
+from cutleast_core_lib.ui.progress.display import ProgressDisplay
 from cutleast_core_lib.ui.theme.manager import ThemeManager
 from cutleast_core_lib.ui.utilities.state_manager import WidgetStateManager
 from cutleast_core_lib.ui.utilities.window_manager import WindowManager
@@ -32,6 +34,7 @@ from PySide6.QtWidgets import (
 )
 
 from core.config.app_config import AppConfig
+from core.database.database_service import DatabaseService
 from core.database.exporter import Exporter
 from core.database.translation import Translation
 from core.downloader.download_manager import DownloadListEntries, DownloadManager
@@ -141,6 +144,9 @@ class MainPageWidget(QWidget):
         self.__tool_bar.build_output_requested.connect(self.__build_output)
         self.__tool_bar.string_search_requested.connect(self.__run_string_search)
         self.__tool_bar.export_states_requested.connect(self.__export_modfile_states)
+        self.__tool_bar.apply_db_translations_requested.connect(
+            self.__apply_database_translations
+        )
 
         self.__search_bar.searchChanged.connect(self.__on_search_changed)
 
@@ -398,6 +404,9 @@ class MainPageWidget(QWidget):
                 parent=QApplication.activeModalWidget(),
             ).run()
 
+        if self.__app_config.auto_create_database_translations:
+            self.__apply_database_translations(only_selected=only_selected, silent=True)
+
         self.__show_scan_result(list(scan_result.keys()))
 
     def __run_online_scan(self, only_selected: bool = False) -> None:
@@ -425,7 +434,104 @@ class MainPageWidget(QWidget):
         )
         self.__state_service.set_modfile_states(scan_result)
 
+        if self.__app_config.auto_create_database_translations:
+            self.__apply_database_translations(only_selected=only_selected, silent=True)
+
         self.__show_scan_result(list(scan_result.keys()))
+
+    def __apply_database_translations(
+        self, only_selected: bool = False, silent: bool = False
+    ) -> None:
+        """
+        Creates and applies translations for mod files that are available in the database.
+
+        Args:
+            only_selected (bool, optional):
+                Whether to apply only for selected mod files. Defaults to False.
+            silent (bool, optional):
+                Whether to suppress dialog messages if no translations are found.
+                Defaults to False.
+        """
+
+        modfiles: list[ModFile]
+        if only_selected:
+            modfiles = [
+                mf
+                for mfs in self.__modinstance_widget.get_selected_modfiles().values()
+                for mf in mfs
+                if mf.status == TranslationStatus.TranslationAvailableInDatabase
+            ]
+        else:
+            checked_items = self.__modinstance_widget.get_checked_items()
+            candidates = (
+                [mf for mfs in checked_items.values() for mf in mfs]
+                if checked_items
+                else self.__mod_instance.modfiles
+            )
+            modfiles = [
+                mf
+                for mf in candidates
+                if mf.status == TranslationStatus.TranslationAvailableInDatabase
+            ]
+
+        if not modfiles:
+            if not silent:
+                QMessageBox.information(
+                    self,
+                    self.tr("Apply database translations"),
+                    self.tr(
+                        "No mod files with translations available in the database were found."
+                    ),
+                )
+            return
+
+        def process(pdisplay: ProgressDisplay) -> None:
+            pdisplay.updateMainProgress(
+                ProgressUpdate(
+                    status_text=self.tr("Applying database translations..."),
+                    value=0,
+                    maximum=len(modfiles),
+                )
+            )
+            states: dict[ModFile, TranslationStatus] = {}
+            new_translations: list[Translation] = []
+
+            for i, modfile in enumerate(modfiles):
+                pdisplay.updateMainProgress(
+                    ProgressUpdate(
+                        status_text=self.tr(
+                            "Applying database translation for '{name}'..."
+                        ).format(name=modfile.name),
+                        value=i,
+                        maximum=len(modfiles),
+                    )
+                )
+                translation = DatabaseService.create_translation_for_modfile(
+                    modfile,
+                    self.__user_data.database,
+                    apply_db=True,
+                    add_and_save=False,
+                )
+                translation.save()
+                new_translations.append(translation)
+                states[modfile] = TranslationStatus.TranslationInstalled
+
+            if new_translations:
+                DatabaseService.add_translations(
+                    new_translations, self.__user_data.database, save=True
+                )
+            self.__state_service.set_modfile_states(states)
+
+        ProgressDialog(process, parent=QApplication.activeModalWidget()).run()
+
+        if not silent:
+            QMessageBox.information(
+                self,
+                self.tr("Apply database translations"),
+                self.tr(
+                    "Successfully applied database translations for {count} mod file(s)."
+                ).format(count=len(modfiles)),
+            )
 
     def __run_downloads(self, only_selected: bool = False) -> None:
         """

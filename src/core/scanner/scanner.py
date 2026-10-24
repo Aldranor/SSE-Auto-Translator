@@ -31,7 +31,6 @@ from core.mod_instance.mod_instance import ModInstance
 from core.string.search_filter import SearchFilter, matches_filter
 from core.string.string_extractor import StringExtractor
 from core.string.string_status import StringStatus
-from core.string.string_utils import StringUtils
 from core.string.types import StringList
 from core.translation_provider.mod_id import ModId
 from core.translation_provider.provider import TranslationProvider
@@ -116,14 +115,11 @@ class Scanner(QObject):
                 )
             )
 
-        database_strings: StringList = StringUtils.unique(
-            string
+        database_originals: set[str] = {
+            string.original
             for string in self.__database.strings
             if string.status != StringStatus.TranslationRequired
-        )
-        database_originals: list[str] = unique(
-            string.original for string in database_strings
-        )
+        }
 
         scan_result: dict[Mod, dict[ModFile, TranslationStatus]] = {}
         failed_modfiles: int = 0
@@ -141,7 +137,6 @@ class Scanner(QObject):
                         lambda ucb, m=mod, mf=modfile: self.__basic_scan_modfile(
                             mod=m,
                             modfile=mf,
-                            database_strings=database_strings,
                             database_originals=database_originals,
                             update_callback=ucb,
                         )
@@ -168,8 +163,7 @@ class Scanner(QObject):
         self,
         mod: Mod,
         modfile: ModFile,
-        database_strings: StringList,
-        database_originals: list[str],
+        database_originals: set[str],
         update_callback: Optional[UpdateCallback] = None,
     ) -> TranslationStatus:
         modfile_path_text: str = f"{mod.name} > {modfile.name}"
@@ -214,7 +208,6 @@ class Scanner(QObject):
 
             elif any(
                 string.original not in database_originals
-                and string not in database_strings
                 for string in modfile_strings
             ):
                 status = TranslationStatus.RequiresTranslation
