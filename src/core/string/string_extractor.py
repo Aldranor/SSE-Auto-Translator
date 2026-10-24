@@ -310,7 +310,9 @@ class StringExtractor(QObject):
                 )
                 continue
 
-            result[mod_file] = StringLoader.load_strings_from_json_file(dsd_file)
+            dsd_strings = StringLoader.load_strings_from_json_file(dsd_file)
+            original_strings = original_modfile.get_strings()
+            result[mod_file] = StringUtils.map_strings(original_strings, dsd_strings)
 
         self.log.debug(f"Successfully extracted strings from {len(result)} DSD file(s).")
 
@@ -454,7 +456,16 @@ class StringExtractor(QObject):
                 )
 
                 if len(plugin_strings):
-                    strings.setdefault(mod_file, []).extend(plugin_strings)
+                    original_modfile = next(
+                        (mf for mf in original_mod.modfiles if mf.path == mod_file), None
+                    )
+                    if original_modfile is not None:
+                        mapped = StringUtils.map_strings(
+                            original_modfile.get_strings(), plugin_strings
+                        )
+                        strings.setdefault(mod_file, []).extend(mapped)
+                    else:
+                        strings.setdefault(mod_file, []).extend(plugin_strings)
             except Exception as ex:
                 cls.log.error(f"Failed to extract from '{dsd_path}': {ex}", exc_info=ex)
 

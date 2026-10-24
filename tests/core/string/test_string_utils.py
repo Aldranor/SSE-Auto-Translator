@@ -240,3 +240,82 @@ class TestStringUtils(CoreTest):
         assert actual_hash == expected_hash, (
             f"<{string_to_update}> and <{expected_string}> differ!"
         )
+
+    def test_map_strings_fallbacks(self) -> None:
+        """
+        Tests fallback matching by EDID and original text when FormIDs differ.
+        """
+        # given
+        original_strings: list[PluginString] = [
+            # Case 1: FormID shifted between mod versions, but EDID is identical (no index)
+            PluginString(
+                original="Steel Claymore",
+                form_id="02001500|Mod.esp",
+                type="WEAP FULL",
+                editor_id="ModSteelClaymore",
+            ),
+            # Case 2: FormID and EDID changed, but original text matches (DSD fallback)
+            PluginString(
+                original="Flame Ring of Protection",
+                form_id="02002000|Mod.esp",
+                type="ARMO FULL",
+                editor_id="NewRingEDID",
+            ),
+            # Case 3: Dialogue record (index not None) with different FormID - should NOT match by EDID
+            PluginString(
+                original="Need something?",
+                form_id="02003000|Mod.esp",
+                type="INFO NAM1",
+                editor_id="SharedDialogueTopic",
+                index=0,
+            ),
+        ]
+
+        translation_strings: list[PluginString] = [
+            # Translation from old version with old FormID 02001000
+            PluginString(
+                original="Steel Claymore",
+                string="Claymore d'acier",
+                form_id="02001000|Mod.esp",
+                type="WEAP FULL",
+                editor_id="ModSteelClaymore",
+                status=StringStatus.TranslationComplete,
+            ),
+            # DSD translation with arbitrary old FormID
+            PluginString(
+                original="Flame Ring of Protection",
+                string="Anneau de flammes protecteur",
+                form_id="02000ABC|Mod.esp",
+                type="ARMO FULL",
+                editor_id="OldRingEDID",
+                status=StringStatus.TranslationComplete,
+            ),
+            # Different dialogue line sharing the same topic EDID
+            PluginString(
+                original="Good morning.",
+                string="Bonjour.",
+                form_id="02003999|Mod.esp",
+                type="INFO NAM1",
+                editor_id="SharedDialogueTopic",
+                index=1,
+                status=StringStatus.TranslationComplete,
+            ),
+        ]
+
+        # when
+        mapped = StringUtils.map_strings(original_strings, translation_strings)
+
+        # then
+        # Case 1: Matched by EDID -> translated to French, bound to new FormID
+        assert mapped[0].form_id == "02001500|Mod.esp"
+        assert mapped[0].string == "Claymore d'acier"
+        assert mapped[0].status == StringStatus.TranslationIncomplete
+
+        # Case 2: Matched by original text -> translated to French, bound to new FormID
+        assert mapped[1].form_id == "02002000|Mod.esp"
+        assert mapped[1].string == "Anneau de flammes protecteur"
+        assert mapped[1].status == StringStatus.TranslationIncomplete
+
+        # Case 3: Dialogues with index should NOT match by EDID -> remains untranslated
+        assert mapped[2].form_id == "02003000|Mod.esp"
+        assert mapped[2].status == StringStatus.TranslationRequired
