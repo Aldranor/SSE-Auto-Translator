@@ -8,6 +8,7 @@ from pathlib import Path
 from queue import Empty, Queue
 from typing import override
 
+from cutleast_core_lib.core.archive_legacy.archive import Archive
 from cutleast_core_lib.core.downloader import Downloader
 from cutleast_core_lib.core.multithreading.progress import ProgressUpdate
 from PySide6.QtCore import QThread, Signal
@@ -17,6 +18,7 @@ from core.config.user_config import UserConfig
 from core.database.database import TranslationDatabase
 from core.database.database_service import DatabaseService
 from core.database.translation import Translation
+from core.mod_file.translation_status import TranslationStatus
 from core.mod_instance.mod_instance import ModInstance
 from core.string.string_extractor import StringExtractor
 from core.string.types import StringList
@@ -29,6 +31,7 @@ from core.utilities.exceptions import (
     InstallationFailedError,
     NoStringsExtractedError,
 )
+from core.utilities.filesystem import relative_data_path
 from core.utilities.temp_folder_provider import TempFolderProvider
 
 from .file_download import FileDownload
@@ -206,6 +209,67 @@ class Worker(QThread):
         self.log.info("Processing complete.")
         self.download_finished.emit(download)
 
+
+    def __diagnose_no_strings(
+        self, download: FileDownload, downloaded_file: Path
+    ) -> str:
+        try:
+            extractor = StringExtractor()
+            source = (
+                Archive.load_archive(downloaded_file)
+                if downloaded_file.is_file()
+                else downloaded_file
+            )
+            found_paths = extractor.scan_for_mod_files(source, self.__database.language)
+            dsd_files = extractor.scan_for_dsd_files(source)
+            archive_files = sorted(
+                {Path(relative_data_path(str(p))).name for p in found_paths}
+                | {p.name for p in dsd_files}
+            )
+
+            if not archive_files:
+                return self.tr(
+                    "Archive does not contain any supported translation files (.esp, .esl, .esm, .json, .txt)"
+                )
+
+            reasons: list[str] = []
+            for file_name in archive_files:
+                matches = self.__mod_instance.get_modfiles(Path(file_name))
+                if not matches:
+                    reasons.append(
+                        self.tr("'{0}' is not installed in your modlist").format(file_name)
+                    )
+                else:
+                    installed_match = next(
+                        (
+                            m
+                            for m in matches
+                            if m.status
+                            in (
+                                TranslationStatus.IsTranslated,
+                                TranslationStatus.TranslationInstalled,
+                            )
+                        ),
+                        None,
+                    )
+                    if installed_match is not None:
+                        reasons.append(
+                            self.tr("'{0}' is already translated/installed").format(file_name)
+                        )
+                    else:
+                        reasons.append(
+                            self.tr("'{0}' strings could not be mapped to the installed version").format(file_name)
+                        )
+
+            return self.tr("Archive files: [{0}]. Reason: {1}").format(
+                ", ".join(archive_files), "; ".join(reasons)
+            )
+        except Exception as ex:  # noqa: BLE001
+            self.log.debug(f"Failed to diagnose missing strings: {ex}")
+            return self.tr(
+                "Translation files in archive could not be matched with any mod requiring translation"
+            )
+
     def __install_translation(
         self,
         download: FileDownload,
@@ -230,7 +294,8 @@ class Worker(QThread):
             raise InstallationFailedError from ex
 
         if not strings:
-            raise NoStringsExtractedError
+            diagnostic = self.__diagnose_no_strings(download, downloaded_file)
+            raise NoStringsExtractedError(diagnostic)
 
         translation = Translation(
             name=download.mod_details.display_name,
