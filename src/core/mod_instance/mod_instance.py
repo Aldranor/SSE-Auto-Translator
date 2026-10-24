@@ -117,7 +117,7 @@ class ModInstance:
         if ignore_states is None:
             ignore_states = []
 
-        return [
+        matched = [
             mf
             for mf in self.modfiles_by_path.get(modfile, [])
             if (
@@ -125,6 +125,27 @@ class ModInstance:
                 and mf.status not in ignore_states
             )
         ]
+        if matched:
+            return matched
+
+        # If plugin file, try alternative plugin extensions (.esp, .esl, .esm)
+        plugin_exts = {".esp", ".esl", ".esm"}
+        suffix = modfile.suffix.lower()
+        if suffix in plugin_exts:
+            for alt_ext in plugin_exts - {suffix}:
+                alt_path = modfile.with_suffix(alt_ext)
+                alt_matched = [
+                    mf
+                    for mf in self.modfiles_by_path.get(alt_path, [])
+                    if (
+                        not any(mf in mod.modfiles for mod in ignore_mods)
+                        and mf.status not in ignore_states
+                    )
+                ]
+                if alt_matched:
+                    return alt_matched
+
+        return []
 
     def get_mod(self, mod_id: NxmModId) -> Optional[Mod]:
         """

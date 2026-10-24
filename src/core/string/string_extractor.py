@@ -140,7 +140,7 @@ class StringExtractor(QObject):
                     modfile,
                     original_modfile,
                 )
-                tasks[future] = modfile.path
+                tasks[future] = original_modfile.path
 
             for future in as_completed(tasks):
                 modfile_path: Path = tasks[future]
