@@ -182,4 +182,27 @@ class DownloadItemWidget(QWidget):
         if self.__cancel_event.is_set():
             raise TaskCancelledError
 
+        max_qt_int = 2_147_483_647
+        if (progress_update.maximum and progress_update.maximum > max_qt_int) or (
+            progress_update.value and progress_update.value > max_qt_int
+        ):
+            scale = 1
+            ref_val = max(progress_update.maximum or 0, progress_update.value or 0)
+            while (ref_val // scale) > max_qt_int:
+                scale *= 1024
+            progress_update = ProgressUpdate(
+                status_text=progress_update.status_text,
+                value=(
+                    progress_update.value // scale
+                    if progress_update.value is not None
+                    else None
+                ),
+                maximum=(
+                    progress_update.maximum // scale
+                    if progress_update.maximum is not None
+                    else None
+                ),
+            )
+
         self.__progress_widget.updateMainProgress(progress_update)
+
