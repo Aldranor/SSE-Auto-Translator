@@ -474,22 +474,27 @@ This list only affects translations from Nexus Mods!</source>
 <context>
     <name>DownloadItemWidget</name>
     <message>
-        <location filename="src/ui/main_page/database/downloads/item_widget.py" line="80"/>
+        <location filename="src/ui/main_page/database/downloads/item_widget.py" line="85"/>
         <source>Cancel download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/downloads/item_widget.py" line="83"/>
+        <location filename="src/ui/main_page/database/downloads/item_widget.py" line="88"/>
         <source>Start download...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/downloads/item_widget.py" line="103"/>
+        <location filename="src/ui/main_page/database/downloads/item_widget.py" line="104"/>
+        <source>Retry download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="src/ui/main_page/database/downloads/item_widget.py" line="116"/>
         <source>Remove download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/downloads/item_widget.py" line="125"/>
+        <location filename="src/ui/main_page/database/downloads/item_widget.py" line="139"/>
         <source>Pending...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -660,8 +665,8 @@ If you don’t have a Nexus Mods Premium account SSE-AT must be linked to &quot;
 <context>
     <name>DownloadManager</name>
     <message>
-        <location filename="src/core/downloader/download_manager.py" line="355"/>
-        <location filename="src/core/downloader/download_manager.py" line="373"/>
+        <location filename="src/core/downloader/download_manager.py" line="359"/>
+        <location filename="src/core/downloader/download_manager.py" line="377"/>
         <source>Collecting available downloads...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -677,7 +682,12 @@ If you don’t have a Nexus Mods Premium account SSE-AT must be linked to &quot;
 <context>
     <name>DownloadsMenu</name>
     <message>
-        <location filename="src/ui/main_page/database/downloads/downloads_menu.py" line="37"/>
+        <location filename="src/ui/main_page/database/downloads/downloads_menu.py" line="42"/>
+        <source>Retry download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="src/ui/main_page/database/downloads/downloads_menu.py" line="46"/>
         <source>Open mod page...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -685,27 +695,27 @@ If you don’t have a Nexus Mods Premium account SSE-AT must be linked to &quot;
 <context>
     <name>DownloadsTab</name>
     <message>
-        <location filename="src/ui/main_page/database/downloads/downloads_tab.py" line="117"/>
+        <location filename="src/ui/main_page/database/downloads/downloads_tab.py" line="118"/>
         <source>Downloads</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/downloads/downloads_tab.py" line="125"/>
+        <location filename="src/ui/main_page/database/downloads/downloads_tab.py" line="126"/>
         <source>Running Downloads:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/downloads/downloads_tab.py" line="146"/>
+        <location filename="src/ui/main_page/database/downloads/downloads_tab.py" line="147"/>
         <source>Name</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/downloads/downloads_tab.py" line="146"/>
+        <location filename="src/ui/main_page/database/downloads/downloads_tab.py" line="147"/>
         <source>Size</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/downloads/downloads_tab.py" line="146"/>
+        <location filename="src/ui/main_page/database/downloads/downloads_tab.py" line="147"/>
         <source>Progress</source>
         <translation type="unfinished"></translation>
     </message>

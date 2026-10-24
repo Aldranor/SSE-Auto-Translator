@@ -36,6 +36,9 @@ class DownloadItemWidget(QWidget):
     remove_requested = Signal()
     """Signal emitted when the remove button is clicked."""
 
+    retry_requested = Signal()
+    """Signal emitted when the retry button is clicked."""
+
     __cancel_event: Event
 
     __hlayout: QHBoxLayout
@@ -46,6 +49,7 @@ class DownloadItemWidget(QWidget):
     __download_button: QPushButton
 
     __status_label: ElidedLabel
+    __retry_button: QPushButton
     __copy_button: CopyButton
     __remove_button: QPushButton
 
@@ -59,6 +63,7 @@ class DownloadItemWidget(QWidget):
 
         self.__cancel_button.clicked.connect(self.__cancel_event.set)
         self.__download_button.clicked.connect(self.download_requested.emit)
+        self.__retry_button.clicked.connect(self.retry_requested.emit)
         self.__copy_button.clicked.connect(self.copy_requested.emit)
         self.__remove_button.clicked.connect(self.remove_requested.emit)
 
@@ -91,6 +96,14 @@ class DownloadItemWidget(QWidget):
         self.__status_label.setProperty("monospace", True)
         self.__hlayout.addWidget(self.__status_label, stretch=1)
 
+        self.__retry_button = IconButton()
+        IconProvider.bind_qta_icon(
+            self.__retry_button, self.__retry_button.setIcon, "mdi6.refresh"
+        )
+        self.__retry_button.setProperty("transparent", True)
+        self.__retry_button.setToolTip(self.tr("Retry download"))
+        self.__hlayout.addWidget(self.__retry_button)
+
         self.__copy_button = CopyButton()
         self.__copy_button.setProperty("transparent", True)
         self.__hlayout.addWidget(self.__copy_button)
@@ -109,6 +122,7 @@ class DownloadItemWidget(QWidget):
             self.__cancel_button,
             self.__download_button,
             self.__status_label,
+            self.__retry_button,
             self.__copy_button,
             self.__remove_button,
         ):
@@ -123,6 +137,9 @@ class DownloadItemWidget(QWidget):
         self.__clear_state()
 
         self.__status_label.setText(self.tr("Pending..."))
+        self.__status_label.setToolTip("")
+        self.__status_label.setProperty("state", "")
+        ThemeManager.update_widget_styles(self.__status_label)
 
         self.__status_label.show()
         self.__remove_button.show()
@@ -168,6 +185,7 @@ class DownloadItemWidget(QWidget):
         ThemeManager.update_widget_styles(self.__status_label)
 
         self.__status_label.show()
+        self.__retry_button.show()
         self.__copy_button.show()
         self.__remove_button.show()
 

@@ -21,6 +21,10 @@ class DownloadsMenu(TreeMenu):
     open_modpage_requested = Signal()
     """Signal emitted when the user clicks on the open modpage action."""
 
+    retry_requested = Signal()
+    """Signal emitted when the user clicks on the retry action."""
+
+    __retry_action: QAction
     __open_modpage_action: QAction
 
     @override
@@ -29,23 +33,32 @@ class DownloadsMenu(TreeMenu):
 
         self.__init_actions()
 
+        self.__retry_action.triggered.connect(self.retry_requested.emit)
         self.__open_modpage_action.triggered.connect(self.open_modpage_requested.emit)
 
     def __init_actions(self) -> None:
+        self.__retry_action = self.addAction(
+            IconProvider.get_qta_icon("mdi6.refresh"),
+            self.tr("Retry download"),
+        )
         self.__open_modpage_action = self.addAction(
             IconProvider.get_res_icon(ResourceIcon.NexusMods),
             self.tr("Open mod page..."),
         )
 
     @override
-    def open(self, current_item_source: Source) -> None:  # pyright: ignore[reportIncompatibleMethodOverride]
+    def open(  # pyright: ignore[reportIncompatibleMethodOverride]
+        self, current_item_source: Source, is_failed: bool = False
+    ) -> None:
         """
         Opens the context menu at the current cursor position.
 
         Args:
             current_item_source (Source): The source of the current item.
+            is_failed (bool, optional): Whether the item is in a failed state.
         """
 
+        self.__retry_action.setVisible(is_failed)
         self.__open_modpage_action.setIcon(not_none(current_item_source.get_icon()))
 
         super().open(False)

@@ -25,9 +25,15 @@ class DownloadItem(QTreeWidgetItem, QObject):  # type: ignore
     Signal emitted when the item should be removed from the queue.
     """
 
+    retry_requested = Signal()
+    """
+    Signal emitted when the download should be retried.
+    """
+
     __copy_text: str
     __download: FileDownload
     __widget: DownloadItemWidget
+    __is_failed: bool
 
     def __init__(self, download: FileDownload) -> None:
         """
@@ -39,6 +45,7 @@ class DownloadItem(QTreeWidgetItem, QObject):  # type: ignore
         super().__init__()
 
         self.__copy_text = ""
+        self.__is_failed = False
         self.__download = download
 
         self.setText(0, self.__download.mod_details.display_name)
@@ -49,6 +56,7 @@ class DownloadItem(QTreeWidgetItem, QObject):  # type: ignore
         self.__widget.copy_requested.connect(
             lambda: QApplication.clipboard().setText(self.__copy_text)
         )
+        self.__widget.retry_requested.connect(self.retry_requested.emit)
         self.__widget.remove_requested.connect(self.remove_requested.emit)
 
     def init_widget(self, widget_column: int) -> None:
@@ -76,11 +84,26 @@ class DownloadItem(QTreeWidgetItem, QObject):  # type: ignore
 
         self.__widget.set_interaction_required()
 
+    @property
+    def is_failed(self) -> bool:
+        """
+        Returns True if the item is currently in a failed state.
+        """
+        return self.__is_failed
+
+    def set_pending(self) -> None:
+        """
+        Sets the item back to the pending state.
+        """
+        self.__is_failed = False
+        self.__widget.set_pending()
+
     def set_running(self) -> None:
         """
         Sets the item to indicate that the download is currently running.
         """
 
+        self.__is_failed = False
         self.__widget.set_running()
 
     def set_failed(self, exception: Exception) -> None:
@@ -91,6 +114,7 @@ class DownloadItem(QTreeWidgetItem, QObject):  # type: ignore
             exception (Exception): The exception that caused the failure.
         """
 
+        self.__is_failed = True
         self.__copy_text = format_exception(exception, False)
         self.__widget.set_failed(exception)
 

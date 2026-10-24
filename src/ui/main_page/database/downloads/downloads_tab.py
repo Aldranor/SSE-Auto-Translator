@@ -81,6 +81,7 @@ class DownloadsTab(QWidget):
             self.__on_context_menu_requested
         )
         self.__downloads_menu.open_modpage_requested.connect(self.__open_modpage)
+        self.__downloads_menu.retry_requested.connect(self.__retry_selected_download)
 
         self.__nxm_update_timer = QTimer(
             self, interval=1000, timerType=Qt.TimerType.PreciseTimer
@@ -173,7 +174,17 @@ class DownloadsTab(QWidget):
         if selected_download is None:
             return
 
-        self.__downloads_menu.open(selected_download.source)
+        download_item = self.__download_items.get(selected_download)
+        is_failed = download_item is not None and download_item.is_failed
+
+        self.__downloads_menu.open(selected_download.source, is_failed=is_failed)
+
+    def __retry_selected_download(self) -> None:
+        selected_download: Optional[FileDownload] = self.__get_selected_download()
+        if selected_download is None:
+            return
+
+        self.__retry_download(selected_download)
 
     def __open_modpage(self) -> None:
         selected_download: Optional[FileDownload] = self.__get_selected_download()
@@ -193,6 +204,9 @@ class DownloadsTab(QWidget):
         self.__downloads_widget.addTopLevelItem(download_item)
 
         download_item.init_widget(2)
+        download_item.retry_requested.connect(
+            lambda: self.__retry_download(download)
+        )
         download_item.remove_requested.connect(
             lambda: self.__remove_item_for_download(download)
         )
@@ -247,6 +261,17 @@ class DownloadsTab(QWidget):
             download_item.setText(1, scale_value(payload.maximum))
 
         download_item.update_progress(payload)
+
+    def __retry_download(self, download: FileDownload) -> None:
+        download_item = self.__download_items.get(download)
+        if download_item is None:
+            return
+
+        download.stale = False
+        download_item.set_pending()
+        self.__download_manager.add_download_item(download)
+        self.__download_manager.start()
+        self.__update()
 
     def __remove_item_for_download(self, download: FileDownload) -> None:
         if download not in self.__download_items:
