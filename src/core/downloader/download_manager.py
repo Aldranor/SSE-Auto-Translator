@@ -2,12 +2,15 @@
 Copyright (c) Cutleast
 """
 
+import hashlib
 import logging
+import time
 from concurrent.futures import Future, as_completed
 from pathlib import Path
 from queue import Queue
 from typing import Optional, TypeAlias
 
+from cutleast_core_lib.core.cache.cache import Cache
 from cutleast_core_lib.core.multithreading.progress import (
     ProgressUpdate,
     UpdateCallback,
@@ -29,6 +32,7 @@ from core.translation_provider.mod_id import ModId
 from core.translation_provider.provider import ModDetails, TranslationProvider
 from core.translation_provider.source import Source
 
+from .cached_downloads import CachedModDownloads
 from .file_download import FileDownload
 from .mod_info import ModInfo
 from .translation_download import TranslationDownload
@@ -413,12 +417,102 @@ class DownloadManager(QObject):
 
         return translation_downloads
 
+    CACHE_SUBFOLDER: Path = Path("available_downloads")
+    CACHE_MAX_AGE: float = 60 * 60 * 72  # 72 hours
+
+    def __get_cache_folder(self) -> Path:
+        cache: Optional[Cache] = Cache.get_optional()
+        if cache is not None:
+            folder = cache.path / self.CACHE_SUBFOLDER
+        else:
+            folder = Path("data/cache") / self.CACHE_SUBFOLDER
+        folder.mkdir(parents=True, exist_ok=True)
+        return folder
+
+    def __get_mod_cache_key(self, mod: Mod, modfiles: list[ModFile]) -> str:
+        mod_id_str = str(mod.mod_id) if mod.mod_id else "None"
+        version_str = str(mod.version) if mod.version else "None"
+        lang_str = self.__user_config.language.id
+        blacklist_str = ",".join(
+            sorted(
+                author.lower().strip()
+                for author in self.__user_config.author_blacklist
+            )
+        )
+        modfiles_str = ",".join(sorted(mf.name.lower() for mf in modfiles))
+        raw = f"{mod_id_str}|{version_str}|{lang_str}|{blacklist_str}|{modfiles_str}"
+        return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+    def __load_cached_mod_downloads(
+        self, mod: Mod, modfiles: list[ModFile]
+    ) -> Optional[dict[Path, list[TranslationDownload]]]:
+        if mod.mod_id is None:
+            return {}
+
+        key = self.__get_mod_cache_key(mod, modfiles)
+        cache_file = self.__get_cache_folder() / f"{key}.json"
+        if not cache_file.is_file():
+            return None
+
+        try:
+            cached = CachedModDownloads.model_validate_json(
+                cache_file.read_text(encoding="utf-8")
+            )
+            if time.time() - cached.timestamp > self.CACHE_MAX_AGE:
+                return None
+
+            download_units: dict[Path, list[TranslationDownload]] = {}
+            for modfile in modfiles:
+                if modfile.name in cached.files:
+                    if cached.files[modfile.name]:
+                        download_units[modfile.path] = cached.files[modfile.name]
+                else:
+                    return None
+
+            return download_units
+        except Exception as ex:  # noqa: BLE001
+            self.log.debug(f"Failed to read cache for {mod.name}: {ex}")
+            return None
+
+    def __save_cached_mod_downloads(
+        self,
+        mod: Mod,
+        modfiles: list[ModFile],
+        download_units: dict[Path, list[TranslationDownload]],
+    ) -> None:
+        if mod.mod_id is None:
+            return
+
+        key = self.__get_mod_cache_key(mod, modfiles)
+        cache_file = self.__get_cache_folder() / f"{key}.json"
+        try:
+            files_dict: dict[str, list[TranslationDownload]] = {}
+            for modfile in modfiles:
+                files_dict[modfile.name] = download_units.get(modfile.path, [])
+
+            cached = CachedModDownloads(timestamp=time.time(), files=files_dict)
+            cache_file.write_text(cached.model_dump_json(), encoding="utf-8")
+        except Exception as ex:  # noqa: BLE001
+            self.log.warning(f"Failed to save cache for {mod.name}: {ex}")
+
     def __collect_downloads_for_mod(
         self,
         mod: Mod,
         modfiles: list[ModFile],
         update_callback: Optional[UpdateCallback] = None,
     ) -> dict[Path, list[TranslationDownload]]:
+        cached_units = self.__load_cached_mod_downloads(mod, modfiles)
+        if cached_units is not None:
+            update(
+                update_callback,
+                ProgressUpdate(
+                    status_text=f"{mod.name} ({self.tr('cached')})",
+                    value=len(modfiles),
+                    maximum=len(modfiles),
+                ),
+            )
+            return cached_units
+
         download_units: dict[Path, list[TranslationDownload]] = {}
         for m, modfile in enumerate(modfiles):
             update(
@@ -443,6 +537,7 @@ class DownloadManager(QObject):
                     exc_info=ex,
                 )
 
+        self.__save_cached_mod_downloads(mod, modfiles, download_units)
         return download_units
 
     def __collect_downloads_for_modfile(
