@@ -177,14 +177,11 @@ class StringUtils:
                     merged_string.status = StringStatus.NoTranslationRequired
                 else:
                     merged_string.string = trans_text
-                    if is_exact:
-                        merged_string.status = (
-                            translated_string.status
-                            if translated_string.status not in (StringStatus.NoneStatus, StringStatus.TranslationRequired)
-                            else StringStatus.TranslationComplete
-                        )
-                    else:
-                        merged_string.status = StringStatus.TranslationIncomplete
+                    merged_string.status = (
+                        translated_string.status
+                        if translated_string.status not in (StringStatus.NoneStatus, StringStatus.TranslationRequired)
+                        else StringStatus.TranslationComplete
+                    )
 
             # Set status to translation required if no translation available
             else:
@@ -267,7 +264,7 @@ class StringUtils:
         elif string_to_update.original in database_strings_by_original:
             database_string = database_strings_by_original[string_to_update.original]
             string_to_update.string = database_string.string
-            string_to_update.status = StringStatus.TranslationIncomplete
+            string_to_update.status = StringStatus.TranslationComplete
             matched = True
 
         return matched

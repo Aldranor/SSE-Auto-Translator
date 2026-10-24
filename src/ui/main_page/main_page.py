@@ -454,12 +454,17 @@ class MainPageWidget(QWidget):
         """
 
         modfiles: list[ModFile]
+        target_statuses = (
+            TranslationStatus.TranslationAvailableInDatabase,
+            TranslationStatus.TranslationIncomplete,
+            TranslationStatus.RequiresTranslation,
+        )
         if only_selected:
             modfiles = [
                 mf
                 for mfs in self.__modinstance_widget.get_selected_modfiles().values()
                 for mf in mfs
-                if mf.status == TranslationStatus.TranslationAvailableInDatabase
+                if mf.status in target_statuses
             ]
         else:
             checked_items = self.__modinstance_widget.get_checked_items()
@@ -471,7 +476,7 @@ class MainPageWidget(QWidget):
             modfiles = [
                 mf
                 for mf in candidates
-                if mf.status == TranslationStatus.TranslationAvailableInDatabase
+                if mf.status in target_statuses
             ]
 
         if not modfiles:
@@ -514,7 +519,22 @@ class MainPageWidget(QWidget):
                 )
                 translation.save()
                 new_translations.append(translation)
-                states[modfile] = TranslationStatus.TranslationInstalled
+
+                norm_path = str(modfile.path).lower().replace("\\", "/")
+                trans_strings = []
+                for p_key, s_list in translation.strings.items():
+                    if str(p_key).lower().replace("\\", "/") == norm_path:
+                        trans_strings = s_list
+                        break
+
+                has_incomplete = any(
+                    s.status > StringStatus.TranslationComplete for s in trans_strings
+                )
+                is_partially_covered = len(trans_strings) < len(modfile.get_strings())
+                if has_incomplete or is_partially_covered:
+                    states[modfile] = TranslationStatus.TranslationIncomplete
+                else:
+                    states[modfile] = TranslationStatus.TranslationInstalled
 
             if new_translations:
                 DatabaseService.add_translations(

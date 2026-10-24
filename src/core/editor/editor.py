@@ -252,7 +252,7 @@ class Editor(QObject):
 
             elif string.original in database_originals:
                 string.string = database_originals[string.original].string
-                string.status = StringStatus.TranslationIncomplete
+                string.status = StringStatus.TranslationComplete
                 modified_strings.append(string)
 
         self.strings_changed.emit(modified_strings)

@@ -533,18 +533,40 @@ class DatabaseService:
                 database=database,
             )
 
-        modfile_strings: StringList = modfile.get_strings()
-        for string in modfile_strings:
-            string.string = string.original
-            string.status = StringStatus.TranslationRequired
+        modfile_strings: StringList
+        norm_modfile_path = str(modfile.path).lower().replace("\\", "/")
+        existing_key = None
+        for k in translation.strings:
+            if str(k).lower().replace("\\", "/") == norm_modfile_path:
+                existing_key = k
+                break
 
-        if apply_db:
-            StringUtils.match_strings(
-                strings_to_update=modfile_strings, database_strings=database.strings
-            )
+        if existing_key is not None and translation.strings[existing_key]:
+            modfile_strings = translation.strings[existing_key]
+            if apply_db:
+                untranslated = [
+                    s for s in modfile_strings
+                    if s.status in (StringStatus.TranslationRequired, StringStatus.TranslationIncomplete)
+                    or not s.string
+                    or s.string == s.original
+                ]
+                if untranslated:
+                    StringUtils.match_strings(
+                        strings_to_update=untranslated, database_strings=database.strings
+                    )
+        else:
+            modfile_strings = modfile.get_strings()
+            for string in modfile_strings:
+                string.string = string.original
+                string.status = StringStatus.TranslationRequired
 
-        translation.strings.setdefault(modfile.path, []).extend(modfile_strings)
-        translation.remove_duplicates(save=False)
+            if apply_db:
+                StringUtils.match_strings(
+                    strings_to_update=modfile_strings, database_strings=database.strings
+                )
+
+            translation.strings.setdefault(modfile.path, []).extend(modfile_strings)
+            translation.remove_duplicates(save=False)
 
         if add_and_save:
             translation.save()
