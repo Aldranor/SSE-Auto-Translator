@@ -1,0 +1,391 @@
+
+==================== TOP CONFLICTS: Locations ====================
+EN: 'Skyrim' (Total: 1193)
+   -> [1192x] 'Bordeciel' in (The Great City Of Dawnstar (French), Thuldor's Ivarstead - Tweaks and Addons - French, Forsworn Camp Reachwater River Script Fix - French)
+   -> [1x] 'Ńęŕéđčě' in (Debaser SE - French)
+
+EN: 'East Exhibit Halls' (Total: 64)
+   -> [63x] 'Salles d'Expositions Est' in (Compilation d'armures et d'armes en aethérium, Griffes de dragon HD - Version anniversaire, Lux - Patch Hub - French)
+   -> [1x] 'Salles d'exposition Est' in (Remiel - Dwemer Specialist vostFR-63836-1-7-4-1726222506 (2))
+
+EN: 'Hall of Heroes' (Total: 63)
+   -> [61x] 'Panthéon des Héros' in (Griffes de dragon HD - Version anniversaire, L'Héritage de l'Enfant de dragon - Patches officiels, Nolvus Awakening Lighting Patch - French)
+   -> [1x] 'Hall des Héros' in (Legacy of the Dragonborn - Replica Fixes)
+   -> [1x] 'Salle des Héros' in (Legacy of the Dragonborn - Replica Fixes)
+
+EN: 'Hall of the Dead' (Total: 56)
+   -> [19x] 'Nécropole' in (Navigator - Navmesh Fixes, Acoustic Space Improvement Fixes - French, 3DNPC - PNJs intéressants)
+   -> [10x] 'Nécropole de Vendeaume' in (Navigator - Navmesh Fixes, L'Héritage de l'Enfant de dragon - Patches officiels, Amélioration de l'IA)
+   -> [5x] 'Nécropole de Markarth' in (L'Héritage de l'Enfant de dragon - Patches officiels, Remiel - Dwemer Specialist vostFR-63836-1-7-4-1726222506 (2), Alternate Perspective -- New Beginnings.esp - French)
+   -> [8x] 'Nécropole de Blancherive' in (Nolvus Awakening Lighting Patch - French, Amélioration de l'IA, Trésors uniques de Bordeciel)
+   -> [3x] 'Nécropole de Solitude' in (Amélioration de l'IA, USSEP - Traduction Francaise, Dark Era - French)
+   -> [4x] 'Nécropole d'Épervine' in (Amélioration de l'IA, Fromage pour tout le monde !, USSEP - Traduction Francaise)
+   -> [4x] 'Nécropole de Faillaise' in (Trésors uniques de Bordeciel, Fromage pour tout le monde !, USSEP - Traduction Francaise)
+   -> [3x] 'Nécropole de Sunthgat' in (Sunthgat, Lux - Patch Hub - French)
+
+EN: 'The Arcanaeum' (Total: 50)
+   -> [33x] 'L'Arcanaeum' in (Banekins- Mihail Monsters and Animals - French, JKs Guild HQ Interiors Patch Collection - French, Les Outils de Kagrénac)
+   -> [17x] 'Arcanaeum' in (JK's College of Winterhold, Lutins, SPERG - Atouts et jouabilité améliorés)
+
+EN: 'Volkihar Keep' (Total: 36)
+   -> [35x] 'Château Volkihar' in (Mihail - Doomsday of Blades - French, Colosses d'ossements et seigneurs sépulcraux, Darkend)
+   -> [1x] 'Fort Volkihar' in (1111VampireKingBoss.esp - French)
+
+EN: 'Jorrvaskr Living Quarters' (Total: 33)
+   -> [4x] 'Logements de Jorrvaskr' in (This Is Jorrvaskr - KASA PatchFR, (FR - DSD) Lux - Patch Hub, JKs Guild HQ Interiors Patch Collection)
+   -> [29x] 'Jorrvaskr - Logements' in (L'armurerie royale - Nouveaux artéfacts, Fromage pour tout le monde !, Plus de poupées d'Hearthfire)
+
+EN: 'The Frozen Hearth' (Total: 30)
+   -> [22x] 'Le Foyer gelé' in (Banekins- Mihail Monsters and Animals - French, Distinct Interiors Patch Collection - French, Katana - Journey in the Shadows vostFR 2-0-4 SE)
+   -> [8x] 'Foyer gelé' in (Distinct Interiors - Fixes - French, The Great City of Winterhold Patch Collection - French, Lux - Patch Hub - French)
+
+EN: 'The Ragged Flagon - Cistern' (Total: 30)
+   -> [11x] 'La Cruche percée - Citerne' in (Amulettes de Bordeciel, Water for ENB [4K], Water for ENB [4K] - French)
+   -> [19x] 'La Cruche percée - Réservoir' in (Daedric Shrines - Nocturnal [2K] - French, Nolvus Awakening Lighting Patch - French, GG's Thieves Guild Headquarters Patch Collection - French)
+
+EN: 'The Midden' (Total: 26)
+   -> [20x] 'Hyposcole' in (Banekins- Mihail Monsters and Animals - French, JK's College of Winterhold, Lutins)
+   -> [6x] 'L'Hyposcole' in (JKs Guild HQ Interiors Patch Collection - French, Lux - Patch Hub - French, JKs Guild HQ Interiors Patch Collection)
+
+EN: 'Guard Barracks' (Total: 25)
+   -> [23x] 'Baraquements des gardes' in (Lux - Patch Hub - French, Reich Corigate de Schlitzohr, Amulettes de Bordeciel)
+   -> [2x] 'Baraquements de Blancherive' in (USSEP - Traduction Francaise)
+
+EN: 'Sadri's Used Wares' (Total: 25)
+   -> [24x] 'Les Occasions de Sadri' in (JK's Sadris Used Wares - French, Dunmeri Furniture in Gray Quarter - French, L'Héritage de l'Enfant de dragon - Patches officiels)
+   -> [1x] 'Occasions de Sadri' in (Trésors uniques de Bordeciel)
+
+EN: 'Wyrmstooth' (Total: 25)
+   -> [23x] 'Guivrecroc' in (Madmen - Refonte des Parjures, L'Héritage de l'Enfant de dragon - Patches officiels, Water for ENB [4K] - French)
+   -> [2x] 'Tour de l'embusqué' in (Guivrecroc, Petites annonces)
+
+EN: 'Jarl's Longhouse' (Total: 24)
+   -> [4x] 'Longère du jarl' in (Acoustic Space Improvement Fixes - French, Lux - French, USSEP - Traduction Francaise)
+   -> [11x] 'Longère du jarl de Fortdhiver' in (Nolvus Awakening Lighting Patch - French, Amélioration de l'IA, Amulettes de Bordeciel)
+   -> [9x] 'Longère du jarl d'Épervine' in (Psychopatchist Purgatory - French, Nolvus Awakening Lighting Patch - French, Amélioration de l'IA)
+
+EN: 'Sky Haven Temple' (Total: 24)
+   -> [20x] 'Temple d'Havreciel' in (JKs Guild HQ Interiors Patch Collection - French, Lux - Patch Hub - French, Amulettes de Bordeciel)
+   -> [4x] 'Őđŕě Íĺáĺńíîé ăŕâŕíč' in (JKs Guild HQ Interiors Patch Collection - French, Nolvus Awakening Combat & Enemies Patch - French, Dark Era - French)
+
+EN: 'Hall of Secrets' (Total: 22)
+   -> [21x] 'Salle des Secrets' in (L'Héritage de l'Enfant de dragon - Patches officiels, Nolvus Awakening Lighting Patch - French, Nolvus Awakening DLC Patch - French)
+   -> [1x] 'Hall des Secrets' in (Legacy of the Dragonborn - Replica Fixes)
+
+EN: 'Bits and Pieces' (Total: 22)
+   -> [21x] 'Bric-à-brac' in (L'Héritage de l'Enfant de dragon - Patches officiels, Amélioration de l'IA, JK's Bits and Pieces - French)
+   -> [1x] 'Bits et morceaux' in (Epic Cities - Solitude SSE - FR)
+
+EN: 'Cellar' (Total: 21)
+   -> [3x] 'Cave d'Anise' in (USSEP - Traduction Francaise, (FR - DSD) Lux - Patch Hub, LOTD - Patches officiels)
+   -> [18x] 'Cave' in (Lutins, Teldryn Serious - Une aventure de Teldryn Sero, L'Héritage de l'Enfant de dragon - Patches officiels)
+
+EN: 'Inner Sanctum' (Total: 17)
+   -> [11x] 'Sanctuaire intérieur' in (Magie de hiérophante, The Distinct JK's Temple of Dibella - French, Amulettes de Bordeciel)
+   -> [6x] 'Temple de Dibella - Sanctuaire intérieur' in (À votre rythme, Fromage pour tout le monde !, Remiel - Dwemer Specialist vostFR-63836-1-7-4-1726222506 (2))
+
+EN: 'Watchtower' (Total: 16)
+   -> [10x] 'Tour de garde' in ((FR - DSD) Lux - Patch Hub, Vigilant voiced english vostFR)
+   -> [6x] 'Tour de guet' in (vigile_1.7.3_sse)
+
+EN: 'Memory' (Total: 16)
+   -> [8x] 'Mémoire' in (Vigilant voiced english vostFR)
+   -> [8x] 'Souvenir' in (vigile_1.7.3_sse)
+
+EN: 'Bruiant Mansion South Wing' (Total: 15)
+   -> [3x] 'Aile sud du manoir Bruiant' in ((FR - DSD) Lux - Patch Hub)
+   -> [12x] 'Manoir Bruiant - Aile sud' in (Vigilant - Artifact Immersion Patch, vigile_1.7.3_sse, Ode à la Nature - Compagne Auri)
+
+EN: 'Shriekwind Bastion' (Total: 14)
+   -> [12x] 'Bastion de Hurlevent' in (Banekins- Mihail Monsters and Animals - French, Fanatical Enemies.esp - French, Nolvus Awakening Seasonal Tree Mashup - Pine Forest - French)
+   -> [2x] 'Bastion d'Hurlevent' in (Navigator - Navmesh Fixes, Navigator - Navmesh Fixes - French)
+
+EN: 'Hob's Fall Cave' (Total: 14)
+   -> [10x] 'Grotte de Sourcechaude' in (Nolvus Awakening Creatures Patch - French, AP - Missile Additional Starts.esp - French, Fantômes et spectres)
+   -> [4x] 'Grotte de la chute d'Hob' in (Banekins- Mihail Monsters and Animals - French, Navigator - Navmesh Fixes, Navigator - Navmesh Fixes - French)
+
+EN: 'Miner's Barracks' (Total: 13)
+   -> [1x] 'Baraquements de Folpertuis' in ((FR - DSD) Lux - Patch Hub)
+   -> [12x] 'Baraquements des mineurs' in (The Great Town of Karthwasten (Folpertuis) French, The Great Town of Karthwasten Patch Collection - French, Fromage pour tout le monde !)
+
+EN: 'Stuhn Ravine' (Total: 13)
+   -> [7x] 'Val de Stuhn' in (Update for Coldharbour Paper Map for FWMF - French, Vigilant - Xtudo - Stendarr Statue - French, (FR - DSD) Lux - Patch Hub)
+   -> [6x] 'Ravin de Stuhn' in (Northern Roads Patch Collection - French, vigile_1.7.3_sse, DynDOLOD - Output - Ultimate - French)
+
+EN: 'Dwemer Museum' (Total: 13)
+   -> [12x] 'Musée dwemer' in (Amulettes de Bordeciel, Fromage pour tout le monde !, Nouvelle armure dwemer)
+   -> [1x] 'Musée des Dwemers' in (Water for ENB [4K])
+
+EN: 'Thaumaturgist's Hut' (Total: 13)
+   -> [5x] 'La Hutte de la Thaumaturge' in (Amélioration de l'IA, Trésors uniques de Bordeciel, Fromage pour tout le monde !)
+   -> [8x] 'Hutte du thaumaturge' in (USSEP - Traduction Francaise, Cities of the North - Morthal - French, Citizens of Tamriel)
+
+EN: 'Raldbthar Deep Market' (Total: 12)
+   -> [2x] 'Grand marché de Raldbthar' in ((FR - DSD) Lux - Patch Hub, Dwarven Colossus - Mihail Monsters and Animals FR)
+   -> [10x] 'Raldbthar - Grand marché' in (Compilation d'armures et d'armes en aethérium, Aetherium Armor and Weapons - More Ore - French, L'Héritage de l'Enfant de dragon - Patches officiels)
+
+EN: 'Sewer' (Total: 12)
+   -> [11x] 'Égout' in (L'Héritage de l'Enfant de dragon - Patches officiels, (FR - DSD) Lux - Patch Hub, Wavy Waterfalls Effect - French)
+   -> [1x] 'Égouts' in (Chesnaie de Schlitzohr)
+
+
+==================== TOP CONFLICTS: Perks_Skills ====================
+EN: 'Matching Set' (Total: 23)
+   -> [2x] 'Panoplie' in (Adamant - Refonte des atouts)
+   -> [1x] 'Panoplie uniforme' in (Creation Club - Misc Patches (French))
+   -> [9x] 'Panoplie lourde' in (Vokrii - Atouts minimalistes, SPERG - Atouts et jouabilité améliorés, Les Roues de Lull)
+   -> [11x] 'Panoplie légère' in (Vokrii - Atouts minimalistes, SPERG - Atouts et jouabilité améliorés, Les Roues de Lull)
+
+EN: 'Augmented Frost' (Total: 15)
+   -> [1x] 'Givre augmenté' in (1111VampireKingBoss.esp - French)
+   -> [14x] 'Gel pénétrant' in (La Voie du Sorcier, Vokrii - Atouts minimalistes, Fanatical Enemies.esp - French)
+
+EN: 'Heavy Armor Mastery' (Total: 14)
+   -> [9x] 'Maîtrise d'armure lourde' in (Ordonnateur - Atouts de Bordeciel, Static Skill Leveling Rewritten - French)
+   -> [5x] 'Maîtrise de l'armure lourde' in (Vokrii - Atouts minimalistes)
+
+EN: 'Light Armor Mastery' (Total: 14)
+   -> [9x] 'Maîtrise d'armure légère' in (Ordonnateur - Atouts de Bordeciel, Static Skill Leveling Rewritten - French)
+   -> [5x] 'Maîtrise de l'armure légère' in (Vokrii - Atouts minimalistes)
+
+EN: 'One-Handed Mastery' (Total: 13)
+   -> [8x] 'Maîtrise à une main' in (Ordonnateur - Atouts de Bordeciel)
+   -> [5x] 'Maîtrise des armes à une main' in (Vokrii - Atouts minimalistes)
+
+EN: 'Augmented Shock' (Total: 11)
+   -> [1x] 'Foudre augmentée' in (1111VampireKingBoss.esp - French)
+   -> [10x] 'Foudre déchaînée' in (La Voie du Sorcier, Vokrii - Atouts minimalistes, Fanatical Enemies.esp - French)
+
+EN: 'Twin Souls' (Total: 11)
+   -> [8x] 'Âmes jumelles' in (Vokrii - Atouts minimalistes, SPERG - Atouts et jouabilité améliorés, Fanatical Enemies.esp - French)
+   -> [3x] 'Âmes soeurs' in (Vigilant voiced english vostFR)
+
+EN: 'Two-Handed Mastery' (Total: 11)
+   -> [6x] 'Maîtrise à deux mains' in (Ordonnateur - Atouts de Bordeciel)
+   -> [5x] 'Maîtrise des armes à deux mains' in (Vokrii - Atouts minimalistes)
+
+EN: 'Master of the Mind' (Total: 9)
+   -> [2x] 'Illusion absolue' in (Adamant - Refonte des atouts)
+   -> [5x] 'Maître de l'illusion' in (SPERG - Atouts et jouabilité améliorés, Vokrii - Atouts minimalistes, USSEP - Traduction Francaise)
+   -> [2x] 'Maîtrise psychique' in (Vokriinateur - Morceaux choisis)
+
+EN: 'Smithing' (Total: 9)
+   -> [1x] 'Forge' in (Adamant - Refonte des atouts)
+   -> [8x] 'Forgeage' in (Vokrii - Atouts minimalistes, SPERG - Atouts et jouabilité améliorés, Ordonnateur - Atouts de Bordeciel)
+
+EN: 'Raw Power' (Total: 9)
+   -> [2x] 'Force brute' in (Desecration - Sorts nécrotiques)
+   -> [3x] 'Puissance brute' in (Ordonnateur - Atouts de Bordeciel)
+   -> [4x] 'Pouvoir brut' in (Vokrii - Atouts minimalistes, Vokriinateur - Morceaux choisis)
+
+EN: 'Exorcist' (Total: 7)
+   -> [2x] 'Exorciste' in (SPERG - Atouts et jouabilité améliorés, Ordonnateur - Atouts de Bordeciel)
+   -> [5x] 'Exorcisme' in (Vigile - Arbre de compétence)
+
+EN: 'Arcane Blacksmith' (Total: 6)
+   -> [1x] 'Forge arcanique' in (Adamant - Refonte des atouts)
+   -> [5x] 'Forge d'enchantement' in (SPERG - Atouts et jouabilité améliorés, WACCF - Correctif des armes, armures, vêtements et objets, Vokrii - Atouts minimalistes)
+
+EN: 'Experimenter' (Total: 6)
+   -> [1x] 'Expérimentation' in (Adamant - Refonte des atouts)
+   -> [5x] 'Goûteur' in (Vokrii - Atouts minimalistes, USSEP - Traduction Francaise, Ordonnateur - Atouts de Bordeciel)
+
+EN: 'Artificer' (Total: 6)
+   -> [3x] 'Artifices' in (Adamant - Refonte des atouts)
+   -> [1x] 'Artificier' in (LOTD - Menu des compétences)
+   -> [2x] 'Artisan' in (SPERG - Atouts et jouabilité améliorés, Vokriinateur - Morceaux choisis)
+
+EN: 'Grand Conjurer' (Total: 6)
+   -> [2x] 'Grand conjurateur' in (Mysticisme - Refonte de la magie)
+   -> [4x] 'Conjuration magistrale' in (Vokrii - Atouts minimalistes, Vokriinateur - Morceaux choisis)
+
+EN: 'Ravage' (Total: 6)
+   -> [2x] 'Style à deux armes' in (Nolvus Awakening Vokriinator Black Integration.esp - French)
+   -> [4x] 'Ravager' in (Ordonnateur - Atouts de Bordeciel, Vokriinateur - Morceaux choisis)
+
+EN: 'Ritual of Power' (Total: 5)
+   -> [4x] 'Rituel de puissance' in (Abyss - Sorts obscurs, Desecration - Sorts nécrotiques, Arclight - Sorts électriques)
+   -> [1x] 'Rituel du pouvoir' in (Vulcano - Sorts de feu)
+
+EN: 'Locksmith' (Total: 5)
+   -> [3x] 'Serrurerie' in (Adamant - Refonte des atouts)
+   -> [2x] 'Serrurier' in (Ordonnateur - Atouts de Bordeciel, Vokriinateur - Morceaux choisis)
+
+EN: 'Smite' (Total: 5)
+   -> [4x] 'Foudroiement' in (Ordinator - Scrambled Bugs compatibility - French, Ordonnateur - Atouts de Bordeciel, Nolvus Awakening Vokriinator Black Integration.esp - French)
+   -> [1x] 'Châtiment' in (SPERG - Atouts et jouabilité améliorés)
+
+EN: 'Shieldbiter' (Total: 5)
+   -> [3x] 'Brise-bouclier' in (VokriinatorBlack - combatforcaco.esp - French, Ordonnateur - Atouts de Bordeciel, Nolvus Awakening Vokriinator Black Integration.esp - French)
+   -> [2x] 'Fracasse-boucliers' in (Vokrii - Atouts minimalistes, Vokrii - Apply Spell Conditions Fix.esp - French)
+
+EN: 'Rune Master' (Total: 5)
+   -> [2x] 'Maître des runes' in (SPERG - Atouts et jouabilité améliorés, Vokriinateur - Morceaux choisis)
+   -> [3x] 'Maîtrise des runes' in (Vokrii - Atouts minimalistes, Vokriinateur - Morceaux choisis)
+
+EN: 'Flurry of Blows' (Total: 5)
+   -> [1x] 'Déluge de coups' in (Vokrii - Apply Spell Conditions Fix.esp - French)
+   -> [4x] 'Rafale de coups' in (Vokrii - Atouts minimalistes, Vokriinateur - Morceaux choisis)
+
+EN: 'Perfect Touch' (Total: 4)
+   -> [1x] 'Escamotage' in (Adamant - Refonte des atouts)
+   -> [2x] 'Grand escamoteur' in (Ordonnateur - Atouts de Bordeciel, Vokriinateur - Morceaux choisis)
+   -> [1x] 'Escamotage parfait' in (Vokrii - Atouts minimalistes)
+
+EN: 'Treasure Hunter' (Total: 4)
+   -> [1x] 'Chasse au trésor' in (Adamant - Refonte des atouts)
+   -> [1x] 'Chasseur de trésor' in (Ordonnateur - Atouts de Bordeciel)
+   -> [1x] 'Chasse aux trésors' in (Vokrii - Atouts minimalistes)
+   -> [1x] 'Chasseur de trésors' in (Vokriinateur - Morceaux choisis)
+
+EN: 'Twin Secrets' (Total: 4)
+   -> [2x] 'Secrets jumeaux' in (Adamant - Refonte des atouts, L'Héritage de l'Enfant de dragon - Patches officiels)
+   -> [2x] 'Deux secrets' in (LOTD - Patches officiels, L'Héritage de l'Enfant de dragon - Patches officiels)
+
+EN: 'Summoner' (Total: 4)
+   -> [2x] 'Invocateur' in (L'île de Sylval, SPERG - Atouts et jouabilité améliorés)
+   -> [2x] 'Invocation' in (La Voie du Sorcier)
+
+EN: 'Ward Absorb' (Total: 4)
+   -> [1x] 'Absorption de barrière' in (La Voie du Sorcier)
+   -> [3x] 'Absorption de protection' in (Vokrii - Atouts minimalistes, USSEP - Traduction Francaise, SPERG - Atouts et jouabilité améliorés)
+
+EN: 'Mage Ward' (Total: 4)
+   -> [2x] 'Barrière magique' in (La Voie du Sorcier)
+   -> [2x] 'Barrière de mage' in (Vokrii - Atouts minimalistes, Ordonnateur - Atouts de Bordeciel)
+
+EN: 'Furious Strength' (Total: 4)
+   -> [3x] 'Force incontrôlable' in (Ordinator Reworked - Combat Mod Compatibility, Ordonnateur - Atouts de Bordeciel, Nolvus Awakening Vokriinator Black Integration.esp - French)
+   -> [1x] 'Force furieuse' in (Vokrii - Atouts minimalistes)
+
+
+==================== TOP CONFLICTS: Spells_Magic ====================
+EN: 'Absorb Health' (Total: 78)
+   -> [73x] 'Siphon de santé' in (La Voie du Sorcier, Les Outils de Kagrénac, Vokrii - Atouts minimalistes)
+   -> [5x] 'Absorption de santé' in (Falskaar, Fanatical Enemies.esp - French)
+
+EN: 'Master of the Mind' (Total: 73)
+   -> [29x] 'Illusion absolue' in (Adamant - Refonte des atouts)
+   -> [35x] 'Contrôle absolu' in (Mysticisme - Refonte de la magie)
+   -> [9x] 'Maîtrise psychique' in (Vokriinateur - Morceaux choisis)
+
+EN: 'Denting Blows' (Total: 61)
+   -> [37x] 'Coups lacérants' in (Vokrii - Atouts minimalistes, Ordonnateur - Atouts de Bordeciel, Vokriinateur - Morceaux choisis)
+   -> [24x] 'Coups déformants' in (Vokrii - Apply Spell Conditions Fix.esp - French)
+
+EN: 'Slow' (Total: 56)
+   -> [6x] 'Ralentissement' in (Ingrédients animés, Archerie - Dégâts localisés, Abyss - Sorts obscurs)
+   -> [11x] 'Lent' in (Immortel, Artéfacts d'Oblivion, SPERG - Atouts et jouabilité améliorés)
+   -> [35x] 'Langueur' in (Vokrii - Atouts minimalistes, Fanatical Enemies.esp - French, Ordonnateur - Atouts de Bordeciel)
+   -> [4x] 'Lenteur' in (La Voie du Sorcier)
+
+EN: 'Overbearing Assault' (Total: 48)
+   -> [24x] 'Assaut écrasant' in (Vokrii - Apply Spell Conditions Fix.esp - French)
+   -> [24x] 'Assaut prédominant' in (Vokrii - Atouts minimalistes)
+
+EN: 'Overpowering Assault' (Total: 48)
+   -> [24x] 'Assaut surpuissant' in (Vokrii - Apply Spell Conditions Fix.esp - French)
+   -> [24x] 'Assaut écrasant' in (Vokrii - Atouts minimalistes)
+
+EN: 'Grievous Wounds' (Total: 48)
+   -> [24x] 'Blessures graves' in (Vokrii - Apply Spell Conditions Fix.esp - French)
+   -> [24x] 'Blessures profondes' in (Vokrii - Atouts minimalistes)
+
+EN: 'Absorb Magicka' (Total: 41)
+   -> [40x] 'Siphon de magie' in (Madmen - Refonte des Parjures, La Voie du Sorcier, UNSLAAD SE -voiced english- vostFR)
+   -> [1x] 'Ponction de magie' in (USSEP - Traduction Francaise)
+
+EN: 'Drain Health' (Total: 38)
+   -> [1x] 'Drain de santé' in (1111VampireKingBoss.esp - French)
+   -> [37x] 'Ponction de santé' in (La Sorcière et le Labyrinthe, Fanatical Enemies.esp - French, SPERG - Atouts et jouabilité améliorés)
+
+EN: 'Frost Damage' (Total: 38)
+   -> [37x] 'Dégâts de glace' in (Vokrii - Atouts minimalistes, Fettered Fragments - Craft at Forge - French, L'armurerie royale - Nouveaux artéfacts)
+   -> [1x] 'Dégât de givre' in (Vigilant voiced english vostFR)
+
+EN: 'Icy Spear' (Total: 38)
+   -> [35x] 'Lance gelée' in (Katana - Journey in the Shadows vostFR 2-0-4 SE, La Voie du Sorcier, Madmen - Refonte des Parjures)
+   -> [3x] 'Lance de glace' in (Vigilant voiced english vostFR)
+
+EN: 'Turn Undead' (Total: 36)
+   -> [35x] 'Péril des morts' in (La Voie du Sorcier, Vokrii - Atouts minimalistes, Fanatical Enemies.esp - French)
+   -> [1x] 'Péril des morts supérieur' in (Mysticism - Lower Charge Time)
+
+EN: 'Fortify Stamina Regeneration' (Total: 33)
+   -> [29x] 'Renfort de régénération de vigueur' in (Nolvus Awakening Gourmet Integration - French, Adamant - Refonte des atouts, Mysticisme - Refonte de la magie)
+   -> [4x] 'Renfort de récupération de vigueur' in (YOT - Vos propres pensées, Vokrii - Atouts minimalistes, Ordonnateur - Atouts de Bordeciel)
+
+EN: 'Regenerate Health' (Total: 33)
+   -> [30x] 'Récupération de santé' in (Unofficial Patch for DBM Wintersun Patch - French, YOT - Vos propres pensées, Ordonnateur - Atouts de Bordeciel)
+   -> [2x] 'Régénération de santé' in (À vous de choisir, La Voie du Sorcier)
+   -> [1x] 'Regain de santé' in (Wind Path SSE - French)
+
+EN: 'Missile of Molag Bal' (Total: 32)
+   -> [16x] 'Projectile de Molag Bal' in (Vigilant voiced english vostFR)
+   -> [16x] 'Missile de Molag Bal' in (vigile_1.7.3_sse)
+
+EN: 'Fortify Carry Weight' (Total: 30)
+   -> [27x] 'Renfort de capacité d'emport' in (Unofficial Patch for DBM Wintersun Patch - French, Les Outils de Kagrénac, YOT - Vos propres pensées)
+   -> [1x] 'Renfort de portage' in (Feux de camp)
+   -> [2x] 'Capacité d'emport accrue' in (USSEP - Traduction Francaise, Vigilant voiced english vostFR)
+
+EN: 'Drain Life' (Total: 28)
+   -> [9x] 'Drain de vie' in (Fanatical Enemies.esp - French, 1111VampireKingBoss.esp - French)
+   -> [19x] 'Ponction de vie' in (UNSLAAD SE -voiced english- vostFR, SPERG - Atouts et jouabilité améliorés, Darkend)
+
+EN: 'Frostbite' (Total: 28)
+   -> [27x] 'Froid mordant' in (Katana - Journey in the Shadows vostFR 2-0-4 SE, La Voie du Sorcier, Occiglace - Une lame falmer ancienne)
+   -> [1x] 'Morsure de givre' in (AkaviriFollower.esp - French)
+
+EN: 'Regenerate Magicka' (Total: 27)
+   -> [22x] 'Regain magique' in (Katana - Journey in the Shadows vostFR 2-0-4 SE, Unofficial Patch for DBM Wintersun Patch - French, YOT - Vos propres pensées)
+   -> [3x] 'Régénération de magie' in (La Voie du Sorcier)
+   -> [2x] 'Récupération de magie' in (USSEP - Traduction Francaise)
+
+EN: 'Lightning Bolt' (Total: 27)
+   -> [26x] 'Éclair foudroyant' in (Banekins- Mihail Monsters and Animals - French, La Sorcière et le Labyrinthe, La Voie du Sorcier)
+   -> [1x] 'Étincelles' in (USSEP - Traduction Francaise)
+
+EN: 'Frost Cloak' (Total: 27)
+   -> [25x] 'Aura glaciale' in (Vokriinator Black - Discrepancy's ISC Patch - French, UNSLAAD SE -voiced english- vostFR, Fanatical Enemies.esp - French)
+   -> [2x] 'Aura de givre' in (Vigilant voiced english vostFR)
+
+EN: 'Fortify Speed' (Total: 26)
+   -> [25x] 'Renfort de vitesse' in (Compilation d'armures et d'armes en aethérium, YOT - Vos propres pensées, Les Outils de Kagrénac)
+   -> [1x] 'Renfort de rapidité' in (SPERG - Atouts et jouabilité améliorés)
+
+EN: 'Muffle' (Total: 25)
+   -> [18x] 'Silence' in (Compilation d'armures et d'armes en aethérium, La Voie du Sorcier, YOT - Vos propres pensées)
+   -> [7x] 'Aphasie' in (Mysticism - Lower Charge Time, Mysticisme - Refonte de la magie)
+
+EN: 'Shock Breath' (Total: 25)
+   -> [2x] 'Souffle électrique' in (La Voie du Sorcier)
+   -> [22x] 'Souffle de foudre' in (Les morts sans repos - Une refonte des draugr et des squelettes, UNSLAAD SE -voiced english- vostFR, vigile_1.7.3_sse)
+   -> [1x] 'Soufle' in (Vigilant voiced english vostFR)
+
+EN: 'Grand Healing' (Total: 24)
+   -> [22x] 'Soin magistral' in (Katana - Journey in the Shadows vostFR 2-0-4 SE, Vokrii - Atouts minimalistes, Fanatical Enemies.esp - French)
+   -> [2x] 'Grande guérison' in (vigile_1.7.3_sse)
+
+EN: 'Stormblast' (Total: 22)
+   -> [5x] 'Souffletempête' in (YOT - Vos propres pensées, Enfant du Tonnerre - Immersion et Cris épiques)
+   -> [8x] 'Déferlement de tempête' in (Mysticisme - Refonte de la magie, Vokriinateur - Morceaux choisis)
+   -> [4x] 'Explosion de tempête' in (Mysticisme - Refonte de la magie)
+   -> [5x] 'Tempête électrostatique' in (Ordonnateur - Atouts de Bordeciel)
+
+EN: 'Giant Stomp' (Total: 21)
+   -> [1x] 'Piétinement géant' in (AkaviriFollower.esp - French)
+   -> [20x] 'Pas de géant' in (Shadow of Skyrim VF 1.34 SE, UNSLAAD SE -voiced english- vostFR, High Minotaurs - Mihail Monsters and Animals - FR)
+
+EN: 'Regeneration' (Total: 20)
+   -> [14x] 'Régénération' in (YOT - Vos propres pensées, SPERG - Atouts et jouabilité améliorés, Ordonnateur - Atouts de Bordeciel)
+   -> [6x] 'Regain' in (Fanatical Enemies.esp - French)
+
+EN: 'Skystrike' (Total: 20)
+   -> [3x] 'Frappe divine' in (YOT - Vos propres pensées, Enfant du Tonnerre - Immersion et Cris épiques)
+   -> [17x] 'Frappe céleste' in (Ordonnateur - Atouts de Bordeciel)
+
+EN: 'Neverworld' (Total: 20)
+   -> [15x] 'Monde inversé' in (Vokrii - Atouts minimalistes, Mysticisme - Refonte de la magie, Vokriinateur - Morceaux choisis)
+   -> [5x] 'Monde fantasmagorique' in (Ordonnateur - Atouts de Bordeciel, Vokriinateur - Morceaux choisis)
+

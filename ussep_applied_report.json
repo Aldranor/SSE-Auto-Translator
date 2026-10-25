@@ -1,0 +1,2266 @@
+[
+  {
+    "form_id": "00088794|Skyrim.esm",
+    "type": "RACE FULL",
+    "editor_id": "NordRaceVampire",
+    "original": "Nord",
+    "translation": "Nordique",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00088794|Skyrim.esm",
+    "type": "RACE DESC",
+    "editor_id": "NordRaceVampire",
+    "original": "Citizens of Skyrim, they are a tall and fair-haired people.  Strong and hardy, Nords are famous for their resistance to cold and their talent as warriors. They can use a Battlecry to make opponents flee.",
+    "translation": "Habitants de Bordeciel, les Nordiques sont grands et ont les cheveux blonds. Aussi forts qu'intrépides, les Nordiques sont célèbres pour leur résistance au froid et leur amour inné du combat.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0008883C|Skyrim.esm",
+    "type": "RACE FULL",
+    "editor_id": "BretonRaceVampire",
+    "original": "Breton",
+    "translation": "Bréton",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0008883C|Skyrim.esm",
+    "type": "RACE DESC",
+    "editor_id": "BretonRaceVampire",
+    "original": "In addition to their quick and perceptive grasp of spellcraft, even the humblest of Bretons can boast a resistance to shock attacks. They are particularly skilled at conjuration magic.",
+    "translation": "Outre la grande maîtrise des sorts inhérente à leur race, même les plus humbles Brétons de Haute-Roche peuvent se vanter de leur résistance élevée à la magie.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0002F2D2|Skyrim.esm",
+    "type": "MGEF FULL",
+    "editor_id": "VoicePhantomForm",
+    "original": "Phantom Form",
+    "translation": "Forme fantomatique",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003EB18|Skyrim.esm",
+    "type": "MGEF FULL",
+    "editor_id": "AlchFortifyAlchemy",
+    "original": "Fortify Alchemy",
+    "translation": "Renfort d'alchimie",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003EB18|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "AlchFortifyAlchemy",
+    "original": "Mixed potions are <mag>% stronger for <dur> seconds.",
+    "translation": "Les potions que vous concoctez sont <mag> % plus fortes pendant <dur> secondes.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00086248|Skyrim.esm",
+    "type": "MGEF FULL",
+    "editor_id": "dunFolgunthurMikrulAbsorbHealth",
+    "original": "Drain Health",
+    "translation": "Ponction de santé",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00086248|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "dunFolgunthurMikrulAbsorbHealth",
+    "original": "Absorb <mag> points of Health per second from the target.",
+    "translation": "Absorbe <mag> points de santé de la cible par seconde.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000CE215|Skyrim.esm",
+    "type": "MGEF FULL",
+    "editor_id": "DetectLifeWerewolfVision",
+    "original": "Detect Life",
+    "translation": "Détection des vivants",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000CE215|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "DetectLifeWerewolfVision",
+    "original": "Nearby living creatures, but not undead, machines, or Daedra, can be seen through walls.",
+    "translation": "Les créatures vivantes à proximité sont visibles à travers les murs, à l'exception des morts-vivants, des machines et des daedra.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F5D24|Skyrim.esm",
+    "type": "MGEF FULL",
+    "editor_id": "EnchSoulTrapFFAimedArea",
+    "original": "Soul Trap",
+    "translation": "Capture d'âme",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F5D24|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "EnchSoulTrapFFAimedArea",
+    "original": "If target dies within <dur> seconds, fills a soul gem.",
+    "translation": "Si la cible meurt dans les <dur> secondes, elle remplit une gemme spirituelle.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F81E5|Skyrim.esm",
+    "type": "MGEF FULL",
+    "editor_id": "EnchFortifyMagickaVampire",
+    "original": "Vampire Fortify Mag Resist",
+    "translation": "Vampire - Renfort de résistance aux dégâts",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F81E5|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "EnchFortifyMagickaVampire",
+    "original": "+<mag> Magicka, if wearer is undead.",
+    "translation": "Magie +<mag> si le porteur est un mort-vivant.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000FF9F8|Skyrim.esm",
+    "type": "MGEF FULL",
+    "editor_id": "AlchInfluenceAggUpCombo",
+    "original": "Frenzy",
+    "translation": "Frénésie",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000FF9F8|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "AlchInfluenceAggUpCombo",
+    "original": "Opponents up to level <mag> attack anything nearby for <dur> seconds while taking <2> damage.",
+    "translation": "Les adversaires de niveau <mag> et inférieur attaquent tout ce qui les entoure pendant <dur> secondes tout en subissant <2> points de dégâts.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "001058A7|Skyrim.esm",
+    "type": "MGEF FULL",
+    "editor_id": "FoodRestoreMagickaDuration",
+    "original": "Restore Magicka",
+    "translation": "Restauration de magie",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "001058A7|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "FoodRestoreMagickaDuration",
+    "original": "Restores <mag> points of Magicka per second for <dur> seconds.",
+    "translation": "Restaure <mag> points de magie par seconde pendant <dur> secondes.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0010EE4B|Skyrim.esm",
+    "type": "MGEF FULL",
+    "editor_id": "PerkSummonStormAtronachNPCPotent",
+    "original": "Conjure Potent Storm Atronach",
+    "translation": "Conjuration de grand atronach de foudre",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C52|Dawnguard.esm",
+    "type": "MGEF FULL",
+    "editor_id": "DLC1HowlWerewolfDetectLifeSearching3",
+    "original": "Detect Life - Predator Searching",
+    "translation": "Détection des vivants - Prédateur en maraude",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C52|Dawnguard.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "DLC1HowlWerewolfDetectLifeSearching3",
+    "original": "Nearby living creatures, but not undead or Daedra, can be seen through walls.",
+    "translation": "Les créatures vivantes à proximité sont visibles à travers les murs, à l'exception des morts-vivants et des Daedra.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C53|Dawnguard.esm",
+    "type": "MGEF FULL",
+    "editor_id": "DLC1HowlWerewolfDetectLifeCombat1",
+    "original": "Detect Life - Predator Combat",
+    "translation": "Détection des vivants - Prédateur en combat",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C53|Dawnguard.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "DLC1HowlWerewolfDetectLifeCombat1",
+    "original": "Nearby living creatures, but not undead or Daedra, can be seen through walls.",
+    "translation": "Les créatures vivantes à proximité sont visibles à travers les murs, à l'exception des morts-vivants et des Daedra.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C54|Dawnguard.esm",
+    "type": "MGEF FULL",
+    "editor_id": "DLC1HowlWerewolfDetectLife3",
+    "original": "Detect Life - Predator Normal",
+    "translation": "Détection des vivants - Prédateur normal",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C54|Dawnguard.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "DLC1HowlWerewolfDetectLife3",
+    "original": "Nearby living creatures, but not undead or Daedra, can be seen through walls.",
+    "translation": "Les créatures vivantes à proximité sont visibles à travers les murs, à l'exception des morts-vivants et des Daedra.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C55|Dawnguard.esm",
+    "type": "MGEF FULL",
+    "editor_id": "DLC1HowlWerewolfDetectLife2",
+    "original": "Detect Life - Predator Normal",
+    "translation": "Détection des vivants - Prédateur normal",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C55|Dawnguard.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "DLC1HowlWerewolfDetectLife2",
+    "original": "Nearby living creatures, but not undead or Daedra, can be seen through walls.",
+    "translation": "Les créatures vivantes à proximité sont visibles à travers les murs, à l'exception des morts-vivants et des Daedra.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C57|Dawnguard.esm",
+    "type": "MGEF FULL",
+    "editor_id": "DLC1HowlWerewolfDetectLifeCombat2",
+    "original": "Detect Life - Predator Combat",
+    "translation": "Détection des vivants - Prédateur en combat",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C57|Dawnguard.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "DLC1HowlWerewolfDetectLifeCombat2",
+    "original": "Nearby living creatures, but not undead or Daedra, can be seen through walls.",
+    "translation": "Les créatures vivantes à proximité sont visibles à travers les murs, à l'exception des morts-vivants et des Daedra.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C58|Dawnguard.esm",
+    "type": "MGEF FULL",
+    "editor_id": "DLC1HowlWerewolfDetectLifeSearching2",
+    "original": "Detect Life - Predator Searching",
+    "translation": "Détection des vivants - Prédateur en maraude",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02018C58|Dawnguard.esm",
+    "type": "MGEF DNAM",
+    "editor_id": "DLC1HowlWerewolfDetectLifeSearching2",
+    "original": "Nearby living creatures, but not undead or Daedra, can be seen through walls.",
+    "translation": "Les créatures vivantes à proximité sont visibles à travers les murs, à l'exception des morts-vivants et des Daedra.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0201A937|Dawnguard.esm",
+    "type": "MGEF FULL",
+    "editor_id": "DLC1HarkonAbsorbStaminaFFAimed",
+    "original": "Drain Stamina",
+    "translation": "Ponction de vigueur",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0009CE2C|Skyrim.esm",
+    "type": "SPEL FULL",
+    "editor_id": "dunHighGateSummonFlamingThrallExplosion",
+    "original": "Flaming Familiar Explosion",
+    "translation": "Explosion de familier de feu",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "020038BD|Dawnguard.esm",
+    "type": "SPEL FULL",
+    "editor_id": "DLC1VoiceSoulTear3",
+    "original": "Soul Tear",
+    "translation": "Lacération d'âme",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0200A270|Dawnguard.esm",
+    "type": "SPEL FULL",
+    "editor_id": "DLC1RisenReanimateCorpse",
+    "original": "Reanimate Corpse",
+    "translation": "Réanimation",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0401F997|Dragonborn.esm",
+    "type": "SPEL FULL",
+    "editor_id": "dlc2SpectralDragonSummonSpell",
+    "original": "Summon Spectral Dragon",
+    "translation": "Invocation de dragon spectral",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0401FF2E|Dragonborn.esm",
+    "type": "SPEL FULL",
+    "editor_id": "DLC2DiseaseBlackHeartBlight",
+    "original": "Black Heart Blight",
+    "translation": "Peste du coeur noir",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "040265A0|Dragonborn.esm",
+    "type": "SPEL FULL",
+    "editor_id": "dlc2DBConjureSpectralDragon",
+    "original": "Conjure Spectral Dragon",
+    "translation": "Conjuration de dragon spectral",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "04031853|Dragonborn.esm",
+    "type": "SPEL FULL",
+    "editor_id": "dlc2DBConjureAncientsSpell",
+    "original": "Conjure Ancients",
+    "translation": "Conjuration d'Anciens",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "040322B2|Dragonborn.esm",
+    "type": "SPEL FULL",
+    "editor_id": "DLC2ConjureWerebear",
+    "original": "Conjure Werebear",
+    "translation": "Conjuration d'ours-garou",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E0CD6|Skyrim.esm",
+    "type": "SCRL FULL",
+    "editor_id": "DragonhideScroll",
+    "original": "Scroll of Dragonhide",
+    "translation": "Parchemin - Armure draconique",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E0CD6|Skyrim.esm",
+    "type": "SCRL DESC",
+    "editor_id": "DragonhideScroll",
+    "original": "Caster ignores 90% of all physical damage for <30> seconds.",
+    "translation": "Le lanceur de sorts ignore 90 % de tous les dégâts physiques pendant <30> secondes.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "001076EC|Skyrim.esm",
+    "type": "SCRL FULL",
+    "editor_id": "MGR21ScrollMagicka",
+    "original": "Shalidor's Insights: Magicka",
+    "translation": "Les réflexions de Shalidor : magie",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003521F|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "SU02IronShield",
+    "original": "Family Shield",
+    "translation": "Bouclier familial",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00047CBE|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "MQTorturerHood",
+    "original": "Leather Hood",
+    "translation": "Capuche en cuir",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0005A9DF|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "ExecutionHood",
+    "original": "Execution Hood",
+    "translation": "Cagoule d'exécution",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0008B663|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "EnchArmorDwarvenHelmetAlchemy04",
+    "original": "Dwarven Helmet of Eminent Alchemy",
+    "translation": "Heaume dwemer d'alchimie majeure",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00092DBE|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "MGR02Gloves02",
+    "original": "Focusing Gloves",
+    "translation": "Gants de concentration",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C8913|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "ElderCouncilAmulet",
+    "original": "Amulet of the Elder Council",
+    "translation": "Amulette du Conseil des Anciens",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F9649|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "dunRRHerebanesFortress",
+    "original": "Herebane's Fortress",
+    "translation": "Forteresse d'Herebane",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000FB979|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "EnchClothesMageBootsSneak02",
+    "original": "Boots of Sneaking",
+    "translation": "Bottes de mage de furtivité",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000FB97B|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "EnchClothesMageBootsSneak03",
+    "original": "Boots of Major Sneaking",
+    "translation": "Bottes de mage de furtivité accrue",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00107109|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "TemplateClothesMageRobesCommonHooded",
+    "original": "Hooded Mage Robes",
+    "translation": "Robe à capuche de mage",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0010CEE8|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "TemplateClothesRobesMageNoviceHood",
+    "original": "Novice Hood",
+    "translation": "Capuchon de novice",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0010CFD5|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "EnchArmorIronBandedCuirassRestoration02",
+    "original": "Banded Iron Armor of Restoration",
+    "translation": "Armure à bandes de guérison",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0010D6A6|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "ClothesCollegeHoodVariant1",
+    "original": "Mage Hood",
+    "translation": "Capuchon de mage",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0010D6A7|Skyrim.esm",
+    "type": "ARMO FULL",
+    "editor_id": "ClothesCollegeHoodVariant2",
+    "original": "Mage Hood",
+    "translation": "Capuchon de mage",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "040290FF|Dragonborn.esm",
+    "type": "ARMO FULL",
+    "editor_id": "DLC2EnchArmorStalhrimLightHelmetWaterbreathing",
+    "original": "Stalhrim Light Helmet of Waterbreathing",
+    "translation": "Casque en stalhrim de respiration aquatique",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "04029100|Dragonborn.esm",
+    "type": "ARMO FULL",
+    "editor_id": "DLC2EnchArmorStalhrimLightBootsMuffle",
+    "original": "Stalhrim Light Boots of Muffling",
+    "translation": "Bottes en stalhrim de silence",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "040291FF|Dragonborn.esm",
+    "type": "ARMO FULL",
+    "editor_id": "DLC2EnchArmorStalhrimHeavyBootsMuffle",
+    "original": "Stalhrim Heavy Boots of Muffling",
+    "translation": "Solerets en stalhrim de silence",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "04029251|Dragonborn.esm",
+    "type": "ARMO FULL",
+    "editor_id": "DLC2EnchArmorStalhrimHeavyHelmetWaterbreathing",
+    "original": "Stalhrim Heavy Helmet of Waterbreathing",
+    "translation": "Heaume en stalhrim de respiration aquatique",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00019FEB|Skyrim.esm",
+    "type": "BOOK FULL",
+    "editor_id": "DunHillgrundsTombValsVeransLetter",
+    "original": "Letter to Vals Veran",
+    "translation": "Lettre à Vals Veran",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00019FEB|Skyrim.esm",
+    "type": "BOOK DESC",
+    "editor_id": "DunHillgrundsTombValsVeransLetter",
+    "original": "<font face='$HandwrittenFont'><font size='18'>\r\nVals, I heard you talking in the (pub) last night. We may not be as strong as our forefathers, but I assure you we Nords are still stronger than any of you. I'm surprised you'd be mouthing off about how the dead rising is our fault after we took in all you Dunmer. If anything they are rising because of all the dirty Dunmer in Skyrim. It's probably the smell of skooma coming off all of you.\r\n\r\n\r\n  - Golldir\r\n</font>",
+    "translation": "<font face='$HandwrittenFont'><font size='18'>\nVals, je vous ai entendu parler à l'auberge, hier soir. Nous ne sommes peut-être pas aussi puissants que nos ancêtres, mais je peux vous assurer que nous autres, Nordiques, restons largement plus forts que n'importe lequel des vôtres ! Je suis étonné de vous entendre dire à qui veut l'entendre que, si les morts s'éveillent, c'est de notre faute alors que nous avons fait tant d'efforts pour vous accueillir ! S'il y a bien une raison pour laquelle ils s'éveillent, c'est certainement à cause de tous ces sales Dunmers qui polluent l'air de Bordeciel ! Ça doit être l'odeur de skooma que vous dégagez...\n\nGolldir\n</font>",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00026700|Skyrim.esm",
+    "type": "BOOK FULL",
+    "editor_id": "MGR01Book1",
+    "original": "Tolfdir's Book",
+    "translation": "Livre de Tolfdir",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00026700|Skyrim.esm",
+    "type": "BOOK DESC",
+    "editor_id": "MGR01Book1",
+    "original": "<div align=\"left\"><br>\r\nGalerion the Mystic<br>\r\nBy Asgrim Kolsgreg<br>\r\n<br>\r\n<br>\r\n<IMG src=\"Book/fancy_font/d_80x61.dds\" width=80 height=61>uring the early bloody years of the Second Era, Vanus Galerion was born under the name Trechtus, a serf on the estate of a minor nobleman, Lord Gyrnasse of Sollicich-on-Ker. Trechtus' father and mother were common laborers, but his father had secretly, against the law of Lord Gyrnasse, taught himself and then Trechtus to read. Lord Gyrnasse had been advised that literate serfs were an abomination of nature and dangerous to themselves and their lords, and had closed all bookstalls within Sollicich-on-Ker. All booksellers, poets, and teachers were forbidden, except within Gyrnasse's keep. Nevertheless, a small scale smuggling operation kept a number of books and scrolls in circulation right under Gyrnasse's shadow.<br>\r\n<br>\r\nWhen Trechtus was eight, the smugglers were found and imprisoned. Some said that Trechtus' mother, an ignorant and religious woman fearful of her husband, was the betrayer of the smugglers, but there were other rumors as well. The trial of the smugglers was nonexistant, and the punishment swift. The body of Trechtus' father was kept hanging for weeks during the hottest summer Sollicich-on-Ker had seen in centuries.<br>\r\n<br>\r\nThree months later, Trechtus ran away from Lord Gyrnasse's estate. He made it as far as Alinor, halfway across Summerset Isle. A band of troubadours found him nearly dead, curled up in a ditch by the side of the road. They nursed him to health and employed him as an errand boy in return for food and shelter. One of the troubadours, a soothsayer named Heliand, began testing Trechtus' mind and found the boy, though shy, to be preternaturally intelligent and sophisticated given his circumstances. Heliand recognized in the boy a commonality, for Heliand had been trained on the Isle of Artaeum as a mystic.<br>\r\n<br>\r\nWhen the troupe was performing in the village of Potansa on the far eastern end of Summerset, Heliand took Trechtus, then a boy of eleven, to the Isle of Artaeum. The Magister of the Isle, Iachesis, recognized potential in Trechtus and took him on as pupil, giving him the name of Vanus Galarion. Vanus trained his mind on the Isle of Artaeum, as well as his body.<br>\r\n<br>\r\nThus was the first Archmagister of the Mages Guild trained. From the Psijics of the Isle of Artaeum, he received his training. From his childhood of want and injustice, he received his philosophy of sharing knowledge.",
+    "translation": "[pagebreak]\r\n<p align=\"center\">\r\n\r\n\r\nGalérion le Mystique\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\npar Asgrim Kolsgreg\r\n</p>\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>u cours des premières années sanglantes de l'ère Deuxième, Vanus Galérion naquit sous le nom de Trechtus, serf du domaine d'un seigneur nommé Gyrnasse de Sollicich-on-Ker. Le père et la mère de Trechtus étaient des ouvriers mais son père avait appris à lire secrètement, car cela était interdit par son seigneur, et il l'avait enseigné à son fils. On avait dit au seigneur Gyrnasse que les serfs lettrés étaient une abomination de la nature et qu'ils étaient dangereux non seulement pour eux-mêmes mais aussi pour leur maître. Il avait donc fait fermer toutes les bibliothèques de Sollicich-on-Ker. Tous les marchands de livres, les poètes et les enseignants avaient été interdits de séjour en dehors du château. Malgré cela, quelques contrebandiers réussissaient à mettre en circulation des livres et des parchemins sous le nez de Gyrnasse.\r\n\r\nQuand Trechtus eut huit ans, les contrebandiers furent découverts et emprisonnés. Certains dirent que la mère de Trechtus, femme ignorante et pieuse qui craignait son mari, fut celle qui les livra à la justice ; ce ne fut qu'une rumeur parmi d'autres. Les contrebandiers n'eurent pas droit à un vrai procès et ils furent rapidement punis. Le corps du père de Trechtus resta pendu des semaines au cours de l'été le plus chaud qu'ait connu Sollicich-on-Ker depuis des siècles.\r\n\r\nTrois mois plus tard, Trechtus s'enfuit du domaine du seigneur Gyrnasse. Il réussit à atteindre Alinor, en franchissant la moitié de l'Archipel de l'Automne. Il fut découvert à moitié mort par des troubadours. Ils le soignèrent et l'engagèrent comme garçon de course en échange d'un abri et de quoi se nourrir. Un des troubadours, un devin nommé Héliand, mit Trechtus à l'épreuve et découvrit que le garçon, bien que timide, était très intelligent et assez sophistiqué. Héliand, qui avait suivi l'entraînement de mystique sur l'île d'Artaeum, pressentit un fort potentiel en lui.\r\n\r\nAlors que la troupe se produisait dans le village de Potansa à l'est de l'Archipel de l'Automne, Héliand conduisit le jeune Trechtus, âgé de onze ans, sur l'île d'Artaeum. Le maître de l'ordre, Iachésis, reconnut les capacités de Trechtus et le prit comme élève, lui donnant le nom de Vanus Galérion. Vanus entreprit alors de façonner son esprit et son corps sur l'île.\r\n\r\nAinsi fut formé le premier archimage de la Guilde des mages, qui reçut son enseignement des Psijiques de l'île d'Artaeum. Dans sa jeunesse faite de privations et d'injustice, il puisa la soif du partage de la connaissance.</p>",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003DD30|Skyrim.esm",
+    "type": "BOOK FULL",
+    "editor_id": "MGR10Note",
+    "original": "Sergius' Note",
+    "translation": "Note de Sergius",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003DD30|Skyrim.esm",
+    "type": "BOOK DESC",
+    "editor_id": "MGR10Note",
+    "original": "Client - <Client Name Goes Here>\r\nLocation - <Dungeon Name Goes Here>",
+    "translation": "Client - <Client Name Goes Here>\r\nEndroit - <Dungeon Name Goes Here>",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0004811F|Skyrim.esm",
+    "type": "BOOK FULL",
+    "editor_id": "dunFrostflowAbyssNote",
+    "original": "Habd's Death Letter",
+    "translation": "Dernière lettre d'Habd",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0004811F|Skyrim.esm",
+    "type": "BOOK DESC",
+    "editor_id": "dunFrostflowAbyssNote",
+    "original": "<font face='$HandwrittenFont'><font size='18'>\r\nIf you have found this note, then I have failed to kill the creatures that invaded my home and killed my family. Please, avenge us if you are able. Kill every last one of these blighted monsters and take what I've left in the chest on the roof of the lighthouse.\r\n\r\nI won't be needing it.\r\n\r\n-Habd\r\n</font>\r\n",
+    "translation": "<font face='$HandwrittenFont'><font size='18'>\r\nSi vous trouvez cette lettre, c'est que je n'ai pas réussi à tuer les créatures qui ont envahi mon foyer et tué ma famille. Je vous en prie, si vous le pouvez, vengez-nous ! Tuez ces horribles monstres jusqu'au dernier et prenez ce que j'ai laissé dans le coffre qui se trouve sur le toit du phare.\r\n\r\nJe n'en aurai plus besoin.\r\n\r\n-Habd\r\n</font>",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0009C8C2|Skyrim.esm",
+    "type": "BOOK FULL",
+    "editor_id": "MGRDestruction04",
+    "original": "Power of the Elements",
+    "translation": "Pouvoir des éléments",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0009C8C2|Skyrim.esm",
+    "type": "BOOK DESC",
+    "editor_id": "MGRDestruction04",
+    "original": "Northward, haunted\r\nnorthern coastline\r\n\r\nAnd south, Dwemer \r\nlive and toil,\r\n\r\nA simple place, \r\na shield from draft.\r\n\r\nAt this stand \r\nwield mage's craft\r\n\r\nSo fierce the sea will boil.\r\n[pagebreak]\r\n\r\nUnder Greybeards' \r\nmorning shadow\r\n\r\nAt this northern \r\nwatch, long lost\r\n\r\nNirn's hoary Throat \r\ndoes scrape the sky.\r\n\r\nHere unleash a chilling cry\r\nAnd gild this stand with frost.\r\n[pagebreak]\r\n\r\nOver western \r\nriver waters,\r\n\r\nBy Karth bounded, \r\nsouth and north\r\n\r\nOn mountains sits\r\na humble crown.\r\n\r\nSky's wrath on this stand\r\nbring forth\r\n\r\nTo shake these snowcaps down.\r\n[pagebreak]\r\n<font face=\"$HandwrittenFont\">\r\nElemental magic wielded,\r\nElemental thoughts displayed.\r\nHavoc wrought as if for sport,\r\nEfforts to impress fall short.\r\nI'll merely use a blade.  \r\n\r\nSeeking study, wanting learning,\r\nRecklessly aroused my rage!\r\nMy pupil you would be, or more? \r\nPresume not of Shalidor,\r\nYou feeble, foolish mage!\r\n\r\nQuickly dispatched, worthless weakling,\r\nThough this tome I gladly claim.\r\nA diamond in the rough, I find,\r\nShining gem from feeble mind.\r\nNow die, and curse my name!\r\n</font>\r\n",
+    "translation": "Vers le nord, hanté\r\ncôte septentrionale,\n\r\nEt au sud, les Dwemers\nvivent et travaillent.\r\n\r\nUn lieu simple,\nbouclier contre le vent.\r\n\r\nEn cet endroit\nusez de l'art magique.\r\n\r\nEt férocement la mer bouillonnera.\r\n[pagebreak]\r\n\r\nSous l'ombre matinale\ndes Grises-Barbes,\n\r\nEn ce belvédère du nord\nperdu dans les siècles,\n\r\nLa vénérable gorge de Nirn\nvient toucher les cieux.\r\n\r\nC'est là qu'un cri glaçant\r\nviendra couvrir l'endroit de givre.\r\n[pagebreak]\r\n\r\nPar delà les eaux\nde la rivière de l'ouest,\n\r\nLiée par la volonté de Karth,\nau sud et au nord\r\n\r\nRepose sur une montagne\r\nune humble couronne.\r\n\r\nEn cet endroit la colère\r\ndu ciel aura tôt fait\r\n\r\nDe faire tomber les neiges éternelles.\r\n[pagebreak]\r\n<font face=\"$HandwrittenFont\">\r\nLa magie élémentale lancée,\nRévèle les élémentales pensées.\r\nLe chaos semé comme pour divertir,\nVeut impressionner sans y parvenir.\r\nJe brandirais plus volontiers l'épée.\n\r\nCherchant le savoir, voulant apprendre,\nCausant, imprudent, ma colère !\r\nTu veux être mon élève, ou davantage ?\nShalidor n'a pas de pairs,\nFaible et imprudent mage !\r\n\r\nRapidement vaincu, triste vermisseau,\nMais ce livre est maintenant mien.\r\nUn diamant brut, que cette découverte,\nUne gemme que dans ta faiblesse tu m'as offerte.\r\nMeurs ! Et maudis mon nom, si tu y tiens !\r\n</font>",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C2BE4|Skyrim.esm",
+    "type": "BOOK DESC",
+    "editor_id": "DBHandPrintNote",
+    "original": "\r\n<p align='center'>\r\n<img src='img://Textures/Interface/Books/DBHand.png' width='300' height='300'>\r\n</p>",
+    "translation": "<p align='center'>\r\n<img src='img://Textures/Interface/Books/DBHand.png' width='300' height='300'>\r\n</p>",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000ED161|Skyrim.esm",
+    "type": "BOOK FULL",
+    "editor_id": "Book1CheapNordsArise",
+    "original": "Nords Arise!",
+    "translation": "Nordiques, relevez-vous !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000ED161|Skyrim.esm",
+    "type": "BOOK DESC",
+    "editor_id": "Book1CheapNordsArise",
+    "original": "[pagebreak]\r\n<p align=\"center\">\r\n\r\n\r\nNords Arise!\r\n\r\n\r\n\r\nby\r\nAnonymous\r\n</p>\r\n\r\n\r\n\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/N_letter.png'>ords Arise! Throw off the shackles of Imperial oppression. Do not bow to the yoke of a false emperor. Be true to your blood, to your homeland.<br>\r\n<BR>\r\nThe empire tells us we cannot worship holy Talos. How can man set aside a god? How can a true Nord of Skyrim cast aside the god that rose from our own heartland? Mighty Tiber Septim, himself the first emperor, conqueror of all Tamriel, ascended to godhood to sit at the right hand of Akatosh. Tiber Septim, a true son of Skyrim, born in the land of snow and blood, bred to the honor of our people, is now Talos, god of might and honor. The Empire has no right to tell us we cannot worship him.<br>\r\n<br>\r\nOur own high king, Torygg, betrayed us to the empire. He traded our god for peace. He agreed to a pact with the Thalmor signed by an emperor in a foreign land. Are we to be beholden to such a pact? No! A thousand times no.<br>\r\n<br>\r\nDo not let the lessons of history go unheeded. The Aldmeri Dominion and its Thalmor masters made war upon men, just as the elves made war upon Ysgramor and our people in ancient times. Shining Saarthal was burned to the ground, reduced to ruins and rubble in their treacherous assault. But Ysgramor and his sons gathered the 500 Companions and made war upon the elves, casting them out of Skyrim. In the Great War fought by our fathers, the elves again betrayed men by attacking us unprovoked. The Dominion and the Thalmor cannot be trusted!<br>\r\n<br>\r\nLike Ysgramor, Ulfric Stormcloak is a true hero of Skyrim. His name will ring in Sovngarde for generations to come. Only he had the courage to single out King Torygg and challenge him to trial by arms. Ulfric's thu'um, a gift from Talos himself, struck down this traitorous ruler. And by his death we are now free of our Imperial shackles and the Thalmor overlords that darken the Imperial throne.<br>\r\n<br>\r\nThe Empire has sent its Legions to govern us. They have enlisted our own countrymen to their cause. They have set brother against brother, father against son. They have caused Skyrim to battle itself in their name, for their cause. Do not let them divide us. Do not let them conquer us! Reject the Imperial law that forbids the worship of Talos. Join Ulfric Stormcloak and his cause!<br>\r\n<br>\r\n",
+    "translation": "[pagebreak]\n<p align=\"center\">\n\n\nNordiques, relevez-vous !\n\n\n\n\n\n\n\n\nAuteur anonyme\n</p>\n[pagebreak]\n<p align=\"left\">\n<img src='img://Textures/Interface/Books/Illuminated_Letters/N_letter.png'>ordiques, relevez-vous ! Libérez-vous du joug impérial. Ne vous prosternez pas devant un empereur factice. Soyez fidèles à votre sang, à votre patrie.\n\nL'Empire nous interdit de vénérer le saint Talos. Comment l'homme peut-il oublier son dieu ? Comment un véritable Nordique de Bordeciel peut-il renier le dieu issu de sa propre nation ? Le puissant Tiber Septim, le premier empereur en personne, conquérant de tout Tamriel, s'est élevé au rang de dieu et est dorénavant assis à la droite d'Akatosh. Tiber Septim, un vrai fils de Bordeciel, né dans le pays de la neige et du sang, élevé selon l'honneur de notre peuple, est à présent Talos, dieu de la puissance et de l'honneur. L'Empire n'a aucun droit de nous empêcher de le vénérer.\n\nNotre propre haut-roi, Torygg, est de mèche avec l'Empire et nous a trahis. Il a troqué notre dieu contre la paix. Il a accepté un pacte avec les Thalmors, signé par un empereur résidant dans un pays étranger. Allons-nous nous soumettre à un tel pacte ? Non ! Mille fois non.\n\nN'ignorez pas les leçons du passé. Le Domaine aldmeri et ses maîtres Thalmor ont déclaré la guerre aux hommes, tout comme les Elfes ont déclaré la guerre à Ysgramor et à nos ancêtres. L'étincelante Saarthal a été ravagée par le feu, réduite en cendres par leur assaut sournois. Mais Ysgramor et ses fils ont rassemblé les 500 Compagnons et ont livré bataille contre les Elfes, les chassant de Bordeciel. Au cours de la Grande Guerre menée par nos aïeux, les Elfes ont à nouveau trahi les hommes en nous attaquant sans raison. Il est impossible de se fier au Domaine et aux Thalmor !\n\nTout comme Ysgramor, Ulfric Sombrage est un véritable héros de Bordeciel. Son nom résonnera dans Sovngarde pendant plusieurs générations. Lui seul a eu le courage de défier le roi Torygg en combat singulier. Le Thu'um d'Ulfric, un don de Talos en personne, a foudroyé ce dirigeant perfide. Sa mort nous a libérés des entraves impériales et des suzerains Thalmor qui assombrissent le trône impérial.\n\nL'Empire a envoyé ses légions pour nous gouverner. Il a enrôlé nos propres compatriotes et les a convertis à sa cause. À cause de lui, des frères se déchirent, des pères et des fils s'affrontent. Le peuple de Bordeciel s'entretue au nom de l'Empire, pour sa cause. Ne le laissez pas nous diviser. Ne le laissez pas nous conquérir ! Rejetez la loi impériale qui nous interdit de vénérer Talos. Rejoignez Ulfric Sombrage et sa cause !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F6844|Skyrim.esm",
+    "type": "BOOK FULL",
+    "editor_id": "MS10JaphetsJournal",
+    "original": "Japhet's Journal",
+    "translation": "Journal de Japhet",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F6844|Skyrim.esm",
+    "type": "BOOK DESC",
+    "editor_id": "MS10JaphetsJournal",
+    "original": "<font face=\"$HandwrittenFont\">A smaller band than was expected joined with me departing Dawnstar. Apparently the local word is that this island is unfit for any sort of habitation, owing to spirits and ill-favored weather. No matter, more space for the loyal few, though the building of the citadel may prove to be time consuming. \r\n[pagebreak]\r\nThis first winter was difficult, with the abandonment of many men and women to return to their families on the mainland. A culling of the herd -- let us lose the faithless, the weak, and those who lack the fortitude to persevere. \r\n[pagebreak]\r\nThe stories of ghosts inhabiting this place are just stories. They frighten away more of those who would weep like children when their shadows flicker in the firelight. Me and my closest remain, ever vigilant. \r\n[pagebreak]\r\nI find little need for additional company. The cold and winds seem to finally have driven off the last of those who would fancy themselves to be my compatriots. I have no need of their indolence. Let those who look upon Japhet's Fortress be afraid and know the great man who conquered the accursed island. \r\n[pagebreak]\r\nNow even my more trusted go-betweens have stopped making their regular deliveries of food and supplies to the fortress. I must now become self-sufficient and farm the land, as my father did. \r\n[pagebreak]\r\nThe rocks are unyielding, and my grain grows short. But I will not abandon my greatest creation. I will weather the storm and fend off the ghosts and bite into the wind such that all might sing songs of my great settlement. \r\n[pagebreak]\r\nI'm starting to think the stories of the ghosts may have a kernel of truth to them. Or else it's simply the hunger talking. \r\n[pagebreak]\r\nThe ghosts are speaking to me now, the more of this icemoss that I eat, the more clearly I can hear them. They are telling me it was a mistake to come here, as if I didn't already know that. \r\n[pagebreak]\r\nOH GODS HELP ME\r\n</font>",
+    "translation": "<font face=\"$HandwrittenFont\">À mon départ d'Aubétoile, j'ai été rejoint par un groupe plus modeste que prévu. Apparemment, la rumeur locale veut que l'île soit totalement inhabitable : des histoires d'esprits et de climat défavorable. Peu importe, cela ne laissera que plus d'espace aux plus loyaux, bien que la construction de la citadelle en sera d'autant plus laborieuse.\n\r\nLe premier hiver a été rude et beaucoup ont préféré retourner auprès de leurs familles sur le continent. Voyons cela comme une sélection naturelle salutaire : que les hommes de peu de foi, les faibles et les moins courageux s'en aillent, nous nous passerons bien d'eux.\n\r\nLes histoires de fantômes qui hantent cet endroit ne sont que des fables... qui en ont cependant fait fuir encore quelques-uns, prompts à pleurer comme des enfants effrayés par leur propre ombre au coin du feu. Mes plus proches partisans et moi restons sereins, et toujours vaillants.\n\r\nAprès tout, je n'ai guère besoin de compagnie. Le froid et le vent semblent s'être unis pour chasser les derniers spécimens de ceux qui se prétendaient mes compatriotes. Ces bons à rien, que les dieux les emportent ! Puissent tous ceux qui poseront le regard sur la forteresse de Japhet frémir en pensant au grand homme qui parvint à conquérir l'île maudite.\n\r\nVoilà que même mes plus fidèles passeurs ont mis un terme aux ravitaillements réguliers en nourriture et en matériel à la forteresse. Je dois maintenant me suffire à moi-même et cultiver la terre, comme mon père l'a fait avant moi.\n\r\nLes pierres sont partout et mes récoltes bien maigres, mais je n'abandonnerai pas ma plus grande création. Je tiendrai droit dans la tempête, et je repousserai les fantômes, et je hurlerai contre le vent, tant et si bien que l'on chantera longtemps les louanges de ma fière colonie.\n\r\nJe commence à croire que ces histoires de fantômes ne sont pas tout à fait dénuées d'un certain fond de vérité. À moins que ce soit la faim qui parle...\n\r\nLes fantômes me parlent maintenant, et plus je mange de ce lichen glacé, plus je les entends clairement. Ils me disent que j'ai fait une erreur en venant ici. Comme si je ne le savais pas déjà !\n\r\nPAR LES DIEUX AIDEZ-MOI\r\n</font>",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02015D88|Dawnguard.esm",
+    "type": "BOOK DESC",
+    "editor_id": "DLC1SoulCairnRJPOI2Note",
+    "original": "<font face='$HandwrittenFont'><div align=\"left\">They warned me not to go through that portal. What did I have to be scared of? I been adventuring for years, and I never seen nothing that I couldn't wallop. But this place...<br>\r\nAin't nothing living here. Just dead things up and about when they should be in the ground.  I can hear their bones scratching at the rocks and knocking together when they walk. If I get home, I'll hang up my sword and never go out again...",
+    "translation": "<font face='$HandwrittenFont'><div align=\"left\">On a tenté de me retenir quand j'ai voulu franchir la porte. Qu'est-ce que je risquais ? Toutes ces années à sillonner le monde, j'ai toujours réussi à m'en sortir. Mais cet endroit...\r\nNulle vie ici. Juste des cadavres qui se baladent alors qu'ils devraient pourrir sous terre. J'entends leurs os racler les pierres et s'entrechoquer quand ils marchent. Si jamais je rentre chez moi, je raccroche mon épée et je ne mets plus le nez dehors...",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "04027496|Dragonborn.esm",
+    "type": "BOOK FULL",
+    "editor_id": "DLC2ExpSpiderCrftBookGlowing",
+    "original": "Recipe - Glowing Spider",
+    "translation": "Recette - Araignée luisante",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "04027496|Dragonborn.esm",
+    "type": "BOOK DESC",
+    "editor_id": "DLC2ExpSpiderCrftBookGlowing",
+    "original": "<p align='center'><font face='$HandwrittenFont'><font size='25'>\r\n\r\n\r\nGlowing Mushroom\r\n\r\nAlbino Spider Pod\r\n\r\n</font></p>\r\n",
+    "translation": "<p align='center'><font face='$HandwrittenFont'><font size='25'>\r\n\r\n\r\nChampignon luisant\r\n\r\nAbdomen d'araignée albinos\r\n\r\n</font></p>",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "04027496|Dragonborn.esm",
+    "type": "BOOK CNAM",
+    "editor_id": "DLC2ExpSpiderCrftBookGlowing",
+    "original": "Glowing Mushroom + Albino Spider Pod",
+    "translation": "Champignon luisant + Abdomen d'araignée albinos",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "040274A1|Dragonborn.esm",
+    "type": "BOOK FULL",
+    "editor_id": "DLC2ExpSpiderCrftBookPackmule",
+    "original": "Recipe - Pack Spider",
+    "translation": "Recette - Araignée porteuse",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "040274A1|Dragonborn.esm",
+    "type": "BOOK DESC",
+    "editor_id": "DLC2ExpSpiderCrftBookPackmule",
+    "original": "<p align='center'><font face='$HandwrittenFont'><font size='25'>\r\n\r\n\r\nBone Meal\r\n\r\nAlbino Spider Pod\r\n\r\n</font></p>\r\n",
+    "translation": "<p align='center'><font face='$HandwrittenFont'><font size='25'>\r\n\r\n\r\nPoudre d'os\r\n\r\nAbdomen d'araignée albinos\r\n\r\n</font></p>",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "040274A1|Dragonborn.esm",
+    "type": "BOOK CNAM",
+    "editor_id": "DLC2ExpSpiderCrftBookPackmule",
+    "original": "Bone Meal + Albino Spider Pod",
+    "translation": "Poudre d'os + Abdomen d'araignée albinos",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0900E022|Unofficial Skyrim Special Edition Patch.esp",
+    "type": "CONT FULL",
+    "editor_id": "USKPWEServicesHunterFactionContainer",
+    "original": "USKP Hunter Faction Merchant Container",
+    "translation": "USKP Hunter Faction Merchant Container",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0901171C|Unofficial Skyrim Special Edition Patch.esp",
+    "type": "CONT FULL",
+    "editor_id": "USKPWeaponRackTestContainer",
+    "original": "Chest",
+    "translation": "Coffre",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0901660C|Unofficial Skyrim Special Edition Patch.esp",
+    "type": "CONT FULL",
+    "editor_id": "USKPTreasUpperChestNoRespawn",
+    "original": "Chest",
+    "translation": "Coffre",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000516C8|Skyrim.esm",
+    "type": "INGR FULL",
+    "editor_id": "deathBell",
+    "original": "Deathbell",
+    "translation": "Grelot-de-la-mort",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00028AD9|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "DA01MalynsBlackSoul",
+    "original": "Malyn's Black Soul Gem",
+    "translation": "Gemme spirituelle noire de Malyn",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0002C260|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "MS12BriarHeart",
+    "original": "Briar Heart",
+    "translation": "Coeur de ronces",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0005421B|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "TG02HoneyJar",
+    "original": "Honey Jar",
+    "translation": "Pot de miel",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00070BC3|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "CivilWarMapFlag02",
+    "original": "Flag",
+    "translation": "Drapeau",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C886A|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "DwarvenScrapMetal",
+    "original": "Dwemer Scrap Metal",
+    "translation": "Ferraille dwemer",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E7296|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "SteelSwordBrokenTop",
+    "original": "Broken Steel Sword Blade",
+    "translation": "Lame d'épée en acier brisée",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E729A|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "SteelGreatswordBrokenTop",
+    "original": "Broken Steel Greatsword Blade",
+    "translation": "Lame d'espadon en acier brisé",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E729C|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "SteelGreatswordBrokenHandle",
+    "original": "Broken Steel Greatsword Handle",
+    "translation": "Poignée d'espadon en acier brisé",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E72A2|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "SteelWarhammerBrokenTop",
+    "original": "Broken Steel Warhammer Head",
+    "translation": "Tête de marteau en acier brisé",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E72A4|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "SteelWarhammerBrokenHandle",
+    "original": "Broken Steel Warhammer Handle",
+    "translation": "Poignée de marteau en acier brisé",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E72AA|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "IronMaceBrokenHandle",
+    "original": "Broken Iron Mace Handle",
+    "translation": "Poignée de masse de fer brisée",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E72AC|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "IronMaceBrokenTop",
+    "original": "Broken Iron Mace Head",
+    "translation": "Tête de masse de fer brisée",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F5839|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "DLC1SilverPlatter01IdleCups",
+    "original": "Silver Platter",
+    "translation": "Plateau d'argent",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F583A|Skyrim.esm",
+    "type": "MISC FULL",
+    "editor_id": "DLC1SilverPlatter01IdleFood",
+    "original": "Silver Platter",
+    "translation": "Plateau d'argent",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F50FA|Skyrim.esm",
+    "type": "FURN FULL",
+    "editor_id": "NobleBedDouble02R",
+    "original": "Bed",
+    "translation": "Lit",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F50FF|Skyrim.esm",
+    "type": "FURN FULL",
+    "editor_id": "DweFurnitureBedDouble01L",
+    "original": "Stone Bed",
+    "translation": "Lit de pierre",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000F5100|Skyrim.esm",
+    "type": "FURN FULL",
+    "editor_id": "DweFurnitureBedDouble01R",
+    "original": "Stone Bed",
+    "translation": "Lit de pierre",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00013986|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "SteelDagger",
+    "original": "Steel Dagger",
+    "translation": "Dague en acier",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0001398E|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "OrcishDagger",
+    "original": "Orcish Dagger",
+    "translation": "Dague Orque",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00013996|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "DwarvenDagger",
+    "original": "Dwarven Dagger",
+    "translation": "Dague dwemer",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0001399E|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "ElvenDagger",
+    "original": "Elven Dagger",
+    "translation": "Dague elfique",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000139A8|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "GlassMace",
+    "original": "Glass Mace",
+    "translation": "Masse en verre",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000139AA|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "GlassWarhammer",
+    "original": "Glass Warhammer",
+    "translation": "Marteau de verre",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000139AB|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "EbonyWarAxe",
+    "original": "Ebony War Axe",
+    "translation": "Hache d'ébonite",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000139AE|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "EbonyDagger",
+    "original": "Ebony Dagger",
+    "translation": "Dague d'ébonite",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000139B0|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "EbonyMace",
+    "original": "Ebony Mace",
+    "translation": "Masse d'ébonite",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000139B6|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "DaedricDagger",
+    "original": "Daedric Dagger",
+    "translation": "Dague daedrique",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000284F5|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "MS06Staff",
+    "original": "Necromantic Staff",
+    "translation": "Bâton nécromantique",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00083167|Skyrim.esm",
+    "type": "WEAP FULL",
+    "editor_id": "FalmerBowSupple",
+    "original": "Falmer Supple Bow",
+    "translation": "Arc falmer souple",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02014FCB|Dawnguard.esm",
+    "type": "WEAP FULL",
+    "editor_id": "DLC1DragonboneDagger",
+    "original": "Dragonbone Dagger",
+    "translation": "Dague en os de dragon",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0201A180|Dawnguard.esm",
+    "type": "WEAP FULL",
+    "editor_id": "DLC1DragonboneSwordKeeper",
+    "original": "Dragonbone Sword",
+    "translation": "Épée d'os de dragon",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0401CDAE|Dragonborn.esm",
+    "type": "WEAP FULL",
+    "editor_id": "DLC2NordicDagger",
+    "original": "Nordic Dagger",
+    "translation": "Dague nordique",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0401CDB5|Dragonborn.esm",
+    "type": "WEAP FULL",
+    "editor_id": "DLC2StalhrimDagger",
+    "original": "Stalhrim Dagger",
+    "translation": "Dague de stalhrim",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0004E64F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "editor_id": "AmaundMotierreEnd",
+    "original": "Amaund Motierre",
+    "translation": "Amaund Motierre",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000A733B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "editor_id": "Tyranus",
+    "original": "Vigilant Tyranus",
+    "translation": "Vigile Tyranus",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000A733B|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "editor_id": "Tyranus",
+    "original": "Tyranus",
+    "translation": "Tyranus",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D55D3|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "editor_id": "dunCragslaneLvlBanditGuard",
+    "original": "Bandit",
+    "translation": "Bandit",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "04018FC7|Dragonborn.esm",
+    "type": "KEYM FULL",
+    "editor_id": "DLC2SVGreathallKey",
+    "original": "Skaal Village Greathall Key",
+    "translation": "Clé de la grande salle des Skaals",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000CD614|Skyrim.esm",
+    "type": "ALCH FULL",
+    "editor_id": "FoodMarriageMeal",
+    "original": "Homecooked Meal",
+    "translation": "Repas fait maison",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C0BBA|Skyrim.esm",
+    "type": "CELL FULL",
+    "editor_id": "ThievesGuildHoldingCell",
+    "original": "Do Not Delete - Not A Test Cell",
+    "translation": "Do Not Delete - Not A Test Cell",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0005A01A|Skyrim.esm",
+    "type": "CELL FULL",
+    "editor_id": "CidhnaMine03",
+    "original": "Obscured Passage",
+    "translation": "Passage obscur",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00068526|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Lo... Sah!",
+    "translation": "Lo... Sah !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00015C5C|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "DA05QuestingBeastAgain",
+    "original": "Didn't I just kill you?",
+    "translation": "Je ne viens pas juste de vous tuer ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00015C5F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "And skillfully too. I've been watching you for ages, it seems. You have the makings of a fine hunter.",
+    "translation": "Et de bien belle manière avec ça. J'ai l'impression que cela fait une éternité que je t'observe. Tu as l'étoffe des plus grands chasseurs.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00015C5F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "You may even be my champion. Perhaps. ",
+    "translation": "Tu pourrais même devenir mon champion, qui sait ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00017C7F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Why, thank you, Thonar. I'm flattered.",
+    "translation": "Merci, Thonar. Je suis flattée.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00022F40|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "The Sanctuary is in the southern pine forest. Close to the road, but away from prying eyes.",
+    "translation": "Le sanctuaire est au sud de la pinède. Près de la route, mais à l'abri des yeux indiscrets.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0010A2BF|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "What do you think? Some more nirnroot, maybe?",
+    "translation": "Qu'en pensez-vous ? Il faudrait peut-être rajouter de la nirnroot ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00037B5F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": "DB05BrideDeadAstridResponse",
+    "original": "With Vici's murder, you've started us down a path the Dark Brotherhood hasn't traveled in centuries. The assassination of an Emperor.",
+    "translation": "En tuant Vici, vous nous avez conduits sur un chemin que la Confrérie noire n'a pas emprunté depuis des siècles. Un chemin qui mène à l'assassinat d'un empereur.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00037B5F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": "DB05BrideDeadAstridResponse",
+    "original": "And now, your reward. A unique spell to summon a legend of the Dark Brotherhood. His soul serves us now in death, as his body once did in life.",
+    "translation": "Voici votre récompense. Un sort unique permettant d'invoquer une légende de la Confrérie noire. Son âme nous épaule aujourd'hui dans la mort, tout comme son corps nous aidait de son vivant.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00037B5F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": "DB05BrideDeadAstridResponse",
+    "original": "Ah, and of course, a bonus, for killing Vici while she addressed her guests, as instructed. Gold... simple and pure. Spend it as you will.",
+    "translation": "Ah ! Bien sûr, voici une prime pour avoir tué Vici alors qu'elle s'adressait à ses invités, comme convenu. De l'or... purement et simplement. Dépensez-le comme vous voudrez.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00037B5F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": "DB05BrideDeadAstridResponse",
+    "original": "Now then. Time to proceed to the next stage of the plan. Go and speak with Gabriella. She's been helping me arrange your next contract.",
+    "translation": "Bien, il est temps de passer à l'étape suivante. Allez parler à Gabriella. Elle m'aide à organiser votre prochaine mission.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00020AD0|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "That's what you said about the wisp essence and it turned out to be crushed nirnroot mixed with water!",
+    "translation": "Vous avez déjà dit ça pour l'essence de feu follet alors que c'était de la nirnroot mélangée à de l'eau !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00024130|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "And let me guess, that someone is my so-called husband Leigelf? Well, the feeling's mutual.",
+    "translation": "Laissez-moi deviner, il s'agit de mon soi-disant mari, Leigelf ? Dites-lui que c'est réciproque.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00024130|Skyrim.esm",
+    "type": "INFO RNAM",
+    "editor_id": null,
+    "original": "Someone wants you dead, Beitild.",
+    "translation": "Quelqu'un veut votre mort, Beitild.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00024120|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "DBNazirInfoHernBranchTopic",
+    "original": "Tell me about Hern.",
+    "translation": "Parlez-moi d'Hern.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0002413C|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "He's a vampire, and has blended into human society for years. He's never far from his female companion, Hert. Also a vampire.",
+    "translation": "C'est un vampire qui vit au sein de la société humaine depuis des années. Il n'est jamais loin de sa compagne, Hert, qui est aussi un vampire.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0002413C|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "The contract is for the male, Hern. But you'll probably have to contend with the female too. So for Sithis' sake, watch yourself.",
+    "translation": "Le contrat ne concerne qu'Hern, mais vous aurez sûrement affaire à la femme aussi. Faites très attention.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00105587|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Argh!",
+    "translation": "Argh !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00026F52|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "MS12QuintusAboutPowderTopic",
+    "original": "Tell me about the mammoth tusk powder.",
+    "translation": "Parlez-moi de la poudre de défense de mammouth.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000BFC4F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "It means you have the dragon blood - you have an inborn ability to use your Voice the way dragons do.",
+    "translation": "Cela veut dire que vous avez le sang de dragon. Vous possédez la capacité innée d'utiliser votre Voix de la même façon que les dragons.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000BFC4F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "The old tales tell of Dragonborn heroes who slew dragons and took their power.",
+    "translation": "Les anciens récits parlent d'Enfants de dragon qui tuaient les dragons et leur volaient leur pouvoir.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000BFC4F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "It seems those tales are true.",
+    "translation": "Il semblerait que ces récits soient vrais.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000BFC4F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "With the dragons returning, and now a Dragonborn appearing... maybe the Greybeards know what it all means.",
+    "translation": "Le retour des dragons, l'apparition d'un Enfant de dragon... Peut-être que les Grises-barbes savent ce que ça signifie.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0007EAAD|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "I trust that you'll inform me as soon as the staff is recovered.",
+    "translation": "Je compte sur vous pour me prévenir dès que vous aurez retrouvé le Bâton.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0007EAAE|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "I hope Mirabelle is helpful in locating the staff.",
+    "translation": "J'espère que Mirabelle vous aidera à mettre la main sur le Bâton.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000A27D0|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Remember, the Sanctuary is in the southern pine forest. Just beneath the road, and away from prying eyes.",
+    "translation": "N'oubliez pas, le sanctuaire est au sud de la pinède. À l'écart de la route et des yeux indiscrets.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000B2DAE|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "You here to apply at the Bards College? Well, don't bother - you're too damned old. Start past four, and it's all wasted effort.",
+    "translation": "Vous voulez vous inscrire à l'Académie des bardes ? Ce n'est pas la peine, vous avez bien dépassé l'âge. Lorsque l'on commence après quatre ans, c'est une perte de temps et d'efforts.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E769C|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Meals are served to bards at designated times. Find an inn if you want to make requests.",
+    "translation": "Les repas des bardes sont servis à heures fixes. Si vous avez une petite faim, trouvez-vous une taverne.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000362C5|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Rules, is it, Tsavani? I didn't realize that eating moon sugar was permitted.",
+    "translation": "C'est génial, hein, Tsavani ? Au fait, je croyais que c'était interdit de manger du sucrelune.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003A952|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Master Cruel-Sea comes and works the fields sometimes. I don't think the mistress likes it, but she won't come out here to catch him.",
+    "translation": "Maître Cruellemer vient parfois travailler au champ. Je ne crois pas que ça réjouisse la maîtresse, mais elle ne va pas venir le chercher ici.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000413B6|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "DialogueMorthalAslfurInitBranchTopic",
+    "original": "What was that argument outside the hall?",
+    "translation": "C'était quoi, cette dispute à l'extérieur ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D767B|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": "MQ302TulliusTryingToWinAWar",
+    "original": "That's what comes of trying to win a war with a bare handful of legions. If the Emperor would just give me the reinforcements I've requested!",
+    "translation": "Voilà ce qui arrive quand on essaie de gagner une guerre avec une poignée de troupes. Si seulement l'empereur acceptait de m'envoyer les renforts que j'ai demandés !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00054775|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "There's some trouble in The Pale. We need you to go in and clear out an enemy stronghold.",
+    "translation": "Il y a de l'agitation au Clos. Vous devez pénétrer dans une forteresse ennemie et chasser tous ses occupants.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00054776|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "There's always some sort of trouble in The Reach, but a local warlord has raised the stakes. We have to handle the situation.",
+    "translation": "Il y a toujours de l'agitation à la Crevasse, mais un seigneur de guerre local a mis le feu aux poudres. Nous devons régler cette situation.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E1593|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "I grew up in The Pale. This land was my home for most of my life... and for a Dunmer, that's quite a statement, I assure you.",
+    "translation": "J'ai grandi au Clos. J'ai vécu la plus grande partie de ma vie dans cette région, et pour un Dunmer, ce n'est pas quelque chose d'anodin, je vous assure.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000596EB|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "MG08Stage10TolfdirBranchTopic",
+    "original": "What do we do now?",
+    "translation": "Et maintenant, qu'est-ce qu'on fait ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000596F5|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "You're the one with the staff, my boy.",
+    "translation": "C'est vous qui avez le bâton, mon garçon.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000596F6|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "You're the one with the staff, my dear.",
+    "translation": "C'est vous qui avez le bâton, ma chère.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0005C61C|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "MS05BardsCollegeInductionTopic2",
+    "original": "So I'm a bard?",
+    "translation": "Alors, comme ça, je suis barde ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0005C61E|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Yes. Congratulations, you are now a full-fledged member of the Bards College.",
+    "translation": "Oui. Félicitations, vous êtes désormais un membre à part entière de l'Académie des bardes !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0005C61E|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Due to your adventurous nature several of the college professors have some things they wish you to do.",
+    "translation": "Votre nature aventureuse a donné des idées à plusieurs professeurs de l'Académie et ils ont quelques services à vous demander.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0005C61E|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "What's more, Elisif has declared the Burning of King Olaf should become a weekly event.",
+    "translation": "En outre, Élisif a déclaré que la Crémation du roi Olaf deviendrait une fête hebdomadaire.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0005C61E|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "And finally, there's the matter of the patronage that Elisif wanted me to give you.",
+    "translation": "Enfin, il reste le problème de l'argent qu'Élisif voulait que je vous donne.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0006099B|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "He founded the Empire, and now they've turned their back on him. To appease your kind, Elf. Do your people rule Skyrim, or do the Nords?",
+    "translation": "Il a fondé l'Empire et ils lui tournent le dos. Pour apaiser votre peuple, Elfe. Sont-ce les Elfes qui règnent sur Bordeciel, ou les Nordiques ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00063FE7|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Ah ha! Here we are. Honored guests, I present to you - the Gourmet!",
+    "translation": "A-ha ! Nous y voilà. Mes chers invités, je vous présente... le Gourmet !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0006A053|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Last I'd heard, he was crossing the border from Morrowind into The Rift.",
+    "translation": "Aux dernières nouvelles, il venait de traverser la frontière de Morrowind et arrivait à la Brèche.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000717A1|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Well, if some moon sugar should fall into your lap...",
+    "translation": "Si jamais vous tombez sur du sucrelune...",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00099CF7|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Tread lightly in the hall. We don't know what's in there.",
+    "translation": "Faites bien attention où vous mettez les pieds, nous ne savons pas ce qui nous attend.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0007EC40|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Again? You just had an \"extended hunt\" last month. To the pine forest, wasn't it?",
+    "translation": "Encore ? Mais tu viens de \"partir à la chasse\" le mois dernier. Dans la pinède, si je ne m'abuse.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000875D9|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "This is quite an achievement, Dragonborn. And General Tullius... Riften is ours!",
+    "translation": "Quel exploit, Enfant de dragon ! Et général Tullius. Faillaise est à nous.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00089985|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Not everyone has the stomach required to entreat my Lord. But Kesh likes you, friend. There is a way Peryite may speak to us who will take Him in.",
+    "translation": "Tout le monde n'a pas le cran de se soumettre à mon seigneur. Mais Kesh vous aime bien. Il se pourrait que Péryite consente à nous parler si nous L'acceptons.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00089985|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "If you wish to commune with him, we'll need the incense.",
+    "translation": "Si vous souhaitez communier avec Lui, il nous faudra de l'encens.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00093743|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "LodBookOfferTopic03",
+    "original": "A book?",
+    "translation": "Un livre ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0009374F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Yeah, if you're interested then I'll give you the book for free. If you like it you can come back later and I'll have other stuff.",
+    "translation": "Oui, si ça vous dit, je vous le donne. S'il vous plaît, vous pourrez toujours revenir me voir, j'aurai d'autres choses à vous proposer.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0009374F|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "I mean, it don't cost me anything to let you have one and the dead won't notice their stuff missing. heh.",
+    "translation": "Ça ne me coûte rien de vous en donner un, et les morts ne risquent pas de remarquer qu'on les dépouille, hein.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00093765|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "DA01AzuraFinalTopic02",
+    "original": "I dislike the Daedra looking into my future.",
+    "translation": "Je n'apprécie pas que les Daedras s'intéressent à mon avenir.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00093771|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "DA01AzuraEnterStarTopic02",
+    "original": "Then why don't you remove it? Aren't you a Daedra?",
+    "translation": "Dans ce cas, pourquoi ne pas vous en débarrasser ? N'êtes-vous pas Daedra ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000B5EFF|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "MG06ParatusStage55FindStaff1",
+    "original": "Can you help me find the Staff of Magnus or not?",
+    "translation": "Vous pouvez m'aider à trouver le Bâton de Magnus, oui ou non ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000B5F77|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Yes, the staff. Interesting...",
+    "translation": "Oui, le bâton. Intéressant...",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C277C|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "The staff! Use it on the Eye!",
+    "translation": "Le bâton ! Utilisez-le sur l'Oeil !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C2CFF|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "DA13NeedSPeakPeryiteAgainTopic",
+    "original": "May I commune with Peryite again?",
+    "translation": "Puis-je encore entrer en communion avec Peryite ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C2D04|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "The vapors are waning, but not yet gone. Take a breath. Peryite will speak if he sees fit.",
+    "translation": "Les vapeurs se dissipent, mais il en reste encore. Inspirez profondément. Péryite parlera s'Il le souhaite.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C4420|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "DialogueRiftenLailaBranchInPowerTopic",
+    "original": "What's your stance on the war?",
+    "translation": "Quelle est votre position au sujet de la guerre ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C4424|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "While I feel Ulfric's cause is just, my concern is for the people of The Rift.",
+    "translation": "La cause d'Ulfric est juste, d'une certaine manière, mais je me soucie des citoyens de la Brèche.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C4424|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "How can they continue to lead their already meager lives with dark clouds looming overhead?",
+    "translation": "Comment peuvent-ils poursuivre leurs vies déjà misérables en voyant la tempête qui s'annonce à l'horizon ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C4424|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "My heart goes out to them. If only our coffers were deeper, I could protect them as they were my own family.",
+    "translation": "Je compatis de tout mon coeur. Si seulement nos coffres étaient mieux remplis, je pourrais les protéger comme s'ils étaient ma propre famille.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000CC82D|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "DialogueGenericVigilantsOfStendarrDeadraTopic",
+    "original": "What's dangerous about Daedra?",
+    "translation": "Qu'est-ce que les Daedras ont de dangereux ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D0516|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Cut him down!",
+    "translation": "Taillez-les en pièces !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D3E4C|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "MS01EltrysWeylinTopic",
+    "original": "Who was Weylin? Where did he live?",
+    "translation": "Qui était Weylin ? Et où vivait-il ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D3E51|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "He was one of the smelter workers. I used to have a job down there myself, casting silver ingots.",
+    "translation": "Il faisait partie des ouvriers de la fonderie. J'ai travaillé là-bas moi aussi, je fondais des lingots d'argent.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D3E51|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "I never knew much about Weylin, except he lives in The Warrens, like all the other workers.",
+    "translation": "Je ne savais pas grand-chose au sujet de Weylin, à part qu'il vivait dans les Galeries, comme tous les autres ouvriers.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D664F|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "MS01GarveyBribe",
+    "original": "How about now? (<BribeCost> gold)",
+    "translation": "Pourquoi pas maintenant ? (<BribeCost> pièces d'or)",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D66C6|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Welcome to The Warrens.",
+    "translation": "Bienvenue dans les Galeries.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D6654|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "MS01MulushWeylinKeyTopic",
+    "original": "Do you have the key to Weylin's room?",
+    "translation": "Vous avez la clé de la chambre de Weylin ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D66AE|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "You want Garvey. He handles the keys for The Warrens. About the only thing that disease-riddled native is good for.",
+    "translation": "Allez voir Garvey. Il s'occupe des clés des Galeries. C'est à peu près la seule chose dont cet infirme soit capable.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D6656|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "MS01MulushMarketTopic",
+    "original": "Do you own this smelter?",
+    "translation": "Cette fonderie vous appartient ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00055369|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Me and Hathrasil mostly. Mulush barks at us all day, but I wouldn't call that honest work.",
+    "translation": "Surtout moi et Hathrasil. Mulush nous hurle dessus toute la journée, mais on ne peut pas dire qu'il s'agisse d'un travail satisfaisant.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00055369|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "A few people in The Warrens used to work here. Degaine broke some bones a while back. Eltrys quit. Cairine is too sick.",
+    "translation": "Quelques-uns qui venaient des Galeries travaillaient ici, avant. Degaine s'est cassé des os il y a quelque temps. Eltrys a arrêté. Cairine est trop malade.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00055369|Skyrim.esm",
+    "type": "INFO RNAM",
+    "editor_id": null,
+    "original": "Who else works here?",
+    "translation": "Qui d'autre travaille ici ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D8E25|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "TGFenceCaravanRisaadBranchTopic02",
+    "original": "Perhaps this will sweeten the deal? (Give satchel)",
+    "translation": "Peut-être que ceci fera mieux passer la chose ? (Donner la sacoche.)",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D8E34|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Ah, moon sugar. I could smell it on you. I am pleased with this offer, and accept.",
+    "translation": "Ah, du sucrelune. Je sens son odeur sur vous. Cette offre me convient tout à fait, je l'accepte.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D8E34|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Take my word to the leaders of your guild and tell them we look forward to a prosperous and profitable future.",
+    "translation": "Dites aux dirigeants de votre guilde que nous avons hâte de partager un avenir prospère et fructueux avec eux.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D8E34|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "If you happen upon any of our caravans in your travels, we'd also be more than willing to pay you a fair sum for any of your stolen goods.",
+    "translation": "Si vous croisez une de nos caravanes au cours de vos pérégrinations, nous serions enchantés de vous acheter vos biens volés à prix d'or.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D8E2C|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "TGFenceCaravanTonMoonSugarBranchTopic",
+    "original": "What's moon sugar?",
+    "translation": "C'est quoi, le sucrelune ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D8E3E|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "It's an illegal substance highly favored by the Khajiit. Very difficult to come by.",
+    "translation": "C'est une substance illicite dont les Khajiits raffolent, mais il est très difficile de s'en procurer.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D8E3E|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "If moon sugar is refined properly, it can be used to make skooma, another substance that will knock you over after a single draught.",
+    "translation": "Raffiné correctement, le sucrelune peut servir à préparer du skooma, une autre substance capable de vous envoyer au tapis au bout d'un seul verre.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D8E2D|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "TGFenceCaravanBranchTopic03",
+    "original": "You want me to go talk to Ri'saad?",
+    "translation": "Vous voulez que j'aille parler à Ri'saad ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D8E31|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Actually, I want you to bring him something. You see, the caravans are notorious for transporting illegal substances.",
+    "translation": "En fait, je voudrais que vous lui apportiez quelque chose. Ces caravanes sont connues pour transporter des substances illicites, vous voyez.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000D8E31|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Present Ri'saad with this satchel of moon sugar, and I bet my last septim he'll make a deal.",
+    "translation": "Montrez ce sac de sucrelune à Ri'saad et je suis prête à parier qu'il acceptera de négocier.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000DC161|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "TGTQ02ErikurBalmoraBlueInfoBranchTopic",
+    "original": "What exactly is Balmora Blue?",
+    "translation": "C'est quoi, au juste, le Bleu de Balmora ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000DC16B|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Not sure. I know that it starts with moon sugar, but all sorts of other ingredients are added to increase its potency.",
+    "translation": "Je n'en sais trop rien... Je sais qu'il y a du sucrelune, mais il faut y ajouter toutes sortes d'autres ingrédients pour en améliorer la puissance.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000DC16B|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Used to be a lucrative underworld commodity when Balmora was still standing. Now the stuff is beyond valuable.",
+    "translation": "C'était un produit de marché noir très lucratif, à l'époque où Balmora existait encore. Aujourd'hui, ce truc est sans prix...",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000DC16B|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "It's also very illegal. Anyone caught with Balmora Blue looks forward to rotting in jail for a very long time.",
+    "translation": "Cela dit, il est aussi totalement illégal. Toute personne arrêtée en possession de bleu de Balmora risque de moisir au cachot pendant un long moment.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E3605|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "I'll be damned. Someone who actually escaped Cidhna Mine. You're the talk of The Warrens.",
+    "translation": "Ça alors. Quelqu'un qui a réussi à sortir de la Mine de Cidhna. On ne parle que de vous dans les Galeries.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E3606|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "You escaped Cidhna Mine? With Madanach? Everyone in The Warrens has been praising your name.",
+    "translation": "C'est vous qui avez réussi à vous échapper de la Mine de Cidhna ? Avec Madanach ? Tout le monde dans les Galeries chante vos louanges.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E7265|Skyrim.esm",
+    "type": "DIAL FULL",
+    "editor_id": "BardsCollegePoeticEddaGiraudTaskTopic",
+    "original": "Is the Edda complete now that you have King Olaf's Verse?",
+    "translation": "L'Edda est-il complet, maintenant que vous avez le Sonnet du roi Olaf ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E739D|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "The Poetic Edda is never truly complete. As a living history of Skyrim we Bards continually add parts to it.",
+    "translation": "L'Edda poétique n'est jamais vraiment terminée. C'est une sorte d'histoire vivante de Bordeciel à laquelle nous autres, bardes, contribuons en permanence.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000E739D|Skyrim.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "In fact, If you collected parts of the Edda from any Bard you encountered in your travels I would be willing to pay you for them.",
+    "translation": "En fait, si vous avez récupéré des parties de l'Edda auprès de bardes que vous avez pu croiser lors de vos pérégrinations, je vous les achèterais volontiers.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02005D99|Dawnguard.esm",
+    "type": "INFO NAM1",
+    "editor_id": "DLC1VQElderShared02",
+    "original": "Scattered across Tamriel are secluded locations known only as Ancestor Glades. There's one in Skyrim, in the pine forest.",
+    "translation": "Les Clairières de l'ancêtre sont des lieux isolés, éparpillés dans tout Tamriel. Il y en a une en Bordeciel, dans la pinède.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "02005D99|Dawnguard.esm",
+    "type": "INFO NAM1",
+    "editor_id": "DLC1VQElderShared02",
+    "original": "Performing the Ritual of the Ancestor Moth within the glade should provide the answers you seek.",
+    "translation": "Accomplissez le rituel de la Phalène ancestrale dans la clairière et vous devriez obtenir les réponses que vous cherchez.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "030163F0|HearthFires.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Skeever brain!",
+    "translation": "Cervelle de ragnard !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "030163F4|HearthFires.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Wolf breath!",
+    "translation": "Haleine de renard !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "030163F7|HearthFires.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Horker face!",
+    "translation": "Tête de horqueur !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "03016401|HearthFires.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Elf ears!",
+    "translation": "Oreilles d'Elfe !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "03016404|HearthFires.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Draugr breath!",
+    "translation": "Haleine de draugr !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0301640A|HearthFires.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "Mammoth nose!",
+    "translation": "Pif de mammouth !",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0401C049|Dragonborn.esm",
+    "type": "DIAL FULL",
+    "editor_id": "DLC2TTR5TellMeMore",
+    "original": "What about them?",
+    "translation": "Plus ou moins, pourquoi ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0401C056|Dragonborn.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "They are fierce warriors of the Forsworn tribes.",
+    "translation": "Ce sont les plus féroces guerriers des tribus de Parjures.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0401C056|Dragonborn.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "They actually remove their own hearts, and replace them with large briar seeds. It puts their lifesparks in direct connection to the natural forces.",
+    "translation": "Ils remplacent leur propre coeur par des graines de ronciers pour créer un lien direct entre leur essence vitale et les forces de la nature.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0401C056|Dragonborn.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "I need you to examine one of them. Just investigate as much as you can.",
+    "translation": "Je veux que vous examiniez un de ces guerriers pour moi. Dans les moindres détails.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0401C056|Dragonborn.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "I'm going to put this memory trace spell on you, so you won't have to worry about taking notes. I doubt you could know what was important anyway.",
+    "translation": "Je vais placer ce sort de mémoire sur vous, ça vous évitera d'avoir à prendre des notes. Vous ne sauriez pas quoi écrire, de toute façon.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "04039FBF|Dragonborn.esm",
+    "type": "INFO NAM1",
+    "editor_id": null,
+    "original": "You are too young to remember the Nerevarine. Defeated Dagoth Ur and saved us all from the blight.",
+    "translation": "Vous êtes trop jeune pour vous souvenir du Nérévarine, le héros qui a vaincu Dagoth Ur et nous a tous sauvés du fléau.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0001F7A3|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "MS11",
+    "original": "Windhelm is plagued by a shadowy killer. I have entered Hjerim and should investigate anything of interest.",
+    "translation": "J'ai découvert que Calixto Corrium n'était autre que le Boucher de Vendeaume et j'ai permis de le faire arrêter.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00029940|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWObj",
+    "original": "I will help General Tullius quell the Stormcloak rebellion and reunite Skyrim by restoring Imperial control.",
+    "translation": "Je vais aider le général Tullius à réprimer la rébellion des Sombrages et à unir à nouveau Bordeciel sous l'autorité impériale.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00029940|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWObj",
+    "original": "I will help Ulfric Stormcloak liberate Skyrim from Imperial control.",
+    "translation": "Je vais aider Ulfric Sombrage à libérer Bordeciel du joug impérial.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00029940|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWObj",
+    "original": "We have successfully quelled the rebellion by killing Ulfric Stormcloak and have reunited Skyrim under Imperial control.",
+    "translation": "Nous avons réussi à réprimer la rébellion en tuant Ulfric Sombrage et à unir à nouveau Bordeciel sous l'autorité impériale.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00029940|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWObj",
+    "original": "We have won the war by taking Solitude and killing General Tullius, and have liberated Skyrim from Imperial control.",
+    "translation": "Nous avons gagné la guerre en prenant Solitude et en tuant le général Tullius. Nous avons libéré Bordeciel du joug impérial.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00035A23|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWMission04",
+    "original": "<Alias=FieldCO> has sent me to <Alias=AttackPoint>. I am to meet up with some scouts who will help me break into the fort's prison. I will then break out some fellow Legionnaires held captive there and take over the fort.",
+    "translation": "On m'a demandé de me rendre à <Alias=AttackPoint>. Je dois y retrouver des éclaireurs qui m'aideront à pénétrer dans les geôles, libérer les Légionnaires qui y sont retenus prisonniers et reprendre le fort.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00035A23|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWMission04",
+    "original": "<Alias=FieldCO> has sent me to <Alias=AttackPoint>. I am to meet up with some scouts who will help me break into the fort's prison. I will then break out some fellow Stormcloaks held captive there and take over the fort.",
+    "translation": "On m'a demandé de me rendre à <Alias=AttackPoint>. Je dois y retrouver des éclaireurs qui m'aideront à pénétrer dans les geôles, libérer les Sombrages qui y sont retenus prisonniers et reprendre le fort.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "0003B681|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "DA06",
+    "original": "After Malacath ordered him to retake the shrine in Fallowstone Cave, Yamarz insisted that I escort him there to make sure he arrived safely. Now he has offered to pay me even more in exchange for killing the giant myself, to which I have agreed.",
+    "translation": "Après que Malacath lui ait ordonné de reprendre l'autel de la Grotte de Rochebrune, Yamarz a insisté pour que je l'y escorte. Il m'a offert de me payer encore davantage si je tue le géant à sa place et j'ai accepté.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "0003B681|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "DA06",
+    "original": "After Malacath ordered him to retake the shrine in Fallowstone Cave, Yamarz insisted that I escort him there to make sure he arrived safely. He offered to pay me even more in exchange for killing the giant myself, but I declined. Yamarz died trying to fight the giant, so I suppose it's up to me now.",
+    "translation": "Après que Malacath lui ait ordonné de reprendre l'autel de la Grotte de Rochebrune, Yamarz a insisté pour que je l'y escorte. Il m'a offert de me payer encore davantage pour que je tue le géant à sa place, mais j'ai refusé. Yamarz est mort en combattant le géant, on dirait donc que l'issue du problème dépend maintenant de moi.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00096E71|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWSiegeObj",
+    "original": "Ulfric Stormcloak has ordered me to join Galmar Stone-Fist in taking the city of Whiterun.",
+    "translation": "Ulfric Sombrage m'a donné l'ordre de rejoindre Galmar Rudepoing pour prendre la ville de Blancherive.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00096E71|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWSiegeObj",
+    "original": "The Stormcloaks are attacking Whiterun. I have been ordered to defend the outer walls and keep the rebels from taking the city.",
+    "translation": "Les Sombrages attaquent Blancherive. J'ai reçu l'ordre de défendre les remparts extérieurs et d'empêcher les rebelles de prendre la ville.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00096E71|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWSiegeObj",
+    "original": "I am to join Ulfric Stormcloak in the final attack on Solitude, putting an end to the Imperial Legion in Skyrim, once and for all.",
+    "translation": "Je dois rejoindre Ulfric Sombrage pour l'attaque finale sur Solitude, afin de chasser la Légion impériale de Bordeciel une bonne fois pour toutes.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00096E71|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWSiegeObj",
+    "original": "I am to join General Tullius in the final attack on Windhelm, putting an end to the Stormcloak rebellion, once and for all.",
+    "translation": "Je dois rejoindre le général Tullius pour l'attaque finale sur Vendeaume, afin de mettre fin à la rébellion des Sombrages une bonne fois pour toutes.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00096E71|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWSiegeObj",
+    "original": "We have taken the city of Whiterun. Proving the righteousness of our cause and the fierceness of our warriors.",
+    "translation": "Nous avons pris la ville de Blancherive. Nous avons prouvé la probité de notre cause et le courage de nos guerriers.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00096E71|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWSiegeObj",
+    "original": "We have successfully defended the city of Whiterun. Demonstrating the weakness of the rebels' cause and the excellence of the Imperial Legion.",
+    "translation": "Nous avons réussi à défendre la ville de Blancherive. Nous avons prouvé l'inutilité de la cause des rebelles et l'excellence de la Légion impériale.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00096E71|Skyrim.esm",
+    "type": "QUST CNAM",
+    "editor_id": "CWSiegeObj",
+    "original": "We have captured Windhelm, killed Ulfric Stormcloak, and destroyed the rebellion.",
+    "translation": "Nous avons capturé Vendeaume, tué Ulfric Sombrage et anéanti la rébellion.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "040209AE|Dragonborn.esm",
+    "type": "QUST CNAM",
+    "editor_id": "DLC2WB01",
+    "original": "I met Wulf Wild-Blood, who told me about his brother Torkild running off many years ago. Wulf's worst fears of his brother proved true, unfortunately. I found Torkild wandering Solstheim, out of his mind. I killed him before he could hurt me, and should tell Wulf the sad news. ",
+    "translation": "J'ai rencontré Lupe Sang-Féroce. Il m'a parlé de son frère Torkild, qui s'est enfui il y a bien longtemps. Les pires craintes de Lupe concernant son frère se sont malheureusement avérées. J'ai retrouvé Torkild errant à Solstheim : il avait perdu la tête. Je l'ai tué avant qu'il ne m'attaque et je dois annoncer cette triste nouvelle à Lupe.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "040209AE|Dragonborn.esm",
+    "type": "QUST CNAM",
+    "editor_id": "DLC2WB01",
+    "original": "I met Wulf Wild-Blood, who told me about his brother Torkild running off many years ago. Wulf's worst fears of his brother proved true, unfortunately. I found Torkild wandering Solstheim, out of his mind. Before my eyes, he transformed into a werebear, and attacked. I was forced to kill him to defend myself. I should tell Wulf the sad news. ",
+    "translation": "J'ai rencontré Lupe Sang-Féroce. Il m'a parlé de son frère Torkild, qui s'est enfui il y a bien longtemps. Les pires craintes de Lupe concernant son frère se sont malheureusement avérées. J'ai retrouvé Torkild errant à Solstheim : il avait perdu la tête. J'ai dû le tuer pour me défendre et je dois annoncer cette triste nouvelle à Lupe.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "040209AE|Dragonborn.esm",
+    "type": "QUST CNAM",
+    "editor_id": "DLC2WB01",
+    "original": "I met Wulf Wild-Blood, who told me about his brother Torkild running off many years ago. Wulf's worst fears of his brother proved true, unfortunately. I found Torkild wandering Solstheim, out of his mind, and I killed him before he could hurt me. I told Wulf the sad story of his brother's final chapters, and he taught me how to fight better for setting his mind to rest.",
+    "translation": "J'ai rencontré Lupe Sang-Féroce. Il m'a parlé de son frère Torkild, qui s'est enfui il y a bien longtemps. Les pires craintes de Lupe concernant son frère se sont malheureusement avérées. J'ai retrouvé Torkild errant à Solstheim : il avait perdu la tête. Je l'ai tué avant qu'il ne m'attaque. Lorsque j'ai raconté à Lupe ce que son frère était devenu, il a calmé ses esprits en m'enseignant quelques techniques de combat.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "040209AE|Dragonborn.esm",
+    "type": "QUST CNAM",
+    "editor_id": "DLC2WB01",
+    "original": "I met Wulf Wild-Blood, who told me about his brother Torkild running off many years ago. Wulf's worst fears of his brother proved true, unfortunately. I found Torkild wandering Solstheim, out of his mind. Before my eyes, he transformed into a werebear, and attacked. I was forced to kill him to defend myself. I told Wulf the sad story of his brother's final chapters, and he taught me how to fight better for setting his mind to rest.",
+    "translation": "J'ai rencontré Lupe Sang-Féroce. Il m'a parlé de son frère Torkild, qui s'est enfui il y a bien longtemps. Les pires craintes de Lupe concernant son frère se sont malheureusement avérées. J'ai retrouvé Torkild errant à Solstheim : il avait perdu la tête. Il s'est transformé en ours-garou sous mes propres yeux avant de m'attaquer. J'ai dû le tuer pour me défendre. Lorsque j'ai raconté à Lupe ce que son frère était devenu, il a calmé ses esprits en m'enseignant quelques techniques de combat.",
+    "match_type": "Exact Original"
+  },
+  {
+    "form_id": "00058F75|Skyrim.esm",
+    "type": "PERK FULL",
+    "editor_id": "Allure",
+    "original": "Allure",
+    "translation": "Charme",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00058F75|Skyrim.esm",
+    "type": "PERK DESC",
+    "editor_id": "Allure",
+    "original": "10% better prices with the opposite sex.",
+    "translation": "Prix 10% moins cher avec les personnes de l'autre sexe.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000BE128|Skyrim.esm",
+    "type": "PERK FULL",
+    "editor_id": "Haggling00",
+    "original": "Haggling",
+    "translation": "Négociation",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000BE128|Skyrim.esm",
+    "type": "PERK DESC",
+    "editor_id": "Haggling00",
+    "original": "Buying and selling prices are 10% better.",
+    "translation": "Les prix d'achats et de vente sont plus intéressants de 10 %.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C07CE|Skyrim.esm",
+    "type": "PERK FULL",
+    "editor_id": "Haggling20",
+    "original": "Haggling",
+    "translation": "Négociation",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C07CE|Skyrim.esm",
+    "type": "PERK DESC",
+    "editor_id": "Haggling20",
+    "original": "Buying and selling prices are 15% better.",
+    "translation": "Les prix d'achats et de vente sont plus intéressants de 15 %.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C07CF|Skyrim.esm",
+    "type": "PERK FULL",
+    "editor_id": "Haggling40",
+    "original": "Haggling",
+    "translation": "Négociation",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C07CF|Skyrim.esm",
+    "type": "PERK DESC",
+    "editor_id": "Haggling40",
+    "original": "Buying and selling prices are 20% better.",
+    "translation": "Les prix d'achats et de vente sont plus intéressants de 20 %.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C07D0|Skyrim.esm",
+    "type": "PERK FULL",
+    "editor_id": "Haggling60",
+    "original": "Haggling",
+    "translation": "Négociation",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C07D0|Skyrim.esm",
+    "type": "PERK DESC",
+    "editor_id": "Haggling60",
+    "original": "Buying and selling prices are 25% better.",
+    "translation": "Les prix d'achats et de vente sont plus intéressants de 25 %.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C07D1|Skyrim.esm",
+    "type": "PERK FULL",
+    "editor_id": "Haggling80",
+    "original": "Haggling",
+    "translation": "Négociation",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000C07D1|Skyrim.esm",
+    "type": "PERK DESC",
+    "editor_id": "Haggling80",
+    "original": "Buying and selling prices are 30% better.",
+    "translation": "Les prix d'achats et de vente sont plus intéressants de 30 %.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "000192BB|Skyrim.esm",
+    "type": "LCTN FULL",
+    "editor_id": "ThroatoftheWorldLocation",
+    "original": "Throat of the World",
+    "translation": "Gorge du Monde",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "00072B1D|Skyrim.esm",
+    "type": "LCTN FULL",
+    "editor_id": "WhistlingMineInteriorLocation",
+    "original": "Whistling Mine",
+    "translation": "Mine de Sifflotte",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003E6BD|Skyrim.esm",
+    "type": "MESG DESC",
+    "editor_id": "ValthumeUrnMessage",
+    "original": "Which part would you like to place?",
+    "translation": "Quelle partie souhaitez-vous placer ?",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003E6BD|Skyrim.esm",
+    "type": "MESG ITXT",
+    "editor_id": "ValthumeUrnMessage",
+    "original": "Do Nothing",
+    "translation": "Je ne fais rien",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003E6BD|Skyrim.esm",
+    "type": "MESG ITXT",
+    "editor_id": "ValthumeUrnMessage",
+    "original": "Brain",
+    "translation": "Cervelle",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003E6BD|Skyrim.esm",
+    "type": "MESG ITXT",
+    "editor_id": "ValthumeUrnMessage",
+    "original": "Heart",
+    "translation": "Coeur",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "0003E6BD|Skyrim.esm",
+    "type": "MESG ITXT",
+    "editor_id": "ValthumeUrnMessage",
+    "original": "Lungs",
+    "translation": "Poumons",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "091022EA|Unofficial Skyrim Special Edition Patch.esp",
+    "type": "MESG DESC",
+    "editor_id": "USKPWeaponRackNoCrossBowMESSAGE",
+    "original": "You cannot place a crossbow on this rack.",
+    "translation": "Il semble que cette arbalète ne puisse pas tenir sur ce râtelier.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "091022EB|Unofficial Skyrim Special Edition Patch.esp",
+    "type": "MESG DESC",
+    "editor_id": "USKPWeaponRackWeaponDisallowedMESSAGE",
+    "original": "You cannot place this weapon on a rack.",
+    "translation": "Il semble que cette arme ne puisse pas tenir sur ce râtelier.",
+    "match_type": "FormID+Type+Index"
+  },
+  {
+    "form_id": "094461A1|Unofficial Skyrim Special Edition Patch.esp",
+    "type": "MESG DESC",
+    "editor_id": "USSEPFishPlaquFixNotification",
+    "original": "Fish display plaques in this save game have been corrected. Any fish you had on display should now be in your inventory. You will need to place them again. See USSEP Bug #32450 for more information.",
+    "translation": "Vos poissons-trophées de la partie en cours ont été corrigés. Les poissons que vous exposiez en trophée devraient maintenant se retrouver dans votre inventaire. Vous pouvez les placer à nouveau. Voir le bug #32450 de l'USSEP pour plus d'informations.",
+    "match_type": "FormID+Type+Index"
+  }
+]

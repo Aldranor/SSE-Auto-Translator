@@ -1,0 +1,858 @@
+[
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "000B602D|Skyrim.esm",
+    "type": "ENCH FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "0007E8E1|Skyrim.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "000C969E|Skyrim.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "00105F23|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Sprinting while sneaking executes a silent forward roll.",
+    "translation": "Courir en furtivité fait exécuter une roulade avant.",
+    "en_concepts": [
+      "silent"
+    ],
+    "fr_concepts": [
+      "sprint"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Amulettes de Bordeciel",
+    "file": "SL01AmuletsSkyrim.esp.json",
+    "form_id": "0402D167|SL01AmuletsSkyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Can pickpocket equipped items. Lockpicks never break.",
+    "translation": "Les outils de crochetage sont indestructibles. Permet de voler des objets équipés.",
+    "en_concepts": [
+      "pickpocket"
+    ],
+    "fr_concepts": [
+      "lockpick"
+    ],
+    "len_ratio": 1.71
+  },
+  {
+    "mod": "Amulettes de Bordeciel",
+    "file": "SL01AmuletsSkyrim.esp.json",
+    "form_id": "0402D166|SL01AmuletsSkyrim.esp",
+    "type": "PERK DESC",
+    "original": "Lockpicks never break.Can pickpocket equipped items.",
+    "translation": "Les outils de crochetage sont indestructibles. Permet de voler des objets équipés.",
+    "en_concepts": [
+      "pickpocket"
+    ],
+    "fr_concepts": [
+      "lockpick"
+    ],
+    "len_ratio": 2.0
+  },
+  {
+    "mod": "Arbre de compétence des Compagnons",
+    "file": "Companionsskillltree.esp.json",
+    "form_id": "0400080D|Companionsskillltree.esp",
+    "type": "PERK DESC",
+    "original": "Your Magicka regenerates 5% faster. You absorbe 2% of incomming spells and reflect 2% of melee damage back on your opponents.",
+    "translation": "Votre magie se régénère 5 % plus rapidement. Vous absorbez 2 % des sorts et renvoyez 2 % des dégâts de mêlée de vos adversaires.",
+    "en_concepts": [
+      "reflect"
+    ],
+    "fr_concepts": [
+      "absorb"
+    ],
+    "len_ratio": 1.19
+  },
+  {
+    "mod": "Enfant du Tonnerre - Immersion et Cris épiques",
+    "file": "Thunderchild - Epic Shout Package.esp.json",
+    "form_id": "040162AA|Thunderchild - Epic Shout Package.esp",
+    "type": "MGEF DNAM",
+    "original": "Enhances your Fire Breath and Frost Breath shouts with an elemental blast that deals additional damage.",
+    "translation": "Améliore vos Souffle ardent et Souffle glacé en y ajoutant une explosion élémentale infligeant des dégâts supplémentaires.",
+    "en_concepts": [
+      "shout"
+    ],
+    "fr_concepts": [
+      "craft"
+    ],
+    "len_ratio": 1.06
+  },
+  {
+    "mod": "Immortel - Lichification classique",
+    "file": "UndeathFixes.esp.json",
+    "form_id": "0500AA38|UndeathFixes.esp",
+    "type": "PERK DESC",
+    "original": "Increase your dominion over your minions with the power of the Worm King himself. At a necromantic altar, you may use one filled black soul gem to craft a scroll, allowing you to command one additional minion for 8 hours. This effect may stack up to 12 times.",
+    "translation": "Augmente votre domination sur vos serviteurs avec le pouvoir du Roi des Vers lui-même. Sur un autel nécromantique, vous pouvez utiliser une gemme spirituelle noire remplie pour fabriquer un parchemin, vous permettant de commander un serviteur supplémentaire pendant 8 heures. Cet effet peut être cumulé jusqu'à 12 fois.",
+    "en_concepts": [
+      "craft"
+    ],
+    "fr_concepts": [
+      "soul_trap"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "L'Héritage de l'Enfant de dragon - Patches officiels",
+    "file": "dbm_amuletsofskyrim_patch.esp.json",
+    "form_id": "0602D166|SL01AmuletsSkyrim.esp",
+    "type": "PERK DESC",
+    "original": "Lockpicks never break. Can pickpocket equipped items.",
+    "translation": "Les outils de crochetage sont indestructibles. Permet de voler des objets équipés.",
+    "en_concepts": [
+      "pickpocket"
+    ],
+    "fr_concepts": [
+      "lockpick"
+    ],
+    "len_ratio": 1.71
+  },
+  {
+    "mod": "Les Outils de Kagrénac",
+    "file": "Tools of Kagrenac.esp.json",
+    "form_id": "0402918E|Tools of Kagrenac.esp",
+    "type": "MGEF DNAM",
+    "original": "Emits an impenetrable barrier with a <20>% chance to reflect hostile spells, reduces incoming physical attacks by <35>%, staggering foes alike, and has a small chance to push anything aside (<30> second cooldown).",
+    "translation": "Génère une barrière impénétrable avec 20 % de chances de renvoyer les sorts ennemis, réduit les dégâts des attaques physiques de 35 %, déstabilise les ennemis et petite chance de les écarter (temps de recharge 30 secondes).",
+    "en_concepts": [
+      "reflect",
+      "shout"
+    ],
+    "fr_concepts": [
+      "stagger",
+      "shout"
+    ],
+    "len_ratio": 1.12
+  },
+  {
+    "mod": "LOTD - Patches officiels",
+    "file": "DBM_AmuletsOfSkyrim_Patch.esp.json",
+    "form_id": "0602D166|SL01AmuletsSkyrim.esp",
+    "type": "PERK DESC",
+    "original": "Lockpicks never break. Can pickpocket equipped items.",
+    "translation": "Les outils de crochetage sont indestructibles. Permet de voler des objets équipés.",
+    "en_concepts": [
+      "pickpocket"
+    ],
+    "fr_concepts": [
+      "lockpick"
+    ],
+    "len_ratio": 1.71
+  },
+  {
+    "mod": "Mysticism - Lower Charge Time",
+    "file": "mysticism - spell charge time lowered.esp.json",
+    "form_id": "02011F35|Dawnguard.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Mysticism - Lower Charge Time",
+    "file": "mysticism - spell charge time lowered.esp.json",
+    "form_id": "000C969E|Skyrim.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Mysticism - Lower Charge Time",
+    "file": "mysticism - spell charge time lowered.esp.json",
+    "form_id": "0007E8E1|Skyrim.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Mysticisme - Refonte de la magie",
+    "file": "MysticismMagic.esp.json",
+    "form_id": "0007E8E1|Skyrim.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Mysticisme - Refonte de la magie",
+    "file": "MysticismMagic.esp.json",
+    "form_id": "000B602D|Skyrim.esm",
+    "type": "ENCH FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Mysticisme - Refonte de la magie",
+    "file": "MysticismMagic.esp.json",
+    "form_id": "02011F35|Dawnguard.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Mysticisme - Refonte de la magie",
+    "file": "MysticismMagic.esp.json",
+    "form_id": "000C969E|Skyrim.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0303E720|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF FULL",
+    "original": "Absorb Falls",
+    "translation": "Chutes amorties",
+    "en_concepts": [
+      "absorb"
+    ],
+    "fr_concepts": [
+      "fall_damage"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "00105F23|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Sprinting while sneaking executes a silent forward roll.",
+    "translation": "Courir en furtivité fait exécuter une roulade avant.",
+    "en_concepts": [
+      "silent"
+    ],
+    "fr_concepts": [
+      "sprint"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "030085B1|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Unarmed power attacks do 25% more damage. Additionally, if your movement speed is increased, they do 2% damage per 1% movement speed. Requires two free hands.",
+    "translation": "Les attaques puissantes sans armes infligent 25 % de dégâts supplémentaires. De plus, elles infligeront 2 % de dégâts supplémentaires par 1 % de vitesse de déplacement bonus si cette dernière augmente. Nécessite que vos deux mains soient libres.",
+    "en_concepts": [
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast"
+    ],
+    "len_ratio": 1.5
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0300F229|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Massacre always activates when you take your first two-handed swing in combat. This effect has a 30 second cooldown.",
+    "translation": "Massacre reste toujours actif lorsque vous faites votre premier balancement à deux mains en combat. Ne peut être réalisé qu'une fois toutes les 30 secondes.",
+    "en_concepts": [
+      "shout"
+    ],
+    "fr_concepts": [
+      "dual_cast"
+    ],
+    "len_ratio": 1.32
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03037423|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "A hidden bottle enables you to leave a trail of grease whenever you perform a silent roll in combat. The grease lasts for 10 seconds and staggers running enemies, while sprinting enemies slip and fall to the ground.",
+    "translation": "Exécuter une roulade silencieuse en combat laisse une traînée de graisse sur le sol pendant 10 secondes, déstabilisant les ennemis qui s'y précipitent et renversant ceux qui courent dessus.",
+    "en_concepts": [
+      "sprint",
+      "silent"
+    ],
+    "fr_concepts": [
+      "stagger"
+    ],
+    "len_ratio": 1.31
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0303E71F|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK FULL",
+    "original": "Absorb Falls",
+    "translation": "Chutes amorties",
+    "en_concepts": [
+      "absorb"
+    ],
+    "fr_concepts": [
+      "fall_damage"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "030B9EFA|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK FULL",
+    "original": "Absorb Falls",
+    "translation": "Chutes amorties",
+    "en_concepts": [
+      "absorb"
+    ],
+    "fr_concepts": [
+      "fall_damage"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "030B9F01|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK FULL",
+    "original": "Absorb Falls",
+    "translation": "Chutes amorties",
+    "en_concepts": [
+      "absorb"
+    ],
+    "fr_concepts": [
+      "fall_damage"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04032F32|SPERG-SSE.esp",
+    "type": "SPEL FULL",
+    "original": "Dual Unarmed Mastery",
+    "translation": "Maîtrise du combat à deux mains",
+    "en_concepts": [
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast"
+    ],
+    "len_ratio": 2.0
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "0400E177|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "As long as one hand is free (unarmed or spell), melee attacks deal 20% more damage and you have a 10% chance to disarm attackers that strike you in melee.",
+    "translation": "Tant qu'une de vos deux mains est libre, les attaques au corps à corps infligent 20 % de dégâts supplémentaires et vous avez 10 % de chances de désarmer l'adversaire qui vous attaque au corps à corps.",
+    "en_concepts": [
+      "disarm",
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast",
+      "disarm"
+    ],
+    "len_ratio": 1.23
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "040390FF|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Sprinting while sneaking executes a silent forward roll.",
+    "translation": "Courir en furtivité fait exécuter une roulade avant.",
+    "en_concepts": [
+      "silent"
+    ],
+    "fr_concepts": [
+      "sprint"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Static Skill Leveling Rewritten - French",
+    "file": "ordinatorexperiencepatch.esp.json",
+    "form_id": "00058F6E|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Increases unarmed damage by 5% of your current Stamina. Requires two free hands.",
+    "translation": "Les dégâts à mains nues augmentent de 5 % en se basant sur votre vigueur actuelle et vous octroient de l'expérience en armure légère pendant le combat. Nécessite que vos deux mains soient libres.",
+    "en_concepts": [
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast",
+      "unarmed"
+    ],
+    "len_ratio": 2.62
+  },
+  {
+    "mod": "Static Skill Leveling Rewritten - French",
+    "file": "ordinatorexperiencepatch.esp.json",
+    "form_id": "010085B8|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Increases unarmed damage by 15% of your current Stamina. Requires two free hands.",
+    "translation": "Les dégâts à mains nues augmentent de 15 % en se basant sur votre vigueur actuelle et vous octroient de l'expérience en armure légère pendant le combat. Nécessite que vos deux mains soient libres.",
+    "en_concepts": [
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast",
+      "unarmed"
+    ],
+    "len_ratio": 2.62
+  },
+  {
+    "mod": "Static Skill Leveling Rewritten - French",
+    "file": "ordinatorexperiencepatch.esp.json",
+    "form_id": "01069031|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Increases unarmed damage by 25% of your current Stamina. Requires two free hands.",
+    "translation": "Les dégâts à mains nues augmentent de 25 % en se basant sur votre vigueur actuelle et vous octroient de l'expérience en armure légère pendant le combat. Nécessite que vos deux mains soient libres.",
+    "en_concepts": [
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast",
+      "unarmed"
+    ],
+    "len_ratio": 2.62
+  },
+  {
+    "mod": "Undeath - Conjuration Absorb Fix - French",
+    "file": "undeath conjuration absorb fix.esp.json",
+    "form_id": "000C969E|Skyrim.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "UNSLAAD SE -voiced english- vostFR",
+    "file": "Unslaad.esm.json",
+    "form_id": "033B906B|Unslaad.esm",
+    "type": "MGEF FULL",
+    "original": "War Cry Stagger",
+    "translation": "Cri de guerre de chancellement",
+    "en_concepts": [
+      "stagger"
+    ],
+    "fr_concepts": [
+      "shout"
+    ],
+    "len_ratio": 1.67
+  },
+  {
+    "mod": "USSEP - Traduction Francaise",
+    "file": "unofficial skyrim special edition patch.esp.json",
+    "form_id": "000B602D|Skyrim.esm",
+    "type": "ENCH FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "USSEP - Traduction Francaise",
+    "file": "unofficial skyrim special edition patch.esp.json",
+    "form_id": "0007E8E1|Skyrim.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "USSEP - Traduction Francaise",
+    "file": "unofficial skyrim special edition patch.esp.json",
+    "form_id": "000C969E|Skyrim.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "USSEP - Traduction Francaise",
+    "file": "unofficial skyrim special edition patch.esp.json",
+    "form_id": "02011F35|Dawnguard.esm",
+    "type": "SPEL FULL",
+    "original": "Raise Zombie",
+    "translation": "Allié d'outre-tombe",
+    "en_concepts": [
+      "resurrect"
+    ],
+    "fr_concepts": [
+      "allies"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Vokrii - Apply Spell Conditions Fix.esp - French",
+    "file": "vokrii - apply spell conditions fix.esp.json",
+    "form_id": "00058F6E|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Deal extra unarmed damage equal to 5% of current Stamina if both hands are empty, gaining Light Armor experience.",
+    "translation": "Inflige des dégâts supplémentaires équivalents à 5 % de la vigueur actuelle si les deux mains sont vides, ce qui permet d'acquérir de l'expérience en armure légère.",
+    "en_concepts": [
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast"
+    ],
+    "len_ratio": 1.42
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "00058214|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Entering sneak mode (5 second cooldown) or performing a silent roll in combat briefly makes you invisible, forcing opponents to search for you.",
+    "translation": "Entrer en mode furtif (5 secondes de recharge) ou effectuer une roulade silencieuse en combat vous rend brièvement invisible, forçant les adversaires à vous chercher.",
+    "en_concepts": [
+      "shout",
+      "silent"
+    ],
+    "fr_concepts": [
+      "invisibility"
+    ],
+    "len_ratio": 1.09
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "00058F6E|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Deal extra unarmed damage equal to 5% of current Stamina if both hands are empty, gaining Light Armor experience.",
+    "translation": "Inflige des dégâts supplémentaires équivalents à 5 % de la vigueur actuelle si les deux mains sont vides, ce qui permet d'acquérir de l'expérience en armure légère.",
+    "en_concepts": [
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast"
+    ],
+    "len_ratio": 1.42
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "00105F23|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Sprinting while sneaking executes a silent forward roll for 15 Stamina.",
+    "translation": "Courir en furtivité fait exécuter une roulade silencieuse vers l'avant contre 15 points de vigueur.",
+    "en_concepts": [
+      "silent"
+    ],
+    "fr_concepts": [
+      "sprint"
+    ],
+    "len_ratio": 1.36
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "0400080E|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Deal extra unarmed damage equal to 15% of current Stamina if both hands are empty, gaining Light Armor experience.",
+    "translation": "Inflige des dégâts supplémentaires équivalents à 15 % de la vigueur actuelle si les deux mains sont vides, ce qui permet d'acquérir de l'expérience en armure légère.",
+    "en_concepts": [
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast"
+    ],
+    "len_ratio": 1.42
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "040008F1|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Deal extra unarmed damage equal to 30% of current Stamina if both hands are empty, gaining Light Armor experience.",
+    "translation": "Inflige des dégâts supplémentaires équivalents à 30 % de la vigueur actuelle si les deux mains sont vides, ce qui permet d'acquérir de l'expérience en armure légère.",
+    "en_concepts": [
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast"
+    ],
+    "len_ratio": 1.42
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000A3C|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Sneak attacking with a dagger during a silent roll deals 20% more damage and ten times more critical damage.",
+    "translation": "Attaquer furtivement avec une dague pendant une roulade silencieuse inflige 20 % de dégâts supplémentaires et dix fois plus de dégâts critiques.",
+    "en_concepts": [
+      "silent"
+    ],
+    "fr_concepts": [
+      "shout"
+    ],
+    "len_ratio": 1.16
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000A3F|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Sprinting while sneaking executes a silent forward roll for 15 Stamina. You are 100% harder to detect while rolling.",
+    "translation": "Courir en furtivité fait exécuter une roulade silencieuse vers l'avant contre 15 points de vigueur. Vous êtes 100 % plus difficile à détecter pendant la roulade.",
+    "en_concepts": [
+      "silent"
+    ],
+    "fr_concepts": [
+      "sprint"
+    ],
+    "len_ratio": 1.37
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000B07|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Steal 25 Magicka per second from nearby paralyzed foes, and 25 Stamina per second from nearby foes encased in ash, within 20 feet.",
+    "translation": "Volez 25 points de magie par seconde à des ennemis paralysés proches et 25 points de vigueur par seconde à des ennemis proches enfermés dans de la cendre, à moins de 6 mètres.",
+    "en_concepts": [
+      "pickpocket"
+    ],
+    "fr_concepts": [
+      "paralysis"
+    ],
+    "len_ratio": 1.43
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "00058214|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Entering sneak mode (5 second cooldown) or performing a silent roll in combat briefly makes you invisible, forcing opponents to search for you.",
+    "translation": "Entrer en mode furtif (5 secondes de recharge) ou effectuer une roulade silencieuse en combat vous rend brièvement invisible, forçant les adversaires à vous chercher.",
+    "en_concepts": [
+      "shout",
+      "silent"
+    ],
+    "fr_concepts": [
+      "invisibility"
+    ],
+    "len_ratio": 1.09
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "00105F23|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Sprinting while sneaking executes a silent forward roll.",
+    "translation": "Courir en furtivité fait exécuter une roulade avant.",
+    "en_concepts": [
+      "silent"
+    ],
+    "fr_concepts": [
+      "sprint"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "0500E177|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "As long as one hand is free (unarmed or spell), melee attacks deal 20% more damage and you have a 10% chance to disarm attackers that strike you in melee.",
+    "translation": "Tant qu'une de vos deux mains est libre, les attaques au corps à corps infligent 20 % de dégâts supplémentaires et vous avez 10 % de chances de désarmer l'adversaire qui vous attaque au corps à corps.",
+    "en_concepts": [
+      "disarm",
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast",
+      "disarm"
+    ],
+    "len_ratio": 1.23
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "08000A3F|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Sprinting while sneaking executes a silent forward roll for 15 Stamina. You are 100% harder to detect while rolling.",
+    "translation": "Courir en furtivité fait exécuter une roulade silencieuse vers l'avant contre 15 points de vigueur. Vous êtes 100 % plus difficile à détecter pendant la roulade.",
+    "en_concepts": [
+      "silent"
+    ],
+    "fr_concepts": [
+      "sprint"
+    ],
+    "len_ratio": 1.37
+  },
+  {
+    "mod": "Vokriinator Black - DAC Improved",
+    "file": "fzmx - dac - vokriinator.esp.json",
+    "form_id": "0103DD82|SPERG-SSE.esp",
+    "type": "MGEF DNAM",
+    "original": "As long as one hand is free (unarmed or spell), melee attacks deal 20% more damage and you have a 10% chance to disarm attackers that strike you in melee.",
+    "translation": "Tant qu'une de vos deux mains est libre, les attaques au corps à corps infligent 20 % de dégâts supplémentaires et vous avez 10 % de chances de désarmer l'adversaire qui vous attaque au corps à corps.",
+    "en_concepts": [
+      "disarm",
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast",
+      "disarm"
+    ],
+    "len_ratio": 1.23
+  },
+  {
+    "mod": "Vokriinator Black - DAC Improved",
+    "file": "fzmx - dac - vokriinator.esp.json",
+    "form_id": "0100E177|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "As long as one hand is free (unarmed or spell), melee attacks deal 20% more damage and you have a 10% chance to disarm attackers that strike you in melee.",
+    "translation": "Tant qu'une de vos deux mains est libre, les attaques au corps à corps infligent 20 % de dégâts supplémentaires et vous avez 10 % de chances de désarmer l'adversaire qui vous attaque au corps à corps.",
+    "en_concepts": [
+      "disarm",
+      "unarmed"
+    ],
+    "fr_concepts": [
+      "dual_cast",
+      "disarm"
+    ],
+    "len_ratio": 1.23
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Ordinator.esp.json",
+    "form_id": "0103E720|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF FULL",
+    "original": "Absorb Falls",
+    "translation": "Chutes amorties",
+    "en_concepts": [
+      "absorb"
+    ],
+    "fr_concepts": [
+      "fall_damage"
+    ],
+    "len_ratio": 1.0
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Thunderchild.esp.json",
+    "form_id": "040162AA|Thunderchild - Epic Shout Package.esp",
+    "type": "MGEF DNAM",
+    "original": "Enhances the Fire Breath and Frost Breath shouts with an elemental blast that deals additional damage.",
+    "translation": "Améliore Souffle ardent et Souffle glacé en y ajoutant une explosion élémentaire infligeant des dégâts supplémentaires.",
+    "en_concepts": [
+      "shout"
+    ],
+    "fr_concepts": [
+      "craft"
+    ],
+    "len_ratio": 1.0
+  }
+]

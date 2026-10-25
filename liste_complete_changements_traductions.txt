@@ -1,0 +1,185 @@
+================================================================================
+RAPPORT COMPLET DES CHANGEMENTS ET RÉALIGNEMENTS DE TRADUCTION
+Date de dernière mise à jour : 25/10/2026 00:33:05
+Projet : SSE Auto Translator / Nolvus Awakening
+================================================================================
+
+TABLE DES MATIÈRES :
+1. Corrections de contresens & Lore (Marché de Blancherive / Kojak / Lore officiel)
+2. Harmonisation des Noms de Lieux, Sorts et Atouts (Cohérence source -> trad)
+3. Nettoyage des balises numériques corrompues (<10>, <5>...) & Fermeture des balises orphelines
+4. PNJs, Quêtes & Missives restés en anglais dans les patchs
+5. Réalignement des atouts & sorts refondus (Adamant, Path of Sorcery, Zim, Vokrii...)
+6. Réalignement spécifique des patchs de compatibilité (UCLA, CC, Nolvus, QAPP...)
+7. Récupération des chaînes manquantes USSEP & Alternate Perspective
+
+--------------------------------------------------------------------------------
+1. CONTRESENS & LORE (MARCHÉ DE BLANCHERIVE / KOJAKS WHITERUN MARKET & LORE)
+--------------------------------------------------------------------------------
+- Sinnen the Fence :
+  Ancien : "Sinnen la barrière" (contresens avec la clôture/barrière)
+  Nouveau : "Sinnen la receleuse" (membre receleur de la Guilde des voleurs)
+  Fichiers : Kojaks Whiterun Market.esp.json, WONpcs.esp.json
+
+- Thieves Guild Fence Chest :
+  Ancien : "Thieves Guild Fence Chest" (resté en anglais)
+  Nouveau : "Coffre de receleuse de la Guilde des voleurs"
+  Fichier : Kojaks Whiterun Market.esp.json
+
+- Trueaz Ball :
+  Ancien : "Trueaz Boule" (inversion syntaxique mot-à-mot)
+  Nouveau : "Balle de Trueaz"
+  Fichiers : Kojaks Whiterun Market.esp.json, WONpcs.esp.json
+
+- Pen Key :
+  Ancien : "Clé crayon" (ou Clé de la prison)
+  Nouveau : "Clé de l'enclos" (Pen = enclos à bétail/animaux du marché)
+  Fichiers : Kojaks Whiterun Market.esp.json, WONpcs.esp.json
+
+- Owl's Perch Inn :
+  Ancien : Deux variantes concurrentes (Hibou perché / Chouette perchée)
+  Nouveau : "Auberge de la Chouette perchée" (harmonisé)
+  Fichier : Kojaks Whiterun Market.esp.json
+
+- Red Mountain (Lore officiel Bethesda) :
+  Ancien : "Montagne rouge" dans plusieurs patchs
+  Nouveau : "Mont Écarlate" (nom officiel dans l'univers Elder Scrolls / Vvardenfell)
+
+- Accords grammaticaux de sorts :
+  Ancien : "Pas obscure", "Pas obscure abyssal"
+  Nouveau : "Pas obscur", "Pas obscur abyssal"
+
+--------------------------------------------------------------------------------
+2. HARMONISATION DES NOMS DE LIEUX, SORTS ET ATOUTS (COHÉRENCE GLOBALE)
+--------------------------------------------------------------------------------
+Harmonisation stricte sur les termes officiels Bethesda pour éviter les disparités
+entre mods :
+
+- Noms de Lieux :
+  * "Bits and Pieces" -> Harmonisé sur "Bric-à-brac" (suppression de "Bits et morceaux").
+  * "Hob's Fall Cave" -> Harmonisé sur "Grotte de Sourcechaude" (suppression de "Grotte de la chute d'Hob").
+  * "The Ragged Flagon - Cistern" -> Harmonisé sur "La Cruche percée - Réservoir" (suppression de "Citerne").
+  * "The Frozen Hearth" -> Harmonisé sur "Le Foyer gelé".
+  * "Sadri's Used Wares" -> Harmonisé sur "Les Occasions de Sadri".
+  * "Volkihar Keep" -> Harmonisé sur "Château Volkihar" (suppression de "Fort Volkihar").
+  * "Dwemer Museum" -> Harmonisé sur "Musée dwemer" (suppression de "Musée des Dwemers").
+  * "Sky Haven Temple" -> Harmonisé sur "Temple d'Havreciel" (suppression des résidus cyrilliques).
+  * "Skyrim" -> Harmonisé sur "Bordeciel" (suppression des résidus corrompus).
+
+- Sorts & Effets Magiques :
+  * "Augmented Frost" -> Harmonisé sur "Gel pénétrant" (suppression de "Givre augmenté").
+  * "Augmented Shock" -> Harmonisé sur "Foudre déchaînée" (suppression de "Foudre augmentée").
+  * "Frostbite" -> Harmonisé sur "Froid mordant" (suppression de "Morsure de givre").
+  * "Icy Spear" -> Harmonisé sur "Lance gelée" (suppression de "Lance de glace").
+  * "Drain Health" -> Harmonisé sur "Ponction de santé" (suppression de "Drain de santé").
+  * "Drain Life" -> Harmonisé sur "Ponction de vie" (suppression de "Drain de vie").
+  * "Absorb Magicka" -> Harmonisé sur "Siphon de magie" (suppression de "Ponction de magie").
+  * "Missile of Molag Bal" -> Harmonisé sur "Projectile de Molag Bal" (suppression de "Missile").
+
+- Atouts / Compétences :
+  * "Twin Souls" -> Harmonisé sur "Âmes jumelles" (suppression de "Âmes soeurs").
+
+Total : 162 entrées harmonisées sur les versions canoniques.
+
+--------------------------------------------------------------------------------
+3. NETTOYAGE DES BALISES NUMÉRIQUES & FERMETURE DES BALISES ORPHELINES
+--------------------------------------------------------------------------------
+- Balises numériques corrompues (<10>, <5>...) :
+  2 816 balises numériques illégales nettoyées sur 173 fichiers JSON (notamment Abyss,
+  Adamant, etc.) pour supprimer les risques de crash et d'affichage vide en jeu.
+
+- Balises de mise en page orphelines :
+  1 930 balises <font> orphelines dans les livres et messages ont été proprement
+  refermées avec </font> sur 232 fichiers, empêchant les bavures de police de grande taille
+  sur les pages suivantes des livres.
+
+--------------------------------------------------------------------------------
+4. PNJS, QUÊTES & MISSIVES RESTÉS EN ANGLAIS DANS LES PATCHS (81 ENTRÉES / 27 FICHIERS)
+--------------------------------------------------------------------------------
+- Erik the Slayer : "Erik the Slayer" -> "Erik le Massacreur" (nom officiel vanilla).
+- Quête de mariage IA Overhaul : "Visit your spouse's house" -> "Rendre visite à votre conjoint(e)".
+- Missives / Petites annonces (Falskaar, Bruma, Midwood, Wyrmstooth, Solstheim...) :
+  * "Recover From a Hideout" -> "Récupération dans un repaire"
+  * "Retrieve From a Ruin" -> "Récupération dans une ruine"
+  * "Retrieve From the Wilderness" -> "Récupération dans la nature"
+- PNJs et Boss Nolvus :
+  * "Romanov the Gatekeeper" -> "Romanov le Gardien de la porte"
+  * "Romanov the Wolf Queen" -> "Romanov la Reine-Louve"
+- Commerce & Troc (Trade & Barter) : Bonus de Thane réaligné à 10 %.
+- Archerie - Dégâts localisés : Durée du malus réalignée à 10 secondes.
+
+--------------------------------------------------------------------------------
+5. RÉALIGNEMENT DES ATOUTS & SORTS REFONDUS (COLLISIONS D'INDEX & MISES À JOUR)
+--------------------------------------------------------------------------------
+- Vokriinator Black :
+  * 0C000850 (Detection spells) réaligné sur "Les sorts de détection révèlent les cibles de beaucoup plus loin."
+    (auparavant écrasé par la description d'un sort de vulnérabilité).
+  * 0C000834 réaligné sur les enchantements élémentaux à +30 %.
+
+- Adamant - Refonte des atouts :
+  * Sorts de protection dual cast sur les alliés.
+  * Frappes (bashing) infligeant des dégâts de magie et de vigueur.
+  * Charge au bouclier.
+  * Armure lourde sans poids ni ralentissement.
+  * Surcharge de foudre sous 50 % de santé.
+  * Bonus d'armure lourde 25 % (au lieu de 100 points).
+  * Frappes 25 % (au lieu de 20 %).
+  * Double lancer destruction -25 % (au lieu de -20 %).
+
+- La Voie du Sorcier (Path of Sorcery) :
+  * Barrières magiques Rangs 1 et 2 réalignées sur les puissances et réductions de coût réelles.
+  * Aura de lumière réalignée (50 armure / max 300 et sauvetage 200 pv).
+  * Maîtrise de l'Hiver réalignée sur le bouclier de glace et pouvoir « Invocation de blizzard ».
+  * Runes furtives réalignées.
+
+- Artéfacts de Zim (ZIA Complete Pack) :
+  * Attaques furtives à +50 % (au lieu de 100 %).
+  * Dégâts de foudre / magie (« la moitié de ce montant »).
+
+- Vokrii - Atouts minimalistes :
+  * Dégâts armes à 1 main réalignés à 60 %.
+  * Multiplicateurs critiques rétablis (3x masse, 10x espadon).
+
+--------------------------------------------------------------------------------
+6. RÉALIGNEMENT SPÉCIFIQUE DES PATCHS DE COMPATIBILITÉ (98 ENTRÉES / 24 FICHIERS)
+--------------------------------------------------------------------------------
+- UCLA - Zim's - WACCF Patch :
+  Réaligné sur "Augmente la résistance à la magie de <10> %. Donne accès au Cri benthique."
+  (au lieu de l'ancien effet de glace écrasé).
+
+- LOTD - Creation Club Armure du Seigneur (DBM_CC_LordsMailPatchV2.esp.json) :
+  Réaligné sur 50 % poison/maladie et 15 % magie avec absorption de 5 pv/s.
+
+- Nolvus Awakening Crafting Patch :
+  Ajout des 25 % de chances de dupliquer les potions en alchimie.
+
+- Nolvus Awakening Vokriinator Black Integration :
+  Réalignement hache de guerre (25% chance / 15% dégâts), brise-bouclier 3x critique,
+  désarmement 2x critique.
+
+- Vokrii - Apply Spell Conditions Fix :
+  Réalignement des multiplicateurs critiques (dagues 3x, haches 5x, marteaux 3x, arcs 2x).
+
+- USSEP (Unofficial Skyrim Special Edition Patch) :
+  Réalignement stades de faiblesse feu vampires (40 % / 30 %) et Crâne de la corruption (20/50).
+
+- Amélioration de la Lame des Sangskaals :
+  Traduction des cooldowns et sorts de contrôle.
+
+- Angelic Standing Stones - Amulets Patch :
+  Traduction des 11 amulettes d'enchantement des pierres dressées.
+
+- Quests Award Perk Points (QAPP) :
+  Traduction harmonisée sur les 15 patchs de quêtes.
+
+--------------------------------------------------------------------------------
+7. RÉCUPÉRATION USSEP & ALTERNATE PERSPECTIVE (SESSIONS PRÉCÉDENTES)
+--------------------------------------------------------------------------------
+- USSEP :
+  283 chaînes manquantes réinjectées dans l'ESP de Nolvus et la DB (100 % complet).
+- Alternate Perspective :
+  29 chaînes d'interface traduites et fichier UTF-16 LE régénéré sur disque.
+
+================================================================================
+FIN DU RAPPORT
+================================================================================

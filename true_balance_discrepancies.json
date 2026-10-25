@@ -1,0 +1,4368 @@
+[
+  {
+    "mod": "1111VampireKingBoss.esp - French",
+    "file": "1111vampirekingboss.esp.json",
+    "form_id": "05042545|1111VampireKingBoss.esp",
+    "type": "MGEF FULL",
+    "original": "Stagger Area Attack Yorma3",
+    "translation": "Attaque de zone d'étourdissement de Yorma 3",
+    "orig_nums": [],
+    "trans_nums": [
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "1111VampireKingBoss.esp - French",
+    "file": "1111vampirekingboss.esp.json",
+    "form_id": "05042544|1111VampireKingBoss.esp",
+    "type": "MGEF FULL",
+    "original": "Stagger Area Attack Yorma2",
+    "translation": "Attaque de zone d'étourdissement de Yorma 2",
+    "orig_nums": [],
+    "trans_nums": [
+      "2"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "1111VampireKingBoss.esp - French",
+    "file": "1111vampirekingboss.esp.json",
+    "form_id": "05042542|1111VampireKingBoss.esp",
+    "type": "SPEL FULL",
+    "original": "Vampire Kings Stomp2",
+    "translation": "Piétinement des rois vampires 2",
+    "orig_nums": [],
+    "trans_nums": [
+      "2"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Abyss - Sorts obscurs",
+    "file": "Abyss.esp.json",
+    "form_id": "04000BE2|Abyss.esp",
+    "type": "MGEF DNAM",
+    "original": "Creates a wall that deals <mag> magic damage per second and reduces 10% magic resistance for 5 seconds.",
+    "translation": "Crée un mur qui inflige <mag> points de dégâts magiques par seconde et réduit la résistance à la magie de 10 %.",
+    "orig_nums": [
+      "10",
+      "5"
+    ],
+    "trans_nums": [
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "000581F7|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Protection spells like Oakflesh and Fire Shell affect nearby allies when dual cast.",
+    "translation": "Sous l'effet d'un sort d'armure, vous résistez à 50 % des dégâts à la magie et à la vigueur adverses.",
+    "orig_nums": [],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "00058F66|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Bashing also deals damage to Magicka and Stamina.",
+    "translation": "Les frappes réduisent la vitesse de déplacement et d'attaque des ennemis de 25 % pendant 10 secondes.",
+    "orig_nums": [],
+    "trans_nums": [
+      "10",
+      "25"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "00058F6A|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "block + sprint = shield charge",
+    "translation": "Sprinter en parant au bouclier exécute une charge de bouclier durant laquelle vous résistez à 50 % des dégâts.",
+    "orig_nums": [],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "00058F6C|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Your armor weighs nothing and doesn't slow you down when wearing three pieces of heavy armor.",
+    "translation": "Lorsque vous portez une armure lourde, vous ne pouvez pas subir de déstabilisation ou d'interruption pendant 10 secondes après avoir subi une déstabilisation.",
+    "orig_nums": [],
+    "trans_nums": [
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "00058F6F|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "You receive a 25% bonus to armor rating when wearing three pieces of heavy armor.",
+    "translation": "Lorsque vous portez une armure lourde, votre valeur d'armure augmente de 100 points.",
+    "orig_nums": [
+      "25"
+    ],
+    "trans_nums": [
+      "100"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "000A3F64|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "When you fall below 25% Health while in combat, you automatically heal yourself back to full. This effect can occur once every ten minutes.",
+    "translation": "Une fois par tranche de 10 minutes, vous vous soignez totalement quand votre santé tombe sous les 25 %.",
+    "orig_nums": [
+      "25"
+    ],
+    "trans_nums": [
+      "10",
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "000C07D1|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "You can sell items for twice as much gold.",
+    "translation": "Les prix de vente sont plus intéressants de 100 %.",
+    "orig_nums": [],
+    "trans_nums": [
+      "100"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "000C367F|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Enchantments you create are twice as strong.",
+    "translation": "Les enchantements que vous créez sont 100 % plus puissants.",
+    "orig_nums": [],
+    "trans_nums": [
+      "100"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "000C44BA|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Alteration spells last twice as long and cost 50% less Magicka.",
+    "translation": "Les sorts d'altération durent 100 % plus longtemps et coûtent 50 % de magie en moins.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [
+      "100",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "000C44BE|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Conjuration spells last twice as long and cost 50% less Magicka.",
+    "translation": "Les sorts de conjuration durent 100 % plus longtemps et coûtent 50 % de magie en moins.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [
+      "100",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "06000862|Adamant.esp",
+    "type": "PERK DESC",
+    "original": "Bashing causes enemies to take 25% more damage for 10 seconds.",
+    "translation": "Les frappes infligent 20 % de dégâts supplémentaires pendant 10 secondes.",
+    "orig_nums": [
+      "10",
+      "25"
+    ],
+    "trans_nums": [
+      "10",
+      "20"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "060008BC|Adamant.esp",
+    "type": "PERK DESC",
+    "original": "You have a 25% chance to absorb the Magicka from incoming spells while under the effects of an armor spell.",
+    "translation": "Sous l'effet d'un sort d'armure, vous avez 20 % de chances d'absorber la magie des sorts adverses.",
+    "orig_nums": [
+      "25"
+    ],
+    "trans_nums": [
+      "20"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "060008C3|Adamant.esp",
+    "type": "PERK DESC",
+    "original": "Dual casting a Destruction spell costs 25% less Magicka.",
+    "translation": "Les doubles lancers de sorts de destruction coûtent 20 % de magie en moins.",
+    "orig_nums": [
+      "25"
+    ],
+    "trans_nums": [
+      "20"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "0600096D|Adamant.esp",
+    "type": "PERK DESC",
+    "original": "Shock spells have a chance to overload targets who fall below half Health.",
+    "translation": "Tuer un ennemi avec un sort de foudre peut rendre 100 points de magie.",
+    "orig_nums": [],
+    "trans_nums": [
+      "100"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "06000A0E|Adamant.esp",
+    "type": "PERK DESC",
+    "original": "When you have a Frost spell equipped, you reduce the Frost Resistance of all nearby enemies by up to 100%.",
+    "translation": "Les sorts de glace réduisent la résistance à la glace de l'adversaire jusqu'à 100 % pendant 10 secondes.",
+    "orig_nums": [
+      "100"
+    ],
+    "trans_nums": [
+      "10",
+      "100"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Adamant - Refonte des atouts",
+    "file": "Adamant.esp.json",
+    "form_id": "06000A1A|Adamant.esp",
+    "type": "PERK DESC",
+    "original": "When you have a Poison spell equipped, you reduce the Poison Resistance of all nearby enemies by up to 100%.",
+    "translation": "Les sorts de poison réduisent la résistance au poison de l'adversaire jusqu'à 100 % pendant 10 secondes.",
+    "orig_nums": [
+      "100"
+    ],
+    "trans_nums": [
+      "10",
+      "100"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Appel de la tempête",
+    "file": "StormCalling.esl.json",
+    "form_id": "0400082B|StormCalling.esl",
+    "type": "MGEF DNAM",
+    "original": "Creates a nexus of storm energy which lasts <10> seconds. It deals <20> Shock Damage and half that amount to Magicka per second to enemies in the area.",
+    "translation": "Crée un noyau de foudre à l'endroit ciblé pendant 10 secondes. Il inflige <mag> points de dégâts de foudre à la santé et la moitié à la magie des ennemis dans la zone par seconde.",
+    "orig_nums": [
+      "10",
+      "20"
+    ],
+    "trans_nums": [
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Archerie - Dégâts localisés",
+    "file": "ArcheryLocationalDamage.esp.json",
+    "form_id": "05000808|ArcheryLocationalDamage.esp",
+    "type": "SPEL DESC",
+    "original": "Attack damage -25% for 10 seconds.",
+    "translation": "Réduction des dégâts de 25 % pendant 20 secondes.",
+    "orig_nums": [
+      "10",
+      "25"
+    ],
+    "trans_nums": [
+      "20",
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Artéfacts de Zim",
+    "file": "ZIA_Complete Pack.esp.json",
+    "form_id": "04000D6C|ZIA_Complete Pack.esp",
+    "type": "MGEF DNAM",
+    "original": "Sneak attacks are <50>% stronger.",
+    "translation": "Les attaques furtives sont deux fois plus puissantes.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Artéfacts de Zim",
+    "file": "ZIA_Complete Pack.esp.json",
+    "form_id": "040460EB|ZIA_Complete Pack.esp",
+    "type": "MGEF DNAM",
+    "original": "Target takes <mag> points of shock damage, and half as much Magicka damage. Disintegrates elves with low health.",
+    "translation": "Les cibles subissent <mag> points de dégâts de foudre et 50 % plus de dégâts magiques. Désintègre les Elfes avec une santé faible.",
+    "orig_nums": [],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Commerce & Troc",
+    "file": "trade & barter.esp.json",
+    "form_id": "06002877|Trade & Barter.esp",
+    "type": "PERK DESC",
+    "original": "Prices are 10% higher in large cities than in small towns.\r\n(6-7) Raven Rock and Solstheim.",
+    "translation": "Les prix dans les grandes villes sont 10 % plus élevés que dans les petits villages.",
+    "orig_nums": [
+      "10",
+      "6",
+      "7"
+    ],
+    "trans_nums": [
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Commerce & Troc",
+    "file": "trade & barter.esp.json",
+    "form_id": "06003341|Trade & Barter.esp",
+    "type": "PERK DESC",
+    "original": "Prices vary depending on your race and the race of the merchant you're trading with.  However, if you are friends or higher with the merchant, then race is ignored.\r\n\r\nThis perk covers Merchants who are: Nords (0-4), Altmers (7-8), Imperials (9), and Orcs (5-6).",
+    "translation": "Les prix varient en fonction de votre race et de celle du marchand avec qui vous commercez. Toutefois, si vous êtes son ami ou son supérieur, le marchand ignorera alors la race.\r\n\r\nCet atout couvre les marchands nordiques, altmers, impériaux et orques.",
+    "orig_nums": [
+      "0",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Commerce & Troc",
+    "file": "trade & barter.esp.json",
+    "form_id": "06005E65|Trade & Barter.esp",
+    "type": "PERK DESC",
+    "original": "Prices vary depending on your race and the race of the merchant you're trading with.  However, if you are friends or higher with the merchant, then race is ignored.\r\n\r\nThis perk covers Merchants who are: Argonian, Bosmer, Breton, and Dunmer (8-12).",
+    "translation": "Les prix varient en fonction de votre race et de celle du marchand avec qui vous commercez. Toutefois, si vous êtes son ami ou son supérieur, le marchand ignorera alors la race.\r\n\r\nCet atout couvre les marchands argoniens, bosmers, brétons et dunmers.",
+    "orig_nums": [
+      "12",
+      "8"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Commerce & Troc",
+    "file": "trade & barter.esp.json",
+    "form_id": "06005E66|Trade & Barter.esp",
+    "type": "PERK DESC",
+    "original": "Prices vary depending on your race and the race of the merchant you're trading with.  However, if you are friends or higher with the merchant, then race is ignored.\r\n\r\nThis perk covers Merchants who are: Khajiit (0-1) and Redguards (2-4).",
+    "translation": "Les prix varient en fonction de votre race et de celle du marchand avec qui vous commercez. Toutefois, si vous êtes son ami ou son supérieur, le marchand ignorera alors la race.\r\n\r\nCet atout couvre les marchands khajiits et rougegardes.",
+    "orig_nums": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Commerce & Troc",
+    "file": "trade & barter.esp.json",
+    "form_id": "06001D94|Trade & Barter.esp",
+    "type": "PERK DESC",
+    "original": "Prices are 10% better in cities where you are Thane.",
+    "translation": "Les prix sont plus avantageux de 5 % dans les villes où vous êtes thane.",
+    "orig_nums": [
+      "10"
+    ],
+    "trans_nums": [
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Conduit - Canalisation de sort",
+    "file": "Conduit.esp.json",
+    "form_id": "01107D5F|Conduit.esp",
+    "type": "MGEF DNAM",
+    "original": "Sends forth a wave. If the wave hits a target <beyond 10y>, you <trigger Arcane Reflection> and <teleport to the target>.",
+    "translation": "Envoie une vague. Si elle atteint une cible au-delà de 10 pieds, vous déclenchez <Réflexion> <arcanique> et vous téléportez vers la cible.",
+    "orig_nums": [],
+    "trans_nums": [
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Crise d'identité",
+    "file": "Identity Crisis.esp.json",
+    "form_id": "051573D1|Identity Crisis.esp",
+    "type": "MGEF DNAM",
+    "original": "(Requires 1 Shimmering Essence) Bend a mind to your will for one hour. If slain while under your thrall, the victim's mind is bound to the Seed of Unreason, creating a portal.",
+    "translation": "Asservit un esprit pendant une heure. Si la victime est tuée pendant qu'elle est sous l'effet du charme, son esprit se liera instantanément à la Graine de la Démence, créant ainsi un portail. (Requiert une essence étincelante)",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Crise d'identité",
+    "file": "Identity Crisis.esp.json",
+    "form_id": "05185088|Identity Crisis.esp",
+    "type": "MGEF DNAM",
+    "original": "Project a violent emanation of the Madgod's mind into Mundus and bind it to your will. (Requires 1 Shimmering Essence)",
+    "translation": "Invoque une projection violente de l'esprit du Dieu Fou sur Mundus qui se pliera à votre volonté. (Requiert une essence étincelante)",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Crise d'identité",
+    "file": "Identity Crisis.esp.json",
+    "form_id": "05185087|Identity Crisis.esp",
+    "type": "MGEF DNAM",
+    "original": "Project a whimsical emanation of the Madgod's mind into Mundus and bind it to your will. (Requires 1 Shimmering Essence)",
+    "translation": "Invoque une projection fantasque de l'esprit du Dieu Fou sur Mundus qui se pliera à votre volonté. (Requiert une essence étincelante)",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Dragons divers et variés",
+    "file": "DiverseDragonsCollectionSE.esp.json",
+    "form_id": "04E85D00|DiverseDragonsCollectionSE.esp",
+    "type": "SPEL FULL",
+    "original": "ACCM: Diverse Dragons Col. 3 Spell Menu",
+    "translation": "[Paramètres] Dragons divers et variés",
+    "orig_nums": [
+      "3"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Dragons divers et variés",
+    "file": "DiverseDragonsCollectionSE.esp.json",
+    "form_id": "04E85D00|DiverseDragonsCollectionSE.esp",
+    "type": "SPEL DESC",
+    "original": "ACCM-based configuration menu for Diverse Dragons Col. 3. This spell will be removed if you open the SkyUI MCM menu.",
+    "translation": "Un menu de configuration pour Dragons divers et variés. Ce sort sera retiré si vous utilisez le MCM.",
+    "orig_nums": [
+      "3"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "044A15C6|Fanatical Enemies.esp",
+    "type": "PERK DESC",
+    "original": "20% chance of a critical hit that does 50% more critical damage.",
+    "translation": "+20 % de chances de porter un coup critique infligeant davantage de dégâts supplémentaires.",
+    "orig_nums": [
+      "20",
+      "50"
+    ],
+    "trans_nums": [
+      "20"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "04431F38|Fanatical Enemies.esp",
+    "type": "MGEF FULL",
+    "original": "10CD",
+    "translation": "Temps de recharge 10 sec",
+    "orig_nums": [],
+    "trans_nums": [
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "0443D3FA|Fanatical Enemies.esp",
+    "type": "MGEF DNAM",
+    "original": "Taking <mag> poison damage to health and 2 times as much damage to magicka for <dur> seconds. Reduces the effectiveness of healing spells by 50% and slows the target.",
+    "translation": "Subit <mag> points de dégâts de poison à la santé et deux fois plus à la magie pendant <dur> secondes. Réduit l'efficacité des sorts de guérison de 50 % et ralentit la cible.",
+    "orig_nums": [
+      "2",
+      "50"
+    ],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "044A15C4|Fanatical Enemies.esp",
+    "type": "PERK DESC",
+    "original": "Arrows stagger all but the largest opponents 50% of the time.",
+    "translation": "Les flèches déstabilisent une fois sur deux tous les adversaires, à l'exception des plus grands.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "04B8E39A|Fanatical Enemies.esp",
+    "type": "MGEF DNAM",
+    "original": "An immense ball of fire that does <mag> points of damage. Targets on fire take extra damage. Deals 3x damage to daedric summons.",
+    "translation": "Une immense boule de feu qui inflige <mag> points de dégâts. Les cibles en feu subissent des dégâts supplémentaires. Inflige 3 fois plus de dégâts aux invocations daedriques.",
+    "orig_nums": [],
+    "trans_nums": [
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "04385CC3|Fanatical Enemies.esp",
+    "type": "MGEF FULL",
+    "original": "18CD",
+    "translation": "Temps de recharge 18 sec",
+    "orig_nums": [],
+    "trans_nums": [
+      "18"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "04DF23AC|Fanatical Enemies.esp",
+    "type": "MGEF DNAM",
+    "original": "Sunlight explosion that does <mag> points of damage in a 15 foot radius to undead.",
+    "translation": "Une explosion de lumière solaire qui inflige <mag> points de dégâts aux morts-vivants.",
+    "orig_nums": [
+      "15"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "0446FE47|Fanatical Enemies.esp",
+    "type": "MGEF DNAM",
+    "original": "For <dur> seconds, opponents in melee range take <8> points frost damage and Stamina damage per second.",
+    "translation": "Pendant <dur> secondes, les adversaires au corps à corps subissent <mag> points de dégâts de glace et de vigueur par seconde.",
+    "orig_nums": [
+      "8"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "044A15C7|Fanatical Enemies.esp",
+    "type": "PERK DESC",
+    "original": "15% chance of a critical hit that does 25% more critical damage.",
+    "translation": "15 % de chances de porter un coup critique infligeant davantage de dégâts supplémentaires.",
+    "orig_nums": [
+      "15",
+      "25"
+    ],
+    "trans_nums": [
+      "15"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "04DFC5CE|Fanatical Enemies.esp",
+    "type": "MGEF DNAM",
+    "original": "Sunlight explosion that does <mag> points of damage in a 15 foot radius to undead.",
+    "translation": "Une explosion de lumière solaire qui inflige <mag> points de dégâts aux morts-vivants.",
+    "orig_nums": [
+      "15"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "0452B455|Fanatical Enemies.esp",
+    "type": "MGEF DNAM",
+    "original": "For <dur> seconds, opponents in melee range take <8> points frost damage and Stamina damage per second.",
+    "translation": "Pendant <dur> secondes, les adversaires au corps à corps subissent <mag> points de dégâts de glace et de vigueur par seconde.",
+    "orig_nums": [
+      "8"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "0461D1F6|Fanatical Enemies.esp",
+    "type": "MGEF FULL",
+    "original": "20CD",
+    "translation": "Temps de recharge 20 sec",
+    "orig_nums": [],
+    "trans_nums": [
+      "20"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Fanatical Enemies.esp - French",
+    "file": "fanatical enemies.esp.json",
+    "form_id": "04B8E39C|Fanatical Enemies.esp",
+    "type": "MGEF DNAM",
+    "original": "An immense ball of fire that does <mag> points of damage. Targets on fire take extra damage. Deals 3x damage to daedric summons.",
+    "translation": "Une immense boule de feu qui inflige <mag> points de dégâts. Les cibles en feu subissent des dégâts supplémentaires. Inflige 3 fois plus de dégâts aux invocations daedriques.",
+    "orig_nums": [],
+    "trans_nums": [
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Immortel",
+    "file": "Undeath.esp.json",
+    "form_id": "04055BFB|Undeath.esp",
+    "type": "PERK FULL",
+    "original": "Corpse Preparation Vol 2 Read",
+    "translation": "Préparation des corps - Vol. II (lu)",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Immortel",
+    "file": "Undeath.esp.json",
+    "form_id": "04055BFC|Undeath.esp",
+    "type": "PERK DESC",
+    "original": "Corpse Preparation Volume 3 has been read.",
+    "translation": "Préparation des corps - Vol. III a été lu.",
+    "orig_nums": [
+      "3"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Immortel",
+    "file": "Undeath.esp.json",
+    "form_id": "04055BFA|Undeath.esp",
+    "type": "PERK DESC",
+    "original": "Corpse Preparation Volume 1 has been read.",
+    "translation": "Préparation des corps - Vol. I a été lu.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Immortel",
+    "file": "Undeath.esp.json",
+    "form_id": "04055BFB|Undeath.esp",
+    "type": "PERK DESC",
+    "original": "Corpse Preparation Volume 2 has been read.",
+    "translation": "Préparation des corps - Vol. II a été lu.",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Immortel",
+    "file": "Undeath.esp.json",
+    "form_id": "04055BFC|Undeath.esp",
+    "type": "PERK FULL",
+    "original": "Corpse Preparation Vol 3 Read",
+    "translation": "Préparation des corps - Vol. III (lu)",
+    "orig_nums": [
+      "3"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Immortel",
+    "file": "Undeath.esp.json",
+    "form_id": "04055BFA|Undeath.esp",
+    "type": "PERK FULL",
+    "original": "Corpse Preparation Vol 1 Read",
+    "translation": "Préparation des corps - Vol. I (lu)",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Immortel",
+    "file": "Undeath.esp.json",
+    "form_id": "0403034A|Undeath.esp",
+    "type": "MGEF DNAM",
+    "original": "As Undead, you are <25%> Resistant to Frost, <100%> Resistant to Poison, 100% Resistant to Disease and have Waterbreathing.",
+    "translation": "En tant que mort-vivant, vous êtes 25 % résistant au froid, 100 % résistant au poison et à la maladie et vous pouvez respirer sous l'eau.",
+    "orig_nums": [
+      "100",
+      "100",
+      "25"
+    ],
+    "trans_nums": [
+      "100",
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "000581DD|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Raised or summoned undead have 1.5x duration; corpses can be reanimated 3 times before turning to ash.",
+    "translation": "Les morts-vivants ressuscités ou invoqués ont une durée de vie 1,5 fois plus longue ; les cadavres peuvent être ranimés 3 fois avant de se transformer en cendres.",
+    "orig_nums": [
+      "1",
+      "3"
+    ],
+    "trans_nums": [
+      "1.5",
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "00058F81|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Elemental enchantments on armor and clothing are 30% more effective if you have an elemental spell of the same type equipped.",
+    "translation": "Les enchantements élémentaux sur les armures et vêtements augmentent de 15 % la puissance des sorts élémentaux du même type.",
+    "orig_nums": [
+      "30"
+    ],
+    "trans_nums": [
+      "15"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "00105F30|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Can summon Atronachs, Daedra, and Familiars twice as far away. Summoned atronachs, daedra, and familiars have 1.5x duration.",
+    "translation": "Vous pouvez conjurer des atronachs, Daedra et familiers deux fois plus loin. Les créatures conjurées durent 1,5 fois plus longtemps.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [
+      "1.5"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BB1|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "When at full health, healing spells boost maximum health by 40 for 60 seconds.",
+    "translation": "Les sorts de soin lancés sur une cible en pleine santé octroient 50 points de vie et de vigueur supplémentaires pendant 60 secondes.",
+    "orig_nums": [
+      "40",
+      "60"
+    ],
+    "trans_nums": [
+      "50",
+      "60"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BB5|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Spells cost health to cast instead of magicka. Your maximum health is increased by 50% of your magicka pool. (Novice=8 HP, Appren.=12 HP, Adept=20 HP, Expert=30 HP, Master=42 HP) Has no effect in Vampire Lord form.",
+    "translation": "Octroie le sort Rituel de sang. Quand il est actif, les sorts coûtent de la santé à la place de la magie, et votre santé maximale augmente de 50 % de votre réserve de magie. Relancer pour mettre fin à l'effet.",
+    "orig_nums": [
+      "12",
+      "20",
+      "30",
+      "42",
+      "50",
+      "8"
+    ],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BB6|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Halves the amount of health consumed by spell casting. (Novice=4 HP, Appren.=6 HP, Adept=10 HP, Expert=15 HP, Master=21 HP; Concentration spells, such as Flames, consume only a third as much health.)",
+    "translation": "Quand Rituel de sang est actif, votre santé maximale augmente de 100 % de votre réserve de magie et les sorts ne coûtent que la moitié.",
+    "orig_nums": [
+      "10",
+      "15",
+      "21",
+      "4",
+      "6"
+    ],
+    "trans_nums": [
+      "100"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BBE|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Grants the Ritual enchantment. While wearing clothing or armor imbued with this enchantment, any item enchanted during the witching hour (12-1am) is 10% more powerful. If the full moon is also shining, created enchantments are 20% more powerful.",
+    "translation": "Tout objet enchanté pendant l'heure la plus sombre (minuit à 3 h) est 10 % plus puissant. Si la pleine lune brille, les enchantements créés sont 20 % plus puissants.",
+    "orig_nums": [
+      "10",
+      "12",
+      "20"
+    ],
+    "trans_nums": [
+      "10",
+      "20",
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BC2|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Wards are 50% stronger and cost 30% less magicka to cast. If not wearing any chest armor, wards cost 50% less magicka to cast.",
+    "translation": "Les barrières sont 30 % plus puissantes et coûtent 50 % de moins. Si vous ne portez pas d'armure physique, elles coûtent 100 % de moins.",
+    "orig_nums": [
+      "30",
+      "50",
+      "50"
+    ],
+    "trans_nums": [
+      "100",
+      "30",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BC3|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Wards are 75% stronger and cost 50% less magicka to cast. If not wearing any chest armor, wards cost 70% less magicka to cast.",
+    "translation": "Les barrières sont 50 % plus puissantes et coûtent 100 % de moins. Si vous ne portez pas d'armure physique, elles coûtent 200 % de moins.",
+    "orig_nums": [
+      "50",
+      "70",
+      "75"
+    ],
+    "trans_nums": [
+      "100",
+      "200",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BC8|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Those affected by Aura of Light gain 50 armor for every person affected, up to 300 points.",
+    "translation": "Aura de lumière octroie 60 points d'armure et 6 % de dégâts d'attaque à chaque personne affectée. Se cumule jusqu'à 5 fois.",
+    "orig_nums": [
+      "300",
+      "50"
+    ],
+    "trans_nums": [
+      "5",
+      "6",
+      "60"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BC9|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Those affected by Aura of Light will be saved from a killing blow, healing 200 points. Only works once per battle per person.",
+    "translation": "Les personnes affectées par Aura de lumière seront sauvées d'un coup mortel une fois par combat, ce qui soigne de 250 points de santé.",
+    "orig_nums": [
+      "200"
+    ],
+    "trans_nums": [
+      "250"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BDB|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Activate a calmed target to enthrall them with a Geas for 5 minutes. Enthralled allies will follow you and fight for you; only 1 Geas can be active at a time. Calm spells are more effective against higher level opponents.",
+    "translation": "Activez une cible calmée pour l'asservir pendant 5 minutes. Les alliés asservis vous suivront et se battront pour vous. Une seule servitude peut être active à la fois. Les sorts de calme sont plus efficaces contre les adversaires de haut niveau.",
+    "orig_nums": [
+      "1",
+      "5"
+    ],
+    "trans_nums": [
+      "5"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BEC|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Can give 10% of your maximum health, magicka, and/or stamina to a friendly summoned daedra, atronach, or familiar, boosting its stat by 10x the amount sacrificed. The borrowed health, magicka, and/or stamina is returned when it dies.",
+    "translation": "Donnez 10 % de votre santé, magie ou vigueur maximum à un atronach, Daedra ou familier conjuré, augmentant ses statistiques de 10 fois le montant sacrifié. Le sacrifice vous est rendu à la mort de la créature.",
+    "orig_nums": [
+      "10"
+    ],
+    "trans_nums": [
+      "10",
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000BFC|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Runes deal twice as much damage if the target is unaware that anything is amiss.",
+    "translation": "Les runes affectent une zone 50 % plus grande et infligent 25 % de dégâts supplémentaires. Si les cibles n'ont rien détecté, les runes infligent 100 % de dégâts supplémentaires.",
+    "orig_nums": [],
+    "trans_nums": [
+      "100",
+      "25",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000C04|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Align yourself with Winter, shunning Inferno and Storm. While a frost spell is equipped, your stamina regenerates faster; casting frost spells creates an ice shield to protect you. Grants the power \"Summon Blizzard\".  (Can only choose 1 elemental mastery)",
+    "translation": "Octroie le pouvoir Blizzard. Vous êtes insensible aux dégâts de glace et vos sorts et Cris de glace sont 35 % plus puissants, mais les sorts de feu et de foudre sont 50 % plus faibles. Par temps de neige ou blizzard, votre vigueur se régénère 70 % plus vite. (Une seule maîtrise élémentale possible)",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [
+      "35",
+      "50",
+      "70"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000C27|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Scroll crafting now yields 1 additional scroll and returns an empty soul gem.",
+    "translation": "Les parchemins sont 1,5 % plus puissants par niveau d'enchantement. En fabriquer donne 1 parchemin supplémentaire.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [
+      "1",
+      "1.5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000C2D|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Take 25% less damage from magical attacks while casting or charging a spell. Protection increases to 50% while dual casting or charging a ritual spell.",
+    "translation": "Vous subissez 25 % de dégâts de moins des attaques physiques ou magiques lorsque vous lancez ou incantez un sort. Cette protection passe à 50 % pendant un double lancer et à 100 % pendant l'incantation d'un sort de rituel.",
+    "orig_nums": [
+      "25",
+      "50"
+    ],
+    "trans_nums": [
+      "100",
+      "25",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000C2F|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Align yourself with Storm, shunning Winter and Inferno. While a shock spell is equipped, your magicka regenerates faster; casting shock spells increases your speed for a short time. Grants the power \"Summon Lightning Storm\".  (Can only choose 1 elemental mastery)",
+    "translation": "Octroie le pouvoir Tempête d'éclairs. Vous êtes insensible aux dégâts de foudre et vos sorts et Cris de foudre sont 35 % plus puissants, mais les sorts de feu et de glace sont 50 % plus faibles. Par temps de pluie ou tempête d'éclairs, votre magie se régénère 70 % plus vite. (Une seule maîtrise élémentale possible)",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [
+      "35",
+      "50",
+      "70"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PathOfSorcery.esp.json",
+    "form_id": "0A000C30|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Align yourself with Inferno, shunning Winter and Storm. While a fire spell is equipped, your health regenerates faster; casting fire spells increases your fire damage for a short time. Grants the power \"Summon Meteor Shower\".  (Can only choose 1 elemental mastery)",
+    "translation": "Octroie le pouvoir Pluie de météores. Vous êtes insensible aux dégâts de feu et vos sorts et Cris de feu sont 35 % plus puissants, mais les sorts de foudre et de glace sont 50 % plus faibles. Par temps ensoleillé ou pluie de météores, votre santé se régénère 70 % plus vite. (Une seule maîtrise élémentale possible)",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [
+      "35",
+      "50",
+      "70"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "La Voie du Sorcier",
+    "file": "PoS_NecromanticGrimoire_Patch.esp.json",
+    "form_id": "02000821|ccvsvsse003-necroarts.esl",
+    "type": "MGEF DNAM",
+    "original": "Summons a Tomb Guardian for <dur> seconds that conjures a Shade when it kills an enemy.",
+    "translation": "Invoque pendant <dur> secondes un garde de tombeau conjurant une ombre faible en tuant un ennemi. L'ombre possède les mêmes statistiques que l'ennemi éliminé, mais seulement 1 point de santé.",
+    "orig_nums": [],
+    "trans_nums": [
+      "1"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Les Outils de Kagrénac",
+    "file": "Tools of Kagrenac.esp.json",
+    "form_id": "0409D996|Tools of Kagrenac.esp",
+    "type": "PERK DESC",
+    "original": "Reduces incoming physical attack and enchantments by 35%, but you lose Magicka equal to the amount of Health lost. The damage reduction gradually diminishes as Magicka falls below half. The barrier is disabled when your hands are lowered.",
+    "translation": "Réduit de 35 % les dégâts physiques et magiques, mais vous perdez ce montant de dégâts en magie. La protection diminue graduellement quand la magie est en dessous de 50 %. La barrière est désactivée quand vos mains sont baissées.",
+    "orig_nums": [
+      "35"
+    ],
+    "trans_nums": [
+      "35",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Magie astrale",
+    "file": "Astral.esl.json",
+    "form_id": "04000817|Astral.esl",
+    "type": "MGEF DNAM",
+    "original": "Floods enemies with tonal vibrations of the stars, rending <mag> Magic Resistance and four times the amount of Armor Rating for <dur> seconds.",
+    "translation": "Submerge les ennemis de vibrations harmoniques stellaires, annulant <mag> points de leur résistance à la magie et 4 fois plus de leur valeur d'armure pendant <dur> secondes.",
+    "orig_nums": [],
+    "trans_nums": [
+      "4"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Magie astrale",
+    "file": "Astral.esl.json",
+    "form_id": "0400081C|Astral.esl",
+    "type": "MGEF DNAM",
+    "original": "Floods enemies with tonal vibrations of the stars, rending <mag> Magic Resistance and four times the amount of Armor Rating for <dur> seconds.",
+    "translation": "Submerge les ennemis de vibrations harmoniques stellaires, annulant <mag> points de leur résistance à la magie et 4 fois plus de leur valeur d'armure pendant <dur> secondes.",
+    "orig_nums": [],
+    "trans_nums": [
+      "4"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Magie astrale",
+    "file": "Astral.esl.json",
+    "form_id": "0400081E|Astral.esl",
+    "type": "MGEF DNAM",
+    "original": "Floods enemies with tonal vibrations of the stars, rending <mag> Magic Resistance and four times the amount of Armor Rating for <dur> seconds.",
+    "translation": "Submerge les ennemis de vibrations harmoniques stellaires, annulant <mag> points de leur résistance à la magie et 4 fois plus de leur valeur d'armure pendant <dur> secondes.",
+    "orig_nums": [],
+    "trans_nums": [
+      "4"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Magie de destruction élémentale II",
+    "file": "Elemental Destruction Magic Redux.esp.json",
+    "form_id": "03000853|Elemental Destruction Magic Redux.esp",
+    "type": "MGEF DNAM",
+    "original": "For <20> seconds, targets take <mag> points of earth damage per second, have Health regeneration stopped for <5> seconds, and are periodically staggered.",
+    "translation": "Pendant 20 secondes, les cibles subissent 10 points de dégâts de terre par seconde, voient leur régénération de santé arrêtée pendant 5 secondes et sont déstabilisées.",
+    "orig_nums": [
+      "20",
+      "5"
+    ],
+    "trans_nums": [
+      "10",
+      "20",
+      "5"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Magie du sang antique II",
+    "file": "AncientBloodII.esl.json",
+    "form_id": "0500084B|AncientBloodII.esl",
+    "type": "MGEF DNAM",
+    "original": "Absorbs <mag> points of Health and deals <60> fire damage per second for <12> seconds.",
+    "translation": "Un mélange de sang bouillant et de feu absorbant <mag> points de santé par seconde pendant 12 secondes.",
+    "orig_nums": [
+      "12",
+      "60"
+    ],
+    "trans_nums": [
+      "12"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Magie du sang antique II",
+    "file": "AncientBloodII.esl.json",
+    "form_id": "0500086A|AncientBloodII.esl",
+    "type": "MGEF DNAM",
+    "original": "Absorbs <mag> points of Health and deals <60> fire damage per second for <12> seconds.",
+    "translation": "Un mélange de sang bouillant et de feu absorbant <mag> points de santé par seconde pendant 12 secondes.",
+    "orig_nums": [
+      "12",
+      "60"
+    ],
+    "trans_nums": [
+      "12"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Mysticisme - Refonte de la magie",
+    "file": "Mysticism - Vokrii Compatibility Patch.esp.json",
+    "form_id": "07000825|Mysticism - Vokrii Compatibility Patch.esp",
+    "type": "MGEF FULL",
+    "original": "Dark Power 2",
+    "translation": "Pouvoir sombre",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Nolvus Awakening Crafting Patch - French",
+    "file": "nolvus awakening crafting patch.esp.json",
+    "form_id": "0010F84C|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "original": "There is a <25>% chance of creating a duplicate potion when using the alchemy skill.",
+    "translation": "Vous créez une potion ou un poison supplémentaire à partir du même nombre d'ingrédients.",
+    "orig_nums": [
+      "25"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Nolvus Awakening Economy Patch - French",
+    "file": "Nolvus Awakening Economy Patch.esp.json",
+    "form_id": "00058F7B|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Can invest with shopkeepers to increase their inventory and available gold.",
+    "translation": "Permet d'investir 500 septims auprès d'un marchand afin qu'il dispose d'une réserve d'or permanente de 500 septims supplémentaires.",
+    "orig_nums": [],
+    "trans_nums": [
+      "500",
+      "500"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Nolvus Awakening Vokriinator Black Integration.esp - French",
+    "file": "nolvus awakening vokriinator black integration.esp.json",
+    "form_id": "02000BA1|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "One-handed power attacks have 25% chance to disarm targets, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les attaques puissantes latérales à une main ont 25 % de chances de désarmer les cibles, infligeant un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2",
+      "25"
+    ],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Nolvus Awakening Vokriinator Black Integration.esp - French",
+    "file": "nolvus awakening vokriinator black integration.esp.json",
+    "form_id": "0400497F|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a war axe smash through a block, causing the target to drop their shield and take a critical strike that deals 3 times critical damage.",
+    "translation": "Les attaques puissantes vers l'avant à la hache passent outre les parades de la cible, la désarmant de son bouclier et lui infligeant un triple coup critique.",
+    "orig_nums": [
+      "3"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Nolvus Awakening Vokriinator Black Integration.esp - French",
+    "file": "nolvus awakening vokriinator black integration.esp.json",
+    "form_id": "040B0D40|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Hitting a target with a power attack with a dagger has a 15% chance to paralyze the target for 3 seconds. Your attacks against the paralyzed target are critical strikes that deal 3 times critical damage.",
+    "translation": "Toucher une cible avec une attaque de puissance avec une dague a 15% de chances de paralyser la cible pendant 3 secondes.  Les attaques contre les cibles paralysées leur infligent un nonuple coup critique.",
+    "orig_nums": [
+      "15",
+      "3",
+      "3"
+    ],
+    "trans_nums": [
+      "15",
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Nolvus Awakening Vokriinator Black Integration.esp - French",
+    "file": "nolvus awakening vokriinator black integration.esp.json",
+    "form_id": "040043FF|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a war axe have a 25% chance to grant 15% extra attack damage for 30 seconds. This effect stacks.",
+    "translation": "Les attaques latérales puissantes à la hache de guerre infligent 25 % de dégâts supplémentaires pendant 30 secondes. Cet effet est cumulable.",
+    "orig_nums": [
+      "15",
+      "25",
+      "30"
+    ],
+    "trans_nums": [
+      "25",
+      "30"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Nolvus Awakening Vokriinator Black Integration.esp - French",
+    "file": "nolvus awakening vokriinator black integration.esp.json",
+    "form_id": "040B0D3F|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a dagger have a 25% chance to inflict distracting wounds, draining 75 points of Magicka and Stamina and halting regeneration for 5 seconds.",
+    "translation": "Les attaques latérales puissantes à la dague infligent des blessures distrayantes, drainant 75 points de magie et de vigueur et arrêtant la régénération pendant 5 secondes.",
+    "orig_nums": [
+      "25",
+      "5",
+      "75"
+    ],
+    "trans_nums": [
+      "5",
+      "75"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordinator - No Timed Block",
+    "file": "ordinator - no timed block.esp.json",
+    "form_id": "03008B33|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power bashing with a weapon infuriates living targets for 30 seconds. They won't flee from combat but can't regenerate Stamina, lose 15 points of Stamina per second. You take 30% less damage when blocking their attacks during that time.",
+    "translation": "Une frappe puissante exaspère les cibles vivantes pendant 30 secondes. Elles ne fuient pas le combat, mais elles ne peuvent régénérer leur vigueur et en perdent 15 points par seconde. Leurs attaques puissantes ne vous font rien lors d'une parade parfaite.",
+    "orig_nums": [
+      "15",
+      "30",
+      "30"
+    ],
+    "trans_nums": [
+      "15",
+      "30"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordinator - Scrambled Bugs compatibility - French",
+    "file": "Ordinator - Apply Spell Conditions Fix.esp.json",
+    "form_id": "03002E07|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Forwards power attacks with a sword cause targets to bleed for 20 seconds. When a bleeding target falls below 25% Health, your attacks against that target are critical strikes that deals ten times critical damage.",
+    "translation": "Les attaques puissantes vers l'avant avec une épée font saigner les cibles pendant 20 secondes. Lorsque la cible tombe sous les 25 % de santé, vos attaques lui infligent une frappe critique qui inflige 10 fois plus de dégâts critiques.",
+    "orig_nums": [
+      "20",
+      "25"
+    ],
+    "trans_nums": [
+      "10",
+      "20",
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordinator Reworked - Combat Mod Compatibility",
+    "file": "ordinator - no directional power attacks - balanced.esp.json",
+    "form_id": "01004EED|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "While dual wielding in combat, build up a battle rage with each attack, gaining 1% extra attack damage for 20 seconds. This effect stacks.",
+    "translation": "Lorsque vous combattez avec deux armes, vous entrez dans une rage meurtrière à chaque attaque, gagnant 1 % de dégâts d'attaque supplémentaire et 1 % de vitesse d'attaque supplémentaire pendant 20 secondes. Cet effet est cumulable.",
+    "orig_nums": [
+      "1",
+      "20"
+    ],
+    "trans_nums": [
+      "1",
+      "1",
+      "20"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordinator Reworked - Combat Mod Compatibility",
+    "file": "ordinator - no directional power attacks - balanced.esp.json",
+    "form_id": "010B0D40|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a dagger have a 20% chance of paralyzing the target for 10 seconds. Your attacks against the paralyzed target are critical strikes that deal nine times critical damage.",
+    "translation": "Les attaques puissantes à la dague vers l'avant, latérales ou vers l'arrière qui touchent la cible dans les 30 secondes la paralysent pendant 20 secondes. Les attaques contre les cibles paralysées leur infligent un nonuple coup critique.",
+    "orig_nums": [
+      "10",
+      "20"
+    ],
+    "trans_nums": [
+      "20",
+      "30"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordinator Reworked - Combat Mod Compatibility",
+    "file": "ordinator - no directional power attacks - balanced.esp.json",
+    "form_id": "01012846|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a greatsword fatigue a target, halting regeneration for 3 seconds. Additionally, there is a 30% chance of draining 150 points of Magicka and Stamina.",
+    "translation": "Les attaques puissantes sans déplacement à l'espadon fatiguent une cible, absorbant 150 points de magie et de vigueur et arrêtant la régénération pendant 5 secondes.",
+    "orig_nums": [
+      "150",
+      "3",
+      "30"
+    ],
+    "trans_nums": [
+      "150",
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordinator Reworked - Combat Mod Compatibility",
+    "file": "ordinator - no directional power attacks - balanced.esp.json",
+    "form_id": "000CB406|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Can perform a one-handed sprinting power attack that deals up to 50% more damage and critical damage to a target above half Health. The higher its remaining Health percentage, the more damage and critical damage is dealt.",
+    "translation": "Vous pouvez effectuer une attaque puissante avec une arme à une main en courant. Si la santé de la cible est à plus de 50 %, cette attaque lui infligera 50 % de dégâts supplémentaires. Plus il lui reste de santé, plus les dégâts et dégâts critiques seront importants.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [
+      "50",
+      "50"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03061982|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Increases attack speed by <175>% for <dur> seconds.",
+    "translation": "Augmente la vitesse d'attaque de 100 % pendant <dur> secondes.",
+    "orig_nums": [
+      "175"
+    ],
+    "trans_nums": [
+      "100"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0306A072|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Grants <150> points of armor and <25>% melee damage to allies within 25 feet wearing all Heavy Armor and prevents them from fleeing. Lasts <dur> seconds.",
+    "translation": "Confère 150 points de valeur d'armure et 25 % de dégâts supplémentaires au corps à corps aux alliés portant une armure lourde complète dans un rayon de 8 mètres et les empêche de fuir. Dure <dur> secondes.",
+    "orig_nums": [
+      "150",
+      "25",
+      "25"
+    ],
+    "trans_nums": [
+      "150",
+      "25",
+      "8"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0306A60E|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Grants <150> points of armor and <25>% melee damage to allies within 25 feet wearing all Heavy Armor and prevents them from fleeing. Lasts <dur> seconds.",
+    "translation": "Confère 150 points de valeur d'armure et 25 % de dégâts supplémentaires au corps à corps aux alliés portant une armure lourde complète dans un rayon de 8 mètres et les empêche de fuir. Dure <dur> secondes.",
+    "orig_nums": [
+      "150",
+      "25",
+      "25"
+    ],
+    "trans_nums": [
+      "150",
+      "25",
+      "8"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0308633C|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Orcish armor reduces attack damage taken by <15>% below half Health.",
+    "translation": "Une armure orque réduit les dégâts subit de 15 % si votre santé descend en dessous des 50 %.",
+    "orig_nums": [
+      "15"
+    ],
+    "trans_nums": [
+      "15",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03097C8F|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF FULL",
+    "original": "Wounded - Stack 1",
+    "translation": "Blessé - 1er cumul",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03097C90|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF FULL",
+    "original": "Wounded - Stack 2",
+    "translation": "Blessé - 2e cumul",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "030981F6|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF FULL",
+    "original": "Into the Dust - Stack 5",
+    "translation": "Mordre la poussière - 5ème cumul",
+    "orig_nums": [
+      "5"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "030981FD|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF FULL",
+    "original": "Wounded - Stack 3",
+    "translation": "Blessé - 3e cumul",
+    "orig_nums": [
+      "3"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "030981FE|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF FULL",
+    "original": "Wounded - Stack 4",
+    "translation": "Blessé - 4e cumul",
+    "orig_nums": [
+      "4"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "030BBF94|Ordinator - Perks of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Spellcasting fails below half Magicka.",
+    "translation": "L'incantation échoue si la magie passe sous les 50 %.",
+    "orig_nums": [],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "000581DE|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Reanimated minions receive a brief burst of strength, dealing 200% extra attack damage for 15 seconds after being reanimated. The level cap of reanimation spells and effects is increased by 1% per level of Conjuration.",
+    "translation": "Les morts-vivants réanimés infligent 200 % de dégâts d'attaque supplémentaires pendant 20 secondes après leur réanimation. La limite de niveau des sorts et effets de réanimation est augmentée de 1 % par niveau de conjuration.",
+    "orig_nums": [
+      "1",
+      "15",
+      "200"
+    ],
+    "trans_nums": [
+      "1",
+      "20",
+      "200"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "000581F7|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "If wearing robes and no light or heavy armor, reduces incoming attack and elemental damage by 35% but you lose Magicka equal to the amount of Health lost. The damage reduction gradually diminishes as Magicka falls below half. The energy shield is disabled when your hands are lowered.",
+    "translation": "Si vous ne portez qu'une robe sans armure, les dégâts subis sont diminués de 35 %. Votre perte de magie est égale à celle de votre santé. La réduction de dégâts diminue progressivement quand votre magie passe sous les 50 %. Le bouclier est désactivé quand vous rengainez.",
+    "orig_nums": [
+      "35"
+    ],
+    "trans_nums": [
+      "35",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "00058213|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "When you gain invisibility, places a barrel of flammable booze at your location. When you lose invisibility, it explodes, dealing fire damage equal to 200% of your Sneak skill level and staggering targets. This effect has a 15 second cooldown.",
+    "translation": "Quand vous devenez invisible en combat, place un tonneau inflammable là où vous êtes. Lorsque vous redevenez visible, il explose, déstabilisant les cibles et infligeant des dégâts de feu égaux à deux fois votre niveau de furtivité. Temps de recharge de 15 secondes.",
+    "orig_nums": [
+      "15",
+      "200"
+    ],
+    "trans_nums": [
+      "15"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "00058F68|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "While blocking with a shield or weapon, arrows do half damage. Arrows that hit the shield do no damage.",
+    "translation": "Pendant les parades avec un bouclier ou une arme, les flèches qui frappent le bouclier n'infligent pas de dégâts et les autres infligent 50 % de dégâts en moins.",
+    "orig_nums": [],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "00058F6C|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Tired enemies have a harder time defeating your armor. You take up to 20% less attack damage from enemies with half or less Stamina, if wearing all Heavy Armor. The lower their Stamina, the less damage you take.",
+    "translation": "Vos adversaires s'épuisent et ont du mal à transpercer votre armure. Vous subissez 20 % de dégâts d'attaque en moins si la vigueur de vos ennemis est à 50 % ou moins et que vous portez une armure lourde complète. Moins ils ont de vigueur, moins vous subissez de dégâts.",
+    "orig_nums": [
+      "20"
+    ],
+    "trans_nums": [
+      "20",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "000F3F0E|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Shock spells that would leave their target above 75% Health deal enough additional damage to make up the difference.",
+    "translation": "Les sorts de foudre laissant au moins 85 % de santé à leur cible infligent des dégâts de foudre supplémentaires pour compenser la différence.",
+    "orig_nums": [
+      "75"
+    ],
+    "trans_nums": [
+      "85"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03002E07|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Forwards power attacks with a sword cause targets to bleed for 20 seconds. When a bleeding target falls below 25% Health, your attacks against that target are critical strikes that deals ten times critical damage.",
+    "translation": "Les attaques puissantes vers l'avant avec une épée font saigner les cibles pendant 20 secondes. Lorsque la cible tombe sous les 25 % de santé, vos attaques lui infligent une frappe critique qui inflige 10 fois plus de dégâts critiques.",
+    "orig_nums": [
+      "20",
+      "25"
+    ],
+    "trans_nums": [
+      "10",
+      "20",
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03003E8C|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Forwards power attacks with a greatsword that would leave the target above 60% Health deal enough additional damage to make up the difference.",
+    "translation": "Les attaques puissantes vers l'avant à l'espadon qui laisseraient la santé de la cible au-dessus de 70 % infligent suffisamment de dégâts pour compenser la différence.",
+    "orig_nums": [
+      "60"
+    ],
+    "trans_nums": [
+      "70"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "030043F8|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Forwards power attacks with a battle axe execute targets below 30% Health, delivering a critical strike that deals twenty times critical damage.",
+    "translation": "Les attaques puissantes vers l'avant à la hache d'armes infligent une frappe critique qui inflige 20 fois plus de dégâts critiques et exécute les cibles ayant moins de 30 % de santé.",
+    "orig_nums": [
+      "30"
+    ],
+    "trans_nums": [
+      "20",
+      "30"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03007AB0|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Armor rating of Light Armor increased by 20%. You gain a small amount of Light Armor experience when wearing at least two pieces of Light Armor in combat.",
+    "translation": "La valeur d'armure légère est augmentée de 20 % et vous gagnez une petite quantité d'expérience en armure légère lorsque vous portez au moins 2 pièces d'armure légère en combat.",
+    "orig_nums": [
+      "20"
+    ],
+    "trans_nums": [
+      "2",
+      "20"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03007AB1|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Armor rating of Light Armor increased by 40%. You gain a small amount of Light Armor experience when wearing at least two pieces of Light Armor in combat.",
+    "translation": "La valeur d'armure légère est augmentée de 40 % et vous gagnez une petite quantité d'expérience en armure légère lorsque vous portez au moins 2 pièces d'armure légère en combat.",
+    "orig_nums": [
+      "40"
+    ],
+    "trans_nums": [
+      "2",
+      "40"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03007AB2|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Armor rating of Heavy Armor increased by 20%. You gain a small amount of Heavy Armor experience when wearing at least two pieces of Heavy Armor in combat.",
+    "translation": "La valeur d'armure lourde est augmentée de 20 % et vous gagnez une petite quantité d'expérience en armure lourde quand vous portez au moins 2 pièces d'armure lourde en combat.",
+    "orig_nums": [
+      "20"
+    ],
+    "trans_nums": [
+      "2",
+      "20"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03007AB3|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Armor rating of Heavy Armor increased by 40%. You gain a small amount of Heavy Armor experience when wearing at least two pieces of Heavy Armor in combat.",
+    "translation": "La valeur d'armure lourde est augmentée de 40 % et vous gagnez une petite quantité d'expérience en armure lourde quand vous portez au moins 2 pièces d'armure lourde en combat.",
+    "orig_nums": [
+      "40"
+    ],
+    "trans_nums": [
+      "2",
+      "40"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "030153EA|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Receiving a healing spell or effect when you are already at full Health overheals you, fortifying Health by 1 point per level of Restoration for 20 seconds.",
+    "translation": "Si vous recevez un sort ou un effet de soin alors que votre santé est pleine, il vous sursoigne, renforçant votre santé de 2 % par seconde pendant 30 secondes.",
+    "orig_nums": [
+      "1",
+      "20"
+    ],
+    "trans_nums": [
+      "2",
+      "30"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03016436|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "If a reanimated undead is destroyed within 20 seconds, the attacker is stricken with a Daedric disease that deals 40 damage per second for 20 seconds. Those who have this perk are immune.",
+    "translation": "Si un mort-vivant réanimé est détruit dans les 20 secondes, l'assaillant est maudit par une maladie daedrique qui inflige 15 points de dégâts par seconde pendant 20 secondes. Ceux possédant cet atout sont immunisés.",
+    "orig_nums": [
+      "20",
+      "20",
+      "40"
+    ],
+    "trans_nums": [
+      "15",
+      "20",
+      "20"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0301D0CD|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Once every 12 ingame hours, activate a paralyzed target below half Health to transmute its body into gold worth 100 times its level, killing the target. Has a 50% chance of creating gold ore. No effect on essential targets.",
+    "translation": "Toutes les 12 heures, activer une cible paralysée ayant moins de 50 % de santé pour transformer son corps en or équivalent à 100 fois son niveau, tuant la cible. A 50 % de chance de créer du minerai d'or. Aucun effet sur les cibles immortelles.",
+    "orig_nums": [
+      "100",
+      "12",
+      "50"
+    ],
+    "trans_nums": [
+      "100",
+      "12",
+      "50",
+      "50"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0301DBD7|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Activate sleeping victims to steal their dream, increasing the effectiveness of your Illusion spells by 50% for 3600 seconds. Chance to fail and alert the victim, based on Illusion skill.",
+    "translation": "Activer une victime endormie lui volera ses rêves, augmentant l'efficacité de vos sorts d'illusion de 50 % pendant 3 600 secondes. Les risques d'échouer et d'alerter la victime sont basés sur votre compétence d'illusion.",
+    "orig_nums": [
+      "3600",
+      "50"
+    ],
+    "trans_nums": [
+      "3",
+      "50",
+      "600"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0301F711|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Sneaking while under the effect of the Vision of the Tenth Eye spell will summon a disembodied eye under your control. The eye has 1 point of Health, but is invisible and silent. You must know the Vision of the Tenth Eye spell to learn this perk.",
+    "translation": "Quand vous êtes furtif et sous l'effet du sort Vision du Dixième Oeil, vous pouvez invoquer un oeil désincarné contrôlable. Il n'a qu'un seul point de santé et est invisible et silencieux. Vous devez connaître le sort Vision du Dixième Oeil pour apprendre cet atout.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0302CB20|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Cast magic like the wizards of old. Your next 20 spells do not use Magicka and are twice as effective. When you run out of spells, you are unable to cast spells until you rest by sleeping at an inn or in your home.",
+    "translation": "Lancez des sorts comme les anciens mages. Vos 20 prochains sorts n'utilisent pas de magie et sont 50 % plus efficaces. Quand vous tombez à court de sorts, vous ne pouvez plus en lancer jusqu'à ce que vous vous reposiez en dormant à la taverne ou chez vous.",
+    "orig_nums": [
+      "20"
+    ],
+    "trans_nums": [
+      "20",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0302D086|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Your Warrior's Flame carries the essence of death. Hostile undead cursed by Warrior's Flame take 30 points of damage per second.",
+    "translation": "Votre Flamme du guerrier porte l'essence de la mort. Les morts-vivants ennemis maudits subissent 20 points de dégâts par seconde.",
+    "orig_nums": [
+      "30"
+    ],
+    "trans_nums": [
+      "20"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0303380E|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "You may choose an item type (gold, jewelry, books, ingredients, potions, ingots, scrolls). Those illuminated by Thief's Eye are three times more likely to carry items of your chosen type over other types.",
+    "translation": "Vous pouvez choisir un type d'objet (or, gemmes, livres, ingrédients, potions, lingots, parchemins). Ceux illuminés par Oeil de voleur ont 3 fois plus de chance de transporter des objets de ce type.",
+    "orig_nums": [],
+    "trans_nums": [
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03034DDE|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK FULL",
+    "original": "Gone in Fifteen Seconds",
+    "translation": "15 secondes chrono",
+    "orig_nums": [],
+    "trans_nums": [
+      "15"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03034DEB|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "You may choose an item type (gold, jewelry, books, ingredients, potions, ingots, weapons, armor, scrolls). Containers illuminated by Robber's Eye are three times more likely to contain items of your chosen type over other types.",
+    "translation": "Vous pouvez choisir un type d'objet (or, gemmes, livres, ingrédients, potions, lingots, armes, armures, parchemins). Les conteneurs illuminés par Oeil de pillard ont 3 fois plus de chance de contenir des objets de ce type.",
+    "orig_nums": [],
+    "trans_nums": [
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03035E3D|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Performing a silent roll increases your weapon damage by 40% and unarmed damage by 40 points for 3 seconds.",
+    "translation": "Exécuter une roulade silencieuse augmente les dégâts des armes de 50 % et à mains nues de 40 points pendant 3 secondes.",
+    "orig_nums": [
+      "3",
+      "40",
+      "40"
+    ],
+    "trans_nums": [
+      "3",
+      "40",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03038484|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Scrolls are 2% more powerful or last 4% longer per level of Enchanting.",
+    "translation": "Les parchemins sont 50 % plus puissants ou durent 100 % plus longtemps.",
+    "orig_nums": [
+      "2",
+      "4"
+    ],
+    "trans_nums": [
+      "100",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03039A68|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "You may choose to upgrade one arcane enchanter to an Arcane Nexus for 2500 gold. New enchantments created at an Arcane Nexus are 25% stronger. Can be \"Disassembled\" by sneaking, allowing you to upgrade another.",
+    "translation": "Vous pouvez améliorer un autel d'enchantement de votre choix pour 2 500 septims. Les nouveaux enchantements conçus à un autel d'enchantement absolu sont 25 % plus forts. Cet autel amélioré pourra être démonté en mode furtivité si vous souhaitez en améliorer un autre.",
+    "orig_nums": [
+      "25",
+      "2500"
+    ],
+    "trans_nums": [
+      "2",
+      "25",
+      "500"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0303BAFE|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "You may choose to upgrade one grindstone or workbench to an Advanced version for 2500 gold. It improves items one tier higher (items can be improved beyond Legendary). Can be \"Disassembled\" by sneaking, allowing you to upgrade another of the same type.",
+    "translation": "Vous améliorez la meule ou l'établi de votre choix pour 2 500 septims. L'équipement pourra y être amélioré à un niveau supérieur (au-delà du statut Légendaire). Cette meule et cet établi pourront être démontés en mode furtivité si vous souhaitez en améliorer d'autres.",
+    "orig_nums": [
+      "2500"
+    ],
+    "trans_nums": [
+      "2",
+      "500"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0303C5F7|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Pour your Dragonborn blood into the fire at one forge. Forging an item in this forge empowers you, increasing attack damage and critical strike damage by 15% and reducing attack damage taken by 15% for 1800 seconds.",
+    "translation": "Versez votre sang d'Enfant de dragon dans le brasier d'une forge. Forger un objet dans cette forge vous rend plus puissant, augmentant les dégâts d'attaque et de coup critique de 15 % et réduisant les dégâts subis de 15 % pendant 1 800 secondes.",
+    "orig_nums": [
+      "15",
+      "15",
+      "1800"
+    ],
+    "trans_nums": [
+      "1",
+      "15",
+      "15",
+      "800"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0303D68B|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "You may choose to upgrade one alchemy lab to an Advanced version for 2500 gold. Potions you mix are 25% stronger at an Advanced Lab. Can be \"Disassembled\" by sneaking, allowing you to upgrade another.",
+    "translation": "Vous pouvez améliorer un laboratoire d'alchimie de votre choix pour 2 500 septims. Les potions que vous confectionnez sont 25 % plus puissantes au laboratoire d'alchimie de pointe. Ce laboratoire pourra être démonté en mode furtivité si vous souhaitez en améliorer un autre.",
+    "orig_nums": [
+      "25",
+      "2500"
+    ],
+    "trans_nums": [
+      "2",
+      "25",
+      "500"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0303E173|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "For 20 seconds after using any alchemy lab, beneficial potions you drink last 15 times longer and are 25% stronger.",
+    "translation": "Pendant les 20 secondes suivant l'utilisation du laboratoire d'alchimie, les potions bénéfiques bues durent 15 fois plus longtemps et sont 10 % plus puissantes.",
+    "orig_nums": [
+      "15",
+      "20",
+      "25"
+    ],
+    "trans_nums": [
+      "10",
+      "15",
+      "20"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0303ECB4|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Simultaneously (within 1 second) using an enchanted staff in your left hand and striking with an enchanted weapon in your right hand releases a flash of light that staggers enemies and deals damage equal to half your Enchanting skill level.",
+    "translation": "Utiliser simultanément un bâton enchanté dans votre main gauche et frapper avec une arme enchantée dans votre main droite engendre un flash lumineux qui déstabilise les ennemis et leur inflige des dégâts égaux à la moitié de votre compétence d'enchantement.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0303ECB5|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Scrolls are 4% more powerful or last 8% longer per level of Enchanting.",
+    "translation": "Les parchemins sont 100 % plus puissants ou durent 200 % plus longtemps.",
+    "orig_nums": [
+      "4",
+      "8"
+    ],
+    "trans_nums": [
+      "100",
+      "200"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "0303ECBD|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Grants the \"Charge Tap\" power. At will, drains a quarter of your current weapon charge to restore Health by 15% of the amount drained and Magicka and Stamina by 25% of the amount drained. (If you have two enchanted weapons equipped, the drain is split.)",
+    "translation": "Vous accorde le pouvoir \"Transfert de charge\". À volonté, draine un quart des charges d'arme pour restaurer 25 % de magie et de vigueur et 15 % de santé. Si vous avez 2 armes enchantées, l'absorption est divisée.",
+    "orig_nums": [
+      "15",
+      "25"
+    ],
+    "trans_nums": [
+      "15",
+      "2",
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03061988|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "In combat, swinging a two-handed weapon has 10% chance to increase attack speed by 175% for 3 seconds.",
+    "translation": "En combat, manier une arme à deux mains a 10 % de chances d'augmenter votre vitesse d'attaque de 100 % pendant 5 secondes.",
+    "orig_nums": [
+      "10",
+      "175",
+      "3"
+    ],
+    "trans_nums": [
+      "10",
+      "100",
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03072E16|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Find 11 types of bones on humanoid corpses. 4 Bone Altars are marked on the map. At a Bone Altar, convert 1 of each bone into a Skeleton Warrior. Skeletons do not count against your summon limit. Enemies can only temporarily defeat them, not destroy them.",
+    "translation": "Un squelette entier requiert 11 types d'os différents trouvables sur les cadavres humanoïdes. Il est converti en un squelette guerrier (non inclus dans la limite de conjuration) à un autel des ossements. Les ennemis ne peuvent pas les détruire.",
+    "orig_nums": [
+      "1",
+      "11",
+      "4"
+    ],
+    "trans_nums": [
+      "11"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "030842DD|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "You are adept at hiding in your target's blind spot. Sneaking is 15% more effective within 30 feet and 30% more effective within 15 feet.",
+    "translation": "Vous êtes un adepte de la dissimulation dans l'angle mort de votre victime. La furtivité est 13 % plus efficace dans un rayon de 10 mètres et 30 % plus efficace dans un rayon de 5 mètres.",
+    "orig_nums": [
+      "15",
+      "15",
+      "30",
+      "30"
+    ],
+    "trans_nums": [
+      "10",
+      "13",
+      "30",
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "03092B6D|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "If wearing robes and no light or heavy armor, reduces incoming attack and elemental damage by 50%, but you lose Magicka equal to four times the amount of Health lost. The damage reduction gradually diminishes as your Magicka falls below half.",
+    "translation": "Si vous ne portez qu'une robe sans armure, les dégâts élémentaires et ceux des attaques sont diminués de 50 %, mais vous perdez une quantité de magie égale à quatre fois la quantité de santé perdue. La réduction de dégâts diminuera progressivement lorsque votre magie passera sous les 50 %.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [
+      "50",
+      "50"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Ordonnateur - Atouts de Bordeciel",
+    "file": "Ordinator - Perks of Skyrim.esp.json",
+    "form_id": "031C253E|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Scrolls are 6% more powerful or last 12% longer per level of Enchanting.",
+    "translation": "Les parchemins sont 150 % plus puissants ou durent 300 % plus longtemps.",
+    "orig_nums": [
+      "12",
+      "6"
+    ],
+    "trans_nums": [
+      "150",
+      "300"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Purgatoire - Arbre de compétence de liche",
+    "file": "PreludeToPurgatory.esp.json",
+    "form_id": "06000843|PreludeToPurgatory.esp",
+    "type": "MGEF DNAM",
+    "original": "Perform a ritual to gain Mannimarco's Favor. This can only be done during the witching hour (3am to 4am).",
+    "translation": "Effectuez un rituel pour gagner la faveur de Mannimarco. Cela ne peut être fait qu'au coeur de la nuit (3 h à 4 h du matin).",
+    "orig_nums": [],
+    "trans_nums": [
+      "3",
+      "4"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Purgatoire - Arbre de compétence de liche",
+    "file": "PreludeToPurgatory.esp.json",
+    "form_id": "0600084B|PreludeToPurgatory.esp",
+    "type": "MGEF DNAM",
+    "original": "During the witching hour, you may perform a ritual to gain the favor of Mannimarco, the King of Worms.",
+    "translation": "Au coeur de la nuit, entre 3 h et 4 h, vous pouvez effectuer un rituel pour gagner la faveur de Mannimarco, le Roi des Vers.",
+    "orig_nums": [],
+    "trans_nums": [
+      "3",
+      "4"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Purgatoire - Arbre de compétence de liche",
+    "file": "PreludeToPurgatory.esp.json",
+    "form_id": "06000847|PreludeToPurgatory.esp",
+    "type": "SPEL FULL",
+    "original": "Mannimarco's Favor 1",
+    "translation": "Faveur de Mannimarco I",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Purgatoire - Arbre de compétence de liche",
+    "file": "PreludeToPurgatory.esp.json",
+    "form_id": "06000850|PreludeToPurgatory.esp",
+    "type": "SPEL FULL",
+    "original": "Mannimarco's Favor 2",
+    "translation": "Faveur de Mannimarco II",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Purgatoire - Arbre de compétence de liche",
+    "file": "PreludeToPurgatory.esp.json",
+    "form_id": "06000845|PreludeToPurgatory.esp",
+    "type": "PERK FULL",
+    "original": "Appeal to Mannimarco - Level 1",
+    "translation": "Faveur de Mannimarco I",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Purgatoire - Arbre de compétence de liche",
+    "file": "PreludeToPurgatory.esp.json",
+    "form_id": "0600084E|PreludeToPurgatory.esp",
+    "type": "PERK FULL",
+    "original": "Appeal to Mannimarco - Level 2",
+    "translation": "Faveur de Mannimarco II",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Purgatoire - Arbre de compétence de liche",
+    "file": "PreludeToPurgatory.esp.json",
+    "form_id": "06000801|PreludeToPurgatory.esp",
+    "type": "PERK DESC",
+    "original": "During the witching hour (3am - 4am), you may perform a ritual to gain the favor of Mannimarco.",
+    "translation": "Au coeur de la nuit, entre 3 h et 4 h, vous pouvez effectuer un rituel pour gagner la faveur de Mannimarco.",
+    "orig_nums": [],
+    "trans_nums": [
+      "3",
+      "4"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Purgatoire - Arbre de compétence de liche",
+    "file": "PTP_Wintersun.esp.json",
+    "form_id": "06000843|PreludeToPurgatory.esp",
+    "type": "MGEF DNAM",
+    "original": "Perform a ritual to gain Mannimarco's Favor. This can only be done during the witching hour (3am to 4am).",
+    "translation": "Effectuez un rituel pour gagner la faveur de Mannimarco. Cela ne peut être fait qu'au coeur de la nuit (3 h à 4 h du matin).",
+    "orig_nums": [],
+    "trans_nums": [
+      "3",
+      "4"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Sacrosanct - Vampires de Bordeciel",
+    "file": "Sacrosanct - Vampires of Skyrim.esp.json",
+    "form_id": "0308B4A6|Sacrosanct - Vampires of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Able to create Blood Potions at a cooking pot. Using Human Flesh yields 1 Blood Potion and using a Human Heart yields 2 Blood Potions. Additionally, consuming a Blood Potion advances Vampire Lord perks.",
+    "translation": "Vous pouvez créer des potions de sang avec une marmite. Une portion de chair humaine vous permet de créer une potion de sang, un coeur humain vous permet d'en créer deux. De plus, consommer une potion de sang fait désormais progresser vos atouts de seigneur vampire.",
+    "orig_nums": [
+      "1",
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Sacrosanct - Vampires de Bordeciel",
+    "file": "Sacrosanct - Vampires of Skyrim.esp.json",
+    "form_id": "020149A9|Dawnguard.esm",
+    "type": "MGEF DNAM",
+    "original": "Your Vampiric Drain and Raze spells absorb Magicka and Stamina from your victims for 1 day, but at the cost of <mag> less Health.",
+    "translation": "Vos sorts de Festin vampirique et Ponction de sang absorbent la magie et la vigueur de vos victimes pendant un jour, mais absorbent en retour <mag> points de santé en moins.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Sacrosanct - Vampires de Bordeciel",
+    "file": "Sacrosanct - Vampires of Skyrim.esp.json",
+    "form_id": "0308DC45|Sacrosanct - Vampires of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "You are stronger when Blood Starved: you deal 25% more attack damage, Flaywind lasts 100% longer, and Vampiric Drain deals 50% more damage and has 15% chance per second to cast a Flaywind on humanoid targets for 5 points of magic damage for 10 seconds.",
+    "translation": "Vous êtes plus puissant quand vous êtes assoiffé de sang : vos attaques infligent 25 % plus de dégâts ; Vent écorchant dure deux fois plus longtemps ; Festin vampirique inflige 50 % plus de dégâts et a 15 % de chances par seconde de lancer Vent écorchant sur une cible humanoïde, lui infligeant 5 points de dégâts magiques pendant 10 secondes.",
+    "orig_nums": [
+      "10",
+      "100",
+      "15",
+      "25",
+      "5",
+      "50"
+    ],
+    "trans_nums": [
+      "10",
+      "15",
+      "25",
+      "5",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Sacrosanct - Vampires de Bordeciel",
+    "file": "Sacrosanct - Vampires of Skyrim.esp.json",
+    "form_id": "03014558|Sacrosanct - Vampires of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Sneak feeding or feeding on a Seduced victim freezes them for <8> seconds, reducing armor by <1500> points.",
+    "translation": "Se nourrir en furtivité ou sur une victime séduite la laisse immobile pendant 8 secondes, réduisant sa valeur d'armure de <1 500> points.",
+    "orig_nums": [
+      "1500",
+      "8"
+    ],
+    "trans_nums": [
+      "1",
+      "500",
+      "8"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Sacrosanct - Vampires de Bordeciel",
+    "file": "Sacrosanct - Vampires of Skyrim.esp.json",
+    "form_id": "0307008F|Sacrosanct - Vampires of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "You gain 4 perk points to spend in your other perk trees and equip a royal crown in Vampire Lord form. However, when you are Blood Starved, contact with Sunlight will instantly destroy you!",
+    "translation": "Vous gagnez 4 points d'atouts à répartir dans vos autres arbres d'atouts, et équipez une couronne royale sous forme de seigneur vampire. Lorsque vous êtes assoiffé de sang (en ne vous étant pas nourri pendant au moins 3 jours), toute exposition à la lumière du soleil est instantanément fatale.",
+    "orig_nums": [
+      "4"
+    ],
+    "trans_nums": [
+      "3",
+      "4"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Sacrosanct - Vampires de Bordeciel",
+    "file": "Sacrosanct - Vampires of Skyrim.esp.json",
+    "form_id": "031071B0|Sacrosanct - Vampires of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Frost spells and effects are <25>% stronger, but fire spells and effects are <25>% weaker.",
+    "translation": "Les sorts et effets de glace sont 20 % plus puissants, mais les sorts et effets de feu sont 20 % plus faibles.",
+    "orig_nums": [
+      "25",
+      "25"
+    ],
+    "trans_nums": [
+      "20",
+      "20"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Shadow of Skyrim VF 1.34 SE",
+    "file": "Shadow of Skyrim.esp.json",
+    "form_id": "0500084B|Shadow of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Invincibility against frontal physical damage when blocking with shield (90 degree arc for 0.75s) or weapon (60 degree arc for 0.5s) Blocking detection handled by script _eRB_ArtfulDeflection.",
+    "translation": "Invincibilité contre les dégâts frontaux en parant avec un bouclier (angle de 90° durant 0.75 seconde) ou une arme (angle de 60° durant 0.5 seconde). Parade détectée par le script _eRB_ArtfulDeflection.",
+    "orig_nums": [
+      "0",
+      "0",
+      "60",
+      "90"
+    ],
+    "trans_nums": [
+      "0.5",
+      "0.75",
+      "60",
+      "90"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04055FBB|SPERG-SSE.esp",
+    "type": "MGEF DNAM",
+    "original": "Your Alchemy, Enchanting, and Smithing skills are raised to 100 for one day.",
+    "translation": "Vos compétences d'alchimie, d'enchantement et de forgeage sont augmentées de 100 pendant 24 heures.",
+    "orig_nums": [
+      "100"
+    ],
+    "trans_nums": [
+      "100",
+      "24"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "0405961B|SPERG-SSE.esp",
+    "type": "MGEF FULL",
+    "original": "Armor 70 Perk bonus",
+    "translation": "Bonus d'atout d'armure",
+    "orig_nums": [
+      "70"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04008559|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Doubles the duration of all potions. Potions which fortify a crafting skill last ten times as long.",
+    "translation": "Double la durée des potions. Les potions qui fortifient une compétence d'artisanat durent 10 fois plus longtemps.",
+    "orig_nums": [],
+    "trans_nums": [
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "040390DE|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Additional 25% Armor bonus if wearing at least three matched pieces of Heavy Armor.",
+    "translation": "Bonus d'armure de 25 % si vous portez au moins 3 pièces assorties d'armure lourde.",
+    "orig_nums": [
+      "25"
+    ],
+    "trans_nums": [
+      "25",
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04055FBC|SPERG-SSE.esp",
+    "type": "MGEF DNAM",
+    "original": "Your skills increase 15% faster for one day. This can stack with similar effects.",
+    "translation": "Vos compétences augmentent de 15 % plus rapidement pendant 24 heures. Peut se cumuler avec des effets similaires.",
+    "orig_nums": [
+      "15"
+    ],
+    "trans_nums": [
+      "15",
+      "24"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "040012C7|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Magic armor spells never need to be re-cast. When not wearing armor, they are four times as strong and level Alteration as if it were an armor skill.",
+    "translation": "Les sorts de protection magique n'ont pas besoin d'être relancés. Lorsque vous ne portez pas d'armure, ils sont 4 fois plus puissants en fonction du niveau en altération, comme s'il s'agissait d'une compétence d'armure.",
+    "orig_nums": [],
+    "trans_nums": [
+      "4"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04024BFB|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Consuming alcohol has a chance of sending you into a drunken rage, increasing melee damage and reducing damage taken by 50% each. This chance increases the more you drink.",
+    "translation": "Boire de l'alcool vous donne une chance d'entrer dans une rage d'ivresse, ce qui augmente les dégâts que vous infligez au corps à corps de 50 % et réduit les dégâts subis de 50 %. Plus vous buvez et plus cette chance augmente.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [
+      "50",
+      "50"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04056AA0|SPERG-SSE.esp",
+    "type": "MGEF DNAM",
+    "original": "Your chance to critically hit is increased by <15>% for one day.",
+    "translation": "Votre chance de réussir des coups critiques augmente de 15 % pendant 24 heures.",
+    "orig_nums": [
+      "15"
+    ],
+    "trans_nums": [
+      "15",
+      "24"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "040225F1|SPERG-SSE.esp",
+    "type": "MGEF DNAM",
+    "original": "Destruction spells deal <45>% more damage. Dual casting increases this to <100>% for  5 seconds, but ends the effect.",
+    "translation": "Les sorts de destruction infligent 45 % de dégâts supplémentaires. Le double lancement augmente les dégâts de 100 % pendant cinq secondes, mais met fin à l'effet.",
+    "orig_nums": [
+      "100",
+      "45",
+      "5"
+    ],
+    "trans_nums": [
+      "100",
+      "45"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "0400855B|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Invisibility effects last twice as long. While invisible, your movement is silent, and attacks and spells pass through you.",
+    "translation": "Les effets d'invisibilité durent 2 fois plus longtemps. Lorsque vous êtes invisible, vos mouvements deviennent silencieux et les sorts et attaques vous traversent.",
+    "orig_nums": [],
+    "trans_nums": [
+      "2"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04055FB9|SPERG-SSE.esp",
+    "type": "MGEF DNAM",
+    "original": "Poisons you apply are twice as effective and last twice as long for one day. Does not affect special Patron poisons.",
+    "translation": "Les poisons que vous appliquez sont deux fois plus efficaces et durent deux fois plus longtemps pendant 24 heures. N'affecte pas les poisons spéciaux.",
+    "orig_nums": [],
+    "trans_nums": [
+      "24"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04055FBA|SPERG-SSE.esp",
+    "type": "MGEF DNAM",
+    "original": "Beneficial potions are twice as effective and last twice as long for one day. Does not affect special Patron potions.",
+    "translation": "Les potions bénéfiques sont deux fois plus efficaces et durent deux fois plus longtemps pendant 24 heures. N'affecte pas les potions spéciales.",
+    "orig_nums": [],
+    "trans_nums": [
+      "24"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04035524|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Can place two runes at once at triple the range. Runes are significantly more powerful, but take ten seconds to charge to full power. This timer resets each time you cast a new rune.",
+    "translation": "Vous pouvez placer deux runes à la fois et tripler leur portée. Les runes sont nettement plus puissantes, mais nécessitent 10 secondes pour être chargées à pleine puissance. Ce temps de charge se réinitialise chaque fois que vous placez une nouvelle rune.",
+    "orig_nums": [],
+    "trans_nums": [
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04020537|SPERG-SSE.esp",
+    "type": "SPEL DESC",
+    "original": "Awakening the latent energy in your Breton blood gives you another <25>% resistance to magic.",
+    "translation": "L'activation d'une énergie latente dans votre sang bréton vous octroie une résistance supplémentaire à la magie de 50 %.",
+    "orig_nums": [
+      "25"
+    ],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04039110|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Fire spells deal 10% more health damage, Frost spells deal 50% more stamina damage, and Shock spells deal twice as much magicka damage.",
+    "translation": "Les sorts de feu infligent plus de dégâts à la santé, les sorts de glace infligent plus de dégâts à la vigueur, les sorts de foudre infligent plus de dégâts à la magie.",
+    "orig_nums": [
+      "10",
+      "50"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "040390F1|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Additional 25% Armor bonus if wearing at least three matched pieces of Light Armor.",
+    "translation": "Bonus d'armure de 25 % si vous portez au moins 3 pièces assorties d'armure légère.",
+    "orig_nums": [
+      "25"
+    ],
+    "trans_nums": [
+      "25",
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04055FBE|SPERG-SSE.esp",
+    "type": "MGEF DNAM",
+    "original": "Your spells last 20% longer for one day.",
+    "translation": "Vos derniers sorts lancés durent 20 % plus longtemps pendant 24 heures.",
+    "orig_nums": [
+      "20"
+    ],
+    "trans_nums": [
+      "20",
+      "24"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "0405961A|SPERG-SSE.esp",
+    "type": "MGEF FULL",
+    "original": "Armor 70 Perk bonus",
+    "translation": "Bonus d'atout d'armure",
+    "orig_nums": [
+      "70"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04056530|SPERG-SSE.esp",
+    "type": "MGEF DNAM",
+    "original": "You take 20% less damage from all sources for one day.",
+    "translation": "Vous subissez 20 % de dégâts en moins, sous n'importe quelle forme, pendant 24 heures.",
+    "orig_nums": [
+      "20"
+    ],
+    "trans_nums": [
+      "20",
+      "24"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04044216|SPERG-SSE.esp",
+    "type": "MGEF DNAM",
+    "original": "Destruction spells deal 50% more damage, but cost 50 more magicka to cast.",
+    "translation": "Les sorts de destruction infligent 50 % de dégâts supplémentaires mais coûtent le double de magie.",
+    "orig_nums": [
+      "50",
+      "50"
+    ],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "0402103B|SPERG-SSE.esp",
+    "type": "MGEF FULL",
+    "original": "Armor 70 Perk bonus",
+    "translation": "Bonus d'atout d'armure",
+    "orig_nums": [
+      "70"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04007A94|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Dual wielding power attacks do 25% bonus damage and dual wielding attacks are 25% faster.",
+    "translation": "Les attaques puissantes à deux armes infligent 50 % de dégâts supplémentaires et sont 25 % plus rapides.",
+    "orig_nums": [
+      "25",
+      "25"
+    ],
+    "trans_nums": [
+      "25",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "SPERG - Atouts et jouabilité améliorés",
+    "file": "SPERG-SSE.esp.json",
+    "form_id": "04059619|SPERG-SSE.esp",
+    "type": "MGEF FULL",
+    "original": "Armor 70 Perk bonus",
+    "translation": "Bonus d'atout d'armure",
+    "orig_nums": [
+      "70"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Static Skill Leveling Rewritten - French",
+    "file": "ordinatorexperiencepatch.esp.json",
+    "form_id": "01007AB0|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Armor rating of Light Armor increased by 20%.",
+    "translation": "La valeur d'armure légère est augmentée de 20 % et vous gagnez une petite quantité d'expérience en armure légère lorsque vous portez au moins 2 pièces d'armure légère en combat.",
+    "orig_nums": [
+      "20"
+    ],
+    "trans_nums": [
+      "2",
+      "20"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Static Skill Leveling Rewritten - French",
+    "file": "ordinatorexperiencepatch.esp.json",
+    "form_id": "01007AB3|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Armor rating of Heavy Armor increased by 40%.",
+    "translation": "La valeur d'armure lourde est augmentée de 40 % et vous gagnez une petite quantité d'expérience en armure lourde quand vous portez au moins 2 pièces d'armure lourde en combat.",
+    "orig_nums": [
+      "40"
+    ],
+    "trans_nums": [
+      "2",
+      "40"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Static Skill Leveling Rewritten - French",
+    "file": "ordinatorexperiencepatch.esp.json",
+    "form_id": "01007AB2|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Armor rating of Heavy Armor increased by 20%.",
+    "translation": "La valeur d'armure lourde est augmentée de 20 % et vous gagnez une petite quantité d'expérience en armure lourde quand vous portez au moins 2 pièces d'armure lourde en combat.",
+    "orig_nums": [
+      "20"
+    ],
+    "trans_nums": [
+      "2",
+      "20"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Static Skill Leveling Rewritten - French",
+    "file": "ordinatorexperiencepatch.esp.json",
+    "form_id": "01007AB1|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Armor rating of Light Armor increased by 40%.",
+    "translation": "La valeur d'armure légère est augmentée de 40 % et vous gagnez une petite quantité d'expérience en armure légère lorsque vous portez au moins 2 pièces d'armure légère en combat.",
+    "orig_nums": [
+      "40"
+    ],
+    "trans_nums": [
+      "2",
+      "40"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Triumvirat - Archétypes de mages",
+    "file": "Triumvirate - Mage Archetypes.esp.json",
+    "form_id": "05335B49|Triumvirate - Mage Archetypes.esp",
+    "type": "MGEF DNAM",
+    "original": "Able to melee attack from up to <50> feet to perform a dash attack, converting <50>% of your Magicka into bonus magic damage on hit. Lasts <dur> seconds. (<mag> damage)",
+    "translation": "Attaquez en mêlée jusqu'à 15 mètres pour effectuer une attaque éclair, convertissant 50 % de votre magie en bonus de dégâts magiques au moment de l'attaque. Dure <dur> secondes. (<mag> points de dégâts)",
+    "orig_nums": [
+      "50",
+      "50"
+    ],
+    "trans_nums": [
+      "15",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "USSEP - Traduction Francaise",
+    "file": "unofficial skyrim special edition patch.esp.json",
+    "form_id": "0010F1E9|Skyrim.esm",
+    "type": "SPEL DESC",
+    "original": "Your Vampiric blood gives you <40>% weakness to Fire.",
+    "translation": "Votre sang vampirique vous octroie 75 % de vulnérabilité au feu.",
+    "orig_nums": [
+      "40"
+    ],
+    "trans_nums": [
+      "75"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "USSEP - Traduction Francaise",
+    "file": "unofficial skyrim special edition patch.esp.json",
+    "form_id": "0010F1EA|Skyrim.esm",
+    "type": "SPEL DESC",
+    "original": "Your Vampiric blood gives you <30>% weakness to Fire.",
+    "translation": "Votre sang vampirique vous octroie 50 % de vulnérabilité au feu.",
+    "orig_nums": [
+      "30"
+    ],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vigile - Arbre de compétence",
+    "file": "Perk-Vigilant.esp.json",
+    "form_id": "04000D97|Perk-Vigilant.esp",
+    "type": "PERK DESC",
+    "original": "Protection spells like Stoneflesh are 1.5x longer when wearing amulet of stendarr.",
+    "translation": "Les sorts de protection durent 1,5 fois plus longtemps en portant l'amulette de Stendarr.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [
+      "1.5"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vigile - Arbre de compétence",
+    "file": "Perk-Vigilant.esp.json",
+    "form_id": "04000819|Perk-Vigilant.esp",
+    "type": "MGEF DNAM",
+    "original": "Add 1 Skill Points of Vigilant of Stendarr.",
+    "translation": "Ajoute un point d'atout de Vigile de Stendarr.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "vigile_1.7.3_sse",
+    "file": "vigilant.esm.json",
+    "form_id": "023C3342|Vigilant.esm",
+    "type": "MGEF DNAM",
+    "original": "Health regenerates 10x faster for <dur> seconds.",
+    "translation": "La santé se régénère 10 fois plus vite pendant <dur> secondes.",
+    "orig_nums": [],
+    "trans_nums": [
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Apply Spell Conditions Fix.esp - French",
+    "file": "vokrii - apply spell conditions fix.esp.json",
+    "form_id": "04000A2B|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Ranged weapons knock targets down if they are sprinting, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les armes à distance renversent les cibles qui courent, assénant un coup critique qui inflige 2x plus de dégâts.",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Apply Spell Conditions Fix.esp - French",
+    "file": "vokrii - apply spell conditions fix.esp.json",
+    "form_id": "04000AD2|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a dagger bleed the living for 30 seconds, inflicting a critical strike for 3 times critical damage.",
+    "translation": "Les attaques puissantes à la dague font saigner les êtres vivants pendant 30 secondes, assénant un coup critique qui inflige 3x plus de dégâts.",
+    "orig_nums": [
+      "3",
+      "30"
+    ],
+    "trans_nums": [
+      "30"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Apply Spell Conditions Fix.esp - French",
+    "file": "vokrii - apply spell conditions fix.esp.json",
+    "form_id": "000C3679|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Power attacks with a war axe smash through a shield, inflicting a critical strike for 5 times critical damage and forcing them to drop their shield.",
+    "translation": "Les attaques puissantes avec une hache fracassent les boucliers, infligeant un coup critique de 6 fois les dégâts critiques et forçant la cible à laisser tomber son bouclier.",
+    "orig_nums": [
+      "5"
+    ],
+    "trans_nums": [
+      "6"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Apply Spell Conditions Fix.esp - French",
+    "file": "vokrii - apply spell conditions fix.esp.json",
+    "form_id": "04000954|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Ranged weapons interrupt power attacks, knocking the attacker back and inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les armes à distance interrompent les attaques puissantes, renversent l'assaillant et assènent un coup critique qui inflige 2x plus de dégâts.",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Apply Spell Conditions Fix.esp - French",
+    "file": "vokrii - apply spell conditions fix.esp.json",
+    "form_id": "000C1E95|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Power attacks with a greatsword execute targets below 30% Health, inflicting a critical strike for 10 times critical damage and knocking the target down.",
+    "translation": "Les attaques puissantes avec un espadon exécutent les cibles dont la santé est inférieure à 30 %, infligeant un coup critique et renversant la cible si elle survit.",
+    "orig_nums": [
+      "10",
+      "30"
+    ],
+    "trans_nums": [
+      "30"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Apply Spell Conditions Fix.esp - French",
+    "file": "vokrii - apply spell conditions fix.esp.json",
+    "form_id": "000C1E93|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Power attacks with a mace interrupt spellcasting, inflicting a critical strike for 3 times critical damage and silencing the target for 5 seconds.",
+    "translation": "Les attaques puissantes avec une masse interrompent le lancer de sorts, infligeant un coup critique et réduisant la cible au silence pendant 5 secondes.",
+    "orig_nums": [
+      "3",
+      "5"
+    ],
+    "trans_nums": [
+      "5"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Apply Spell Conditions Fix.esp - French",
+    "file": "vokrii - apply spell conditions fix.esp.json",
+    "form_id": "000C1E97|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Power attacks with a warhammer interrupt spellcasting, inflicting a critical strike for 3 times critical damage, silencing and immobilizing the target for 5 seconds.",
+    "translation": "Les attaques puissantes avec un marteau interrompent le lancement de sorts, infligeant un coup critique, réduisant au silence et immobilisant la cible pendant 5 secondes.",
+    "orig_nums": [
+      "3",
+      "5"
+    ],
+    "trans_nums": [
+      "5"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "00058F75|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Sell items for 15% more and buy items for 15% less when trading with the same race.",
+    "translation": "Les prix d'achat et de vente sont plus intéressant de 15 % lorsque vous faites affaire avec la même race.",
+    "orig_nums": [
+      "15",
+      "15"
+    ],
+    "trans_nums": [
+      "15"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "00079342|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "One-handed weapons do 60% more damage, and one-handed critical strikes deal 4 times critical damage.",
+    "translation": "Les armes à une main infligent 80 % de dégâts en plus, et les coups critiques à une main infligent 4 fois les dégâts critiques.",
+    "orig_nums": [
+      "4",
+      "60"
+    ],
+    "trans_nums": [
+      "4",
+      "80"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "000C1E93|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Power attacks with a mace interrupt spellcasting, inflicting a critical strike for 3 times critical damage and silencing the target for 5 seconds.",
+    "translation": "Les attaques puissantes avec une masse interrompent le lancer de sorts, infligeant un coup critique et réduisant la cible au silence pendant 5 secondes.",
+    "orig_nums": [
+      "3",
+      "5"
+    ],
+    "trans_nums": [
+      "5"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "000C1E95|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Power attacks with a greatsword execute targets below 30% Health, inflicting a critical strike for 10 times critical damage and knocking the target down.",
+    "translation": "Les attaques puissantes avec un espadon exécutent les cibles dont la santé est inférieure à 30 %, infligeant un coup critique et renversant la cible si elle survit.",
+    "orig_nums": [
+      "10",
+      "30"
+    ],
+    "trans_nums": [
+      "30"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "000C1E97|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Power attacks with a warhammer interrupt spellcasting, inflicting a critical strike for 3 times critical damage, silencing and immobilizing the target for 5 seconds.",
+    "translation": "Les attaques puissantes avec un marteau interrompent le lancement de sorts, infligeant un coup critique, réduisant au silence et immobilisant la cible pendant 5 secondes.",
+    "orig_nums": [
+      "3",
+      "5"
+    ],
+    "trans_nums": [
+      "5"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000804|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Two-handed power attacks deal up to 100% more damage below half Health. Damage increases as your Health decreases.",
+    "translation": "Les attaques puissantes à deux mains infligent jusqu'à 100 % de dégâts supplémentaires si votre santé est en dessous de 50 %. Les dégâts augmentent à mesure que votre santé diminue.",
+    "orig_nums": [
+      "100"
+    ],
+    "trans_nums": [
+      "100",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "0400089D|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "A cursed septim that reduces armor by 1500 points and inflicts 150% weakness to magic when placed in a person's pockets.",
+    "translation": "Un septim maudit qui réduit l'armure de 1 500 points et inflige 150 % de vulnérabilité à la magie lorsqu'il est placé dans les poches d'une personne.",
+    "orig_nums": [
+      "150",
+      "1500"
+    ],
+    "trans_nums": [
+      "1",
+      "150",
+      "500"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000954|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Ranged weapons interrupt power attacks, knocking the attacker back and inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les armes à distance interrompent les attaques puissantes, repoussant l'attaquant et infligeant un coup critique.",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000969|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with two empty hands cost 25% less Stamina and have a 50% chance to stagger opponents, potentially disarming them.",
+    "translation": "Les attaques puissantes avec deux mains vides coûtent 50 % de vigueur en moins et ont 50 % de chances de déstabiliser les adversaires, les désarmant potentiellement.",
+    "orig_nums": [
+      "25",
+      "50"
+    ],
+    "trans_nums": [
+      "50",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000A1E|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Blocking an attack has 15% chance to stagger the attacker, exposing them to a critical strike counterattack within 3 seconds for 2 times critical damage.",
+    "translation": "Parer une attaque a 15 % de chances de déstabiliser l'attaquant, l'exposant à une contre-attaque dans les 3 secondes qui suivent, infligeant le double de dégâts critiques.",
+    "orig_nums": [
+      "15",
+      "2",
+      "3"
+    ],
+    "trans_nums": [
+      "15",
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000A2B|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Ranged weapons knock targets down if they are sprinting, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les armes à distance renversent les cibles si elles sprintent, infligeant un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000AD2|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a dagger bleed the living for 30 seconds, inflicting a critical strike for 3 times critical damage.",
+    "translation": "Les attaques puissantes avec une dague provoquent une hémorragie sur les vivants pendant 30 secondes, infligeant un coup critique.",
+    "orig_nums": [
+      "3",
+      "30"
+    ],
+    "trans_nums": [
+      "30"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000ADE|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Sun spells deal full damage to the living, daedra, automatons and dragons.",
+    "translation": "Les sorts solaires infligent 100 % de dégâts aux vivants, aux Daedra, aux automates et aux dragons.",
+    "orig_nums": [],
+    "trans_nums": [
+      "100"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000B93|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Two-handed forwards power attacks have 25% chance to paralyze targets, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les attaques puissantes à deux mains vers l'avant ont 25 % de chances de paralyser les cibles, infligeant un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2",
+      "25"
+    ],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000BA0|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "One-handed forwards power attacks have 25% chance to knock targets down, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les attaques puissantes en avant à une main ont 25 % de chances de renverser la cible et d'infliger un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2",
+      "25"
+    ],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokrii - Atouts minimalistes",
+    "file": "Vokrii - Minimalistic Perks of Skyrim.esp.json",
+    "form_id": "04000BA1|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "One-handed sideways power attacks have 25% chance to disarm targets, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les attaques puissantes latérales à une main ont 25 % de chances de désarmer les cibles, infligeant un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2",
+      "25"
+    ],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000895|PathOfSorcery.esp",
+    "type": "MGEF DNAM",
+    "original": "Spells cost health to cast instead of magicka. Your maximum health is increased by <50>% of your magicka pool.",
+    "translation": "Les sorts coûtent de la santé à la place de la magie. Votre santé maximale augmente de <mag> % de votre réserve de magie.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "000581F7|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "If wearing robes and no light or heavy armor, reduces incoming attack and elemental damage by 35% but you lose Magicka equal to the amount of Health lost. The damage reduction gradually diminishes as Magicka falls below half. The energy shield is disabled when your hands are lowered.",
+    "translation": "Si vous ne portez qu'une robe sans armure, les dégâts subis sont diminués de 35 %. Votre perte de magie est égale à celle de votre santé. La réduction de dégâts diminue progressivement quand votre magie passe sous les 50 %. Le bouclier est désactivé quand vous rengainez.",
+    "orig_nums": [
+      "35"
+    ],
+    "trans_nums": [
+      "35",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "000D7999|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "If not wearing armor, gain 5% chance to take no damage from attacks and armor spells are twice as strong.",
+    "translation": "Les sorts d'armure sont 30 % plus puissants ; si vous portez une robe, ils sont 100 % plus puissants.",
+    "orig_nums": [
+      "5"
+    ],
+    "trans_nums": [
+      "100",
+      "30"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "000D799A|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "Flesh and Shield spells affect nearby allies. If not wearing armor, gain 10% chance to take no damage from attacks and armor spells are 2.5 times as strong.",
+    "translation": "Les sorts de protection s'appliquent aux alliés proches. Les sorts d'armure sont 50 % plus puissants ; si vous portez une robe, ils sont 150 % plus puissants.",
+    "orig_nums": [
+      "10",
+      "2.5"
+    ],
+    "trans_nums": [
+      "150",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "000D799B|Skyrim.esm",
+    "type": "PERK DESC",
+    "original": "If not wearing armor, gain 15% chance to take no damage from attacks and armor spells are three times as strong.",
+    "translation": "Les sorts d'armure sont 70 % plus puissants ; si vous portez une robe, ils sont 200 % plus puissants.",
+    "orig_nums": [
+      "15"
+    ],
+    "trans_nums": [
+      "200",
+      "70"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "0500855B|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Invisibility effects last twice as long. While invisible, your movement is silent, and attacks and spells pass through you.",
+    "translation": "Les effets d'invisibilité durent 2 fois plus longtemps. Lorsque vous êtes invisible, vos mouvements deviennent silencieux et les sorts et attaques vous traversent.",
+    "orig_nums": [],
+    "trans_nums": [
+      "2"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "05024BFB|SPERG-SSE.esp",
+    "type": "PERK DESC",
+    "original": "Consuming alcohol has a chance of sending you into a drunken rage, increasing melee damage and reducing damage taken by 50% each. This chance increases the more you drink.",
+    "translation": "Boire de l'alcool vous donne une chance d'entrer dans une rage d'ivresse, ce qui augmente les dégâts que vous infligez au corps à corps de 50 % et réduit les dégâts subis de 50 %. Plus vous buvez et plus cette chance augmente.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [
+      "50",
+      "50"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BA6|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "You can now have up to 5 skeletons. Powerful Bone Dragons can be created from collected bones that will guard the location where they are summoned.",
+    "translation": "De puissants goliaths et dragons osseux peuvent être créés à partir d'os et de gemmes spirituelles pleines. Les dragons gardent l'endroit où ils sont invoqués.",
+    "orig_nums": [
+      "5"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BB5|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Spells cost health to cast instead of magicka. Your maximum health is increased by 50% of your magicka pool. (Novice=8 HP, Appren.=12 HP, Adept=20 HP, Expert=30 HP, Master=42 HP) Has no effect in Vampire Lord form. Vancian Magic cannot be taken.",
+    "translation": "Octroie le sort Rituel de sang. Quand il est actif, les sorts coûtent de la santé à la place de la magie, et votre santé maximale augmente de 50 % de votre réserve de magie. Relancer pour mettre fin à l'effet.",
+    "orig_nums": [
+      "12",
+      "20",
+      "30",
+      "42",
+      "50",
+      "8"
+    ],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BB6|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Halves the amount of health consumed by spell casting. (Novice=4 HP, Appren.=6 HP, Adept=10 HP, Expert=15 HP, Master=21 HP; Concentration spells, such as Flames, consume only a third as much health.)",
+    "translation": "Quand Rituel de sang est actif, votre santé maximale augmente de 100 % de votre réserve de magie et les sorts ne coûtent que la moitié.",
+    "orig_nums": [
+      "10",
+      "15",
+      "21",
+      "4",
+      "6"
+    ],
+    "trans_nums": [
+      "100"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BC2|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Wards are 50% stronger and cost 30% less magicka to cast. If not wearing any chest armor, wards cost 50% less magicka to cast.",
+    "translation": "Les barrières coûtent 30 % de magie en moins et sont 50 % plus puissantes. Si vous ne portez pas d'armure physique, elles sont 100 % plus puissantes.",
+    "orig_nums": [
+      "30",
+      "50",
+      "50"
+    ],
+    "trans_nums": [
+      "100",
+      "30",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BC3|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Wards are 75% stronger and cost 50% less magicka to cast. If not wearing any chest armor, wards cost 70% less magicka to cast.",
+    "translation": "Les barrières coûtent 50 % de magie en moins et sont 100 % plus puissantes. Si vous ne portez pas d'armure physique, elles sont 200 % plus puissantes.",
+    "orig_nums": [
+      "50",
+      "70",
+      "75"
+    ],
+    "trans_nums": [
+      "100",
+      "200",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BC8|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Those affected by Aura of Light gain 50 armor for every person affected, up to 300 points.",
+    "translation": "Aura de lumière octroie 60 points d'armure et 6 % de dégâts d'attaque à chaque personne affectée. Se cumule jusqu'à 5 fois.",
+    "orig_nums": [
+      "300",
+      "50"
+    ],
+    "trans_nums": [
+      "5",
+      "6",
+      "60"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BC9|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Those affected by Aura of Light will be saved from a killing blow, healing 200 points. Only works once per battle per person.",
+    "translation": "Les personnes affectées par Aura de lumière seront sauvées d'un coup mortel une fois par combat, ce qui soigne de 250 points de santé.",
+    "orig_nums": [
+      "200"
+    ],
+    "trans_nums": [
+      "250"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BCF|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "While you have a bound weapon equipped, you have a 30% chance to turn ethereal for 2 seconds while an opponent is power attacking.",
+    "translation": "Quand vous avez une arme liée équipée, vous avez 50 % de chances de devenir éthéré pendant 2 secondes quand votre adversaire effectue une attaque puissante.",
+    "orig_nums": [
+      "2",
+      "30"
+    ],
+    "trans_nums": [
+      "2",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BD1|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Created skeletons can be given Fire Salts, Frost Salts, or Void Salts. Doing so increases their magicka pool by 100 and grants them access to a powerful spell of that type. (Bone Horses change appearance and gain elemental cloaks and resistance; Bone Dragons gain elemental shouts)",
+    "translation": "Les squelettes créés peuvent recevoir des sels de feu, de givre ou de néant pour augmenter leur réserve de magie de 100 points et leur donner accès à un sort puissant du même type, jusqu'à 2 fois. Effet cumulable.",
+    "orig_nums": [
+      "100"
+    ],
+    "trans_nums": [
+      "100",
+      "2"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BD2|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Reanimated undead deal 25% more damage in combat and move and attack 15% faster.",
+    "translation": "Les morts-vivants réanimés ou conjurés infligent 50 % de dégâts supplémentaires au combat, et se déplacent et attaquent 15 % plus vite.",
+    "orig_nums": [
+      "15",
+      "25"
+    ],
+    "trans_nums": [
+      "15",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BDB|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Activate a calmed target to enthrall them with a Geas for 5 minutes. Enthralled allies will follow you and fight for you; only 1 Geas can be active at a time.",
+    "translation": "Activez une cible apaisée pour l'asservir pendant 5 minutes. Les alliés asservis vous suivront et se battront pour vous. Une seule servitude peut être active à la fois.",
+    "orig_nums": [
+      "1",
+      "5"
+    ],
+    "trans_nums": [
+      "5"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000BEC|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Can give 10% of your maximum health, magicka, and/or stamina to a friendly summoned daedra, atronach, or familiar, boosting its stat by 10x the amount sacrificed. The borrowed health, magicka, and/or stamina is returned when it dies.",
+    "translation": "Donnez 10 % de votre santé, magie ou vigueur maximum à un atronach, Daedra ou familier conjuré, augmentant ses statistiques de 10 fois le montant sacrifié. Le sacrifice vous est rendu à la mort de la créature.",
+    "orig_nums": [
+      "10"
+    ],
+    "trans_nums": [
+      "10",
+      "10"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000C04|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Align yourself with Winter, shunning Inferno and Storm. While a frost spell is equipped, your stamina regenerates faster; casting frost spells creates an ice shield to protect you. Grants the power \"Summon Blizzard\".  (Can only choose 1 elemental mastery)",
+    "translation": "Alignez-vous avec l'Hiver et recevez le pouvoir « Blizzard ». Vous résistez totalement aux dégâts de glace et vos sorts et Cris de glace sont 35 % plus puissants, mais vos sorts de feu et de foudre sont 50 % moins puissants. Par temps de neige ou blizzard, votre vigueur se régénère 70 % plus rapidement.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [
+      "35",
+      "50",
+      "70"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000C0E|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Can gift a created skeleton with your mark of power, boosting their health by 300. Enemies can only defeat your disciple, not destroy it. You can only have 1 disciple at a time; making another skeleton your disciple will remove the mark of power from your previous disciple.",
+    "translation": "Tous les squelettes peuvent désormais être créés avec des gemmes spirituelles noires ; les squelettes avec une âme noire verront leur puissance augmenter en fonction de votre niveau et ne pourront pas être tués.",
+    "orig_nums": [
+      "1",
+      "300"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000C2F|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Align yourself with Storm, shunning Winter and Inferno. While a shock spell is equipped, your magicka regenerates faster; casting shock spells increases your speed for a short time. Grants the power \"Summon Lightning Storm\".  (Can only choose 1 elemental mastery)",
+    "translation": "Alignez-vous avec la Tempête et recevez le pouvoir « Tempête d'éclairs ». Vous résistez totalement aux dégâts de foudre et vos sorts et Cris de foudre sont 35 % plus puissants, mais vos sorts de feu et de glace sont 50 % moins puissants. Par temps de pluie ou tempête d'éclairs, votre magie se régénère 70 % plus rapidement.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [
+      "35",
+      "50",
+      "70"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "07000C30|PathOfSorcery.esp",
+    "type": "PERK DESC",
+    "original": "Align yourself with Inferno, shunning Winter and Storm. While a fire spell is equipped, your health regenerates faster; casting fire spells increases your fire damage for a short time. Grants the power \"Summon Meteor Shower\".  (Can only choose 1 elemental mastery)",
+    "translation": "Alignez-vous avec le Brasier et recevez le pouvoir « Pluie de météores ». Vous résistez totalement aux dégâts de feu et vos sorts et Cris de feu sont 35 % plus puissants, mais vos sorts de foudre et de glace sont 50 % moins puissants. Par temps clair ou pluie de météores, votre santé se régénère 70 % plus rapidement.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [
+      "35",
+      "50",
+      "70"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "08000A2B|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Ranged weapons knock targets down if they are sprinting, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les armes à distance renversent les cibles si elles sprintent, infligeant un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "08000ADE|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Sun spells deal full damage to the living, daedra, automatons and dragons.",
+    "translation": "Les sorts solaires infligent 100 % de dégâts aux vivants, aux Daedra, aux automates et aux dragons.",
+    "orig_nums": [],
+    "trans_nums": [
+      "100"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "08000B93|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Two-handed forwards power attacks have 25% chance to paralyze targets, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les attaques puissantes à deux mains vers l'avant ont 25 % de chances de paralyser les cibles, infligeant un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2",
+      "25"
+    ],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "08000BA0|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "One-handed forwards power attacks have 25% chance to knock targets down, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les attaques puissantes en avant à une main ont 25 % de chances de renverser la cible et d'infliger un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2",
+      "25"
+    ],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "08000BA1|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "One-handed sideways power attacks have 25% chance to disarm targets, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les attaques puissantes latérales à une main ont 25 % de chances de désarmer les cibles, infligeant un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2",
+      "25"
+    ],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "0A039A68|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Further Empower enchantments by upgrading one arcane enchanter to an Arcane Nexus for 2500 gold. New enchantments created at an Arcane Nexus are 25% stronger. Can be \"Disassembled\" by sneaking, allowing you to upgrade another.",
+    "translation": "Vous pouvez améliorer un autel d'enchantement de votre choix pour 2 500 septims. Les nouveaux enchantements conçus à un autel d'enchantement absolu sont 25 % plus forts. Cet autel amélioré pourra être démonté en mode furtivité si vous souhaitez en améliorer un autre.",
+    "orig_nums": [
+      "25",
+      "2500"
+    ],
+    "trans_nums": [
+      "2",
+      "25",
+      "500"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "0A072E16|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Find 11 types of bones on humanoid corpses. 4 Bone Altars are marked on the map. At a Bone Altar, convert 1 of each bone into a Skeleton Warrior. Skeletons do not count against your summon limit. Enemies can only temporarily defeat them, not destroy them.",
+    "translation": "Un squelette entier requiert 11 types d'os différents trouvables sur les cadavres humanoïdes. Il est converti en un squelette guerrier (non inclus dans la limite de conjuration) à un autel des ossements. Les ennemis ne peuvent pas les détruire.",
+    "orig_nums": [
+      "1",
+      "11",
+      "4"
+    ],
+    "trans_nums": [
+      "11"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "0A0842DD|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "You are adept at hiding in your target's blind spot. Sneaking is 15% more effective within 30 feet and 30% more effective within 15 feet.",
+    "translation": "Vous êtes un adepte de la dissimulation dans l'angle mort de votre victime. La furtivité est 13 % plus efficace dans un rayon de 10 mètres et 30 % plus efficace dans un rayon de 5 mètres.",
+    "orig_nums": [
+      "15",
+      "15",
+      "30",
+      "30"
+    ],
+    "trans_nums": [
+      "10",
+      "13",
+      "30",
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "0C000834|Vokriinator Black.esp",
+    "type": "PERK DESC",
+    "original": "Elemental enchantments on armor are 30% more effective if you have an elemental spell of the same type equipped.",
+    "translation": "Les enchantements élémentaux sur les armures et vêtements augmentent de 15 % la puissance des sorts élémentaux du même type.",
+    "orig_nums": [
+      "30"
+    ],
+    "trans_nums": [
+      "15"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Vokriinateur - Morceaux choisis",
+    "file": "Vokriinator Black.esp.json",
+    "form_id": "0C000850|Vokriinator Black.esp",
+    "type": "PERK DESC",
+    "original": "Detection spells reveal targets from much farther away.",
+    "translation": "Les sorts de vulnérabilité réduisent les résistances de 25 % supplémentaires.",
+    "orig_nums": [],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "030043F8|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a battle axe execute targets below 30% Health, delivering a critical strike that deals twenty times critical damage.",
+    "translation": "Les attaques puissantes vers l'avant à la hache d'armes infligent une frappe critique qui inflige 20 fois plus de dégâts critiques et exécute les cibles ayant moins de 30 % de santé.",
+    "orig_nums": [
+      "30"
+    ],
+    "trans_nums": [
+      "20",
+      "30"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "030B0D3F|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a dagger have a 30% chance to inflict distracting wounds, draining 100 points of Magicka and Stamina and halting regeneration for 5 seconds.",
+    "translation": "Les attaques latérales puissantes à la dague infligent des blessures distrayantes, drainant 100 points de magie et de vigueur et arrêtant la régénération pendant 5 secondes.",
+    "orig_nums": [
+      "100",
+      "30",
+      "5"
+    ],
+    "trans_nums": [
+      "100",
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "02000BA0|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "One-handed power attacks have 25% chance to knock targets down, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les attaques puissantes en avant à une main ont 25 % de chances de renverser la cible et d'infliger un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2",
+      "25"
+    ],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "03002E07|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a sword cause targets to bleed for 20 seconds. When a bleeding target falls below 25% Health, your attacks against that target are critical strikes that deals ten times critical damage.",
+    "translation": "Les attaques puissantes vers l'avant avec une épée font saigner les cibles pendant 20 secondes. Lorsque la cible tombe sous les 25 % de santé, vos attaques lui infligent un coup critique qui inflige 10 fois plus de dégâts critiques.",
+    "orig_nums": [
+      "20",
+      "25"
+    ],
+    "trans_nums": [
+      "10",
+      "20",
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "030B0D40|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Hitting a target with a power attack with a dagger has a 25% chance to paralyze the target for 20 seconds. Your attacks against the paralyzed target are critical strikes that deal nine times critical damage.",
+    "translation": "Les attaques puissantes à la dague vers l'avant, latérales ou vers l'arrière qui touchent leur cible dans les 30 secondes la paralysent pendant 20 secondes. Les attaques contre les cibles paralysées leur infligent un nonuple coup critique.",
+    "orig_nums": [
+      "20",
+      "25"
+    ],
+    "trans_nums": [
+      "20",
+      "30"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "030043FF|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a war axe have a 50% chance to grant 15% extra attack damage for 30 seconds. This effect stacks.",
+    "translation": "Les attaques latérales puissantes à la hache de guerre infligent 15 % de dégâts supplémentaires pendant 30 secondes. Cet effet est cumulable.",
+    "orig_nums": [
+      "15",
+      "30",
+      "50"
+    ],
+    "trans_nums": [
+      "15",
+      "30"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "02000BA1|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "One-handed power attacks have 25% chance to disarm targets, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les attaques puissantes latérales à une main ont 25 % de chances de désarmer les cibles, infligeant un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2",
+      "25"
+    ],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "03004EF9|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a dagger ignore 50% of armor.",
+    "translation": "Les attaques puissantes sans élan à la dague ignorent l'armure.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "03012846|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a greatsword have a 25% chance to fatigue a target, draining 150 points of Magicka and Stamina and halting regeneration for 5 seconds.",
+    "translation": "Les attaques puissantes sans déplacement à l'espadon fatiguent une cible, drainant 150 points de magie et de vigueur et arrêtant la régénération pendant 5 secondes.",
+    "orig_nums": [
+      "150",
+      "25",
+      "5"
+    ],
+    "trans_nums": [
+      "150",
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "0301284E|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a battleaxe have a 30% chance to deal bonus damage equal to 25% of a target's current Health. (Cap 150 Damage)",
+    "translation": "Les attaques puissantes sans élan à la hache d'armes infligent des dégâts bonus égaux à 15 % de la santé actuelle de la cible.",
+    "orig_nums": [
+      "150",
+      "25",
+      "30"
+    ],
+    "trans_nums": [
+      "15"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "03002E05|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a sword have a 15% chance to fling targets backwards up to 6 feet, dealing up to 50% more damage based on distance traveled.",
+    "translation": "Les attaques latérales puissantes à l'épée éjectent les cibles jusqu'à 2 mètres, infligeant jusqu'à 40 % de dégâts supplémentaires d'après la distance parcourue.",
+    "orig_nums": [
+      "15",
+      "50",
+      "6"
+    ],
+    "trans_nums": [
+      "2",
+      "40"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "0300440A|Ordinator - Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Power attacks with a mace have a 15% chance to deplete all of your Stamina on impact, dealing 1% more damage per point of Stamina depleted and doing a critical strike.",
+    "translation": "Les attaques latérales puissantes à la masse épuisent la totalité de votre vigueur lors de l'impact, infligeant 1 % de dégâts supplémentaires par point de vigueur épuisé et faisant un coup critique.",
+    "orig_nums": [
+      "1",
+      "15"
+    ],
+    "trans_nums": [
+      "1"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "VokriinatorBlack - combatforcaco.esp - French",
+    "file": "vokriinatorblack - combatforcaco.esp.json",
+    "form_id": "02000B93|Vokrii - Minimalistic Perks of Skyrim.esp",
+    "type": "PERK DESC",
+    "original": "Two-handed power attacks have 25% chance to paralyze targets, inflicting a critical strike for 2 times critical damage.",
+    "translation": "Les attaques puissantes à deux mains vers l'avant ont 25 % de chances de paralyser les cibles, infligeant un coup critique pour le double de dégâts critiques.",
+    "orig_nums": [
+      "2",
+      "25"
+    ],
+    "trans_nums": [
+      "25"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vulcano - Sorts de feu",
+    "file": "Vulcano.esp.json",
+    "form_id": "04000814|Vulcano.esp",
+    "type": "MGEF DNAM",
+    "original": "Deals <mag> fire damage, reduce attack speed by 25% and has a chance to cover in ash for <5> seconds in a large area.",
+    "translation": "Inflige <mag> points de dégâts de feu, réduit la vitesse d'attaque de 25 % et a une chance de couvrir de cendre pendant 3 secondes dans une large zone.",
+    "orig_nums": [
+      "25",
+      "5"
+    ],
+    "trans_nums": [
+      "25",
+      "3"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Vulcano - Sorts de feu",
+    "file": "Vulcano.esp.json",
+    "form_id": "040009E3|Vulcano.esp",
+    "type": "MGEF DNAM",
+    "original": "Incomming Fire damage has a 30% chance to heal you for <dur> seconds. Cost <50> Magicka.",
+    "translation": "Les dégâts de feu que vous subissez ont une chance de vous soigner pendant <dur> secondes. Requiert 50 points de magie.",
+    "orig_nums": [
+      "30",
+      "50"
+    ],
+    "trans_nums": [
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Wintersun - Religions de Bordeciel",
+    "file": "Wintersun - Faiths of Skyrim.esp.json",
+    "form_id": "0403D34A|Wintersun - Faiths of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "During prayer, seize control of the nearest person within <75> feet to fight for you. Costs <5>% favor.",
+    "translation": "Prier vous permet de prendre le contrôle de la personne la plus proche dans un rayon de 23 mètres qui se battra pour vous. Coûte 5 % de faveur.",
+    "orig_nums": [
+      "5",
+      "75"
+    ],
+    "trans_nums": [
+      "23",
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Wintersun - Religions de Bordeciel",
+    "file": "Wintersun - Faiths of Skyrim.esp.json",
+    "form_id": "041C89AE|Wintersun - Faiths of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Pray to Rajhin to break a lock within <20> feet. Costs <5>% favor. No effect on locks that can't be picked.",
+    "translation": "Priez pour déverrouiller un objet dans un rayon de 6 mètres. Coûte 5 % de faveur. Aucun effet sur les serrures qui ne peuvent être crochetées.",
+    "orig_nums": [
+      "20",
+      "5"
+    ],
+    "trans_nums": [
+      "5",
+      "6"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Wintersun - Religions de Bordeciel",
+    "file": "Wintersun - Faiths of Skyrim.esp.json",
+    "form_id": "040FDD55|Wintersun - Faiths of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "While sneaking, activate a door to briefly turn it into a Void portal. Targets within <60> feet who are not detecting you are pulled in and killed. Costs <5>% favor.",
+    "translation": "En furtivité, activez une porte pour la transformer temporairement en portail du Néant. Les cibles dans un rayon de 18 mètres qui ne vous ont pas détecté sont attirées dedans et tuées. Coûte 5 % de faveur.",
+    "orig_nums": [
+      "5",
+      "60"
+    ],
+    "trans_nums": [
+      "18",
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Wintersun - Religions de Bordeciel",
+    "file": "Wintersun - Faiths of Skyrim.esp.json",
+    "form_id": "041C89B4|Wintersun - Faiths of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Put skooma bottles in people's inventory, then pray to Baan Dar to ignite them within <200> feet for <Global=WSN_Favor_Global_Fractional4> damage (based on favor with Baan Dar). Costs <5>% favor.",
+    "translation": "Mettez des bouteilles de skooma dans la poche des gens, puis priez pour les enflammer dans un rayon de 60 mètres, leur infligeant <Global=WSN_Favor_Global_Fractional4> points de dégâts (basé sur la faveur de Baan Dar). Coûte 5 % de faveur.",
+    "orig_nums": [
+      "200",
+      "5"
+    ],
+    "trans_nums": [
+      "5",
+      "60"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Wintersun - Religions de Bordeciel",
+    "file": "Wintersun - Faiths of Skyrim.esp.json",
+    "form_id": "04112254|Wintersun - Faiths of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Accumulate <1500> more lifetime bounty within one hour.",
+    "translation": "Accumuler un total de prime supérieur à <1 500> en une heure.",
+    "orig_nums": [
+      "1500"
+    ],
+    "trans_nums": [
+      "1",
+      "500"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "Wintersun - Religions de Bordeciel",
+    "file": "Wintersun - Faiths of Skyrim.esp.json",
+    "form_id": "041633CF|Wintersun - Faiths of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "During prayer, invoke a <Hunt> against the living within <500> feet, revealing them and exposing them to <Bitter> <Mercy>. Costs <10>% favor.",
+    "translation": "Prier vous permet d'invoquer une <chasse> contre les vivants dans un rayon de 150 mètres, les révélant et les exposant à <Compassion amère>. Coûte 10 % de faveur.",
+    "orig_nums": [
+      "10",
+      "500"
+    ],
+    "trans_nums": [
+      "10",
+      "150"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Wintersun - Religions de Bordeciel",
+    "file": "Wintersun - Faiths of Skyrim.esp.json",
+    "form_id": "04107FD9|Wintersun - Faiths of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Up to <25>% harder to detect by those within <30> feet. Chance to find Human Hearts on people you kill.",
+    "translation": "Vous êtes jusqu'à 25 % plus difficile à détecter par ceux se trouvant dans un rayon de 9 mètres. Possibilité de trouver un coeur humain sur ceux que vous tuez.",
+    "orig_nums": [
+      "25",
+      "30"
+    ],
+    "trans_nums": [
+      "25",
+      "9"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "Wintersun - Tribunal Integration",
+    "file": "wintersun - gott patch.esp.json",
+    "form_id": "05000849|Wintersun - GotT Patch.esp",
+    "type": "MGEF DNAM",
+    "original": "Items are enchanted <Global=WSN_Favor_Global_Fractional3>% stronger (based on favor with Sotha Sil).",
+    "translation": "Les objets sont enchantés jusqu'à 20% plus puissamment (basé sur la faveur de Sotha Sil).",
+    "orig_nums": [],
+    "trans_nums": [
+      "20"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Apocalypse.esp.json",
+    "form_id": "0202D061|Apocalypse - Magic of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Throw the caster at a target for <mag> shock damage to Health and Magicka. They collect a static charge as they travel, dealing up to x<5> damage based on distance.",
+    "translation": "Jette le lanceur sur une cible, lui infligeant <mag> points de dégâts de foudre à la santé et à la magie. Recueil d'une charge statique, infligeant jusqu'à 5x plus de dégâts, basés sur la distance.",
+    "orig_nums": [
+      "5"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Growl.esp.json",
+    "form_id": "030D027D|Growl - Werebeasts of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Breton blood reduces the cooldown of Beast Form by <50>%.",
+    "translation": "Le sang de Bréton réduit le délai entre deux activations de la forme bestiale de 30 secondes.",
+    "orig_nums": [
+      "50"
+    ],
+    "trans_nums": [
+      "30"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Sacrosanct.esp.json",
+    "form_id": "020149A9|Dawnguard.esm",
+    "type": "MGEF DNAM",
+    "original": "Vampiric Drain and Raze spells absorb Magicka and Stamina from victims for 1 day, but at the cost of <mag> less Health.",
+    "translation": "Les sorts de Festin vampirique et Ponction de sang absorbent la magie et la vigueur des victimes pendant un jour, mais absorbent en retour <mag> points de santé en moins.",
+    "orig_nums": [
+      "1"
+    ],
+    "trans_nums": [],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Triumvirate.esp.json",
+    "form_id": "03335B49|Triumvirate - Mage Archetypes.esp",
+    "type": "MGEF DNAM",
+    "original": "Able to melee attack from up to <50> feet to perform a dash attack, converting <50>% of the caster's Magicka into bonus magic damage on hit. Lasts <dur> seconds. (<mag> damage)",
+    "translation": "Attaque en mêlée jusqu'à 15 mètres pour effectuer une attaque éclair, convertissant 50 % de la magie en bonus de dégâts magiques au moment de l'attaque. Dure <dur> secondes. (<mag> points de dégâts)",
+    "orig_nums": [
+      "50",
+      "50"
+    ],
+    "trans_nums": [
+      "15",
+      "50"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Wintersun.esp.json",
+    "form_id": "030FDD55|Wintersun - Faiths of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "While sneaking, activate a door to briefly turn it into a Void portal. Targets within <60> feet who are not detecting the caster are pulled in and killed. Costs <5>% favor.",
+    "translation": "En furtivité, activer une porte pour la transformer temporairement en un portail du Néant. Les cibles dans un rayon de 18 mètres qui n'ont pas détecté le lanceur sont attirées dedans et tuées. Coûte 5 % de faveur.",
+    "orig_nums": [
+      "5",
+      "60"
+    ],
+    "trans_nums": [
+      "18",
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Wintersun.esp.json",
+    "form_id": "03107FD9|Wintersun - Faiths of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Up to <25>% harder to detect by those within <30> feet. Chance to find Human Hearts on people killed.",
+    "translation": "25 % plus difficile à détecter par ceux se trouvant dans un rayon de 10 mètres. Possibilité de trouver un coeur humain sur les gens tués.",
+    "orig_nums": [
+      "25",
+      "30"
+    ],
+    "trans_nums": [
+      "10",
+      "25"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Wintersun.esp.json",
+    "form_id": "0303D34A|Wintersun - Faiths of Skyrim.esp",
+    "type": "MGEF DNAM",
+    "original": "Praying allows the caster to seize control of the nearest person within <75> feet to fight for them. Costs <5>% favor.",
+    "translation": "Méditer permet de prendre le contrôle de la personne la plus proche dans un rayon de 25 mètres. Coûte 5 % de faveur.",
+    "orig_nums": [
+      "5",
+      "75"
+    ],
+    "trans_nums": [
+      "25",
+      "5"
+    ],
+    "pct_mismatch": true
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Wraithguard.esp.json",
+    "form_id": "01000811|ccbgssse008-wraithguard.esl",
+    "type": "SPEL DESC",
+    "original": "Wraithguard empowers Keening, fortifying magicka by <50> and health and stamina by <20>.",
+    "translation": "Garde spectrale renforce Lamentation, fortifiant la magie de 40 et la santé et vigueur de 20.",
+    "orig_nums": [
+      "20",
+      "50"
+    ],
+    "trans_nums": [
+      "20",
+      "40"
+    ],
+    "pct_mismatch": false
+  },
+  {
+    "mod": "YOT - Vos propres pensées",
+    "file": "YOT - Your Own Thoughts.esp.json",
+    "form_id": "040265A9|Dragonborn.esm",
+    "type": "MGEF DNAM",
+    "original": "While charging, releases two Spectral Dragons from the caster.  Releases an additional Spectral Dragon for every 5 Dragon Souls.",
+    "translation": "Fait apparaître deux dragons spectraux pendant la charge. Des dragons supplémentaires apparaissent selon le nombre d'âmes de dragon possédées (1 dragon pour 5 âmes).",
+    "orig_nums": [
+      "5"
+    ],
+    "trans_nums": [
+      "1",
+      "5"
+    ],
+    "pct_mismatch": false
+  }
+]
