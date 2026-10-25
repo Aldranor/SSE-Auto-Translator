@@ -93,6 +93,12 @@ class TranslationProvider:
                 source
             ).is_direct_download_possible()
 
+    def get_provider_by_source(self, source: Source) -> ProviderApi:
+        """
+        Returns the provider API for a specific source.
+        """
+        return self.__provider_manager.get_provider_by_source(source)
+
     def get_remaining_requests(self) -> tuple[int, int]:
         """
         Returns remaining API requests for Nexus Mods and -1 for Confrérie.

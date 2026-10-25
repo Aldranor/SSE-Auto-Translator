@@ -30,6 +30,9 @@ class EditorToolbar(QToolBar):
     apply_database_requested = Signal()
     """Signal emitted when the user clicks on the apply database action."""
 
+    download_translation_requested = Signal()
+    """Signal emitted when the user clicks on the download translation action."""
+
     search_and_replace_requested = Signal()
     """Signal emitted when the user clicks on the search and replace action."""
 
@@ -80,6 +83,18 @@ class EditorToolbar(QToolBar):
             "mdi6.database-refresh-outline",
         )
         apply_database_action.triggered.connect(self.apply_database_requested.emit)
+
+        download_translation_action: QAction = self.addAction(
+            self.tr("Download translation...")
+        )
+        IconProvider.bind_qta_icon(
+            download_translation_action,
+            download_translation_action.setIcon,
+            "mdi6.cloud-download",
+        )
+        download_translation_action.triggered.connect(
+            self.download_translation_requested.emit
+        )
 
         self.__search_and_replace_action = self.addAction(self.tr("Search and replace"))
         IconProvider.bind_qta_icon(

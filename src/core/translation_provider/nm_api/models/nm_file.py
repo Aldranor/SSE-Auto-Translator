@@ -52,13 +52,16 @@ class NmFile(BaseModel, frozen=True):
     version: str
     """The version of the file."""
 
-    category_name: Optional[str]
+    category_id: Optional[int] = None
+    """The category id (eg. 1 for MAIN)."""
+
+    category_name: Optional[str] = None
     """The file category (eg. 'MAIN')."""
 
-    is_primary: bool
+    is_primary: bool = False
     """Whether the file is the primary file."""
 
-    size: Optional[int] = Field(alias="size_in_bytes")
+    size: Optional[int] = Field(default=None, alias="size_in_bytes")
     """The file size in bytes."""
 
     file_name: str
@@ -70,7 +73,7 @@ class NmFile(BaseModel, frozen=True):
     mod_version: str
     """The current version of the mod the file belongs to."""
 
-    content_preview_link: str
+    content_preview_link: Optional[str] = None
     """URL to a JSON file containing a preview of the file's content."""
 
     @override
