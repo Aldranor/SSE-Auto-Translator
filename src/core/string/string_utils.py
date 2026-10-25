@@ -181,7 +181,7 @@ class StringUtils:
                     merged_string.status = (
                         StringStatus.NoTranslationRequired
                         if not is_valid_string(original_string.original)
-                        else StringStatus.TranslationRequired
+                        else StringStatus.TranslationIncomplete
                     )
                 else:
                     merged_string.string = trans_text

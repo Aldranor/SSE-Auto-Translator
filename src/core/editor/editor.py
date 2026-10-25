@@ -501,8 +501,13 @@ class Editor(QObject):
                             )
                             modified_strings.append(target)
                         elif trans_text and trans_text.strip() == target.original.strip():
-                            # Identical text is partial only when the source line exists.
-                            if target.status == StringStatus.TranslationRequired:
+                            # The extractor marks an identical line as incomplete only
+                            # when it was present in the source archive. Missing lines
+                            # are filled from the original mod and remain required.
+                            if (
+                                matched.status == StringStatus.TranslationIncomplete
+                                and target.status == StringStatus.TranslationRequired
+                            ):
                                 target.string = trans_text
                                 target.status = StringStatus.TranslationIncomplete
                                 modified_strings.append(target)
