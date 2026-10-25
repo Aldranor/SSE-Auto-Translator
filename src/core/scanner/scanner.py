@@ -266,13 +266,31 @@ class Scanner(QObject):
                     string.status > StringStatus.TranslationComplete
                     for string in trans_strings
                 )
-                is_partially_covered: bool = len(trans_strings) < len(modfile_strings)
+                translated_string_ids: set[str] = {
+                    string.id for string in trans_strings
+                }
+                required_string_ids: set[str] = {
+                    string.id for string in modfile_strings
+                }
+                is_partially_covered: bool = not required_string_ids.issubset(
+                    translated_string_ids
+                )
 
                 if (has_incomplete or is_partially_covered) and apply_db:
                     changed = False
                     if is_partially_covered:
-                        extracted = modfile.get_strings()
-                        if len(trans_strings) < len(extracted):
+                        extracted = [
+                            string
+                            for string in modfile.get_strings()
+                            if string.status != StringStatus.NoTranslationRequired
+                        ]
+                        translated_string_ids = {
+                            string.id for string in trans_strings
+                        }
+                        if any(
+                            string.id not in translated_string_ids
+                            for string in extracted
+                        ):
                             if StringUtils.update_string_list(trans_strings, extracted):
                                 changed = True
 
@@ -299,7 +317,12 @@ class Scanner(QObject):
                         string.status > StringStatus.TranslationComplete
                         for string in trans_strings
                     )
-                    is_partially_covered = len(trans_strings) < len(modfile_strings)
+                    translated_string_ids = {
+                        string.id for string in trans_strings
+                    }
+                    is_partially_covered = not required_string_ids.issubset(
+                        translated_string_ids
+                    )
 
                 if has_incomplete or is_partially_covered:
                     status = TranslationStatus.TranslationIncomplete
