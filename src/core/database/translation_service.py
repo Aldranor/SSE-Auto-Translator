@@ -113,4 +113,8 @@ class TranslationService:
             indent (Optional[int], optional): Indentation level. Defaults to None.
         """
 
+        for s in strings:
+            if s.string:
+                s.string = s.string.replace("\xa0", " ").replace("\u202f", " ").replace("\u200b", "")
+
         json_file_path.write_bytes(StringListModel.dump_json(strings, indent=indent))

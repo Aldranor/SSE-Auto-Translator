@@ -64,7 +64,10 @@ class Translator(ABC):
             str: The translated text.
         """
 
-        return self.translate_uncached(text, dst)
+        res = self.translate_uncached(text, dst)
+        if res:
+            res = res.replace("\xa0", " ").replace("\u202f", " ").replace("\u200b", "")
+        return res
 
     def _get_from_cache(self, text: str, dst: GameLanguage) -> Optional[str]:
         """

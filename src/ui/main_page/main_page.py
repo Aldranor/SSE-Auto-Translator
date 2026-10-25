@@ -47,6 +47,7 @@ from core.mod_instance.mod_instance import ModInstance
 from core.mod_instance.state_service import StateService
 from core.scanner.scanner import Scanner
 from core.string.search_filter import SearchFilter
+from core.string.string_status import StringStatus
 from core.string.types import StringList
 from core.translation_provider.provider import TranslationProvider
 from core.user_data.user_data import UserData

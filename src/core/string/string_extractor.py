@@ -53,6 +53,7 @@ class StringExtractor(QObject):
         include_dsd_files: bool = True,
         max_workers: int = 4,
         pdisplay: Optional[ProgressDisplay] = None,
+        ignore_states: Optional[list[TranslationStatus]] = None,
     ) -> dict[Path, StringList]:
         """
         Extracts strings from all supported mod files in an archive or directory and maps
@@ -69,6 +70,8 @@ class StringExtractor(QObject):
                 Maximum number of threads to use. Defaults to 4.
             pdisplay (Optional[ProgressDisplay], optional):
                 Optional progress display. Defaults to None.
+            ignore_states (Optional[list[TranslationStatus]], optional):
+                Statuses to ignore when finding mod files. Defaults to None.
 
         Returns:
             dict[Path, StringList]: Mapping of mod file path to list of strings.
@@ -99,15 +102,26 @@ class StringExtractor(QObject):
         for modfile_path in modfiles.copy():
             modfile_data_path = Path(relative_data_path(str(modfile_path)))
             # Find original mod file in modlist
-            original_modfile: Optional[ModFile] = mod_instance.get_modfile(
-                modfile_data_path,
-                ignore_states=[
+            effective_ignore_states = (
+                [
                     TranslationStatus.IsTranslated,
                     TranslationStatus.TranslationInstalled,
-                ],
+                ]
+                if ignore_states is None
+                else ignore_states
+            )
+            original_modfile: Optional[ModFile] = mod_instance.get_modfile(
+                modfile_data_path,
+                ignore_states=effective_ignore_states,
             )
 
             if original_modfile is None:
+                if ignore_states is not None:
+                    modfile: ModFile = ModFileService.get_modfiletype_for_suffix(
+                        modfile_path.suffix
+                    )(name=modfile_path.name, full_path=input / modfile_path)
+                    original_modfiles[modfile] = modfile
+                    continue
                 self.log.debug(
                     f"Skipping '{modfile_data_path}' because it has no original mod file."
                 )
@@ -230,6 +244,8 @@ class StringExtractor(QObject):
             ),
         )
 
+        if translated_modfile == original_modfile:
+            return translated_modfile.get_strings()
         modfile_strings: StringList = self.map_translation_strings(
             translated_modfile, original_modfile
         )

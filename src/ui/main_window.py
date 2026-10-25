@@ -135,7 +135,10 @@ class MainWindow(QMainWindow):
         self.__tab_widget.addTab(self.__mainpage_widget, self.tr("Modlist"))
 
         self.__translation_editor = EditorPage(
-            self.__app_config, self.__user_data, self.__translator_service
+            self.__app_config,
+            self.__user_data,
+            self.__translator_service,
+            provider=self.__provider,
         )
         self.__tab_widget.addTab(
             self.__translation_editor, self.tr("Translation Editor")

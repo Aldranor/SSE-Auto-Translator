@@ -543,6 +543,9 @@ class DatabaseService:
 
         if existing_key is not None and translation.strings[existing_key]:
             modfile_strings = translation.strings[existing_key]
+            extracted = modfile.get_strings()
+            if len(modfile_strings) < len(extracted):
+                StringUtils.update_string_list(modfile_strings, extracted)
             if apply_db:
                 untranslated = [
                     s for s in modfile_strings

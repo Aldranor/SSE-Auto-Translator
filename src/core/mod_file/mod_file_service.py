@@ -3,6 +3,7 @@ Copyright (c) Cutleast
 """
 
 import logging
+import re
 from pathlib import Path
 from typing import Optional
 
@@ -16,6 +17,7 @@ from mod_manager_lib.core.instance.mod import Mod
 from PySide6.QtCore import QObject
 
 from core.file_types.file_type import FileType
+from core.file_types.interface.file import InterfaceFile
 from core.utilities.bsa_file_provider import BsaFileProvider
 from core.utilities.game_language import GameLanguage
 
@@ -69,6 +71,8 @@ class ModFileService(QObject):
                     if path.is_file():
                         modfiles.append(file_type_cls(name=path.name, full_path=path))
 
+        modfiles = self._deduplicate_interface_files(modfiles, language.id)
+
         if include_bsas:
             update(
                 update_callback,
@@ -82,6 +86,7 @@ class ModFileService(QObject):
             for bsa_file in mod.path.glob("*.bsa"):
                 modfiles.extend(self.get_modfiles_from_bsa(bsa_file, language))
 
+        modfiles = self._deduplicate_interface_files(modfiles, language.id)
         self.log.debug(f"Found {len(modfiles)} mod file(s) in '{mod.display_name}'.")
 
         return modfiles
@@ -118,9 +123,45 @@ class ModFileService(QObject):
                         file_type_cls(name=path.name, full_path=bsa_file / path)
                     )
 
+        modfiles = self._deduplicate_interface_files(modfiles, language.id)
         self.log.debug(f"Found {len(modfiles)} mod files.")
 
         return modfiles
+
+    @staticmethod
+    def _deduplicate_interface_files(
+        modfiles: list[ModFile], target_lang: str
+    ) -> list[ModFile]:
+        target_lang = target_lang.lower()
+        interface_files_by_base: dict[str, list[ModFile]] = {}
+        non_interface_files: list[ModFile] = []
+
+        for mf in modfiles:
+            if isinstance(mf, InterfaceFile):
+                m = re.search(r"^(.*?)_([a-zA-Z]+)\.txt$", mf.name, re.IGNORECASE)
+                if m:
+                    base = m.group(1).lower()
+                    interface_files_by_base.setdefault(base, []).append(mf)
+                else:
+                    interface_files_by_base.setdefault(mf.name.lower(), []).append(mf)
+            else:
+                non_interface_files.append(mf)
+
+        deduped_interface: list[ModFile] = []
+        for base, files in interface_files_by_base.items():
+            if len(files) == 1:
+                deduped_interface.append(files[0])
+            else:
+                target_file = next(
+                    (f for f in files if f.name.lower().endswith(f"_{target_lang}.txt")),
+                    None,
+                )
+                if target_file:
+                    deduped_interface.append(target_file)
+                else:
+                    deduped_interface.append(files[0])
+
+        return non_interface_files + deduped_interface
 
     @staticmethod
     def get_modfiletype_for_suffix(suffix: str) -> type[ModFile]:

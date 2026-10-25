@@ -5,6 +5,7 @@ Copyright (c) Cutleast
 import logging
 from concurrent.futures import Future, as_completed
 from pathlib import Path
+from threading import Lock
 from typing import Optional
 
 from cutleast_core_lib.core.multithreading.progress import (
@@ -31,7 +32,8 @@ from core.mod_instance.mod_instance import ModInstance
 from core.string.search_filter import SearchFilter, matches_filter
 from core.string.string_extractor import StringExtractor
 from core.string.string_status import StringStatus
-from core.string.types import StringList
+from core.string.string_utils import StringUtils
+from core.string.types import StringList, StringType
 from core.translation_provider.mod_id import ModId
 from core.translation_provider.provider import TranslationProvider
 from core.translation_provider.source import Source
@@ -85,6 +87,7 @@ class Scanner(QObject):
             self.__app_config.detector_confidence,
             getattr(Language, self.__user_config.language.id.upper()),
         )
+        self.__translation_lock = Lock()
 
     def run_basic_scan(
         self, items: dict[Mod, list[ModFile]], pdisplay: Optional[ProgressDisplay] = None
@@ -127,6 +130,10 @@ class Scanner(QObject):
                 norm_key: str = str(modfile_key).lower().replace("\\", "/")
                 database_translations[norm_key] = (translation, strings)
 
+        db_lookup_maps = None
+        if self.__app_config.auto_create_database_translations:
+            db_lookup_maps = StringUtils._build_lookup_maps(self.__database.strings)
+
         scan_result: dict[Mod, dict[ModFile, TranslationStatus]] = {}
         failed_modfiles: int = 0
         with ProgressExecutor(
@@ -145,6 +152,7 @@ class Scanner(QObject):
                             modfile=mf,
                             database_originals=database_originals,
                             database_translations=database_translations,
+                            db_lookup_maps=db_lookup_maps,
                             update_callback=ucb,
                         )
                     )
@@ -172,6 +180,14 @@ class Scanner(QObject):
         modfile: ModFile,
         database_originals: set[str],
         database_translations: dict[str, tuple[Translation, StringList]],
+        db_lookup_maps: Optional[
+            tuple[
+                dict[str, StringType],
+                dict[str, StringType],
+                dict[str, StringType],
+                dict[str, StringType],
+            ]
+        ] = None,
         update_callback: Optional[UpdateCallback] = None,
     ) -> TranslationStatus:
         modfile_path_text: str = f"{mod.name} > {modfile.name}"
@@ -219,6 +235,39 @@ class Scanner(QObject):
                     for string in trans_strings
                 )
                 is_partially_covered: bool = len(trans_strings) < len(modfile_strings)
+
+                if (has_incomplete or is_partially_covered) and self.__app_config.auto_create_database_translations:
+                    changed = False
+                    if is_partially_covered:
+                        extracted = modfile.get_strings()
+                        if len(trans_strings) < len(extracted):
+                            if StringUtils.update_string_list(trans_strings, extracted):
+                                changed = True
+
+                    untranslated = [
+                        s for s in trans_strings
+                        if s.status in (StringStatus.TranslationRequired, StringStatus.TranslationIncomplete)
+                        or not s.string
+                        or s.string == s.original
+                    ]
+                    if untranslated:
+                        matched_count = StringUtils.match_strings(
+                            strings_to_update=untranslated,
+                            database_strings=self.__database.strings,
+                            lookup_maps=db_lookup_maps,
+                        )
+                        if matched_count > 0:
+                            changed = True
+
+                    if changed:
+                        with self.__translation_lock:
+                            translation.save()
+
+                    has_incomplete = any(
+                        string.status > StringStatus.TranslationComplete
+                        for string in trans_strings
+                    )
+                    is_partially_covered = len(trans_strings) < len(modfile_strings)
 
                 if has_incomplete or is_partially_covered:
                     status = TranslationStatus.TranslationIncomplete
