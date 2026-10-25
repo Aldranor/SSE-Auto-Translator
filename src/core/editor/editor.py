@@ -89,6 +89,11 @@ class Editor(QObject):
         self.log.info(f"Saved translation '{self.__translation.name}'.")
         self.__changes_pending = False
 
+    def reload_from_translation(self) -> None:
+        """Discards the editing copy and reloads strings from the translation model."""
+        self.__strings_cache = deepcopy(self.__translation.strings)
+        self.__changes_pending = False
+
     def __on_change(self, changes_pending: bool = True) -> None:
         self.__changes_pending = changes_pending
 
@@ -505,7 +510,8 @@ class Editor(QObject):
                             target.status = StringStatus.TranslationComplete
                             modified_strings.append(target)
                         elif trans_text and trans_text.strip() == target.original.strip():
-                            if target.status == StringStatus.TranslationRequired:
+                            # Only consider identical match if the record actually matched directly by ID in the translated source
+                            if target.id in by_id and target.status == StringStatus.TranslationRequired:
                                 target.string = trans_text
                                 if matched.status in (
                                     StringStatus.NoTranslationRequired,

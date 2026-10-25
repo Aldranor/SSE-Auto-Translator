@@ -12,6 +12,7 @@ import jstyleson as json
 from cutleast_core_lib.core.utilities.unique import unique
 
 from core.database.translation import Translation
+from core.database.translation_service import TranslationService
 from core.mod_file.mod_file import ModFile
 from core.mod_file.translation_status import TranslationStatus
 from core.mod_instance.mod import Mod
@@ -30,6 +31,18 @@ class DatabaseService:
     """
 
     log: logging.Logger = logging.getLogger("DatabaseService")
+
+    @classmethod
+    def reload_translation(
+        cls, translation: Translation, database: TranslationDatabase
+    ) -> None:
+        """Reloads one translation's JSON files from disk into the database."""
+        translation.strings = TranslationService.load_translation_strings(
+            translation.path
+        )
+        cls.log.info(f"Reloaded translation '{translation.name}' from disk.")
+        database.changed_signal.emit(translation)
+        database.update_signal.emit()
 
     @classmethod
     def load_database(

@@ -76,9 +76,8 @@ class ModFile(BaseModel, metaclass=ABCMeta):
 
     @Cache.persistent_cache(
         cache_subfolder=Path("modfile_strings"),
-        id_generator=lambda self: FileSourceFactory.for_file_path(
-            self.full_path
-        ).get_file_identifier(),
+        id_generator=lambda self: "plugin-id-dedupe-v1-"
+        + FileSourceFactory.for_file_path(self.full_path).get_file_identifier(),
     )
     def get_strings(self) -> StringList:
         """

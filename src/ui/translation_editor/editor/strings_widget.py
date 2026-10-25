@@ -169,6 +169,11 @@ class StringsWidget(QTreeWidget):
         item: StringItem = self.__string_items[string]
         item.update()
 
+    def reload_strings(self, strings: dict[Path, StringList]) -> None:
+        """Rebuilds the displayed strings from an updated translation."""
+        self.__init_strings(strings)
+        self.expandAll()
+
     def go_to_modfile(self, modfile: Path) -> None:
         """
         Selects and scrolls to a specified mod file item.

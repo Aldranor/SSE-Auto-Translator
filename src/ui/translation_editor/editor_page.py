@@ -212,6 +212,40 @@ class EditorPage(QSplitter):
         self.tab_count_updated.emit(len(self.tabs))
         self.__update_tab_labels()
 
+    def confirm_translation_reload(self, translation: Translation) -> bool:
+        """Confirms discarding unsaved editor changes before reloading a translation."""
+        tab_entry = self.__tabs.get(translation)
+        if tab_entry is None or not tab_entry[0].changes_pending:
+            return True
+
+        message_box = QMessageBox(self)
+        message_box.setWindowTitle(self.tr("Refresh translation"))
+        message_box.setText(
+            self.tr(
+                "'{0}' has unsaved changes. Discard them and reload the translation "
+                "from disk?"
+            ).format(translation.name)
+        )
+        message_box.setStandardButtons(
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.Cancel
+        )
+        message_box.setDefaultButton(QMessageBox.StandardButton.Cancel)
+        message_box.button(QMessageBox.StandardButton.Yes).setText(
+            self.tr("Discard and refresh")
+        )
+        ThemeManager.update_widget_styles(message_box)
+
+        return message_box.exec() == QMessageBox.StandardButton.Yes
+
+    def reload_translation(self, translation: Translation) -> None:
+        """Refreshes an open editor tab after its translation was reloaded."""
+        tab_entry = self.__tabs.get(translation)
+        if tab_entry is None:
+            return
+
+        tab_entry[0].reload_from_translation()
+        self.__update_tab_labels()
+
     def open_translation(self, translation: Translation) -> None:
         """
         Opens a translation in a new tab.

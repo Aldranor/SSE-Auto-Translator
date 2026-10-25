@@ -90,7 +90,10 @@ class Scanner(QObject):
         self.__translation_lock = Lock()
 
     def run_basic_scan(
-        self, items: dict[Mod, list[ModFile]], pdisplay: Optional[ProgressDisplay] = None
+        self,
+        items: dict[Mod, list[ModFile]],
+        pdisplay: Optional[ProgressDisplay] = None,
+        apply_db: Optional[bool] = None,
     ) -> dict[Mod, dict[ModFile, TranslationStatus]]:
         """
         Scans mods for required and installed translations.
@@ -100,6 +103,8 @@ class Scanner(QObject):
             items (dict[Mod, list[ModFile]]): The items to scan.
             pdisplay (Optional[ProgressDisplay], optional):
                 Optional progress display. Defaults to None.
+            apply_db (Optional[bool], optional):
+                Whether to apply database translations. Defaults to None (uses app config).
 
         Returns:
             dict[Mod, dict[ModFile, TranslationStatus]]:
@@ -130,38 +135,64 @@ class Scanner(QObject):
                 norm_key: str = str(modfile_key).lower().replace("\\", "/")
                 database_translations[norm_key] = (translation, strings)
 
+        if apply_db is None:
+            apply_db = self.__app_config.auto_create_database_translations
+
         db_lookup_maps = None
-        if self.__app_config.auto_create_database_translations:
+        if apply_db:
             db_lookup_maps = StringUtils._build_lookup_maps(self.__database.strings)
 
-        scan_result: dict[Mod, dict[ModFile, TranslationStatus]] = {}
+        scan_result: dict[Mod, dict[ModFile, TranslationStatus]] = {
+            mod: {} for mod in items
+        }
+        scan_targets: dict[
+            str, tuple[Mod, ModFile, list[tuple[Mod, ModFile]]]
+        ] = {}
+        for mod, modfiles in items.items():
+            for modfile in modfiles:
+                winning_modfile = self.__mod_instance.get_modfile(modfile.path)
+                if winning_modfile is None:
+                    winning_modfile = modfile
+
+                winning_mod = (
+                    self.__mod_instance.get_mod_with_modfile(winning_modfile.path)
+                    or mod
+                )
+                key = str(winning_modfile.path).lower().replace("\\", "/")
+                target = scan_targets.setdefault(
+                    key, (winning_mod, winning_modfile, [])
+                )
+                target[2].append((mod, modfile))
+
         failed_modfiles: int = 0
         with ProgressExecutor(
             pdisplay, max_workers=self.__app_config.worker_thread_num
         ) as executor:
             executor.set_main_progress_text(self.tr("Scanning modlist..."))
 
-            tasks: dict[Future[TranslationStatus], tuple[Mod, ModFile]] = {}
-            for mod, modfiles in items.items():
-                scan_result[mod] = {}
-
-                for modfile in modfiles:
-                    future: Future[TranslationStatus] = executor.submit(
-                        lambda ucb, m=mod, mf=modfile: self.__basic_scan_modfile(
-                            mod=m,
-                            modfile=mf,
-                            database_originals=database_originals,
-                            database_translations=database_translations,
-                            db_lookup_maps=db_lookup_maps,
-                            update_callback=ucb,
-                        )
+            tasks: dict[
+                Future[TranslationStatus], tuple[Mod, ModFile, list[tuple[Mod, ModFile]]]
+            ] = {}
+            for mod, modfile, references in scan_targets.values():
+                future: Future[TranslationStatus] = executor.submit(
+                    lambda ucb, m=mod, mf=modfile: self.__basic_scan_modfile(
+                        mod=m,
+                        modfile=mf,
+                        database_originals=database_originals,
+                        database_translations=database_translations,
+                        db_lookup_maps=db_lookup_maps,
+                        apply_db=apply_db,
+                        update_callback=ucb,
                     )
-                    tasks[future] = (mod, modfile)
+                )
+                tasks[future] = (mod, modfile, references)
 
             for future in as_completed(tasks):
-                mod, modfile = tasks[future]
+                mod, modfile, references = tasks[future]
                 try:
-                    scan_result[mod][modfile] = future.result()
+                    status = future.result()
+                    for reference_mod, reference_modfile in references:
+                        scan_result[reference_mod][reference_modfile] = status
                 except Exception as ex:
                     failed_modfiles += 1
                     self.log.error(
@@ -188,6 +219,7 @@ class Scanner(QObject):
                 dict[str, StringType],
             ]
         ] = None,
+        apply_db: bool = False,
         update_callback: Optional[UpdateCallback] = None,
     ) -> TranslationStatus:
         modfile_path_text: str = f"{mod.name} > {modfile.name}"
@@ -236,7 +268,7 @@ class Scanner(QObject):
                 )
                 is_partially_covered: bool = len(trans_strings) < len(modfile_strings)
 
-                if (has_incomplete or is_partially_covered) and self.__app_config.auto_create_database_translations:
+                if (has_incomplete or is_partially_covered) and apply_db:
                     changed = False
                     if is_partially_covered:
                         extracted = modfile.get_strings()

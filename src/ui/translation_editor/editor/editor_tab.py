@@ -346,6 +346,13 @@ class EditorTab(QWidget):
         self.__update_metadata()
         self.changed_signal.emit()
 
+    def reload_from_translation(self) -> None:
+        """Reloads this editor tab from the translation's current in-memory data."""
+        self.__editor.reload_from_translation()
+        self.__strings_widget.reload_strings(self.__editor.strings)
+        self.__update_metadata()
+        self.changed_signal.emit()
+
     def __update_metadata(self) -> None:
         if self.__editor.changes_pending:
             self.__title_label.setText(self.__translation.name + "*")
@@ -571,6 +578,57 @@ class EditorTab(QWidget):
                         self.__provider.get_provider_by_source(Source.NexusMods),
                     )
 
+                    target_lang_str = self.__user_data.user_config.language.name
+
+                    if file_id is None:
+                        # 1. Check if nm_id is an original mod that has translations on Nexus
+                        pdisplay.updateMainProgress(
+                            ProgressUpdate(
+                                status_text=self.tr(
+                                    "Checking Nexus for {0} translations..."
+                                ).format(target_lang_str),
+                                maximum=0,
+                            )
+                        )
+                        trans_mod_ids: list[int] = []
+                        try:
+                            trans_mod_ids = nm_api._NexusModsApi__scrape_mod_translations(
+                                game_id=game_id,
+                                mod_id=nm_id,
+                                language=target_lang_str,
+                            )
+                        except Exception as ex:  # noqa: BLE001
+                            self.log.debug(f"Could not scrape translations for mod {nm_id}: {ex}")
+
+                        if trans_mod_ids:
+                            original_nm_id = nm_id
+                            log_msg(
+                                f"Detected original mod {original_nm_id}. Found {len(trans_mod_ids)} "
+                                f"{target_lang_str} translation mod(s) on Nexus: {trans_mod_ids}"
+                            )
+
+                            # Try get_translations for target plugins to find exact matching files
+                            found_trans: list[NxmModId] = []
+                            for pname in target_plugin_names:
+                                try:
+                                    res = nm_api.get_translations(
+                                        mod_id=NxmModId(mod_id=original_nm_id, nm_game_id=game_id),
+                                        file_name=pname,
+                                        language=target_lang_str,
+                                    )
+                                    if res:
+                                        found_trans.extend(res)
+                                except Exception as ex:  # noqa: BLE001
+                                    self.log.debug(f"get_translations failed for {pname}: {ex}")
+
+                            if found_trans:
+                                nm_id = found_trans[0].mod_id
+                                file_id = found_trans[0].file_id
+                                log_msg(f"Resolved to translation mod {nm_id}, file ID {file_id}.")
+                            else:
+                                nm_id = trans_mod_ids[0]
+                                log_msg(f"Targeting translation mod {nm_id} on Nexus Mods.")
+
                     if file_id is None:
                         pdisplay.updateMainProgress(
                             ProgressUpdate(
@@ -589,14 +647,55 @@ class EditorTab(QWidget):
                                 )
                             )
 
-                        lang_name = self.__user_data.user_config.language.name.lower()
+                        lang_name = target_lang_str.lower()
+                        lang_keywords = (
+                            lang_name,
+                            "trad",
+                            "french",
+                            "français",
+                            "francais",
+                            " vf",
+                            "[vf]",
+                            "(vf)",
+                            "_vf",
+                            "-vf",
+                            "vostfr",
+                        )
                         lang_files = [
                             f
                             for f in files_list
-                            if lang_name in f.name.lower()
-                            or lang_name in f.file_name.lower()
+                            if any(
+                                k in f.name.lower() or k in f.file_name.lower()
+                                for k in lang_keywords
+                            )
                         ]
-                        candidates = lang_files if lang_files else files_list
+
+                        is_known_translation = (original_nm_id is not None)
+                        if not is_known_translation:
+                            try:
+                                mod_info = nm_api.get_mod_details(
+                                    NxmModId(mod_id=nm_id, nm_game_id=game_id)
+                                )
+                                if getattr(mod_info, "category_id", None) == 42 or any(
+                                    k in (mod_info.display_name or "").lower()
+                                    for k in lang_keywords
+                                ):
+                                    is_known_translation = True
+                            except Exception as ex:  # noqa: BLE001
+                                self.log.debug(f"Could not get mod details: {ex}")
+
+                        if lang_files:
+                            candidates = lang_files
+                        elif is_known_translation:
+                            candidates = files_list
+                        else:
+                            raise ValueError(
+                                self.tr(
+                                    "Nexus mod {0} appears to be the original English mod and has no {1} "
+                                    "translations listed on Nexus Mods.\n"
+                                    "Please enter the Nexus translation mod ID/URL directly, or select a local archive."
+                                ).format(nm_id, target_lang_str)
+                            )
 
                         main_file = next(
                             (f for f in candidates if f.is_primary),
@@ -623,7 +722,17 @@ class EditorTab(QWidget):
                         file_id = main_file.file_id
                         file_name = main_file.file_name
                         target_version = main_file.version or main_file.mod_version
-                        original_nm_id = nm_id
+                        if original_nm_id is None and not is_known_translation:
+                            original_nm_id = nm_id
+
+                    if original_nm_id is None and installed_modfile is not None and self.__user_data.mod_instance is not None:
+                        for mod in self.__user_data.mod_instance.mods:
+                            if installed_modfile in mod.modfiles and mod.mod_id is not None:
+                                try:
+                                    original_nm_id = int(mod.mod_id.mod_id)
+                                    break
+                                except (ValueError, TypeError):
+                                    pass
 
                     nxm_mod_id = NxmModId(
                         mod_id=nm_id,
@@ -762,16 +871,68 @@ class EditorTab(QWidget):
                             log_msg(f"Checking Nexus for original VO files (Nexus ID: {original_nm_id}, Version: {target_version})...")
                             nm_api = cast(NexusModsApi, self.__provider.get_provider_by_source(Source.NexusMods))
                             files_obj = nm_api.get_mod_files("skyrimspecialedition", original_nm_id)
-                            matching_vo_file = next(
-                                (
+                            # Filter files matching target version
+                            version_candidates = [
+                                f
+                                for f in files_obj.files
+                                if (f.version and f.version.lower().lstrip("v").strip() == clean_target_v)
+                                or (f.mod_version and f.mod_version.lower().lstrip("v").strip() == clean_target_v)
+                                or (f"-{clean_target_v}-" in f.file_name.lower())
+                            ]
+                            if not version_candidates:
+                                version_candidates = [
                                     f
                                     for f in files_obj.files
-                                    if (f.version and f.version.lower().lstrip("v").strip() == clean_target_v)
-                                    or (f.mod_version and f.mod_version.lower().lstrip("v").strip() == clean_target_v)
-                                    or (f"-{clean_target_v}-" in f.file_name.lower())
-                                ),
-                                None,
-                            )
+                                    if getattr(f, "category_id", None) == 1
+                                    or (f.category_name and f.category_name.upper() == "MAIN")
+                                ]
+
+                            def score_candidate(f) -> tuple[int, int]:
+                                fname = (f.name or "").lower()
+                                ffile = (f.file_name or "").lower()
+                                combined = f"{fname} {ffile}"
+                                score = 0
+
+                                # 1. Stem and keyword matching
+                                for p in modfile_paths:
+                                    stem = p.stem.lower()
+                                    if stem in combined:
+                                        score += 20
+                                    # Handle BSHeartland -> Bruma
+                                    if "heartland" in stem and "bruma" in combined:
+                                        score += 18
+                                    # Handle BSAssets -> Assets
+                                    if "assets" in stem and "assets" in combined:
+                                        score += 15
+
+                                # 2. Match installed mod folder name if available
+                                if installed_modfile:
+                                    inst_mod_name = installed_modfile.full_path.parent.name.lower()
+                                    words = [w for w in inst_mod_name.replace("-", " ").replace("_", " ").split() if len(w) > 3]
+                                    for w in words:
+                                        if w in combined:
+                                            score += 5
+
+                                # 3. Penalize patch / fix / update if the plugin being translated is a main ESM
+                                is_patch_file = any(w in combined for w in ("patch", "fix", "hotfix", "update", "addon", "compat"))
+                                has_main_plugin = any(
+                                    p.suffix.lower() in (".esm", ".esp")
+                                    and not any(w in p.stem.lower() for w in ("patch", "fix", "compat"))
+                                    for p in modfile_paths
+                                )
+                                if is_patch_file and has_main_plugin:
+                                    score -= 30
+
+                                # 4. Prefer MAIN category over OPTIONAL/UPDATE
+                                is_main_cat = (getattr(f, "category_id", None) == 1) or (f.category_name and f.category_name.upper() == "MAIN")
+                                if is_main_cat:
+                                    score += 10
+
+                                # 5. Tie breaker: file size (larger files contain the main ESM records)
+                                size = getattr(f, "size_in_bytes", 0) or getattr(f, "size_kb", 0) or 0
+                                return (score, size)
+
+                            matching_vo_file = max(version_candidates, key=score_candidate) if version_candidates else None
                             if matching_vo_file:
                                 if not self.__provider.direct_downloads_possible(Source.NexusMods):
                                     import webbrowser

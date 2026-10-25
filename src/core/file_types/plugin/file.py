@@ -7,15 +7,22 @@ from typing import override
 
 from sse_plugin_interface.plugin import SSEPlugin
 from sse_plugin_interface.plugin_string import PluginString as SSEPluginString
+from sse_plugin_interface.string_records import STRING_RECORDS
 from sse_plugin_interface.utilities import is_valid_string
 
 from core.database.translation_service import TranslationService
 from core.file_source.file_source_factory import FileSourceFactory
 from core.mod_file.mod_file import ModFile
 from core.string.string_status import StringStatus
+from core.string.string_utils import StringUtils
 from core.string.types import StringList
 
 from .string import PluginString
+
+# GMST records can contain user-facing text in their DATA subrecord.
+GMST_STRING_SUBRECORDS = STRING_RECORDS.setdefault("GMST", [])
+if "DATA" not in GMST_STRING_SUBRECORDS:
+    GMST_STRING_SUBRECORDS.append("DATA")
 
 
 class PluginFile(ModFile):
@@ -50,7 +57,12 @@ class PluginFile(ModFile):
 
         raw_strings: list[SSEPluginString] = plugin.extract_strings()
 
-        return PluginFile.convert_sse_plugin_strings(raw_strings)
+        # Some plugins contain multiple records with the same translation ID (for
+        # example, an overridden quest record). The final occurrence is the effective
+        # source and matches the database's duplicate-removal behavior.
+        return StringUtils.unique(
+            PluginFile.convert_sse_plugin_strings(raw_strings)
+        )
 
     @staticmethod
     def convert_sse_plugin_strings(raw_strings: list[SSEPluginString]) -> StringList:

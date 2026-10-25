@@ -3,6 +3,7 @@ Copyright (c) Cutleast
 """
 
 import logging
+import shutil
 import tempfile
 from pathlib import Path
 from typing import Any, Optional
@@ -23,6 +24,36 @@ class TranslationBridge:
     """
 
     log: logging.Logger = logging.getLogger("TranslationBridge")
+    __temp_dirs: list[tempfile.TemporaryDirectory] = []
+
+    @classmethod
+    def clean_temp_dirs(cls) -> None:
+        """Removes temporary folders created while building translation bridges."""
+        while cls.__temp_dirs:
+            temp_dir = cls.__temp_dirs.pop()
+            try:
+                temp_dir.cleanup()
+            except Exception as ex:
+                cls.log.error(
+                    f"Failed to clean translation bridge temp folder "
+                    f"'{temp_dir.name}': {ex}",
+                    exc_info=ex,
+                )
+
+        # Also remove leftovers from earlier runs, which are uniquely named by
+        # this feature's prefix in the system temp directory.
+        for temp_dir in Path(tempfile.gettempdir()).glob("sse_bridge_*"):
+            if not temp_dir.is_dir():
+                continue
+
+            try:
+                shutil.rmtree(temp_dir)
+            except Exception as ex:
+                cls.log.error(
+                    f"Failed to clean translation bridge temp folder "
+                    f"'{temp_dir}': {ex}",
+                    exc_info=ex,
+                )
 
     @classmethod
     def find_plugins_in_source(
@@ -94,7 +125,9 @@ class TranslationBridge:
         Returns:
             dict[str, Any]: Bridge dictionary containing lookup maps.
         """
-        temp_dir = Path(tempfile.mkdtemp(prefix="sse_bridge_"))
+        temp_dir_owner = tempfile.TemporaryDirectory(prefix="sse_bridge_")
+        cls.__temp_dirs.append(temp_dir_owner)
+        temp_dir = Path(temp_dir_owner.name)
 
         trans_plugins = cls.find_plugins_in_source(translated_source, temp_dir / "trans")
         orig_plugins = cls.find_plugins_in_source(original_source, temp_dir / "orig")
@@ -109,8 +142,7 @@ class TranslationBridge:
         edid_indexed_map: dict[tuple[str, str, Optional[int]], tuple[str, str]] = {}
         formid_map: dict[tuple[str, str, Optional[int]], tuple[str, str, bool]] = {}
 
-        identical_text_set: set[str] = set()
-        identical_edid_map: dict[tuple[str, str], str] = {}
+        identical_edid_map: dict[tuple[str, str], tuple[str, str]] = {}
         identical_edid_indexed_map: dict[tuple[str, str, Optional[int]], tuple[str, str]] = {}
 
         common_names = set(trans_plugins.keys()) & set(orig_plugins.keys())
@@ -191,13 +223,11 @@ class TranslationBridge:
                         and orig_str.index is None
                         and (orig_str.editor_id, orig_str.type) not in edid_map
                     ):
-                        identical_edid_map[(orig_str.editor_id, orig_str.type)] = fr_clean
+                        identical_edid_map[(orig_str.editor_id, orig_str.type)] = (en_text, fr_clean)
                     if orig_str.editor_id:
                         identical_edid_indexed_map[
                             (orig_str.editor_id, orig_str.type, orig_str.index)
                         ] = (en_text, fr_clean)
-                    if en_text not in text_map:
-                        identical_text_set.add(en_text)
 
         cls.log.info(
             f"Bridge constructed successfully: {pair_count} translation pairs, "
@@ -210,7 +240,6 @@ class TranslationBridge:
             "edid_map": edid_map,
             "edid_indexed_map": edid_indexed_map,
             "formid_map": formid_map,
-            "identical_text_set": identical_text_set,
             "identical_edid_map": identical_edid_map,
             "identical_edid_indexed_map": identical_edid_indexed_map,
             "pair_count": pair_count,
@@ -249,7 +278,6 @@ class TranslationBridge:
         edid_map = bridge.get("edid_map", {})
         edid_indexed_map = bridge.get("edid_indexed_map", {})
         formid_map = bridge.get("formid_map", {})
-        identical_text_set = bridge.get("identical_text_set", set())
         identical_edid_map = bridge.get("identical_edid_map", {})
         identical_edid_indexed_map = bridge.get("identical_edid_indexed_map", {})
 
@@ -286,16 +314,13 @@ class TranslationBridge:
                         is_identical_match = is_id
 
             # 2. Exact English text match (safe across ESL compaction for dialogues, quests, etc.)
+            # Only applied for real translations (where fr != en). Never matches identical lines.
             if not fr_match and target.original:
                 orig_clean = target.original.strip()
                 if orig_clean in text_map:
                     fr_match = text_map[orig_clean]
                     match_type = "text"
                     is_identical_match = False
-                elif orig_clean in identical_text_set:
-                    fr_match = orig_clean
-                    match_type = "text"
-                    is_identical_match = True
 
             # 3. EDID + Type match (only if index is None)
             if (
@@ -310,9 +335,11 @@ class TranslationBridge:
                     match_type = "edid"
                     is_identical_match = False
                 elif ekey in identical_edid_map:
-                    fr_match = identical_edid_map[ekey]
-                    match_type = "edid"
-                    is_identical_match = True
+                    en_text, fr_text = identical_edid_map[ekey]
+                    if target.original and target.original.strip() == en_text:
+                        fr_match = fr_text
+                        match_type = "edid"
+                        is_identical_match = True
 
             # 4. EDID + Type + Index match (verifying English text matches)
             if (
@@ -352,7 +379,8 @@ class TranslationBridge:
                     elif match_type == "edid":
                         edid_applied += 1
                 # Identical to original in translated mod -> TranslationIncomplete (partial / to verify)
-                elif target.status == StringStatus.TranslationRequired:
+                # ONLY if it was actually a match of that record in the translated mod!
+                elif is_identical_match and target.status == StringStatus.TranslationRequired:
                     target.string = fr_match
                     target.status = StringStatus.TranslationIncomplete
                     modified_strings.append(target)

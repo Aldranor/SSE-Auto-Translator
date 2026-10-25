@@ -81,6 +81,9 @@ class MainPageWidget(QWidget):
         Translation: The translation to edit.
     """
 
+    refresh_translation_requested = Signal(Translation)
+    """Signal emitted when a translation should be reloaded from disk."""
+
     log: logging.Logger = logging.getLogger("Main")
 
     __mod_instance: ModInstance
@@ -166,6 +169,9 @@ class MainPageWidget(QWidget):
         self.__modinstance_widget.edit_translation_requested.connect(
             self.edit_translation_requested.emit
         )
+        self.__modinstance_widget.refresh_translation_requested.connect(
+            self.refresh_translation_requested.emit
+        )
 
         self.__database_widget.edit_translation_requested.connect(
             self.edit_translation_requested.emit
@@ -190,6 +196,8 @@ class MainPageWidget(QWidget):
         self.__tool_bar = MainToolBar()
         self.__tool_bar.set_provider_features_enabled(self.__provider.is_available)
         self.__tool_bar.set_shortcut_target(self)
+        self.__tool_bar.apply_db_on_scan = self.__app_config.auto_create_database_translations
+        self.__tool_bar.apply_db_on_scan_changed.connect(self.__on_apply_db_on_scan_changed)
         self.__vlayout.addWidget(self.__tool_bar)
 
         first_action: QAction = self.__tool_bar.actions()[0]
@@ -368,7 +376,13 @@ class MainPageWidget(QWidget):
             parent=QApplication.activeModalWidget(),
         ).exec()
 
-    def __run_basic_scan(self, only_selected: bool = False) -> None:
+    def __on_apply_db_on_scan_changed(self, enabled: bool) -> None:
+        self.__app_config.auto_create_database_translations = enabled
+        self.__app_config.save()
+
+    def __run_basic_scan(
+        self, only_selected: bool = False, apply_db: Optional[bool] = None
+    ) -> None:
         """
         Runs a basic scan over the currently checked mod files.
 
@@ -376,7 +390,11 @@ class MainPageWidget(QWidget):
             only_selected (bool, optional):
                 Whether to scan only the currently selected mods and mod files.
                 Defaults to False.
+            apply_db (Optional[bool], optional):
+                Whether to apply database translations. Defaults to None (uses toolbar setting).
         """
+        if apply_db is None:
+            apply_db = self.__tool_bar.apply_db_on_scan
 
         mods: list[Mod]
         modfiles: dict[Mod, list[ModFile]]
@@ -389,7 +407,9 @@ class MainPageWidget(QWidget):
 
         scan_result: dict[ModFile, TranslationStatus] = join_dicts(
             *ProgressDialog(
-                func=lambda pdisplay: self.__scanner.run_basic_scan(modfiles, pdisplay),
+                func=lambda pdisplay: self.__scanner.run_basic_scan(
+                    modfiles, pdisplay, apply_db=apply_db
+                ),
                 parent=QApplication.activeModalWidget(),
             )
             .run()
@@ -405,12 +425,14 @@ class MainPageWidget(QWidget):
                 parent=QApplication.activeModalWidget(),
             ).run()
 
-        if self.__app_config.auto_create_database_translations:
+        if apply_db:
             self.__apply_database_translations(only_selected=only_selected, silent=True)
 
         self.__show_scan_result(list(scan_result.keys()))
 
-    def __run_online_scan(self, only_selected: bool = False) -> None:
+    def __run_online_scan(
+        self, only_selected: bool = False, apply_db: Optional[bool] = None
+    ) -> None:
         """
         Runs an online scan over the currently checked mod files.
 
@@ -418,7 +440,11 @@ class MainPageWidget(QWidget):
             only_selected (bool, optional):
                 Whether to scan only the currently selected mods and mod files.
                 Defaults to False.
+            apply_db (Optional[bool], optional):
+                Whether to apply database translations. Defaults to None (uses toolbar setting).
         """
+        if apply_db is None:
+            apply_db = self.__tool_bar.apply_db_on_scan
 
         modfiles: dict[Mod, list[ModFile]]
         if not only_selected:
@@ -435,7 +461,7 @@ class MainPageWidget(QWidget):
         )
         self.__state_service.set_modfile_states(scan_result)
 
-        if self.__app_config.auto_create_database_translations:
+        if apply_db:
             self.__apply_database_translations(only_selected=only_selected, silent=True)
 
         self.__show_scan_result(list(scan_result.keys()))
@@ -460,12 +486,16 @@ class MainPageWidget(QWidget):
             TranslationStatus.TranslationIncomplete,
             TranslationStatus.RequiresTranslation,
         )
+
+        def is_load_order_winner(modfile: ModFile) -> bool:
+            return self.__mod_instance.get_modfile(modfile.path) is modfile
+
         if only_selected:
             modfiles = [
                 mf
                 for mfs in self.__modinstance_widget.get_selected_modfiles().values()
                 for mf in mfs
-                if mf.status in target_statuses
+                if mf.status in target_statuses and is_load_order_winner(mf)
             ]
         else:
             checked_items = self.__modinstance_widget.get_checked_items()
@@ -477,7 +507,7 @@ class MainPageWidget(QWidget):
             modfiles = [
                 mf
                 for mf in candidates
-                if mf.status in target_statuses
+                if mf.status in target_statuses and is_load_order_winner(mf)
             ]
 
         if not modfiles:
