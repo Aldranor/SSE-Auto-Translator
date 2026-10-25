@@ -37,7 +37,7 @@ class DownloadTranslationDialog(QDialog):
         self,
         parent: Optional[QWidget],
         translation: Translation,
-        default_source: Source = Source.Confrerie,
+        default_source: Optional[Source] = None,
         detected_id: Optional[str] = None,
     ) -> None:
         """
@@ -81,7 +81,23 @@ class DownloadTranslationDialog(QDialog):
         source_layout.addWidget(self.__radio_nexus)
         layout.addWidget(source_group)
 
-        # Determine prefill ID and initial source
+        # Determine initial source
+        if default_source is None or default_source == Source.Local:
+            if translation.source in (Source.NexusMods, Source.Confrerie):
+                default_source = translation.source
+            elif isinstance(translation.mod_id, NxmModId):
+                default_source = Source.NexusMods
+            elif isinstance(translation.mod_id, CdtModId):
+                default_source = Source.Confrerie
+            else:
+                default_source = Source.Confrerie
+
+        if default_source == Source.NexusMods:
+            self.__radio_nexus.setChecked(True)
+        else:
+            self.__radio_confrerie.setChecked(True)
+
+        # Determine prefill ID
         initial_id = ""
         if detected_id:
             initial_id = str(detected_id)
@@ -90,15 +106,8 @@ class DownloadTranslationDialog(QDialog):
                 initial_id = str(
                     translation.mod_id.nm_mod_id or translation.mod_id.mod_id
                 )
-                default_source = Source.Confrerie
             elif isinstance(translation.mod_id, NxmModId):
                 initial_id = str(translation.mod_id.mod_id)
-                default_source = Source.NexusMods
-
-        if default_source == Source.NexusMods:
-            self.__radio_nexus.setChecked(True)
-        else:
-            self.__radio_confrerie.setChecked(True)
 
         # Input form
         form_layout = QFormLayout()

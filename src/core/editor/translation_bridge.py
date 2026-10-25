@@ -107,7 +107,11 @@ class TranslationBridge:
         text_map: dict[str, str] = {}
         edid_map: dict[tuple[str, str], str] = {}
         edid_indexed_map: dict[tuple[str, str, Optional[int]], tuple[str, str]] = {}
-        formid_map: dict[tuple[str, str, Optional[int]], tuple[str, str]] = {}
+        formid_map: dict[tuple[str, str, Optional[int]], tuple[str, str, bool]] = {}
+
+        identical_text_set: set[str] = set()
+        identical_edid_map: dict[tuple[str, str], str] = {}
+        identical_edid_indexed_map: dict[tuple[str, str, Optional[int]], tuple[str, str]] = {}
 
         common_names = set(trans_plugins.keys()) & set(orig_plugins.keys())
         if target_plugin_names:
@@ -115,6 +119,7 @@ class TranslationBridge:
             common_names = {n for n in common_names if n in target_lowers}
 
         pair_count = 0
+        identical_count = 0
         for name in common_names:
             t_path = trans_plugins[name]
             o_path = orig_plugins[name]
@@ -140,7 +145,7 @@ class TranslationBridge:
                 en_text = (orig_str.original or orig_str.string or "").strip()
                 fr_text = (trans_str.original or trans_str.string or "").strip()
 
-                if not en_text or not fr_text or en_text == fr_text:
+                if not en_text or not fr_text:
                     continue
 
                 # Normalize spaces
@@ -150,30 +155,53 @@ class TranslationBridge:
                     .replace("\u200b", "")
                 )
 
-                pair_count += 1
+                if en_text != fr_clean:
+                    pair_count += 1
 
-                # 1. Exact English text -> French translation
-                if en_text not in text_map:
-                    text_map[en_text] = fr_clean
+                    # 1. Exact English text -> French translation
+                    if en_text not in text_map:
+                        text_map[en_text] = fr_clean
 
-                # 2. EDID + Type (when index is None)
-                if orig_str.editor_id and orig_str.index is None:
-                    edid_map[(orig_str.editor_id, orig_str.type)] = fr_clean
+                    # 2. EDID + Type (when index is None)
+                    if orig_str.editor_id and orig_str.index is None:
+                        edid_map[(orig_str.editor_id, orig_str.type)] = fr_clean
 
-                # 3. EDID + Type + Index
-                if orig_str.editor_id:
-                    edid_indexed_map[
-                        (orig_str.editor_id, orig_str.type, orig_str.index)
-                    ] = (en_text, fr_clean)
+                    # 3. EDID + Type + Index
+                    if orig_str.editor_id:
+                        edid_indexed_map[
+                            (orig_str.editor_id, orig_str.type, orig_str.index)
+                        ] = (en_text, fr_clean)
 
-                # 4. FormID map
-                formid_map[(orig_str.form_id, orig_str.type, orig_str.index)] = (
-                    en_text,
-                    fr_clean,
-                )
+                    # 4. FormID map (is_identical = False)
+                    formid_map[(orig_str.form_id, orig_str.type, orig_str.index)] = (
+                        en_text,
+                        fr_clean,
+                        False,
+                    )
+                else:
+                    # Line is present in the translated mod, but identical to English original
+                    identical_count += 1
+                    formid_map[(orig_str.form_id, orig_str.type, orig_str.index)] = (
+                        en_text,
+                        fr_clean,
+                        True,
+                    )
+                    if (
+                        orig_str.editor_id
+                        and orig_str.index is None
+                        and (orig_str.editor_id, orig_str.type) not in edid_map
+                    ):
+                        identical_edid_map[(orig_str.editor_id, orig_str.type)] = fr_clean
+                    if orig_str.editor_id:
+                        identical_edid_indexed_map[
+                            (orig_str.editor_id, orig_str.type, orig_str.index)
+                        ] = (en_text, fr_clean)
+                    if en_text not in text_map:
+                        identical_text_set.add(en_text)
 
         cls.log.info(
             f"Bridge constructed successfully: {pair_count} translation pairs, "
+            f"{identical_count} identical pairs, "
             f"{len(text_map)} unique English phrases mapped."
         )
 
@@ -182,7 +210,21 @@ class TranslationBridge:
             "edid_map": edid_map,
             "edid_indexed_map": edid_indexed_map,
             "formid_map": formid_map,
+            "identical_text_set": identical_text_set,
+            "identical_edid_map": identical_edid_map,
+            "identical_edid_indexed_map": identical_edid_indexed_map,
             "pair_count": pair_count,
+            "identical_count": identical_count,
+            "orig_plugins": list(orig_plugins.keys()),
+            "trans_plugins": list(trans_plugins.keys()),
+            "common_plugins": list(common_names),
+            "stats": {
+                "formid": 0,
+                "text": 0,
+                "edid": 0,
+                "identical": 0,
+                "total": 0,
+            },
         }
 
     @classmethod
@@ -191,7 +233,7 @@ class TranslationBridge:
         bridge: dict[str, Any],
         target_strings: StringList,
         missing_only: bool = True,
-    ) -> int:
+    ) -> StringList:
         """
         Applies translation bridge mappings to a list of target strings.
 
@@ -201,14 +243,21 @@ class TranslationBridge:
             missing_only (bool, optional): Only translate missing strings. Defaults to True.
 
         Returns:
-            int: Number of strings translated.
+            StringList: List of strings translated.
         """
         text_map = bridge.get("text_map", {})
         edid_map = bridge.get("edid_map", {})
         edid_indexed_map = bridge.get("edid_indexed_map", {})
         formid_map = bridge.get("formid_map", {})
+        identical_text_set = bridge.get("identical_text_set", set())
+        identical_edid_map = bridge.get("identical_edid_map", {})
+        identical_edid_indexed_map = bridge.get("identical_edid_indexed_map", {})
 
-        modified_count = 0
+        modified_strings: StringList = []
+        formid_applied = 0
+        text_applied = 0
+        edid_applied = 0
+        identical_applied = 0
 
         for target in target_strings:
             if (
@@ -219,51 +268,109 @@ class TranslationBridge:
                 continue
 
             fr_match: Optional[str] = None
+            match_type: Optional[str] = None
+            is_identical_match: bool = False
 
-            # 1. Direct FormID match if FormID didn't change and English matches
-            fkey = (target.form_id, target.type, target.index)
-            if fkey in formid_map:
-                en_text, fr_text = formid_map[fkey]
-                if target.original and target.original.strip() == en_text:
-                    fr_match = fr_text
+            # 1. Direct FormID match if PluginString and FormID didn't change and English matches
+            if isinstance(target, PluginString):
+                fkey = (
+                    getattr(target, "form_id", None),
+                    getattr(target, "type", None),
+                    getattr(target, "index", None),
+                )
+                if fkey in formid_map:
+                    en_text, fr_text, is_id = formid_map[fkey]
+                    if target.original and target.original.strip() == en_text:
+                        fr_match = fr_text
+                        match_type = "formid"
+                        is_identical_match = is_id
 
             # 2. Exact English text match (safe across ESL compaction for dialogues, quests, etc.)
             if not fr_match and target.original:
                 orig_clean = target.original.strip()
                 if orig_clean in text_map:
                     fr_match = text_map[orig_clean]
+                    match_type = "text"
+                    is_identical_match = False
+                elif orig_clean in identical_text_set:
+                    fr_match = orig_clean
+                    match_type = "text"
+                    is_identical_match = True
 
             # 3. EDID + Type match (only if index is None)
             if (
                 not fr_match
                 and isinstance(target, PluginString)
-                and target.editor_id
-                and target.index is None
+                and getattr(target, "editor_id", None)
+                and getattr(target, "index", None) is None
             ):
                 ekey = (target.editor_id, target.type)
                 if ekey in edid_map:
                     fr_match = edid_map[ekey]
+                    match_type = "edid"
+                    is_identical_match = False
+                elif ekey in identical_edid_map:
+                    fr_match = identical_edid_map[ekey]
+                    match_type = "edid"
+                    is_identical_match = True
 
             # 4. EDID + Type + Index match (verifying English text matches)
             if (
                 not fr_match
                 and isinstance(target, PluginString)
-                and target.editor_id
-                and target.index is not None
+                and getattr(target, "editor_id", None)
+                and getattr(target, "index", None) is not None
             ):
                 eikey = (target.editor_id, target.type, target.index)
                 if eikey in edid_indexed_map:
                     en_text, fr_text = edid_indexed_map[eikey]
                     if target.original and target.original.strip() == en_text:
                         fr_match = fr_text
+                        match_type = "edid"
+                        is_identical_match = False
+                elif eikey in identical_edid_indexed_map:
+                    en_text, fr_text = identical_edid_indexed_map[eikey]
+                    if target.original and target.original.strip() == en_text:
+                        fr_match = fr_text
+                        match_type = "edid"
+                        is_identical_match = True
 
-            if (
-                fr_match
-                and fr_match.strip() != (target.original.strip() if target.original else "")
-            ):
-                target.string = fr_match
-                target.status = StringStatus.TranslationComplete
-                modified_count += 1
+            if fr_match is not None:
+                # Different text -> TranslationComplete (validated translation)
+                if (
+                    not is_identical_match
+                    and fr_match.strip()
+                    != (target.original.strip() if target.original else "")
+                ):
+                    target.string = fr_match
+                    target.status = StringStatus.TranslationComplete
+                    modified_strings.append(target)
+                    if match_type == "formid":
+                        formid_applied += 1
+                    elif match_type == "text":
+                        text_applied += 1
+                    elif match_type == "edid":
+                        edid_applied += 1
+                # Identical to original in translated mod -> TranslationIncomplete (partial / to verify)
+                elif target.status == StringStatus.TranslationRequired:
+                    target.string = fr_match
+                    target.status = StringStatus.TranslationIncomplete
+                    modified_strings.append(target)
+                    identical_applied += 1
 
-        cls.log.info(f"Applied bridge: translated {modified_count} string(s).")
-        return modified_count
+        stats = bridge.setdefault(
+            "stats",
+            {"formid": 0, "text": 0, "edid": 0, "identical": 0, "total": 0},
+        )
+        stats["formid"] += formid_applied
+        stats["text"] += text_applied
+        stats["edid"] += edid_applied
+        stats["identical"] = stats.get("identical", 0) + identical_applied
+        stats["total"] += len(modified_strings)
+
+        cls.log.info(
+            f"Applied bridge: translated {len(modified_strings)} string(s) "
+            f"(FormID: {formid_applied}, Text: {text_applied}, EDID: {edid_applied}, "
+            f"Identical/To verify: {identical_applied})."
+        )
+        return modified_strings

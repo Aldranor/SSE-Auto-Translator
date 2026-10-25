@@ -501,15 +501,21 @@ class Editor(QObject):
                             trans_text = trans_text.replace("\xa0", " ").replace("\u202f", " ").replace("\u200b", "")
     
                         if trans_text and trans_text.strip() != target.original.strip():
-    
                             target.string = trans_text
-    
                             target.status = StringStatus.TranslationComplete
-    
                             modified_strings.append(target)
-    
-    
-    
+                        elif trans_text and trans_text.strip() == target.original.strip():
+                            if target.status == StringStatus.TranslationRequired:
+                                target.string = trans_text
+                                if matched.status in (
+                                    StringStatus.NoTranslationRequired,
+                                    StringStatus.TranslationIncomplete,
+                                ):
+                                    target.status = matched.status
+                                else:
+                                    target.status = StringStatus.TranslationIncomplete
+                                modified_strings.append(target)
+
             if modified_strings:
     
                 self.strings_changed.emit(modified_strings)
@@ -543,15 +549,12 @@ class Editor(QObject):
 
         modified_strings: StringList = []
         for target_strings in self.__strings_cache.values():
-            TranslationBridge.apply_bridge(
+            changed = TranslationBridge.apply_bridge(
                 bridge=bridge,
                 target_strings=target_strings,
                 missing_only=missing_only,
             )
-            # Find the modified strings
-            for target in target_strings:
-                if target.status == StringStatus.TranslationComplete and target.string:
-                    modified_strings.append(target)
+            modified_strings.extend(changed)
 
         if modified_strings:
             self.strings_changed.emit(modified_strings)

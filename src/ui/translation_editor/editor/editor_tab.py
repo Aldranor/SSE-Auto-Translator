@@ -2,10 +2,11 @@
 Copyright (c) Cutleast
 """
 
+import logging
 import os
 import re
 from pathlib import Path
-from typing import Optional
+from typing import Optional, cast
 
 from cutleast_core_lib.core.multithreading.progress import ProgressUpdate
 from cutleast_core_lib.ui.progress.dialog import ProgressDialog
@@ -36,10 +37,12 @@ from core.config.app_config import AppConfig
 from core.database.exporter import Exporter
 from core.database.translation import Translation
 from core.editor.editor import Editor
+from core.editor.translation_report import TranslationReport
 from core.string.string_extractor import StringExtractor
 from core.string.string_status import StringStatus
 from core.string.types import String, StringList
 from core.translation_provider.cdt_api.cdt_id import CdtModId
+from core.translation_provider.nm_api.nm_api import NexusModsApi
 from core.translation_provider.nm_api.nxm_id import NxmModId
 from core.translation_provider.provider import TranslationProvider
 from core.translation_provider.source import Source
@@ -52,6 +55,7 @@ from .download_dialog import DownloadTranslationDialog
 from .editor_menu import EditorMenu
 from .editor_toolbar import EditorToolbar
 from .strings_widget import StringsWidget
+from .translation_report_dialog import TranslationReportDialog
 from .translator_dialog import TranslatorDialog
 
 
@@ -86,6 +90,8 @@ class EditorTab(QWidget):
     __bar_chart: StackedBar
     __menu: EditorMenu
     __strings_widget: StringsWidget
+    log: logging.Logger = logging.getLogger("EditorTab")
+    __last_translation_report: Optional[TranslationReport] = None
 
     def __init__(
         self,
@@ -147,6 +153,7 @@ class EditorTab(QWidget):
         self.__tool_bar.api_translation_requested.connect(self.__translate_with_api)
         self.__tool_bar.save_requested.connect(self.__save)
         self.__tool_bar.export_requested.connect(self.__export)
+        self.__tool_bar.show_report_requested.connect(self.__show_last_report)
 
         self.__menu.expand_all_clicked.connect(self.__expand_all)
         self.__menu.collapse_all_clicked.connect(self.__collapse_all)
@@ -374,30 +381,76 @@ class EditorTab(QWidget):
         Opens dialog to download translation from Confrérie or Nexus and apply to missing strings.
         """
 
-        detected_id = None
+        detected_id: Optional[str] = None
+        detected_source: Optional[Source] = None
+
+        # 1. Check translation object
+        if self.__translation.source in (Source.Confrerie, Source.NexusMods):
+            detected_source = self.__translation.source
+
         if self.__translation.mod_id is not None:
             if isinstance(self.__translation.mod_id, CdtModId):
                 detected_id = str(
                     self.__translation.mod_id.nm_mod_id
                     or self.__translation.mod_id.mod_id
                 )
+                detected_source = Source.Confrerie
             elif isinstance(self.__translation.mod_id, NxmModId):
                 detected_id = str(self.__translation.mod_id.mod_id)
+                detected_source = Source.NexusMods
 
-        if not detected_id and self.__user_data.mod_instance is not None:
+        # 2. Check mod instance / meta.ini
+        if self.__user_data.mod_instance is not None:
             for modfile_path in self.__translation.strings:
                 mf = self.__user_data.mod_instance.get_modfile(modfile_path)
                 if mf is not None:
                     for mod in self.__user_data.mod_instance.mods:
-                        if mf in mod.modfiles and mod.mod_id is not None:
-                            detected_id = str(mod.mod_id.mod_id)
-                            break
-                if detected_id:
+                        if mf in mod.modfiles:
+                            if not detected_id and mod.mod_id is not None:
+                                detected_id = str(mod.mod_id.mod_id)
+
+                            if detected_source is None:
+                                meta_path = mod.path / "meta.ini"
+                                if meta_path.exists():
+                                    try:
+                                        import configparser
+
+                                        cp = configparser.ConfigParser()
+                                        cp.read(meta_path, encoding="utf-8")
+                                        url = cp.get("General", "url", fallback="")
+                                        inst_file = cp.get("General", "installationFile", fallback="")
+                                        source_str = cp.get("General", "source", fallback="")
+
+                                        if any("confrerie" in s.lower() for s in (url, inst_file, source_str)):
+                                            detected_source = Source.Confrerie
+                                        elif (
+                                            any(
+                                                "nexusmods" in s.lower() or "nexus" in s.lower()
+                                                for s in (url, inst_file, source_str)
+                                            )
+                                            or (cp.has_option("General", "modid") and cp.getint("General", "modid", fallback=0) > 0)
+                                        ):
+                                            detected_source = Source.NexusMods
+                                    except Exception as ex:  # noqa: BLE001
+                                        self.log.debug(f"Could not read meta.ini for source: {ex}")
+
+                                if detected_source is None and mod.mod_id is not None:
+                                    detected_source = Source.NexusMods
+                if detected_id and detected_source:
                     break
+
+        if detected_source is None:
+            pref = self.__user_data.user_config.provider_preference
+            from core.translation_provider.provider_preference import ProviderPreference
+            if pref in (ProviderPreference.OnlyNexusMods, ProviderPreference.PreferNexusMods):
+                detected_source = Source.NexusMods
+            else:
+                detected_source = Source.Confrerie
 
         dialog = DownloadTranslationDialog(
             parent=self,
             translation=self.__translation,
+            default_source=detected_source,
             detected_id=detected_id,
         )
         if dialog.exec() != QDialog.DialogCode.Accepted:
@@ -410,13 +463,31 @@ class EditorTab(QWidget):
         missing_only = dialog.missing_only
         bridge_mode = dialog.bridge_mode
 
-        def run_task(pdisplay: ProgressDisplay) -> int:
+        def run_task(pdisplay: ProgressDisplay) -> TranslationReport:
+            report = TranslationReport()
+            report.bridge_enabled = bridge_mode
+
+            def log_msg(msg: str) -> None:
+                self.log.info(msg)
+                report.log_messages.append(msg)
+
             archive_path: Path
             target_version: Optional[str] = None
             original_nm_id: Optional[int] = None
 
+            modfile_paths = list(self.__editor.strings.keys())
+            target_plugin_names = [mf_p.name for mf_p in modfile_paths]
+            mod_stems = [mf_p.stem.lower() for mf_p in modfile_paths]
+
+            installed_modfile = (
+                self.__user_data.mod_instance.get_modfile(modfile_paths[0])
+                if modfile_paths
+                else None
+            )
+
             if local_archive is not None:
                 archive_path = local_archive
+                log_msg(f"Using local translation archive: {archive_path.name}")
             else:
                 pdisplay.updateMainProgress(
                     ProgressUpdate(
@@ -478,11 +549,6 @@ class EditorTab(QWidget):
                         raise ValueError(
                             self.tr("Translation provider for Nexus Mods not available.")
                         )
-
-                    from typing import cast
-
-                    from core.translation_provider.nm_api.nm_api import NexusModsApi
-                    from core.translation_provider.nm_api.nxm_id import NxmModId
 
                     pattern = re.compile(
                         r"^(?:https?://(?:www\.)?nexusmods\.com/(?P<game>[a-zA-Z0-9_]+)/mods/)?(?P<mod_id>\d+)(?:.*[?&]file_id=(?P<file_id>\d+))?",
@@ -616,34 +682,27 @@ class EditorTab(QWidget):
                         if chunk:
                             f.write(chunk)
 
+            report.translation_source_name = archive_path.name
+            report.translation_version = target_version
+            log_msg(f"Translation archive obtained: {archive_path.name} (v{target_version or 'unknown'})")
+
             total_modified = 0
             vo_archive_path: Optional[Path] = local_vo_archive
+            vo_version: Optional[str] = None
 
-            # If bridge mode is enabled and no manual VO archive was selected, try auto-detection
-            if bridge_mode and vo_archive_path is None:
-                pdisplay.updateMainProgress(
-                    ProgressUpdate(
-                        status_text=self.tr("Searching for matching original English VO..."),
-                        maximum=0,
+            # If bridge mode is enabled and no manual VO archive was selected, try smart auto-detection
+            if bridge_mode:
+                if vo_archive_path is not None:
+                    log_msg(f"Using manually selected English VO archive: {vo_archive_path.name}")
+                else:
+                    pdisplay.updateMainProgress(
+                        ProgressUpdate(
+                            status_text=self.tr("Searching for matching original English VO..."),
+                            maximum=0,
+                        )
                     )
-                )
-                # 1. Search locally in MO2 meta.ini next to modfile
-                try:
-                    mod_dir = self.__modfile.full_path.parent
-                    meta_ini = mod_dir / "meta.ini"
-                    if meta_ini.exists():
-                        import configparser
-                        cp = configparser.ConfigParser()
-                        cp.read(meta_ini, encoding="utf-8")
-                        install_file = cp.get("General", "installationFile", fallback=None)
-                        if install_file and Path(install_file).exists():
-                            vo_archive_path = Path(install_file)
-                            self.log.info(f"Auto-detected VO archive from meta.ini: {vo_archive_path}")
-                except Exception as ex:  # noqa: BLE001
-                    self.log.debug(f"Could not check meta.ini: {ex}")
+                    log_msg(f"Searching for English VO archive (Target translation version: {target_version or 'unknown'})...")
 
-                # 2. Search candidate archive folders if not yet found
-                if vo_archive_path is None:
                     candidate_dirs: list[Path] = []
                     if self.__app_config.downloads_path and self.__app_config.downloads_path.exists():
                         candidate_dirs.append(self.__app_config.downloads_path)
@@ -657,67 +716,154 @@ class EditorTab(QWidget):
                         if nolvus_arc.exists():
                             candidate_dirs.append(nolvus_arc)
 
-                    mod_stem = self.__modfile.stem.lower()
-                    for cdir in candidate_dirs:
-                        for arc in cdir.rglob("*"):
-                            if arc.is_file() and arc.suffix.lower() in (".zip", ".7z", ".rar"):
-                                arc_name_lower = arc.name.lower()
-                                if mod_stem in arc_name_lower:
-                                    if target_version and target_version.lower() in arc_name_lower:
-                                        vo_archive_path = arc
-                                        self.log.info(f"Found version-matched VO archive in {cdir}: {arc}")
-                                        break
-                                    elif vo_archive_path is None:
-                                        vo_archive_path = arc
-                        if vo_archive_path:
-                            break
+                    clean_target_v = target_version.lower().lstrip("v").strip() if target_version else None
 
-                # 3. If still not found and we have original_nm_id and target_version on Nexus:
-                if vo_archive_path is None and self.__provider is not None and original_nm_id and target_version:
-                    try:
-                        nm_api = cast(NexusModsApi, self.__provider.get_provider_by_source(Source.NexusMods))
-                        files_obj = nm_api.get_mod_files("skyrimspecialedition", original_nm_id)
-                        clean_v = target_version.lower().lstrip("v").strip()
-                        matching_vo_file = next(
-                            (
-                                f
-                                for f in files_obj.files
-                                if (f.version and f.version.lower().lstrip("v").strip() == clean_v)
-                                or (f.mod_version and f.mod_version.lower().lstrip("v").strip() == clean_v)
-                                or (f"-{clean_v}-" in f.file_name.lower())
-                            ),
-                            None,
-                        )
-                        if matching_vo_file and self.__provider.direct_downloads_possible(Source.NexusMods):
-                            pdisplay.updateMainProgress(
-                                ProgressUpdate(
-                                    status_text=self.tr("Downloading matching English VO archive ({0})...").format(
-                                        matching_vo_file.file_name
-                                    ),
-                                    maximum=0,
+                    # 1. Search candidate archive folders for an archive matching BOTH mod stem AND target_version
+                    if clean_target_v:
+                        for cdir in candidate_dirs:
+                            for arc in cdir.rglob("*"):
+                                if (
+                                    arc.is_file()
+                                    and arc.suffix.lower() in (".zip", ".7z", ".rar")
+                                    and any(st in arc.name.lower() for st in mod_stems)
+                                    and clean_target_v in arc.name.lower()
+                                ):
+                                    vo_archive_path = arc
+                                    vo_version = target_version
+                                    log_msg(f"Found version-matched VO archive in local library: {arc.name}")
+                                    break
+                            if vo_archive_path:
+                                break
+
+                    # 2. Check meta.ini of the installed mod (only if version matches or target_version is unknown)
+                    if vo_archive_path is None and installed_modfile is not None:
+                        try:
+                            mod_dir = installed_modfile.full_path.parent
+                            meta_ini = mod_dir / "meta.ini"
+                            if meta_ini.exists():
+                                import configparser
+
+                                cp = configparser.ConfigParser()
+                                cp.read(meta_ini, encoding="utf-8")
+                                meta_v = cp.get("General", "version", fallback=None)
+                                install_file = cp.get("General", "installationFile", fallback=None)
+                                if install_file and Path(install_file).exists():
+                                    clean_meta_v = meta_v.lower().lstrip("v").strip() if meta_v else None
+                                    if clean_target_v is None or (clean_meta_v and clean_target_v == clean_meta_v):
+                                        vo_archive_path = Path(install_file)
+                                        vo_version = meta_v
+                                        log_msg(f"Found version-matched VO archive from meta.ini: {vo_archive_path.name} (v{meta_v})")
+                        except Exception as ex:  # noqa: BLE001
+                            self.log.debug(f"Could not check meta.ini: {ex}")
+
+                    # 3. If still not found and we have original_nm_id and target_version on Nexus:
+                    if vo_archive_path is None and self.__provider is not None and original_nm_id and clean_target_v:
+                        try:
+                            log_msg(f"Checking Nexus for original VO files (Nexus ID: {original_nm_id}, Version: {target_version})...")
+                            nm_api = cast(NexusModsApi, self.__provider.get_provider_by_source(Source.NexusMods))
+                            files_obj = nm_api.get_mod_files("skyrimspecialedition", original_nm_id)
+                            matching_vo_file = next(
+                                (
+                                    f
+                                    for f in files_obj.files
+                                    if (f.version and f.version.lower().lstrip("v").strip() == clean_target_v)
+                                    or (f.mod_version and f.mod_version.lower().lstrip("v").strip() == clean_target_v)
+                                    or (f"-{clean_target_v}-" in f.file_name.lower())
+                                ),
+                                None,
+                            )
+                            if matching_vo_file:
+                                if not self.__provider.direct_downloads_possible(Source.NexusMods):
+                                    import webbrowser
+
+                                    nxm_url = NexusModsApi.create_nexus_mods_url(
+                                        game_id="skyrimspecialedition",
+                                        mod_id=original_nm_id,
+                                        file_id=matching_vo_file.file_id,
+                                        mod_manager=True,
+                                    )
+                                    pdisplay.updateMainProgress(
+                                        ProgressUpdate(
+                                            status_text=self.tr(
+                                                "Waiting for Nexus VO download authorization in browser..."
+                                            ),
+                                            maximum=0,
+                                        )
+                                    )
+                                    webbrowser.open(nxm_url)
+
+                                pdisplay.updateMainProgress(
+                                    ProgressUpdate(
+                                        status_text=self.tr("Downloading matching English VO archive ({0})...").format(
+                                            matching_vo_file.file_name
+                                        ),
+                                        maximum=0,
+                                    )
                                 )
-                            )
-                            vo_nxm_id = NxmModId(
-                                mod_id=original_nm_id,
-                                file_id=matching_vo_file.file_id,
-                                nm_game_id="skyrimspecialedition",
-                                file_name=matching_vo_file.file_name,
-                            )
-                            vo_dl_url = self.__provider.request_download(vo_nxm_id, Source.NexusMods)
-                            vo_archive_path = temp_dir / matching_vo_file.file_name
-                            r_vo = requests.get(
-                                vo_dl_url,
-                                headers={"User-Agent": "SSE-AT"},
-                                stream=True,
-                                timeout=60,
-                            )
-                            r_vo.raise_for_status()
-                            with open(vo_archive_path, "wb") as f_vo:
-                                for chunk in r_vo.iter_content(chunk_size=1048576):
-                                    if chunk:
-                                        f_vo.write(chunk)
-                    except Exception as ex:  # noqa: BLE001
-                        self.log.debug(f"Could not auto-download VO archive from Nexus: {ex}")
+                                log_msg(f"Downloading version-matched English VO from Nexus: {matching_vo_file.file_name}")
+                                vo_nxm_id = NxmModId(
+                                    mod_id=original_nm_id,
+                                    file_id=matching_vo_file.file_id,
+                                    nm_game_id="skyrimspecialedition",
+                                    file_name=matching_vo_file.file_name,
+                                    version=matching_vo_file.version,
+                                )
+                                vo_dl_url = self.__provider.request_download(vo_nxm_id, Source.NexusMods)
+                                vo_archive_path = temp_dir / matching_vo_file.file_name
+                                vo_version = matching_vo_file.version
+                                r_vo = requests.get(
+                                    vo_dl_url,
+                                    headers={"User-Agent": "SSE-AT"},
+                                    stream=True,
+                                    timeout=60,
+                                )
+                                r_vo.raise_for_status()
+                                with open(vo_archive_path, "wb") as f_vo:
+                                    for chunk in r_vo.iter_content(chunk_size=1048576):
+                                        if chunk:
+                                            f_vo.write(chunk)
+                                log_msg(f"Downloaded English VO archive: {vo_archive_path.name}")
+                        except Exception as ex:  # noqa: BLE001
+                            log_msg(f"Could not auto-download VO archive from Nexus: {ex}")
+
+                    # 4. Fallback: if no version-matched VO archive was found, use installed mod's installationFile
+                    if vo_archive_path is None and installed_modfile is not None:
+                        try:
+                            mod_dir = installed_modfile.full_path.parent
+                            meta_ini = mod_dir / "meta.ini"
+                            if meta_ini.exists():
+                                import configparser
+
+                                cp = configparser.ConfigParser()
+                                cp.read(meta_ini, encoding="utf-8")
+                                install_file = cp.get("General", "installationFile", fallback=None)
+                                meta_v = cp.get("General", "version", fallback=None)
+                                if install_file and Path(install_file).exists():
+                                    vo_archive_path = Path(install_file)
+                                    vo_version = meta_v
+                                    log_msg(
+                                        f"Fallback to installed mod VO archive: {vo_archive_path.name} "
+                                        f"(v{meta_v or 'unknown'}, translation is v{target_version or 'unknown'})."
+                                    )
+                        except Exception as ex:  # noqa: BLE001
+                            self.log.debug(f"Fallback meta.ini check failed: {ex}")
+
+                    if vo_archive_path is None:
+                        for cdir in candidate_dirs:
+                            for arc in cdir.rglob("*"):
+                                if (
+                                    arc.is_file()
+                                    and arc.suffix.lower() in (".zip", ".7z", ".rar")
+                                    and any(st in arc.name.lower() for st in mod_stems)
+                                ):
+                                    vo_archive_path = arc
+                                    log_msg(f"Fallback to locally found VO archive: {arc.name}")
+                                    break
+                            if vo_archive_path:
+                                break
+
+            report.vo_archive_name = vo_archive_path.name if vo_archive_path else None
+            report.vo_archive_version = vo_version
 
             # 4. If vo_archive_path found, build and apply Translation Bridge!
             if vo_archive_path and vo_archive_path.exists():
@@ -730,19 +876,54 @@ class EditorTab(QWidget):
                 from core.editor.translation_bridge import TranslationBridge
 
                 try:
+                    log_msg(f"Building bridge between translation ({archive_path.name}) and VO ({vo_archive_path.name})...")
                     bridge_data = TranslationBridge.build_bridge(
                         translated_source=archive_path,
                         original_source=vo_archive_path,
-                        target_plugin_names=[self.__modfile.name],
+                        target_plugin_names=target_plugin_names,
                     )
+                    report.bridge_pairs_count = bridge_data.get("pair_count", 0)
+                    report.bridge_unique_phrases_count = len(bridge_data.get("text_map", {}))
+                    log_msg(
+                        f"Bridge constructed: {report.bridge_pairs_count} pair(s), "
+                        f"{report.bridge_unique_phrases_count} unique phrase(s) mapped."
+                    )
+
                     bridge_count = self.__editor.apply_bridge(
                         bridge=bridge_data,
                         missing_only=missing_only,
                     )
+                    stats = bridge_data.get("stats", {})
+                    report.bridge_formid_applied = stats.get("formid", 0)
+                    report.bridge_text_applied = stats.get("text", 0)
+                    report.bridge_edid_applied = stats.get("edid", 0)
+                    report.bridge_identical_applied = stats.get("identical", 0)
+                    report.bridge_total_applied = bridge_count
                     total_modified += bridge_count
-                    self.log.info(f"Translation bridge applied {bridge_count} strings.")
+                    log_msg(
+                        f"Bridge applied {bridge_count} string(s) "
+                        f"(FormID: {report.bridge_formid_applied}, "
+                        f"Exact Text: {report.bridge_text_applied}, "
+                        f"EDID: {report.bridge_edid_applied}, "
+                        f"Identical/To verify: {report.bridge_identical_applied})."
+                    )
+                    if bridge_count == 0 and report.bridge_pairs_count > 0:
+                        log_msg("Note: Bridge found pairs, but target strings either already had translations or did not match.")
+                    elif report.bridge_pairs_count == 0:
+                        report.bridge_warning = self.tr(
+                            "Bridge found 0 matching translation pairs between VO and translation archive. "
+                            "Ensure the VO archive contains the same plugin files as the translation."
+                        )
                 except Exception as ex:
+                    log_msg(f"Bridge building failed: {ex}")
+                    report.bridge_warning = str(ex)
                     self.log.warning(f"Bridge building failed: {ex}", exc_info=ex)
+            elif bridge_mode:
+                report.bridge_warning = self.tr(
+                    "Original English VO archive could not be auto-detected. "
+                    "You can select it manually in 'Download translation' using 'Browse VO archive'."
+                )
+                log_msg("Bridge skipped: no English VO archive found.")
 
             # 5. Extract and apply standard/direct matches (MCM txt, DSD, direct FormIDs)
             pdisplay.updateMainProgress(
@@ -762,23 +943,29 @@ class EditorTab(QWidget):
                 pdisplay=pdisplay,
             )
 
+            report.extracted_files_count = len(extracted_strings)
+            report.extracted_file_names = [p.name for p in extracted_strings]
+            log_msg(f"Direct extraction found {len(extracted_strings)} file(s) in translation archive.")
+
             standard_modified = self.__editor.apply_translation_strings(
                 extracted_strings, missing_only=missing_only
             )
+            report.standard_applied = standard_modified
             total_modified += standard_modified
-            return total_modified
+            log_msg(f"Direct matching applied {standard_modified} string(s).")
+
+            report.total_modified = total_modified
+            report.remaining_missing = sum(
+                1 for s in self.__editor.all_strings if s.status != StringStatus.TranslationComplete
+            )
+            log_msg(f"Translation completed: {total_modified} string(s) modified, {report.remaining_missing} untranslated.")
+            return report
 
         try:
-            modified_count: int = ProgressDialog(run_task).run()
-            QMessageBox.information(
-                self,
-                self.tr("Success!"),
-                self.tr(
-                    "Applied translation to %n missing string(s).",
-                    "",
-                    modified_count,
-                ),
-            )
+            report: TranslationReport = ProgressDialog(run_task).run()
+            self.__last_translation_report = report
+            self.__tool_bar.set_report_available(True)
+            TranslationReportDialog(self, report).exec()
         except Exception as ex:
             self.__editor.log.error(
                 f"Download/apply translation failed: {ex}", exc_info=ex
@@ -790,6 +977,13 @@ class EditorTab(QWidget):
                     str(ex)
                 ),
             )
+
+    def __show_last_report(self) -> None:
+        """
+        Shows the last translation report dialog.
+        """
+        if self.__last_translation_report is not None:
+            TranslationReportDialog(self, self.__last_translation_report).exec()
 
     def __save(self) -> None:
         """

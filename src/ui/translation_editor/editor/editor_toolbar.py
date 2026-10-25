@@ -45,12 +45,16 @@ class EditorToolbar(QToolBar):
     export_requested = Signal()
     """Signal emitted when the user clicks on the export action."""
 
+    show_report_requested = Signal()
+    """Signal emitted when the user clicks on the translation report action."""
+
     __filter_action: QAction
     __filter_menu: Menu
     __filter_items: dict[StringStatus, QCheckBox]
 
     __search_and_replace_action: QAction
     __api_translation_action: QAction
+    __report_action: QAction
 
     @override
     def __init__(self) -> None:
@@ -118,6 +122,15 @@ class EditorToolbar(QToolBar):
         )
         self.__api_translation_action.setDisabled(True)
 
+        self.__report_action = self.addAction(self.tr("Last translation report"))
+        IconProvider.bind_qta_icon(
+            self.__report_action,
+            self.__report_action.setIcon,
+            "mdi6.file-document-outline",
+        )
+        self.__report_action.triggered.connect(self.show_report_requested.emit)
+        self.__report_action.setDisabled(True)
+
         self.addSeparator()
 
     def __init_filter_actions(self) -> None:
@@ -170,3 +183,12 @@ class EditorToolbar(QToolBar):
 
         self.__search_and_replace_action.setEnabled(enabled)
         self.__api_translation_action.setEnabled(enabled)
+
+    def set_report_available(self, available: bool) -> None:
+        """
+        Set whether the translation report action is enabled.
+
+        Args:
+            available (bool): True if a translation report is available.
+        """
+        self.__report_action.setEnabled(available)
