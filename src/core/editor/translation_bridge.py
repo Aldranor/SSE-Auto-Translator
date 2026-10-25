@@ -298,6 +298,7 @@ class TranslationBridge:
             fr_match: Optional[str] = None
             match_type: Optional[str] = None
             is_identical_match: bool = False
+            is_exact_match: bool = False
 
             # 1. Direct FormID match if PluginString and FormID didn't change and English matches
             if isinstance(target, PluginString):
@@ -312,6 +313,7 @@ class TranslationBridge:
                         fr_match = fr_text
                         match_type = "formid"
                         is_identical_match = is_id
+                        is_exact_match = True
 
             # 2. Exact English text match (safe across ESL compaction for dialogues, quests, etc.)
             # Only applied for real translations (where fr != en). Never matches identical lines.
@@ -321,6 +323,7 @@ class TranslationBridge:
                     fr_match = text_map[orig_clean]
                     match_type = "text"
                     is_identical_match = False
+                    is_exact_match = True
 
             # 3. EDID + Type match (only if index is None)
             if (
@@ -355,6 +358,7 @@ class TranslationBridge:
                         fr_match = fr_text
                         match_type = "edid"
                         is_identical_match = False
+                        is_exact_match = True
                 elif eikey in identical_edid_indexed_map:
                     en_text, fr_text = identical_edid_indexed_map[eikey]
                     if target.original and target.original.strip() == en_text:
@@ -363,14 +367,18 @@ class TranslationBridge:
                         is_identical_match = True
 
             if fr_match is not None:
-                # Different text -> TranslationComplete (validated translation)
+                # Unverified EDID fallback is partial; exact source matches are complete.
                 if (
                     not is_identical_match
                     and fr_match.strip()
                     != (target.original.strip() if target.original else "")
                 ):
                     target.string = fr_match
-                    target.status = StringStatus.TranslationComplete
+                    target.status = (
+                        StringStatus.TranslationComplete
+                        if is_exact_match
+                        else StringStatus.TranslationIncomplete
+                    )
                     modified_strings.append(target)
                     if match_type == "formid":
                         formid_applied += 1

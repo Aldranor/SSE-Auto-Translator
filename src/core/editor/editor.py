@@ -456,70 +456,55 @@ class Editor(QObject):
     
     
                     matched: Optional[String] = None
-    
-    
-    
+                    match_type: Optional[str] = None
+
                     # 1. Direct ID match
-    
                     if target.id in by_id:
-    
                         matched = by_id[target.id]
-    
+                        match_type = "id"
                     # 2. Exact original match
-    
                     elif target.original and target.original.strip() in by_original:
-    
                         matched = by_original[target.original.strip()]
-    
+                        match_type = "original"
                     # 3. EDID match ONLY if index is None
-    
                     elif (
-    
                         isinstance(target, PluginString)
-    
                         and target.editor_id
-    
                         and target.index is None
-    
                     ):
-    
                         edid_key = f"{target.editor_id}###{target.type}"
-    
                         if edid_key in by_edid:
-    
                             matched = by_edid[edid_key]
-    
-    
-    
+                            match_type = "edid"
+
                     if matched is not None:
-    
                         trans_text = (
-    
                             matched.string
-    
                             if (matched.string and matched.string != matched.original)
-    
                             else matched.original
-    
                         )
                         if trans_text:
                             trans_text = trans_text.replace("\xa0", " ").replace("\u202f", " ").replace("\u200b", "")
-    
+
                         if trans_text and trans_text.strip() != target.original.strip():
                             target.string = trans_text
-                            target.status = StringStatus.TranslationComplete
+                            target.status = (
+                                StringStatus.TranslationComplete
+                                if (
+                                    match_type == "original"
+                                    or (
+                                        match_type == "id"
+                                        and matched.original.strip() == target.original.strip()
+                                    )
+                                )
+                                else StringStatus.TranslationIncomplete
+                            )
                             modified_strings.append(target)
                         elif trans_text and trans_text.strip() == target.original.strip():
-                            # Only consider identical match if the record actually matched directly by ID in the translated source
-                            if target.id in by_id and target.status == StringStatus.TranslationRequired:
+                            # Identical text is partial only when the source line exists.
+                            if target.status == StringStatus.TranslationRequired:
                                 target.string = trans_text
-                                if matched.status in (
-                                    StringStatus.NoTranslationRequired,
-                                    StringStatus.TranslationIncomplete,
-                                ):
-                                    target.status = matched.status
-                                else:
-                                    target.status = StringStatus.TranslationIncomplete
+                                target.status = StringStatus.TranslationIncomplete
                                 modified_strings.append(target)
 
             if modified_strings:

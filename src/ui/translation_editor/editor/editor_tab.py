@@ -1117,7 +1117,7 @@ class EditorTab(QWidget):
 
             report.total_modified = total_modified
             report.remaining_missing = sum(
-                1 for s in self.__editor.all_strings if s.status != StringStatus.TranslationComplete
+                1 for s in self.__editor.all_strings if s.status == StringStatus.TranslationRequired
             )
             log_msg(f"Translation completed: {total_modified} string(s) modified, {report.remaining_missing} untranslated.")
             return report
