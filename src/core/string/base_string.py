@@ -5,7 +5,7 @@ Copyright (c) Cutleast
 from __future__ import annotations
 
 from abc import ABC, abstractmethod
-from typing import Annotated, Optional, TypeVar, override
+from typing import Annotated, Optional, Self, TypeVar, override
 
 from pydantic import BaseModel, BeforeValidator, PlainSerializer, model_validator
 
@@ -39,6 +39,23 @@ class BaseString(BaseModel, ABC):
     """
     Status visible in Editor Tab.
     """
+
+    @model_validator(mode="after")
+    def _validate_status_consistency(self) -> Self:
+        from sse_plugin_interface.utilities import is_valid_string
+
+        has_translation = bool(
+            self.string
+            and self.string.strip()
+            and self.string.strip() != self.original.strip()
+        )
+
+        if self.status == StringStatus.NoTranslationRequired:
+            if has_translation:
+                self.status = StringStatus.TranslationComplete
+            elif is_valid_string(self.original):
+                self.status = StringStatus.TranslationRequired
+        return self
 
     @property
     @abstractmethod

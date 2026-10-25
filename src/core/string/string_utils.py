@@ -151,7 +151,10 @@ class StringUtils:
         for original_string in original_strings:
             merged_string: StringType = copy(original_string)
 
-            if merged_string.status == StringStatus.NoTranslationRequired:
+            if (
+                merged_string.status == StringStatus.NoTranslationRequired
+                and not is_valid_string(merged_string.original)
+            ):
                 merged_string.string = merged_string.original
                 merged_strings.append(merged_string)
                 continue
@@ -185,7 +188,7 @@ class StringUtils:
                     if is_exact:
                         merged_string.status = (
                             translated_string.status
-                            if translated_string.status not in (StringStatus.NoneStatus, StringStatus.TranslationRequired)
+                            if translated_string.status in (StringStatus.TranslationComplete, StringStatus.TranslationIncomplete)
                             else StringStatus.TranslationComplete
                         )
                     else:
@@ -410,8 +413,8 @@ class StringUtils:
                     new_string.string = fallback_string.string
                     new_string.status = (
                         fallback_string.status
-                        if fallback_string.status != StringStatus.TranslationRequired
-                        else StringStatus.TranslationIncomplete
+                        if fallback_string.status in (StringStatus.TranslationComplete, StringStatus.TranslationIncomplete)
+                        else StringStatus.TranslationComplete
                     )
                     strings_by_id[new_string.id] = new_string
                     translation_strings.append(new_string)

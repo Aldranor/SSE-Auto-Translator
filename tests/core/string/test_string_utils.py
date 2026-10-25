@@ -124,7 +124,7 @@ class TestStringUtils(CoreTest):
                 form_id="00098765|Skyrim.esm",
                 type="LIGH FULL",
                 editor_id="Torch02",
-                status=StringStatus.NoTranslationRequired,
+                status=StringStatus.TranslationRequired,
             ),
         ]
 
