@@ -266,50 +266,54 @@ class ModInstanceWidget(QTreeWidget):
             self.__name_filter[1] if self.__name_filter else None
         )
 
-        # temporarily disable sorting to avoid performance issues
-        self.setSortingEnabled(False)
+        # Filtering only changes visibility; it doesn't alter sort keys. Avoid
+        # triggering a full tree sort and repaint for every search update.
+        updates_enabled: bool = self.updatesEnabled()
+        self.setUpdatesEnabled(False)
+        try:
+            for mod, mod_item in self.__mod_items.items():
+                modfile_items: dict[ModFile, TreeItem[ModFile]] = (
+                    self.__modfile_items.get(mod, {})
+                )
 
-        for mod, mod_item in self.__mod_items.items():
-            modfile_items: dict[ModFile, TreeItem[ModFile]] = self.__modfile_items.get(
-                mod, {}
-            )
+                for modfile, item in modfile_items.items():
+                    ignored: bool = self.__user_data.masterlist.is_ignored(modfile.name)
+                    if ignored:
+                        item.setChecked(False)
 
-            for modfile, item in modfile_items.items():
-                ignored: bool = self.__user_data.masterlist.is_ignored(modfile.name)
-                if ignored:
-                    item.setChecked(False)
-
-                item.setDisabled(ignored)
-                item.setHidden(
-                    (
-                        self.__state_filter is not None
-                        and modfile.status not in self.__state_filter
-                    )
-                    or (
-                        self.__type_filter is not None
-                        and not any(
-                            isinstance(modfile, file_type.get_file_type_cls())
-                            for file_type in self.__type_filter
+                    item.setDisabled(ignored)
+                    item.setHidden(
+                        (
+                            self.__state_filter is not None
+                            and modfile.status not in self.__state_filter
+                        )
+                        or (
+                            self.__type_filter is not None
+                            and not any(
+                                isinstance(modfile, file_type.get_file_type_cls())
+                                for file_type in self.__type_filter
+                            )
+                        )
+                        or not matches_filter(
+                            modfile.name, name_filter, case_sensitive or False
                         )
                     )
-                    or not matches_filter(
-                        modfile.name, name_filter, case_sensitive or False
+
+                mod_item.setHidden(
+                    (
+                        self.__state_filter is not None
+                        and TranslationStatus.NoneStatus not in self.__state_filter
+                        and not are_children_visible(mod_item)
+                    )
+                    or (
+                        not matches_filter(
+                            mod.name, name_filter, case_sensitive or False
+                        )
+                        and not are_children_visible(mod_item)
                     )
                 )
-
-            mod_item.setHidden(
-                (
-                    self.__state_filter is not None
-                    and TranslationStatus.NoneStatus not in self.__state_filter
-                    and not are_children_visible(mod_item)
-                )
-                or (
-                    not matches_filter(mod.name, name_filter, case_sensitive or False)
-                    and not are_children_visible(mod_item)
-                )
-            )
-
-        self.setSortingEnabled(True)  # re-enable sorting after updating
+        finally:
+            self.setUpdatesEnabled(updates_enabled)
 
     def __show_strings(self) -> None:
         """

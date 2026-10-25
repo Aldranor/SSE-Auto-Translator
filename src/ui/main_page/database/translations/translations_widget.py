@@ -210,28 +210,32 @@ class TranslationsWidget(QTreeWidget):
             self.__name_filter[1] if self.__name_filter else None
         )
 
-        # temporarily disable sorting to avoid performance issues
-        self.setSortingEnabled(False)
-
-        for translation, translation_item in self.__translation_items.items():
-            file_items: dict[Path, TreeItem[ImmutableValue[Path]]] = (
-                self.__file_items.get(translation, {})
-            )
-
-            for file, file_item in file_items.items():
-                file_item.setHidden(
-                    not matches_filter(str(file), name_filter, case_sensitive or False)
+        # Filtering only changes visibility; keep the existing order and avoid
+        # sorting the whole translation tree after every search update.
+        updates_enabled: bool = self.updatesEnabled()
+        self.setUpdatesEnabled(False)
+        try:
+            for translation, translation_item in self.__translation_items.items():
+                file_items: dict[Path, TreeItem[ImmutableValue[Path]]] = (
+                    self.__file_items.get(translation, {})
                 )
 
-            translation_item.setHidden(
-                name_filter is not None
-                and not are_children_visible(translation_item)
-                and not matches_filter(
-                    translation.name, name_filter, case_sensitive or False
-                )
-            )
+                for file, file_item in file_items.items():
+                    file_item.setHidden(
+                        not matches_filter(
+                            str(file), name_filter, case_sensitive or False
+                        )
+                    )
 
-        self.setSortingEnabled(True)  # re-enable sorting after updating
+                translation_item.setHidden(
+                    name_filter is not None
+                    and not are_children_visible(translation_item)
+                    and not matches_filter(
+                        translation.name, name_filter, case_sensitive or False
+                    )
+                )
+        finally:
+            self.setUpdatesEnabled(updates_enabled)
 
     def __on_translations_added(self, new_translations: list[Translation]) -> None:
         for translation in new_translations:

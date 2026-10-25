@@ -123,36 +123,38 @@ class StringsWidget(QTreeWidget):
             self.__name_filter[1] if self.__name_filter else None
         )
 
-        sorting_enabled: bool = self.isSortingEnabled()
-        if sorting_enabled:
-            self.setSortingEnabled(False)
+        # Search filters do not change sort keys, so don't re-sort the entire
+        # strings tree after each filter change.
+        updates_enabled: bool = self.updatesEnabled()
+        self.setUpdatesEnabled(False)
+        try:
+            for string, item in self.__string_items.items():
+                string_text: str = string.display_id + string.original
+                if string.string is not None:
+                    string_text += string.string
 
-        for string, item in self.__string_items.items():
-            string_text: str = string.display_id + string.original
-            if string.string is not None:
-                string_text += string.string
-
-            item.setHidden(
-                (
-                    self.__state_filter is not None
-                    and string.status not in self.__state_filter
-                )
-                or not matches_filter(string_text, name_filter, case_sensitive or False)
-            )
-
-        for modfile, modfile_item in self.__modfile_items.items():
-            modfile_item.setHidden(
-                not are_children_visible(modfile_item)
-                and (
-                    not matches_filter(
-                        str(modfile), name_filter, case_sensitive or False
+                item.setHidden(
+                    (
+                        self.__state_filter is not None
+                        and string.status not in self.__state_filter
                     )
-                    or self.__state_filter is not None
+                    or not matches_filter(
+                        string_text, name_filter, case_sensitive or False
+                    )
                 )
-            )
 
-        if sorting_enabled:
-            self.setSortingEnabled(True)
+            for modfile, modfile_item in self.__modfile_items.items():
+                modfile_item.setHidden(
+                    not are_children_visible(modfile_item)
+                    and (
+                        not matches_filter(
+                            str(modfile), name_filter, case_sensitive or False
+                        )
+                        or self.__state_filter is not None
+                    )
+                )
+        finally:
+            self.setUpdatesEnabled(updates_enabled)
 
         current_item: Optional[QTreeWidgetItem] = self.currentItem()
         if current_item is not None:
