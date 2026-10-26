@@ -1,0 +1,4214 @@
+[
+  {
+    "original": "Blades Twinblade",
+    "string": "Lame jumelle akaviri",
+    "status": "TranslationComplete",
+    "form_id": "5500080A|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwinbladeAkavir"
+  },
+  {
+    "original": "Hearthguard Greatsword",
+    "string": "Espadon de garde-coeur",
+    "status": "TranslationComplete",
+    "form_id": "0400088F|Armors of the Velothi Pt2.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "HearthguardGreatsword"
+  },
+  {
+    "original": "Stonefire Staff of Daedric Command",
+    "string": "Bâton de Brûlepierre de manipulation de Daedra",
+    "status": "TranslationComplete",
+    "form_id": "37000813|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_weapon_commanddaedra"
+  },
+  {
+    "original": "Akavirii Battlesaber",
+    "string": "Sabre long akaviri",
+    "status": "TranslationComplete",
+    "form_id": "030A0012|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsNihontoKat"
+  },
+  {
+    "original": "Silverthorn Swordstaff",
+    "string": "Pertuisane de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000D70|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioSwordstaff"
+  },
+  {
+    "original": "Imperial Falchion",
+    "string": "Falchion impérial",
+    "status": "TranslationComplete",
+    "form_id": "10000803|ImperialFalchion_by_Flarescale.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ImperialFalchion"
+  },
+  {
+    "original": "The Bastard (Blue)",
+    "string": "Bâtarde (bleu)",
+    "status": "TranslationComplete",
+    "form_id": "0C00083F|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISBastard031H"
+  },
+  {
+    "original": "Usdian",
+    "string": "Usdian",
+    "status": "TranslationComplete",
+    "form_id": "0A000957|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroUsdian1h"
+  },
+  {
+    "original": "Soul of Omicron",
+    "string": "Ame d'Omicron",
+    "status": "TranslationComplete",
+    "form_id": "13000800|Spear of Omicron.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "_SpearOfOmicronEnch"
+  },
+  {
+    "original": "Gungnir",
+    "string": "Gungnir",
+    "status": "TranslationComplete",
+    "form_id": "03001038|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsGungnir"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000800|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioMace"
+  },
+  {
+    "original": "Akavirii Saber",
+    "string": "Sabre akaviri",
+    "status": "TranslationComplete",
+    "form_id": "030A0009|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsNihontoWak"
+  },
+  {
+    "original": "Dragonslayer Greatsword",
+    "string": "Espadon de Tueur de dragons",
+    "status": "TranslationComplete",
+    "form_id": "0300104D|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonbrand"
+  },
+  {
+    "original": "Stonefire Staff of the Frost Wall",
+    "string": "Bâton de Brûlepierre de mur de glace",
+    "status": "TranslationComplete",
+    "form_id": "3700083E|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_weapon_walloffrost"
+  },
+  {
+    "original": "Improved War Scythe",
+    "string": "faux de guerre V2",
+    "status": "TranslationComplete",
+    "form_id": "19000802|war scythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "_warscythe-V2"
+  },
+  {
+    "original": "Forged of silver, this sword does extra damage to undead foes.",
+    "string": "Les armes en argent sont particulièrement efficaces contre les fantômes, les morts-vivants et les lycanthropes.",
+    "status": "TranslationComplete",
+    "form_id": "0A000971|Billyro's Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "BillyroMorgynnAshcroftSword"
+  },
+  {
+    "original": "Stalhrim Halberd",
+    "string": "Hallebarde de stalhrim",
+    "status": "TranslationComplete",
+    "form_id": "54168020|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "StalhrimHalberd"
+  },
+  {
+    "original": "Dwarven Pike",
+    "string": "Pique dwemer",
+    "status": "TranslationComplete",
+    "form_id": "54153BAC|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DwarvenPike"
+  },
+  {
+    "original": "Marauder",
+    "string": "Maraudeur",
+    "status": "TranslationComplete",
+    "form_id": "0A000983|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroMarauder1h"
+  },
+  {
+    "original": "Stonefire Staff of Soul Trapping",
+    "string": "Bâton de Brûlepierre de capture d'âme",
+    "status": "TranslationComplete",
+    "form_id": "37000816|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_weapon_soultrap"
+  },
+  {
+    "original": "Elexorien",
+    "string": "Elexorien",
+    "status": "TranslationComplete",
+    "form_id": "24000D62|Elexorien.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Elexorien"
+  },
+  {
+    "original": "Elven Battle Scythe",
+    "string": "Faux de combat elfique",
+    "status": "TranslationComplete",
+    "form_id": "1B000811|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "elven_Battle_Scythe"
+  },
+  {
+    "original": "Serenity",
+    "string": "Sérénité",
+    "status": "TranslationComplete",
+    "form_id": "0A000943|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroSerenity1h"
+  },
+  {
+    "original": "Glass Halberd",
+    "string": "Hallebarde de verre",
+    "status": "TranslationComplete",
+    "form_id": "54168014|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "GlassHalberd"
+  },
+  {
+    "original": "Silverthorn Greatmace",
+    "string": "Grande masse de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000801|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioGreatmace"
+  },
+  {
+    "original": "Velothi Warscythe",
+    "string": "Fauchard vélothi",
+    "status": "TranslationComplete",
+    "form_id": "11000D62|Velothi Warscythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroVelothiWarscytheWarhammer"
+  },
+  {
+    "original": "Hravna",
+    "string": "Hravna",
+    "status": "TranslationComplete",
+    "form_id": "27000D61|DanpHravnaDagger.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DanpHravnaDagger"
+  },
+  {
+    "original": "Iron Twinblade",
+    "string": "Lame jumelle en fer",
+    "status": "TranslationComplete",
+    "form_id": "55000818|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronTwinblade"
+  },
+  {
+    "original": "Sword Widows Wail",
+    "string": "Épée du Cri de la Veuve",
+    "status": "TranslationComplete",
+    "form_id": "3F000D63|S_Sword_Widows_Wail.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SwordWidowsWail"
+  },
+  {
+    "original": "Regent",
+    "string": "Régente",
+    "status": "TranslationComplete",
+    "form_id": "0A000932|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroRegent2h"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000D62|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioAxe1h"
+  },
+  {
+    "original": "Вagger forged from ebony, its blade glowing with an icy blue sheen, as if reflecting the eternal frost of the northern lands. Sapphires are embedded in its hilt, shimmering like frozen stars in the night sky. This blade pierces not just flesh, but the soul itself, leaving behind a chilling cold that seeps into the very heart.",
+    "string": "Dague forgée en ébène, dont la lame brille d'un éclat bleu glacial, comme si elle reflétait le gel éternel des terres nordiques. Des saphirs sont enchâssés dans la poignée, scintillant comme des étoiles gelées dans le ciel nocturne. Cette lame transperce non seulement la chair, mais aussi l'âme, laissant derrière elle un froid glacial qui s'infiltre jusqu'au cœur.",
+    "status": "TranslationComplete",
+    "form_id": "54000803|ZD_RB_Daggers.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "ZD_BlueDagger"
+  },
+  {
+    "original": "Iron Spear",
+    "string": "Lance de fer",
+    "status": "TranslationComplete",
+    "form_id": "1500080B|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000IronSpear"
+  },
+  {
+    "original": "Black Silence - Durandal",
+    "string": "Silence noir - Durandal",
+    "status": "TranslationComplete",
+    "form_id": "28000800|[TDarce] Black Silence Durandal.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TDarceBSDurandal"
+  },
+  {
+    "original": "Imperial Broad Dagger",
+    "string": "Dague impériale large",
+    "status": "TranslationComplete",
+    "form_id": "0A00096D|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroImperialBroadDagger"
+  },
+  {
+    "original": "Magical sword",
+    "string": "Épée magique",
+    "status": "TranslationComplete",
+    "form_id": "44000D67|S_Magical_sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1Magicalsword"
+  },
+  {
+    "original": "Mordant",
+    "string": "Mordante",
+    "status": "TranslationComplete",
+    "form_id": "0A0008B0|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroMordant2h"
+  },
+  {
+    "original": "Clanbringer",
+    "string": "Clanbringer",
+    "status": "TranslationComplete",
+    "form_id": "26000D62|Clanbringer.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroClanbringer"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000D64|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioAxe2h"
+  },
+  {
+    "original": "Daedric Pike",
+    "string": "Pique daedrique",
+    "status": "TranslationComplete",
+    "form_id": "54153BA9|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DaedricPike"
+  },
+  {
+    "original": "Echizen",
+    "string": "Echizen",
+    "status": "TranslationComplete",
+    "form_id": "16000800|Echizen.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EchizenSpear"
+  },
+  {
+    "original": "Scottish Claymore",
+    "string": "Espadon de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "0A000942|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroScottishClaymore"
+  },
+  {
+    "original": "Sand Scorpion",
+    "string": "Scorpion du désert",
+    "status": "TranslationComplete",
+    "form_id": "0A0008BF|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroSandScorpion1h"
+  },
+  {
+    "original": "A twisted rippling heat pulsates from this weapon burning foes from the inside out with an overwhelming warped flame",
+    "string": "De cette arme émane une onde de chaleur si torride qu'elle déforme l'air et brûle les ennemis de l'intérieur !",
+    "status": "TranslationComplete",
+    "form_id": "1800080D|Yol'Kreh Scythes.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "01_YolKreh02"
+  },
+  {
+    "original": "Stalwart Axe",
+    "string": "Loyache",
+    "status": "TranslationComplete",
+    "form_id": "0A0008D1|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroStalwartAxe1h"
+  },
+  {
+    "original": "Skyrim",
+    "string": "Bordeciel",
+    "status": "TranslationComplete",
+    "form_id": "0000003C|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "Tamriel"
+  },
+  {
+    "original": "Argent Brand",
+    "string": "Marque-d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0A00082D|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroArgentBrand2h"
+  },
+  {
+    "original": "Silverthorn Katana",
+    "string": "Katana de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E00081C|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioKatana"
+  },
+  {
+    "original": "Stonefire Staff of the Storm Wall",
+    "string": "Bâton de Brûlepierre de mur de foudre",
+    "status": "TranslationComplete",
+    "form_id": "3700083F|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_weapon_wallofstorm"
+  },
+  {
+    "original": "Boarding Shortsword",
+    "string": "Épée courte d'abordage",
+    "status": "TranslationComplete",
+    "form_id": "030A0005|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsBoardingKnife"
+  },
+  {
+    "original": "Great Falchion",
+    "string": "Falchion",
+    "status": "TranslationComplete",
+    "form_id": "0F000D66|Falchion.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFalchionTwohanded"
+  },
+  {
+    "original": "Aegean Sentinel Halberd",
+    "string": "Hallebarde de sentinelle Égéenne",
+    "status": "TranslationComplete",
+    "form_id": "17000D63|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus0"
+  },
+  {
+    "original": "Dragonbone Pike",
+    "string": "Pique d'os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "54153BB9|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DragonbonePike"
+  },
+  {
+    "original": "Velothi Warscythe",
+    "string": "Fauchard vélothi",
+    "status": "TranslationComplete",
+    "form_id": "11000D64|Velothi Warscythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroVelothiWarscytheSword"
+  },
+  {
+    "original": "Great Norse Axe",
+    "string": "Hache d'armes nordique",
+    "status": "TranslationComplete",
+    "form_id": "0300100F|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDaneAxe2H"
+  },
+  {
+    "original": "Ebony Battle Scythe",
+    "string": "Faux de combat en ébonite",
+    "status": "TranslationComplete",
+    "form_id": "1B000817|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Ebony_Battle_Scythe"
+  },
+  {
+    "original": "Regent",
+    "string": "Régente",
+    "status": "TranslationComplete",
+    "form_id": "0A000931|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroRegent1h"
+  },
+  {
+    "original": "Khajiit Saber",
+    "string": "Sabre khajiit",
+    "status": "TranslationComplete",
+    "form_id": "03001056|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsKhajiitSaber"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000D70|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioSwordstaff"
+  },
+  {
+    "original": "Winged Battle Axe",
+    "string": "Hache des Ailes de Nuit",
+    "status": "TranslationComplete",
+    "form_id": "42000D63|RTRBWA.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RTRBWA"
+  },
+  {
+    "original": "Spear Of Leonidas",
+    "string": "Lance de Léonidas",
+    "status": "TranslationComplete",
+    "form_id": "14000D63|SpearOfLeonidas.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SpearOfLeonidas"
+  },
+  {
+    "original": "Sir Radzig Sword",
+    "string": "Épée de Sir Radzig",
+    "status": "TranslationComplete",
+    "form_id": "37000D63|S_Sir Radzig Sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1SirRadzigSword"
+  },
+  {
+    "original": "Galebrand",
+    "string": "Avis-de-tempête",
+    "status": "TranslationComplete",
+    "form_id": "0A0009A6|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroGalebrand2h"
+  },
+  {
+    "original": "Shimmering Dagger",
+    "string": "Dague scintillante",
+    "status": "TranslationComplete",
+    "form_id": "25000803|Shimmering Dagger.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "wbishou_l"
+  },
+  {
+    "original": "Stonefire Bow",
+    "string": "Arc de Brûlepierre",
+    "status": "TranslationComplete",
+    "form_id": "3700081B|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_bow_weapon"
+  },
+  {
+    "original": "Atricor",
+    "string": "Atricor",
+    "status": "TranslationComplete",
+    "form_id": "0A000849|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroAtricor2h"
+  },
+  {
+    "original": "Dragon Fang",
+    "string": "Croc de dragon",
+    "status": "TranslationComplete",
+    "form_id": "23000D63|[Ghozgul] Dragon Fang.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DragonFang"
+  },
+  {
+    "original": "Dragonbone Twinblade",
+    "string": "Lame jumelle en os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "5500082F|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC1DragonboneTwinblade"
+  },
+  {
+    "original": "Ancient Nord Twinblade",
+    "string": "Lame jumelle nordique antique",
+    "status": "TranslationComplete",
+    "form_id": "55000840|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DraugrTwinblade"
+  },
+  {
+    "original": "Repaired Steel Sword",
+    "string": "Épée d'acier restaurée",
+    "status": "TranslationComplete",
+    "form_id": "0D000808|WyrmstoothUWR.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "WTRepairedSteelSword"
+  },
+  {
+    "original": "Twilight Princess Tanto - Black",
+    "string": "Tanto de la princesse du crépuscule - Noir",
+    "status": "TranslationComplete",
+    "form_id": "0E000C70|Twilight Princess Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightPrincess_Tanto"
+  },
+  {
+    "original": "Fenrir Longsword",
+    "string": "Épée de Fenrir",
+    "status": "TranslationComplete",
+    "form_id": "0A000801|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFenrirLongsword"
+  },
+  {
+    "original": "Nordic Rapier",
+    "string": "Rapière nordique",
+    "status": "TranslationComplete",
+    "form_id": "5401EE22|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "NordicRapier"
+  },
+  {
+    "original": "Niofroeia",
+    "string": "Niofroeia",
+    "status": "TranslationComplete",
+    "form_id": "0A00093B|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroNiofroeia1h"
+  },
+  {
+    "original": "Baltimore Dagger (Variant)",
+    "string": "Dague de Baltimore (variant)",
+    "status": "TranslationComplete",
+    "form_id": "0B000805|Baltimore Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroBaltimoreDaggerVariantB"
+  },
+  {
+    "original": "War Scythe",
+    "string": "faux de guerre V1",
+    "status": "TranslationComplete",
+    "form_id": "19000800|war scythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "_warscythe-V1"
+  },
+  {
+    "original": "Wolf Warrior Sword",
+    "string": "Épée du guerrier-loup",
+    "status": "TranslationComplete",
+    "form_id": "06000D67|RTRWolfWarriorSword.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RTRWWSWolfWarriorSwordNonGlow"
+  },
+  {
+    "original": "Lordsworn's Greatsword",
+    "string": "Espadon seigneurial",
+    "status": "TranslationComplete",
+    "form_id": "29000800|Lordsworn's Greatsword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "LordswornGreatsword"
+  },
+  {
+    "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
+    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "status": "TranslationComplete",
+    "form_id": "17000D65|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus2"
+  },
+  {
+    "original": "Breton Steel Sword",
+    "string": "Épée d'acier brétonne",
+    "status": "TranslationComplete",
+    "form_id": "030A0001|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsKnights1H"
+  },
+  {
+    "original": "Sorrow Katana",
+    "string": "Katana",
+    "status": "TranslationComplete",
+    "form_id": "0C0008AD|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISKatana01"
+  },
+  {
+    "original": "The Bastard (Brown)",
+    "string": "Bâtarde (brun)",
+    "status": "TranslationComplete",
+    "form_id": "0C0008D8|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISBastard021H"
+  },
+  {
+    "original": "Blackened Steel Scythe",
+    "string": "Faux d'acier noirci",
+    "status": "TranslationComplete",
+    "form_id": "18000806|Yol'Kreh Scythes.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "01_YolKrehBlackenedSteelScythe01"
+  },
+  {
+    "original": "Champion's Hammer",
+    "string": "Marteau du champion",
+    "status": "TranslationComplete",
+    "form_id": "43000801|ChampionsHammer.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2RR01FalxWarhammerDUPLICATE001"
+  },
+  {
+    "original": "Solvistapp",
+    "string": "Solvistapp III",
+    "status": "TranslationComplete",
+    "form_id": "0A0008CB|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroSolvistapp04"
+  },
+  {
+    "original": "Royal Falchion",
+    "string": "Falchion royal",
+    "status": "TranslationComplete",
+    "form_id": "0F000D63|Falchion.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFalchionRoyalOnehanded"
+  },
+  {
+    "original": "Damascus Cleaver",
+    "string": "Couteau de Damascus en ébonite",
+    "status": "TranslationComplete",
+    "form_id": "1E00080C|Ebony Damascus Blades.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EDCleaver"
+  },
+  {
+    "original": "Dragonbone Halberd",
+    "string": "Hallebarde d'os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "5416801D|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DragonboneHalberd"
+  },
+  {
+    "original": "Nordic Quarterstaff",
+    "string": "Bâton de combat nordique",
+    "status": "TranslationComplete",
+    "form_id": "5418B764|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "NordicQStaff"
+  },
+  {
+    "original": "Steel Pike",
+    "string": "Pique d'acier",
+    "status": "TranslationComplete",
+    "form_id": "54153BB4|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelPike"
+  },
+  {
+    "original": "Iron Bow",
+    "string": "Arc de fer",
+    "status": "TranslationComplete",
+    "form_id": "0C00086E|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISIronBow"
+  },
+  {
+    "original": "Steelthorn Dagger",
+    "string": "Dague de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000811|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioDaggerSteel"
+  },
+  {
+    "original": "Armageddon",
+    "string": "Apocalypse",
+    "status": "TranslationComplete",
+    "form_id": "39000D63|S_Armageddon.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1Armageddon"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000801|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioGreatmace"
+  },
+  {
+    "original": "Ceremonial Corundum Sword",
+    "string": "Épée de corindon cérémonielle",
+    "status": "TranslationComplete",
+    "form_id": "03001077|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsGouJiAn"
+  },
+  {
+    "original": "Stonefire Staff of Banishing",
+    "string": "Bâton de Brûlepierre de bannissement",
+    "status": "TranslationComplete",
+    "form_id": "37000815|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_weapon_banishdaedra"
+  },
+  {
+    "original": "Baltimore Dagger",
+    "string": "Dague de Baltimore",
+    "status": "TranslationComplete",
+    "form_id": "0B000804|Baltimore Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroBaltimoreDaggerVariantA"
+  },
+  {
+    "original": "Inflicts 10 points of bleeding damage for a duration of 5 seconds",
+    "string": "Tout cela pour ce moment...",
+    "status": "TranslationComplete",
+    "form_id": "28000800|[TDarce] Black Silence Durandal.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "TDarceBSDurandal"
+  },
+  {
+    "original": "The Bastard (Red)",
+    "string": "Bâtarde (rouge)",
+    "status": "TranslationComplete",
+    "form_id": "0C000840|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISBastard041H"
+  },
+  {
+    "original": "Dovah Luv",
+    "string": "Dovah Luv",
+    "status": "TranslationComplete",
+    "form_id": "03001084|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonHilt"
+  },
+  {
+    "original": "Dark Dragonbone Greatsword",
+    "string": "Espadon sombre en os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "05001064|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonboneSword2H"
+  },
+  {
+    "original": "Forked Steel Dagger",
+    "string": "Dague en acier fourchu",
+    "status": "TranslationComplete",
+    "form_id": "22000D63|ForkedSteelDagger.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ForkedSteelDagger"
+  },
+  {
+    "original": "Crag",
+    "string": "Crag",
+    "status": "TranslationComplete",
+    "form_id": "0A000894|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroCrag1h"
+  },
+  {
+    "original": "Soul Hunter Tanto RED",
+    "string": "Tanto de chasseuse d'âmes rouge",
+    "status": "TranslationComplete",
+    "form_id": "12000ED3|Soul Hunter Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightSkeleyon_Soul_Hunter_TantoRED"
+  },
+  {
+    "original": "Chitin Bow",
+    "string": "Arc de chitine",
+    "status": "TranslationComplete",
+    "form_id": "3204F7E7|ktWeaponPackSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mkChitinBow02_nopearls"
+  },
+  {
+    "original": "Steelthorn Slasher",
+    "string": "Croissant de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000D6F|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioSlasherSteel"
+  },
+  {
+    "original": "Paladin Sword",
+    "string": "Épée de paladin",
+    "status": "TranslationComplete",
+    "form_id": "03001020|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsCrusader1"
+  },
+  {
+    "original": "Steelthorn Tachi",
+    "string": "Tachi de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000819|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioTachiSteel"
+  },
+  {
+    "original": "Glass Pike",
+    "string": "Pique de verre",
+    "status": "TranslationComplete",
+    "form_id": "54153BB0|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "GlassPike"
+  },
+  {
+    "original": "Stalhrim Rapier",
+    "string": "Rapière de stalhrim",
+    "status": "TranslationComplete",
+    "form_id": "5401EE21|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "StalhrimRapier"
+  },
+  {
+    "original": "Ebony Halberd",
+    "string": "Hallebarde d'ébonite",
+    "status": "TranslationComplete",
+    "form_id": "54168015|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyHalberd"
+  },
+  {
+    "original": "Poacher Sword (Black)",
+    "string": "Épée de braconnier (noire)",
+    "status": "TranslationComplete",
+    "form_id": "03001041|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsHuntingSwordLongBlack"
+  },
+  {
+    "original": "Stonefire Staff of Expulsion",
+    "string": "Bâton de Brûlepierre d'expulsion",
+    "status": "TranslationComplete",
+    "form_id": "37000818|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_weapon_expeldaedra"
+  },
+  {
+    "original": "The Sword of the True Son of Skyrim",
+    "string": "L'épée du vrai fils de Bordeciel",
+    "status": "TranslationComplete",
+    "form_id": "30000801|S_The_Sword_of_the_True_Son_of_Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TheSwordoftheTrueSonofSkyrim"
+  },
+  {
+    "original": "Luciendar",
+    "string": "Luciendar",
+    "status": "TranslationComplete",
+    "form_id": "2C000D61|Luciendar.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Luciendar"
+  },
+  {
+    "original": "Solvistapp",
+    "string": "Solvistapp I",
+    "status": "TranslationComplete",
+    "form_id": "0A0008C9|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroSolvistapp02"
+  },
+  {
+    "original": "Soulpiercer",
+    "string": "Percesprit",
+    "status": "TranslationComplete",
+    "form_id": "54000803|ZD_RB_Daggers.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ZD_BlueDagger"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0A00082D|Billyro's Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "BillyroArgentBrand2h"
+  },
+  {
+    "original": "Sorrow Tanto",
+    "string": "Tanto",
+    "status": "TranslationComplete",
+    "form_id": "0C000894|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISTanto01"
+  },
+  {
+    "original": "Silverthorn Tachi",
+    "string": "Tachi de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000818|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioTachi"
+  },
+  {
+    "original": "Alacrity",
+    "string": "Alacreté",
+    "status": "TranslationComplete",
+    "form_id": "0A00099E|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroAlacrity1h"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E00081C|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioKatana"
+  },
+  {
+    "original": "Greatsword",
+    "string": "Lespadon",
+    "status": "TranslationComplete",
+    "form_id": "0A000829|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroGreatsword"
+  },
+  {
+    "original": "Falchion",
+    "string": "Falchion",
+    "status": "TranslationComplete",
+    "form_id": "0F000D62|Falchion.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFalchionOnehanded"
+  },
+  {
+    "original": "Daedric Halberd",
+    "string": "Hallebarde daedrique",
+    "status": "TranslationComplete",
+    "form_id": "54168016|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DaedricHalberd"
+  },
+  {
+    "original": "Norse Sword",
+    "string": "Épée nordique",
+    "status": "TranslationComplete",
+    "form_id": "0300101A|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsViking1grey"
+  },
+  {
+    "original": "Knight's Greatsword",
+    "string": "Espadon bréton en acier",
+    "status": "TranslationComplete",
+    "form_id": "030A0010|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsKnights2H"
+  },
+  {
+    "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
+    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "status": "TranslationComplete",
+    "form_id": "17000D63|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus0"
+  },
+  {
+    "original": "Stalker",
+    "string": "Épée (2)",
+    "status": "TranslationComplete",
+    "form_id": "38000D69|Swords 2-5.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0SAPSword2"
+  },
+  {
+    "original": "Justice",
+    "string": "Épée (3)",
+    "status": "TranslationComplete",
+    "form_id": "38000D66|Swords 2-5.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0SAPSword3"
+  },
+  {
+    "original": "Glass Quarterstaff",
+    "string": "Bâton en verre",
+    "status": "TranslationComplete",
+    "form_id": "1C000819|Quarterstaff.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "GlassQuarterstaff"
+  },
+  {
+    "original": "Yol'Kreh",
+    "string": "Yol'Kreh",
+    "status": "TranslationComplete",
+    "form_id": "18000801|Yol'Kreh Scythes.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "01_YolKreh01"
+  },
+  {
+    "original": "Damascus Sword",
+    "string": "Épée de Damascus en ébonite",
+    "status": "TranslationComplete",
+    "form_id": "1E000805|Ebony Damascus Blades.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EDSword"
+  },
+  {
+    "original": "Norse Battle Axe",
+    "string": "Hache de combat nordique",
+    "status": "TranslationComplete",
+    "form_id": "2B000D63|RTRNorseBattleAxe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RTRNorseBattleAxe"
+  },
+  {
+    "original": "Great Royal Falchion",
+    "string": "Falchion royal",
+    "status": "TranslationComplete",
+    "form_id": "0F000D67|Falchion.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFalchionRoyalTwohanded"
+  },
+  {
+    "original": "Cyrodillic Glass Bow (Green)",
+    "string": "Arc de verre cyrodiilien",
+    "status": "TranslationComplete",
+    "form_id": "0C000803|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISGlassBow02"
+  },
+  {
+    "original": "Twinkle",
+    "string": "Étincelle",
+    "status": "TranslationComplete",
+    "form_id": "3C000D62|Drizzt_Swords.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Drizz_Twinkle"
+  },
+  {
+    "original": "Dragonsting Dagger",
+    "string": "Dague dragon sertie",
+    "status": "TranslationComplete",
+    "form_id": "03001028|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDaggerA01"
+  },
+  {
+    "original": "Sword of the First Ember (New)",
+    "string": "Épée de la première braise (neuve)",
+    "status": "TranslationComplete",
+    "form_id": "09000D63|Ember_Sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Ember_Sword_New"
+  },
+  {
+    "original": "Nordic Carved Battle Scythe",
+    "string": "Faux de combat nordique gravée",
+    "status": "TranslationComplete",
+    "form_id": "1B000823|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Nordic_Battle_Scythe"
+  },
+  {
+    "original": "Fiore",
+    "string": "Fiore",
+    "status": "TranslationComplete",
+    "form_id": "0A00091A|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFiore2h"
+  },
+  {
+    "original": "Flamberge",
+    "string": "Flamberge de Treva",
+    "status": "TranslationComplete",
+    "form_id": "0A00081E|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFlamberge"
+  },
+  {
+    "original": "Glass Twinblade",
+    "string": "Lame jumelle en verre",
+    "status": "TranslationComplete",
+    "form_id": "55000815|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "GlassTwinblade"
+  },
+  {
+    "original": "Dwarven Rapier",
+    "string": "Rapière dwemer",
+    "status": "TranslationComplete",
+    "form_id": "54019D0F|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DwarvenRapier"
+  },
+  {
+    "original": "Steel Twinblade",
+    "string": "Lame jumelle en acier",
+    "status": "TranslationComplete",
+    "form_id": "55000807|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwinbladeSteel"
+  },
+  {
+    "original": "Argent Brand",
+    "string": "Marque-d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0A00082E|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroArgentBrand1h"
+  },
+  {
+    "original": "Steel Bastard Sword",
+    "string": "Épée bâtarde d'acier",
+    "status": "TranslationComplete",
+    "form_id": "03001078|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsBastardSword"
+  },
+  {
+    "original": "Unenchanted Stonefire Destruction Staff",
+    "string": "Bâton de Brûlepierre de destruction non enchanté",
+    "status": "TranslationComplete",
+    "form_id": "37000811|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_templatedestruction"
+  },
+  {
+    "original": "Loyalty",
+    "string": "Loyauté",
+    "status": "TranslationComplete",
+    "form_id": "38000D67|Swords 2-5.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0SAPSword4"
+  },
+  {
+    "original": "Sand Scorpion",
+    "string": "Scorpion du désert",
+    "status": "TranslationComplete",
+    "form_id": "0A0008C1|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroSandScorpion2h"
+  },
+  {
+    "original": "A blackened Steel Scythe prepped for slicing foes in an elegant fashion",
+    "string": "Une faux en acier noirci préparée pour trancher les ennemis avec élégance",
+    "status": "TranslationComplete",
+    "form_id": "18000806|Yol'Kreh Scythes.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "01_YolKrehBlackenedSteelScythe01"
+  },
+  {
+    "original": "Sorrow Dai-Katana (Brown)",
+    "string": "Dai-katana marron",
+    "status": "TranslationComplete",
+    "form_id": "0C000820|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISKatana01a2H"
+  },
+  {
+    "original": "Reforged in silver. Effective against undead.",
+    "string": "Épée reforgée avec de l'argent.\r\nParticulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0A0008CB|Billyro's Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "BillyroSolvistapp04"
+  },
+  {
+    "original": "Dwarven Sword",
+    "string": "Épée dwemer",
+    "status": "TranslationComplete",
+    "form_id": "00013999|Skyrim.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DwarvenSword"
+  },
+  {
+    "original": "Katana Honor and courage",
+    "string": "Katana Honneur et courage",
+    "status": "TranslationComplete",
+    "form_id": "3E000D63|K_Honor_and_courage.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Honorandcourage"
+  },
+  {
+    "original": "Glass Quarterstaff (Alt)",
+    "string": "Bâton de combat de verre (variant)",
+    "status": "TranslationComplete",
+    "form_id": "5418B75D|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "GlassQStaff"
+  },
+  {
+    "original": "Azurbrand",
+    "string": "Lamedazur",
+    "status": "TranslationComplete",
+    "form_id": "03001003|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsMeanSword"
+  },
+  {
+    "original": "Steelthorn Waraxe",
+    "string": "Hache de guerre de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000D63|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioAxe1hSteel"
+  },
+  {
+    "original": "Stormcloud",
+    "string": "Sombreciel",
+    "status": "TranslationComplete",
+    "form_id": "0A000835|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroStormcloud1h"
+  },
+  {
+    "original": "The Bastard (2H)",
+    "string": "Bâtarde (2H)",
+    "status": "TranslationComplete",
+    "form_id": "0C000800|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISBastard01"
+  },
+  {
+    "original": "Aegean Sentinel Halberd+2",
+    "string": "Hallebarde de sentinelle Égéenne",
+    "status": "TranslationComplete",
+    "form_id": "17000D65|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus2"
+  },
+  {
+    "original": "The Bastard",
+    "string": "Bâtarde",
+    "status": "TranslationComplete",
+    "form_id": "0C0008D7|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISBastard011H"
+  },
+  {
+    "original": "Amsvartner Warhammer",
+    "string": "Marteau de guerre de Amsvartner",
+    "status": "TranslationComplete",
+    "form_id": "2E000D62|Amsvartner Warhammer.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroAmsvartnerWarhammer"
+  },
+  {
+    "original": "Sting",
+    "string": "Piqûre",
+    "status": "TranslationComplete",
+    "form_id": "12000D63|[Ghozgul] StingSpear.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "StingSpear"
+  },
+  {
+    "original": "Orcish Pike",
+    "string": "Pique orque",
+    "status": "TranslationComplete",
+    "form_id": "54153BB1|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "OrcishPike"
+  },
+  {
+    "original": "The Bastard (2H Blue)",
+    "string": "Bâtarde (2H bleu)",
+    "status": "TranslationComplete",
+    "form_id": "0C000835|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISBastard03"
+  },
+  {
+    "original": "Daedric Quarterstaff (Alt)",
+    "string": "Bâton de combat daedrique (variant)",
+    "status": "TranslationComplete",
+    "form_id": "5418B757|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DaedricQStaff"
+  },
+  {
+    "original": "The Stamford",
+    "string": "Stamford",
+    "status": "TranslationComplete",
+    "form_id": "0C00087C|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISWeapStamford"
+  },
+  {
+    "original": "Fiore",
+    "string": "Fiore",
+    "status": "TranslationComplete",
+    "form_id": "0A00091B|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFiore1h"
+  },
+  {
+    "original": "Lion Halberd",
+    "string": "Hallebarde du lion",
+    "status": "TranslationComplete",
+    "form_id": "40000D63|A_Lion_Halberd.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "LionHalberd"
+  },
+  {
+    "original": "Elven Spear",
+    "string": "Lance elfe",
+    "status": "TranslationComplete",
+    "form_id": "15000812|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000ElvenSpear"
+  },
+  {
+    "original": "Galebrand",
+    "string": "Avis-de-tempête",
+    "status": "TranslationComplete",
+    "form_id": "0A0009A5|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroGalebrand1h"
+  },
+  {
+    "original": "Twilight Princess Wakizashi - Black",
+    "string": "Wakizashi de la princesse du crépuscule - Noir",
+    "status": "TranslationComplete",
+    "form_id": "0E00088A|Twilight Princess Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightPrincess_Wakizashi"
+  },
+  {
+    "original": "Clarion",
+    "string": "Clarion",
+    "status": "TranslationComplete",
+    "form_id": "0A0009C2|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroCrystalSword"
+  },
+  {
+    "original": "Aegean Sentinel Halberd+3",
+    "string": "Hallebarde de sentinelle Égéenne",
+    "status": "TranslationComplete",
+    "form_id": "17000D66|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus3"
+  },
+  {
+    "original": "The Bastard (2H Red)",
+    "string": "Bâtarde (2H rouge)",
+    "status": "TranslationComplete",
+    "form_id": "0C000836|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISBastard04"
+  },
+  {
+    "original": "Soul Hunter Tanto PURPLE",
+    "string": "Tanto de chasseuse d'âmes violet",
+    "status": "TranslationComplete",
+    "form_id": "12000ED2|Soul Hunter Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightSkeleyon_Soul_Hunter_TantoPURPLE"
+  },
+  {
+    "original": "Crecy (Greatsword)",
+    "string": "Crécy",
+    "status": "TranslationComplete",
+    "form_id": "0A00089D|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroCrecy"
+  },
+  {
+    "original": "Stonefire Axe",
+    "string": "Hache de Brûlepierre",
+    "status": "TranslationComplete",
+    "form_id": "37000807|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_axe_weapon"
+  },
+  {
+    "original": "Wolf Warrior's Axe (Glow)",
+    "string": "Hache du guerrier-loup",
+    "status": "TranslationComplete",
+    "form_id": "04000D63|RTRWolfWarriorAxe.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RTRWolfWarriorAxeGlow"
+  },
+  {
+    "original": "Twilight Princess Katana - Black",
+    "string": "Katana de la princesse du crépuscule - Noir",
+    "status": "TranslationComplete",
+    "form_id": "0E000C68|Twilight Princess Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightPrincess_Katana"
+  },
+  {
+    "original": "Duellist",
+    "string": "Duelliste",
+    "status": "TranslationComplete",
+    "form_id": "0A00090A|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroDuellist2h"
+  },
+  {
+    "original": "Sword reforged in iron.",
+    "string": "Épée reforgée avec du fer.",
+    "status": "TranslationComplete",
+    "form_id": "0A0008C9|Billyro's Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "BillyroSolvistapp02"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000818|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioTachi"
+  },
+  {
+    "original": "Icingdeath",
+    "string": "Glace-Mort",
+    "status": "TranslationComplete",
+    "form_id": "3C000D61|Drizzt_Swords.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Drizz_Icingdeath"
+  },
+  {
+    "original": "Steelthorn Blade",
+    "string": "Cimeterre de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000D67|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioBlade1hSteel"
+  },
+  {
+    "original": "Crag",
+    "string": "Crag",
+    "status": "TranslationComplete",
+    "form_id": "0A000895|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroCrag2h"
+  },
+  {
+    "original": "Sword of the First Ember Two Handed (Worn)",
+    "string": "Espadon de la première braise (usé)",
+    "status": "TranslationComplete",
+    "form_id": "09000802|Ember_Sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EmberSword_Worn_2_Handed"
+  },
+  {
+    "original": "Baltimore Buckler",
+    "string": "Bouclier de Baltimore",
+    "status": "TranslationComplete",
+    "form_id": "0B000808|Baltimore Weapons.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "BillyroBaltimoreBucklerVariantA"
+  },
+  {
+    "original": "Viceroy",
+    "string": "Vice-roi",
+    "status": "TranslationComplete",
+    "form_id": "0A000976|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroViceroy1h"
+  },
+  {
+    "original": "Mystical Ember Blade",
+    "string": "Lame des cendres éthérées",
+    "status": "TranslationComplete",
+    "form_id": "3D000D63|S_Mystical_Ember_Blade.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "MysticalEmberBlade"
+  },
+  {
+    "original": "Steelthorn Longsword",
+    "string": "Epée lonhue de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000D6D|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioLongswordSteel"
+  },
+  {
+    "original": "A twisted rippling heat pulsates from this weapon burning foes from the inside out with an overwhelming warped flame",
+    "string": "De cette arme émane une onde de chaleur si torride qu'elle déforme l'air et brûle les ennemis de l'intérieur !",
+    "status": "TranslationComplete",
+    "form_id": "18000801|Yol'Kreh Scythes.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "01_YolKreh01"
+  },
+  {
+    "original": "Velothi Warscythe",
+    "string": "Fauchard vélothi",
+    "status": "TranslationComplete",
+    "form_id": "11000D63|Velothi Warscythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroVelothiWarscytheGreatsword"
+  },
+  {
+    "original": "Cyrodillic Glass Bow (Red)",
+    "string": "Arc de verre cyrodiilien",
+    "status": "TranslationComplete",
+    "form_id": "0C000804|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISGlassBow03"
+  },
+  {
+    "original": "Imperial Twinblade",
+    "string": "Lame jumelle impériale",
+    "status": "TranslationComplete",
+    "form_id": "55000850|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwinbladeImperial"
+  },
+  {
+    "original": "Viceroy",
+    "string": "Vice-roi",
+    "status": "TranslationComplete",
+    "form_id": "0A000977|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroViceroy2h"
+  },
+  {
+    "original": "Stalwart Axe",
+    "string": "Loyache",
+    "status": "TranslationComplete",
+    "form_id": "0A0008D3|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroStalwartAxe2h"
+  },
+  {
+    "original": "Soul Hunter Tanto",
+    "string": "Tantō de chasseuse d’âmes",
+    "status": "TranslationComplete",
+    "form_id": "12000F7E|Soul Hunter Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightSkeleyon_Soul_Hunter_Tanto"
+  },
+  {
+    "original": "Forged in the magic of the powers that all the surface elves hold dear, of the stars and the moon and the mysteries of their souls",
+    "string": "Forgée dans la magie des pouvoirs que tous les elfes de la surface chérissent, des étoiles, de la lune et des mystères de leurs âmes.",
+    "status": "TranslationComplete",
+    "form_id": "3C000D62|Drizzt_Swords.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "Drizz_Twinkle"
+  },
+  {
+    "original": "Silverthorn Dagger",
+    "string": "Dague de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000810|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioDagger"
+  },
+  {
+    "original": "Ancient Nord Rapier",
+    "string": "Rapière nordique antique",
+    "status": "TranslationComplete",
+    "form_id": "5401EE24|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DraugrRapier"
+  },
+  {
+    "original": "Dragonbone Rapier",
+    "string": "Rapière d'os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "5401EE23|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DragonboneRapier"
+  },
+  {
+    "original": "Reforged in silver. Effective against undead.",
+    "string": "Espadon reforgé avec de l'argent.\r\nParticulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0A0008CE|Billyro's Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "BillyroSolvistappTwo03"
+  },
+  {
+    "original": "Dragonbone Quarterstaff",
+    "string": "Bâton de combat d'os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "5418B763|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DragonboneQStaff"
+  },
+  {
+    "original": "Aetherial Centurion Sword",
+    "string": "Épée de centurion éthérien",
+    "status": "TranslationComplete",
+    "form_id": "3300080C|AetherialCenturionGreatswordAndSwords.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AetherialCenturionSword"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0A00082E|Billyro's Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "BillyroArgentBrand1h"
+  },
+  {
+    "original": "Ebony Pike",
+    "string": "Pique d'ébonite",
+    "status": "TranslationComplete",
+    "form_id": "54153BAD|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyPike"
+  },
+  {
+    "original": "Baltimore Buckler (Variant)",
+    "string": "Bouclier de Baltimore (variant)",
+    "status": "TranslationComplete",
+    "form_id": "0B000809|Baltimore Weapons.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "BillyroBaltimoreBucklerVariantB"
+  },
+  {
+    "original": "Stalhrim Spear",
+    "string": "Lance de stalhrim",
+    "status": "TranslationComplete",
+    "form_id": "1F000815|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000StalhrimSpear"
+  },
+  {
+    "original": "Orcish Spear",
+    "string": "Lance orque",
+    "status": "TranslationComplete",
+    "form_id": "1500080E|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000OrcishSpear"
+  },
+  {
+    "original": "Visc",
+    "string": "Visc",
+    "status": "TranslationComplete",
+    "form_id": "0A000964|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroVisc1h"
+  },
+  {
+    "original": "Dwarven Twinblade",
+    "string": "Lame jumelle dwemer",
+    "status": "TranslationComplete",
+    "form_id": "55000826|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DwarvenTwinblade"
+  },
+  {
+    "original": "Steelthorn Mace",
+    "string": "Masse de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000802|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioMaceSteel"
+  },
+  {
+    "original": "Silver Twinblades",
+    "string": "Lame jumelle en argent",
+    "status": "TranslationComplete",
+    "form_id": "5500080C|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwinbladeSilver"
+  },
+  {
+    "original": "Wraith",
+    "string": "Spectre",
+    "status": "TranslationComplete",
+    "form_id": "0A0008E3|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroWraith2h"
+  },
+  {
+    "original": "Dragonbone Katana",
+    "string": "Katana d'os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "5434473D|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DragonboneKatana"
+  },
+  {
+    "original": "Silverthorn Slasher",
+    "string": "Croissant de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000D6E|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioSlasher"
+  },
+  {
+    "original": "Baltimore Falchion",
+    "string": "Falshion de Baltimore",
+    "status": "TranslationComplete",
+    "form_id": "0B000D62|Baltimore Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroBaltimoreFalchionOnehanded"
+  },
+  {
+    "original": "Elven Pike",
+    "string": "Pique elfique",
+    "status": "TranslationComplete",
+    "form_id": "54153BAE|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ElvenPike"
+  },
+  {
+    "original": "Poacher Dagger (Black)",
+    "string": "Dague de braconnier (noire)",
+    "status": "TranslationComplete",
+    "form_id": "0300103F|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsHuntingSwordBlack"
+  },
+  {
+    "original": "Dark Nova",
+    "string": "Dark Nova",
+    "status": "TranslationComplete",
+    "form_id": "2A000800|Dark_Nova.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "_TRE_DarkNova"
+  },
+  {
+    "original": "Niofroeia",
+    "string": "Niofroeia",
+    "status": "TranslationComplete",
+    "form_id": "0A00093C|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroNiofroeia2h"
+  },
+  {
+    "original": "DawnBreaker Twinblade",
+    "string": "Lame jumelle aubéclat",
+    "status": "TranslationComplete",
+    "form_id": "55000802|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwinbladeDawn"
+  },
+  {
+    "original": "Dragon Quarterstaff",
+    "string": "Bâton de combat du dragon",
+    "status": "TranslationComplete",
+    "form_id": "1D000801|Dragon Quarterstaff.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DQstaff"
+  },
+  {
+    "original": "Axe Leviathan",
+    "string": "Hache Léviathan",
+    "status": "TranslationComplete",
+    "form_id": "33000D63|A_Axe_Leviathan(Reload).esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1AxeLeviathan"
+  },
+  {
+    "original": "Fetcher's Knife",
+    "string": "Vermine",
+    "status": "TranslationComplete",
+    "form_id": "0A0008A2|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFetchersKnife"
+  },
+  {
+    "original": "Orcish Quarterstaff (Alt)",
+    "string": "Bâton de combat orque (variant)",
+    "status": "TranslationComplete",
+    "form_id": "5418B75E|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "OrcishQStaff"
+  },
+  {
+    "original": "Orcish Battle Scythe",
+    "string": "Faux de combat orque",
+    "status": "TranslationComplete",
+    "form_id": "1B00080F|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Orcish_Battle_Scythe"
+  },
+  {
+    "original": "Eastern Ebony Greatsword",
+    "string": "Espadon d'ébonite",
+    "status": "TranslationComplete",
+    "form_id": "0C00089C|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyGreatswordAlt"
+  },
+  {
+    "original": "Flowering Katana",
+    "string": "Katana fleuri",
+    "status": "TranslationComplete",
+    "form_id": "0D000D63|K_Flowering_Katana.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1FloweringKatana"
+  },
+  {
+    "original": "Elexorien [2h]",
+    "string": "Elexorien [2 mains]",
+    "status": "TranslationComplete",
+    "form_id": "24000D67|Elexorien.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Elexorien2h"
+  },
+  {
+    "original": "Sorrow Tanto (Brown)",
+    "string": "Tanto marron",
+    "status": "TranslationComplete",
+    "form_id": "0C0008A2|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISTanto01a"
+  },
+  {
+    "original": "Steel Quarterstaff (Alt)",
+    "string": "Bâton de combat d'acier (variant)",
+    "status": "TranslationComplete",
+    "form_id": "5418B760|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelQStaff"
+  },
+  {
+    "original": "Elven Silver Dagger",
+    "string": "Dague en argent elfique",
+    "status": "TranslationComplete",
+    "form_id": "34000D63|ElvenSilver Dagger.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ElvenSilverDagger"
+  },
+  {
+    "original": "Soul Hunter Wakizashi",
+    "string": "Wakizashi de chasseuse d’âmes",
+    "status": "TranslationComplete",
+    "form_id": "12000F7F|Soul Hunter Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightSkeleyon_Soul_Hunter_Wakizashi"
+  },
+  {
+    "original": "Nordhero Battle Scythe",
+    "string": "Faux de combat de héros nordique",
+    "status": "TranslationComplete",
+    "form_id": "1B000821|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Nordhero_Battle_Scythe"
+  },
+  {
+    "original": "Ancient Nord Quarterstaff",
+    "string": "Bâton de combat nordique antique",
+    "status": "TranslationComplete",
+    "form_id": "5418B758|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DraugrQStaff"
+  },
+  {
+    "original": "Soul Hunter Katana",
+    "string": "Katana de chasseuse d’âmes",
+    "status": "TranslationComplete",
+    "form_id": "12000F80|Soul Hunter Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightSkeleyon_Soul_Hunter_Katana"
+  },
+  {
+    "original": "Crecy (Sword)",
+    "string": "Crécy",
+    "status": "TranslationComplete",
+    "form_id": "0A0009A2|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroCrecy1h"
+  },
+  {
+    "original": "Gold Dragon",
+    "string": "Dragon d'or",
+    "status": "TranslationComplete",
+    "form_id": "52000D63|K_Gold_Dragon_Katana.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1GoldDragonKatana"
+  },
+  {
+    "original": "Stalhrim Katana",
+    "string": "Katana de stalhrim",
+    "status": "TranslationComplete",
+    "form_id": "5434473B|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "StalhrimKatana"
+  },
+  {
+    "original": "Silverthorn Chokuto",
+    "string": "Chokuto de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E00081A|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioChokuto"
+  },
+  {
+    "original": "Steelthorn Greatmace",
+    "string": "Grande masse de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000803|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioGreatmaceSteel"
+  },
+  {
+    "original": "Dwarven Quarterstaff (Alt)",
+    "string": "Bâton de combat dwemer  (variant)",
+    "status": "TranslationComplete",
+    "form_id": "5418B75A|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DwarvenQStaff"
+  },
+  {
+    "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
+    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "status": "TranslationComplete",
+    "form_id": "17000D66|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus3"
+  },
+  {
+    "original": "Dagger of Dibella",
+    "string": "Dague de Dibella",
+    "status": "TranslationComplete",
+    "form_id": "0300105A|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDibella"
+  },
+  {
+    "original": "Aetherial Centurion Greatsword",
+    "string": "Espadon de centurion éthérien",
+    "status": "TranslationComplete",
+    "form_id": "33000D62|AetherialCenturionGreatswordAndSwords.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AetherialCenturionGreatsword"
+  },
+  {
+    "original": "Ebony Twinblade",
+    "string": "Lame jumelle en ébonite",
+    "status": "TranslationComplete",
+    "form_id": "5500081A|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyTwinblade"
+  },
+  {
+    "original": "Nordic Spear",
+    "string": "Lance nordique",
+    "status": "TranslationComplete",
+    "form_id": "15000813|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000NordicSpear"
+  },
+  {
+    "original": "Yol'Kreh (Exquisite)",
+    "string": "Yol'Kreh",
+    "status": "TranslationComplete",
+    "form_id": "1800080E|Yol'Kreh Scythes.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "01_YolKreh03"
+  },
+  {
+    "original": "Anathros Dagger",
+    "string": "Anathros - Dague",
+    "status": "TranslationComplete",
+    "form_id": "2F000D6A|Anathros.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AnathrosDagger"
+  },
+  {
+    "original": "Stonefire Maul",
+    "string": "Marteau de Brûlepierre",
+    "status": "TranslationComplete",
+    "form_id": "3700080F|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_mace2h_weapon"
+  },
+  {
+    "original": "Atricor",
+    "string": "Atricor",
+    "status": "TranslationComplete",
+    "form_id": "0A000848|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroAtricor1h"
+  },
+  {
+    "original": "Nord Steel Sword",
+    "string": "Épée nordique en acier",
+    "status": "TranslationComplete",
+    "form_id": "05001022|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsNorse"
+  },
+  {
+    "original": "Sojourner",
+    "string": "Sojourner",
+    "status": "TranslationComplete",
+    "form_id": "1F000D66|BluthundSword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SojournerSword"
+  },
+  {
+    "original": "Once the treasure of a white dragon for whom this sword is named.The weapon has since found its way into the hands of Drizzt Do'Urden. The craftsmanship is a thing of beauty if not slightly cool to the touch.",
+    "string": "Autrefois le trésor d'un dragon blanc, créature dont l'épée porte le nom, cette dernière se retrouve désormais entre les mains de Drizzt Do'Urden. Le travail de l'artisan est d'une finesse remarquable, bien que la lame laisse une sensation de froid au toucher.",
+    "status": "TranslationComplete",
+    "form_id": "3C000D61|Drizzt_Swords.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "Drizz_Icingdeath"
+  },
+  {
+    "original": "Glass Spear",
+    "string": "Lance de verre",
+    "status": "TranslationComplete",
+    "form_id": "15000814|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000GlassSpear"
+  },
+  {
+    "original": "Torus",
+    "string": "Torus",
+    "status": "TranslationComplete",
+    "form_id": "0A0008DB|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroTorus2h"
+  },
+  {
+    "original": "Quarterstaff",
+    "string": "Bâton",
+    "status": "TranslationComplete",
+    "form_id": "1C000D64|Quarterstaff.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Quarterstaff"
+  },
+  {
+    "original": "Orcish Rapier",
+    "string": "Rapière orque",
+    "status": "TranslationComplete",
+    "form_id": "54019D0E|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "OrcishRapier"
+  },
+  {
+    "original": "Glass Rapier",
+    "string": "Rapière de verre",
+    "status": "TranslationComplete",
+    "form_id": "54019D11|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "GlassRapier"
+  },
+  {
+    "original": "Wolf Warrior's Axe",
+    "string": "Hache du guerrier-loup",
+    "status": "TranslationComplete",
+    "form_id": "04000D67|RTRWolfWarriorAxe.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RTRWolfWarriorAxe"
+  },
+  {
+    "original": "Magical sword(S)",
+    "string": "Épée magique (s)",
+    "status": "TranslationComplete",
+    "form_id": "44000D65|S_Magical_sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1Magicalsword_s"
+  },
+  {
+    "original": "Paladin Gilded Sword",
+    "string": "Épée de paladin dorée",
+    "status": "TranslationComplete",
+    "form_id": "03001015|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsCrusader2gold"
+  },
+  {
+    "original": "The Bastard (2H Brown)",
+    "string": "Bâtarde (2H brun)",
+    "status": "TranslationComplete",
+    "form_id": "0C000890|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISBastard02"
+  },
+  {
+    "original": "Steelthorn Swordstaff",
+    "string": "Pertuisane de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000D71|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioSwordstaffSteel"
+  },
+  {
+    "original": "Dragonbone Battle Scythe",
+    "string": "Faux de combat en os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "1B000815|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Dragonbone_Battle_Scythe"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000810|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioDagger"
+  },
+  {
+    "original": "Cataract",
+    "string": "Cataracte",
+    "status": "TranslationComplete",
+    "form_id": "0A00088D|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroCataract2h"
+  },
+  {
+    "original": "Steelthorn Battleaxe",
+    "string": "Hache de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000D65|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioAxe2hSteel"
+  },
+  {
+    "original": "Dwarven Battle Scythe",
+    "string": "Faux de combat dwemer",
+    "status": "TranslationComplete",
+    "form_id": "1B00080D|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "dwarven_Battle_Scythe"
+  },
+  {
+    "original": "Hardened Steel Dagger",
+    "string": "Dague d'acier trempé",
+    "status": "TranslationComplete",
+    "form_id": "03001000|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDagger"
+  },
+  {
+    "original": "Wolf Warrior Sword (Glow)",
+    "string": "Épée du guerrier-loup",
+    "status": "TranslationComplete",
+    "form_id": "06000D63|RTRWolfWarriorSword.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RTRWWSWolfWarriorSword"
+  },
+  {
+    "original": "Stonefire Dagger",
+    "string": "Dague de Brûlepierre",
+    "status": "TranslationComplete",
+    "form_id": "37000805|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_dagger_weapon"
+  },
+  {
+    "original": "Nordic Katana",
+    "string": "Katana nordique",
+    "status": "TranslationComplete",
+    "form_id": "5434473C|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "NordicKatana"
+  },
+  {
+    "original": "Leviathan",
+    "string": "Léviathan",
+    "status": "TranslationComplete",
+    "form_id": "0A0008A6|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroLeviathan1h"
+  },
+  {
+    "original": "Yaldabaoth's Greatsword",
+    "string": "Espadon de Yaldabaoth",
+    "status": "TranslationComplete",
+    "form_id": "11000D61|YaldabaothArmor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "YaldabaothGreatsword"
+  },
+  {
+    "original": "Ebony Rapier",
+    "string": "Rapière d'ébonite",
+    "status": "TranslationComplete",
+    "form_id": "54019D12|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyRapier"
+  },
+  {
+    "original": "Visc",
+    "string": "Visc",
+    "status": "TranslationComplete",
+    "form_id": "0A000965|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroVisc2h"
+  },
+  {
+    "original": "Damascus Katana",
+    "string": "Katana de Damascus en ébonite",
+    "status": "TranslationComplete",
+    "form_id": "1E000811|Ebony Damascus Blades.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EDKatana"
+  },
+  {
+    "original": "Steel Quarterstaff",
+    "string": "Bâton en Acier",
+    "status": "TranslationComplete",
+    "form_id": "1C000808|Quarterstaff.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelQuarterstaff"
+  },
+  {
+    "original": "Paladin Greatsword",
+    "string": "Espadon de paladin",
+    "status": "TranslationComplete",
+    "form_id": "03001002|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsCrusader1b"
+  },
+  {
+    "original": "Nordic Pike",
+    "string": "Pique nordique",
+    "status": "TranslationComplete",
+    "form_id": "54153BBA|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "NordicPike"
+  },
+  {
+    "original": "Torus",
+    "string": "Torus",
+    "status": "TranslationComplete",
+    "form_id": "0A0008DA|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroTorus1h"
+  },
+  {
+    "original": "Stalhrim Pike",
+    "string": "Pique de stalhrim",
+    "status": "TranslationComplete",
+    "form_id": "54153BBB|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "StalhrimPike"
+  },
+  {
+    "original": "Silverthorn Longsword",
+    "string": "Epée longue de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000D6C|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioLongsword"
+  },
+  {
+    "original": "Stonefire Battleaxe",
+    "string": "Hache d'armes de Brûlepierre",
+    "status": "TranslationComplete",
+    "form_id": "3700080D|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_axe2h_weapon"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000D6E|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioSlasher"
+  },
+  {
+    "original": "Cyrodillic Glass Bow (Blue)",
+    "string": "Arc de verre cyrodiilien",
+    "status": "TranslationComplete",
+    "form_id": "0C0008CA|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISGlassBow01"
+  },
+  {
+    "original": "Soul Hunter Wakizashi PURPLE",
+    "string": "Wakizashi de chasseuse d'âmes violet",
+    "status": "TranslationComplete",
+    "form_id": "12000F9B|Soul Hunter Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightSkeleyon_Soul_Hunter_WakizashiPURPLE"
+  },
+  {
+    "original": "Blackened Ebony Scythe (Advanced)",
+    "string": "Faux d'acier noirci",
+    "status": "TranslationComplete",
+    "form_id": "1800080F|Yol'Kreh Scythes.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "01_YolKrehBlackenedSteelScythe02"
+  },
+  {
+    "original": "Iron Quarterstaff",
+    "string": "Bâton de combat de fer",
+    "status": "TranslationComplete",
+    "form_id": "5418B756|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronQStaff"
+  },
+  {
+    "original": "Sword of the First Ember (Worn)",
+    "string": "Épée de la première braise (usée)",
+    "status": "TranslationComplete",
+    "form_id": "09000801|Ember_Sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Ember_Sword_Worn"
+  },
+  {
+    "original": "Solvistapp",
+    "string": "Solvistapp III",
+    "status": "TranslationComplete",
+    "form_id": "0A0008CE|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroSolvistappTwo03"
+  },
+  {
+    "original": "Peru Sword",
+    "string": "Épée du Pérou",
+    "status": "TranslationComplete",
+    "form_id": "2D000D62|[Ashtoreth] Sword of Peru.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "00_SwordOfPeru"
+  },
+  {
+    "original": "Wraith",
+    "string": "Spectre",
+    "status": "TranslationComplete",
+    "form_id": "0A000858|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroWraith1h"
+  },
+  {
+    "original": "A huge sword of unknown Daedric origin. You can feel it emanate dark energy.",
+    "string": "Une énorme épée d'origine daedrique inconnue. On sent qu'elle émet de l'énergie noire.",
+    "status": "TranslationComplete",
+    "form_id": "2A000800|Dark_Nova.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "_TRE_DarkNova"
+  },
+  {
+    "original": "Breton Iron Sword",
+    "string": "Épée de fer brétonne",
+    "status": "TranslationComplete",
+    "form_id": "030A0002|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsFineIron"
+  },
+  {
+    "original": "Dragonbone Spear",
+    "string": "Lance d'os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "15000811|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000DragonboneSpear"
+  },
+  {
+    "original": "Silverthorn Longblade",
+    "string": "Grand cimeterre de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000D6A|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioBlade2h"
+  },
+  {
+    "original": "Ebony Quarterstaff",
+    "string": "Bâton d'Ébonite",
+    "status": "TranslationComplete",
+    "form_id": "1C00080B|Quarterstaff.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyQuarterstaff"
+  },
+  {
+    "original": "Aegean Sentinel Halberd+4",
+    "string": "Hallebarde de sentinelle Égéenne",
+    "status": "TranslationComplete",
+    "form_id": "17000D67|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus4"
+  },
+  {
+    "original": "Wolf Warrior's Seax (Glow)",
+    "string": "Seax du guerrier-loup",
+    "status": "TranslationComplete",
+    "form_id": "05000D67|RTRWolfWarriorSeax.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RTRWWSSeaxGlow"
+  },
+  {
+    "original": "Ebony Quarterstaff (Alt)",
+    "string": "Bâton de combat d'ébonite (variant)",
+    "status": "TranslationComplete",
+    "form_id": "5418B75B|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyQStaff"
+  },
+  {
+    "original": "Stalhrim Quarterstaff",
+    "string": "Bâton de combat de stalhrim",
+    "status": "TranslationComplete",
+    "form_id": "5418B765|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "StalhrimQStaff"
+  },
+  {
+    "original": "The Thegn",
+    "string": "Thegn",
+    "status": "TranslationComplete",
+    "form_id": "0C0008C3|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISWeapThegn"
+  },
+  {
+    "original": "Sword of Callisto",
+    "string": "Épée de Callisto",
+    "status": "TranslationComplete",
+    "form_id": "0A0008E7|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroCallisto"
+  },
+  {
+    "original": "Morag Tong Grandmaster Sword",
+    "string": "Épée de grand maître de la Morag Tong",
+    "status": "TranslationComplete",
+    "form_id": "0400088B|Armors of the Velothi Pt2.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "MTGrandmasterSword"
+  },
+  {
+    "original": "Elven Leafblade",
+    "string": "Lame des forêts elfes",
+    "status": "TranslationComplete",
+    "form_id": "35000D63|Nicos Elven Leafblade.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaNicosElvenLeafblade"
+  },
+  {
+    "original": "Bastard",
+    "string": "Bâtarde",
+    "status": "TranslationComplete",
+    "form_id": "3A000D63|S_Bastard.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1Bastard"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E00081A|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioChokuto"
+  },
+  {
+    "original": "Sorrow Tanto (Black)",
+    "string": "Tanto noir",
+    "status": "TranslationComplete",
+    "form_id": "0C0008A3|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISTanto01b"
+  },
+  {
+    "original": "Sorrow Tanto (Red)",
+    "string": "Tanto rouge",
+    "status": "TranslationComplete",
+    "form_id": "0C0008A4|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISTanto01c"
+  },
+  {
+    "original": "Steel Battle Scythe",
+    "string": "Faux de combat en acier",
+    "status": "TranslationComplete",
+    "form_id": "1B00080B|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Steel_Battle_Scythe"
+  },
+  {
+    "original": "A twisted rippling heat pulsates from this weapon burning foes from the inside out with an overwhelming warped flame",
+    "string": "De cette arme émane une onde de chaleur si torride qu'elle déforme l'air et brûle les ennemis de l'intérieur !",
+    "status": "TranslationComplete",
+    "form_id": "1800080E|Yol'Kreh Scythes.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "01_YolKreh03"
+  },
+  {
+    "original": "Soul Hunter Wakizashi RED",
+    "string": "Wakizashi de chasseuse d'âmes rouge",
+    "status": "TranslationComplete",
+    "form_id": "12000EDF|Soul Hunter Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightSkeleyon_Soul_Hunter_WakizashiRED"
+  },
+  {
+    "original": "Sword of the First Ember Ignited (New)",
+    "string": "Épée de la première braise - allumée (neuve)",
+    "status": "TranslationComplete",
+    "form_id": "09000810|Ember_Sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Ember_Sword_New_Fire"
+  },
+  {
+    "original": "Revived in forge fires this elegant blade now awaits a worthy legacy",
+    "string": "Ravivée par les feux de la forge, cette élégante lame attend désormais un héritage digne d'elle.",
+    "status": "TranslationComplete",
+    "form_id": "1F000D66|BluthundSword.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "SojournerSword"
+  },
+  {
+    "original": "Daedric Twinblade",
+    "string": "Lame jumelle daedrique",
+    "status": "TranslationComplete",
+    "form_id": "5500081E|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DaedricTwinblade"
+  },
+  {
+    "original": "Silverthorn Sword",
+    "string": "Epée de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000D68|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioSword"
+  },
+  {
+    "original": "Albensword",
+    "string": "Épée alben",
+    "status": "TranslationComplete",
+    "form_id": "03001031|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsAlbensword"
+  },
+  {
+    "original": "Magicians Judge",
+    "string": "Juge arcanique",
+    "status": "TranslationComplete",
+    "form_id": "21000800|Magicians Judge V1.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "01_MagiciansJudge"
+  },
+  {
+    "original": "Lenwood",
+    "string": "Lenbois",
+    "status": "TranslationComplete",
+    "form_id": "3B000D63|S_Lenwood.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1Lenwood"
+  },
+  {
+    "original": "Aegean Sentinel Halberd+1",
+    "string": "Hallebarde de sentinelle Égéenne",
+    "status": "TranslationComplete",
+    "form_id": "17000D64|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus1"
+  },
+  {
+    "original": "Paladin Silver Sword",
+    "string": "Épée de paladin d'argent",
+    "status": "TranslationComplete",
+    "form_id": "03001014|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsCrusader2grey"
+  },
+  {
+    "original": "Iron Pike",
+    "string": "Pique de fer",
+    "status": "TranslationComplete",
+    "form_id": "54153BA6|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronPike"
+  },
+  {
+    "original": "Sorrow Katana (Black)",
+    "string": "Katana noir",
+    "status": "TranslationComplete",
+    "form_id": "0C000812|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISKatana01b"
+  },
+  {
+    "original": "Anathros Greatsword",
+    "string": "Anathros [2M]",
+    "status": "TranslationComplete",
+    "form_id": "2F000D66|Anathros.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Anathros2h"
+  },
+  {
+    "original": "Elven Quarterstaff",
+    "string": "Bâton Elfique",
+    "status": "TranslationComplete",
+    "form_id": "1C00080A|Quarterstaff.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ElvenQuarterstaff"
+  },
+  {
+    "original": "Knightly Mace",
+    "string": "Masse chevaleresque",
+    "status": "TranslationComplete",
+    "form_id": "0A000953|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroKnightlyMace"
+  },
+  {
+    "original": "Norse Axe",
+    "string": "Hache nordique",
+    "status": "TranslationComplete",
+    "form_id": "030A0015|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsAxeC"
+  },
+  {
+    "original": "Leviathan",
+    "string": "Léviathan",
+    "status": "TranslationComplete",
+    "form_id": "0A0008A7|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroLeviathan2h"
+  },
+  {
+    "original": "Sorrow Katana (Red)",
+    "string": "Katana rouge",
+    "status": "TranslationComplete",
+    "form_id": "0C000863|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISKatana01c"
+  },
+  {
+    "original": "Alacrity",
+    "string": "Alacreté",
+    "status": "TranslationComplete",
+    "form_id": "0A0009A0|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroAlacrity2h"
+  },
+  {
+    "original": "Damascus Wakizashi",
+    "string": "Wakizashi de Damascus en ébonite",
+    "status": "TranslationComplete",
+    "form_id": "1E000815|Ebony Damascus Blades.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EDWakizashi"
+  },
+  {
+    "original": "Nord Hero Rapier",
+    "string": "Rapière de héros nordique",
+    "status": "TranslationComplete",
+    "form_id": "5401EE25|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "NordHeroRapier"
+  },
+  {
+    "original": "Ancient Nord Pike",
+    "string": "Pique nordique antique",
+    "status": "TranslationComplete",
+    "form_id": "54153BAA|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DraugrPike"
+  },
+  {
+    "original": "Silverthorn Blade",
+    "string": "Cimeterre de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000D66|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioBlade1h"
+  },
+  {
+    "original": "Chitin Sword",
+    "string": "Épée de chitine",
+    "status": "TranslationComplete",
+    "form_id": "320930BB|ktWeaponPackSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ktChitinSword"
+  },
+  {
+    "original": "Serenity",
+    "string": "Sérénité",
+    "status": "TranslationComplete",
+    "form_id": "0A000944|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroSerenity2h"
+  },
+  {
+    "original": "Fine Norse Axe",
+    "string": "Hache nordique",
+    "status": "TranslationComplete",
+    "form_id": "0300100C|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDaneAxe1h"
+  },
+  {
+    "original": "Fine Bastard Sword",
+    "string": "Épée bâtarde de qualité",
+    "status": "TranslationComplete",
+    "form_id": "03001051|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsFineBastard"
+  },
+  {
+    "original": "Steelthorn Sword",
+    "string": "Epée de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000D69|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioSwordSteel"
+  },
+  {
+    "original": "Scythe Of The Crow Mother",
+    "string": "Faux de la mère corbeau",
+    "status": "TranslationComplete",
+    "form_id": "1A000D63|ScytheOfTheCrow.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ScytheOfTheCrowMother"
+  },
+  {
+    "original": "Cataract",
+    "string": "Cataracte",
+    "status": "TranslationComplete",
+    "form_id": "0A00088C|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroCataract1h"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000D6C|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioLongsword"
+  },
+  {
+    "original": "Dwarven Spear",
+    "string": "Lance dwemer",
+    "status": "TranslationComplete",
+    "form_id": "1500080D|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000DwarvenSpear"
+  },
+  {
+    "original": "Soul Hunter Katana PURPLE",
+    "string": "Katana de chasseuse d'âmes violet",
+    "status": "TranslationComplete",
+    "form_id": "12000EDD|Soul Hunter Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightSkeleyon_Soul_Hunter_KatanaPURPLE"
+  },
+  {
+    "original": "Forsworn Poleblade",
+    "string": "Lame jumelle parjure",
+    "status": "TranslationComplete",
+    "form_id": "55000829|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ForswornTwinblade"
+  },
+  {
+    "original": "Elven Warsword 1h",
+    "string": "Épée de guerre elfique 1M",
+    "status": "TranslationComplete",
+    "form_id": "3F000800|Warsword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Warsword1h"
+  },
+  {
+    "original": "A blackened Steel Scythe prepped for slicing foes in an elegant fashion!",
+    "string": "Une faux d'acier noirci, idéale pour trancher avec élégance !",
+    "status": "TranslationComplete",
+    "form_id": "1800080F|Yol'Kreh Scythes.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "01_YolKrehBlackenedSteelScythe02"
+  },
+  {
+    "original": "Akavirii Short Saber",
+    "string": "Sabre court akaviri",
+    "status": "TranslationComplete",
+    "form_id": "030A0017|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsNihontoWakShort"
+  },
+  {
+    "original": "A blackened Steel Scythe prepped for slicing foes in an elegant fashion!",
+    "string": "Une faux d'acier noirci, idéale pour trancher avec élégance !",
+    "status": "TranslationComplete",
+    "form_id": "18000811|Yol'Kreh Scythes.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "01_YolKrehBlackenedSteelScythe03"
+  },
+  {
+    "original": "Argonian Dagger",
+    "string": "Lame argonienne",
+    "status": "TranslationComplete",
+    "form_id": "030A0008|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsArgonian1H"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000D6A|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioBlade2h"
+  },
+  {
+    "original": "Ceremonial Tsaesci Sword",
+    "string": "Lame de jade",
+    "status": "TranslationComplete",
+    "form_id": "030A0019|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsJianA"
+  },
+  {
+    "original": "Sorrow Dai-Katana (Red)",
+    "string": "Dai-katana rouge",
+    "status": "TranslationComplete",
+    "form_id": "0C000864|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISKatana01c2H"
+  },
+  {
+    "original": "Stonefire Staff of the Flame Wall",
+    "string": "Bâton de Brûlepierre de mur de feu",
+    "status": "TranslationComplete",
+    "form_id": "37000814|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_weapon_wallofflames"
+  },
+  {
+    "original": "Hearthguard Sword",
+    "string": "Espadon de garde-coeur",
+    "status": "TranslationComplete",
+    "form_id": "04000890|Armors of the Velothi Pt2.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "HearthguardSword"
+  },
+  {
+    "original": "Glass Battle Scythe",
+    "string": "Faux de combat en verre",
+    "status": "TranslationComplete",
+    "form_id": "1B00081F|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Glass_Battle_Scythe"
+  },
+  {
+    "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
+    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "status": "TranslationComplete",
+    "form_id": "17000D67|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus4"
+  },
+  {
+    "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
+    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "status": "TranslationComplete",
+    "form_id": "17000D68|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus5"
+  },
+  {
+    "original": "Stonefire Staff of Ice Spikes",
+    "string": "Bâton de Brûlepierre de stalactite",
+    "status": "TranslationComplete",
+    "form_id": "3700083C|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_weapon_icespike"
+  },
+  {
+    "original": "Gilded Norse Sword",
+    "string": "Épée nordique remarquable",
+    "status": "TranslationComplete",
+    "form_id": "03001019|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsViking1"
+  },
+  {
+    "original": "Steelthorn Longblade",
+    "string": "Grande cimeterre de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E000D6B|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioBlade2hSteel"
+  },
+  {
+    "original": "Fenrir Dagger",
+    "string": "Dague de Fenrir",
+    "status": "TranslationComplete",
+    "form_id": "0A000804|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFenrirDagger"
+  },
+  {
+    "original": "Magical sword(f)",
+    "string": "Épée magique (f)",
+    "status": "TranslationComplete",
+    "form_id": "44000D66|S_Magical_sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1Magicalsword_f"
+  },
+  {
+    "original": "Damascus Longsword",
+    "string": "Épée longue de Damascus en ébonite",
+    "status": "TranslationComplete",
+    "form_id": "1E000809|Ebony Damascus Blades.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EDLongsword"
+  },
+  {
+    "original": "Ancient Nord Halberd",
+    "string": "Hallebarde nordique antique",
+    "status": "TranslationComplete",
+    "form_id": "5416801A|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DraugrHalberd"
+  },
+  {
+    "original": "Swordsman Claymore",
+    "string": "Épée de Greagor Clegane",
+    "status": "TranslationComplete",
+    "form_id": "53000D63|S_Greagor_Clegane sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "1Greagor_Cleganesword"
+  },
+  {
+    "original": "Unenchanted Stonefire Conjuration Staff",
+    "string": "Bâton de Brûlepierre de conjuration non enchanté",
+    "status": "TranslationComplete",
+    "form_id": "37000812|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_templateconjuration"
+  },
+  {
+    "original": "Sword of the First Ember Two Handed Ignited (New)",
+    "string": "Espadon de la première braise - allummée (neuve)",
+    "status": "TranslationComplete",
+    "form_id": "09000811|Ember_Sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EmberSword_New_2_Handed_Fire"
+  },
+  {
+    "original": "Daedric Battle Scythe",
+    "string": "Faux de combat daedrique",
+    "status": "TranslationComplete",
+    "form_id": "1B000813|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "daedric_Battle_Scythe"
+  },
+  {
+    "original": "Steel Rapier",
+    "string": "Rapière d'acier",
+    "status": "TranslationComplete",
+    "form_id": "54019D0D|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelRapier"
+  },
+  {
+    "original": "Sword of the First Ember Two Handed (New)",
+    "string": "Espadon de la première braise (neuf)",
+    "status": "TranslationComplete",
+    "form_id": "09000803|Ember_Sword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EmberSword_New_2_Handed"
+  },
+  {
+    "original": "Luciendar (Greatsword)",
+    "string": "Luciendar [2M]",
+    "status": "TranslationComplete",
+    "form_id": "2C000805|Luciendar.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Luciendar2H"
+  },
+  {
+    "original": "Chitin Dagger",
+    "string": "Dague de chitine",
+    "status": "TranslationComplete",
+    "form_id": "32095F87|ktWeaponPackSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ktChitinDagger"
+  },
+  {
+    "original": "Elven Rapier",
+    "string": "Rapière elfique",
+    "status": "TranslationComplete",
+    "form_id": "54019D10|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ElvenRapier"
+  },
+  {
+    "original": "Silverthorn Ninjato",
+    "string": "Ninjato de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E00081E|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioNinjato"
+  },
+  {
+    "original": "Elven Twinblade",
+    "string": "Lame jumelle elfique",
+    "status": "TranslationComplete",
+    "form_id": "5500080F|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ElvenTwinblades"
+  },
+  {
+    "original": "Daedric Spear",
+    "string": "Lance daedra",
+    "status": "TranslationComplete",
+    "form_id": "15000810|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000DaedricSpear"
+  },
+  {
+    "original": "Elven Quarterstaff (Alt)",
+    "string": "Bâton de combat elfique (variant)",
+    "status": "TranslationComplete",
+    "form_id": "5418B75C|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ElvenQStaff"
+  },
+  {
+    "original": "Dwarven Quarterstaff",
+    "string": "Bâton Dwemer",
+    "status": "TranslationComplete",
+    "form_id": "1C000803|Quarterstaff.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DwarvenQuarterstaff"
+  },
+  {
+    "original": "Elven Warsword 2h",
+    "string": "Épée de guerre elfique 2M",
+    "status": "TranslationComplete",
+    "form_id": "3F000801|Warsword.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Warsword2h"
+  },
+  {
+    "original": "Iron Battle Scythe",
+    "string": "Faux de combat en fer",
+    "status": "TranslationComplete",
+    "form_id": "1B000800|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Iron_Battle_Scythe"
+  },
+  {
+    "original": "Leaf Dagger",
+    "string": "Tranchefeuille",
+    "status": "TranslationComplete",
+    "form_id": "0A00097F|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroLeafDagger"
+  },
+  {
+    "original": "Steelthorn Chokuto",
+    "string": "Chokuto de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E00081B|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioChokutoSteel"
+  },
+  {
+    "original": "Baltimore Battle Axe",
+    "string": "Hache de Baltimore",
+    "status": "TranslationComplete",
+    "form_id": "0B000806|Baltimore Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroBaltimoreBattleaxeTwohanded"
+  },
+  {
+    "original": "Gilded Scimitar",
+    "string": "Cimeterre élégant",
+    "status": "TranslationComplete",
+    "form_id": "03001048|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsScimitar"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000D68|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioSword"
+  },
+  {
+    "original": "An ancient weapon meant to combat the Magus",
+    "string": "Une arme ancienne destinée à combattre les mages.",
+    "status": "TranslationComplete",
+    "form_id": "21000800|Magicians Judge V1.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "01_MagiciansJudge"
+  },
+  {
+    "original": "Stonefire Mace",
+    "string": "Masse de Brûlepierre",
+    "status": "TranslationComplete",
+    "form_id": "37000809|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_mace_weapon"
+  },
+  {
+    "original": "Stonefire Staff of Firebolts",
+    "string": "Bâton de Brûlepierre d'éclair enflammé",
+    "status": "TranslationComplete",
+    "form_id": "37000817|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_weapon_firebolt"
+  },
+  {
+    "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
+    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "status": "TranslationComplete",
+    "form_id": "17000D64|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus1"
+  },
+  {
+    "original": "Clara's Dagger",
+    "string": "Plume de Treva",
+    "status": "TranslationComplete",
+    "form_id": "0A00081C|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroDruuDagger"
+  },
+  {
+    "original": "Fenrir Greatsword",
+    "string": "Espadon de Fenrir",
+    "status": "TranslationComplete",
+    "form_id": "0A000807|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFenrirGreatsword"
+  },
+  {
+    "original": "Imperial Captain Sword",
+    "string": "Espadon impérial de capitaine",
+    "status": "TranslationComplete",
+    "form_id": "0A000822|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroImperialCaptainSword2h"
+  },
+  {
+    "original": "Argonian Greatsword",
+    "string": "Lame longue argonienne",
+    "status": "TranslationComplete",
+    "form_id": "030A0011|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsArgonian2H"
+  },
+  {
+    "original": "Baltimore War Axe",
+    "string": "Hache de Baltimore",
+    "status": "TranslationComplete",
+    "form_id": "0B000807|Baltimore Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroBaltimoreBattleaxeOnehanded"
+  },
+  {
+    "original": "Ebony Spear",
+    "string": "Lance d'ébonite",
+    "status": "TranslationComplete",
+    "form_id": "1500080F|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000EbonySpear"
+  },
+  {
+    "original": "Sorrow Katana (Brown)",
+    "string": "Katana marron",
+    "status": "TranslationComplete",
+    "form_id": "0C000811|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISKatana01a"
+  },
+  {
+    "original": "Stonefire Staff of Lightning Bolts",
+    "string": "Bâton de Brûlepierre d'éclair foudroyant",
+    "status": "TranslationComplete",
+    "form_id": "3700083D|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_staff_weapon_lightningbolt"
+  },
+  {
+    "original": "Dragonsting Sword",
+    "string": "Épée dragon sertie",
+    "status": "TranslationComplete",
+    "form_id": "0300102C|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDaggerA01b"
+  },
+  {
+    "original": "Soul Hunter Katana RED",
+    "string": "Katana de chasseuse d'âmes rouge",
+    "status": "TranslationComplete",
+    "form_id": "12000E93|Soul Hunter Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightSkeleyon_Soul_Hunter_Katana_RED"
+  },
+  {
+    "original": "Chitin Bow (With Pearls)",
+    "string": "Arc de chitine orné",
+    "status": "TranslationComplete",
+    "form_id": "320094BF|ktWeaponPackSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mkChitinBow01"
+  },
+  {
+    "original": "Marauder",
+    "string": "Maraudeur",
+    "status": "TranslationComplete",
+    "form_id": "0A000984|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroMarauder2h"
+  },
+  {
+    "original": "Duellist",
+    "string": "Duelliste",
+    "status": "TranslationComplete",
+    "form_id": "0A000909|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroDuellist1h"
+  },
+  {
+    "original": "Dark Arthurian Longsword",
+    "string": "Espadon bréton sombre",
+    "status": "TranslationComplete",
+    "form_id": "0A000960|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroTristanDeDoisSword"
+  },
+  {
+    "original": "Sorrow Dai-Katana (Black)",
+    "string": "Dai-katana noir",
+    "status": "TranslationComplete",
+    "form_id": "0C000821|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISKatana01b2H"
+  },
+  {
+    "original": "Steelthorn Ninjato",
+    "string": "Ninjato de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E00081F|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioNinjatoSteel"
+  },
+  {
+    "original": "Stormcloud",
+    "string": "Sombreciel",
+    "status": "TranslationComplete",
+    "form_id": "0A000836|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroStormcloud2h"
+  },
+  {
+    "original": "Mordant",
+    "string": "Mordante",
+    "status": "TranslationComplete",
+    "form_id": "0A0008AF|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroMordant1h"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E000D66|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioBlade1h"
+  },
+  {
+    "original": "Revenant",
+    "string": "Revenante",
+    "status": "TranslationComplete",
+    "form_id": "0A0008B7|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroRevenant1h"
+  },
+  {
+    "original": "Stonefire Sword",
+    "string": "Épée de Brûlepierre",
+    "status": "TranslationComplete",
+    "form_id": "37000801|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_sword1h_weapon"
+  },
+  {
+    "original": "Peru Dagger",
+    "string": "Poignard du Pérou",
+    "status": "TranslationComplete",
+    "form_id": "2D000800|[Ashtoreth] Sword of Peru.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "00_PeruDagger"
+  },
+  {
+    "original": "Battle Scythe",
+    "string": "Faux de combat",
+    "status": "TranslationComplete",
+    "form_id": "1B000819|BattleScythe.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Bandit_Battle_Scythe"
+  },
+  {
+    "original": "Stonefire Greatsword",
+    "string": "Espadon de Brûlepierre",
+    "status": "TranslationComplete",
+    "form_id": "37000803|mihailstonefireweaponry.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "mihail_drel_weapon_sword2h_weapon"
+  },
+  {
+    "original": "Iron Rapier",
+    "string": "Rapière de fer",
+    "status": "TranslationComplete",
+    "form_id": "54005903|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronRapier"
+  },
+  {
+    "original": "This deformed looking scythe was created by Nocturnal herself, and given to a powerful Hagraven that roamed through the Evergloam.",
+    "string": "Cette faux d'apparence déformée a été créée par Nocturne elle-même et donnée à une puissante Harfreuse qui parcourait le Crépuscule éternel.",
+    "status": "TranslationComplete",
+    "form_id": "1A000D63|ScytheOfTheCrow.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "ScytheOfTheCrowMother"
+  },
+  {
+    "original": "Silverthorn Mace",
+    "string": "Masse de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000800|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioMace"
+  },
+  {
+    "original": "Soul Hunter Katana",
+    "string": "Katana de chasseuse d’âmes",
+    "status": "TranslationComplete",
+    "form_id": "12000F97|Soul Hunter Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightSkeleyon_NonPlayable_Soul_Hunter_Katana"
+  },
+  {
+    "original": "The sword is the axis of the world and its power is absolute",
+    "string": "L'épée est l'axe du monde et son pouvoir est absolu",
+    "status": "TranslationComplete",
+    "form_id": "3F000800|Warsword.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "Warsword1h"
+  },
+  {
+    "original": "Dragonbone Twinblade",
+    "string": "Lame jumelle en os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "5500084C|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC1DragonmawTwinblade"
+  },
+  {
+    "original": "Iron Halberd",
+    "string": "Hallebarde de fer",
+    "status": "TranslationComplete",
+    "form_id": "54167FFF|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronHalberd"
+  },
+  {
+    "original": "Nordic Twinblade",
+    "string": "Lame jumelle nordique",
+    "status": "TranslationComplete",
+    "form_id": "55000835|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2NordicTwinblade"
+  },
+  {
+    "original": "Legerity",
+    "string": "Légèreté",
+    "status": "TranslationComplete",
+    "form_id": "0A000971|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroMorgynnAshcroftSword"
+  },
+  {
+    "original": "Steelthorn Katana",
+    "string": "Katana de l'aiguille d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0E00081D|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioKatanaSteel"
+  },
+  {
+    "original": "Revenant",
+    "string": "Revenante",
+    "status": "TranslationComplete",
+    "form_id": "0A0008BA|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroRevenant2h"
+  },
+  {
+    "original": "Steel Spear",
+    "string": "Lance d'acier",
+    "status": "TranslationComplete",
+    "form_id": "1500080C|Spear of Skyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "000SteelSpear"
+  },
+  {
+    "original": "Imperial Captain Sword",
+    "string": "Épée impériale de capitaine",
+    "status": "TranslationComplete",
+    "form_id": "0A000821|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroImperialCaptainSword1h"
+  },
+  {
+    "original": "Glass Katana",
+    "string": "Katana de verre",
+    "status": "TranslationComplete",
+    "form_id": "54344731|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "GlassKatana"
+  },
+  {
+    "original": "Sorrow  Dai-Katana",
+    "string": "Dai-katana",
+    "status": "TranslationComplete",
+    "form_id": "0C00081F|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "aaISKatana012H"
+  },
+  {
+    "original": "Usdian",
+    "string": "Usdian",
+    "status": "TranslationComplete",
+    "form_id": "0A000958|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroUsdian2h"
+  },
+  {
+    "original": "Anathros Sword",
+    "string": "Anathros",
+    "status": "TranslationComplete",
+    "form_id": "2F000D62|Anathros.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Anathros"
+  },
+  {
+    "original": "Daedric Quarterstaff",
+    "string": "Bâton daedrique",
+    "status": "TranslationComplete",
+    "form_id": "1C000817|Quarterstaff.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DaedricQuarterstaff"
+  },
+  {
+    "original": "Betrayer",
+    "string": "Épée (5)",
+    "status": "TranslationComplete",
+    "form_id": "38000D68|Swords 2-5.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0SAPSword5"
+  },
+  {
+    "original": "Baltimore Great Falchion",
+    "string": "Falshion de Baltimore",
+    "status": "TranslationComplete",
+    "form_id": "0B000D66|Baltimore Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroBaltimoreFalchionTwohanded"
+  },
+  {
+    "original": "A chieftain's blade, wrought in silver.",
+    "string": "Lame d'un chef, forgée en argent.",
+    "status": "TranslationComplete",
+    "form_id": "26000D62|Clanbringer.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "BillyroClanbringer"
+  },
+  {
+    "original": "Banneredge",
+    "string": "Bannière",
+    "status": "TranslationComplete",
+    "form_id": "51000D62|FGCBanneredge.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "FGCBanneredge"
+  },
+  {
+    "original": "Orcish Quarterstaff",
+    "string": "Bâton Orque",
+    "status": "TranslationComplete",
+    "form_id": "1C000809|Quarterstaff.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "OrcishQuarterstaff"
+  },
+  {
+    "original": "Elven Warhammer",
+    "string": "Marteau elfique",
+    "status": "TranslationComplete",
+    "form_id": "000139A2|Skyrim.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ElvenWarhammer"
+  },
+  {
+    "original": "Eikbiter Short",
+    "string": "Eikbiter",
+    "status": "TranslationComplete",
+    "form_id": "20000800|Eikbiter.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EikbiterShort"
+  },
+  {
+    "original": "Ebonblade War Axe",
+    "string": "Hache de guerre lame d'ébonite",
+    "status": "TranslationComplete",
+    "form_id": "41000D63|Ebonblade Waraxe SE - Johnskyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonbladeWarAxe"
+  },
+  {
+    "original": "Fenrir Shortsword",
+    "string": "Lame de Fenrir",
+    "status": "TranslationComplete",
+    "form_id": "0A000D62|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroFenrirShortsword"
+  },
+  {
+    "original": "Damascus Dagger",
+    "string": "Dague de Damascus en ébonite",
+    "status": "TranslationComplete",
+    "form_id": "1E000800|Ebony Damascus Blades.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EDDagger"
+  },
+  {
+    "original": "Donia's Greatsword",
+    "string": "Espadon de Donia",
+    "status": "TranslationComplete",
+    "form_id": "0A000998|Billyro's Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "BillyroDoniaGreatsword"
+  },
+  {
+    "original": "Starbreaker",
+    "string": "Brise-étoiles",
+    "status": "TranslationComplete",
+    "form_id": "13000D62|Spear of Omicron.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "_SpearOfOmicron"
+  },
+  {
+    "original": "Falx Blade",
+    "string": "Lame de Falx",
+    "status": "TranslationComplete",
+    "form_id": "09000800|Lvx_Curved_Sword.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Lvx_CurvedSword"
+  },
+  {
+    "original": "Chitin Greatsword",
+    "string": "Espadon de chitine",
+    "status": "TranslationComplete",
+    "form_id": "3206CBE2|ktWeaponPackSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ktChitinGreatsword"
+  },
+  {
+    "original": "Nordic Halberd",
+    "string": "Hallebarde nordique",
+    "status": "TranslationComplete",
+    "form_id": "5416801F|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "NordicHalberd"
+  },
+  {
+    "original": "Blackened Daedric Scythe (Exquisite)",
+    "string": "Faux d'acier noirci",
+    "status": "TranslationComplete",
+    "form_id": "18000811|Yol'Kreh Scythes.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "01_YolKrehBlackenedSteelScythe03"
+  },
+  {
+    "original": "Eastern Ebony Sword",
+    "string": "Épée d'ébonite",
+    "status": "TranslationComplete",
+    "form_id": "0C000898|InsanitySorrow Weapons Pack.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonySwordAlt"
+  },
+  {
+    "original": "Ancient Honed Nord Twinblade",
+    "string": "Lame jumelle nordique antique",
+    "status": "TranslationComplete",
+    "form_id": "5500083F|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DraugrTwinbladeHoned"
+  },
+  {
+    "original": "Daedric Rapier",
+    "string": "Rapière daedrique",
+    "status": "TranslationComplete",
+    "form_id": "54019D13|NewArmoury.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DaedricRapier"
+  },
+  {
+    "original": "Silverthorn Waraxe",
+    "string": "Hache de guerre de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000D62|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioAxe1h"
+  },
+  {
+    "original": "Claymore",
+    "string": "Claymore",
+    "status": "TranslationComplete",
+    "form_id": "31000D63|Claymore.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Claymore"
+  },
+  {
+    "original": "Especially effective against undead.",
+    "string": "Particulièrement efficace contre les morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0E00081E|Austio Weapons.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "AustioNinjato"
+  },
+  {
+    "original": "Aegean Sentinel Halberd+5",
+    "string": "Hallebarde de sentinelle Égéenne",
+    "status": "TranslationComplete",
+    "form_id": "17000D68|FGCAegeanSentinelHalberd.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AegeanSentinelHalberdPlus5"
+  },
+  {
+    "original": "The sword is the axis of the world and its power is absolute",
+    "string": "L'épée est l'axe du monde et son pouvoir est absolu",
+    "status": "TranslationComplete",
+    "form_id": "3F000801|Warsword.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "Warsword2h"
+  },
+  {
+    "original": "Silverthorn Battleaxe",
+    "string": "Hache de l'aiguille d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0E000D64|Austio Weapons.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "AustioAxe2h"
+  },
+  {
+    "original": "Nordic Blade",
+    "string": "Lame nordique",
+    "status": "TranslationComplete",
+    "form_id": "03001001|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsBlade1"
+  },
+  {
+    "original": "Durandal Replica",
+    "string": "Réplique de Durandal",
+    "status": "TranslationComplete",
+    "form_id": "28000807|[TDarce] Black Silence Durandal.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TDarceBSDurandalReplica"
+  },
+  {
+    "original": "Twilight Princess Nodachi - Black",
+    "string": "Nodachi de la princesse du crépuscule - Noir",
+    "status": "TranslationComplete",
+    "form_id": "0E000C6C|Twilight Princess Armor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwilightPrincess_Nodachi"
+  },
+  {
+    "original": "Stalhrim Twinblade",
+    "string": "Lame jumelle en stalhrim",
+    "status": "TranslationComplete",
+    "form_id": "55000832|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2StalhrimTwinblade"
+  },
+  {
+    "original": "Yol'Kreh (Advanced)",
+    "string": "Yol'Kreh",
+    "status": "TranslationComplete",
+    "form_id": "1800080D|Yol'Kreh Scythes.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "01_YolKreh02"
+  },
+  {
+    "original": "Wolf Warrior's Seax",
+    "string": "Seax du guerrier-loup",
+    "status": "TranslationComplete",
+    "form_id": "05000D63|RTRWolfWarriorSeax.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RTRWWSSeax"
+  }
+]

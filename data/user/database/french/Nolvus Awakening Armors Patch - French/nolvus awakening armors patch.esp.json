@@ -1,0 +1,1235 @@
+[
+  {
+    "original": "Garakh",
+    "string": "Garakh",
+    "status": "TranslationComplete",
+    "form_id": "00019E1C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Garakh"
+  },
+  {
+    "original": "Captain Aldis",
+    "string": "Capitaine Aldis",
+    "status": "TranslationComplete",
+    "form_id": "00041FB8|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "CaptainAldis"
+  },
+  {
+    "original": "Dreaded Relic Armet(openface)",
+    "string": "Armet effroyable ouvert",
+    "status": "TranslationComplete",
+    "form_id": "2400085E|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicHelmv2openface"
+  },
+  {
+    "original": "Reaver Marauder",
+    "string": "Archer maraudeur des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E83D|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit06TemplateMissile"
+  },
+  {
+    "original": "Valkyn Methats",
+    "string": "Valkyn Methats",
+    "status": "TranslationComplete",
+    "form_id": "070392FB|ccbgssse067-daedinv.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ccBGSSSE067_LvlDremoraBossAmbush02"
+  },
+  {
+    "original": "Dreaded Relic Pouldron (Left V1)",
+    "string": "Épaulière effroyable gauche I",
+    "status": "TranslationComplete",
+    "form_id": "24000800|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicPouldronL_V1"
+  },
+  {
+    "original": "Stig",
+    "string": "Stig",
+    "status": "TranslationComplete",
+    "form_id": "0001DC00|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "MS10Stig"
+  },
+  {
+    "original": "Dreaded Relic Armet",
+    "string": "Armet effroyable",
+    "status": "TranslationComplete",
+    "form_id": "24000820|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicHelmv2"
+  },
+  {
+    "original": "Chief Yamarz",
+    "string": "Chef Yamarz",
+    "status": "TranslationComplete",
+    "form_id": "0003BC26|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Yamarz"
+  },
+  {
+    "original": "Gjuk",
+    "string": "Gjuk",
+    "status": "TranslationComplete",
+    "form_id": "00052269|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS10Pirate3"
+  },
+  {
+    "original": "Haldyn",
+    "string": "Haldyn",
+    "status": "TranslationComplete",
+    "form_id": "0001DC04|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS10Haldyn"
+  },
+  {
+    "original": "Dreaded Relic Boots",
+    "string": "Bottes effroyable",
+    "status": "TranslationComplete",
+    "form_id": "24000807|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicBoots"
+  },
+  {
+    "original": "Gaius Maro",
+    "string": "Gaius Maro",
+    "status": "TranslationComplete",
+    "form_id": "00044050|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "GaiusMaro"
+  },
+  {
+    "original": "Dushnamub",
+    "string": "Dushnamub",
+    "status": "TranslationComplete",
+    "form_id": "0001B079|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Dushnamub"
+  },
+  {
+    "original": "Gularzob",
+    "string": "Gularzob",
+    "status": "TranslationComplete",
+    "form_id": "00019E20|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gularzob"
+  },
+  {
+    "original": "Jaree",
+    "string": "Jaree",
+    "status": "TranslationComplete",
+    "form_id": "0001328D|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "JareeRa"
+  },
+  {
+    "original": "Orc Hunter",
+    "string": "Orque chasseur",
+    "status": "TranslationComplete",
+    "form_id": "000D9447|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncOrcHunterTemplate"
+  },
+  {
+    "original": "Commander Maro",
+    "string": "Commandant Maro",
+    "status": "TranslationComplete",
+    "form_id": "0001D4B5|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "CommanderMaro"
+  },
+  {
+    "original": "Adelaisa Vendicci",
+    "string": "Adelaisa Vendicci",
+    "status": "TranslationComplete",
+    "form_id": "0001411D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Adelaisa"
+  },
+  {
+    "original": "Reaver Outlaw",
+    "string": "Archer hors-la-loi des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E81F|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit02TemplateMissile"
+  },
+  {
+    "original": "Chest",
+    "string": "Coffre",
+    "status": "TranslationComplete",
+    "form_id": "000A31B5|Skyrim.esm",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "MerchantRiftenGrandPlazaBrandishChest"
+  },
+  {
+    "original": "Aranea Ienith",
+    "string": "Aranea Ienith",
+    "status": "TranslationComplete",
+    "form_id": "00028AD0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DA01Aranea"
+  },
+  {
+    "original": "Solitude",
+    "string": "Solitude",
+    "status": "TranslationComplete",
+    "form_id": "00037EDF|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "SolitudeWorld"
+  },
+  {
+    "original": "Tullius",
+    "string": "Tullius",
+    "status": "TranslationComplete",
+    "form_id": "0001327E|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "GeneralTullius"
+  },
+  {
+    "original": "Keeper Carcette",
+    "string": "Carcette la Gardienne",
+    "status": "TranslationComplete",
+    "form_id": "000BFB55|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "VigilantCarcette"
+  },
+  {
+    "original": "Ghorza",
+    "string": "Ghorza",
+    "status": "TranslationComplete",
+    "form_id": "0001339A|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "GhorzaGraBagol"
+  },
+  {
+    "original": "Reaver Plunderer",
+    "string": "Guerrier pillard des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E839|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit05TemplateMelee"
+  },
+  {
+    "original": "Chest",
+    "string": "Coffre",
+    "status": "TranslationComplete",
+    "form_id": "000A3F10|Skyrim.esm",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "MerchantWindhelmRevynSadriChest"
+  },
+  {
+    "original": "Alchemist's Gloves",
+    "string": "Gants d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "26000813|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVClothingGloves"
+  },
+  {
+    "original": "Brood Cavern",
+    "string": "Grotte de Ternefond",
+    "status": "TranslationComplete",
+    "form_id": "000152AE|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "BroodCavern01"
+  },
+  {
+    "original": "Irlof",
+    "string": "Irlof",
+    "status": "TranslationComplete",
+    "form_id": "00052267|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS10Pirate2"
+  },
+  {
+    "original": "General Tullius",
+    "string": "Général Tullius",
+    "status": "TranslationComplete",
+    "form_id": "0001327E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "GeneralTullius"
+  },
+  {
+    "original": "Chief Burguk",
+    "string": "Chef Burguk",
+    "status": "TranslationComplete",
+    "form_id": "00013B79|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Burguk"
+  },
+  {
+    "original": "Alding",
+    "string": "Alding",
+    "status": "TranslationComplete",
+    "form_id": "00052268|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS10Pirate1"
+  },
+  {
+    "original": "Penitus Oculatus Agent",
+    "string": "Agent du Penitus Oculatus",
+    "status": "TranslationComplete",
+    "form_id": "0007D98C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncPenitus00Template"
+  },
+  {
+    "original": "Lob",
+    "string": "Lob",
+    "status": "TranslationComplete",
+    "form_id": "00019E1E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Lob"
+  },
+  {
+    "original": "Temple of the Divines",
+    "string": "Temple des Divins",
+    "status": "TranslationComplete",
+    "form_id": "00016A02|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "SolitudeTempleoftheDivines"
+  },
+  {
+    "original": "Eclipse Mage Hood",
+    "string": "Capuche de mage de l'Éclipse enchantée",
+    "status": "TranslationComplete",
+    "form_id": "26000D6C|Eclipse Mage Outfit.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000EclipseMageHood"
+  },
+  {
+    "original": "Chief Larak",
+    "string": "Chef Larak",
+    "status": "TranslationComplete",
+    "form_id": "00019951|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Larak"
+  },
+  {
+    "original": "Alchemist's Vestments",
+    "string": "Tenue d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "26000812|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVClothingCuirass"
+  },
+  {
+    "original": "Ugor",
+    "string": "Ugor",
+    "status": "TranslationComplete",
+    "form_id": "00019E1A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ugor"
+  },
+  {
+    "original": "Tolan",
+    "string": "Tolan",
+    "status": "TranslationComplete",
+    "form_id": "0200352D|Dawnguard.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC1VigilantTolan"
+  },
+  {
+    "original": "Alik'r Warrior",
+    "string": "Guerrier alik'r",
+    "status": "TranslationComplete",
+    "form_id": "00055FB2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS08AlikrWarriorWhiterun"
+  },
+  {
+    "original": "Reaver Highwayman",
+    "string": "Guerrier coupe-jarret des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E836|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit04TemplateMelee"
+  },
+  {
+    "original": "Olur",
+    "string": "Olur",
+    "status": "TranslationComplete",
+    "form_id": "0001995B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Olur"
+  },
+  {
+    "original": "Stig Salt-Plank",
+    "string": "Stig Planche-Salée",
+    "status": "TranslationComplete",
+    "form_id": "0001DC00|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS10Stig"
+  },
+  {
+    "original": "Reaper's Lair",
+    "string": "Repaire de faucheur",
+    "status": "TranslationComplete",
+    "form_id": "02006429|Dawnguard.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "DLC1SoulCairnReaperCell"
+  },
+  {
+    "original": "Alchemist's Gloves",
+    "string": "Gants d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "26000803|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVArmorGloves"
+  },
+  {
+    "original": "Reaver Thug",
+    "string": "Archer scélérat des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E834|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit03TemplateMissile"
+  },
+  {
+    "original": "Alchemist's Hood",
+    "string": "Capuchon d’alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "26000814|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVClothingHood"
+  },
+  {
+    "original": "Eclipse Mage Cloak",
+    "string": "Cape de mage de l'Éclipse enchantée",
+    "status": "TranslationComplete",
+    "form_id": "26000D70|Eclipse Mage Outfit.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000EclipseMageCloak"
+  },
+  {
+    "original": "Eclipse Mage Gloves",
+    "string": "Gants de mage de l'Éclipse",
+    "status": "TranslationComplete",
+    "form_id": "26000D6B|Eclipse Mage Outfit.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000EclipseMageGloves"
+  },
+  {
+    "original": "Urog",
+    "string": "Urog",
+    "status": "TranslationComplete",
+    "form_id": "0001B078|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Urog"
+  },
+  {
+    "original": "Dreaded Relic Helmet",
+    "string": "Casque effroyable",
+    "status": "TranslationComplete",
+    "form_id": "24000809|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicHelm"
+  },
+  {
+    "original": "Whiterun",
+    "string": "Blancherive",
+    "status": "TranslationComplete",
+    "form_id": "0001A26F|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "WhiterunWorld"
+  },
+  {
+    "original": "Dreaded Relic Helmet(open face)",
+    "string": "Casque effroyable ouvert",
+    "status": "TranslationComplete",
+    "form_id": "2400085C|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicHelmopenface"
+  },
+  {
+    "original": "Umurn",
+    "string": "Umurn",
+    "status": "TranslationComplete",
+    "form_id": "00013B7E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Umurn"
+  },
+  {
+    "original": "Jaree-Ra",
+    "string": "Jaree-Ra",
+    "status": "TranslationComplete",
+    "form_id": "0001328D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "JareeRa"
+  },
+  {
+    "original": "Alchemist's Vestments",
+    "string": "Tenue d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "26000D63|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVArmorCuirass"
+  },
+  {
+    "original": "Uglarz",
+    "string": "Uglarz",
+    "status": "TranslationComplete",
+    "form_id": "000E316F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Uglarz"
+  },
+  {
+    "original": "Reaver Highwayman",
+    "string": "Archer coupe-jarret des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E837|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit04TemplateMissile"
+  },
+  {
+    "original": "Veleth",
+    "string": "Veleth",
+    "status": "TranslationComplete",
+    "form_id": "030182AC|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC2RRModynVeleth"
+  },
+  {
+    "original": "Skyrim",
+    "string": "Bordeciel",
+    "status": "TranslationComplete",
+    "form_id": "0000003C|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "Tamriel"
+  },
+  {
+    "original": "Mauhulakh",
+    "string": "Mauhulakh",
+    "status": "TranslationComplete",
+    "form_id": "0001B075|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Mauhulakh"
+  },
+  {
+    "original": "Arob",
+    "string": "Arob",
+    "status": "TranslationComplete",
+    "form_id": "00013B7B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Arob"
+  },
+  {
+    "original": "Dreaded Relic Armor",
+    "string": "Armure effroyable",
+    "status": "TranslationComplete",
+    "form_id": "24000D63|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicCuirass"
+  },
+  {
+    "original": "Dreaded Relic Pouldron (Right 1)",
+    "string": "Épaulière droite effroyable I",
+    "status": "TranslationComplete",
+    "form_id": "24000831|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicPouldronR_v1"
+  },
+  {
+    "original": "Borgakh",
+    "string": "Borgakh",
+    "status": "TranslationComplete",
+    "form_id": "00019959|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Borgakh"
+  },
+  {
+    "original": "Dreaded Relic Belt V3",
+    "string": "Ceinture effroyable III",
+    "status": "TranslationComplete",
+    "form_id": "24000839|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicbelt_v3"
+  },
+  {
+    "original": "Captain Veleth",
+    "string": "Capitaine Veleth",
+    "status": "TranslationComplete",
+    "form_id": "030182AC|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2RRModynVeleth"
+  },
+  {
+    "original": "Deeja",
+    "string": "Deeja",
+    "status": "TranslationComplete",
+    "form_id": "00013268|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Deeja"
+  },
+  {
+    "original": "Ghorza gra-Bagol",
+    "string": "Ghorza gra-Bagol",
+    "status": "TranslationComplete",
+    "form_id": "0001339A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "GhorzaGraBagol"
+  },
+  {
+    "original": "Eclipse Mage Shoulder Pad",
+    "string": "Épaulière de mage de l'Éclipse",
+    "status": "TranslationComplete",
+    "form_id": "26000D71|Eclipse Mage Outfit.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000EclipseMageShoulderPad"
+  },
+  {
+    "original": "Stendarr's Compassion I",
+    "string": "Compassion de Stendarr I",
+    "status": "TranslationComplete",
+    "form_id": "2100083A|StendarrPaladinArmor.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1Enchant"
+  },
+  {
+    "original": "Alchemist's Hood",
+    "string": "Capuchon d’alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "26000805|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVArmorHood"
+  },
+  {
+    "original": "Borgakh the Steel Heart",
+    "string": "Borgakh Coeur-de-Fer",
+    "status": "TranslationComplete",
+    "form_id": "00019959|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Borgakh"
+  },
+  {
+    "original": "Reaver Marauder",
+    "string": "Guerrier maraudeur des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E83C|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit06TemplateMelee"
+  },
+  {
+    "original": "Reaver",
+    "string": "Bandit des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E804|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit00Template"
+  },
+  {
+    "original": "Gharol",
+    "string": "Gharol",
+    "status": "TranslationComplete",
+    "form_id": "00013B7C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gharol"
+  },
+  {
+    "original": "Ghorbash",
+    "string": "Ghorbash",
+    "status": "TranslationComplete",
+    "form_id": "00013B81|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Ghorbash"
+  },
+  {
+    "original": "Alchemist's Boots",
+    "string": "Bottes d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "26000801|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVArmorBoots"
+  },
+  {
+    "original": "Chest",
+    "string": "Coffre",
+    "status": "TranslationComplete",
+    "form_id": "0002069A|Skyrim.esm",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "TreasDwarvenChestLarge"
+  },
+  {
+    "original": "Stendarr's Strength",
+    "string": "Puissance de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "21000834|StendarrPaladinArmor.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsStrengthEnchant"
+  },
+  {
+    "original": "Abandoned House",
+    "string": "Maison abandonnée",
+    "status": "TranslationComplete",
+    "form_id": "00018BE9|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "MarkarthAbandonedHouse"
+  },
+  {
+    "original": "Nagrub",
+    "string": "Nagrub",
+    "status": "TranslationComplete",
+    "form_id": "00013B7F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nagrub"
+  },
+  {
+    "original": "Dreaded Relic Belt V1",
+    "string": "Ceinture effroyable I",
+    "status": "TranslationComplete",
+    "form_id": "2400082B|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicbelt_v1"
+  },
+  {
+    "original": "Yatul",
+    "string": "Yatul",
+    "status": "TranslationComplete",
+    "form_id": "0001B077|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Yatul"
+  },
+  {
+    "original": "Vigilant Tolan",
+    "string": "Vigile Tolan",
+    "status": "TranslationComplete",
+    "form_id": "0200352D|Dawnguard.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC1VigilantTolan"
+  },
+  {
+    "original": "Aldis",
+    "string": "Aldis",
+    "status": "TranslationComplete",
+    "form_id": "00041FB8|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "CaptainAldis"
+  },
+  {
+    "original": "Methats",
+    "string": "Methats",
+    "status": "TranslationComplete",
+    "form_id": "070392FB|ccbgssse067-daedinv.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "ccBGSSSE067_LvlDremoraBossAmbush02"
+  },
+  {
+    "original": "Dreaded Relic Pouldron (Left V2)",
+    "string": "Épaulière effroyable gauche II",
+    "status": "TranslationComplete",
+    "form_id": "2400082E|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicPouldronL_V2"
+  },
+  {
+    "original": "Yamarz",
+    "string": "Yamarz",
+    "status": "TranslationComplete",
+    "form_id": "0003BC26|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Yamarz"
+  },
+  {
+    "original": "Eclipse Mage Boots",
+    "string": "Bottes de mage de l'Éclipse",
+    "status": "TranslationComplete",
+    "form_id": "26000D6A|Eclipse Mage Outfit.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000EclipseMageBoots"
+  },
+  {
+    "original": "Reaver Thug",
+    "string": "Guerrier scélérat des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E833|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit03TemplateMelee"
+  },
+  {
+    "original": "Dreaded Relic Pouldron (Right 2)",
+    "string": "Épaulière droite effroyable II",
+    "status": "TranslationComplete",
+    "form_id": "24000803|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicPouldronR_v2"
+  },
+  {
+    "original": "Vanik",
+    "string": "Vanik",
+    "status": "TranslationComplete",
+    "form_id": "02003D03|Dawnguard.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC1Vanik"
+  },
+  {
+    "original": "Shuftharz",
+    "string": "Shuftharz",
+    "status": "TranslationComplete",
+    "form_id": "00019957|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Shuftharz"
+  },
+  {
+    "original": "Gaius",
+    "string": "Gaius",
+    "status": "TranslationComplete",
+    "form_id": "00044050|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "GaiusMaro"
+  },
+  {
+    "original": "Stendarr's Compassion II",
+    "string": "Compassion de Stendarr II",
+    "status": "TranslationComplete",
+    "form_id": "21000843|StendarrPaladinArmor.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2Enchant"
+  },
+  {
+    "original": "Chest",
+    "string": "Coffre",
+    "status": "TranslationComplete",
+    "form_id": "0200F1A5|Dawnguard.esm",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "DLC1VendorChestSorineJurard"
+  },
+  {
+    "original": "Reaver Outlaw",
+    "string": "Guerrier hors-la-loi des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E81E|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit02TemplateMelee"
+  },
+  {
+    "original": "Emperor Titus Mede II",
+    "string": "Empereur Titus Mede II",
+    "status": "TranslationComplete",
+    "form_id": "0001D4B9|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "TitusMedeII"
+  },
+  {
+    "original": "Maro",
+    "string": "Maro",
+    "status": "TranslationComplete",
+    "form_id": "0001D4B5|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "CommanderMaro"
+  },
+  {
+    "original": "Shel",
+    "string": "Shel",
+    "status": "TranslationComplete",
+    "form_id": "00013B7D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Shel"
+  },
+  {
+    "original": "Dreaded Relic Belt V2",
+    "string": "Ceinture effroyable II",
+    "status": "TranslationComplete",
+    "form_id": "24000837|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicbelt_v2"
+  },
+  {
+    "original": "Adelaisa",
+    "string": "Adelaisa",
+    "status": "TranslationComplete",
+    "form_id": "0001411D|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Adelaisa"
+  },
+  {
+    "original": "Dreaded Relic Pouldron (Right 3)",
+    "string": "Épaulière droite effroyable III",
+    "status": "TranslationComplete",
+    "form_id": "2400083F|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicPouldronR_v3"
+  },
+  {
+    "original": "Guard Hide Helmet",
+    "string": "Casque en peau de garde",
+    "status": "TranslationComplete",
+    "form_id": "130060F9|NW_Sons_of_Skyrim.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_Helmet_Hide"
+  },
+  {
+    "original": "Chief Mauhulakh",
+    "string": "Chef Mauhulakh",
+    "status": "TranslationComplete",
+    "form_id": "0001B075|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Mauhulakh"
+  },
+  {
+    "original": "Eclipse Mage Cloak",
+    "string": "Cape de mage de l'Éclipse enchantée",
+    "status": "TranslationComplete",
+    "form_id": "26000D75|Eclipse Mage Outfit.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000EclipseMageCloakEnch"
+  },
+  {
+    "original": "Aranea",
+    "string": "Aranea",
+    "status": "TranslationComplete",
+    "form_id": "00028AD0|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DA01Aranea"
+  },
+  {
+    "original": "Eclipse Mage Robes",
+    "string": "Robe de mage de l'Éclipse",
+    "status": "TranslationComplete",
+    "form_id": "26000D76|Eclipse Mage Outfit.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000EclipseMageRobesEnch"
+  },
+  {
+    "original": "Silver Hand Warrior",
+    "string": "Main d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0002AB88|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "LvlSilverhandMissile"
+  },
+  {
+    "original": "Dreaded Relic Pouldron (Left V3)",
+    "string": "Épaulière effroyable gauche III",
+    "status": "TranslationComplete",
+    "form_id": "2400083D|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicPouldronL_V3"
+  },
+  {
+    "original": "Bleak Falls Sanctum",
+    "string": "Sanctuaire des Chutes tourmentées",
+    "status": "TranslationComplete",
+    "form_id": "000371DD|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "BleakFallsBarrow02"
+  },
+  {
+    "original": "Dragonbone Mail",
+    "string": "Cuirasse du Dragon",
+    "status": "TranslationComplete",
+    "form_id": "0500083B|ccbgssse059-ba_dragonplate.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ccBGSSSE059_ArmorBladesCuirassEnchanted"
+  },
+  {
+    "original": "Dreaded Relic waffenrock Black Thorn Keep",
+    "string": "Surcot effroyable de Noirépine",
+    "status": "TranslationComplete",
+    "form_id": "24000864|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedReliccoatbtk"
+  },
+  {
+    "original": "Alchemist's Boots",
+    "string": "Bottes d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "26000811|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVClothingBoots"
+  },
+  {
+    "original": "Carcette",
+    "string": "Carcette",
+    "status": "TranslationComplete",
+    "form_id": "000BFB55|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "VigilantCarcette"
+  },
+  {
+    "original": "Old Orc",
+    "string": "Vieil Orque",
+    "status": "TranslationComplete",
+    "form_id": "00062128|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WE24Orc"
+  },
+  {
+    "original": "Dreaded Relic waffenrock Emipre",
+    "string": "Surcot effroyable impérial",
+    "status": "TranslationComplete",
+    "form_id": "24000866|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedReliccoatEMP"
+  },
+  {
+    "original": "Eclipse Mage Hood",
+    "string": "Capuche de mage de l'Éclipse enchantée",
+    "status": "TranslationComplete",
+    "form_id": "26000D74|Eclipse Mage Outfit.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000EclipseMageHoodEnch"
+  },
+  {
+    "original": "Gatanas",
+    "string": "Gatanas",
+    "status": "TranslationComplete",
+    "form_id": "070392F9|ccbgssse067-daedinv.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "ccBGSSSE067_LvlDremoraBossAmbush01"
+  },
+  {
+    "original": "Dreaded Relic Cape",
+    "string": "Cape effroyable",
+    "status": "TranslationComplete",
+    "form_id": "24000805|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicCape"
+  },
+  {
+    "original": "Burguk",
+    "string": "Burguk",
+    "status": "TranslationComplete",
+    "form_id": "00013B79|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Burguk"
+  },
+  {
+    "original": "Reaver Plunderer",
+    "string": "Archer pillard des Ravageurs",
+    "status": "TranslationComplete",
+    "form_id": "0301E83A|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2EncBandit05TemplateMissile"
+  },
+  {
+    "original": "Bagrak",
+    "string": "Bagrak",
+    "status": "TranslationComplete",
+    "form_id": "00019955|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Bagrak"
+  },
+  {
+    "original": "Ghorbash the Iron Hand",
+    "string": "Ghorbash la Main lourde",
+    "status": "TranslationComplete",
+    "form_id": "00013B81|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ghorbash"
+  },
+  {
+    "original": "Dreaded Relic waffenrock",
+    "string": "Surcot effroyable",
+    "status": "TranslationComplete",
+    "form_id": "24000834|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedReliccoat"
+  },
+  {
+    "original": "Dreaded Relic waffenrock Stormcloak",
+    "string": "Surcot effroyable sombrage",
+    "status": "TranslationComplete",
+    "form_id": "24000868|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedReliccoatREB"
+  },
+  {
+    "original": "Chest",
+    "string": "Coffre",
+    "status": "TranslationComplete",
+    "form_id": "0302AABA|Dragonborn.esm",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "DLC2TreasDwarvenChestBoss"
+  },
+  {
+    "original": "Valkyn Gatanas",
+    "string": "Valkyn Gatanas",
+    "status": "TranslationComplete",
+    "form_id": "070392F9|ccbgssse067-daedinv.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ccBGSSSE067_LvlDremoraBossAmbush01"
+  },
+  {
+    "original": "Dreaded Relic Gauntlets",
+    "string": "Gantelets effroyables",
+    "status": "TranslationComplete",
+    "form_id": "2400080B|Dreaded Relics.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "000DreadedRelicGauntlets"
+  },
+  {
+    "original": "Alchemist's Cloak",
+    "string": "Cape d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "2600080B|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVCloak"
+  },
+  {
+    "original": "Larak",
+    "string": "Larak",
+    "status": "TranslationComplete",
+    "form_id": "00019951|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Larak"
+  },
+  {
+    "original": "Chest",
+    "string": "Coffre",
+    "status": "TranslationComplete",
+    "form_id": "0302AABB|Dragonborn.esm",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "DLC2TreasDwarvenChestLarge"
+  },
+  {
+    "original": "The Frozen Hearth",
+    "string": "Le Foyer gelé",
+    "status": "TranslationComplete",
+    "form_id": "00013814|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WinterholdTheFrozenHearth"
+  }
+]

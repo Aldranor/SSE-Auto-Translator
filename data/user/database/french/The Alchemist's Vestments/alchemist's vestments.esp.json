@@ -1,0 +1,164 @@
+[
+  {
+    "original": "Sturdy, practical travel boots. An alchemist's work takes them far, and their boots must be up to the task. ",
+    "string": "Des bottes de voyage solides et pratiques. Le métier d'alchimiste l'emmène loin ; il lui faut donc des bottes à la hauteur.",
+    "status": "TranslationComplete",
+    "form_id": "02000801|Alchemist's Vestments.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "KM_AVArmorBoots"
+  },
+  {
+    "original": "A rain-resistant leather hood with a fur lining for comforting warmth. An alchemist's work carries on, rain or shine. ",
+    "string": "Un capuchon de cuir résistant à la pluie, doublé de fourrure pour tenir bien chaud. Qu'il pleuve ou que le soleil brille, l'alchimiste poursuit son ouvrage.",
+    "status": "TranslationComplete",
+    "form_id": "02000814|Alchemist's Vestments.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "KM_AVClothingHood"
+  },
+  {
+    "original": "Alchemist's Vestments",
+    "string": "Tenue d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "02000812|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVClothingCuirass"
+  },
+  {
+    "original": "Alchemist's Boots",
+    "string": "Bottes d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "02000811|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVClothingBoots"
+  },
+  {
+    "original": "Alchemist's Gloves",
+    "string": "Gants d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "02000813|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVClothingGloves"
+  },
+  {
+    "original": "A practical set of armor, yet not without whimsy - supple leather, layered with embroidered silk. ",
+    "string": "Une tenue pratique, sans manquer de fantaisie : du cuir souple rehaussé de soie brodée.",
+    "status": "TranslationComplete",
+    "form_id": "02000812|Alchemist's Vestments.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "KM_AVClothingCuirass"
+  },
+  {
+    "original": "Alchemist's Cloak",
+    "string": "Cape d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "0200080B|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVCloak"
+  },
+  {
+    "original": "Sturdy, practical travel boots. An alchemist's work takes them far, and their boots must be up to the task. ",
+    "string": "Des bottes de voyage solides et pratiques. Le métier d'alchimiste l'emmène loin ; il lui faut donc des bottes à la hauteur.",
+    "status": "TranslationComplete",
+    "form_id": "02000811|Alchemist's Vestments.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "KM_AVClothingBoots"
+  },
+  {
+    "original": "Alchemist's Gloves",
+    "string": "Gants d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "02000803|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVArmorGloves"
+  },
+  {
+    "original": "Alchemist's Vestments",
+    "string": "Tenue d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "02000D63|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVArmorCuirass"
+  },
+  {
+    "original": "It's not the warmest, nor the most durable of cloaks, but the time-softened threads and familiar scents of rain and loam are nevertheless comforting. ",
+    "string": "Cette cape ne tient pas très chaud et n'est pas des plus résistantes. Mais ses fils patinés par le temps et son odeur familière de pluie et de terre ont quelque chose de réconfortant.",
+    "status": "TranslationComplete",
+    "form_id": "0200080B|Alchemist's Vestments.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "KM_AVCloak"
+  },
+  {
+    "original": "Alchemist's Hood",
+    "string": "Capuchon d’alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "02000805|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVArmorHood"
+  },
+  {
+    "original": "Thin, yet supple, these gloves provide much-needed protection for any alchemist that must root through the thorns for her craft.",
+    "string": "Fins, mais souples, ces gants offrent une protection indispensable à tout alchimiste qui doit se frayer un chemin à travers les épines pour exercer son métier.",
+    "status": "TranslationComplete",
+    "form_id": "02000813|Alchemist's Vestments.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "KM_AVClothingGloves"
+  },
+  {
+    "original": "Alchemist's Boots",
+    "string": "Bottes d'alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "02000801|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVArmorBoots"
+  },
+  {
+    "original": "Alchemist's Hood",
+    "string": "Capuchon d’alchimiste",
+    "status": "TranslationComplete",
+    "form_id": "02000814|Alchemist's Vestments.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "KM_AVClothingHood"
+  },
+  {
+    "original": "Thin, yet supple, these gloves provide much-needed protection for any alchemist that must root through the thorns for their craft.",
+    "string": "Fins, mais souples, ces gants offrent une protection indispensable à tout alchimiste qui doit se frayer un chemin à travers les épines pour exercer son métier.",
+    "status": "TranslationComplete",
+    "form_id": "02000803|Alchemist's Vestments.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "KM_AVArmorGloves"
+  },
+  {
+    "original": "A practical set of armor, yet not without whimsy - supple leather, layered with embroidered silk. ",
+    "string": "Une tenue pratique, sans manquer de fantaisie : du cuir souple rehaussé de soie brodée.",
+    "status": "TranslationComplete",
+    "form_id": "02000D63|Alchemist's Vestments.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "KM_AVArmorCuirass"
+  },
+  {
+    "original": "A rain-resistant leather hood with a fur lining for comforting warmth. An alchemist's work carries on, rain or shine. ",
+    "string": "Un capuchon de cuir résistant à la pluie, doublé de fourrure pour tenir bien chaud. Qu'il pleuve ou que le soleil brille, l'alchimiste poursuit son ouvrage.",
+    "status": "TranslationComplete",
+    "form_id": "02000805|Alchemist's Vestments.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "KM_AVArmorHood"
+  }
+]

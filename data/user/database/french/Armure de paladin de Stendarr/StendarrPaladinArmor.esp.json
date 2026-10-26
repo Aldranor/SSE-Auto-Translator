@@ -1,0 +1,830 @@
+[
+  {
+    "original": "Stendarr's Celerity - Fortify Speed",
+    "string": "Célérité de Stendarr - Renfort de vitesse",
+    "status": "TranslationComplete",
+    "form_id": "0400082F|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCelerityAbFortifySpeedEffect"
+  },
+  {
+    "original": "You move <mag>% faster.",
+    "string": "Vous vous déplacez <mag> % plus vite.",
+    "status": "TranslationComplete",
+    "form_id": "0400082F|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCelerityAbFortifySpeedEffect"
+  },
+  {
+    "original": "Stendarr's Celerity - Fortify Stamina",
+    "string": "Célérité de Stendarr - Renfort de vigueur",
+    "status": "TranslationComplete",
+    "form_id": "04000832|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCelerityEnchFortifyStaminaConstantSelf"
+  },
+  {
+    "original": "Increases your stamina by <mag> points.",
+    "string": "Augmente votre vigueur de <mag> points.",
+    "status": "TranslationComplete",
+    "form_id": "04000832|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCelerityEnchFortifyStaminaConstantSelf"
+  },
+  {
+    "original": "Stendarr's Celerity - Regenerate Stamina",
+    "string": "Célérité de Stendarr - Récupération de vigueur",
+    "status": "TranslationComplete",
+    "form_id": "04000833|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCelerityEnchFortifyStaminaRateConstantSelf"
+  },
+  {
+    "original": "Stamina regenerates <mag>% faster.",
+    "string": "La vigueur se régénère <mag> % plus vite.",
+    "status": "TranslationComplete",
+    "form_id": "04000833|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCelerityEnchFortifyStaminaRateConstantSelf"
+  },
+  {
+    "original": "Stendarr's Strength - Fortify One-Handed",
+    "string": "Puissance de Stendarr - Renfort d'arme à une main",
+    "status": "TranslationComplete",
+    "form_id": "04000835|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsStrengthEnchFortifyOneHandedConstantSelf"
+  },
+  {
+    "original": "One-handed attacks do <mag>% more damage.",
+    "string": "Les attaques à une main infligent <mag> % de dégâts supplémentaires.",
+    "status": "TranslationComplete",
+    "form_id": "04000835|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsStrengthEnchFortifyOneHandedConstantSelf"
+  },
+  {
+    "original": "Stendarr's Strength - Fortify Two-Handed",
+    "string": "Puissance de Stendarr - Renfort d'arme à deux mains",
+    "status": "TranslationComplete",
+    "form_id": "04000836|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsStrengthEnchFortifyTwoHandedConstantSelf"
+  },
+  {
+    "original": "Two-handed attacks do <mag>% more damage.",
+    "string": "Les attaques à deux mains infligent <mag> % de dégâts supplémentaires.",
+    "status": "TranslationComplete",
+    "form_id": "04000836|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsStrengthEnchFortifyTwoHandedConstantSelf"
+  },
+  {
+    "original": "Stendarr's Strength - Fortify Blocking",
+    "string": "Puissance de Stendarr - Renfort de parade",
+    "status": "TranslationComplete",
+    "form_id": "04000839|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsStrengthEnchFortifyBlockConstantSelf"
+  },
+  {
+    "original": "Block <mag>% more damage with your shield.",
+    "string": "Parez <mag> % de dégâts supplémentaires avec votre bouclier.",
+    "status": "TranslationComplete",
+    "form_id": "04000839|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsStrengthEnchFortifyBlockConstantSelf"
+  },
+  {
+    "original": "Stendarr's Compassion I - Regenerate Magicka",
+    "string": "Compassion de Stendarr I - Regain magique",
+    "status": "TranslationComplete",
+    "form_id": "0400083B|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1EnchFortifyMagickaRateConstantSelf"
+  },
+  {
+    "original": "Magicka regenerates <mag>% faster.",
+    "string": "La récupération de magie est <mag> % plus rapide.",
+    "status": "TranslationComplete",
+    "form_id": "0400083B|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1EnchFortifyMagickaRateConstantSelf"
+  },
+  {
+    "original": "Stendarr's Compassion I - Fortify Restoration",
+    "string": "Compassion de Stendarr I - Renfort de restauration",
+    "status": "TranslationComplete",
+    "form_id": "0400083C|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1EnchFortifyRestorationConstantSelf"
+  },
+  {
+    "original": "Restoration spells cost <mag>% less to cast.",
+    "string": "Les sorts de guérison coûtent -<mag> %.",
+    "status": "TranslationComplete",
+    "form_id": "0400083C|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1EnchFortifyRestorationConstantSelf"
+  },
+  {
+    "original": "Stendarr's Compassion I - Inspired Support",
+    "string": "Compassion de Stendarr I - Soutien divin",
+    "status": "TranslationComplete",
+    "form_id": "0400083F|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1EnchInspireFriendlyHealCloakLinkerEffect"
+  },
+  {
+    "original": "Living allies within <mag> ft are healed <10> points per second.",
+    "string": "Les alliés vivants à moins de <mag> pieds récupèrent <10> points de santé par seconde.",
+    "status": "TranslationComplete",
+    "form_id": "0400083F|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1EnchInspireFriendlyHealCloakLinkerEffect"
+  },
+  {
+    "original": "Stendarr's Compassion I - Inspired Support - Health",
+    "string": "Compassion de Stendarr I - Soutien divin - Santé",
+    "status": "TranslationComplete",
+    "form_id": "04000840|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1EnchInspireFriendlyHealRestoreHealthHealingEffect"
+  },
+  {
+    "original": "Your ally heals you for <10> HPS whilst donning the Paladin of Stendarr Helm.",
+    "string": "Vous récupérez <10> points de santé par seconde lorsque vous portez le casque de paladin de Stendarr.",
+    "status": "TranslationComplete",
+    "form_id": "04000840|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1EnchInspireFriendlyHealRestoreHealthHealingEffect"
+  },
+  {
+    "original": "Stendarr's Compassion I - Inspired Recovery - Stamina",
+    "string": "Compassion de Stendarr I - Regain divin - Vigueur",
+    "status": "TranslationComplete",
+    "form_id": "04000842|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1EnchInspireFriendlyRecoveryRestoreStaminaHealingEffect"
+  },
+  {
+    "original": "Your ally supports you for <10> SPS whilst donning the Paladin of Stendarr Helm.",
+    "string": "Vous récupérez <10> points de vigueur par seconde lorsque vous portez le casque de paladin de Stendarr.",
+    "status": "TranslationComplete",
+    "form_id": "04000842|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1EnchInspireFriendlyRecoveryRestoreStaminaHealingEffect"
+  },
+  {
+    "original": "Stendarr's Compassion II - Regenerate Magicka",
+    "string": "Compassion de Stendarr II - Regain magique",
+    "status": "TranslationComplete",
+    "form_id": "04000844|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2EnchFortifyMagickaRateConstantSelf"
+  },
+  {
+    "original": "Magicka regenerates <mag>% faster.",
+    "string": "La récupération de magie est <mag> % plus rapide.",
+    "status": "TranslationComplete",
+    "form_id": "04000844|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2EnchFortifyMagickaRateConstantSelf"
+  },
+  {
+    "original": "Stendarr's Compassion II - Empower Restoration",
+    "string": "Compassion de Stendarr II - Renforcement de la restauration",
+    "status": "TranslationComplete",
+    "form_id": "04000845|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2EnchEmpowerRestorationConstantSelf"
+  },
+  {
+    "original": "Restoration spells are <mag>% more powerful.",
+    "string": "Les sorts de guérison sont <mag> % plus puissants.",
+    "status": "TranslationComplete",
+    "form_id": "04000845|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2EnchEmpowerRestorationConstantSelf"
+  },
+  {
+    "original": "Stendarr's Compassion II - Inspired Support",
+    "string": "Compassion de Stendarr II - Soutien divin",
+    "status": "TranslationComplete",
+    "form_id": "04000846|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2EnchInspireFriendlyHealCloakLinkerEffect"
+  },
+  {
+    "original": "Living allies within <mag> ft are healed <10> points per second.",
+    "string": "Les alliés vivants à moins de <mag> pieds récupèrent <10> points de santé par seconde.",
+    "status": "TranslationComplete",
+    "form_id": "04000846|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2EnchInspireFriendlyHealCloakLinkerEffect"
+  },
+  {
+    "original": "Stendarr's Compassion II - Inspired Support - Health",
+    "string": "Compassion de Stendarr II - Soutien divin - Santé",
+    "status": "TranslationComplete",
+    "form_id": "04000847|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2EnchInspireFriendlyHealRestoreHealthHealingEffect"
+  },
+  {
+    "original": "Your ally heals you for <10> HPS whilst donning the Paladin of Stendarr Great Helm.",
+    "string": "Vous récupérez <10> points de santé par seconde lorsque vous portez le heaume de paladin de Stendarr.",
+    "status": "TranslationComplete",
+    "form_id": "04000847|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2EnchInspireFriendlyHealRestoreHealthHealingEffect"
+  },
+  {
+    "original": "Stendarr's Compassion II - Inspired Recovery - Stamina",
+    "string": "Compassion de Stendarr II - Regain divin - Vigueur",
+    "status": "TranslationComplete",
+    "form_id": "04000848|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2EnchInspireFriendlyRecoveryRestoreStaminaHealingEffect"
+  },
+  {
+    "original": "Your ally supports you for <10> SPS whilst donning the Paladin of Stendarr Great Helm.",
+    "string": "Vous récupérez <10> points de vigueur par seconde lorsque vous portez le heaume de paladin de Stendarr.",
+    "status": "TranslationComplete",
+    "form_id": "04000848|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2EnchInspireFriendlyRecoveryRestoreStaminaHealingEffect"
+  },
+  {
+    "original": "Stendarr's Safeguard - Regenerate Health",
+    "string": "Protection de Stendarr - Récupération de santé",
+    "status": "TranslationComplete",
+    "form_id": "0400084B|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardEnchFortifyHealRateConstantSelf"
+  },
+  {
+    "original": "Health regenerates <mag>% faster.",
+    "string": "La santé se régénère <mag> % plus vite.",
+    "status": "TranslationComplete",
+    "form_id": "0400084B|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardEnchFortifyHealRateConstantSelf"
+  },
+  {
+    "original": "Stendarr's Safeguard - Resist Magic",
+    "string": "Protection de Stendarr - Résistance à la magie",
+    "status": "TranslationComplete",
+    "form_id": "0400084C|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardEnchResistMagicConstantSelf"
+  },
+  {
+    "original": "Increases Magic Resistance by <mag>%.",
+    "string": "Augmente la résistance à la magie de <mag> %.",
+    "status": "TranslationComplete",
+    "form_id": "0400084C|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardEnchResistMagicConstantSelf"
+  },
+  {
+    "original": "Stendarr's Safeguard - Biotic Resistance",
+    "string": "Protection de Stendarr - Résistance vitale",
+    "status": "TranslationComplete",
+    "form_id": "0400084D|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardEnchResistDiseaseConstantSelf"
+  },
+  {
+    "original": "Grants <mag>% resistance to disease and poisons.",
+    "string": "Octroie <mag> % de résistance aux maladies et aux poisons.",
+    "status": "TranslationComplete",
+    "form_id": "0400084D|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardEnchResistDiseaseConstantSelf"
+  },
+  {
+    "original": "Stendarr's Safeguard - Luminosity",
+    "string": "Protection de Stendarr - Luminosité",
+    "status": "TranslationComplete",
+    "form_id": "0400084F|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardLightFFSelf"
+  },
+  {
+    "original": "Radiate Celestial Light.",
+    "string": "Irradie de lumière céleste.",
+    "status": "TranslationComplete",
+    "form_id": "0400084F|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardLightFFSelf"
+  },
+  {
+    "original": "Stendarr's Safeguard - Solar Aura",
+    "string": "Protection de Stendarr - Aura solaire",
+    "status": "TranslationComplete",
+    "form_id": "04000851|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardDLC1SunCloakFFSelf"
+  },
+  {
+    "original": "During combat, a solar aura scorches nearby hostile undead for <15> DPS while dealing <half> that to others.",
+    "string": "Au combat, une aura solaire brûle les morts-vivants hostiles proches et leur inflige <15> points de dégâts solaires par seconde. Les autres ennemis subissent la <half> de ces dégâts.",
+    "status": "TranslationComplete",
+    "form_id": "04000851|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardDLC1SunCloakFFSelf"
+  },
+  {
+    "original": "Stendarr's Safeguard - Solar Aura - Scorch Undead",
+    "string": "Protection de Stendarr - Aura solaire - Brûlure des morts",
+    "status": "TranslationComplete",
+    "form_id": "04000853|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardDLC1SimDamageUndeadConcAimedCloak"
+  },
+  {
+    "original": "Stendarr's Safeguard - Solar Aura - Scorch",
+    "string": "Protection de Stendarr - Aura solaire - Brûlure",
+    "status": "TranslationComplete",
+    "form_id": "04000854|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardDLC1SimDamageConcAimedCloak"
+  },
+  {
+    "original": "Stendarr's Strength - Swift Swings",
+    "string": "Puissance de Stendarr - Coups rapides",
+    "status": "TranslationComplete",
+    "form_id": "04000861|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsStrengthEnchFortifyWeaponSpeedMultConstantSelf"
+  },
+  {
+    "original": "Swing weapons <20>% faster.",
+    "string": "La vitesse d’attaque avec les armes augmente de <20> %.",
+    "status": "TranslationComplete",
+    "form_id": "04000861|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsStrengthEnchFortifyWeaponSpeedMultConstantSelf"
+  },
+  {
+    "original": "Stendarr's Celerity - Fortify Carry Weight",
+    "string": "Célérité de Stendarr - Renfort de capacité d'emport",
+    "status": "TranslationComplete",
+    "form_id": "04000862|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCelerityEnchFortifyCarryConstantSelf"
+  },
+  {
+    "original": "Carrying capacity is increased by <mag> points.",
+    "string": "La capacité d'emport augmente de <mag> points.",
+    "status": "TranslationComplete",
+    "form_id": "04000862|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsCelerityEnchFortifyCarryConstantSelf"
+  },
+  {
+    "original": "Stendarr's Wrath - Expel",
+    "string": "Ire de Stendarr - Exorcisme",
+    "status": "TranslationComplete",
+    "form_id": "04000864|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsWrathEnchBanishFFContact"
+  },
+  {
+    "original": "Summoned Daedra up to level <mag> are sent back to Oblivion.",
+    "string": "Les Daedra invoqués de niveau <mag> et inférieur sont renvoyés en Oblivion.",
+    "status": "TranslationComplete",
+    "form_id": "04000864|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsWrathEnchBanishFFContact"
+  },
+  {
+    "original": "Stendarr's Wrath - Solar Scorch - Undead",
+    "string": "Ire de Stendarr - Brûlure solaire - Morts",
+    "status": "TranslationComplete",
+    "form_id": "04000865|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsWrathEnchSunDamageUndeadFFContact"
+  },
+  {
+    "original": "Scorches undead for <mag> points of solar damage while dealing <half> that to others.",
+    "string": "Brûle les morts-vivants de <mag> points de dégâts solaires tout en infligeant la <moitié> de ces dégâts aux autres.",
+    "status": "TranslationComplete",
+    "form_id": "04000865|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsWrathEnchSunDamageUndeadFFContact"
+  },
+  {
+    "original": "Stendarr's Wrath - Unrelenting Power",
+    "string": "Ire de Stendarr - Puissance inébranlable",
+    "status": "TranslationComplete",
+    "form_id": "04000866|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsWrathEnchUnrelentingPowerDropFFContact"
+  },
+  {
+    "original": "Power attacks have a chance to floor enemies to the ground.",
+    "string": "Les attaques puissantes ont une chance de projeter les adversaires au sol.",
+    "status": "TranslationComplete",
+    "form_id": "04000866|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsWrathEnchUnrelentingPowerDropFFContact"
+  },
+  {
+    "original": "Stendarr's Wrath - Solar Scorch - Others",
+    "string": "Ire de Stendarr - Brûlure solaire - Autres",
+    "status": "TranslationComplete",
+    "form_id": "04000867|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsWrathEnchSunDamageOthersFFContact"
+  },
+  {
+    "original": "Stendarr's Rebuke - Repel Undead",
+    "string": "Défense de Stendarr - Fléau des morts",
+    "status": "TranslationComplete",
+    "form_id": "0400086A|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsRebukeEnchSunShieldRepelUndeadFFContact"
+  },
+  {
+    "original": "Chance for undead up to level <50> to flee for <20> seconds when struck with this shield.",
+    "string": "Ce bouclier peut faire fuir pendant <20> secondes les morts-vivants de niveau <50> ou inférieur.",
+    "status": "TranslationComplete",
+    "form_id": "0400086A|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsRebukeEnchSunShieldRepelUndeadFFContact"
+  },
+  {
+    "original": "Stendarr's Rebuke - Eradicate Undead",
+    "string": "Défense de Stendarr - Éradication des morts",
+    "status": "TranslationComplete",
+    "form_id": "0400086C|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsRebukeSunShieldLinkerEffect"
+  },
+  {
+    "original": "Chance for undead up to level <50> to be set alight with sunfire and flee, suffering <10> solar DPS for <20> seconds when struck with this shield. Rare chance to <instantly kill> any undead upon striking.",
+    "string": "Ce bouclier peut embraser les morts-vivants de niveau <50> ou inférieur avec un feu solaire et les faire fuir. Ils subissent alors <10> points de dégâts solaires par seconde pendant <20> secondes. Une frappe peut aussi <instantly kill> un mort-vivant, mais rarement.",
+    "status": "TranslationComplete",
+    "form_id": "0400086C|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsRebukeSunShieldLinkerEffect"
+  },
+  {
+    "original": "Stendarr's Rebuke - Persisting Solar Flare",
+    "string": "Défense de Stendarr - Lueur solaire persistante",
+    "status": "TranslationComplete",
+    "form_id": "0400086D|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsRebukeEnchPersistingSolarFlareFFContactUndead"
+  },
+  {
+    "original": "Stendarr's Rebuke - Insta-Kill Undead",
+    "string": "Défense de Stendarr - Foudroiement des morts",
+    "status": "TranslationComplete",
+    "form_id": "0400086E|StendarrPaladinArmor.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsRebukeEnchInstaKillFFContactUndead"
+  },
+  {
+    "original": "A <5>% chance to instantly kill any undead struck by the Blessed Paladin of Stendarr Sun shield.",
+    "string": "Ce bouclier béni a <5> % de chances de tuer instantanément tout mort-vivant qu’il frappe.",
+    "status": "TranslationComplete",
+    "form_id": "0400086E|StendarrPaladinArmor.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "RXYStendarrsRebukeEnchInstaKillFFContactUndead"
+  },
+  {
+    "original": "Stendarr's Celerity",
+    "string": "Célérité de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "0400082E|StendarrPaladinArmor.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCelerityEnchant"
+  },
+  {
+    "original": "Stendarr's Strength",
+    "string": "Puissance de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "04000834|StendarrPaladinArmor.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsStrengthEnchant"
+  },
+  {
+    "original": "Stendarr's Compassion I",
+    "string": "Compassion de Stendarr I",
+    "status": "TranslationComplete",
+    "form_id": "0400083A|StendarrPaladinArmor.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1Enchant"
+  },
+  {
+    "original": "Stendarr's Compassion II",
+    "string": "Compassion de Stendarr II",
+    "status": "TranslationComplete",
+    "form_id": "04000843|StendarrPaladinArmor.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2Enchant"
+  },
+  {
+    "original": "Stendarr's Safeguard",
+    "string": "Protection de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "0400084A|StendarrPaladinArmor.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardEnchant"
+  },
+  {
+    "original": "Stendarr's Wrath",
+    "string": "Ire de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "04000863|StendarrPaladinArmor.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsWrathEnchant"
+  },
+  {
+    "original": "Stendarr's Rebuke",
+    "string": "Réprimande de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "04000868|StendarrPaladinArmor.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsRebukeEnchant"
+  },
+  {
+    "original": "Stendarr's Compassion I - Inspired Support",
+    "string": "Compassion de Stendarr I - Soutien divin",
+    "status": "TranslationComplete",
+    "form_id": "04000841|StendarrPaladinArmor.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion1InspiredSupportSpell"
+  },
+  {
+    "original": "Stendarr's Compassion II - Inspired Support",
+    "string": "Compassion de Stendarr II - Soutien divin",
+    "status": "TranslationComplete",
+    "form_id": "04000849|StendarrPaladinArmor.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsCompassion2InspiredSupportSpell"
+  },
+  {
+    "original": "Stendarr's Safeguard - Solar Aura DMG",
+    "string": "Stendarr's Safeguard - Solar Aura DMG",
+    "status": "TranslationComplete",
+    "form_id": "04000852|StendarrPaladinArmor.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsSafeguardDLC1SunCloakDmg"
+  },
+  {
+    "original": "Stendarr's Rebuke - Eradicate Undead",
+    "string": "Défense de Stendarr - Éradication des morts",
+    "status": "TranslationComplete",
+    "form_id": "0400086B|StendarrPaladinArmor.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsRebukeSunShieldRepelUndeadSpell"
+  },
+  {
+    "original": "Paladin of Stendarr Great Helm",
+    "string": "Heaume de paladin de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "04000804|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYDIS_Stendarr_Helmet_M"
+  },
+  {
+    "original": "Paladin of Stendarr Gauntlets",
+    "string": "Gantelets de paladin de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "04000806|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYDIS_Stendarr_Gauntlets_H"
+  },
+  {
+    "original": "Paladin of Stendarr Helm",
+    "string": "Casque de paladin de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "0400080B|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYDIS_Stendarr_Helmet_H"
+  },
+  {
+    "original": "Paladin of Stendarr Armor",
+    "string": "Armure de paladin de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "0400080D|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYDIS_Stendarr_Armor_Paladin"
+  },
+  {
+    "original": "Paladin of Stendarr Boots",
+    "string": "Bottes de paladin de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "0400080F|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYDIS_Stendarr_Boots_Plate"
+  },
+  {
+    "original": "Paladin of Stendarr Sun Shield",
+    "string": "Bouclier de paladin de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "04000811|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYDIS_Stendarr_Shield_H"
+  },
+  {
+    "original": "Blessed Paladin of Stendarr Armor",
+    "string": "Armure de paladin de Stendarr bénie",
+    "status": "TranslationComplete",
+    "form_id": "04000826|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYEnchDIS_Stendarr_Armor_Paladin"
+  },
+  {
+    "original": "Blessed Paladin of Stendar Boots",
+    "string": "Bottes de paladin de Stendarr bénies",
+    "status": "TranslationComplete",
+    "form_id": "04000827|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYEnchDIS_Stendarr_Boots_Plate"
+  },
+  {
+    "original": "Blessed Paladin of Stendarr Gauntlets",
+    "string": "Gantelets de paladin de Stendarr bénis",
+    "status": "TranslationComplete",
+    "form_id": "04000828|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYEnchDIS_Stendarr_Gauntlets_H"
+  },
+  {
+    "original": "Blessed Paladin of Stendarr Helm",
+    "string": "Casque de paladin de Stendarr béni",
+    "status": "TranslationComplete",
+    "form_id": "04000829|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYEnchDIS_Stendarr_Helmet_H"
+  },
+  {
+    "original": "Blessed Paladin of Stendarr Great Helm",
+    "string": "Heaume de paladin de Stendarr béni",
+    "status": "TranslationComplete",
+    "form_id": "0400082A|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYEnchDIS_Stendarr_Helmet_M"
+  },
+  {
+    "original": "Blessed Paladin of Stendarr Sun Shield",
+    "string": "Bouclier de paladin de Stendarr béni",
+    "status": "TranslationComplete",
+    "form_id": "0400082B|StendarrPaladinArmor.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "RXYEnchDIS_Stendarr_Shield_H"
+  },
+  {
+    "original": "Paladin of Stendarr Morning Star",
+    "string": "Masse de paladin de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "0400081A|StendarrPaladinArmor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RXYDIS_Stendarr_Mace"
+  },
+  {
+    "original": "Paladin of Stendarr Warhammer",
+    "string": "Marteau de paladin de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "0400081B|StendarrPaladinArmor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RXYDIS_Stendarr_Warhammer"
+  },
+  {
+    "original": "Blessed Paladin of Stendarr Morning Star",
+    "string": "Masse de paladin de Stendarr bénie",
+    "status": "TranslationComplete",
+    "form_id": "0400082C|StendarrPaladinArmor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RXYEnchDIS_Stendarr_Mace"
+  },
+  {
+    "original": "Blessed Paladin of Stendarr Warhammer",
+    "string": "Marteau de paladin de Stendarr béni",
+    "status": "TranslationComplete",
+    "form_id": "0400082D|StendarrPaladinArmor.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "RXYEnchDIS_Stendarr_Warhammer"
+  },
+  {
+    "original": "Paladin of Stendarr Sun Shield Perk",
+    "string": "Atout du bouclier solaire du paladin de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "04000869|StendarrPaladinArmor.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "RXYStendarrsRebukeSunShieldPerk"
+  },
+  {
+    "original": "Stendarr's Paladin - Undead Resistance",
+    "string": "Paladin de Stendarr - Résistance aux morts-vivants",
+    "status": "TranslationComplete",
+    "form_id": "0400086F|StendarrPaladinArmor.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "RXYStendarrPaladinArmorMatchingSetItemResistUndeadDMGPerk"
+  },
+  {
+    "original": "Wearing a full set of Stendarr Paladin armor grants increased resistance against attacks by undead.",
+    "string": "Porter une armure complète de paladin de Stendarr octroie une meilleure résistance aux attaques des morts-vivants.",
+    "status": "TranslationComplete",
+    "form_id": "0400086F|StendarrPaladinArmor.esp",
+    "type": "PERK DESC",
+    "index": null,
+    "editor_id": "RXYStendarrPaladinArmorMatchingSetItemResistUndeadDMGPerk"
+  }
+]

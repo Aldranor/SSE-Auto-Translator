@@ -1,0 +1,497 @@
+[
+  {
+    "original": "Locust",
+    "string": "Sauterelle",
+    "status": "TranslationComplete",
+    "form_id": "0200083E|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "DCRLocustRace"
+  },
+  {
+    "original": "DCR DC Effect",
+    "string": "Souffle de vertu",
+    "status": "TranslationComplete",
+    "form_id": "0200080D|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "DCRDCEffect"
+  },
+  {
+    "original": "Whosoever wields this weapon and finds themselves near death; their power attacks may call upon <Breath of Righteousness> to severely knock back an attacker.",
+    "string": "Quiconque manie cette arme et se trouve près de la mort verra sa puissance d'attaque faire appel au <souffle de vertu> pour faire reculer son attaquant.",
+    "status": "TranslationComplete",
+    "form_id": "0200080D|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "DCRDCEffect"
+  },
+  {
+    "original": "Fire Damage",
+    "string": "Dégâts de feu",
+    "status": "TranslationComplete",
+    "form_id": "02000816|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "DCRWhiteFireEnchantME"
+  },
+  {
+    "original": "Smite your enemies with <Consuming Fire> doing <mag> points of damage every second for <dur> seconds. In addition, killing undead has a chance to cause Judgement that turns or destroys nearby undead.",
+    "string": "Châtiez vos ennemis avec le <feu dévorant> qui inflige <mag> points de dégats chaque seconde pour <dur> secondes. De plus, tuer un mort-vivant a une chance de lancer Jugement qui aura pour effet de blesser ou de détruire les autres morts-vivants proches.",
+    "status": "TranslationComplete",
+    "form_id": "02000816|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "DCRWhiteFireEnchantME"
+  },
+  {
+    "original": "Locust Storm",
+    "string": "Tempête de sauterelles",
+    "status": "TranslationComplete",
+    "form_id": "0200083A|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "DCRLocustStormEffect"
+  },
+  {
+    "original": "Summons Locust Storm spell for <dur> seconds.",
+    "string": "Fait apparaître une tempête de sauterelles pendant <dur> secondes.",
+    "status": "TranslationComplete",
+    "form_id": "0200083A|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "DCRLocustStormEffect"
+  },
+  {
+    "original": "Breath Of Righteousness",
+    "string": "Souffle de vertu",
+    "status": "TranslationComplete",
+    "form_id": "0200080C|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "DCRDCEnchant"
+  },
+  {
+    "original": "DCR Dyanmis DB Enchant",
+    "string": "Feu dévorant",
+    "status": "TranslationComplete",
+    "form_id": "02000817|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "DCRDynamisDBEnchant"
+  },
+  {
+    "original": "DCR Bane Spell",
+    "string": "Sort de Fléau",
+    "status": "TranslationComplete",
+    "form_id": "02000819|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "DCRBaneSpell"
+  },
+  {
+    "original": "Locust Storm III",
+    "string": "Tempête de sauterelles III",
+    "status": "TranslationComplete",
+    "form_id": "02000841|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "DCRLocustStormSpell3"
+  },
+  {
+    "original": "Rain pestilence on your enemies summoning 10, locust for 60 seconds, within 150 feet.",
+    "string": "Abat sur votre ennemi une tempête pestilentielle de 10 sauterelles, pendant 60 secondes et dans un rayon de 50 mètres.",
+    "status": "TranslationComplete",
+    "form_id": "02000841|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "DCRLocustStormSpell3"
+  },
+  {
+    "original": "Locust Storm II",
+    "string": "Tempête de sauterelles II",
+    "status": "TranslationComplete",
+    "form_id": "0200084E|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "DCRLocustStormSpell2"
+  },
+  {
+    "original": "Rain pestilence on your enemies summoning 5 locust, for 30 seconds, within 100 feet.",
+    "string": "Abat sur votre ennemi une tempête pestilentielle de 5 sauterelles, pendant 30 secondes et dans un rayon de 30 mètres.",
+    "status": "TranslationComplete",
+    "form_id": "0200084E|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "DCRLocustStormSpell2"
+  },
+  {
+    "original": "Locust Storm I",
+    "string": "Tempête de sauterelles I",
+    "status": "TranslationComplete",
+    "form_id": "0200084F|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "DCRLocustStormSpell1"
+  },
+  {
+    "original": "Rain pestilence on your enemies summoning 2, locust for 30 seconds within 50 feet.",
+    "string": "Abat sur votre ennemi une tempête pestilentielle de 5 sauterelles, pendant 30 secondes et dans un rayon de 15 mètres.",
+    "status": "TranslationComplete",
+    "form_id": "0200084F|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "DCRLocustStormSpell1"
+  },
+  {
+    "original": "Defender Defence - Light",
+    "string": "Dague du Défenseur (légère)",
+    "status": "TranslationComplete",
+    "form_id": "02000826|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRRDefenderArmorL"
+  },
+  {
+    "original": "Defender Defence - Heavy",
+    "string": "Dague du Défenseur (lourde)",
+    "status": "TranslationComplete",
+    "form_id": "0200082A|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRRDefenderArmorH"
+  },
+  {
+    "original": "Hell Slayer Gauntlets - H",
+    "string": "Gantelets du Pourfendeur infernal (lourds)",
+    "status": "TranslationComplete",
+    "form_id": "0200082C|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderGauntletsMH"
+  },
+  {
+    "original": "Boots of Consecration - H",
+    "string": "Bottes de consécration (lourdes)",
+    "status": "TranslationComplete",
+    "form_id": "0200082E|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderBootsMH"
+  },
+  {
+    "original": "Fearless Priest Robes - H",
+    "string": "Robe du prêtre intrépide (lourde)",
+    "status": "TranslationComplete",
+    "form_id": "02000830|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderRobeMH"
+  },
+  {
+    "original": "Allows the wearer to summon up to 30 locust and cast the Locust Storm spells.",
+    "string": "Le porteur peut invoquer une nuée de 30 sauterelles, ainsi que lancer les sorts Tempête de sauterelles.",
+    "status": "TranslationComplete",
+    "form_id": "02000830|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "DCRKingCrusaderRobeMH"
+  },
+  {
+    "original": "Diadema Hood - H",
+    "string": "Capuche Diadema (lourde)",
+    "status": "TranslationComplete",
+    "form_id": "02000833|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderHoodMH"
+  },
+  {
+    "original": "Boots of Consecration - L",
+    "string": "Bottes de consécration (légères)",
+    "status": "TranslationComplete",
+    "form_id": "0200085C|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderBootsML"
+  },
+  {
+    "original": "Hell Slayer Gauntlets - L",
+    "string": "Gantelets du Pourfendeur infernal (légers)",
+    "status": "TranslationComplete",
+    "form_id": "0200085D|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderGauntletsML"
+  },
+  {
+    "original": "Fearless Priest Robes - L",
+    "string": "Robe du prêtre intrépide (légère)",
+    "status": "TranslationComplete",
+    "form_id": "0200085E|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderRobeML"
+  },
+  {
+    "original": "Allows the wearer to summon up to 30 locust and cast the Locust Storm spells.",
+    "string": "Le porteur peut invoquer une nuée de 30 sauterelles, ainsi que lancer les sorts Tempête de sauterelles.",
+    "status": "TranslationComplete",
+    "form_id": "0200085E|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "DCRKingCrusaderRobeML"
+  },
+  {
+    "original": "Diadema Hood - L",
+    "string": "Capuche Diadema (légère)",
+    "status": "TranslationComplete",
+    "form_id": "0200085F|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderHoodML"
+  },
+  {
+    "original": "Fearless Priest Robes - H",
+    "string": "Robe du prêtre intrépide (lourde)",
+    "status": "TranslationComplete",
+    "form_id": "0200086C|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderRobeMHNE"
+  },
+  {
+    "original": "Fearless Priest Robes - L",
+    "string": "Robe du prêtre intrépide (légère)",
+    "status": "TranslationComplete",
+    "form_id": "0200086D|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderRobeMLNE"
+  },
+  {
+    "original": "Acilius",
+    "string": "Lettre à Acilius Bolar",
+    "status": "TranslationComplete",
+    "form_id": "0200080A|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "DCRRChestNote"
+  },
+  {
+    "original": "<font face='$HandwrittenBold'>\r\n\r\nAcilius, we've heard about your misfortune since the closing of the Oblivion gates and the death of Martin Septim. I regret our forces didn't stay around longer after their destruction. We assumed after our great victory there would be peace and celebration across the lands, but it appears that didn't last long.\r\n\r\nI know Thalmor is jealous of The Blades and seeks to stamp them from the memory of men, which we don't agree with. Most of our army has left Cyrodiil but I'm sending three of my crusader monks to your aid. I instructed them to leave you weapons and supplies if they're unable to find you. Rumor has it two other Blades or maybe even more have escaped, I hope this is true.\r\n\r\nIn this inventory you will find The Dynamis War Blade, a monk's primary weapon, and an armor penetrating ballock dagger. If you have any blacksmiths with you they will need Extracted Sanctified Light to do any kind of crafting or refinement on our weapons and armor, I included out last for samples.\r\n</font>",
+    "string": "<font face='$HandwrittenBold'>\n\nAcilius, nous avons entendu parler de ta mésaventure lors de la fermeture des portes d'Oblivion et de la mort de Martin Septim. Je regrette que nos troupes ne soient pas restées plus longtemps après leur destruction. Nous pensions qu'après notre grande victoire, il y aurait paix et célébrations partout sur ces terres, mais il est apparu que cela ne pouvait durer.\n\nJe sais que le Thalmor est jaloux des Lames et cherche à les supprimer de la mémoire des hommes, ce que je ne peux laisser faire sans agir. Le plus gros de notre armée a quitté Cyrodiil, mais j'ai envoyé trois Croisés à ton secours. Je leur ai dit de te laisser armes et provisions s'ils n'arrivaient pas à te trouver. Par ailleurs, des rumeurs disent que deux autres Lames sont parvenues à s'échapper, j'espère que celles-ci sont vraies.\n\nDans cet inventaire, tu trouveras la lame de guerre Dynamis, une arme de moine, ainsi que Défenseur. Si tu as une forge utilisable à proximité, tu pourras utiliser l'extrait de lumière sainte pour améliorer ces lames. J'ai inclus les derniers échantillons disponibles dans la cargaison.\n</font>",
+    "status": "TranslationComplete",
+    "form_id": "0200080A|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "DCRRChestNote"
+  },
+  {
+    "original": "Locust Storm III",
+    "string": "Tempête de sauterelles III",
+    "status": "TranslationComplete",
+    "form_id": "02000840|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "DCRLocustStormBook3"
+  },
+  {
+    "original": "Locust Storm II",
+    "string": "Tempête de sauterelles II",
+    "status": "TranslationComplete",
+    "form_id": "02000850|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "DCRLocustStormBook2"
+  },
+  {
+    "original": "Locust Storm I",
+    "string": "Tempête de sauterelles I",
+    "status": "TranslationComplete",
+    "form_id": "02000851|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "DCRLocustStormBook1"
+  },
+  {
+    "original": "Farewell Jauffre",
+    "string": "Adieu, Jauffre",
+    "status": "TranslationComplete",
+    "form_id": "0200086B|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "DCRLetter_001"
+  },
+  {
+    "original": "<p align='center'><font size='26'>\r\n\r\nSince the Oblivion crisis is over and the Necromancers have been driven from Tamriel we will be retuning home to attend to other matters. Im sure the The Mages and Fighters guild can take care of any other problems that may arise.\r\n\r\nIm leaving you my dagger and a list of materials needed to reforge our armor if the need ever arises. Keep it closely guarded as the wearer of the Fearless Priest Robes can summon a storm of locust and rain plague on both friend and foe alike! We wouldn't want this to fall into the wrong hands.\r\n\r\nFarewell Jauffre, its been an honor fighting at your side.\r\n\r\n- King Crusader Grand Master\r\n\r\nEXTRACTED HOLY LIGHT (smelting)\r\n- Bone Meal 1\r\n- Ectoplasm 1\r\n- Ingot Steel 1\r\n\r\nARMOR\r\n- Extracted Light 1\r\n- Leather 2\r\n- Leather Strips 2\r\n- Ingot Steel 5\r\n</font></p>\r\n",
+    "string": "<p align='center'><font size='26'>Messire Jauffre,\n\nDepuis que la crise d'Oblivion est terminée et les nécromanciens bannis, nous avons pu rentrer chez nous. Je suis certain que l'Ordre des Psijiques ainsi que les Guildes des mages et des guerriers s'occuperont correctement des soucis qui pourraient apparaître à l'avenir.\n\nJe vous cède ma dague ainsi qu'une liste de matériaux requis pour reforger l'armure des Croisés, si le besoin se refait sentir.\r\n\nPrenez-en bien soin, ne la laissez pas tomber entre de mauvaises mains. Car celui qui s'équipe de mon armure, l'armure du Roi sauterelle, détient le pouvoir d'invoquer une nuée de sauterelles ravageuse s'abattant sur les ennemis comme sur les alliés.\n\nMessire Jauffre, ces adieux sont mon legs à la prochaine génération de l'Ordre des Croisés. Ce fut un honneur de me battre à vos côtés,\n\nRoi sauterelle, Grand Maître de l'Ordre des Croisés\n\n\nArmure du Roi sauterelle\n- Extrait de lumière sainte (1)\n- Cuir (2)\n- Bandes de cuir (2)\n- Lingots d'acier (5)\n\nExtrait de lumière sainte - Fonderie\n- Farine d'os (1)\n- Ectoplasme (1)\n- Lingot d'acier (1)</font>",
+    "status": "TranslationComplete",
+    "form_id": "0200086B|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "DCRLetter_001"
+  },
+  {
+    "original": "An old chest from Cyrodiil",
+    "string": "Vieux coffre cyrodiilien",
+    "status": "TranslationComplete",
+    "form_id": "0200081A|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "DCRRContentChest01"
+  },
+  {
+    "original": "Rusted Chest From Cyrodiil",
+    "string": "Coffre rouillé cyrodiilien",
+    "status": "TranslationComplete",
+    "form_id": "02000836|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "DCRKingCrusaderChest01"
+  },
+  {
+    "original": "Extracted Sanctified Light",
+    "string": "Extrait de lumière sanctifiée",
+    "status": "TranslationComplete",
+    "form_id": "02000829|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "MISC FULL",
+    "index": null,
+    "editor_id": "DCRRExtractedSanctifiedLightItem"
+  },
+  {
+    "original": "Extracted Holy Light",
+    "string": "Extrait de lumière sainte",
+    "status": "TranslationComplete",
+    "form_id": "02000838|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "MISC FULL",
+    "index": null,
+    "editor_id": "DCRExtractedLight"
+  },
+  {
+    "original": "Dynamis 1H -  Breath Of Righteousness",
+    "string": "Dynamis - Souffle de vertu",
+    "status": "TranslationComplete",
+    "form_id": "02000803|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DCRRDynamis1HBreathOfRighteousness"
+  },
+  {
+    "original": "Dynamis 2H -  Breath Of Righteousness",
+    "string": "Dynamis longue - Souffle de vertu",
+    "status": "TranslationComplete",
+    "form_id": "02000804|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DCRRDynamis2HBreathOfRighteousness"
+  },
+  {
+    "original": "Dynamis 1H - Consuming Fire",
+    "string": "Dynamis - Feu dévorant",
+    "status": "TranslationComplete",
+    "form_id": "02000812|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DCRRDynamis1HConsumingFire"
+  },
+  {
+    "original": "Dynamis 2H - Consuming Fire",
+    "string": "Dynamis longue - Feu dévorant",
+    "status": "TranslationComplete",
+    "form_id": "02000813|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DCRRDynamis2HConsumingFire"
+  },
+  {
+    "original": "Dynamis 1H",
+    "string": "Dynamis",
+    "status": "TranslationComplete",
+    "form_id": "0200081C|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DCRRDynamis1H"
+  },
+  {
+    "original": "Dynamis 2H",
+    "string": "Dynamis longue",
+    "status": "TranslationComplete",
+    "form_id": "0200081F|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DCRRDynamis2H"
+  },
+  {
+    "original": "Defender",
+    "string": "Défenseur",
+    "status": "TranslationComplete",
+    "form_id": "02000823|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DCRRDefenderWPN"
+  },
+  {
+    "original": "Crucifix Shoulder Dagger",
+    "string": "Dague crucifix",
+    "status": "TranslationComplete",
+    "form_id": "02000834|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DCRCrucifixDagger"
+  },
+  {
+    "original": "King Locust",
+    "string": "Roi sauterelle",
+    "status": "TranslationComplete",
+    "form_id": "0200083D|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "SummonDCRLocust"
+  },
+  {
+    "original": "DCR DC Push Projectile",
+    "string": "DCR DC Push Projectile",
+    "status": "TranslationComplete",
+    "form_id": "0200080E|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "PROJ FULL",
+    "index": null,
+    "editor_id": "DCRDCPushProjectile"
+  },
+  {
+    "original": "Glow",
+    "string": "Lueur",
+    "status": "TranslationComplete",
+    "form_id": "02000849|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "HAZD FULL",
+    "index": null,
+    "editor_id": "DCRSummonFXLightHazard"
+  },
+  {
+    "original": "Bloated Man's Grotto",
+    "string": "Grotte du Bouffi",
+    "status": "TranslationComplete",
+    "form_id": "0001FAE2|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "BloatedMansGrottoWorld"
+  },
+  {
+    "original": "DCR Twin Souls",
+    "string": "Âmes jumelles",
+    "status": "TranslationComplete",
+    "form_id": "0200083F|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "DCRTwinSouls"
+  },
+  {
+    "original": "You are able to summon up to 30 Locust Storm summons.",
+    "string": "You are able to summon up to 30 Locust Storm summons.",
+    "status": "TranslationComplete",
+    "form_id": "0200083F|DCR_KingCrusaderMegaPack_SSE.esp",
+    "type": "PERK DESC",
+    "index": null,
+    "editor_id": "DCRTwinSouls"
+  }
+]

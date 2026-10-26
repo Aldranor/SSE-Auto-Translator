@@ -1,0 +1,839 @@
+[
+  {
+    "original": "Black Archmage Hood (L)",
+    "string": "Capuchon d'archimage noir (léger)",
+    "status": "TranslationComplete",
+    "form_id": "020008B1|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherLightHead"
+  },
+  {
+    "original": "Black Archmage Ebony Armor (H)",
+    "string": "Armure d’archimage noir en ébonite (lourde)",
+    "status": "TranslationComplete",
+    "form_id": "0200086A|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyHeavyChest"
+  },
+  {
+    "original": "Black Mage Plate Helm (H)",
+    "string": "Casque de mage noir en plates (lourd)",
+    "status": "TranslationComplete",
+    "form_id": "0200081B|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMagePlateHeavyHead"
+  },
+  {
+    "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
+    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "status": "TranslationComplete",
+    "form_id": "020008BF|Black Mage Armor SE.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyHeavyChestEnch"
+  },
+  {
+    "original": "Black Archmage Plate Helm (H)",
+    "string": "Casque d’archimage noir en plates (lourd)",
+    "status": "TranslationComplete",
+    "form_id": "020008CA|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateHeavyHeadEnch"
+  },
+  {
+    "original": "Black Archmage Armguards",
+    "string": "Brassards d'archimage noirs ",
+    "status": "TranslationComplete",
+    "form_id": "020008AD|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherClothesHandsV1"
+  },
+  {
+    "original": "Arch-Mage's Quarters",
+    "string": "Quartiers de l'archimage",
+    "status": "TranslationComplete",
+    "form_id": "000CAB92|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WinterholdCollegeArchMageQuarters"
+  },
+  {
+    "original": "Black Mage Plate Gloves (H)",
+    "string": "Gants de mage noir en plates (lourds)",
+    "status": "TranslationComplete",
+    "form_id": "02000819|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMagePlateHeavyHands"
+  },
+  {
+    "original": "Black Mage Mask",
+    "string": "Masque de mage noir",
+    "status": "TranslationComplete",
+    "form_id": "02000831|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageMask"
+  },
+  {
+    "original": "Reko's Black Mage Armor Chest",
+    "string": "Coffre - Armure de mage noire",
+    "status": "TranslationComplete",
+    "form_id": "02000909|Black Mage Armor SE.esp",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "BlackMageRekoChest"
+  },
+  {
+    "original": "Black Archmage Gloves (L)",
+    "string": "Gants d'archimage noirs (légers)",
+    "status": "TranslationComplete",
+    "form_id": "020008B3|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherLightHandsV2"
+  },
+  {
+    "original": "Black Archmage Boots",
+    "string": "Bottes d'archimage noires",
+    "status": "TranslationComplete",
+    "form_id": "0200084C|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherClothesFeet"
+  },
+  {
+    "original": "Archmage Chest",
+    "string": "Coffre d'archimage",
+    "status": "TranslationComplete",
+    "form_id": "020008D7|Black Mage Armor SE.esp",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "BlackMageContainer"
+  },
+  {
+    "original": "Black Mage Ebony Boots (H)",
+    "string": "Bottes de mage noir en ébonite (lourdes)",
+    "status": "TranslationComplete",
+    "form_id": "0200083B|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageEbonyHeavyFeet"
+  },
+  {
+    "original": "Black Mage Ebony Armor (H)",
+    "string": "Armure de mage noir en ébonite (lourde)",
+    "status": "TranslationComplete",
+    "form_id": "02000839|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageEbonyHeavyChest"
+  },
+  {
+    "original": "Black Mage Armguards (L)",
+    "string": "Brassards de mage noirs d'ébonite (légers)",
+    "status": "TranslationComplete",
+    "form_id": "02000D72|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherLightHandsV1"
+  },
+  {
+    "original": "Black Mage Mantled Hood (L)",
+    "string": "Capuchon couvert de mage noir (léger)",
+    "status": "TranslationComplete",
+    "form_id": "02000828|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherLightHeadV2"
+  },
+  {
+    "original": "Black Mage Ebony Gloves (L)",
+    "string": "Gants de mage noir en ébonite (légers)",
+    "status": "TranslationComplete",
+    "form_id": "02000852|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageEbonyLightHands"
+  },
+  {
+    "original": "Black Archmage Ebony Gloves (H)",
+    "string": "Gants d’archimage noir en ébonite (lourds)",
+    "status": "TranslationComplete",
+    "form_id": "0200086F|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyHeavyHands"
+  },
+  {
+    "original": "Black Archmage Ebony Helm (L)",
+    "string": "Casque d’archimage noir en ébonite (léger)",
+    "status": "TranslationComplete",
+    "form_id": "020008C2|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyLightHeadEnch"
+  },
+  {
+    "original": "Black Archmage Plate Helm (L)",
+    "string": "Casque d’archimage noir en plates (léger)",
+    "status": "TranslationComplete",
+    "form_id": "0200089A|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateLightHead"
+  },
+  {
+    "original": "Black Archmage Plate Gloves (L)",
+    "string": "Gants d’archimage noir en plates (légers)",
+    "status": "TranslationComplete",
+    "form_id": "02000899|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateLightHands"
+  },
+  {
+    "original": "Black Archmage Circlet",
+    "string": "Couronne d'archimage noire",
+    "status": "TranslationComplete",
+    "form_id": "020008E3|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherClothesCirclet"
+  },
+  {
+    "original": "Black Archmage Plate Boots (L)",
+    "string": "Bottes d’archimage noir en plates (légères)",
+    "status": "TranslationComplete",
+    "form_id": "02000898|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateLightFeet"
+  },
+  {
+    "original": "Black Mage College Boots (L)",
+    "string": "Bottes de mage noir de l’Académie (légères)",
+    "status": "TranslationComplete",
+    "form_id": "020008F0|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageJMLightFeet"
+  },
+  {
+    "original": "Black Mage Hood (L)",
+    "string": "Capuchon de mage noir (léger)",
+    "status": "TranslationComplete",
+    "form_id": "02000D71|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherLightHeadV1"
+  },
+  {
+    "original": "Black Mage Handwraps (L)",
+    "string": "Gants de mage noirs (légers)",
+    "status": "TranslationComplete",
+    "form_id": "020008F1|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageJMLightHands"
+  },
+  {
+    "original": "Black Mage College Robes (L)",
+    "string": "Robe de mage noir de l’Académie (légère)",
+    "status": "TranslationComplete",
+    "form_id": "020008EF|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageJMLightChest"
+  },
+  {
+    "original": "Black Archmage Plate Armor (L)",
+    "string": "Armure d’archimage noir en plates (légère)",
+    "status": "TranslationComplete",
+    "form_id": "020008CB|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateLightChestEnch"
+  },
+  {
+    "original": "Black Mage Plate Boots (L)",
+    "string": "Bottes de mage noir en plates (légères)",
+    "status": "TranslationComplete",
+    "form_id": "02000884|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMagePlateLightFeet"
+  },
+  {
+    "original": "Black Archmage Hood",
+    "string": "Capuchon d'archimage noir",
+    "status": "TranslationComplete",
+    "form_id": "0200084D|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherClothesHead"
+  },
+  {
+    "original": "Black Mage Hood w/Scarf",
+    "string": "Capuchon de mage noir sans écharpe ",
+    "status": "TranslationComplete",
+    "form_id": "020008EC|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageJMClothesHead"
+  },
+  {
+    "original": "Black Mage Boots (L)",
+    "string": "Bottes de mage noires (légères)",
+    "status": "TranslationComplete",
+    "form_id": "020008A4|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherLightFeetV2"
+  },
+  {
+    "original": "Black Mage Matching Set",
+    "string": "Ensemble de mage noir",
+    "status": "TranslationComplete",
+    "form_id": "020008DC|Black Mage Armor SE.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "BlackMageMatchingSet"
+  },
+  {
+    "original": "Black Mage Ebony Helm (H)",
+    "string": "Casque de mage noir en ébonite (lourd)",
+    "status": "TranslationComplete",
+    "form_id": "0200083C|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageEbonyHeavyHead"
+  },
+  {
+    "original": "Black Archmage Ebony Armor (L)",
+    "string": "Armure d’archimage noir en ébonite (légère)",
+    "status": "TranslationComplete",
+    "form_id": "02000878|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyLightChest"
+  },
+  {
+    "original": "Black Mage Focusing Gem",
+    "string": "Gemme focale de mage noire",
+    "status": "TranslationComplete",
+    "form_id": "020008BE|Black Mage Armor SE.esp",
+    "type": "MISC FULL",
+    "index": null,
+    "editor_id": "BlackMageFocusingGem"
+  },
+  {
+    "original": "Black Mage College Boots",
+    "string": "Bottes de mage noires de l'Académie",
+    "status": "TranslationComplete",
+    "form_id": "020008EB|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageJMClothesFeet"
+  },
+  {
+    "original": "Black Archmage Ebony Boots (L)",
+    "string": "Bottes d’archimage noir en ébonite (légères)",
+    "status": "TranslationComplete",
+    "form_id": "02000879|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyLightFeet"
+  },
+  {
+    "original": "Black Archmage Plate Gloves (H)",
+    "string": "Gants d’archimage noir en plates (lourds)",
+    "status": "TranslationComplete",
+    "form_id": "0200088E|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateHeavyHands"
+  },
+  {
+    "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
+    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "status": "TranslationComplete",
+    "form_id": "020008CB|Black Mage Armor SE.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateLightChestEnch"
+  },
+  {
+    "original": "Black Mage Boots",
+    "string": "Bottes de mage noires",
+    "status": "TranslationComplete",
+    "form_id": "02000808|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherClothesFeetV2"
+  },
+  {
+    "original": "Black Mage Plate Armor (H)",
+    "string": "Armure de mage noir en plates (lourde)",
+    "status": "TranslationComplete",
+    "form_id": "0200081A|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMagePlateHeavyChest"
+  },
+  {
+    "original": "Black Mage Ebony Gloves (H)",
+    "string": "Gants de mage noir en ébonite (lourds)",
+    "status": "TranslationComplete",
+    "form_id": "0200083A|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageEbonyHeavyHands"
+  },
+  {
+    "original": "Black Mage Plate Gloves (L)",
+    "string": "Gants de mage noir en plates (légers)",
+    "status": "TranslationComplete",
+    "form_id": "02000885|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMagePlateLightHands"
+  },
+  {
+    "original": "Additional 25% Armor bonus if wearing a matched set of Black Mage Light Ebony/Steel.",
+    "string": "25% de bonus d'armure supplémentaire si un ensemble léger complet de mage noir d'ébonite/de plates est porté.",
+    "status": "TranslationComplete",
+    "form_id": "020008DC|Black Mage Armor SE.esp",
+    "type": "PERK DESC",
+    "index": null,
+    "editor_id": "BlackMageMatchingSet"
+  },
+  {
+    "original": "Black Mage Gloves (L)",
+    "string": "Gants de mage noirs (légers)",
+    "status": "TranslationComplete",
+    "form_id": "020008A3|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherLightHandsV2"
+  },
+  {
+    "original": "Black Mage Mantled Robes",
+    "string": "Robe couverte de mage noire",
+    "status": "TranslationComplete",
+    "form_id": "0200080B|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherClothesChest"
+  },
+  {
+    "original": "Black Mage Ebony Boots (L)",
+    "string": "Bottes de mage noir en ébonite (légères)",
+    "status": "TranslationComplete",
+    "form_id": "02000850|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageEbonyLightFeet"
+  },
+  {
+    "original": "Black Mage Mantled Hood",
+    "string": "Capuchon couvert de mage noir",
+    "status": "TranslationComplete",
+    "form_id": "02000827|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherClothesHeadV2"
+  },
+  {
+    "original": "Black Mage Boots",
+    "string": "Bottes de mage noires",
+    "status": "TranslationComplete",
+    "form_id": "020008A7|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherClothesFeetV1"
+  },
+  {
+    "original": "Black Archmage Ebony Boots (H)",
+    "string": "Bottes d’archimage noir en ébonite (lourdes)",
+    "status": "TranslationComplete",
+    "form_id": "0200086E|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyHeavyFeet"
+  },
+  {
+    "original": "Black Mage Boots (L)",
+    "string": "Bottes de mage noires (légères)",
+    "status": "TranslationComplete",
+    "form_id": "02000D73|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherLightFeetV1"
+  },
+  {
+    "original": "Black Archmage Plate Armor (H)",
+    "string": "Armure d’archimage noir en plates (lourde)",
+    "status": "TranslationComplete",
+    "form_id": "020008C9|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateHeavyChestEnch"
+  },
+  {
+    "original": "Black Archmage Armguards (L)",
+    "string": "Brassards d'archimage noirs (légers)",
+    "status": "TranslationComplete",
+    "form_id": "020008B2|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherLightHandsV1"
+  },
+  {
+    "original": "Black Mage Mantled Robes (L)",
+    "string": "Robe couverte de mage noire (légère)",
+    "status": "TranslationComplete",
+    "form_id": "02000D70|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherLightChest"
+  },
+  {
+    "original": "Black Archmage Robes (L)",
+    "string": "Robe d'archimage noire (légère)",
+    "status": "TranslationComplete",
+    "form_id": "020008AF|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherLightChest"
+  },
+  {
+    "original": "Black Mage Armguards",
+    "string": "Brassards de mage noirs",
+    "status": "TranslationComplete",
+    "form_id": "020008AA|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherClothesHandsV1"
+  },
+  {
+    "original": "Black Archmage Robes",
+    "string": "Robe d'archimage noire",
+    "status": "TranslationComplete",
+    "form_id": "0200084E|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherClothesChest"
+  },
+  {
+    "original": "Black Archmage Ebony Armor (L)",
+    "string": "Armure d’archimage noir en ébonite (légère)",
+    "status": "TranslationComplete",
+    "form_id": "020008C1|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyLightChestEnch"
+  },
+  {
+    "original": "Black Mage Startup Quest",
+    "string": "Quête d’introduction du mage noir",
+    "status": "TranslationComplete",
+    "form_id": "020008DD|Black Mage Armor SE.esp",
+    "type": "QUST FULL",
+    "index": null,
+    "editor_id": "BlackMageStartupQuest"
+  },
+  {
+    "original": "Black Archmage Ebony Helm (H)",
+    "string": "Casque d’archimage noir en ébonite (lourd)",
+    "status": "TranslationComplete",
+    "form_id": "020008C0|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyHeavyHeadEnch"
+  },
+  {
+    "original": "Black Mage College Robes",
+    "string": "Robe de mage noire de l'Académie",
+    "status": "TranslationComplete",
+    "form_id": "020008EA|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageJMClothesChest"
+  },
+  {
+    "original": "Black Archmage Plate Boots (H)",
+    "string": "Bottes d’archimage noir en plates (lourdes)",
+    "status": "TranslationComplete",
+    "form_id": "0200088D|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateHeavyFeet"
+  },
+  {
+    "original": "Black Mage Hood w/Scarf (L)",
+    "string": "Capuchon de mage noir avec écharpe (léger)",
+    "status": "TranslationComplete",
+    "form_id": "020008F2|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageJMLightHead"
+  },
+  {
+    "original": "Black Archmage Boots",
+    "string": "Bottes d'archimage noires",
+    "status": "TranslationComplete",
+    "form_id": "02000862|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherClothesFeetEnch"
+  },
+  {
+    "original": "Black Archmage Boots (L)",
+    "string": "Bottes d'archimage noires (légères)",
+    "status": "TranslationComplete",
+    "form_id": "020008B0|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherLightFeet"
+  },
+  {
+    "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
+    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "status": "TranslationComplete",
+    "form_id": "020008C9|Black Mage Armor SE.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateHeavyChestEnch"
+  },
+  {
+    "original": "Black Archmage Gloves",
+    "string": "Gants d'archimage noirs",
+    "status": "TranslationComplete",
+    "form_id": "0200084F|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherClothesHandsV2"
+  },
+  {
+    "original": "Black Archmage Plate Helm (H)",
+    "string": "Casque d’archimage noir en plates (lourd)",
+    "status": "TranslationComplete",
+    "form_id": "0200086D|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateHeavyHead"
+  },
+  {
+    "original": "Black Archmage Plate Armor (L)",
+    "string": "Armure d’archimage noir en plates (légère)",
+    "status": "TranslationComplete",
+    "form_id": "02000897|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateLightChest"
+  },
+  {
+    "original": "Black Archmage Hood (L)",
+    "string": "Capuchon d'archimage noir (léger)",
+    "status": "TranslationComplete",
+    "form_id": "020008C8|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherLightHeadEnch"
+  },
+  {
+    "original": "Black Mage Plate Boots (H)",
+    "string": "Bottes de mage noir en plates (lourdes)",
+    "status": "TranslationComplete",
+    "form_id": "02000818|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMagePlateHeavyFeet"
+  },
+  {
+    "original": "Black Archmage Ebony Helm (L)",
+    "string": "Casque d’archimage noir en ébonite (léger)",
+    "status": "TranslationComplete",
+    "form_id": "0200087B|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyLightHead"
+  },
+  {
+    "original": "Black Archmage Robes (L)",
+    "string": "Robe d'archimage noire (légère)",
+    "status": "TranslationComplete",
+    "form_id": "020008C7|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherLightChestEnch"
+  },
+  {
+    "original": "Black Mage Gloves",
+    "string": "Gants de mage noir",
+    "status": "TranslationComplete",
+    "form_id": "02000809|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherClothesHandsV2"
+  },
+  {
+    "original": "Black Archmage Ebony Helm (H)",
+    "string": "Casque d’archimage noir en ébonite (lourd)",
+    "status": "TranslationComplete",
+    "form_id": "0200086C|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyHeavyHead"
+  },
+  {
+    "original": "Black Mage Ebony Helm (L)",
+    "string": "Casque de mage noir en ébonite (léger)",
+    "status": "TranslationComplete",
+    "form_id": "02000853|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageEbonyLightHead"
+  },
+  {
+    "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
+    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "status": "TranslationComplete",
+    "form_id": "020008C1|Black Mage Armor SE.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyLightChestEnch"
+  },
+  {
+    "original": "Black Archmage Robes",
+    "string": "Robe d'archimage noire",
+    "status": "TranslationComplete",
+    "form_id": "02000860|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherClothesChestEnch"
+  },
+  {
+    "original": "Black Mage Circlet",
+    "string": "Couronne de mage noire",
+    "status": "TranslationComplete",
+    "form_id": "020008E0|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherClothesCirclet"
+  },
+  {
+    "original": "Black Archmage Hood",
+    "string": "Capuchon d'archimage noir",
+    "status": "TranslationComplete",
+    "form_id": "02000861|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherClothesHeadEnch"
+  },
+  {
+    "original": "Black Mage Plate Helm (L)",
+    "string": "Casque de mage noir en plates (léger)",
+    "status": "TranslationComplete",
+    "form_id": "02000886|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMagePlateLightHead"
+  },
+  {
+    "original": "Black Mage Ebony Armor (L)",
+    "string": "Armure de mage noir en ébonite (légère)",
+    "status": "TranslationComplete",
+    "form_id": "02000851|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageEbonyLightChest"
+  },
+  {
+    "original": "Black Archmage Ebony Armor (H)",
+    "string": "Armure d’archimage noir en ébonite (lourde)",
+    "status": "TranslationComplete",
+    "form_id": "020008BF|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyHeavyChestEnch"
+  },
+  {
+    "original": "Black Archmage Ebony Gloves (L)",
+    "string": "Gants d’archimage noir en ébonite (légers)",
+    "status": "TranslationComplete",
+    "form_id": "0200087A|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchEbonyLightHands"
+  },
+  {
+    "original": "Black Mage Handwraps",
+    "string": "Gants de mage noirs",
+    "status": "TranslationComplete",
+    "form_id": "020008EE|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageJMClothesHands"
+  },
+  {
+    "original": "Black Archmage Plate Helm (L)",
+    "string": "Casque d’archimage noir en plates (léger)",
+    "status": "TranslationComplete",
+    "form_id": "020008CC|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateLightHeadEnch"
+  },
+  {
+    "original": "Black Archmage Plate Armor (H)",
+    "string": "Armure d’archimage noir en plates (lourde)",
+    "status": "TranslationComplete",
+    "form_id": "0200086B|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchPlateHeavyChest"
+  },
+  {
+    "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
+    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "status": "TranslationComplete",
+    "form_id": "020008C7|Black Mage Armor SE.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherLightChestEnch"
+  },
+  {
+    "original": "Black Mage Hood",
+    "string": "Capuchon de mage noir",
+    "status": "TranslationComplete",
+    "form_id": "0200080A|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMageLeatherClothesHeadV1"
+  },
+  {
+    "original": "Black Mage Plate Armor (L)",
+    "string": "Armure de mage noir en plates (légère)",
+    "status": "TranslationComplete",
+    "form_id": "02000811|Black Mage Armor SE.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorBlackMagePlateLightChest"
+  },
+  {
+    "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
+    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "status": "TranslationComplete",
+    "form_id": "02000860|Black Mage Armor SE.esp",
+    "type": "ARMO DESC",
+    "index": null,
+    "editor_id": "ArmorBlackMageArchLeatherClothesChestEnch"
+  }
+]

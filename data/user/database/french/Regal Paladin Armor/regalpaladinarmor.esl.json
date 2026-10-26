@@ -1,0 +1,227 @@
+[
+  {
+    "original": "Regal Paladin - Blue Shield",
+    "string": "Bouclier du paladin royal [Bleu]",
+    "status": "TranslationComplete",
+    "form_id": "01000819|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamShieldBlue"
+  },
+  {
+    "original": "Regal Paladin - Open Helmet",
+    "string": "Casque du paladin royal [Ouvert]",
+    "status": "TranslationComplete",
+    "form_id": "01000815|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamHelmetOpen"
+  },
+  {
+    "original": "Regal Paladin - Shield",
+    "string": "Bouclier du paladin royal",
+    "status": "TranslationComplete",
+    "form_id": "01000814|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamShield"
+  },
+  {
+    "original": "Regal Paladin - Dark Gauntlets",
+    "string": "Gantelets du paladin royal [Sombres]",
+    "status": "TranslationComplete",
+    "form_id": "01000821|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamGauntletsDark"
+  },
+  {
+    "original": "Regal Paladin's Dark Sword",
+    "string": "Épée sombre du paladin royal",
+    "status": "TranslationComplete",
+    "form_id": "01000828|RegalPaladinArmor.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "FaraamSwordDarkAA"
+  },
+  {
+    "original": "Regal Paladin - Blue Armor",
+    "string": "Armure du paladin royal [Bleue]",
+    "status": "TranslationComplete",
+    "form_id": "0100081D|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamCuirassBlue"
+  },
+  {
+    "original": "Regal Paladin - Imperial Armor",
+    "string": "Armure du paladin royal [Impériale]",
+    "status": "TranslationComplete",
+    "form_id": "0100081B|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamCuirassImp"
+  },
+  {
+    "original": "Regal Paladin - Red Armor",
+    "string": "Armure du paladin royal [Rouge]",
+    "status": "TranslationComplete",
+    "form_id": "0100081E|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamCuirassRed"
+  },
+  {
+    "original": "Regal Paladin - Dark Armor",
+    "string": "Armure du paladin royal [Sombre]",
+    "status": "TranslationComplete",
+    "form_id": "0100081C|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamCuirassDark"
+  },
+  {
+    "original": "Regal Paladin - Gauntlets",
+    "string": "Gantelets du paladin royal",
+    "status": "TranslationComplete",
+    "form_id": "01000D67|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamGauntlets"
+  },
+  {
+    "original": "Regal Paladin - Dark Helmet",
+    "string": "Casque du paladin royal [Sombre]",
+    "status": "TranslationComplete",
+    "form_id": "01000822|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamHelmetDark"
+  },
+  {
+    "original": "Regal Paladin - Imperial Shield",
+    "string": "Bouclier du paladin royal [Impérial]",
+    "status": "TranslationComplete",
+    "form_id": "0100081F|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamShieldImp"
+  },
+  {
+    "original": "Regal Paladin - Stormcloak Armor",
+    "string": "Armure du paladin royal [Sombrage]",
+    "status": "TranslationComplete",
+    "form_id": "01000818|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamCuirassSC"
+  },
+  {
+    "original": "Regal Paladin - Sheathe",
+    "string": "Fourreau du paladin royal",
+    "status": "TranslationComplete",
+    "form_id": "01000D76|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamPelvis"
+  },
+  {
+    "original": "Regal Paladin - Dark Open Helmet",
+    "string": "Casque du paladin royal [Ouvert - Sombre]",
+    "status": "TranslationComplete",
+    "form_id": "01000823|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamHelmetOpenDark"
+  },
+  {
+    "original": "Regal Paladin - Stormcloak Shield",
+    "string": "Bouclier du paladin royal [Sombrage]",
+    "status": "TranslationComplete",
+    "form_id": "01000817|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamShieldSC"
+  },
+  {
+    "original": "Regal Paladin - Dark Sheathe",
+    "string": "Fourreau du paladin royal [Sombre]",
+    "status": "TranslationComplete",
+    "form_id": "01000824|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamPelvisDark"
+  },
+  {
+    "original": "Regal Paladin's Sword",
+    "string": "Épée du paladin royal",
+    "status": "TranslationComplete",
+    "form_id": "01000827|RegalPaladinArmor.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "FaraamSword"
+  },
+  {
+    "original": "Regal Paladin - Dark Boots",
+    "string": "Bottes du paladin royal [Sombres]",
+    "status": "TranslationComplete",
+    "form_id": "0100081A|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamBootsDark"
+  },
+  {
+    "original": "Regal Paladin - Armor",
+    "string": "Armure du paladin royal",
+    "status": "TranslationComplete",
+    "form_id": "01000D68|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamCuirass"
+  },
+  {
+    "original": "Regal Paladin - Dark Shield",
+    "string": "Bouclier du paladin royal [Sombre]",
+    "status": "TranslationComplete",
+    "form_id": "01000820|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamShieldDark"
+  },
+  {
+    "original": "Regal Paladin - Boots",
+    "string": "Bottes du paladin royal",
+    "status": "TranslationComplete",
+    "form_id": "01000D69|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamBoots"
+  },
+  {
+    "original": "Regal Paladin - Helmet",
+    "string": "Casque du paladin royal",
+    "status": "TranslationComplete",
+    "form_id": "01000D66|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamHelmet"
+  },
+  {
+    "original": "Regal Paladin - Red Shield ",
+    "string": "Bouclier du paladin royal [Rouge]",
+    "status": "TranslationComplete",
+    "form_id": "01000816|RegalPaladinArmor.esl",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorFaraamShieldRed"
+  },
+  {
+    "original": "TestTony",
+    "string": "TestTony",
+    "status": "TranslationComplete",
+    "form_id": "0006C3B6|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "AAADeleteWhenDoneTestJeremy"
+  }
+]

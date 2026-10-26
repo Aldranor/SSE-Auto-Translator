@@ -1,0 +1,371 @@
+[
+  {
+    "original": "Onyx Armory Plans",
+    "string": "Manuel d'artisanat - Arsenal d'onyx",
+    "status": "TranslationComplete",
+    "form_id": "0300083A|ksws02.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "ksws02_plans"
+  },
+  {
+    "original": "Quest Storage Chest",
+    "string": "Coffre de stockage de quête",
+    "status": "TranslationComplete",
+    "form_id": "03000838|ksws02.esp",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "ksws02_storage_chest"
+  },
+  {
+    "original": "Onyx Lancer Coat",
+    "string": "Manteau du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000801|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_body"
+  },
+  {
+    "original": "Onyx Lancer Bracers",
+    "string": "Brassards du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000802|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_hands"
+  },
+  {
+    "original": "Onyx Lancer (Blue) Helmet",
+    "string": "Casque bleu du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "0300081F|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_head_alt"
+  },
+  {
+    "original": "Seeking: Mercenaries",
+    "string": "Cherche mercenaires",
+    "status": "TranslationComplete",
+    "form_id": "03000836|ksws02.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "ksws02_note"
+  },
+  {
+    "original": "Onyx Lancer Halberd",
+    "string": "Hallebarde du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "0300080F|ksws02.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ksws02_weap_lance"
+  },
+  {
+    "original": "<p align='center'><font size='16'>These plans enable the crafting of Onyx armour and weapons at the forge while in inventory.</font>\r\n<img src='img://textures/Kreis/ksa/ksws02/plans.dds' width='380' height='400'></p>",
+    "string": "<p align='center'><font size='16'>Ces plans permettent de fabriquer des armures et armes d'onyx à la forge.</font>\r\n<img src='img://textures/Kreis/ksa/ksws02/plans.dds' width='380' height='400'></p>",
+    "status": "TranslationComplete",
+    "form_id": "0300083A|ksws02.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "ksws02_plans"
+  },
+  {
+    "original": "Onyx Lancer (Blue) Bracers",
+    "string": "Brassards bleus du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "0300081E|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_hands_alt"
+  },
+  {
+    "original": "Onyx Lancer Circlet",
+    "string": "Diadème du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000832|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_circlet"
+  },
+  {
+    "original": "<font face=\"$HandwrittenFont\" size=\"14\"><p align='center'>Seeking: Mercenaries</p>I am a distinguished scholar of Akaviri culture on an official Synod expedition in Skyrim. As such, I seeking to hire able bodied men and women for mercenary protection.\r\n\r\nQualifications:\r\n- At least 4 years of experience in the security.\r\n- Proficiency in hand-to-hand, armed, and ranged combat.\r\n- Adept level training in destruction and restoration magic.\r\n- Experience dealing with bandits, Forsworn, and warlocks.\r\n- Willingness to perform menial labour when called upon.\r\n\r\nIf you are qualified, report to me at <alias=KeyLocationBandit>. You will be compensated generously: a handsome 25 Septims will be awarded at the end of your contract.\r\n<p align='right'><alias=DeadActor></p></font>",
+    "string": "<font face=\"$HandwrittenFont\" size=\"14\"><p align='center'>Cherche mercenaires</p>\r\nÀ qui de droit,\r\n\r\nJe suis un éminent érudit en culture akaviri, en mission officielle pour le Synode en Bordeciel. Pour mener à bien mon expédition, je cherche à embaucher des hommes et des femmes valides pour assurer ma protection.\n\nQualifications :\n- Au moins quatre ans d'expérience dans la protection rapprochée.\n- Maîtrise du combat au corps à corps, en mêlée et à distance.\n- Formation de spécialiste (au moins) en magie de destruction et de guérison.\n- Expérience contre les bandits, les Parjures et les sorciers.\n- Complaisance dans l'exécution de tâches subalternes si nécessaire.\r\n\r\nSi vous êtes qualifié(e), venez me voir à cet endroit : <alias=KeyLocationBandit>. Vous recevrez une généreuse rémunération : une belle bourse de 25 septims vous sera octroyée à la fin de votre contrat.\r\n<p align='right'><alias=DeadActor></p></font>",
+    "status": "TranslationComplete",
+    "form_id": "03000836|ksws02.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "ksws02_note"
+  },
+  {
+    "original": "Recover <alias=KeyBandit> from <alias=KeyLocationBandit>",
+    "string": "Récupérez la clé d'onyx de cet endroit : < alias=KeyLocationBandit>",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST NNAM",
+    "index": 400,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "Recover <alias=KeyWarlock> from <alias=KeyLocationWarlock>",
+    "string": "Récupérez la clé d'onyx de cet endroit : <alias=KeyLocationWarlock>",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST NNAM",
+    "index": 402,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "Onyx Lancer (Blue) Skirt",
+    "string": "Jupe bleue du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000820|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_skirt_alt"
+  },
+  {
+    "original": "Onyx Lancer Helmet",
+    "string": "Casque du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000803|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_head"
+  },
+  {
+    "original": "Read \"<alias=Note>\"",
+    "string": "Lisez la note « <alias=Note> »",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST NNAM",
+    "index": 100,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "Expedition Log",
+    "string": "Journal d'expédition",
+    "status": "TranslationComplete",
+    "form_id": "0300083C|ksws02.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "ksws02_journal"
+  },
+  {
+    "original": "Onyx Lancer",
+    "string": "Le Lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST FULL",
+    "index": null,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "<font face=\"$HandwrittenFont\" size=\"14\">Day 1\r\nI have deciphered an intriguing legend from the first Akaviri invasion of Tamriel. Story goes that an Akaviri warlord styled \"The Onyx Lancer\" hid his regalia in Skyrim, in the ruins of <alias=ArmorLocation>. In order to retrieve it, however, three keys are needed.\r\n\r\nThe warlord bequeath the three keys to his feuding children. He had hoped they either unite to unlock their inheritance, or fight one another until the strongest emerge as his only heir. His plan failed however, as his dynasty splittered into three petty criminal clans scattered throughout Skyrim.\r\n\r\nDay 7\r\nWith some local investigation, I was able to pinpoint the locations of the three keys. They are with the bandits of <alias=KeyLocationBandit>, the Forsworn of <alias=KeyLocationForsworn>, and the warlocks of <alias=KeyLocationWarlock>. I should hire some mercenaries to help me deal with these degenerates. Leaving a few recruiting notices with the local innkeepers should do the trick.\r\n\r\nDay 14\r\nI was unsuccessful in recruiting mercenaries. These provincials are as lazy as they are worthless. Looks like I have to do everything myself. No matter, these ruffians are no match for a powerful Synod mage such as myself.</font>",
+    "string": "<font face=\"$HandwrittenFont\" size=\"14\">Jour 1\r\nJ'ai déchiffré une intrigante légende sur la première invasion akaviri de Tamriel. Elle raconte qu'un seigneur de guerre akaviri, surnommé le « Lancier d'onyx », a caché sa tenue d'apparat en Bordeciel, dans les ruines de <alias=ArmorLocation>. Pour l'obtenir, il faut apparemment trois clés.\n\nCe seigneur de guerre légua les clés à ses trois enfants, espérant qu'ils surmontent leurs dissensions pour récupérer leur héritage - ou qu'ils s'entretuent jusqu'à ce que le plus fort devienne son unique héritier. Quoi qu'il en soit, son plan échoua : sa dynastie se divisa en trois clans de criminels sans envergure éparpillés en Bordeciel.\n\nJour 7\nAprès quelques recherches, j'ai localisé l'emplacement des trois clés. Elles se trouvent aux mains de bandits (<alias=KeyLocationBandit>), de Parjures (<alias=KeyLocationForsworn>) et de sorciers (<alias=KeyLocationWarlock>). Je devrais engager des mercenaires pour m'aider à m'occuper de ces dégénérés. Laisser des annonces de recrutement chez les aubergistes locaux devrait suffire.\n\nJour 14\nJe n'ai pas réussi à recruter des mercenaires. Ces provinciaux sont aussi fainéants qu'inutiles. On dirait que je vais devoir tout faire par moi-même. Peu importe, ces rustres ne font pas le poids face à un puissant mage du Synode tel que moi...</font>",
+    "status": "TranslationComplete",
+    "form_id": "0300083C|ksws02.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "ksws02_journal"
+  },
+  {
+    "original": "Onyx Lancer Sword",
+    "string": "Épée du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000811|ksws02.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ksws02_weap_sword"
+  },
+  {
+    "original": "Recover <alias=KeyForsworn> from <alias=KeyLocationForsworn>",
+    "string": "Récupérez la clé d'onyx de cet endroit : <alias=KeyLocationForsworn>",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST NNAM",
+    "index": 401,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "Onyx Lancer (Blue) Boots",
+    "string": "Bottes bleues du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "0300081C|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_feet_alt"
+  },
+  {
+    "original": "Onyx Lancer (Blue) Coat",
+    "string": "Manteau bleu du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "0300081D|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_body_alt"
+  },
+  {
+    "original": "Onyx Lancer (Blue) Circlet",
+    "string": "Diadème bleu du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000833|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_circlet_alt"
+  },
+  {
+    "original": "Investigate <alias=DeadActor>'s Body",
+    "string": "Fouillez le corps de <alias=DeadActor>",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST NNAM",
+    "index": 300,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "Onyx Lancer Skirt",
+    "string": "Jupe du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000809|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_skirt"
+  },
+  {
+    "original": "Retrieve the treasure at <alias=ArmorLocation>",
+    "string": "Emparez-vous du trésor à cet endroit : <alias=ArmorLocation>",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST NNAM",
+    "index": 500,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "Rellien Cecollius",
+    "string": "Rellien Cecollius",
+    "status": "TranslationComplete",
+    "form_id": "0300082B|ksws02.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ksws02_dead_actor"
+  },
+  {
+    "original": "Onyx Lancer Key Fragment",
+    "string": "Fragment de clé du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000829|ksws02.esp",
+    "type": "KEYM FULL",
+    "index": null,
+    "editor_id": "ksws02_key_fragment"
+  },
+  {
+    "original": "Meet with <alias=DeadActor> at <alias=KeyLocationBandit>",
+    "string": "Retrouvez <alias=DeadActor> à cet endroit : <alias=KeyLocationBandit>",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST NNAM",
+    "index": 200,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "Onyx Lancer (Blue) Pauldrons",
+    "string": "Épaulières bleues du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000821|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_pauldrons_alt"
+  },
+  {
+    "original": "Onyx Lancer Shield",
+    "string": "Bouclier du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000826|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_shield"
+  },
+  {
+    "original": "Seen any interesting folk pass through? (Onyx Lancer)",
+    "string": "Vous avez vu passer des gens intéressants ? (Lancier d’onyx)",
+    "status": "TranslationComplete",
+    "form_id": "0300083D|ksws02.esp",
+    "type": "DIAL FULL",
+    "index": null,
+    "editor_id": "ksws02_quest_topic"
+  },
+  {
+    "original": "Onyx Lancer Pauldrons",
+    "string": "Épaulières du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "0300080B|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_pauldrons"
+  },
+  {
+    "original": "Onyx Lancer Boots",
+    "string": "Bottes du lancier d’onyx",
+    "status": "TranslationComplete",
+    "form_id": "03000800|ksws02.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ksws02_armo_feet"
+  },
+  {
+    "original": "I received a recruiting note from an innkeeper. I should read it.",
+    "string": "À l'auberge, j'ai reçu une annonce de recrutement, que je devrais lire.",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST CNAM",
+    "index": 85,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "I received a recruiting note from <alias=DeadActor> asking for my aid at <alias=KeyLocationBandit>.",
+    "string": "J'ai reçu une annonce de recrutement de la part d'un certain <alias=DeadActor> qui cherche de l'aide à cet endroit : <alias=KeyLocationBandit>.",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST CNAM",
+    "index": 110,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "I received a recruiting note from <alias=DeadActor> asking for my aid at <alias=KeyLocationBandit>. I arrived at <alias=KeyLocationBandit> to find <alias=DeadActor> dead. I should investigate <Alias.PronounPosObj=DeadActor> body.",
+    "string": "J'ai reçu une annonce de recrutement de la part de <alias=DeadActor> qui cherchait de l'aide. Me voilà à l'endroit indiqué, seulement pour le trouver mort. Je devrais fouiller son cadavre.",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST CNAM",
+    "index": 99,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "I received a recruiting note from <alias=DeadActor> asking for my aid at <alias=KeyLocationBandit>. I arrived at <alias=KeyLocationBandit> to find <alias=DeadActor> dead. <alias=DeadActor> was searching <alias=keyLocationBandit>, <alias=keyLocationForsworn>, and <alias=keyLocationWarlock> for <alias=keyBandit>s to unlock an Akaviri warlord's treasure at <alias=ArmorLocation>.",
+    "string": "J'ai reçu une annonce de recrutement de la part de <alias=DeadActor> qui cherchait de l'aide. À l'endroit indiqué, je l'ai trouvé mort. Il était à la recherche de trois clés d'onyx possédées par des groupes de hors-la-loi pour accéder au trésor d'un seigneur de guerre akaviri.",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST CNAM",
+    "index": 82,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "I received a recruiting note from <alias=DeadActor> asking for my aid at <alias=KeyLocationBandit>. I arrived at <alias=KeyLocationBandit> to find <alias=DeadActor> dead. <alias=DeadActor> was searching for <alias=keyBandit>s to unlock an Akaviri warlord's treasure. I have retrieved the <alias=keyBandit>s. I can now unlock the treasure at <alias=ArmorLocation>.",
+    "string": "J'ai reçu une annonce de recrutement de la part de <alias=DeadActor> qui cherchait de l'aide. À l'endroit indiqué, je l'ai trouvé mort. Il cherchait des clés d'onyx pour accéder au trésor d'un seigneur de guerre akaviri. J'ai récupéré ces clés et je peux maintenant m'emparer du trésor.",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST CNAM",
+    "index": 75,
+    "editor_id": "ksws02_quest"
+  },
+  {
+    "original": "I received a recruiting note from <alias=DeadActor> asking for my aid at <alias=KeyLocationBandit>. I arrived at <alias=KeyLocationBandit> to find <alias=DeadActor> dead. <alias=DeadActor> was searching for an Akaviri warlord's treasure. I have retrieved this treasure.",
+    "string": "J'ai reçu une annonce de recrutement de la part de <alias=DeadActor> qui cherchait de l'aide. À l'endroit indiqué, je l'ai trouvé mort. Il cherchait le trésor d'un seigneur de guerre akaviri, que j'ai récupéré.",
+    "status": "TranslationComplete",
+    "form_id": "03000828|ksws02.esp",
+    "type": "QUST CNAM",
+    "index": 79,
+    "editor_id": "ksws02_quest"
+  }
+]

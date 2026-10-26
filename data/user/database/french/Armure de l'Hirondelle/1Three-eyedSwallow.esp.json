@@ -1,0 +1,65 @@
+[
+  {
+    "original": "Three-eyed Swallow Boots",
+    "string": "Bottes de l’Hirondelle à trois yeux",
+    "status": "TranslationComplete",
+    "form_id": "05000800|1Three-eyedSwallow.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSwallowBoots"
+  },
+  {
+    "original": "Three-eyed Swallow Helmet",
+    "string": "Casque de l’Hirondelle à trois yeux",
+    "status": "TranslationComplete",
+    "form_id": "05000801|1Three-eyedSwallow.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSwallowHelmet"
+  },
+  {
+    "original": "Three-eyed Swallow Gauntlets",
+    "string": "Gantelets de l’Hirondelle à trois yeux",
+    "status": "TranslationComplete",
+    "form_id": "05000802|1Three-eyedSwallow.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSwallowGauntlets"
+  },
+  {
+    "original": "Three-eyed Swallow Cuirass",
+    "string": "Cuirasse de l’Hirondelle à trois yeux",
+    "status": "TranslationComplete",
+    "form_id": "05000803|1Three-eyedSwallow.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSwallowCuirass"
+  },
+  {
+    "original": "Quicksilver Blade",
+    "string": "Lame de vif-argent",
+    "status": "TranslationComplete",
+    "form_id": "05000809|1Three-eyedSwallow.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SwallowSword"
+  },
+  {
+    "original": "Swallow",
+    "string": "L’Hirondelle à trois yeux",
+    "status": "TranslationComplete",
+    "form_id": "0500080A|1Three-eyedSwallow.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncSwallow"
+  },
+  {
+    "original": "Skyrim",
+    "string": "Bordeciel",
+    "status": "TranslationComplete",
+    "form_id": "0000003C|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "Tamriel"
+  }
+]
