@@ -164,12 +164,15 @@ class TranslationBridge:
                 continue
 
             trans_by_key = {
-                (s.form_id, s.type, s.index): s
+                (s.form_id[2:].lower(), s.type, s.index): s
                 for s in trans_strings
             }
 
             for orig_str in orig_strings:
-                key = (orig_str.form_id, orig_str.type, orig_str.index)
+                # The first byte of a Skyrim FormID is the plugin's load-order
+                # index. It differs between standalone archives even when both
+                # plugins contain the same record, so compare the local FormID.
+                key = (orig_str.form_id[2:].lower(), orig_str.type, orig_str.index)
                 trans_str = trans_by_key.get(key)
                 if trans_str is None:
                     continue
@@ -205,7 +208,9 @@ class TranslationBridge:
                         ] = (en_text, fr_clean)
 
                     # 4. FormID map (is_identical = False)
-                    formid_map[(orig_str.form_id, orig_str.type, orig_str.index)] = (
+                    formid_map[
+                        (orig_str.form_id[2:].lower(), orig_str.type, orig_str.index)
+                    ] = (
                         en_text,
                         fr_clean,
                         False,
@@ -213,7 +218,9 @@ class TranslationBridge:
                 else:
                     # Line is present in the translated mod, but identical to English original
                     identical_count += 1
-                    formid_map[(orig_str.form_id, orig_str.type, orig_str.index)] = (
+                    formid_map[
+                        (orig_str.form_id[2:].lower(), orig_str.type, orig_str.index)
+                    ] = (
                         en_text,
                         fr_clean,
                         True,
@@ -303,7 +310,7 @@ class TranslationBridge:
             # 1. Direct FormID match if PluginString and FormID didn't change and English matches
             if isinstance(target, PluginString):
                 fkey = (
-                    getattr(target, "form_id", None),
+                    getattr(target, "form_id", "")[2:].lower(),
                     getattr(target, "type", None),
                     getattr(target, "index", None),
                 )
