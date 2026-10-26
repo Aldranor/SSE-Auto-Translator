@@ -26,6 +26,7 @@ from core.user_data.user_data import UserData
 from ui.utilities.icon_provider import IconProvider
 
 from .editor.editor_tab import EditorTab
+from .editor.review_widget import ReviewWidget
 
 
 class EditorPage(QSplitter):
@@ -53,6 +54,8 @@ class EditorPage(QSplitter):
 
     __tab_list_widget: QTreeWidget
     __page_widget: QStackedWidget
+    __review_widget: ReviewWidget
+    __review_item: QTreeWidgetItem
 
     def __init__(
         self,
@@ -97,8 +100,18 @@ class EditorPage(QSplitter):
         )
         self.addWidget(self.__tab_list_widget)
 
+        self.__review_item = QTreeWidgetItem([self.tr("Review all open translations")])
+        self.__review_item.setFont(
+            0, ThemeManager.get().theme.texts.emphasized.as_qfont()
+        )
+        self.__review_item.setHidden(True)
+        self.__tab_list_widget.addTopLevelItem(self.__review_item)
+
         self.__page_widget = QStackedWidget()
         self.addWidget(self.__page_widget)
+
+        self.__review_widget = ReviewWidget()
+        self.__page_widget.addWidget(self.__review_widget)
 
         self.__tab_list_widget.currentItemChanged.connect(
             lambda cur, _: self.__set_tab_from_item(cur)
@@ -113,6 +126,10 @@ class EditorPage(QSplitter):
         """
 
         if item is None:
+            return
+
+        if item is self.__review_item:
+            self.__page_widget.setCurrentWidget(self.__review_widget)
             return
 
         tabs: dict[QTreeWidgetItem, EditorTab] = {
@@ -208,6 +225,11 @@ class EditorPage(QSplitter):
 
         if self.tabs:
             self.__set_tab(self.tabs[-1])
+        else:
+            self.__page_widget.setCurrentWidget(self.__review_widget)
+
+        self.__review_widget.set_tabs(self.tabs)
+        self.__review_item.setHidden(not self.tabs)
 
         self.tab_count_updated.emit(len(self.tabs))
         self.__update_tab_labels()
@@ -294,6 +316,9 @@ class EditorPage(QSplitter):
             close_button.clicked.connect(lambda: self.close_translation(translation))
 
             translation_item.setExpanded(True)
+
+        self.__review_item.setHidden(False)
+        self.__review_widget.set_tabs(self.tabs)
 
         self.__tab_list_widget.resizeColumnToContents(1)
 

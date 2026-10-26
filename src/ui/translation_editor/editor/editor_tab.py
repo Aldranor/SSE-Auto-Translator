@@ -264,6 +264,34 @@ class EditorTab(QWidget):
 
         return self.__editor.changes_pending
 
+    @property
+    def translation_name(self) -> str:
+        """Name of the translation displayed in the combined review view."""
+
+        return self.__translation.name
+
+    @property
+    def review_strings(self) -> StringList:
+        """Strings currently held by this editor, for the combined review view."""
+
+        return self.__editor.all_strings
+
+    def edit_string_from_review(self, string: String) -> None:
+        """Opens a string in the regular translator dialog from the review view."""
+
+        self.__edit_string(string)
+
+    def set_status_from_review(self, strings: StringList, status: StringStatus) -> None:
+        """Sets statuses for selected strings in the combined review view."""
+
+        self.__editor.set_status(strings, status)
+
+    def save_from_review(self) -> None:
+        """Saves this translation when requested by the combined review view."""
+
+        if self.__editor.changes_pending:
+            self.__save()
+
     def __edit_string(self, string: Optional[String] = None) -> None:
         """
         Opens a string in a translator dialog.
