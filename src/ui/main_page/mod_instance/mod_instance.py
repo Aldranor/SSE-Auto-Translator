@@ -601,17 +601,28 @@ class ModInstanceWidget(QTreeWidget):
 
     def __edit_translation(self) -> None:
         current_item: Optional[Mod | ModFile] = self.__get_current_item()
+        selected_mods, selected_modfiles = self.get_selected_items()
 
-        translation: Optional[Translation] = None
-        if isinstance(current_item, ModFile):
-            translation = self.__database.get_translation_by_modfile_path(
-                current_item.path
-            )
-        elif isinstance(current_item, Mod):
-            translation = self.__database.get_translation_by_mod(current_item)
+        # Include the row under the cursor even if right-clicking it did not
+        # change the current multi-selection.
+        selected_items: list[Mod | ModFile] = (
+            ([current_item] if current_item is not None else [])
+            + selected_mods
+            + selected_modfiles
+        )
+        opened_translations: set[Translation] = set()
 
-        if translation is not None:
-            self.edit_translation_requested.emit(translation)
+        for item in selected_items:
+            if isinstance(item, ModFile):
+                translation = self.__database.get_translation_by_modfile_path(
+                    item.path
+                )
+            else:
+                translation = self.__database.get_translation_by_mod(item)
+
+            if translation is not None and translation not in opened_translations:
+                self.edit_translation_requested.emit(translation)
+                opened_translations.add(translation)
 
     def __refresh_translation(self) -> None:
         current_item: Optional[Mod | ModFile] = self.__get_current_item()
