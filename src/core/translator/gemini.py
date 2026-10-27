@@ -5,6 +5,7 @@ Copyright (c) Cutleast
 from __future__ import annotations
 
 import json
+import time
 from typing import Any, override
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -23,6 +24,9 @@ class GeminiTranslator(Translator):
     )
     DEFAULT_MODEL = "gemini-3.8-flash"
     REQUEST_TIMEOUT = 90
+    MAX_RETRIES = 3
+    MAX_RETRY_DELAY = 8
+    RETRYABLE_STATUS_CODES = frozenset({429, 500, 502, 503, 504})
 
     def __init__(self, config: TranslatorConfig) -> None:
         """Validates that the Gemini API is configured."""
@@ -98,26 +102,42 @@ class GeminiTranslator(Translator):
                 "generationConfig": {"temperature": 0.2},
             }
         ).encode("utf-8")
-        request = Request(
-            url,
-            data=body,
-            headers={
-                "Content-Type": "application/json",
-                "x-goog-api-key": self._config.gemini_api_key or "",
-            },
-            method="POST",
-        )
+        for attempt in range(self.MAX_RETRIES + 1):
+            request = Request(
+                url,
+                data=body,
+                headers={
+                    "Content-Type": "application/json",
+                    "x-goog-api-key": self._config.gemini_api_key or "",
+                },
+                method="POST",
+            )
+            try:
+                with urlopen(request, timeout=self.REQUEST_TIMEOUT) as response:
+                    result = json.loads(response.read().decode("utf-8"))
+                break
+            except HTTPError as ex:
+                detail = ex.read().decode("utf-8", errors="replace")
+                if (
+                    ex.code not in self.RETRYABLE_STATUS_CODES
+                    or attempt >= self.MAX_RETRIES
+                ):
+                    raise RuntimeError(self._format_api_error(detail, ex.code)) from ex
 
-        try:
-            with urlopen(request, timeout=self.REQUEST_TIMEOUT) as response:
-                result = json.loads(response.read().decode("utf-8"))
-        except HTTPError as ex:
-            detail = ex.read().decode("utf-8", errors="replace")
-            raise RuntimeError(self._format_api_error(detail, ex.code)) from ex
-        except URLError as ex:
-            raise RuntimeError(f"Could not connect to Gemini API: {ex.reason}") from ex
-        except TimeoutError as ex:
-            raise RuntimeError("Gemini API request timed out.") from ex
+                delay = self._get_retry_delay(ex.headers.get("Retry-After"), attempt)
+                self.log.warning(
+                    f"Gemini API returned HTTP {ex.code}; retrying in {delay} second(s) "
+                    f"({attempt + 1}/{self.MAX_RETRIES})."
+                )
+                time.sleep(delay)
+            except URLError as ex:
+                raise RuntimeError(
+                    f"Could not connect to Gemini API: {ex.reason}"
+                ) from ex
+            except TimeoutError as ex:
+                raise RuntimeError("Gemini API request timed out.") from ex
+        else:
+            raise RuntimeError("Gemini API request failed after several retries.")
 
         try:
             parts = result["candidates"][0]["content"]["parts"]
@@ -145,6 +165,17 @@ class GeminiTranslator(Translator):
         if message:
             return f"Gemini API error ({status_code}): {message}"
         return f"Gemini API request failed ({status_code})."
+
+    @classmethod
+    def _get_retry_delay(cls, retry_after: str | None, attempt: int) -> int:
+        """Returns a bounded Retry-After delay or exponential backoff delay."""
+
+        if retry_after:
+            try:
+                return min(max(0, int(retry_after)), cls.MAX_RETRY_DELAY)
+            except ValueError:
+                pass
+        return min(2**attempt, cls.MAX_RETRY_DELAY)
 
     @override
     def get_cache_id(self, text: str, dst: GameLanguage) -> str:
