@@ -262,15 +262,16 @@ class Scanner(QObject):
         if self.__detector.requires_translation(modfile_strings):
             if norm_path in database_translations:
                 translation, trans_strings = database_translations[norm_path]
+                required_string_ids: set[str] = {
+                    string.id for string in modfile_strings
+                }
                 has_incomplete: bool = any(
-                    string.status > StringStatus.TranslationComplete
+                    string.id in required_string_ids
+                    and string.status > StringStatus.TranslationComplete
                     for string in trans_strings
                 )
                 translated_string_ids: set[str] = {
                     string.id for string in trans_strings
-                }
-                required_string_ids: set[str] = {
-                    string.id for string in modfile_strings
                 }
                 is_partially_covered: bool = not required_string_ids.issubset(
                     translated_string_ids
@@ -290,9 +291,8 @@ class Scanner(QObject):
                         if any(
                             string.id not in translated_string_ids
                             for string in extracted
-                        ):
-                            if StringUtils.update_string_list(trans_strings, extracted):
-                                changed = True
+                        ) and StringUtils.update_string_list(trans_strings, extracted):
+                            changed = True
 
                     untranslated = [
                         s for s in trans_strings
@@ -314,7 +314,8 @@ class Scanner(QObject):
                             translation.save()
 
                     has_incomplete = any(
-                        string.status > StringStatus.TranslationComplete
+                        string.id in required_string_ids
+                        and string.status > StringStatus.TranslationComplete
                         for string in trans_strings
                     )
                     translated_string_ids = {
