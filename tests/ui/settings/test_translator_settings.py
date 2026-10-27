@@ -28,7 +28,8 @@ class TestTranslatorSettings(BaseTest):
         "api_selector",
         EnumSelector[TranslatorApi],
     )
-    API_KEY_ENTRY: tuple[str, type[KeyLineEdit]] = "api_key_entry", KeyLineEdit
+    DEEPL_API_KEY_ENTRY: tuple[str, type[KeyLineEdit]] = "deepl_api_key_entry", KeyLineEdit
+    GEMINI_API_KEY_ENTRY: tuple[str, type[KeyLineEdit]] = "gemini_api_key_entry", KeyLineEdit
 
     SHOW_CONFIRMATIONS_BOX: tuple[str, type[QCheckBox]] = (
         "show_confirmations_box",
@@ -59,7 +60,7 @@ class TestTranslatorSettings(BaseTest):
             translator_settings, *TestTranslatorSettings.API_SELECTOR
         )
         api_key_entry: KeyLineEdit = Utils.get_private_field(
-            translator_settings, *TestTranslatorSettings.API_KEY_ENTRY
+            translator_settings, *TestTranslatorSettings.DEEPL_API_KEY_ENTRY
         )
 
         show_confirmations_box: QCheckBox = Utils.get_private_field(
@@ -107,11 +108,32 @@ class TestTranslatorSettings(BaseTest):
             translator_settings, *TestTranslatorSettings.API_SELECTOR
         )
         api_key_entry: KeyLineEdit = Utils.get_private_field(
-            translator_settings, *TestTranslatorSettings.API_KEY_ENTRY
+            translator_settings, *TestTranslatorSettings.DEEPL_API_KEY_ENTRY
         )
         api_selector.setCurrentValue(TranslatorApi.DeepL)
         api_key_entry.setText("   ")
 
         # when / then
         with pytest.raises(ConfigValidationError, match="API key is required for DeepL"):
+            translator_settings.validate()
+
+    def test_validate_raises_for_missing_gemini_api_key(
+        self, translator_settings: TranslatorSettings
+    ) -> None:
+        """
+        Tests that `validate` requires an API key for Gemini.
+        """
+
+        # given
+        api_selector: EnumSelector[TranslatorApi] = Utils.get_private_field(
+            translator_settings, *TestTranslatorSettings.API_SELECTOR
+        )
+        gemini_key_entry: KeyLineEdit = Utils.get_private_field(
+            translator_settings, *TestTranslatorSettings.GEMINI_API_KEY_ENTRY
+        )
+        api_selector.setCurrentValue(TranslatorApi.Gemini)
+        gemini_key_entry.setText("   ")
+
+        # when / then
+        with pytest.raises(ConfigValidationError, match="Gemini API key is required"):
             translator_settings.validate()

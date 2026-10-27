@@ -27,7 +27,7 @@ class TranslatorConfig(BaseConfig):
     ] = None
     """The API key for the Gemini API."""
 
-    gemini_model: str = "gemini-3.8-flash"
+    gemini_model: str = "gemini-3.5-flash"
     """The Gemini model used for translation and editor chat."""
 
     gemini_custom_instructions: str = ""

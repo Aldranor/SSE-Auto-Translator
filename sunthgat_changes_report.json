@@ -1,0 +1,303 @@
+[
+  {
+    "type": "MISC FULL",
+    "form_id": "050293E3|Sunthgat.esp",
+    "original": "Suspicious Crate",
+    "old": "Caisse douteuse",
+    "new": "Caisse suspecte"
+  },
+  {
+    "type": "WEAP FULL",
+    "form_id": "05029401|Sunthgat.esp",
+    "original": "Greatsword of Sister Hawk",
+    "old": "Espadon de la Soeur du Faucon",
+    "new": "Espadon de Sœur Faucon"
+  },
+  {
+    "type": "KEYM FULL",
+    "form_id": "0500AD45|Sunthgat.esp",
+    "original": "Clever Man's Cauldron Key",
+    "old": "Clé du Chaudron futé",
+    "new": "Clé du Chaudron de l'érudit"
+  },
+  {
+    "type": "CELL FULL",
+    "form_id": "05005B40|Sunthgat.esp",
+    "original": "Clever Man's Cauldron",
+    "old": "Le Chaudron futé",
+    "new": "Le Chaudron de l'érudit"
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "05014FDB|Sunthgat.esp",
+    "original": "My partners will be pleased.",
+    "old": "Mes partenaires seront ravis !",
+    "new": "Mes associés seront ravis."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293E1|Sunthgat.esp",
+    "original": "My partners will be pleased.",
+    "old": "Mes partenaires seront ravis !",
+    "new": "Mes associés seront ravis."
+  },
+  {
+    "type": "DIAL FULL",
+    "form_id": "050293E5|Sunthgat.esp",
+    "original": "How's business up here?",
+    "old": "Comment vont les affaires ?",
+    "new": "Comment vont les affaires par ici ?"
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293EE|Sunthgat.esp",
+    "original": "Not many patrons, but there are other sources of income.",
+    "old": "Peu de clients, mais on trouve d'autres sources de revenus.",
+    "new": "Peu de clients, mais j'ai d'autres sources de revenus."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293EE|Sunthgat.esp",
+    "original": "Interested in recovering some stolen goods?",
+    "old": "Récupérer des biens volés, ça vous intéresse ?",
+    "new": "Récupérer des marchandises volées, ça vous intéresserait ?"
+  },
+  {
+    "type": "DIAL FULL",
+    "form_id": "050293E6|Sunthgat.esp",
+    "original": "What do you need?",
+    "old": "Que voulez-vous ?",
+    "new": "De quoi avez-vous besoin ?"
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293EF|Sunthgat.esp",
+    "original": "A former associate of mine thought it would be a good idea to disappear with a crate that belongs to me.",
+    "old": "Un de mes anciens associés a pensé que ce serait une bonne idée de disparaître avec une caisse qui m'appartient.",
+    "new": "L'un de mes anciens associés s'est mis en tête de disparaître avec une caisse qui m'appartient."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293EF|Sunthgat.esp",
+    "original": "I want that crate back. I'll show you where to find it.",
+    "old": "Je veux récupérer cette caisse. Je vais vous montrer où la trouver.",
+    "new": "Je veux récupérer cette caisse. Je vais vous indiquer où la trouver."
+  },
+  {
+    "type": "DIAL FULL",
+    "form_id": "050293E7|Sunthgat.esp",
+    "original": "Not my line of work.",
+    "old": "Ce n'est pas mon affaire.",
+    "new": "Ce n'est pas dans mes cordes."
+  },
+  {
+    "type": "DIAL FULL",
+    "form_id": "050293E9|Sunthgat.esp",
+    "original": "About that retrieval job.",
+    "old": "À propos de cette affaire de bien volés...",
+    "new": "À propos de cette caisse à récupérer..."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293F1|Sunthgat.esp",
+    "original": "Ready to get going?",
+    "old": "On se met en route ?",
+    "new": "Vous êtes prêt à partir ?"
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293F3|Sunthgat.esp",
+    "original": "You better forget about this.",
+    "old": "Vous feriez mieux d'oublier ça.",
+    "new": "Vous feriez mieux d'oublier tout ça."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293F3|Sunthgat.esp",
+    "original": "Take this coin and I will take care of the rest.",
+    "old": "Prenez cette pièce et je m'occuperai du reste.",
+    "new": "Prenez cet or et je m'occupe du reste."
+  },
+  {
+    "type": "DIAL FULL",
+    "form_id": "050293F7|Sunthgat.esp",
+    "original": "A war axe, huh? Have you always been a priest? ",
+    "old": "Une hache de guerre ? Avez-vous toujours été prêtre ? ",
+    "new": "Une hache de guerre, hein ? Vous avez toujours été prêtresse ?"
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293FE|Sunthgat.esp",
+    "original": "I used to be part of a mercenary group. Not your average bandit rabble. We fought with honor. The Band of Kyne they called us.",
+    "old": "Avant, je faisais partie d'un groupe de mercenaires. Mais nous n'étions pas de vulgaires bandits ! Nous nous battions avec honneur. On nous appelait la bande de Kyne.",
+    "new": "Jadis, je faisais partie d'une compagnie de mercenaires. Rien à voir avec de vulgaires bandits : nous nous battions avec honneur. On nous appelait la Bande de Kyne."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293FE|Sunthgat.esp",
+    "original": "But it has been almost three decades since then. We were betrayed by one of our own. Larunon, an elven mage. Not surprising.",
+    "old": "Mais c'était il y a presque trois décennies. Nous avons été trahis par l'un des nôtres. Larunon, un mage elfique. Pas étonnant...",
+    "new": "Mais cela remonte à près de trente ans. Nous avons été trahis par l'un des nôtres : Larunon, un mage elfe. Rien de surprenant..."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293FE|Sunthgat.esp",
+    "original": "Everyone was dead. Except for that bastard and me. Continued to work as a mercenary for a while. But someday I couldn't do it anymore.",
+    "old": "Tout le monde était mort. Sauf ce félon et moi. Nous avons continué à travailler comme mercenaires pendant un certain temps. Mais un jour, je me suis rendue compte que je ne pouvais plus le faire.",
+    "new": "Tous mes compagnons ont péri. Tous, sauf ce bâtard et moi. J'ai continué à louer mon épée comme mercenaire pendant un temps, mais un jour, je n'ai plus pu supporter tout ça."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293FE|Sunthgat.esp",
+    "original": "Met an old priest up here and chose to assist him. He passed away of old age and I carried on his work.",
+    "old": "J'ai rencontré un vieux prêtre dans ce village et j'ai choisi de l'aider. Puis il est décédé, et j'ai continué son travail.",
+    "new": "J'ai rencontré un vieux prêtre ici même et j'ai choisi de l'aider. Il s'est éteint de vieillesse, et j'ai perpétué son œuvre."
+  },
+  {
+    "type": "DIAL FULL",
+    "form_id": "050293F8|Sunthgat.esp",
+    "original": "What is with Larunon. You don't want to avenge your dead friends?",
+    "old": "Que se passe-t-il avec Larunon ? Vous ne voulez pas venger vos camarades ?",
+    "new": "Et qu'en est-il de Larunon ? Vous ne voulez pas venger vos compagnons ?"
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293FF|Sunthgat.esp",
+    "original": "I tried to track him down every now and then, before I settled down here. But he was always gone when i thought I got him.",
+    "old": "J'ai quelquefois essayé de retrouver sa trace avant de m'installer ici. Mais à chaque fois que je pensais avoir remis la main sur lui, il avait déjà filé.",
+    "new": "J'ai bien essayé de le traquer de temps à autre, avant de m'établir ici. Mais chaque fois que je croyais le tenir, il m'échappait."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "050293FF|Sunthgat.esp",
+    "original": "Last I heard he joined some coven. But I just don't want to fuel this hatred anymore...",
+    "old": "Aux dernières nouvelles, il a rejoint un cercle de mages. Mais je ne veux plus alimenter ma haine envers lui...",
+    "new": "Aux dernières nouvelles, il aurait rejoint un convent de sorciers. Mais je ne veux plus entretenir cette rancœur..."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "05029400|Sunthgat.esp",
+    "original": "I don't know how to feel about this. He was the only other one who could remember our golden days.",
+    "old": "Je ne sais pas trop qu'en penser. Il était le seul à pouvoir se souvenir de nos beaux jours.",
+    "new": "Je ne sais pas trop quoi en penser. C'était le seul autre témoin de nos jours de gloire."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "05029400|Sunthgat.esp",
+    "original": "But I guess all things have to come to an end. Take this sword. It belonged to our leader. Please remember me and also the Band of Kyne.",
+    "old": "Mais je suppose que toutes les bonnes choses ont une fin. Prenez cette épée. Elle appartenait à notre chef. Je vous en prie, souvenez-vous de moi et de la bande de Kyne.",
+    "new": "Mais toute chose a une fin, je suppose. Prenez cette épée : elle appartenait à notre meneuse. Ne m'oubliez pas, et n'oubliez pas la Bande de Kyne."
+  },
+  {
+    "type": "DIAL FULL",
+    "form_id": "05029404|Sunthgat.esp",
+    "original": "Do you need any help?",
+    "old": "Vous avez besoin d'aide ?",
+    "new": "Avez-vous besoin d'aide ?"
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "05029407|Sunthgat.esp",
+    "original": "How nice of you to ask. You look like you could indeed help me.",
+    "old": "C'est gentil à vous de me le demander. Vous semblez pouvoir m'aider !",
+    "new": "C'est aimable à vous de demander. Vous avez l'air de quelqu'un qui pourrait effectivement m'être utile."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "05029407|Sunthgat.esp",
+    "original": "I'm looking for a rare spell tome. It contains the knowledge of a rune that triggers an unbridled rage.",
+    "old": "Je cherche un rarissime livre de sort. Grâce à cet artéfact, il est possible de libérer une rune qui déclenche une rage effrénée !",
+    "new": "Je cherche un livre de sorts très rare. Il renferme les secrets d'une rune capable de déclencher une fureur incontrôlable."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "05029407|Sunthgat.esp",
+    "original": "There is a rumor that one copy is hidden in Shriekwind Bastion to the south.",
+    "old": "Une rumeur affirme qu'une copie est cachée dans le bastion de Hurlevent, au sud d'ici.",
+    "new": "La rumeur veut qu'un exemplaire soit dissimulé au Bastion de Hurlevent, vers le sud."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "05029407|Sunthgat.esp",
+    "original": "But beware, if you intend to recover it. The place is overrun by vampires.",
+    "old": "Mais prenez garde si vous avez l'intention de le récupérer. L'endroit grouille de vampires.",
+    "new": "Mais prenez garde si vous comptez le récupérer : les vampires ont envahi les lieux."
+  },
+  {
+    "type": "DIAL FULL",
+    "form_id": "05029406|Sunthgat.esp",
+    "original": "I got your spell tome.",
+    "old": "J'ai votre livre de sort.",
+    "new": "J'ai votre livre de sorts."
+  },
+  {
+    "type": "INFO NAM1",
+    "form_id": "05029408|Sunthgat.esp",
+    "original": "So it really existed? That's good to know. Please keep the book and also take this potion as your reward.",
+    "old": "Donc, il existe vraiment ? C'est bon à savoir ! Gardez le livre et prenez cette potion comme récompense.",
+    "new": "Il existait donc réellement ? C'est bon à savoir. Gardez l'ouvrage, et acceptez cette potion en guise de récompense."
+  },
+  {
+    "type": "QUST FULL",
+    "form_id": "0500FED6|Sunthgat.esp",
+    "original": "Expected Betrayal",
+    "old": "Trahison escomptée",
+    "new": "Trahison prévisible"
+  },
+  {
+    "type": "QUST NNAM",
+    "form_id": "0500FED6|Sunthgat.esp",
+    "original": "Get the crate from <Alias=BanditCamp>",
+    "old": "Trouvez la caisse à cet endroit : <Alias=BanditCamp>",
+    "new": "Récupérez la caisse à <Alias=BanditCamp>"
+  },
+  {
+    "type": "QUST FULL",
+    "form_id": "0500FED3|Sunthgat.esp",
+    "original": "Mammoth Tusk and Skooma",
+    "old": "Des défenses de mammouth et du skooma",
+    "new": "Défenses de mammouth et skooma"
+  },
+  {
+    "type": "QUST FULL",
+    "form_id": "0500FED5|Sunthgat.esp",
+    "original": "The Clever Craft",
+    "old": "Art savant",
+    "new": "L'art des mages"
+  },
+  {
+    "type": "QUST NNAM",
+    "form_id": "0500FED5|Sunthgat.esp",
+    "original": "Get the spell tome from Shriekwind Bastion",
+    "old": "Trouvez le livre de sort au Bastion de Hurlevent",
+    "new": "Récupérez le livre de sorts au Bastion de Hurlevent"
+  },
+  {
+    "type": "QUST NNAM",
+    "form_id": "0500FED5|Sunthgat.esp",
+    "original": "Deliver the spell tome to Aberlin",
+    "old": "Rapportez le livre de sort à Aberlin",
+    "new": "Rapportez le livre de sorts à Aberlin"
+  },
+  {
+    "type": "QUST FULL",
+    "form_id": "0500FED4|Sunthgat.esp",
+    "original": "Golden Days",
+    "old": "Jours dorés",
+    "new": "Jours de gloire"
+  },
+  {
+    "type": "QUST NNAM",
+    "form_id": "0500FED4|Sunthgat.esp",
+    "original": "Try to find Larunon at <Alias=WarlockLair>",
+    "old": "Trouvez Larunon à l'endroit suivant : <Alias=WarlockLair>",
+    "new": "Retrouvez Larunon à <Alias=WarlockLair>"
+  },
+  {
+    "type": "LCTN FULL",
+    "form_id": "05005B3E|Sunthgat.esp",
+    "original": "Clever Man's Cauldron",
+    "old": "Le Chaudron futé",
+    "new": "Le Chaudron de l'érudit"
+  }
+]

@@ -23,8 +23,8 @@ class GeminiTranslator(Translator):
     API_URL = (
         "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     )
-    DEFAULT_MODEL = "gemini-3.8-flash"
-    REQUEST_TIMEOUT = 30
+    DEFAULT_MODEL = "gemini-3.5-flash"
+    REQUEST_TIMEOUT = 15
     MAX_RETRIES = 3
     MAX_RETRY_DELAY = 8
     RETRYABLE_STATUS_CODES = frozenset({429, 500, 502, 503, 504})
@@ -115,6 +115,7 @@ class GeminiTranslator(Translator):
                 data=body,
                 headers={
                     "Content-Type": "application/json",
+                    "User-Agent": "SSE-Translator/1.0",
                     "x-goog-api-key": self._config.gemini_api_key or "",
                 },
                 method="POST",
@@ -183,7 +184,7 @@ class GeminiTranslator(Translator):
         try:
             error = json.loads(detail).get("error", {})
             message = error.get("message")
-        except json.JSONDecodeError, AttributeError:
+        except (json.JSONDecodeError, AttributeError):
             message = None
         if message:
             return f"Gemini API error ({status_code}): {message}"

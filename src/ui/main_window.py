@@ -99,6 +99,9 @@ class MainWindow(QMainWindow):
         self.__mainpage_widget.refresh_translation_requested.connect(
             self.__refresh_translation
         )
+        self.__translation_editor.refresh_translation_requested.connect(
+            self.__refresh_translation
+        )
 
     def __refresh_translation(self, translation: Translation) -> None:
         if not self.__translation_editor.confirm_translation_reload(translation):

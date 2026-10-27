@@ -1,0 +1,1434 @@
+{
+  "esm": [
+    {
+      "target": "esm",
+      "index_in_file": 14,
+      "form_id": "0533D945|LegacyoftheDragonborn.esm",
+      "type": "RACE FULL",
+      "edid": "RaptorRace",
+      "index": null,
+      "original": "Raptor"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1319,
+      "form_id": "051661BB|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTdunkorvajundmapACT",
+      "index": null,
+      "original": "Treasure Map VI"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1929,
+      "form_id": "055245F5|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap01",
+      "index": null,
+      "original": "Treasure Map XI"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1930,
+      "form_id": "055245F6|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap02",
+      "index": null,
+      "original": "Treasure Map XII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1931,
+      "form_id": "055245F7|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap03",
+      "index": null,
+      "original": "Treasure Map XIII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1932,
+      "form_id": "055245F8|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap04",
+      "index": null,
+      "original": "Treasure Map XIV"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1933,
+      "form_id": "055245F9|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap05",
+      "index": null,
+      "original": "Treasure Map XV"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1934,
+      "form_id": "055245FA|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap06",
+      "index": null,
+      "original": "Treasure Map XVI"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1935,
+      "form_id": "055245FC|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap07",
+      "index": null,
+      "original": "Treasure Map XVII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1936,
+      "form_id": "055245FD|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap08",
+      "index": null,
+      "original": "Treasure Map XVIII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1937,
+      "form_id": "055245FE|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap09",
+      "index": null,
+      "original": "Treasure Map XIX"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 1938,
+      "form_id": "055245FF|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap10",
+      "index": null,
+      "original": "Treasure Map XX"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 2013,
+      "form_id": "0560FF2A|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap11",
+      "index": null,
+      "original": "Treasure Map XXI"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 2014,
+      "form_id": "0560FF2B|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap12",
+      "index": null,
+      "original": "Treasure Map XXII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 2015,
+      "form_id": "0560FF2C|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap13",
+      "index": null,
+      "original": "Treasure Map XXIII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 2016,
+      "form_id": "0560FF30|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap14",
+      "index": null,
+      "original": "Treasure Map XXIV"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 2018,
+      "form_id": "056150AB|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_BOOKACTTreasMap15",
+      "index": null,
+      "original": "Treasure Map XXV"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 2073,
+      "form_id": "056AEBD2|LegacyoftheDragonborn.esm",
+      "type": "ACTI FULL",
+      "edid": "DBM_DebugLock",
+      "index": null,
+      "original": "Debug Portal"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 2074,
+      "form_id": "056AEBD2|LegacyoftheDragonborn.esm",
+      "type": "ACTI RNAM",
+      "edid": "DBM_DebugLock",
+      "index": null,
+      "original": "Enable/Disable"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 2279,
+      "form_id": "0500B829|LegacyoftheDragonborn.esm",
+      "type": "ARMO FULL",
+      "edid": "DBM_WanderlustRingREPLICA",
+      "index": null,
+      "original": "Wanderlust (replica)"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 2495,
+      "form_id": "0533D7DD|LegacyoftheDragonborn.esm",
+      "type": "ARMO FULL",
+      "edid": "SkinRaptor",
+      "index": null,
+      "original": "Raptor"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 3815,
+      "form_id": "000F33CD|Skyrim.esm",
+      "type": "BOOK FULL",
+      "edid": "dunTreasMapBrokenHelm",
+      "index": null,
+      "original": "Treasure Map IX"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5334,
+      "form_id": "0542B1B1|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DLC2BlackBookGenericDBM",
+      "index": null,
+      "original": "Black Book"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5339,
+      "form_id": "05470D2A|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DBM_TreasMap01",
+      "index": null,
+      "original": "Treasure Map XI"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5341,
+      "form_id": "05470D2B|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DBM_TreasMap02",
+      "index": null,
+      "original": "Treasure Map XII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5343,
+      "form_id": "05470D2C|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DBM_TreasMap03",
+      "index": null,
+      "original": "Treasure Map XIII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5345,
+      "form_id": "05470D2D|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DBM_TreasMap04",
+      "index": null,
+      "original": "Treasure Map XIV"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5347,
+      "form_id": "05470D2E|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DBM_TreasMap05",
+      "index": null,
+      "original": "Treasure Map XV"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5349,
+      "form_id": "05470D2F|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DBM_TreasMap06",
+      "index": null,
+      "original": "Treasure Map XVI"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5351,
+      "form_id": "05470D30|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DBM_TreasMap07",
+      "index": null,
+      "original": "Treasure Map XVII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5353,
+      "form_id": "05470D31|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DBM_TreasMap08",
+      "index": null,
+      "original": "Treasure Map XVIII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5355,
+      "form_id": "05470D32|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DBM_TreasMap09",
+      "index": null,
+      "original": "Treasure Map XIX"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5357,
+      "form_id": "05470D33|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "DBM_TreasMap10",
+      "index": null,
+      "original": "Treasure Map XX"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5377,
+      "form_id": "05600AF9|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "_cluClue01DragonBridge",
+      "index": null,
+      "original": "Treasure Map XXI"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5379,
+      "form_id": "05600AFA|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "_cluClue02Karthwasten",
+      "index": null,
+      "original": "Treasure Map XXII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5381,
+      "form_id": "05600AFB|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "_cluClue03AngisCamp",
+      "index": null,
+      "original": "Treasure Map XXIII"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5383,
+      "form_id": "05600AFC|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "_cluclue04RiftImperialCamp",
+      "index": null,
+      "original": "Treasure Map XXIV"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5385,
+      "form_id": "05600AFD|LegacyoftheDragonborn.esm",
+      "type": "BOOK FULL",
+      "edid": "_cluClue05GjukarsMonument",
+      "index": null,
+      "original": "Treasure Map XXV"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5388,
+      "form_id": "0561509F|LegacyoftheDragonborn.esm",
+      "type": "BOOK DESC",
+      "edid": "DLC2BlackBook01DUMMY",
+      "index": null,
+      "original": "<font face=\"$HandwrittenFont\">\r\n<p align=\"center\">\r\n\r\nWaking Dreams of A Starless Sky\r\n\r\nby Bilius Felcrex\r\n</p>\r\n\r\n\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/T_letter.png'>he eyes, once bleached by falling stars of utmost revelation, will forever see the faint insight drawn by the overwhelming question, as only the True Enquiry shapes the edge of thought. The rest is vulgar fiction, attempts to impose order on the consensus mantlings of an uncaring godhead. First,"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5390,
+      "form_id": "056150A0|LegacyoftheDragonborn.esm",
+      "type": "BOOK DESC",
+      "edid": "DLC2BlackBook02DUMMY",
+      "index": null,
+      "original": "<font face=\"$HandwrittenFont\">\r\n<p align=\"center\">\r\n\r\nEpistolary Acumen\r\n\r\nby the Transparent One\r\n</p>\r\n\r\n\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/B_letter.png'>ring you forth the lovestruck mute who preys with vigor on his love, and set the sky alight with all who dare to struggle 'gainst our move. For we are they who own the night and all who dwell without us fall; we drink the mind-grapes formed of thought and wail a tumult on the wall. To sweep"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5392,
+      "form_id": "056150A1|LegacyoftheDragonborn.esm",
+      "type": "BOOK DESC",
+      "edid": "DLC2BlackBook03DUMMY",
+      "index": null,
+      "original": "<font face=\"$HandwrittenFont\">\r\n<p align=\"center\">\r\n\r\nUntold Legends\r\nThe Other Lives of Ysgramor\r\n\r\n</p>\r\n\r\n\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>s the great ships of men crawled the waves to their destinies, there were, after long years, a number of tales lost in the mists of morning. Even after the forgetting, though, wisps of story find ways to receptive ears as even the deepest of secrets never truly dies. When fires burn and the night grows soft in"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5394,
+      "form_id": "056150A2|LegacyoftheDragonborn.esm",
+      "type": "BOOK DESC",
+      "edid": "DLC2BlackBook04DUMMY",
+      "index": null,
+      "original": "<font face=\"$HandwrittenFont\">\r\n<p align=\"center\">\r\n\r\nThe Winds of Change\r\n\r\nby \r\nLiesl Grey-Heart\r\n</p>\r\n\r\n\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/D_letter.png'>uring the reign of Elgryr I took notice the various patterns of in the thoughts and behaviors of a troubled populace, and undertook a humble plan to comprehend and, in the end, affect them. Being of ordered mind, I began my taxonomy in the lower classes, which divide evenly into those who"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5396,
+      "form_id": "056150A3|LegacyoftheDragonborn.esm",
+      "type": "BOOK DESC",
+      "edid": "DLC2BlackBook05DUMMY",
+      "index": null,
+      "original": "<font face=\"$HandwrittenFont\">\r\n<p align=\"center\">\r\n\r\nThe Sallow Regent\r\n\r\nby Hawfip the Crafter\r\n</p>\r\n\r\n\r\n[pagebreak]\r\n<p align=\"left\">\r\nAct I, Scene i\r\n(Enter Filemina, with broken sceptre)\r\nFilemina--\r\n     Woe betide my fate-wrecked heart\r\n     Which gives no tender shine to he\r\n     Who gave his favors up to gods\r\n     And brought his blood-struck mind to me. "
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5398,
+      "form_id": "056150A4|LegacyoftheDragonborn.esm",
+      "type": "BOOK DESC",
+      "edid": "DLC2BlackBook06DUMMY",
+      "index": null,
+      "original": "<font face=\"$HandwrittenFont\">\r\n<p align=\"center\">\r\n\r\nFilament and Filigree\r\n\r\nby Jelketheris\r\n</p>\r\n\r\n\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/I_letter.png'> stared at my reflection in the metal, wondering if my face had hardened to match my inner mood. I had been working the piece for days, and the forge's swelter was taking its toll. I always came to the metal shop when the dark swam over me, and today was no exception. In the midst of"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5400,
+      "form_id": "056150A5|LegacyoftheDragonborn.esm",
+      "type": "BOOK DESC",
+      "edid": "DLC2BlackBook07DUMMY",
+      "index": null,
+      "original": "<font face=\"$HandwrittenFont\">\r\n<p align=\"center\">\r\n\r\nThe Hidden Twilight\r\n\r\nby \r\nCarillius Melfus\r\n</p>\r\n\r\n\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/T_letter.png'>he City of Inkseeds rose from the desert, shining and decadent. Somehow, it still stood. I crossed through the gate, and the beast knew exactly where to take me: the way worn by beggars and poets. The only place a man of my appetites can find satisfaction. I'm not proud, but then, nobody ever is."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5533,
+      "form_id": "0507EF05|LegacyoftheDragonborn.esm",
+      "type": "CONT FULL",
+      "edid": "DBM_MerrianSack",
+      "index": null,
+      "original": "Merrian's Sack"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5640,
+      "form_id": "0514CF41|LegacyoftheDragonborn.esm",
+      "type": "CONT FULL",
+      "edid": "DBM_JARBarrel",
+      "index": null,
+      "original": "Barrel of Jars"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5826,
+      "form_id": "052AC89D|LegacyoftheDragonborn.esm",
+      "type": "DOOR FULL",
+      "edid": "DBMGalleryWallPanelLargeWoodTopPassage",
+      "index": null,
+      "original": "Hidden Wall"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5894,
+      "form_id": "0514CF25|LegacyoftheDragonborn.esm",
+      "type": "MISC FULL",
+      "edid": "1DwemerJunk",
+      "index": null,
+      "original": "Dwemer Junk"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 5895,
+      "form_id": "0514CF26|LegacyoftheDragonborn.esm",
+      "type": "MISC FULL",
+      "edid": "1mammoth",
+      "index": null,
+      "original": "Wooly Mammoth"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 6363,
+      "form_id": "0540FEC2|LegacyoftheDragonborn.esm",
+      "type": "MISC FULL",
+      "edid": "GemCoral",
+      "index": null,
+      "original": "Coral"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 6364,
+      "form_id": "0540FEC3|LegacyoftheDragonborn.esm",
+      "type": "MISC FULL",
+      "edid": "GemIvory",
+      "index": null,
+      "original": "Ivory"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 7256,
+      "form_id": "05124FCA|LegacyoftheDragonborn.esm",
+      "type": "KEYM FULL",
+      "edid": "DBM_MuseumKey",
+      "index": null,
+      "original": "Key to Dragonborn Gallery"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 7617,
+      "form_id": "00016BDB|Skyrim.esm",
+      "type": "CELL FULL",
+      "edid": "RiftenFishery",
+      "index": null,
+      "original": "Riften Fishery"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8507,
+      "form_id": "050B78AB|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelOther",
+      "index": null,
+      "original": "Other Locations"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8508,
+      "form_id": "050B78AC|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimSolitudeTopic",
+      "index": null,
+      "original": "<Alias=Solitude>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8509,
+      "form_id": "050B78AD|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBM_AirshipCancelTopic",
+      "index": null,
+      "original": "Stay here"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8511,
+      "form_id": "050B78AE|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimWhiterunTopic",
+      "index": null,
+      "original": "<Alias=Whiterun>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8512,
+      "form_id": "050B78AF|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimWindhelmTopic",
+      "index": null,
+      "original": "<Alias=Windhelm>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8513,
+      "form_id": "050B78B1|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTraveSkyrimlFalkreathTopic",
+      "index": null,
+      "original": "<Alias=Falkreath>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8514,
+      "form_id": "050B78B2|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTraveSkyrimlMarkarthTopic",
+      "index": null,
+      "original": "<Alias=Markarth>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8515,
+      "form_id": "050B78B3|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimRiftenTopic",
+      "index": null,
+      "original": "<Alias=Riften>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8516,
+      "form_id": "050B78B4|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimWinterholdTopic",
+      "index": null,
+      "original": "<Alias=Winterhold>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8517,
+      "form_id": "050B78B5|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimDawnstarTopic",
+      "index": null,
+      "original": "<Alias=Dawnstar>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8518,
+      "form_id": "050B78B6|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimRoriksteadTopic",
+      "index": null,
+      "original": "<Alias=Rorikstead>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8519,
+      "form_id": "050B78B7|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimHighHrothgarTopic",
+      "index": null,
+      "original": "<Alias=High Hrothgar>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8520,
+      "form_id": "050B78B8|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimCastleVolkiharTopic",
+      "index": null,
+      "original": "<Alias=Castle Volkihar>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8521,
+      "form_id": "050B78B9|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimDeepholmeTopic",
+      "index": null,
+      "original": "<Alias=Deepholme>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8522,
+      "form_id": "050B78BA|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimFortDawnguardTopic",
+      "index": null,
+      "original": "<Alias=Fort Dawnguard>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8523,
+      "form_id": "050B78BB|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSkyrimKaragasTowerTopic",
+      "index": null,
+      "original": "<Alias=Karagas Tower>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8524,
+      "form_id": "050B78BC|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelLabryinthianTopic",
+      "index": null,
+      "original": "<Alias=Labryinthian>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8525,
+      "form_id": "050B78BD|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSolstheimRavenRockTopic",
+      "index": null,
+      "original": "<Alias=Raven Rock>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8526,
+      "form_id": "050B78BE|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSolstheimTelMithrynTopic",
+      "index": null,
+      "original": "<Alias=Tel Mithryn>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8527,
+      "form_id": "050B78BF|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelSolstheimTempleofMiraakTopic",
+      "index": null,
+      "original": "<Alias=Temple of Miraak>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 8528,
+      "form_id": "050B78C0|LegacyoftheDragonborn.esm",
+      "type": "DIAL FULL",
+      "edid": "DBMAirshipTravelOtherPalePassTopic",
+      "index": null,
+      "original": "<Alias=Pale Pass>"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10289,
+      "form_id": "0553F38D|LegacyoftheDragonborn.esm",
+      "type": "INFO NAM1",
+      "edid": null,
+      "index": 1,
+      "original": "Yes, hmmm, well, sad to say, this is just a single variety of pure ore with nothing else in it. Sorry."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10290,
+      "form_id": "05562DCC|LegacyoftheDragonborn.esm",
+      "type": "INFO NAM1",
+      "edid": null,
+      "index": 1,
+      "original": "There you go. If you have any more you want looked at, just let me know."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10949,
+      "form_id": "050B788D|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBMAirshipTravel",
+      "index": null,
+      "original": "Dev Avesa Travel Controls"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10959,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 62,
+      "original": "I've gotten the drop on Ezra. I should take her shard and look for clues about why she was here at Fort Pale Pass to begin with."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10971,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 109,
+      "original": "I should see what else of interest Ezra has or bide my time and return her to Argus"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10972,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 70,
+      "original": "I've gotten another shard off Ezra. I'll have to decide what to do about her. I can either return to Argus and risk her discovering the missing items, or do something drastic"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10973,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 119,
+      "original": "I should see what else of interest Ezra has or bide my time and return her to Argus"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10974,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 107,
+      "original": "I should see what else of interest Ezra has"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10979,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 107,
+      "original": "I should see what else of interest Ezra has"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10982,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 85,
+      "original": "I located Ezra who is very paranoid that I'm an assassin for some reason. She's reluctantly agreed to follow me, but insists on finding some item of importance in the dungeon beneath Fort Pale Pass."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10987,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 67,
+      "original": "I have found an ancient shield of some kind. Auryen may know more about it. I should track down the rest of the amulet pieces using Argus' journal first however."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10991,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 104,
+      "original": "I've parted ways with Ezra, sending her to find Argus on her own while tend to other tasks. I may be able to locate all of what they are seeking on my own."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10994,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 98,
+      "original": "I've found the remains of Ulgarg who met his untimely end in a violent way inside some nordic cave. There seems to be something odd glowing from his gut."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10995,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 72,
+      "original": "It seems that Ulgarg, in a moment of despiration, swallowed his fragment of the shard to keep it from the enemy. Fortunately it seems to have worked. Luckily the shard began to glow as I approached due to the presence of the other shards. I should head back to Argus."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 10998,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 92,
+      "original": "I managed to recover the setting for the Amulet of Kings. I've managed to gather all the missing fragments and should return to Argus to see what the next plan is."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11000,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 113,
+      "original": "Argus and Ezra have double crossed me and paid the price for it. Apparently they were mercenaries hired to finish a job the Morag Tong were supposed to do. I should take back the shards, setting and ancient shield."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11005,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 92,
+      "original": "Auryen identified the ancient shield I found in Fort Pale Pass as the shield of Reman Cyrodiil, and he indicated that the shield resonates with the shards of the amulet. He's told me to return in a day or two so he can research the details."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11006,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 92,
+      "original": "Auryen should have had time to research the details surrounding the Amulet of Kings and the Shield. I should check back with him."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11009,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 89,
+      "original": "I have obtained the helm of Tiber Septim but feel as though the dark power binding me here still has hold over me. I should continue to investigate the source."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11015,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 82,
+      "original": "I've defeated Zurin Arctus, the Underking, though the power binding me here seems to remain. Perhaps he has some clue on him."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11016,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 89,
+      "original": "I've found a very unique and interesting ring which I should show Auryen, but no other major clues as to why I am still bound here. Perhaps his dark influence has corrupted this place and I need to exit the fortress before the Waystone can be removed."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11029,
+      "form_id": "05121573|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ShatteredLegacy",
+      "index": 82,
+      "original": "I've destroted Ysmir Wulfharth and obtained his boots. I need to get the Lord's Mail before I head back to Sancre Tor. I must have it stashed somewhere."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11084,
+      "form_id": "05124FC4|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_MuseumIntroTour",
+      "index": null,
+      "original": "Ten Septim Tour"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11085,
+      "form_id": "05124FD8|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_MuseumCollect",
+      "index": null,
+      "original": "Adding to the Collection"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11098,
+      "form_id": "05138793|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_MuseumUtility",
+      "index": null,
+      "original": "Holds Utility Function Scripts"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11099,
+      "form_id": "05138794|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_DynamicMCM",
+      "index": null,
+      "original": "Dynamic Checklist"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11100,
+      "form_id": "05147274|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_SharedHandler",
+      "index": null,
+      "original": "Contributors Controller"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11174,
+      "form_id": "05166590|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_SellChestHandler",
+      "index": null,
+      "original": "Sell Chest Handler"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11175,
+      "form_id": "0516CE0F|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBMTWR_Handler",
+      "index": null,
+      "original": "Sets up thane rewards and levels up weapons"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11177,
+      "form_id": "0517211B|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_MuseumIntro",
+      "index": 87,
+      "original": "Sets up regular start and initialises some elements of the mod"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11193,
+      "form_id": "0518DDEB|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_LucaPickaxeFormHandler",
+      "index": null,
+      "original": "adds luca pick axe to mining tools list"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11201,
+      "form_id": "051E4F4C|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_ArcPerkGoldHandler",
+      "index": null,
+      "original": "quartermaster perk handler"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11202,
+      "form_id": "051EF8B5|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_KegbreakerEffect",
+      "index": null,
+      "original": "Ongar's Kegbreaker Handler."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11203,
+      "form_id": "051EF8B5|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_KegbreakerEffect",
+      "index": 86,
+      "original": "Kegbreaker has been drawn, alias will fill to select random tavern."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11204,
+      "form_id": "051EF8B5|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_KegbreakerEffect",
+      "index": 111,
+      "original": "Kegbreaker removed, recover from effect and stop quest."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11205,
+      "form_id": "0520891D|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_ArcPerkExhumeHandler",
+      "index": null,
+      "original": "Exhume Handler"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11206,
+      "form_id": "05217CC0|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_ExplorerFollowerHandler",
+      "index": null,
+      "original": "explorer follower handler"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11207,
+      "form_id": "0522706E|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_Guidebookhandler",
+      "index": null,
+      "original": "Museum Guide count handler"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11240,
+      "form_id": "052702EE|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_Excavation03A",
+      "index": 81,
+      "original": "Auryen brought the Spear of the Snow Prince along on the excavation. As a probable devout follower of Trinimac, his spear may be able to open the way into the temple."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11244,
+      "form_id": "052702EE|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_Excavation03A",
+      "index": 83,
+      "original": "We attempted to overtake and fight Tulrin Deathweaver and his Falmer clan, but he proved to be as formidable as we feared. After overtaking his followers, he fled."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11325,
+      "form_id": "0529E54E|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_ShrineAndStoneHandler",
+      "index": null,
+      "original": "doomstone and shrine display handler"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11330,
+      "form_id": "052A767D|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_DialogueQuest",
+      "index": null,
+      "original": "Legacy of the Dragonborn NPC dialogue"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11338,
+      "form_id": "052AD9CD|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ExplorerFieldStation01",
+      "index": 69,
+      "original": "Marassi has the idea to establish a number of field stations across Skyrim to act as safehouses and supply stops for explorers. I have built the Northern Field Station in Winterhold, I should now return to Marassi to let him know."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11345,
+      "form_id": "052BCD1F|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_MCMConfig",
+      "index": null,
+      "original": "Configuration Menu"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11353,
+      "form_id": "052D1170|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ExplorerFieldStation02",
+      "index": 88,
+      "original": "Marassi is ready to get underway on establishing another field station. This time in the Reach. As I have other things to attend to, I have given him 2000 gold in order to build it for me. It's been a few days and I should check on the progress."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11375,
+      "form_id": "052D1178|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_ExplorerFieldStation03",
+      "index": 69,
+      "original": "Marassi has the idea to establish a number of field stations across Skyrim to act as safehouses and supply stops for explorers. I have built the Eastern Field Station in Eastmarch. I should now return to Marassi to let him know."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11389,
+      "form_id": "0533D940|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_MuseumHeist",
+      "index": 101,
+      "original": "The Museum has been robbed! People from Avram's shady past have made off with the contents of the museum, and now we must head to Windcaller Pass to try and locate them."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11419,
+      "form_id": "0533D941|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_OngarKegbreaker",
+      "index": 101,
+      "original": "I had been tasked by Ognar to retrieve a hammer to replace his Warhammer of Inebriation, however he died before I could do that. I managed to acquire his hammer anyway. Auryen may know something more about it."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11477,
+      "form_id": "053F669E|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_DragonscalesHandler",
+      "index": null,
+      "original": "adds scales to unique dragons for displays"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11495,
+      "form_id": "0543A615|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_SkaalDelivery",
+      "index": null,
+      "original": "Skaal Delivery Handler"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11501,
+      "form_id": "054D1811|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_Excavation01",
+      "index": 100,
+      "original": "I should check back with the Windcaller Pass excavation and see how the things are progressing."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11516,
+      "form_id": "054D1811|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_Excavation01",
+      "index": 86,
+      "original": "The excavation crew continue their dig. I should give them some more time to work and check back later or help them to clear the way."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11598,
+      "form_id": "0558B96A|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_Excavation02",
+      "index": 85,
+      "original": "I should give the team a few days to work on digging in the new site location, then return and see how they are doing. I can also help out with the digging to make shorter work of it."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11641,
+      "form_id": "055A94C1|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_RadiantHandler",
+      "index": null,
+      "original": "DBM Radiant Quest Handler"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11652,
+      "form_id": "055C7E75|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_MuchAdoAboutSnowElves",
+      "index": 83,
+      "original": "While searching the Temple of the Divines I came across a weird looking teddy bear that appears to belong to Freir. When I picked it up a bottle of Skooma fell out of its stuffing. Perhaps I can use it as leverage to get information from her?"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11658,
+      "form_id": "055C7E75|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_MuchAdoAboutSnowElves",
+      "index": 83,
+      "original": "I have found several unusual books concerning the Dwemer but nothing that seems very useful. I should give them to Urag so he knows that this is NOT what I am looking for. Perhaps he will then have some other ideas on where to look."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11660,
+      "form_id": "055C7E75|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_MuchAdoAboutSnowElves",
+      "index": 83,
+      "original": "Dwemer History and Culture did not have the insights I had hoped for. I should ask Urag again for more leads."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11664,
+      "form_id": "055C7E75|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_MuchAdoAboutSnowElves",
+      "index": 101,
+      "original": "Urag finally had a clue about some books which ended up being \"borrowed\" by some Synod mage. His assistant Ertzebet confirmed that they had come by and were asking about Mzulft. I should check out the Dwemer ruins there to see if I can locate the misplaced books."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11720,
+      "form_id": "05624575|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_Excavation02SceneHandler",
+      "index": null,
+      "original": "Excavation 2 Scene Handler"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11721,
+      "form_id": "0563DC34|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_Debugging",
+      "index": null,
+      "original": "MASTER DEBUGGING HANDLER"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11722,
+      "form_id": "0563DC34|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_Debugging",
+      "index": 51,
+      "original": "Turn off the debugger"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11723,
+      "form_id": "0563DC34|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_Debugging",
+      "index": 81,
+      "original": "Turn debugging ON"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11724,
+      "form_id": "057098F8|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_WritingStuffRestockHandler",
+      "index": null,
+      "original": "Restocks Writing Stuff"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11733,
+      "form_id": "0579C612|LegacyoftheDragonborn.esm",
+      "type": "QUST FULL",
+      "edid": "DBM_MalrusCodexHandler",
+      "index": null,
+      "original": "Malrus' Codex Manager"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11754,
+      "form_id": "057AC75C|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_HauntedMuseumQuest",
+      "index": 81,
+      "original": "Brother Ikard of the order of Arkay was requested by Auryen to investigate a haunting at the museum. Not being very fond of the supernatural I left him to his own devices to solve the issue. Ikard's work should be done and I should check in to see if things have been restored to normal."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 11772,
+      "form_id": "057AC75C|LegacyoftheDragonborn.esm",
+      "type": "QUST CNAM",
+      "edid": "DBM_HauntedMuseumQuest",
+      "index": 81,
+      "original": "Brother Ikard of the order of Arkay was requested by Auryen to investigate a haunting at the museum. Not being very fond of the supernatural I left him to his own devices to solve the issue. Ikard's work should be done and I should check in to see if things have been restored to normal."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12086,
+      "form_id": "05079D44|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBM_AirshipHelmHeadingError",
+      "index": null,
+      "original": "You must set a heading first."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12087,
+      "form_id": "05079D45|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBMAirshipHelmInFlight",
+      "index": null,
+      "original": "The Dev Aveza is currently travelling to <Alias=Current>. I can't change it's course until it arrives."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12158,
+      "form_id": "05079D8F|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBMAirshipBeaconInfo2",
+      "index": null,
+      "original": "When I hold the beacon I can feel a link to another device, but it does nothing.\r\n"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12159,
+      "form_id": "05079D90|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBMAirshipBeaconRunAway",
+      "index": null,
+      "original": "I should probably stand clear of the airship as it departs!"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12305,
+      "form_id": "050B788A|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBMAirshipRemoteDepart",
+      "index": null,
+      "original": "The Dev Aveza will arrive at <Alias=Current> in %.0f hours."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12306,
+      "form_id": "050B788B|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBMAirshipRemoteArrival",
+      "index": null,
+      "original": "The Dev Aveza has arrived at <Alias=Current>."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12308,
+      "form_id": "050B78DA|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBMAirshipHelmTutorial",
+      "index": null,
+      "original": "The Dev Aveza can be docked at several key locations around Tamriel including the hold capitals of Skyrim and the Dragonborn Gallery. Each journey on board the Dev Aveza will take 4 hours to complete. As you continue on your advertures more stops will be unlocked. "
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12309,
+      "form_id": "050B78DC|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBMAirshipHelmAlreadyHere",
+      "index": null,
+      "original": "The Dev Aveza is already docked at <Alias=Current>."
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12335,
+      "form_id": "050DB67A|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBM_HouseholdPlannerMenuSupplyBuyMain",
+      "index": null,
+      "original": "What type of supply would you like to order?"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12336,
+      "form_id": "050DB67A|LegacyoftheDragonborn.esm",
+      "type": "MESG ITXT",
+      "edid": "DBM_HouseholdPlannerMenuSupplyBuyMain",
+      "index": 0,
+      "original": "Ingots/Gems"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12337,
+      "form_id": "050DB67A|LegacyoftheDragonborn.esm",
+      "type": "MESG ITXT",
+      "edid": "DBM_HouseholdPlannerMenuSupplyBuyMain",
+      "index": 1,
+      "original": "Leather/hide etc"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12339,
+      "form_id": "050DB67A|LegacyoftheDragonborn.esm",
+      "type": "MESG ITXT",
+      "edid": "DBM_HouseholdPlannerMenuSupplyBuyMain",
+      "index": 3,
+      "original": "Food/Drink"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12340,
+      "form_id": "050DB67A|LegacyoftheDragonborn.esm",
+      "type": "MESG ITXT",
+      "edid": "DBM_HouseholdPlannerMenuSupplyBuyMain",
+      "index": 4,
+      "original": "Check Orders"
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12540,
+      "form_id": "051772AD|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBM_AllItemsDoneMSG",
+      "index": null,
+      "original": "All displayable items added to your inventory, ya cheater! "
+    },
+    {
+      "target": "esm",
+      "index_in_file": 12797,
+      "form_id": "056AEBD0|LegacyoftheDragonborn.esm",
+      "type": "MESG DESC",
+      "edid": "DBM_DebugKeyMSG",
+      "index": null,
+      "original": "This key gives access to the debug room in the Storeroom. It is strongly recommend you do not tinker with the controls found there unless you know exactly what you're doing!"
+    }
+  ],
+  "txt": [
+    {
+      "target": "txt",
+      "index_in_file": 24,
+      "mcm_id": "$gen_XmasToggleInfo",
+      "original": "Turns on Christmas Decorations around the museum and safehouse."
+    },
+    {
+      "target": "txt",
+      "index_in_file": 25,
+      "mcm_id": "$gen_BedToggle",
+      "original": "Safehouse canopy bed"
+    },
+    {
+      "target": "txt",
+      "index_in_file": 26,
+      "mcm_id": "$gen_BedToggleInfo",
+      "original": "Swaps the safe house canopy bed with a vanilla standard double bed for compatibility with certain sleep mods."
+    },
+    {
+      "target": "txt",
+      "index_in_file": 41,
+      "mcm_id": "$gen_RadiantTours",
+      "original": "Radiant Museum Tours"
+    }
+  ]
+}

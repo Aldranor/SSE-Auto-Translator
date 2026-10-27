@@ -74,6 +74,9 @@ class EditorTab(QWidget):
     This signal gets emitted when tab is to be closed.
     """
 
+    refresh_translation_requested = Signal(Translation)
+    """Signal emitted when the translation should be reloaded from disk."""
+
     __editor: Editor
 
     __translation: Translation
@@ -152,6 +155,9 @@ class EditorTab(QWidget):
         self.__tool_bar.search_and_replace_requested.connect(self.__search_and_replace)
         self.__tool_bar.api_translation_requested.connect(self.__translate_with_api)
         self.__tool_bar.save_requested.connect(self.__save)
+        self.__tool_bar.refresh_from_disk_requested.connect(
+            self.__request_translation_refresh
+        )
         self.__tool_bar.export_requested.connect(self.__export)
         self.__tool_bar.show_report_requested.connect(self.__show_last_report)
 
@@ -380,6 +386,10 @@ class EditorTab(QWidget):
         self.__strings_widget.reload_strings(self.__editor.strings)
         self.__update_metadata()
         self.changed_signal.emit()
+
+    def __request_translation_refresh(self) -> None:
+        """Requests a refresh of this translation's data from disk."""
+        self.refresh_translation_requested.emit(self.__translation)
 
     def __update_metadata(self) -> None:
         if self.__editor.changes_pending:

@@ -11,6 +11,7 @@ from cutleast_core_lib.ui.widgets.key_edit import KeyLineEdit
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import (
     QCheckBox,
+    QComboBox,
     QFormLayout,
     QLabel,
     QLineEdit,
@@ -32,7 +33,7 @@ class TranslatorSettings(SettingsPage[TranslatorConfig]):
     __api_selector: EnumRadiobuttonsWidget[TranslatorApi]
     __deepl_api_key_entry: KeyLineEdit
     __gemini_api_key_entry: KeyLineEdit
-    __gemini_model_entry: QLineEdit
+    __gemini_model_entry: QComboBox
     __gemini_instructions_entry: QPlainTextEdit
 
     __show_confirmations_box: QCheckBox
@@ -77,8 +78,20 @@ class TranslatorSettings(SettingsPage[TranslatorConfig]):
         )
         self.__flayout.addRow(gemini_api_key_label, self.__gemini_api_key_entry)
 
-        self.__gemini_model_entry = QLineEdit(self._initial_config.gemini_model)
-        self.__gemini_model_entry.textChanged.connect(
+        self.__gemini_model_entry = QComboBox()
+        self.__gemini_model_entry.setEditable(True)
+        self.__gemini_model_entry.addItems(
+            [
+                "gemini-3.5-flash",
+                "gemini-3.5-flash-lite",
+                "gemini-3-flash-preview",
+                "gemini-3.8-flash",
+            ]
+        )
+        self.__gemini_model_entry.setCurrentText(
+            self._initial_config.gemini_model or "gemini-3.5-flash"
+        )
+        self.__gemini_model_entry.currentTextChanged.connect(
             lambda _: self.changed_signal.emit()
         )
         self.__flayout.addRow(self.tr("Gemini model"), self.__gemini_model_entry)
@@ -139,7 +152,7 @@ class TranslatorSettings(SettingsPage[TranslatorConfig]):
         config.api_key = self.__deepl_api_key_entry.text().strip() or None
         config.gemini_api_key = self.__gemini_api_key_entry.text().strip() or None
         config.gemini_model = (
-            self.__gemini_model_entry.text().strip() or "gemini-3.8-flash"
+            self.__gemini_model_entry.currentText().strip() or "gemini-3.5-flash"
         )
         config.gemini_custom_instructions = (
             self.__gemini_instructions_entry.toPlainText().strip()

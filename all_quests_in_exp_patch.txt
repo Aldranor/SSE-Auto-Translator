@@ -1,0 +1,1839 @@
+
+=======================================================
+QUEST: 17000800|ccedhsse002-splkntset.esl (ccEDHSSE002_Quest) (Total strings: 29)
+=======================================================
+  [0] QUST NNAM idx=80 status=TranslationComplete
+    ORIG: '(Optional) Purify the heart at the altar'
+    TRAD: "(Optionnel) Purifiez le coeur sur l'autel"
+  [63] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Crypt of the Heart'
+    TRAD: 'Crypte du Coeur'
+  [82] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Investigate the Silver-Blood Inn'
+    TRAD: "Enquêtez à l'auberge du Sang-d'Argent"
+  [106] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Defeat the Forsworn'
+    TRAD: 'Tuez les parjures'
+  [115] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: "Return the heart to the knight's tomb"
+    TRAD: 'Rapportez le coeur à la tombe du chevalier'
+  [125] QUST NNAM idx=1000 status=TranslationComplete
+    ORIG: "Retrieve the knight's armor"
+    TRAD: "Récupérez l'armure du chevalier"
+  [195] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: "Search the hills for the knight's tomb"
+    TRAD: 'Fouillez les collines pour trouver la tombe du chevalier'
+  [205] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Search Karthspire for the stolen heart'
+    TRAD: 'Fouillez Karthecime pour trouver le coeur volé'
+  [217] QUST NNAM idx=90 status=TranslationComplete
+    ORIG: 'Defeat the Corrupted Knight'
+    TRAD: 'Vainquez le chevalier corrompu'
+  [240] QUST NNAM idx=25 status=TranslationComplete
+    ORIG: 'Follow the ghost'
+    TRAD: 'Suivez le fantôme'
+  [248] QUST NNAM idx=55 status=TranslationComplete
+    ORIG: "Read the Forsworn Shaman's note"
+    TRAD: 'Lisez la note du chaman parjure'
+  [270] QUST NNAM idx=2000 status=TranslationComplete
+    ORIG: "Retrieve the knight's armor"
+    TRAD: "Récupérez l'armure du chevalier"
+  [294] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: 'Search the Forsworn Shaman'
+    TRAD: 'Cherchez le chaman parjure'
+  [306] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: "Look for the knight's ghost in the area south of Markarth"
+    TRAD: 'Cherchez le fantôme du chevalier dans la zone au sud de Markarth'
+  [514] QUST CNAM idx=80 status=TranslationComplete
+    ORIG: 'The inns of Skyrim are a good place to look for rumors. Being on the western border, Markarth is one of the busiest holds in Skyrim. I should head to the inn there and see what I can find.'
+    TRAD: "Les auberges de Bordeciel sont un bon endroit pour chercher des rumeurs. Situé sur frontière ouest, Markarth est l'une des forteresses les plus fréquentées de Bordeciel. Je devrais aller à l'auberge là-bas et voir ce que je peux découvrir."
+  [515] QUST CNAM idx=105 status=TranslationComplete
+    ORIG: "I found a knight's tomb in Markarth surrounded by three Forsworn, and defeated them in battle. On the shaman I found a note that implied they defiled the tomb and took the knight's heart to Karthspire. At Karthspire, I found two hagravens conducting a ritual with the heart at its center. I retrieved the heart and returned it to the knight's tomb. The heart was still corrupted, however, and the knight's ghost turned hostile as a result. I defeated the knight and can now retrieve his armor from the tomb."
+    TRAD: "J'ai trouvé une tombe de chevalier à Markarth, encerclée de trois parjures, et je les ai vaincus. Sur le shaman, j'ai trouvé une note indiquant qu'ils ont profané la tombe et emporté le coeur à Karthecime. Une fois à Karthecime, j'ai trouvé deux harfreuses en plein rituel, avec le coeur au centre. J'ai récupéré le coeur et l'ai rapporté à la tombe du chevalier. Mais le coeur est toujours corrompu, et cela a rendu le fantôme du chevalier hostile. J'ai vaincu le chevalier et je peux désormais récupérer son armure dans sa tombe."
+  [516] QUST CNAM idx=70 status=TranslationComplete
+    ORIG: 'I found a book at the Silver-Blood Inn that mentions the ghost of a Breton knight named Simon Rodayne. According to the book, he haunts the river below his tomb, south of Markarth. At the river, I found the presence of a ghost who wandered off further south.'
+    TRAD: "J'ai trouvé un livre à l'auberge du Sang-d'Argent qui mentionne le fantôme d'un chevalier bréton du nom de Simon Rodayne. D'après le livre, il hante la rivière en contrebas de sa tombe, au sud de Markarth. Près de la rivière, j'ai remarqué la présence d'un fantôme qui partait vers le sud."
+  [517] QUST CNAM idx=111 status=TranslationComplete
+    ORIG: "I found a book at the Silver-Blood Inn that mentions the ghost of a Breton knight named Simon Rodayne. According to the book, he haunts the river below his tomb, south of Markarth. At the river, I found the presence of a ghost who wandered off further south. I followed the ghost up the hill when it vanished. The knight's tomb must be somewhere in the surrounding area."
+    TRAD: "J'ai trouvé un livre à l'auberge du Sang-d'Argent qui mentionne le fantôme d'un chevalier bréton du nom de Simon Rodayne. D'après le livre, il hante la rivière en contrebas de sa tombe, au sud de Markarth. Près de la rivière, j'ai remarqué la présence d'un fantôme qui partait vers le sud. Je l'ai suivi sur la colline jusqu'à ce qu'il disparaisse. La tombe du chevalier doit être dans les parages."
+  [518] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: 'I found a book at the Silver-Blood Inn that mentions the ghost of a Breton knight named Simon Rodayne. According to the book, he haunts the river below his tomb, south of Markarth. After following the ghost and climbing up to the top of the mountain, I found a tomb surrounded by three Forsworn.'
+    TRAD: "J'ai trouvé un livre à l'auberge du Sang-d'Argent qui mentionne le fantôme d'un chevalier bréton du nom de Simon Rodayne. D'après le livre, il hante la rivière en contrebas de sa tombe, au sud de Markarth. Après avoir suivi le fantôme et être monté au sommet de la montagne, j'ai trouvé une tombe encerclée de trois parjures."
+  [519] QUST CNAM idx=82 status=TranslationComplete
+    ORIG: 'I found a book at the Silver-Blood Inn that mentions the ghost of a Breton knight named Simon Rodayne. According to the book, he haunts the river below his tomb, south of Markarth. After following the ghost and climbing up to the top of the mountain, I found a tomb surrounded by three Forsworn, and defeated them in battle.'
+    TRAD: "J'ai trouvé un livre à l'auberge du Sang-d'Argent qui mentionne le fantôme d'un chevalier bréton du nom de Simon Rodayne. D'après le livre, il hante la rivière en contrebas de sa tombe, au sud de Markarth. Après avoir suivi le fantôme et être monté au sommet de la montagne, j'ai trouvé une tombe encerclée de trois parjures et je les ai vaincus."
+  [520] QUST CNAM idx=73 status=TranslationComplete
+    ORIG: 'I investigated the area south of Markarth and was confronted by a ghost. After following the ghost and climbing up to the top of the mountain, I found a tomb surrounded by three Forsworn, and defeated them in battle. On the shaman I found a note that may provide additional clues.'
+    TRAD: "J'ai mené l'enquête dans la zone au sud de Markarth et je me suis retrouvé face à un fantôme. Après l'avoir suivi et être monté au sommet de la montagne, j'ai trouvé une tombe encerclée de trois parjures, et je les ai vaincus. Sur le shaman, j'ai trouvé une note qui pourrait contenir plus d'indices."
+  [521] QUST CNAM idx=92 status=TranslationComplete
+    ORIG: "I investigated the area south of Markarth and was confronted by a ghost. After following the ghost and climbing up to the top of the mountain, I found a tomb surrounded by three Forsworn, and defeated them in battle. On the shaman I found a note that implied they defiled the tomb and took the knight's heart to Karthspire."
+    TRAD: "J'ai mené l'enquête dans la zone au sud de Markarth et je me suis retrouvé face à un fantôme. Après l'avoir suivi et être monté au sommet de la montagne, j'ai trouvé une tombe encerclée de trois parjures, et je les ai vaincus. Sur le shaman, j'ai trouvé une note indiquant qu'ils ont profané la tombe et emporté le coeur à Karthecime."
+  [522] QUST CNAM idx=98 status=TranslationComplete
+    ORIG: "I investigated the area south of Markarth and was confronted by a ghost. After following the ghost and climbing up to the top of the mountain, I found a tomb surrounded by three Forsworn, and defeated them in battle. On the shaman I found a note that implied they defiled the tomb and took the knight's heart to Karthspire. At Karthspire, I found two hagravens conducting a ritual with the heart at its center. I retrieved the heart and can now return it to the knight's tomb."
+    TRAD: "J'ai mené l'enquête dans la zone au sud de Markarth et je me suis retrouvé face à un fantôme. Après l'avoir suivi et être monté au sommet de la montagne, j'ai trouvé une tombe encerclée de trois parjures, et je les ai vaincus. Sur le shaman, j'ai trouvé une note indiquant qu'ils ont profané la tombe et emporté le coeur à Karthecime. Une fois à Karthecime, j'ai trouvé deux harfreuses en plein rituel, avec le coeur au centre. J'ai récupéré le coeur, je peux maintenant la rapporter sur la tombe du chevalier."
+  [523] QUST CNAM idx=81 status=TranslationComplete
+    ORIG: "I investigated the area south of Markarth and was confronted by a ghost. After following the ghost and climbing up to the top of the mountain, I found a tomb surrounded by three Forsworn, and defeated them in battle. On the shaman I found a note that implied they defiled the tomb and took the knight's heart to Karthspire. At Karthspire, I found two hagravens conducting a ritual with the heart at its center. I retrieved the heart and returned it to the knight's tomb."
+    TRAD: "J'ai mené l'enquête dans la zone au sud de Markarth et je me suis retrouvé face à un fantôme. Après l'avoir suivi et être monté au sommet de la montagne, j'ai trouvé une tombe encerclée de trois parjures, et je les ai vaincus. Sur le shaman, j'ai trouvé une note indiquant qu'ils ont profané la tombe et emporté le coeur à Karthecime. Une fois à Karthecime, j'ai trouvé deux harfreuses en plein rituel, avec le coeur au centre. J'ai récupéré le coeur et l'ai rapporté à la tombe du chevalier."
+  [524] QUST CNAM idx=65 status=TranslationComplete
+    ORIG: "I found a knight's tomb in Markarth surrounded by three Forsworn, and defeated them in battle. On the shaman I found a note that implied they defiled the tomb and took the knight's heart to Karthspire. At Karthspire, I found two hagravens conducting a ritual with the heart at its center. I retrieved the heart and returned it to the knight's tomb. The heart was still corrupted, however, and the knight's ghost turned hostile as a result."
+    TRAD: "J'ai trouvé une tombe de chevalier à Markarth, encerclée de trois parjures, et je les ai vaincus. Sur le shaman, j'ai trouvé une note indiquant qu'ils ont profané la tombe et emporté le coeur à Karthecime. Une fois à Karthecime, j'ai trouvé deux harfreuses en plein rituel, avec le coeur au centre. J'ai récupéré le coeur et l'ai rapporté à la tombe du chevalier. Mais le coeur est toujours corrompu, et cela a rendu le fantôme du chevalier hostile. J'ai vaincu le chevalier et j'ai récupéré son armure."
+  [525] QUST CNAM idx=109 status=TranslationComplete
+    ORIG: "I found a knight's tomb in Markarth surrounded by three Forsworn, and defeated them in battle. On the shaman I found a note that implied they defiled the tomb and took the knight's heart to Karthspire. At Karthspire, I found two hagravens conducting a ritual with the heart at its center. I retrieved the heart and returned it to the knight's tomb. "
+    TRAD: "J'ai trouvé une tombe de chevalier à Markarth, encerclée de trois parjures, et je les ai vaincus. Sur le shaman, j'ai trouvé une note indiquant qu'ils ont profané la tombe et emporté le coeur à Karthecime. Une fois à Karthecime, j'ai trouvé deux harfreuses en plein rituel, avec le coeur au centre. J'ai récupéré le coeur et l'ai rapporté à la tombe du chevalier. "
+  [526] QUST CNAM idx=83 status=TranslationComplete
+    ORIG: "I found a knight's tomb in Markarth surrounded by three Forsworn, and defeated them in battle. On the shaman I found a note that implied they defiled the tomb and took the knight's heart to Karthspire. At Karthspire, I found two hagravens conducting a ritual with the heart at its center. I retrieved the heart and returned it to the knight's tomb. "
+    TRAD: "J'ai trouvé une tombe de chevalier à Markarth, encerclée de trois parjures, et je les ai vaincus. Sur le shaman, j'ai trouvé une note indiquant qu'ils ont profané la tombe et emporté le coeur à Karthecime. Une fois à Karthecime, j'ai trouvé deux harfreuses en plein rituel, avec le coeur au centre. J'ai récupéré le coeur et l'ai rapporté à la tombe du chevalier. "
+  [527] QUST CNAM idx=66 status=TranslationComplete
+    ORIG: "I found a knight's tomb in Markarth surrounded by three Forsworn, and defeated them in battle. On the shaman I found a note that implied they defiled the tomb and took the knight's heart to Karthspire. At Karthspire, I found two hagravens conducting a ritual with the heart at its center. I retrieved the heart and returned it to the knight's tomb. The heart was still corrupted, however, and the knight's ghost turned hostile as a result. I defeated the knight and took his armor for myself."
+    TRAD: "J'ai trouvé une tombe de chevalier à Markarth, encerclée de trois parjures, et je les ai vaincus. Sur le shaman, j'ai trouvé une note indiquant qu'ils ont profané la tombe et emporté le coeur à Karthecime. Une fois à Karthecime, j'ai trouvé deux harfreuses en plein rituel, avec le coeur au centre. J'ai récupéré le coeur et l'ai rapporté à la tombe du chevalier. Mais le coeur est toujours corrompu, et cela a rendu le fantôme du chevalier hostile. J'ai vaincu le chevalier et j'ai récupéré son armure."
+  [528] QUST CNAM idx=104 status=TranslationComplete
+    ORIG: "I found a knight's tomb in Markarth surrounded by three Forsworn, and defeated them in battle. On the shaman I found a note that implied they defiled the tomb and took the knight's heart to Karthspire. At Karthspire, I found two hagravens conducting a ritual with the heart at its center. I retrieved the heart and returned it to the knight's tomb. After purifying the heart, I saw a visage of the knight and the witch reunited once more. "
+    TRAD: "J'ai trouvé une tombe de chevalier à Markarth, encerclée de trois parjures, et je les ai vaincus. Sur le shaman, j'ai trouvé une note indiquant qu'ils ont profané la tombe et emporté le coeur à Karthecime. Une fois à Karthecime, j'ai trouvé deux harfreuses en plein rituel, avec le coeur au centre. J'ai récupéré le coeur et l'ai rapporté à la tombe du chevalier. Après avoir purifié le coeur, j'ai eu une vision du chevalier et de la sorcière à nouveau réunis. "
+
+=======================================================
+QUEST: 0C00083C|ccmtysse001-knightsofthenine.esl (ccMTYSSE001_StartupQuest_Alt) (Total strings: 5)
+=======================================================
+  [1] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Investigate the second knight.'
+    TRAD: 'Examinez le second chevalier.'
+  [132] QUST NNAM idx=0 status=TranslationComplete
+    ORIG: 'Investigate the first knight.'
+    TRAD: 'Examinez le premier chevalier.'
+  [301] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Relics of the Crusader'
+    TRAD: 'Reliques du Divin Croisé'
+  [432] QUST CNAM idx=87 status=TranslationComplete
+    ORIG: 'I have heard rumors of some very well armed knights who have been killed at Four Skull Lookout. I should investigate to see what happened.'
+    TRAD: "J'ai entendu des rumeurs sur des chevaliers très bien armés qui ont été tués au Guet des quatre crânes. Je devrais enquêter pour voir ce qui s'est passé."
+  [433] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: 'After investigating the knights, I discovered that they were members of the Order of the Nine that were likely killed by some Thalmor searching for the Relics of the Crusader. The journal I found notes that the Relics are locked away in chests around Skyrim that can only be opened in a special way, I should look out for them on my travels.'
+    TRAD: "Après avoir enquêté sur les chevaliers, j'ai découvert qu'ils étaient membres de l'Ordre des Neuf et qu'ils avaient probablement été tués par un Thalmor qui cherchait les Reliques du Divin croisé. Le journal que j'ai trouvé indique que les reliques sont enfermées dans des coffres, un peu partout en Bordeciel, qui ne peuvent être ouverts que d'une manière particulière, je devrais les chercher lors de mes voyages."
+
+=======================================================
+QUEST: 1F0B7AED|cceejsse005-cave.esm (ccEEJSSE005_Quest) (Total strings: 25)
+=======================================================
+  [2] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Attend the banquest feast'
+    TRAD: 'Assistez au banquet'
+  [13] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Join the feast'
+    TRAD: 'Joignez-vous au festin'
+  [23] QUST NNAM idx=90 status=TranslationComplete
+    ORIG: 'Speak to the Waiter'
+    TRAD: 'Parler au serveur'
+  [61] QUST NNAM idx=55 status=TranslationComplete
+    ORIG: 'Read the feast note'
+    TRAD: 'Lisez la note du festin'
+  [72] QUST NNAM idx=47 status=TranslationComplete
+    ORIG: 'Begin the feast'
+    TRAD: 'Commencez le festin'
+  [104] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: 'Take a seat at the feast table'
+    TRAD: 'Asseyez-vous à la table du festin'
+  [117] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Read the Dinner Invitation'
+    TRAD: "Lisez l'invitation à dîner"
+  [130] QUST NNAM idx=80 status=TranslationComplete
+    ORIG: 'Finish the feast'
+    TRAD: 'Finissez le festin'
+  [187] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Guests for Dinner'
+    TRAD: 'Des convives au dîner'
+  [210] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Await news from a courier'
+    TRAD: "Attendez des nouvelles d'un messager"
+  [220] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Travel to the banquet table'
+    TRAD: 'Rendez-vous à la table du banquet'
+  [229] QUST NNAM idx=100 status=TranslationComplete
+    ORIG: 'Speak to the survivor'
+    TRAD: 'Parlez au survivant'
+  [243] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: 'Defend against the vampire attack'
+    TRAD: 'Défendez-vous contre les vampires'
+  [274] QUST NNAM idx=35 status=TranslationComplete
+    ORIG: 'Speak to the Waiter'
+    TRAD: 'Parler au serveur'
+  [405] QUST CNAM idx=95 status=TranslationComplete
+    ORIG: 'I received a letter from a courier mentioning a banquest feast is happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After finishing the guests and a surprise group of Dawnguard members, I should now speak to the waiter.'
+    TRAD: "Un messager m'a remis une lettre mentionnant un banquet qui se déroulerait dans un grand manoir au sud du phare d'Hiveronde. Une fois sur place, j'ai parlé au serveur, qui m'a remis un menu. Ce festin semble être un piège élaboré pour se repaître d'une poignée d'invités de la noblesse. Après en avoir fini avec les invités et un groupe de membres de la Garde de l'Aube arrivés par surprise, je devrais retourner voir le serveur."
+  [406] QUST CNAM idx=92 status=TranslationComplete
+    ORIG: 'I received a letter from a courier mentioning a banquest feast is happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After fighting off the vampires, I spoke to a Dawnguard member who inflitrated the party and he thanked me for the help.'
+    TRAD: "Un messager m'a remis une lettre mentionnant un banquet qui se déroulerait dans un grand manoir au sud du phare d'Hiveronde. Une fois sur place, j'ai parlé au serveur, qui m'a remis un menu. Ce festin semble être un piège élaboré pour se repaître d'une poignée d'invités de la noblesse. Après avoir vaincu les vampires, j'ai parlé à un membre de la Garde de l'Aube qui s'était infiltré au banquet et qui était reconnaissant pour mon aide."
+  [407] QUST CNAM idx=94 status=TranslationComplete
+    ORIG: 'During my travels through Skyrim, I ran into a courier who had a letter addressed to me. I should read it to find out who sent it and why.'
+    TRAD: "À l'occasion de l'une de mes expéditions en Bordeciel, j'ai croisé un messager qui avait une lettre pour moi. Je devrais la lire pour savoir qui l'a envoyée et pourquoi."
+  [408] QUST CNAM idx=99 status=TranslationComplete
+    ORIG: 'During my travels through Skyrim, I ran into a courier who had a letter addressed to me. I should read it to find out who sent it and why.'
+    TRAD: "À l'occasion de l'une de mes expéditions en Bordeciel, j'ai croisé un messager qui avait une lettre pour moi. Je devrais la lire pour savoir qui l'a envoyée et pourquoi."
+  [409] QUST CNAM idx=91 status=TranslationComplete
+    ORIG: 'I received a letter from a courier mentioning a banquest feast is happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After finishing the guests and a surprise group of Dawnguard members, I should now speak to the waiter.'
+    TRAD: "Un messager m'a remis une lettre mentionnant un banquet qui se déroulerait dans un grand manoir au sud du phare d'Hiveronde. Une fois sur place, j'ai parlé au serveur, qui m'a remis un menu. Ce festin semble être un piège élaboré pour se repaître d'une poignée d'invités de la noblesse. Après en avoir fini avec les invités et un groupe de membres de la Garde de l'Aube arrivés par surprise, je devrais retourner voir le serveur."
+  [410] QUST CNAM idx=86 status=TranslationComplete
+    ORIG: 'I received a letter from a courier mentioning a banquest feast is happening at a large manor south of Frostflow Lighthouse. I arrived at the home and found an array of guests at the door.'
+    TRAD: "Un messager m'a remis une lettre mentionnant un banquet qui se déroulerait dans un grand manoir au sud du phare d'Hiveronde. Une fois sur place, j'ai trouvé de nombreux invités qui attendaient de rentrer."
+  [411] QUST CNAM idx=93 status=TranslationComplete
+    ORIG: 'I received a letter from a courier mentioning a banquest feast is happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After fighting off the vampires, I spoke to a Dawnguard member who inflitrated the party and he thanked me for the help.'
+    TRAD: "Un messager m'a remis une lettre mentionnant un banquet qui se déroulerait dans un grand manoir au sud du phare d'Hiveronde. Une fois sur place, j'ai parlé au serveur, qui m'a remis un menu. Ce festin semble être un piège élaboré pour se repaître d'une poignée d'invités de la noblesse. Après avoir vaincu les vampires, j'ai parlé à un membre de la Garde de l'Aube qui s'était infiltré au banquet et qui était reconnaissant pour mon aide."
+  [412] QUST CNAM idx=67 status=TranslationComplete
+    ORIG: 'I received a letter from a courier mentioning a banquest feast is happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. At the banquet table, I read a note that implied this feast was not what it seemed.'
+    TRAD: "Un messager m'a remis une lettre mentionnant un banquet qui se déroulerait dans un grand manoir au sud du phare d'Hiveronde. Une fois sur place, j'ai parlé au serveur, qui m'a remis un menu. Sur la table du banquet, j'ai lu un message laissant sous-entendre que ce festin n'était pas ce qu'il semblait être."
+  [413] QUST CNAM idx=76 status=TranslationComplete
+    ORIG: "I received a letter from a courier mentioning a banquest feast is happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. As a vampire, I've been allowed to partake in the meal."
+    TRAD: "Un messager m'a remis une lettre mentionnant un banquet qui se déroulerait dans un grand manoir au sud du phare d'Hiveronde. Une fois sur place, j'ai parlé au serveur, qui m'a remis un menu. Ce festin semble être un piège élaboré pour se repaître d'une poignée d'invités de la noblesse. En tant que vampire, on m'a permis de participer au repas."
+  [414] QUST CNAM idx=108 status=TranslationComplete
+    ORIG: 'I received a letter from a courier mentioning a banquest feast is happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests.'
+    TRAD: "Un messager m'a remis une lettre mentionnant un banquet qui se déroulerait dans un grand manoir au sud du phare d'Hiveronde. Une fois sur place, j'ai parlé au serveur, qui m'a remis un menu. Ce festin semble être un piège élaboré pour se repaître d'une poignée d'invités de la noblesse."
+  [415] QUST CNAM idx=97 status=TranslationComplete
+    ORIG: 'I received a letter from a courier mentioning a banquest feast is happening at a large manor south of Frostflow Lighthouse. I arrived at the home and spoke to the waiter, who gave me a menu. The feast appears to be an elaborate trap to feed on a handful of noble guests. After finishing the guests and a surprise group of Dawnguard members, I should now speak to the waiter.'
+    TRAD: "Un messager m'a remis une lettre mentionnant un banquet qui se déroulerait dans un grand manoir au sud du phare d'Hiveronde. Une fois sur place, j'ai parlé au serveur, qui m'a remis un menu. Ce festin semble être un piège élaboré pour se repaître d'une poignée d'invités de la noblesse. Après en avoir fini avec les invités et un groupe de membres de la Garde de l'Aube arrivés par surprise, je devrais retourner voir le serveur."
+
+=======================================================
+QUEST: 1A000805|ccbgssse069-contest.esl (ccBGSSSE069_Quest) (Total strings: 14)
+=======================================================
+  [3] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: "Inspect Holrik's corpse"
+    TRAD: 'Inspectez le cadavre de Holrik'
+  [93] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Search Cronvangr Cave for the two heroes'
+    TRAD: 'Fouillez la grotte de Cronvangr pour trouver les deux héros'
+  [99] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: "Inspect Grenwulf's corpse"
+    TRAD: 'Inspectez le cadavre de Grenwulf'
+  [158] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Caught in a Web'
+    TRAD: 'Pris au piège'
+  [200] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Investigate Candlehearth Hall'
+    TRAD: "Examinez l'auberge du Candelâtre"
+  [211] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Speak to the Heroes'
+    TRAD: 'Parlez aux héros'
+  [298] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Defeat the Web Mother'
+    TRAD: 'Terrassez la Mère des toiles'
+  [533] QUST CNAM idx=78 status=TranslationComplete
+    ORIG: "I traveled to Candlehearth Hall and read a journal about two warriors, who traveled to Cronvangr Cave to defeat a dangerous Web Mother. I traveled to Cronvangr Cave and found the spider's lair, defeating the Web Mother. I spoke to the heroes who bequeathed me their treasures before fading away."
+    TRAD: "À l'auberge du Candelâtre, j'ai lu un journal concernant deux guerriers s'étant rendus à la grotte de Cronvangr pour vaincre une dangereuse Mère des toiles. J'ai rejoint cet endroit et découvert le repaire de l'araignée, puis vaincu la Mère des toiles. J'ai parlé aux héros qui m'ont légué leurs trésors avant de disparaître."
+  [534] QUST CNAM idx=74 status=TranslationComplete
+    ORIG: "I traveled to Candlehearth Hall and read a journal about two warriors, who traveled to Cronvangr Cave to defeat a dangerous Web Mother. I traveled to Cronvangr Cave and found the spider's lair, defeating the Web Mother. I spoke to the heroes who bequeathed me their treasures before fading away."
+    TRAD: "À l'auberge du Candelâtre, j'ai lu un journal concernant deux guerriers s'étant rendus à la grotte de Cronvangr pour vaincre une dangereuse Mère des toiles. J'ai rejoint cet endroit et découvert le repaire de l'araignée, puis vaincu la Mère des toiles. J'ai parlé aux héros qui m'ont légué leurs trésors avant de disparaître."
+  [535] QUST CNAM idx=104 status=TranslationComplete
+    ORIG: "I've heard many great warriors have come through Skyrim over the years, and passed through Candlehearth Hall in Windhelm. If I travel there, I may hear some stories of what became of them."
+    TRAD: "J'ai entendu dire que de nombreux guerriers ont parcouru Bordeciel au fil des années, faisant une halte à l'auberge du Candelâtre à Vendeaume. Si je me rends là-bas, je pourrai apprendre ce qui leur est arrivé."
+  [536] QUST CNAM idx=67 status=TranslationComplete
+    ORIG: 'I traveled to Candlehearth Hall and read a journal about two warriors, who traveled to Cronvangr Cave to defeat a dangerous spider. I should travel to the cave and find out what became of them.'
+    TRAD: "À l'auberge du Candelâtre, j'ai lu un journal concernant deux guerriers s'étant rendus à la grotte de Cronvangr pour vaincre une dangereuse araignée. Je devrais me rendre à la grotte et découvrir ce qui leur est arrivé."
+  [537] QUST CNAM idx=80 status=TranslationComplete
+    ORIG: "I traveled to Candlehearth Hall and read a journal about two warriors, who traveled to Cronvangr Cave to defeat a dangerous spider. I traveled to Cronvangr Cave and found the spider's lair."
+    TRAD: "À l'auberge du Candelâtre, j'ai lu un journal concernant deux guerriers s'étant rendus à la grotte de Cronvangr pour vaincre une dangereuse araignée. J'ai rejoint cet endroit et découvert le repaire de l'araignée."
+  [538] QUST CNAM idx=81 status=TranslationComplete
+    ORIG: "I traveled to Candlehearth Hall and read a journal about two warriors, who traveled to Cronvangr Cave to defeat a dangerous Web Mother. I traveled to Cronvangr Cave and found the spider's lair, defeating the Web Mother."
+    TRAD: "À l'auberge du Candelâtre, j'ai lu un journal concernant deux guerriers s'étant rendus à la grotte de Cronvangr pour vaincre une dangereuse Mère des toiles. J'ai rejoint cet endroit et trouvé le repaire de l'araignée, puis vaincu la Mère des toiles."
+  [539] QUST CNAM idx=73 status=TranslationComplete
+    ORIG: "I traveled to Candlehearth Hall and read a journal about two warriors, who traveled to Cronvangr Cave to defeat a dangerous Web Mother. I traveled to Cronvangr Cave and found the spider's lair, defeating the Web Mother. After the battle, the heroes rewarded me with their treasures."
+    TRAD: "À l'auberge du Candelâtre, j'ai lu un journal concernant deux guerriers s'étant rendus à la grotte de Cronvangr pour vaincre une dangereuse Mère des toiles. J'ai rejoint cet endroit et découvert le repaire de l'araignée, puis vaincu la Mère des toiles. Après le combat, les héros m'ont offert leurs trésors."
+
+=======================================================
+QUEST: 1806BFC1|ccbgssse067-daedinv.esm (ccBGSSSE067_Quest) (Total strings: 50)
+=======================================================
+  [4] QUST NNAM idx=270 status=TranslationComplete
+    ORIG: 'Defeat Valkyn Skoria'
+    TRAD: 'Battez Valkyn Skoria'
+  [14] QUST NNAM idx=300 status=TranslationComplete
+    ORIG: 'Place the Great Welkynd Stone'
+    TRAD: 'Placez la grande pierre de Welkynd'
+  [27] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Meet Skorvild at the Shrine to Stendarr'
+    TRAD: "Allez voir Skorvild près de l'Autel de Stendarr"
+  [36] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: "Read Skorvild's Journal"
+    TRAD: 'Lisez le journal de Skorvild'
+  [44] QUST NNAM idx=90 status=TranslationComplete
+    ORIG: 'Search Rielle for clues about the secret chamber'
+    TRAD: "Fouillez Rielle à la recherche d'indices concernant la pièce secrète"
+  [51] QUST NNAM idx=120 status=TranslationComplete
+    ORIG: 'Place the Ayleid Elemental Shards'
+    TRAD: 'Placez les fragments élémentaires ayléides'
+  [67] QUST NNAM idx=235 status=TranslationComplete
+    ORIG: '(Optional) Find the missing Vigilants (<Global=ccBGSSSE067_QuestVigilantRescueCounter>/3)'
+    TRAD: '(Optionnel) Trouvez les Vigiles manquants (<Global=ccBGSSSE067_QuestVigilantRescueCounter>/3)'
+  [77] QUST NNAM idx=150 status=TranslationComplete
+    ORIG: 'Defeat Norion the Undying'
+    TRAD: "Vainquez Norion l'immortel"
+  [90] QUST NNAM idx=180 status=TranslationComplete
+    ORIG: "Read the Vigil Enforcer's Journal"
+    TRAD: 'Lisez le journal du Vigile exécuteur'
+  [97] QUST NNAM idx=210 status=TranslationComplete
+    ORIG: "Retrieve Vonos' Journal"
+    TRAD: 'Retrouvez le journal de Vonos'
+  [98] QUST NNAM idx=115 status=TranslationComplete
+    ORIG: 'Locate the Ayleid Elemental Shard Holders'
+    TRAD: 'Localisez les réceptacles des fragments élémentaires ayléides'
+  [105] QUST NNAM idx=290 status=TranslationComplete
+    ORIG: 'Take the Sigil Stone'
+    TRAD: 'Prenez la pierre sigillaire'
+  [110] QUST NNAM idx=230 status=TranslationComplete
+    ORIG: 'Use the Scroll of Liminal Breach'
+    TRAD: 'Utilisez le parchemin de Barrière liminaire'
+  [118] QUST NNAM idx=260 status=TranslationComplete
+    ORIG: 'Retrieve Scourge'
+    TRAD: 'Récupérez le Fléau'
+  [119] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: "Read the Stranger's Plea"
+    TRAD: "Lisez la requête de l'étranger"
+  [135] QUST NNAM idx=205 status=TranslationComplete
+    ORIG: 'Defeat Vonos'
+    TRAD: 'Venez à bout de Vonos'
+  [138] QUST NNAM idx=110 status=TranslationComplete
+    ORIG: 'Retrieve the Ayleid Elemental Shards (<Global=ccBGSSSE067_QuestShardCounter>/4)'
+    TRAD: 'Récupérez les fragments élémentaires ayléides (<Global=ccBGSSSE067_QuestShardCounter>/4)'
+  [144] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: 'Search the bodies for information'
+    TRAD: "Fouillez les corps à la recherche d'informations"
+  [151] QUST NNAM idx=80 status=TranslationComplete
+    ORIG: 'Search for clues in the Mythic Dawn camp'
+    TRAD: "Cherchez des indices dans le campement de l'Aube mythique"
+  [168] QUST NNAM idx=140 status=TranslationComplete
+    ORIG: 'Take the Great Welkynd Stone'
+    TRAD: 'Prenez la grande pierre de Welkynd'
+  [175] QUST NNAM idx=170 status=TranslationComplete
+    ORIG: "Find clues to the Oblivion Gate's location"
+    TRAD: "Trouvez des indices concernant l'emplacement de la porte d'Oblivion"
+  [183] QUST NNAM idx=200 status=TranslationComplete
+    ORIG: '(Optional) Wear a set of Mythic Dawn robes'
+    TRAD: "(Optionnel) Enfilez une tenue complète de l'Aube mythique"
+  [188] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'The Cause'
+    TRAD: 'La Cause'
+  [190] QUST NNAM idx=190 status=TranslationComplete
+    ORIG: 'Locate the Oblivion Gate'
+    TRAD: "Localisez la porte d'Oblivion"
+  [202] QUST NNAM idx=220 status=TranslationComplete
+    ORIG: "Read Vonos' Journal"
+    TRAD: 'Lisez le journal de Vonos'
+  [212] QUST NNAM idx=250 status=TranslationComplete
+    ORIG: 'Defeat the Dremora Valkynaz'
+    TRAD: 'Vainquez le drémora Valkynaz'
+  [225] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Await news from a courier'
+    TRAD: "Attendez des nouvelles d'un messager"
+  [233] QUST NNAM idx=280 status=TranslationComplete
+    ORIG: 'Retrieve Torment'
+    TRAD: 'Récupérez le Tourment'
+  [234] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Defeat the Mythic Dawn Assassins'
+    TRAD: "Vainquez les assassins de l'Aube mythique"
+  [244] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: 'Read the Mythic Dawn Orders'
+    TRAD: "Lisez les ordres de l'Aube mythique"
+  [267] QUST NNAM idx=100 status=TranslationComplete
+    ORIG: "Read Janus' Journal"
+    TRAD: 'Lisez le journal de Janus'
+  [275] QUST NNAM idx=130 status=TranslationComplete
+    ORIG: 'Enter the secret chamber'
+    TRAD: 'Entrez dans la pièce secrète'
+  [285] QUST NNAM idx=160 status=TranslationComplete
+    ORIG: "Search Norion's remains"
+    TRAD: 'Fouillez la dépouille de Norion'
+  [287] QUST NNAM idx=305 status=TranslationComplete
+    ORIG: 'Escape the Deadlands'
+    TRAD: 'Échappez-vous des Terres mortes'
+  [316] QUST NNAM idx=240 status=TranslationComplete
+    ORIG: 'Locate the Sigil Stone in the Deadlands'
+    TRAD: 'Trouvez la pierre de Sigil dans les Terres mortes'
+  [368] QUST CNAM idx=76 status=TranslationComplete
+    ORIG: 'I found the Oblivion Gate and defeated the leader of the Mythic Dawn, Vonos. It appears this was an elaborate ritual designed to deceive me, and killing Vonos was the final step. I have become an unwitting instrument of Mehrunes Dagon, and my actions have opened the Oblivion Gate.'
+    TRAD: "J'ai trouvé la porte d'Oblivion et ai vaincu Vonos, le chef de l'Aube mythique. Il semblerait qu'il s'agissait d'un rituel complexe conçu pour me duper. Tuer Vonos en était l'étape finale. Sans le vouloir, j'ai servi la cause de Mehrunes Dagon et mes actions ont conduit à ouvrir la porte d'Oblivion."
+  [369] QUST CNAM idx=91 status=TranslationComplete
+    ORIG: 'Centuries have passed since the Oblivion Crisis, yet remnants of that era may still exist in Skyrim. I should pay attention to any news or rumors.'
+    TRAD: "Des siècles se sont écoulés depuis la crise d'Oblivion. Pour autant, des vestiges de cette époque subsistent en Bordeciel. Je devrais faire attention aux dernières nouvelles et au rumeurs."
+  [370] QUST CNAM idx=105 status=TranslationComplete
+    ORIG: 'A courier has delivered a letter from a stranger. It looks like a plea for help. I should read it and see what it says.'
+    TRAD: "Un messager m'a apporté une lettre provenant d'un étranger. Cela m'a tout l'air d'un appel à l'aide. Je devrais la lire pour voir de quoi il en retourne."
+  [371] QUST CNAM idx=80 status=TranslationComplete
+    ORIG: "A stranger informed me that the Mythic Dawn reformed and unearthed an ancient Oblivion Gate. They were searching for a Great Welkynd Stone to charge the gate, which I found within Rielle before they could. I infiltrated the Mythic Dawn's hideout and went inside the Deadlands to find the Sigil Stone. Rather than remove the stone and close the portal, I decided to follow the will of Mehrunes Dagon by using the Great Welkynd Stone to charge the gate and protect the Sigil Stone."
+    TRAD: "Un étranger m'a indiqué que l'Aube mythique s'était reformée et qu'elle avait fait ressurgir une antique porte d'Oblivion. Ses membres étaient à la recherche d'une grande pierre de Welkynd afin de l'alimenter. J'ai réussi à mettre la main dessus à Rielle avant qu'ils n'y parviennent. J'ai infiltré le repaire de l'Aube mythique et ai parcouru les Terres mortes pour retrouver la pierre de Sigil. Plutôt que de retirer la pierre et de fermer le portail, j'ai décidé de respecter la volonté de Mehrunes Dagon en utilisant la grande pierre de Welkynd afin d'alimenter la porte et de protéger la pierre de Sigil."
+  [372] QUST CNAM idx=93 status=TranslationComplete
+    ORIG: 'The stranger who sent me the letter, Skorvild, was apparently murdered by two Mythic Dawn assassins before I could meet with him. They ambushed me when I arrived, but I defeated them. I should look around to find any additional information.'
+    TRAD: "Skorvild, l'étranger qui m'a envoyé la lettre, aurait apparemment été assassiné par deux membres de l'Aube mythique avant que je ne puisse le rencontrer. Ils m'ont tendu une embuscade à mon arrivée, mais j'ai réussi à les éliminer. Je devrais inspecter les alentours à la recherche d'informations."
+  [373] QUST CNAM idx=75 status=TranslationComplete
+    ORIG: 'Gate Open'
+    TRAD: 'Porte ouverte'
+  [374] QUST CNAM idx=98 status=TranslationComplete
+    ORIG: 'I placed the four Ayleid Elemental Shards in their holders, and a passage to a hidden chamber opened. I should investigate and see if I can locate the Great Welkynd Stone.'
+    TRAD: "J'ai placé les quatre fragments élémentaires ayléides dans leur réceptacle respectif ce qui a ouvert un passage vers une pièce dérobée. Je ferais bien d'y jeter un coup d'œil pour voir si je peux localiser la grande pierre de Welkynd."
+  [375] QUST CNAM idx=89 status=TranslationComplete
+    ORIG: 'The Mythic Dawn have been searching an Ayleid ruin where a Great Welkynd Stone is rumored to be hidden within a secret chamber. They have been unable to find this chamber, but one of the explorers discovered Ayleid Elemental Shards may be the keys to opening it. I should find the shards.'
+    TRAD: "L'Aube mythique est à la recherche de ruines ayléides où une grande pierre de Welkynd aurait été dissimulée dans une pièce secrète. Ils n'ont pas réussi à trouver cette dernière, mais l'un de leurs explorateurs a découvert que les fragments élémentaires ayléides pourraient servir à l'ouvrir. Je ferais bien d'en trouver."
+  [376] QUST CNAM idx=81 status=TranslationComplete
+    ORIG: 'The Mythic Dawn have been searching for a secret chamber within an Ayleid ruin that may contain a Great Welkynd Stone. I found four Ayleid Elemental Shards that may help me gain access to this chamber. I should return them to their holders.'
+    TRAD: "L'Aube mythique est à la recherche d'une pièce secrète dans des ruines ayléides où se trouverait une grande pierre de Welkynd. J'ai trouvé quatre fragments élémentaires ayléides qui pourraient m'aider à y accéder. Je devrais les placer sur leur réceptacle respectif."
+  [377] QUST CNAM idx=87 status=TranslationComplete
+    ORIG: 'I gained access to the secret chamber within Rielle and retrieved the Great Welkynd Stone, but was ambushed by an Ayleid Lich. I need to defeat him in order to escape.'
+    TRAD: "J'ai accédé à la chambre secrète de Rielle et récupéré la Grande pierre de Welkynd, mais je suis tombé dans une embuscade tendue par une liche ayleid. Je dois le vaincre pour m'échapper."
+  [378] QUST CNAM idx=86 status=TranslationComplete
+    ORIG: 'I found and retrieved the Great Welkynd Stone from within Rielle, and defeated the Ayleid Lich guardian, but the Mythic Dawn will stop at nothing to bring Mehrunes Dagon into power. I should search for any clues nearby that might lead me to the location of the Oblivion Gate.'
+    TRAD: "J'ai trouvé et récupéré la Grande pierre de Welkynd à l'intérieur de Rielle, et j'ai vaincu le gardien liche ayleid, mais l'Aube mythique ne reculera devant rien pour amener Mehrunes Dagon au pouvoir. Je devrais chercher des indices dans les environs qui pourraient me mener à l'emplacement de la porte de l'Oblivion."
+  [379] QUST CNAM idx=72 status=TranslationComplete
+    ORIG: "I've found the repaired Oblivion Gate deep inside Red Scar Cavern, the Mythic Dawn hideout. The leader of the Mythic Dawn, Vonos, will stop at nothing to bring Mehrunes Dagon to power, and must be defeated."
+    TRAD: "J'ai trouvé la porte d'Oblivion réparée au fin fond de la caverne de la cicatrice rouge, le repaire de l'Aube mythique. Le chef de l'Aube mythique, Vonos, ne reculera devant rien pour amener Mehrunes Dagon au pouvoir, et il doit être vaincu."
+  [380] QUST CNAM idx=77 status=TranslationComplete
+    ORIG: 'I found the Oblivion Gate and defeated the leader of the Mythic Dawn, Vonos. It appears this was an elaborate ritual designed to decieve me, and killing Vonos was the final step. I have become an unwitting instrument of Mehrunes Dagon, and my actions have opened the Oblivion Gate.'
+    TRAD: "J'ai trouvé la porte d'Oblivion et ai vaincu Vonos, le chef de l'Aube mythique. Il semblerait qu'il s'agissait d'un rituel complexe conçu pour me duper. Tuer Vonos en était l'étape finale. Sans le vouloir, j'ai servi la cause de Mehrunes Dagon et mes actions ont conduit à ouvrir la porte d'Oblivion."
+  [381] QUST CNAM idx=84 status=TranslationComplete
+    ORIG: 'Gate Closed'
+    TRAD: 'Porte fermée'
+  [382] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: "A stranger informed me that the Mythic Dawn reformed and unearthed an ancient Oblivion Gate. They were searching for a Great Welkynd Stone to charge the gate, which I found within Rielle before they could. I infiltrated the Mythic Dawn's hideout and went inside the Deadlands to find the Sigil Stone. I defeated two of Mehrunes Dagon's champions, and retrieved the Sigil Stone, thereby closing the portal and destroying the gate."
+    TRAD: "Un étranger m'a indiqué que l'Aube mythique s'était reformée et qu'elle avait fait ressurgir une antique porte d'Oblivion. Ses membres étaient à la recherche d'une grande pierre de Welkynd afin de l'alimenter. J'ai réussi à mettre la main dessus à Rielle avant qu'ils n'y parviennent. J'ai infiltré le repaire de l'Aube mythique et ai parcouru les Terres mortes pour retrouver la pierre de Sigil. J'ai vaincu deux des champions de Mehrunes Dagon et ai retrouvé la pierre de Sigil, ce qui a permis de refermer le portail et de détruire la porte."
+
+=======================================================
+QUEST: 05000CC3|ccasvsse001-almsivi.esm (ccASVSSE001_Quest) (Total strings: 45)
+=======================================================
+  [5] QUST NNAM idx=25 status=TranslationComplete
+    ORIG: 'Kill the heretic'
+    TRAD: "Tuez l'hérétique"
+  [7] QUST NNAM idx=148 status=TranslationComplete
+    ORIG: 'Pray at the shrine'
+    TRAD: "Priez devant l'autel"
+  [11] QUST NNAM idx=110 status=TranslationComplete
+    ORIG: 'Ask the Matriarch for a command from the Goddess'
+    TRAD: 'Demandez un ordre de la Déesse à la Matriarche'
+  [20] QUST NNAM idx=140 status=TranslationComplete
+    ORIG: 'Read the note on the missing Curate'
+    TRAD: 'Lisez la note sur le vicaire disparu'
+  [22] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Ghosts of the Tribunal'
+    TRAD: 'Fantômes du Tribunal'
+  [37] QUST NNAM idx=200 status=TranslationComplete
+    ORIG: 'Return to the temple'
+    TRAD: 'Retournez au temple'
+  [52] QUST NNAM idx=260 status=TranslationComplete
+    ORIG: 'Speak to the Matriarch'
+    TRAD: 'Parlez à la Matriarche'
+  [59] QUST NNAM idx=105 status=TranslationComplete
+    ORIG: "(Optional) Wear Kenro's helmet and robes and infiltrate the temple ranks"
+    TRAD: '(Optionnel) Revêtez le casque et la robe de Kenro et infiltrez les rangs du temple'
+  [103] QUST NNAM idx=100 status=TranslationComplete
+    ORIG: 'Travel to the hidden temple mentioned in the notes'
+    TRAD: "Voyagez jusqu'au temple caché mentionné dans les notes"
+  [112] QUST NNAM idx=130 status=TranslationComplete
+    ORIG: "Examine the priest's body"
+    TRAD: 'Examinez le corps du prêtre'
+  [120] QUST NNAM idx=149 status=TranslationComplete
+    ORIG: "Defeat Almalexia's Hands in single combat (<Global=ccASVSSE001_FightGlobal>/4)"
+    TRAD: "Triomphez des Mains d'Almalexia en combat singulier (<Global=ccASVSSE001_FightGlobal>/4)"
+  [121] QUST NNAM idx=160 status=TranslationComplete
+    ORIG: 'Complete the tasks of the Goddess (<Global=ccASVSSE001_TaskGlobal>/3)'
+    TRAD: 'Terminez les tâches de la Déesse (<Global=ccASVSSE001_TaskGlobal>/3)'
+  [133] QUST NNAM idx=15 status=TranslationComplete
+    ORIG: "Read Hand Kenro's Note"
+    TRAD: 'Lisez la note de Kenro la Main'
+  [140] QUST NNAM idx=250 status=TranslationComplete
+    ORIG: 'Clear the temple of Ash Zombies'
+    TRAD: 'Nettoyez le temple des zombies cendrés'
+  [154] QUST NNAM idx=125 status=TranslationComplete
+    ORIG: "(Optional) Earn the Matriarch's trust and join the temple heretics"
+    TRAD: '(Optionnel) Gagnez la confiance de la Matriarche et rejoignez les hérétiques du temple'
+  [178] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Look for clues at the Temple in Raven Rock'
+    TRAD: 'Cherchez des indices au temple de Corberoc'
+  [179] QUST NNAM idx=155 status=TranslationComplete
+    ORIG: 'Read Masks of the Tribunal'
+    TRAD: 'Lisez Masques du Tribunal'
+  [189] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Retrieve the unenchanted weapon'
+    TRAD: "Récupérez l'arme non enchantée"
+  [201] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: 'Activate the forge'
+    TRAD: 'Activez la forge'
+  [206] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Add the materials to the forge'
+    TRAD: 'Ajoutez les matériaux dans la forge'
+  [223] QUST NNAM idx=120 status=TranslationComplete
+    ORIG: '(Optional) Kill the cultists'
+    TRAD: '(Optionnel) Tuez les adeptes'
+  [227] QUST NNAM idx=150 status=TranslationComplete
+    ORIG: 'Speak to the Matriarch'
+    TRAD: 'Parlez à la Matriarche'
+  [235] QUST NNAM idx=35 status=TranslationComplete
+    ORIG: "Examine Kenro's corpse for further clues"
+    TRAD: "Examinez le corps de Kenro pour d'autres indices"
+  [259] QUST NNAM idx=300 status=TranslationComplete
+    ORIG: 'Enter the armory'
+    TRAD: "Entrez dans l'armurerie"
+  [276] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Retrieve the Pyroil Tar'
+    TRAD: 'Récupérez la poix pyrophore'
+  [283] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Travel to the forge in Fahlbtharz'
+    TRAD: 'Rendez-vous à la forge de Fahlbtharz'
+  [302] QUST NNAM idx=80 status=TranslationComplete
+    ORIG: 'Retrieve Trueflame'
+    TRAD: 'Récupérez Viveflamme'
+  [334] QUST CNAM idx=92 status=TranslationComplete
+    ORIG: "There's been plenty of upheaval in Solstheim since the eruption of the Red Mountain, both politically and religiously. I should investigate the Temple in Raven Rock and see if I can learn more."
+    TRAD: "De nombreux bouleversements ont eu lieu en Solstheim depuis l'éruption du Mont Écarlate, aussi bien politiques que religieux. Je devrais enquêter au temple de Corberoc pour essayer d'en savoir plus."
+  [335] QUST CNAM idx=105 status=TranslationComplete
+    ORIG: "After finding information on a group of Tribunal heretics, I followed the trail to a hidden temple full of worshipers. Posing as one of Her Hands, I was able to speak to the Matriarch and receive the Goddess' commands. Having completed her tasks, I returned to the temple to find it being attacked by Ash Zombies. I defeated the zombies and should speak with the Matriarch."
+    TRAD: "Après avoir découvert des informations sur un groupe d'hérétiques du Tribunal, j'ai suivi la piste d'un temple caché abritant de nombreux adeptes. Me faisant passer pour une Main d'Almalexia, j'ai pu parler à la Matriarche et recevoir les ordres de la Déesse. Ayant accompli ses tâches, je suis retourné au temple pour découvrir qu'il était attaqué par des zombies cendrés. J'ai vaincu les zombies et devrais maintenant parler à la Matriarche."
+  [336] QUST CNAM idx=70 status=TranslationComplete
+    ORIG: "In the wake of the Red Mountain's eruption, worship of the old Tribunal waned, and in its place there came a Reclamation of the original Dunmer gods. However, it's possible some still cling to the old ways. At the Temple in Raven Rock I learned of a heretic attempting to use a forge in Fahlbtharz to enchant a Dwemer weapon. Upon entering the forge area, the heretic attacked."
+    TRAD: "À la suite de l'éruption du Mont Écarlate, la vénération du vieux Tribunal s'est éteinte au profit du mouvement des Cathartes, qui souhaite vénérer les dieux Dunmer originaux. Cependant, certains semblent encore s'accrocher aux anciennes pratiques. Au temple de Corberoc, j'ai découvert un complot hérétique visant à utiliser la forge de Fahlbtharz pour enchanter une arme dwemer. En entrant dans la forge, un hérétique a voulu m'attaquer."
+  [337] QUST CNAM idx=111 status=TranslationComplete
+    ORIG: "In the wake of the Red Mountain's eruption, worship of the old Tribunal waned, and in its place there came a Reclamation of the original Dunmer gods. However, it's possible some still cling to the old ways. At the Temple in Raven Rock I learned of a heretic attempting to use a forge in Fahlbtharz to enchant a Dwemer weapon. Upon entering the forge area, the heretic attacked, and I managed to kill him."
+    TRAD: "À la suite de l'éruption du Mont Écarlate, la vénération du vieux Tribunal s'est éteinte au profit du mouvement des Cathartes, qui souhaite vénérer les dieux Dunmer originaux. Cependant, certains semblent encore s'accrocher aux anciennes pratiques. Au temple de Corberoc, j'ai découvert un complot hérétique visant à utiliser la forge de Fahlbtharz pour enchanter une arme dwemer. En entrant dans la forge, un hérétique a voulu m'attaquer. J'ai réussi à le tuer."
+  [338] QUST CNAM idx=96 status=TranslationComplete
+    ORIG: 'At the Temple in Raven Rock I learned of a heretic attempting to use a forge in Fahlbtharz to enchant a Dwemer weapon. I traveled to the ruin and picked up the Pyroil Tar required to enchant it.'
+    TRAD: "Au temple de Corberoc, j'ai découvert un complot hérétique visant à utiliser la forge de Fahlbtharz pour enchanter une arme dwemer. J'ai voyagé jusqu'aux ruines et récupéré la poix pyrophore nécessaire pour l'enchanter."
+  [339] QUST CNAM idx=93 status=TranslationComplete
+    ORIG: "In the wake of the Red Mountain's eruption, worship of the old Tribunal waned, and in its place there came a Reclamation of the original Dunmer gods. However, it's possible some still cling to the old ways. At the Temple in Raven Rock I learned of a heretic attempting to use a forge in Fahlbtharz to enchant a Dwemer weapon. Upon entering the forge area, the heretic attacked, and I managed to kill him and found the weapon on his body."
+    TRAD: "À la suite de l'éruption du Mont Écarlate, la vénération du vieux Tribunal s'est éteinte au profit du mouvement des Cathartes, qui souhaite vénérer les dieux Dunmer originaux. Cependant, certains semblent encore s'accrocher aux anciennes pratiques. Au temple de Corberoc, j'ai découvert un complot hérétique visant à utiliser la forge de Fahlbtharz pour enchanter une arme dwemer. En entrant dans la forge, un hérétique a voulu m'attaquer. J'ai réussi à le tuer et j'ai trouvé l'arme sur son corps."
+  [340] QUST CNAM idx=68 status=TranslationComplete
+    ORIG: 'At the Temple in Raven Rock I learned of a heretic attempting to use a forge in Fahlbtharz to enchant a Dwemer weapon. I traveled to the ruin and picked up the weapon and the tar required to enchant it. I can now place the materials in the forge.'
+    TRAD: "Au temple de Corberoc, j'ai découvert un complot hérétique visant à utiliser la forge de Fahlbtharz pour enchanter une arme dwemer. J'ai voyagé jusqu'aux ruines et récupéré l'arme ainsi que la poix pyrophore nécessaire pour l'enchanter. Je peux maintenant placer tous les matériaux dans la forge."
+  [341] QUST CNAM idx=98 status=TranslationComplete
+    ORIG: 'After finding information on a group of Tribunal heretics, I followed the trail to a hidden temple full of worshipers.'
+    TRAD: "Après avoir découvert des informations sur un groupe d'hérétiques du Tribunal, j'ai suivi la piste d'un temple caché abritant de nombreux adeptes."
+  [342] QUST CNAM idx=100 status=TranslationComplete
+    ORIG: 'At the Temple in Raven Rock I learned of a heretic attempting to use a forge in Fahlbtharz to enchant a Dwemer weapon. I traveled to the forge, placed the crafting materials inside and activated it. I should now be able to pick up the enchanted Trueflame.'
+    TRAD: "Au temple de Corberoc, j'ai découvert un complot hérétique visant à utiliser la forge de Fahlbtharz pour enchanter une arme dwemer. J'ai voyagé jusqu'à la forge, placé les matériaux à l'intérieur et l'ai activée. Je devrais maintenant pouvoir récupérer l'arme Viveflamme enchantée."
+  [343] QUST CNAM idx=81 status=TranslationComplete
+    ORIG: "After finding information on a group of Tribunal heretics, I followed the trail to a hidden temple full of worshipers. Posing as one of Her Hands, I was able to speak to the Matriarch and receive the Goddess' commands. Having completed her tasks, I returned to the temple to find it being attacked by Ash Zombies."
+    TRAD: "Après avoir trouvé des informations sur un groupe d'hérétiques du Tribunal, j'ai suivi la piste jusqu'à un temple caché rempli d'adorateurs. En me faisant passer pour l'une de ses Mains, j'ai pu parler à la Matriarche et recevoir les ordres de la Déesse. Après avoir accompli ses tâches, je suis retourné au temple pour constater qu'il était attaqué par des Zombies cendrés."
+  [344] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: 'At the Temple in Raven Rock I learned of a heretic attempting to use a forge in Fahlbtharz to enchant a Dwemer weapon. I traveled to the forge and was attacked by a potential heretic. I should investigate further to find out more about this clandestine group.'
+    TRAD: "Au temple de Corberoc, j'ai découvert un complot hérétique visant à utiliser la forge de Fahlbtharz pour enchanter une arme dwemer. J'ai voyagé jusqu'à la forge et un hérétique m'a voulu m'attaquer. Je devrais enquêter pour en savoir plus sur ce groupe clandestin."
+  [345] QUST CNAM idx=86 status=TranslationComplete
+    ORIG: 'After finding information on a group of Tribunal heretics, I followed the trail to a hidden temple full of worshipers. I attacked the Matriarch and her guard, clearing the temple of the heretics.'
+    TRAD: "Après avoir trouvé des informations sur un groupe d'hérétiques du Tribunal, j'ai suivi la piste jusqu'à un temple caché rempli d'adorateurs. J'ai attaqué la matriarche et sa garde, et j'ai débarrassé le temple des hérétiques."
+  [346] QUST CNAM idx=74 status=TranslationComplete
+    ORIG: 'After finding information on a group of Tribunal heretics, I followed the trail to a hidden temple full of worshipers. I revealed my identity to the Matriarch and must now prove my loyalty by praying at the shrine.'
+    TRAD: "Après avoir découvert des informations sur un groupe d'hérétiques du Tribunal, j'ai suivi la piste d'un temple caché abritant de nombreux adeptes. J'ai révélé mon identité à la Matriarche et dois maintenant prouver ma loyauté en priant à l'autel."
+  [347] QUST CNAM idx=87 status=TranslationComplete
+    ORIG: 'After finding information on a group of Tribunal heretics, I followed the trail to a hidden temple full of worshipers. I revealed my identity to the Matriarch and was able to prove my loyalty by praying at the shrine.'
+    TRAD: "Après avoir trouvé des informations sur un groupe d'hérétiques du Tribunal, j'ai suivi la piste jusqu'à un temple caché rempli d'adorateurs. J'ai révélé mon identité à la matriarche et j'ai pu prouver ma loyauté en priant dans le sanctuaire."
+  [348] QUST CNAM idx=84 status=TranslationComplete
+    ORIG: 'After finding information on a group of Tribunal heretics, I followed the trail to a hidden temple full of worshipers. After reading a note written by the Matriarch, I learned of several activities outside temple I can investigate.'
+    TRAD: "À la suite de l'éruption du Mont Écarlate, la vénération du vieux Tribunal s'est éteinte au profit du mouvement des Cathartes, qui souhaite vénérer les dieux Dunmer originaux. Cependant, certains semblent encore s'accrocher aux anciennes pratiques. Au temple de Corberoc, j'ai découvert un complot hérétique visant à utiliser la forge de Fahlbtharz pour enchanter une arme dwemer. En entrant dans la forge, un hérétique a voulu m'attaquer."
+  [349] QUST CNAM idx=90 status=TranslationComplete
+    ORIG: "After finding information on a group of Tribunal heretics, I followed the trail to a hidden temple full of worshipers. Posing as one of Her Hands, I was able to speak to the Matriarch and receive the Goddess' commands."
+    TRAD: "Après avoir découvert des informations sur un groupe d'hérétiques du Tribunal, j'ai suivi la piste d'un temple caché abritant de nombreux adeptes. Me faisant passer pour une Main d'Almalexia, j'ai pu parler à la Matriarche et recevoir les ordres de la Déesse."
+  [350] QUST CNAM idx=83 status=TranslationComplete
+    ORIG: "After finding information on a group of Tribunal heretics, I followed the trail to a hidden temple full of worshipers. Posing as one of Her Hands, I was able to speak to the Matriarch and receive the Goddess' commands. Having completed her tasks, I was given a key to the armory."
+    TRAD: "Après avoir découvert des informations sur un groupe d'hérétiques du Tribunal, j'ai suivi la piste d'un temple caché abritant de nombreux adeptes. Me faisant passer pour une Main d'Almalexia, j'ai pu parler à la Matriarche et recevoir les ordres de la Déesse. Ayant accompli ses tâches, j'ai reçu la clé de l'armurerie."
+  [351] QUST CNAM idx=99 status=TranslationComplete
+    ORIG: "After finding information on a group of Tribunal heretics, I followed the trail to a hidden temple full of worshipers. Posing as one of Her Hands, I was able to speak to the Matriarch and receive the Goddess' commands. Having completed her tasks, I was given a key to the armory."
+    TRAD: "Après avoir découvert des informations sur un groupe d'hérétiques du Tribunal, j'ai suivi la piste d'un temple caché abritant de nombreux adeptes. Me faisant passer pour une Main d'Almalexia, j'ai pu parler à la Matriarche et recevoir les ordres de la Déesse. Ayant accompli ses tâches, j'ai reçu la clé de l'armurerie."
+
+=======================================================
+QUEST: 20000D63|cckrtsse001_altar.esl (ccKRTSSE001_zQuest) (Total strings: 38)
+=======================================================
+  [6] QUST NNAM idx=170 status=TranslationComplete
+    ORIG: 'Check on Rulnik'
+    TRAD: 'Allez voir Rulnik.'
+  [16] QUST NNAM idx=105 status=TranslationComplete
+    ORIG: 'Craft the Ironwood Soup at a cooking station'
+    TRAD: 'Préparez la soupe de bois de fer à un poste de cuisine.'
+  [19] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'A Dying Wish'
+    TRAD: 'Des envies suicidaires'
+  [30] QUST NNAM idx=75 status=TranslationComplete
+    ORIG: "Investigate the area around Giant's Tooth"
+    TRAD: 'Inspectez la zone autour de la Dent du géant.'
+  [45] QUST NNAM idx=1 status=TranslationComplete
+    ORIG: "Find information at Dead Man's Drink"
+    TRAD: "Trouvez des informations à l'Auberge du Mort de soif."
+  [76] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: 'Investigate the cave'
+    TRAD: 'Inspectez la grotte'
+  [88] QUST NNAM idx=100 status=TranslationComplete
+    ORIG: 'Read the Note from the Temple of Kynareth'
+    TRAD: 'Lisez la note du Temple de Kynareth.'
+  [139] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Wait for your wish to be granted'
+    TRAD: "Attendez que votre vœu s'exauce."
+  [153] QUST NNAM idx=2 status=TranslationComplete
+    ORIG: 'Travel to the Roadside Ruins'
+    TRAD: "Voyagez jusqu'aux Ruines de la route."
+  [156] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Return to town'
+    TRAD: 'Retournez en ville.'
+  [166] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: "Find a ferryman who will take you to Giant's Tooth"
+    TRAD: "Trouvez un passeur qui puisse vous emmener jusqu'à la Dent du géant."
+  [167] QUST NNAM idx=71 status=TranslationComplete
+    ORIG: 'Investigate the camp'
+    TRAD: 'Fouillez le camp.'
+  [173] QUST NNAM idx=90 status=TranslationComplete
+    ORIG: 'Ask an alchemist about the Ironwood Fruit'
+    TRAD: 'Demandez des renseignements sur les fruits de bois de fer à un alchimiste.'
+  [185] QUST NNAM idx=5 status=TranslationComplete
+    ORIG: 'Choose a bowl at the altar'
+    TRAD: "Choisissez un bol près de l'autel."
+  [213] QUST NNAM idx=150 status=TranslationComplete
+    ORIG: 'Wait an entire day for Rulnik to heal'
+    TRAD: 'Attendez une journée entière que Rulnik guérisse.'
+  [214] QUST NNAM idx=55 status=TranslationComplete
+    ORIG: "Read the Fisherman's Journal"
+    TRAD: 'Lisez le journal du pêcheur.'
+  [238] QUST NNAM idx=8 status=TranslationComplete
+    ORIG: 'Read the Note from the Temple of Kynareth'
+    TRAD: 'Lisez la note du Temple de Kynareth.'
+  [277] QUST NNAM idx=80 status=TranslationComplete
+    ORIG: 'Return to the mainland with the ingredient'
+    TRAD: "Retournez sur le continent avec l'ingrédient."
+  [288] QUST NNAM idx=110 status=TranslationComplete
+    ORIG: 'Give the Ironwood Soup to the temple priestess'
+    TRAD: 'Donnez la soupe de bois de fer à la prêtresse du temple.'
+  [293] QUST NNAM idx=61 status=TranslationComplete
+    ORIG: "Board the ferryman's boat"
+    TRAD: 'Montez sur le bateau du passeur.'
+  [555] QUST CNAM idx=97 status=TranslationComplete
+    ORIG: "In my travels, I've heard strange tales about hagravens performing rituals near Falkreath. I should head to the inn there and see what information I can turn up."
+    TRAD: "Au cours de mon périple, j'ai entendu d'étranges histoires à propos de harfreuses menant des rituels près d'Épervine. Je devrais me rendre à l'auberge, et voir quelles informations je peux y glaner."
+  [556] QUST CNAM idx=78 status=TranslationComplete
+    ORIG: "In my travels, I've heard strange tales about hagravens performing rituals near Falkreath. At the inn I found a journal that detailed the existence of a mysterious altar that grants one of three wishes."
+    TRAD: "Au cours de mon périple, j'ai entendu d'étranges histoires à propos de harfreuses menant des rituels près d'Épervine. J'ai trouvé un journal à l'auberge qui mentionnait l'existence d'un mystérieux autel permettant de choisir parmi trois vœux."
+  [557] QUST CNAM idx=107 status=TranslationComplete
+    ORIG: "In my travels, I've heard strange tales about hagravens performing rituals near Falkreath. At the Roadside Ruins I found a mysterious altar, with a cup placed in front. It seems I can fill one of the altar bowls with the cup's contents to make my wish."
+    TRAD: "Au cours de mon périple, j'ai entendu d'étranges histoires à propos de harfreuses menant des rituels près d'Épervine. J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. Il semblerait que je puisse remplir l'un des bols de l'autel avec le contenu de la coupe pour exaucer mon vœu."
+  [558] QUST CNAM idx=84 status=TranslationComplete
+    ORIG: "In my travels, I've heard strange tales about hagravens performing rituals near Falkreath. At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and some time later I received a letter from a courier."
+    TRAD: "Au cours de mon périple, j'ai entendu d'étranges histoires à propos de harfreuses menant des rituels près d'Épervine. J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien. Un messager m'a apporté une lettre un peu plus tard."
+  [559] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: "In my travels, I've heard strange tales about hagravens performing rituals near Falkreath. At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me power, and must sleep for a single night to have my wish granted."
+    TRAD: "Au cours de mon périple, j'ai entendu d'étranges histoires à propos de harfreuses menant des rituels près d'Épervine. J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui me promettait le pouvoir. Il me faut dormir une nuit pour que mon vœu s'exauce."
+  [560] QUST CNAM idx=105 status=TranslationComplete
+    ORIG: "In my travels, I've heard strange tales about hagravens performing rituals near Falkreath. At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me fortune, and must sleep for a single night to have my wish granted."
+    TRAD: "Au cours de mon périple, j'ai entendu d'étranges histoires à propos de harfreuses menant des rituels près d'Épervine. J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui me promettait la fortune. Il me faut dormir une nuit pour que mon vœu s'exauce."
+  [561] QUST CNAM idx=111 status=TranslationComplete
+    ORIG: "In my travels, I've heard strange tales about hagravens performing rituals near Falkreath. At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and now must wait for my boon."
+    TRAD: "Au cours de mon périple, j'ai entendu d'étranges histoires à propos de harfreuses menant des rituels près d'Épervine. J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien. Je dois maintenant attendre mon dû."
+  [562] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: 'At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and received a note from the Temple of Kynareth. I used the information on the note to travel to an island full of mammoth bones, where I found a rare Ironwood Fruit inside a cave. I should craft the Ironwood soup and return to the Temple of Kynareth to save the sick man.'
+    TRAD: "J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien et ai reçu une note du Temple de Kynareth. J'ai utilisé les informations indiquées sur la note pour voyager jusqu'à une île remplie d'os de mammouth et y ai trouvé un des rares fruits de bois de fer dans une grotte. Je devrais préparer la soupe de bois de fer et retourner au Temple de Kynareth pour sauver le malade."
+  [563] QUST CNAM idx=87 status=TranslationComplete
+    ORIG: "In my travels, I've heard strange tales about hagravens performing rituals near Falkreath. At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me fortune, and my wish was granted in the form of a job."
+    TRAD: "Au cours de mon périple, j'ai entendu d'étranges histoires à propos de harfreuses menant des rituels près d'Épervine. J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui me promettait la fortune. Mon vœu a été exaucé en prenant la forme d'une mission."
+  [564] QUST CNAM idx=103 status=TranslationComplete
+    ORIG: "In my travels, I've heard strange tales about hagravens performing rituals near Falkreath. At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and left the ruins.  Later I received a letter from a courier, asking for help finding a rare ingredient. I should ask a ferryman if they know how to reach Giant's Tooth."
+    TRAD: "Au cours de mon périple, j'ai entendu d'étranges histoires à propos de harfreuses menant des rituels près d'Épervine. J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien et ai quitté les ruines.  Plus tard, un messager m'a apporté une lettre demandant de l'aide pour trouver un ingrédient rare. Je devrais demander à des passeurs s'ils savent comment atteindre la Dent du géant."
+  [565] QUST CNAM idx=100 status=TranslationComplete
+    ORIG: "In my travels, I've heard strange tales about hagravens performing rituals near Falkreath. At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and received a note from the Temple of Kynareth. I used the information on the note to travel to an island full of mammoth bones."
+    TRAD: "Au cours de mon périple, j'ai entendu d'étranges histoires à propos de harfreuses menant des rituels près d'Épervine. J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien et ai reçu une note du Temple de Kynareth. J'ai utilisé les informations indiquées sur la note pour voyager jusqu'à une île remplie d'os de mammouth."
+  [566] QUST CNAM idx=119 status=TranslationComplete
+    ORIG: 'At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and received a note from the Temple of Kynareth. I used the information on the note to travel to an island full of mammoth bones, where I found a rare Ironwood Fruit inside a cave.'
+    TRAD: "J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien et ai reçu une note du Temple de Kynareth. J'ai utilisé les informations indiquées sur la note pour voyager jusqu'à une île remplie d'os de mammouth et y ai trouvé un des rares fruits de bois de fer dans une grotte."
+  [567] QUST CNAM idx=110 status=TranslationComplete
+    ORIG: 'At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and received a note from the Temple of Kynareth. I used the information on the note to travel to an island full of mammoth bones, where I found a rare Ironwood Fruit inside a cave. I should craft the Ironwood soup and return to the Temple of Kynareth to save the sick man.'
+    TRAD: "J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien et ai reçu une note du Temple de Kynareth. J'ai utilisé les informations indiquées sur la note pour voyager jusqu'à une île remplie d'os de mammouth et y ai trouvé un des rares fruits de bois de fer dans une grotte. Je devrais préparer la soupe de bois de fer et retourner au Temple de Kynareth pour sauver le malade."
+  [568] QUST CNAM idx=113 status=TranslationComplete
+    ORIG: 'At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and received a note from the Temple of Kynareth. I used the information on the note to travel to an island full of mammoth bones, where I found a rare Ironwood Fruit inside a cave. I should craft the Ironwood soup and return to the Temple of Kynareth to save the sick man.'
+    TRAD: "J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien et ai reçu une note du Temple de Kynareth. J'ai utilisé les informations indiquées sur la note pour voyager jusqu'à une île remplie d'os de mammouth et y ai trouvé un des rares fruits de bois de fer dans une grotte. Je devrais préparer la soupe de bois de fer et retourner au Temple de Kynareth pour sauver le malade."
+  [569] QUST CNAM idx=93 status=TranslationComplete
+    ORIG: 'At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and received a note from the Temple of Kynareth. I used the information on the note to travel to an island full of mammoth bones, where I found a rare Ironwood Fruit inside a cave. I used it to craft a bowl of Ironwood soup and can now deliver it to a temple priestess.'
+    TRAD: "J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien et ai reçu une note du Temple de Kynareth. J'ai utilisé les informations indiquées sur la note pour voyager jusqu'à une île remplie d'os de mammouth et y ai trouvé un des rares fruits de bois de fer dans une grotte. Je m'en suis servi pour préparer une soupe de bois de fer que je peux désormais apporter à une prêtresse du temple."
+  [570] QUST CNAM idx=86 status=TranslationComplete
+    ORIG: 'At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and received a note from the Temple of Kynareth. I used the information on the note to travel to an island full of mammoth bones, where I found a rare Ironwood Fruit inside a cave. I used it to craft a bowl of Ironwood soup and delivered it to a priestess. I must now wait an entire day for the cure to take effect.'
+    TRAD: "Aux Ruines du bord de la route, j'ai trouvé un autel mystérieux, avec une coupe placée devant. J'ai rempli le bol qui ne me promettait rien et j'ai reçu une note du Temple de Kynareth. J'ai utilisé les informations contenues dans la note pour me rendre sur une île remplie d'ossements de mammouths, où j'ai trouvé un fruit de bois de fer rare dans une grotte. Je l'ai utilisé pour fabriquer un bol de soupe au bois de fer et l'ai livré à une prêtresse. Je dois maintenant attendre une journée entière pour que le remède fasse effet."
+  [571] QUST CNAM idx=89 status=TranslationComplete
+    ORIG: 'At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and received a note from the Temple of Kynareth. I used the information on the note to travel to an island full of mammoth bones, where I found a rare Ironwood Fruit inside a cave. I used it to craft a bowl of Ironwood soup and delivered it to a priestess. I should check on the man at the temple to see if it has taken effect.'
+    TRAD: "J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien et ai reçu une note du Temple de Kynareth. J'ai utilisé les informations indiquées sur la note pour voyager jusqu'à une île remplie d'os de mammouth et y ai trouvé un des rares fruits de bois de fer dans une grotte. Je m'en suis servi pour préparer une soupe de bois de fer, puis l'ai apportée à la prêtresse. Je devrais aller voir l'homme au temple pour voir si cela a fonctionné."
+  [572] QUST CNAM idx=66 status=TranslationComplete
+    ORIG: 'At the Roadside Ruins I found a mysterious altar, with a cup placed in front. I filled the bowl that promised me nothing, and received a note from the Temple of Kynareth. I used the information on the note to travel to an island full of mammoth bones, where I found a rare Ironwood Fruit inside a cave. I used it to craft a bowl of Ironwood soup and delivered it to a priestess, who used it to save the man in question.'
+    TRAD: "J'ai trouvé un mystérieux autel près des Ruines de la route, avec une coupe posée à l'avant. J'ai rempli le bol qui ne me promettait rien et ai reçu une note du Temple de Kynareth. J'ai utilisé les informations indiquées sur la note pour voyager jusqu'à une île remplie d'os de mammouth et y ai trouvé un des rares fruits de bois de fer dans une grotte. Je m'en suis servi pour préparer une soupe de bois de fer, puis l'ai apportée à la prêtresse qui l'a utilisée pour sauver le malade."
+
+=======================================================
+QUEST: 1C000912|ccBGSSSE025-AdvDSGS.esm (ccBGSSSE025_QuestA) (Total strings: 43)
+=======================================================
+  [8] QUST NNAM idx=46 status=TranslationComplete
+    ORIG: "Read the Seducers bandit leader's journal"
+    TRAD: 'Lisez le journal du chef des Séducteurs bandits.'
+  [18] QUST NNAM idx=76 status=TranslationComplete
+    ORIG: "Read Svarig's journal"
+    TRAD: 'Lisez le journal de Svarig.'
+  [41] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: "Read Ri'saad's note"
+    TRAD: "Lisez la note de Ri'saad."
+  [55] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Defeat the Saints bandit leader'
+    TRAD: 'Venez à bout du chef des Saints bandits.'
+  [56] QUST NNAM idx=41 status=TranslationComplete
+    ORIG: 'Investigate the Seducers bandit camp'
+    TRAD: 'Inspectez le camp de Séducteurs bandits.'
+  [65] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Defeat Kinthal'
+    TRAD: 'Venez à bout de Kinthal.'
+  [66] QUST NNAM idx=71 status=TranslationComplete
+    ORIG: "Search Svarig's Seducers bandit camp"
+    TRAD: 'Fouillez le camp de Séducteurs bandits de Svarig.'
+  [129] QUST NNAM idx=0 status=TranslationComplete
+    ORIG: "Speak to Ri'saad about trouble along the road"
+    TRAD: "Parlez avec Ri'saad des problèmes sur la route."
+  [143] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Locate the Saints bandit camp'
+    TRAD: "Trouvez l'emplacement du camp de Saints bandits."
+  [149] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: "Locate Kinthal's Saints bandit camp"
+    TRAD: "Trouvez l'emplacement du camp de Saints bandits de Kinthal."
+  [177] QUST NNAM idx=80 status=TranslationComplete
+    ORIG: "Return to Ri'saad"
+    TRAD: "Retournez voir Ri'saad."
+  [194] QUST NNAM idx=61 status=TranslationComplete
+    ORIG: 'Defeat Svarig'
+    TRAD: 'Battez Svarig.'
+  [198] QUST NNAM idx=45 status=TranslationComplete
+    ORIG: "Read the Saints bandit leader's journal"
+    TRAD: 'Lisez le journal du chef des Saints bandits.'
+  [219] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Balance of Power'
+    TRAD: 'Équilibre du pouvoir'
+  [224] QUST NNAM idx=75 status=TranslationComplete
+    ORIG: "Read Kinthal's journal"
+    TRAD: 'Lisez le journal de Kinthal.'
+  [265] QUST NNAM idx=31 status=TranslationComplete
+    ORIG: 'Defeat the Seducers bandit leader'
+    TRAD: 'Venez à bout du chef des Séducteurs bandits.'
+  [266] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: "Search Kinthal's Saints bandit camp"
+    TRAD: 'Fouillez le camp de Saints bandits de Kinthal.'
+  [271] QUST NNAM idx=21 status=TranslationComplete
+    ORIG: 'Locate the Seducers bandit camp'
+    TRAD: "Trouvez l'emplacement du camp de Séducteurs bandits."
+  [279] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Investigate the Saints bandit camp'
+    TRAD: 'Inspectez le camp de Saints bandits.'
+  [280] QUST NNAM idx=51 status=TranslationComplete
+    ORIG: "Locate Svarig's Seducers bandit camp"
+    TRAD: "Trouvez l'emplacement du camp de Séducteurs bandits de Svarig."
+  [292] QUST NNAM idx=81 status=TranslationComplete
+    ORIG: "Speak to Ri'saad"
+    TRAD: "Adressez-vous à Ri'saad."
+  [383] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: "I've heard a rumor that a Khajiit caravan merchant has been running into trouble with bandits along the road, and is in need of assistance. I should speak to him if we ever cross paths."
+    TRAD: "On raconte qu'un marchand khajiit et sa caravane ont eu des ennuis avec des bandits sur la route. Ils semblent avoir besoin d'aide. Je devrais lui en toucher un mot si jamais nos chemins se croisent."
+  [384] QUST CNAM idx=66 status=TranslationComplete
+    ORIG: 'I found a journal on the bandit leader. I should read it to learn more about who they are.'
+    TRAD: "J'ai trouvé un journal sur le chef des bandits. Je devrais le lire pour en apprendre plus sur leur véritable identité."
+  [385] QUST CNAM idx=81 status=TranslationComplete
+    ORIG: 'The bandits, who call themselves the Seducers, are using an artifact to summon Daedra into our realm through a ritual in order to obtain their equipment. The location of the ritual site was in a note I found at their camp. Another group of bandits, the Saints, are also causing trouble for travelers.'
+    TRAD: "Les bandits, autoproclamés Séducteurs, utilisent un artéfact pour invoquer des Daedra dans notre royaume à l'aide d'un rituel, afin d'obtenir leur équipement. L'emplacement du site du rituel était indiqué dans une note que j'ai trouvée dans leur camp. Un autre groupe de bandits, les Saints, s'attaque aussi aux voyageurs."
+  [386] QUST CNAM idx=67 status=TranslationComplete
+    ORIG: "I've located the bandits that call themselves the Saints. I must deal with them in order to make this trade route safer to travel."
+    TRAD: "J'ai trouvé les bandits se faisant appeler les Saints. Je dois m'occuper d'eux afin de sécuriser cette route commerciale."
+  [387] QUST CNAM idx=120 status=TranslationComplete
+    ORIG: "I've located bandits wielding strange weapons and armor; these must be the bandits the Khajiit caravan merchant was rumored to be having trouble with. I should deal with them in order to learn more and make this trade route safer to travel."
+    TRAD: "J'ai découvert des bandits équipés d'étranges armes et armures. Ce doit être à cause d'eux que le marchand khajiit et sa caravane ont eu des problèmes. Je devrais aller m'en charger afin d'en apprendre plus et de sécuriser cette route commerciale."
+  [388] QUST CNAM idx=79 status=TranslationComplete
+    ORIG: 'I defeated the Saints bandits. I should investigate the campsite.'
+    TRAD: "J'ai vaincu les Saints. Je devrais inspecter leur camp."
+  [389] QUST CNAM idx=71 status=TranslationComplete
+    ORIG: 'I defeated the bandits. I should investigate the campsite.'
+    TRAD: "J'ai vaincu les bandits. Je devrais inspecter leur camp."
+  [390] QUST CNAM idx=74 status=TranslationComplete
+    ORIG: 'I discovered a journal on one of the bandits. I should read it to learn more about who they are.'
+    TRAD: "J'ai découvert un journal sur l'un des bandits. Je devrais le lire pour en apprendre plus sur leur véritable identité."
+  [391] QUST CNAM idx=102 status=TranslationComplete
+    ORIG: "It seems like more of the Saints bandits have set up camp elsewhere, along with their leader. The location of their leader's camp was detailed in a journal I discovered."
+    TRAD: "On dirait que d'autres Saints et leur chef ont installé un camp quelque part. Son emplacement était indiqué dans un journal que j'ai découvert."
+  [392] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: "I have defeated the Saints and Seducers bandit leaders, and now the roads should be safer to travel. I should speak to Ri'saad to let him know."
+    TRAD: "J'ai vaincu les chefs des Saints et des Séducteurs. La route devrait être plus sûre désormais. Je ferais bien d'aller prévenir Ri'saad."
+  [393] QUST CNAM idx=80 status=TranslationComplete
+    ORIG: "I've located more of the Saints bandits, along with their leader. I will need to defeat them."
+    TRAD: "J'ai trouvé d'autres Saints, accompagnés de leur chef. Je vais devoir les éliminer."
+  [394] QUST CNAM idx=77 status=TranslationComplete
+    ORIG: 'I have defeated the Saints bandit leader. I should look around for more information.'
+    TRAD: "J'ai vaincu le chef des Saints. Je devrais inspecter les alentours à la recherche d'informations."
+  [395] QUST CNAM idx=95 status=TranslationComplete
+    ORIG: "I discovered a note that detailed how the Saints bandits are being assisted by a conjurer who seeks strange artifacts. The note was vague about his whereabouts, only noting that he is somewhere in Solitude. I should now finish eliminating the Seducers, the other bandit group causing trouble for Ri'saad's caravans. Perhaps I can learn more about this conjurer and where to find him."
+    TRAD: "J'ai découvert une note indiquant que les Saints reçoivent de l'aide d'un invocateur à la recherche d'étranges artéfacts. La note n'était pas claire quant à sa position exacte, mais elle mentionnait qu'il devait se trouver quelque part à Solitude. Je devrais finir d'éliminer les Séducteurs, l'autre groupe de bandits s'en prenant aux caravanes de Ri'saad. Peut-être pourrai-je en apprendre davantage sur l'invocateur et l'endroit où il se trouve."
+  [396] QUST CNAM idx=90 status=TranslationComplete
+    ORIG: "I've located the bandits that call themselves the Seducers. To make the roads safer to travel, and learn more about the bandits, I will have to defeat them."
+    TRAD: "J'ai trouvé les bandits se faisant appeler les Séducteurs. Pour rendre les routes plus sûres et en apprendre plus sur les bandits, je vais devoir les vaincre."
+  [397] QUST CNAM idx=73 status=TranslationComplete
+    ORIG: "It seems like more of the Seducers bandits have set up camp elsewhere, along with their leader. The location of their leader's camp was detailed in a journal I discovered."
+    TRAD: "On dirait que d'autres Séducteurs et leur chef ont installé un camp quelque part. Son emplacement était indiqué dans un journal que j'ai découvert."
+  [398] QUST CNAM idx=94 status=TranslationComplete
+    ORIG: 'I defeated the Seducers bandits. I should investigate the campsite.'
+    TRAD: "J'ai vaincu les Séducteurs. Je devrais inspecter leur camp."
+  [399] QUST CNAM idx=75 status=TranslationComplete
+    ORIG: 'I defeated the bandits. I should investigate the campsite.'
+    TRAD: "J'ai vaincu les bandits. Je devrais inspecter leur camp."
+  [400] QUST CNAM idx=78 status=TranslationComplete
+    ORIG: "I've located more of the Seducers bandits, along with their leader. I will need to defeat them."
+    TRAD: "J'ai trouvé d'autres Séducteurs, accompagnés de leur chef. Je vais devoir les éliminer."
+  [401] QUST CNAM idx=106 status=TranslationComplete
+    ORIG: 'I have defeated the Seducers bandit leader. I should look around for more information.'
+    TRAD: "J'ai vaincu le chef des Séducteurs. Je devrais inspecter les alentours à la recherche d'informations."
+  [402] QUST CNAM idx=89 status=TranslationComplete
+    ORIG: 'I found the journal of the leader of the Seducers bandits. I should read it to see if there is anything more to learn about these strange criminals.'
+    TRAD: "J'ai trouvé le journal du chef des Séducteurs. Je devrais le lire. J'obtiendrai peut-être plus d'informations sur ces étranges criminels."
+  [403] QUST CNAM idx=82 status=TranslationComplete
+    ORIG: "I discovered a note that detailed how the Seducers bandits are being assisted by a conjurer who seeks strange artifacts. The note was vague about his whereabouts, only noting that he is somewhere in a sewer. I should now finish eliminating the Saints, the other bandit group causing trouble for Ri'saad's caravans. Perhaps I can learn more about this conjurer and where to find him."
+    TRAD: "J'ai découvert une note indiquant que les Séducteurs reçoivent de l'aide d'un invocateur à la recherche d'étranges artéfacts. La note n'était pas claire quant à sa position exacte, mais elle mentionnait qu'il devait se trouver quelque part dans un égout. Je devrais finir d'éliminer les Saints, l'autre groupe de bandits s'en prenant aux caravanes de Ri'saad. Peut-être pourrai-je en apprendre davantage sur l'invocateur et l'endroit où il se trouve."
+  [404] QUST CNAM idx=50 status=TranslationComplete
+    ORIG: "I spoke to Ri'saad, who rewarded me for defeating the bandits and helping make the roads safe to travel."
+    TRAD: "J'ai parlé à Ri'saad, qui m'a offert une récompense pour avoir vaincu les bandits et aidé à rendre la route plus sûre."
+
+=======================================================
+QUEST: 10000AB0|ccbgssse008-wraithguard.esl (ccBGSSSE008_Quest) (Total strings: 24)
+=======================================================
+  [9] QUST NNAM idx=0 status=TranslationComplete
+    ORIG: "Find the caravan's letters in Windhelm"
+    TRAD: 'Trouvez les lettres de la caravane à Vendeaume'
+  [10] QUST NNAM idx=11 status=TranslationComplete
+    ORIG: 'Find a way to open the vault gates'
+    TRAD: "Trouvez le moyen d'ouvrir la porte de la chambre forte"
+  [42] QUST NNAM idx=3 status=TranslationComplete
+    ORIG: 'Find evidence of the caravans in Whiterun'
+    TRAD: 'Trouvez des preuves du passage de caravanes à Blancherive'
+  [43] QUST NNAM idx=14 status=TranslationComplete
+    ORIG: "Read Velyne's Letter"
+    TRAD: 'Lisez la lettre de Velyne'
+  [57] QUST NNAM idx=6 status=TranslationComplete
+    ORIG: 'Retrieve Sunder and Wraithguard'
+    TRAD: 'Récupérez Broyeur et Garde spectrale'
+  [81] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Legends Lost'
+    TRAD: 'Légendes perdues'
+  [108] QUST NNAM idx=9 status=TranslationComplete
+    ORIG: 'Restore steam in the left valve system'
+    TRAD: 'Faites revenir la vapeur dans le système de valves de gauche'
+  [116] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Restore steam in the right valve system'
+    TRAD: 'Faites revenir la vapeur dans le système de valves de droite'
+  [136] QUST NNAM idx=1 status=TranslationComplete
+    ORIG: "Follow the caravan's trail"
+    TRAD: 'Suivez la piste de la caravane'
+  [137] QUST NNAM idx=12 status=TranslationComplete
+    ORIG: "Read the Carriage Driver's Note"
+    TRAD: 'Lisez le mot du cocher'
+  [150] QUST NNAM idx=4 status=TranslationComplete
+    ORIG: 'Find the detoured caravans'
+    TRAD: 'Trouvez les caravaniers ayant fait un détour'
+  [184] QUST NNAM idx=7 status=TranslationComplete
+    ORIG: 'Defeat the Messenger'
+    TRAD: 'Éliminez le Messager'
+  [230] QUST NNAM idx=2 status=TranslationComplete
+    ORIG: 'Find the second caravan'
+    TRAD: 'Trouvez la seconde caravane'
+  [252] QUST NNAM idx=13 status=TranslationComplete
+    ORIG: "Read the Seedy Guard's Note"
+    TRAD: 'Lisez le mot du garde douteux'
+  [281] QUST NNAM idx=5 status=TranslationComplete
+    ORIG: 'Enter the vault in the Sightless Pit'
+    TRAD: 'Entrez dans la chambre forte de la Fosse aveugle'
+  [314] QUST NNAM idx=8 status=TranslationComplete
+    ORIG: 'Retrieve the Attunement Crystal'
+    TRAD: "Récupérez le cristal d'harmonie"
+  [446] QUST CNAM idx=94 status=TranslationComplete
+    ORIG: 'Rumors say an old refugee trunk full of letters has been uncovered in Windhelm. I should see if I can find a copy of those letters and more information on the cargo they were carrying.'
+    TRAD: "Des rumeurs disent qu'un vieux coffre de réfugiés plein de lettres a été découvert à Vendeaume. Je devrais aller voir si je peux en obtenir une copie ainsi que plus d'informations sur leur cargaison."
+  [447] QUST CNAM idx=76 status=TranslationComplete
+    ORIG: "I've found one of the letters, which details the routes of both the caravans as well as decoys designed to misdirect potential thieves. According to the letter, the first caravan was headed west toward Nightgate Inn. Perhaps following its trail will lead to another clue."
+    TRAD: "J'ai trouvé l'une des lettres qui détaille les itinéraires des deux caravanes ainsi que des leurres destinés à confondre les voleurs potentiels. D'après la lettre, la première caravane se dirigeait vers l'ouest, en direction de l'Auberge de la Porte nocturne. Si je suis sa piste, je trouverai peut-être un autre indice."
+  [448] QUST CNAM idx=78 status=TranslationComplete
+    ORIG: 'The first caravan was attacked by Dwarven creatures. They managed to escape but I found a copy of their logs, along with details of all the other caravans. The next carriage was headed towards Whiterun. I should see what I can find.'
+    TRAD: "La première caravane a été attaquée par des créatures dwemers. Ils ont réussi à s'échapper, mais j'ai trouvé une copie de leurs journaux ainsi que des détails sur toutes les autres caravanes. La prochaine se dirigeait vers Blancherive. Je devrais aller voir ce que je peux trouver."
+  [449] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: 'On the road to Whiterun I found the remnants of another sacked caravan. According to a note I found in the wreckage, the remaining caravans were set to regroup in Whiterun, and one of the guards visited the Halls of the Dead there.'
+    TRAD: "Sur la route vers Blancherive, j'ai trouvé les restes d'une autre caravane mise à sac. D'après une note que j'ai trouvée dans les débris, les caravanes restantes avaient prévu de se regrouper à Blancherive, et l'un des gardes y a visité la nécropole."
+  [450] QUST CNAM idx=91 status=TranslationComplete
+    ORIG: "In response to the attacks, the caravans took a detour towards Falkreath. I'll need to follow their trail to see if they left anything behind."
+    TRAD: 'À cause des attaques, les caravanes ont fait un détour vers Épervine. Je vais devoir suivre leur piste pour voir si elles ont laissé quelque chose derrière elles.'
+  [451] QUST CNAM idx=98 status=TranslationComplete
+    ORIG: "The cargo the caravans were delivering appears to hold the missing Tools of Kagremac: Sunder and Wraithguard. Apparently the items were surrendered to Dwemer drones and taken to a vault in the Sightless Pit. If I'm to open the door, I need to take this attunement crystal I found and use it to unlock the vault."
+    TRAD: "La cargaisons des caravanes semble contenir les Outils disparus de Kagrénac : Broyeur et Garde spectrale. Ces objets ont été remis à des drones dwemers qui les conservent dans une chambre forte de la Fosse aveugle. Si je veux ouvrir la porte, je dois la déverrouiller avec le cristal d'harmonie que j'ai trouvé."
+  [452] QUST CNAM idx=66 status=TranslationComplete
+    ORIG: "I've unlocked the Sightless Vault. Within lies Sunder and Wraithguard."
+    TRAD: "J'ai déverrouillé la Chambre aveugle. Elle abrite Broyeur et Garde spectrale."
+  [453] QUST CNAM idx=93 status=TranslationComplete
+    ORIG: "I've defeated the Dwarven defenses and claimed both Sunder and Wraithguard for myself."
+    TRAD: "J'ai vaincu les défenses dwemers et pris possession de Broyeur et de Garde spectrale."
+
+=======================================================
+QUEST: 0B000813|ccbgssse021-lordsmail.esl (ccBGSSSE021_LordsMailQuest) (Total strings: 10)
+=======================================================
+  [12] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: "Confront the Alik'r Mercenaries"
+    TRAD: "Affrontez les mercenaires alik'r"
+  [127] QUST NNAM idx=0 status=TranslationComplete
+    ORIG: "Read the Emperor's Letter"
+    TRAD: "Lisez la lettre de l'Empereur"
+  [215] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Gift of Kynareth'
+    TRAD: 'Le don de Kynareth'
+  [242] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: "Cleanse the Lord's Mail in Solitude"
+    TRAD: "Purifiez l'Armure du Seigneur à l'autel de Kynareth de Solitude"
+  [284] QUST NNAM idx=15 status=TranslationComplete
+    ORIG: "Retrieve the Lord's Mail"
+    TRAD: "Récupérez l'Armure du Seigneur"
+  [427] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: "A letter from the Emperor pertaining to an Imperial artifact was found at Castle Dour.  I should read it and find out what it's about."
+    TRAD: "On a trouvé une lettre provenant de l'Empereur concernant un artéfact impérial à Mornefort. Je devrais la lire pour voir de quoi il retourne."
+  [428] QUST CNAM idx=72 status=TranslationComplete
+    ORIG: "I've found a letter addressed to General Tullius from the Emperor of Tamriel instructing that The Lord's Mail, a treasured Imperial relic, be found and reclaimed.  A band of Redguard mercenaries are rumored to have taken it.  I should locate their whereabouts and see if I can obtain the artifact."
+    TRAD: "J'ai trouvé une lettre pour le général Tullius, émanant de l'Empereur de Tamriel, indiquant que l'Armure du Seigneur, une précieuse relique impériale, a été trouvée et revendiquée. Apparemment, c'est une bande de mercenaires rougegardes qui l'a récupérée. Je devrais aller les traquer pour tenter d'obtenir cet artéfact."
+  [429] QUST CNAM idx=88 status=TranslationComplete
+    ORIG: "I've confronted the Alik'r mercenaries and found a locked chest.  I just need to find the key..."
+    TRAD: "J'ai trouvé un coffre verrouillé en affrontant les mercenaires alik'r. Il faut juste que je trouve la clé..."
+  [430] QUST CNAM idx=100 status=TranslationComplete
+    ORIG: "I've retrieved The Lord's Mail, the legendary Imperial armor.  Before it can be worn, it must be cleansed at the shrine of Kynareth in Solitude."
+    TRAD: "J'ai récupéré l'Armure du Seigneur, une cuirasse impériale légendaire. Avant de pouvoir la porter, il faut aller la purifier à l'autel de Kynareth, à Solitude."
+  [431] QUST CNAM idx=97 status=TranslationComplete
+    ORIG: "The Lord's Mail has been retreived, blessed by Kynareth, and can now be worn safely."
+    TRAD: "L'Armure du Seigneur a été récupérée, bénie par Kynareth et peut désormais être portée en toute sécurité."
+
+=======================================================
+QUEST: 0E0008C8|ccvsvsse002-pets.esl (ccVSVSSE002_MainQuest) (Total strings: 24)
+=======================================================
+  [15] QUST NNAM idx=400 status=TranslationComplete
+    ORIG: 'Find out more about the fox'
+    TRAD: "Trouvez plus d'informations concernant la renarde."
+  [21] QUST NNAM idx=100 status=TranslationComplete
+    ORIG: 'Find a treat for the rabbit'
+    TRAD: 'Trouvez une douceur pour le lapin.'
+  [32] QUST NNAM idx=1030 status=TranslationComplete
+    ORIG: 'Find out more about <Alias=AliasGoat>'
+    TRAD: "Trouvez plus d'informations concernant <Alias=AliasGoat>."
+  [46] QUST NNAM idx=1000 status=TranslationComplete
+    ORIG: 'Check the notices at the Bannered Mare'
+    TRAD: 'Lisez les avis à la Jument pavoisée.'
+  [75] QUST NNAM idx=510 status=TranslationComplete
+    ORIG: 'Buy <Alias=AliasGoat> from <Alias=AliasFarmer>'
+    TRAD: 'Achetez <Alias=AliasGoat> auprès de <Alias=AliasFarmer>.'
+  [86] QUST NNAM idx=300 status=TranslationComplete
+    ORIG: 'Find a key to the spider cage'
+    TRAD: 'Trouvez la clé de la cage à araignées.'
+  [101] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Find the tamed spider'
+    TRAD: "Trouvez l'araignée apprivoisée."
+  [142] QUST NNAM idx=1020 status=TranslationComplete
+    ORIG: 'Greet <Alias=AliasGoat> the goat'
+    TRAD: 'Dites bonjour à <Alias=AliasGoat> la chèvre.'
+  [162] QUST NNAM idx=210 status=TranslationComplete
+    ORIG: 'Free <Alias=AliasSkeever> from its cage'
+    TRAD: 'Libérez <Alias=AliasSkeever> de sa cage.'
+  [165] QUST NNAM idx=500 status=TranslationComplete
+    ORIG: 'Find out more about the goat'
+    TRAD: "Trouvez plus d'informations concernant la chèvre."
+  [170] QUST NNAM idx=200 status=TranslationComplete
+    ORIG: 'Find a key to the skeever cage'
+    TRAD: 'Trouvez la clé de la cage à ragnards.'
+  [208] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Find the tamed skeever'
+    TRAD: 'Trouvez le ragnard apprivoisé.'
+  [218] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: 'Find <Alias=AliasGoat> the goat'
+    TRAD: 'Trouvez <Alias=AliasGoat> la chèvre.'
+  [245] QUST NNAM idx=410 status=TranslationComplete
+    ORIG: 'Feed <Alias=AliasFox> a sweet roll'
+    TRAD: 'Donnez un petit pain à <Alias=AliasFox>.'
+  [247] QUST NNAM idx=110 status=TranslationComplete
+    ORIG: 'Feed <Alias=AliasRabbit> a carrot'
+    TRAD: 'Donnez une carotte à <Alias=AliasRabbit>.'
+  [251] QUST NNAM idx=1010 status=TranslationComplete
+    ORIG: 'Purchase a tamed goat from <Alias=AliasFarmer>'
+    TRAD: 'Achetez une chèvre apprivoisée auprès de <Alias=AliasFarmer>.'
+  [257] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Pets of Skyrim'
+    TRAD: 'Familiers de Bordeciel'
+  [303] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Find the tamed fox'
+    TRAD: 'Trouvez la renarde apprivoisée.'
+  [313] QUST NNAM idx=310 status=TranslationComplete
+    ORIG: 'Free <Alias=AliasSpider> from its cage'
+    TRAD: 'Libérez <Alias=AliasSpider> de sa cage.'
+  [318] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Find the tamed rabbit'
+    TRAD: 'Trouvez le lapin apprivoisé.'
+  [440] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: '*Add log entry here*'
+    TRAD: '*Ajouter une entrée de journal ici*'
+  [441] QUST CNAM idx=96 status=TranslationComplete
+    ORIG: 'The journey through Skyrim can be hard and long, and I could use the companionship of a loyal animal. I should inquire in town to see if there are any tamed animals for sale.'
+    TRAD: "Les voyages à travers Bordeciel peuvent être longs et difficiles, et un compagnon loyal me serait d'une grande utilité. Je devrais me renseigner en ville pour savoir si des animaux apprivoisés sont à vendre."
+  [442] QUST CNAM idx=68 status=TranslationComplete
+    ORIG: 'I found a notice in the Bannered Mare offering a tamed goat for sale. I need to talk to Halvar in Rorikstead to purchase it.'
+    TRAD: "J'ai trouvé une note à la Jument pavoisée proposant d'acheter une chèvre. Je dois m'adresser à Halvar à Rorikbourg pour l'acheter."
+  [443] QUST CNAM idx=91 status=TranslationComplete
+    ORIG: "After reading Halvar's journal on his adventures throughout Skyrim, I've discovered that there are many other tame animal companions out there in the wild. I should set out to find them."
+    TRAD: "Après avoir lu le journal d'Halvar sur ses aventures en Bordeciel, j'ai découvert qu'il existe bien d'autres familiers apprivoisés dans la nature. Je devrais partir à leur recherche."
+
+=======================================================
+QUEST: 1D000F18|ccbgssse013-dawnfang.esl (ccBGSSSE013_AquisitionQuest) (Total strings: 19)
+=======================================================
+  [17] QUST NNAM idx=18 status=TranslationComplete
+    ORIG: 'Investigate the vault'
+    TRAD: 'Examinez la chambre forte.'
+  [34] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Find the ghost in the Ratway'
+    TRAD: 'Trouvez le fantôme dans la Souricière.'
+  [70] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: 'Return to the sword chamber'
+    TRAD: "Retournez dans la chambre à l'épée."
+  [78] QUST NNAM idx=5 status=TranslationComplete
+    ORIG: 'Investigate rumors of ghosts in the Riften Ratway'
+    TRAD: 'Enquêtez sur les rumeurs de fantômes à la Souricière de Faillaise.'
+  [91] QUST NNAM idx=24 status=TranslationComplete
+    ORIG: 'Investigate the north chamber'
+    TRAD: 'Fouillez la chambre nord.'
+  [131] QUST NNAM idx=19 status=TranslationComplete
+    ORIG: 'Find a way to free the sword'
+    TRAD: "Trouvez un moyen de libérer l'épée."
+  [157] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Investigate the east chamber'
+    TRAD: 'Examinez la chambre est.'
+  [192] QUST NNAM idx=25 status=TranslationComplete
+    ORIG: 'Defeat the Guardian'
+    TRAD: 'Éliminez le Gardien.'
+  [209] QUST NNAM idx=17 status=TranslationComplete
+    ORIG: 'Follow the ghost'
+    TRAD: 'Suivez le fantôme.'
+  [253] QUST NNAM idx=80 status=TranslationComplete
+    ORIG: 'Retrieve the sword'
+    TRAD: "Retrouvez l'épée."
+  [305] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'A Soul Divided'
+    TRAD: 'Âme scindée'
+  [540] QUST CNAM idx=78 status=TranslationRequired
+    ORIG: 'Upon returning to the sword chamber, I found the shield surrounding the sword had altered its magical appearance and its hold upon the blade. Could it be that the shield is influenced by defeating the Guardian? As another chamber door has opened, I should proceed into this new area and see if this theory holds any truth.'
+    TRAD: None
+  [541] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: "I've heard rumors about a ghostly apparition that has been haunting the Ratway in Riften. I should investigate the area and see if I can learn more."
+    TRAD: "J'ai entendu parler d'un fantôme qui hanterait la Souricière, à Faillaise. Je devrais enquêter sur place pour essayer d'en savoir plus."
+  [542] QUST CNAM idx=74 status=TranslationComplete
+    ORIG: 'I found the ghostly woman, but as I drew near to her, she approached a nearby sewer entrance and vanished before my eyes. I should follow her and see where the sewer entrance leads.'
+    TRAD: "J'ai trouvé la femme fantomatique, mais alors que je m'en approchais, elle a disparu dans une bouche d'égout, sous mes yeux ébahis. Je devrais la suivre pour voir où mène ce conduit."
+  [543] QUST CNAM idx=105 status=TranslationComplete
+    ORIG: 'Having followed the apparition, I have found myself inside an abandoned vault. A mysterious sword floats suspended in a magical field at the heart of the vault. Judging by the condition of this place, it looks as if it has lain undisturbed for a very long time. Perhaps if I proceed forward, I may find some answers and a way to unlock the sword.'
+    TRAD: "Après avoir suivi l'apparition, je me suis retrouvé à l'intérieur d'un caveau abandonné. Une épée mystérieuse flotte en suspension dans un champ magique au cœur de la voûte. À en juger par l'état de cet endroit, il semble qu'il soit resté intact pendant très longtemps. Si j'avance, je trouverai peut-être des réponses et un moyen de déverrouiller l'épée."
+  [544] QUST CNAM idx=73 status=TranslationComplete
+    ORIG: 'I have battled a strange warrior in the depths of this vault, but he vanished before I could strike my killing blow. However, when he vanished, there was a great burst of magic energy and the ground shook beneath me. I should head back to the sword chamber where perhaps I may encounter him again.'
+    TRAD: "J'ai affronté un étrange guerrier dans les profondeurs de cette chambre forte, mais il a disparu avant que je ne puisse lui infliger mon coup fatal. Toutefois, lors de sa disparition, il a émis une grande explosion d'énergie magique et le sol a tremblé sous mes pieds. Je devrais retourner dans la chambre à l'épée où je le recroiserai peut-être."
+  [545] QUST CNAM idx=98 status=TranslationComplete
+    ORIG: 'I have vanquished the Guardian. I should return to the sword chamber to see if his defeat has affected the shield.'
+    TRAD: "J'ai vaincu le Gardien. Je devrais rapporter l'épée dans la chambre pour voir si sa défaite a affecté le bouclier."
+  [546] QUST CNAM idx=81 status=TranslationRequired
+    ORIG: 'Once again, my encounter with the Guardian has affected the shield that surrounds the sword. I should search the newly opened area where I may encounter the Guardian once more.'
+    TRAD: None
+  [547] QUST CNAM idx=87 status=TranslationComplete
+    ORIG: 'Upon returning to the sword chamber, I witnessed what appeared to be a reconciliation between the Guardian and the woman, for I saw their spirits embrace and fade away. Perhaps in defeating him, I have actually freed his spirit from his binds to the sword and this vault. Now he is free and so too is the sword. '
+    TRAD: 'Upon returning to the sword chamber, I found the shield surrounding the sword had altered its magical appearance and its hold upon the blade. Could it be that the shield is influenced by defeating the Guardian? As another chamber door has opened, I should proceed into this new area and see if this theory holds any truth.'
+
+=======================================================
+QUEST: 12000927|ccffbsse001-imperialdragon.esl (ccFFBSSE001_Quest) (Total strings: 43)
+=======================================================
+  [24] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Deliver five snow bear pelts to Yrsarald in Windhelm'
+    TRAD: "Apportez cinq peaux d'ours des neiges à Yrsarald à Vendeaume"
+  [68] QUST NNAM idx=140 status=TranslationComplete
+    ORIG: 'Join the Stormcloak garrison at the battle site'
+    TRAD: 'Rejoignez la garnison Sombrage sur le champ de bataille'
+  [87] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Battle of the Champions'
+    TRAD: 'Combat des champions'
+  [94] QUST NNAM idx=230 status=TranslationComplete
+    ORIG: 'Retrieve the Imperial Dragon Armor and map'
+    TRAD: "Récupérez l'armure impériale draconique et la carte"
+  [113] QUST NNAM idx=260 status=TranslationComplete
+    ORIG: 'Defeat the Stormcloak soldiers'
+    TRAD: 'Éliminez les soldats Sombrages'
+  [114] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Pose as an Imperial soldier and speak to the Legate'
+    TRAD: 'Faites-vous passer pour un soldat impérial et parlez au Légat'
+  [122] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: '(Optional) Persuade the Legate to make you his champion'
+    TRAD: '(Optionnel) Persuadez le Légat de vous choisir comme champion'
+  [128] QUST NNAM idx=1 status=TranslationComplete
+    ORIG: 'Head to a major hold and await news from a courier'
+    TRAD: "Rendez-vous à une châtellerie et attendez des nouvelles d'un messager"
+  [141] QUST NNAM idx=244 status=TranslationComplete
+    ORIG: 'Speak with the Stormcloak Champion'
+    TRAD: 'Parlez au champion Sombrage'
+  [155] QUST NNAM idx=130 status=TranslationComplete
+    ORIG: 'Retrieve the Storm-Bear Armor and map'
+    TRAD: "Récupérez l'armure de Sombrours et la carte"
+  [180] QUST NNAM idx=160 status=TranslationComplete
+    ORIG: 'Defeat the Imperial soldiers'
+    TRAD: 'Éliminez les soldat impériaux'
+  [203] QUST NNAM idx=220 status=TranslationComplete
+    ORIG: 'Meet with your commanding officer'
+    TRAD: 'Allez voir votre commandant.'
+  [221] QUST NNAM idx=1120 status=TranslationComplete
+    ORIG: 'Meet with your commanding officer'
+    TRAD: 'Allez voir votre commandant.'
+  [226] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Investigate the Drunken Huntsman for information'
+    TRAD: 'Enquêtez au Chasseur ivre pour obtenir des informations'
+  [228] QUST NNAM idx=144 status=TranslationComplete
+    ORIG: 'Speak with the Imperial Champion'
+    TRAD: 'Parlez au champion Impérial'
+  [236] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: '(Optional) Steal the snow bear pelts from Klija in Kynesgrove'
+    TRAD: "(Optionnel) Volez les peaux d'ours des neiges à Klija au Bosquet de Kyne"
+  [254] QUST NNAM idx=2 status=TranslationComplete
+    ORIG: 'Read the letter'
+    TRAD: 'Lisez la lettre'
+  [282] QUST NNAM idx=120 status=TranslationComplete
+    ORIG: 'Meet with your commanding officer'
+    TRAD: 'Allez voir votre commandant.'
+  [317] QUST NNAM idx=240 status=TranslationComplete
+    ORIG: 'Join the Imperial garrison at the battle site'
+    TRAD: 'Rejoignez la garnison impériale sur le champ de bataille'
+  [461] QUST CNAM idx=86 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [462] QUST CNAM idx=96 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. "
+    TRAD: "J'ai été choisi pour participer à une bataille de champions. À l'aide d'une carte que j'ai reçue de mon commandant, je suis arrivé sur le lieu de la bataille."
+  [463] QUST CNAM idx=73 status=TranslationComplete
+    ORIG: 'According to a letter I found in Whiterun, the Stormcloaks and Imperials are engaging in a battle of champions. Rumor has it that Yrsarald Thrice-Pierced has asked any potential champion to prove their worth by slaying five snow bears and handing him their pelts. Alternatively, I could try posing as a soldier and speaking to Legate Adventus Caesennius in Solitude.'
+    TRAD: "D'après une lettre que j'ai trouvée à Blancherive, les Sombrages et les Impériaux se lancent dans un combat de champions. La rumeur veut qu'Yrsarald Triple-Entaille ait demandé à ce que tout champion potentiel prouve sa valeur en tuant cinq ours des neiges et en lui en apportant les peaux. Ou alors, je pourrais me faire passer pour un soldat et parler au Légat Adventus Caesennius, à Solitude."
+  [464] QUST CNAM idx=116 status=TranslationComplete
+    ORIG: 'A civil war rages on between the Stormcloaks and Imperials, with Whiterun at the center. Having taken a side, I should speak with my commanding officer to see if I can fight as a champion.'
+    TRAD: "Une guerre civile fait rage entre les Sombrages et les Impériaux, et Blancherive en est au centre. Maintenant que j'ai choisi mon allégeance, je devrais m'entretenir avec mon commandant pour voir si je peux me battre en tant que champion."
+  [465] QUST CNAM idx=70 status=TranslationComplete
+    ORIG: 'According to a letter I found in Whiterun, the Stormcloaks and Imperials are engaging in a battle of champions. Rumor has it that Yrsarald Thrice-Pierced has asked any potential champion to prove their worth by slaying five snow bears and handing him their pelts. Alternatively, I could try posing as a soldier and speaking to Legate Adventus Caesennius in Solitude.'
+    TRAD: "D'après une lettre que j'ai trouvée à Blancherive, les Sombrages et les Impériaux se lancent dans un combat de champions. La rumeur veut qu'Yrsarald Triple-Entaille ait demandé à ce que tout champion potentiel prouve sa valeur en tuant cinq ours des neiges et en lui en apportant les peaux. Ou alors, je pourrais me faire passer pour un soldat et parler au Légat Adventus Caesennius, à Solitude."
+  [466] QUST CNAM idx=97 status=TranslationComplete
+    ORIG: "According to a letter I found in Whiterun, the Stormcloaks and Imperials are engaging in a battle of champions. Rumor has it that Yrsarald Thrice-Pierced has asked any potential champion to prove their worth by slaying five snow bears and handing him their pelts. I've taken the pelts I need from a warrior named Klija Wolf-Claw in Kynesgrove."
+    TRAD: "D'après une lettre que j'ai trouvée à Blancherive, les Sombrages et les Impériaux se lancent dans un combat de champions. La rumeur veut qu'Yrsarald Triple-Entaille ait demandé à ce que tout champion potentiel prouve sa valeur en tuant cinq ours des neiges et en lui en apportant les peaux. J'ai obtenu les peaux dont j'ai besoin auprès d'une guerrière appelée Klija Griffe-de-Loup, au Bosquet de Kyne."
+  [467] QUST CNAM idx=94 status=TranslationComplete
+    ORIG: 'A civil war rages on between the Stormcloaks and Imperials, with Whiterun at the center. Knowing I have sided with the Imperials, Legate Adventus Caesennius has sent me a letter. He may be in need of my services.'
+    TRAD: "Une guerre civile fait rage entre les Sombrages et les Impériaux, avec Blancherive au centre. Sachant que j'ai pris parti pour les impériaux, le légat Adventus Caesennius m'a envoyé une lettre. Il pourrait avoir besoin de mes services."
+  [468] QUST CNAM idx=98 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [469] QUST CNAM idx=93 status=TranslationComplete
+    ORIG: "The Imperials have chosen me to fight in a battle of champions. Using a key I received from Legate Adventus Caesennius, I opened a chest that holds the champion's armor and a map of the battle location."
+    TRAD: "Les impériaux m'ont choisi pour participer à une bataille de champions. À l'aide d'une clé que j'ai reçue du légat Adventus Caesennius, j'ai ouvert un coffre contenant l'armure du champion et une carte du lieu de la bataille."
+  [470] QUST CNAM idx=90 status=TranslationComplete
+    ORIG: "I've received a letter from Yrsarald Thrice-Pierced. He asks that I serve as a champion in a duel against an Imperial garrison, and has given me a key to a chest with a powerful armor set. I should retrieve the armor and map with the location of the battle."
+    TRAD: "J'ai reçu une lettre d'Yrsarald Triple-Entaille. Il me demande de servir de champion dans un duel contre une garnison impériale, et m'a donné la clé d'un coffre contenant une puissante armure. Je dois récupérer l'armure et la carte indiquant le lieu de la bataille."
+  [471] QUST CNAM idx=92 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [472] QUST CNAM idx=69 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [473] QUST CNAM idx=84 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [474] QUST CNAM idx=100 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [475] QUST CNAM idx=111 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [476] QUST CNAM idx=87 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [477] QUST CNAM idx=89 status=TranslationComplete
+    ORIG: "The Imperials have chosen me to fight in a battle of champions. As such, I've received a key from Legate Adventus Caesennius in Solitude. It will open a chest in Castle Dour that holds the champion's armor and a map of the batlle location."
+    TRAD: "Les Impériaux m'ont choisi pour participer au combat des champions. C'est pourquoi j'ai reçu une clé du Légat Adventus Caesennius, à Solitude. Elle ouvre un coffre à Mornefort qui contient l'armure de champion et une carte indiquant le lieu du combat."
+  [478] QUST CNAM idx=80 status=TranslationComplete
+    ORIG: "I've received a letter from Legate Adventus Caesennius. He asks that I serve as a champion in a duel against a Stormcloak garrison, and has promised me an armor to wear in the battle."
+    TRAD: "J'ai reçu une lettre du légat Adventus Caesennius. Il me demande de servir de champion dans un duel contre une garnison de Sombrages, et m'a promis une armure pour la bataille."
+  [479] QUST CNAM idx=77 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [480] QUST CNAM idx=110 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [481] QUST CNAM idx=102 status=TranslationComplete
+    ORIG: "I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I've arrived at the site of the battle. After confronting the opposing champion, it's time to fight."
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille. Après avoir confronté le champion adverse, il est temps de se battre."
+  [482] QUST CNAM idx=82 status=TranslationComplete
+    ORIG: 'I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I arrived at the site of the battle and defeated the opposing champion. As a reward, I received a set of Imperial Dragon Armor from the Legate.'
+    TRAD: "J'ai été choisi pour participer à une bataille de champions. À l'aide d'une carte que j'ai reçue de mon commandant, je suis arrivé sur le lieu de la bataille et j'ai vaincu le champion adverse. En guise de récompense, le légat m'a remis une armure impériale de dragon."
+  [483] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: 'I have been chosen to fight in a battle of champions. Using a map I received from my commanding officer, I arrived at the site of the battle and defeated the opposing champion. As a reward, I received a set of Storm-Bear armor from Legate Adventus Caesennius.'
+    TRAD: "J'ai été choisi pour participer au combat des champions. À l'aide d'une carte que m'a donné mon commandant, je suis arrivé sur les lieux de la bataille et j'ai vaincu le champion adverse. En récompense, j'ai reçu une armure de Sombrours de la part d'Yrsarald Triple-Entaille."
+  [484] QUST CNAM idx=83 status=TranslationComplete
+    ORIG: 'I was chosen to fight in a battle of champions. Using a map I received from my commanding officer, I arrived at the site of the battle and defeated the opposing champion.'
+    TRAD: "J'ai été choisi pour participer à une bataille de champions. À l'aide d'une carte que m'avait remise mon commandant, je suis arrivé sur le lieu de la bataille et j'ai vaincu le champion adverse."
+
+=======================================================
+QUEST: 140021B6|ccbgssse016-umbra.esm (ccBGSSSE016_UmbraMainQuest) (Total strings: 12)
+=======================================================
+  [25] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Vile Whispers'
+    TRAD: 'Vils murmures'
+  [89] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: "Investigate the dark presence in Champion's Rest"
+    TRAD: 'Enquêtez sur la présence sombre au Repos du Champion'
+  [174] QUST NNAM idx=0 status=TranslationComplete
+    ORIG: "Search the miner's camp"
+    TRAD: 'Fouillez le campement des mineurs'
+  [182] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Retrieve the artifact Umbra'
+    TRAD: "Récupérez l'artefact Umbra"
+  [268] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Defeat Umbra'
+    TRAD: 'Battez Umbra'
+  [361] QUST CNAM idx=56 status=TranslationComplete
+    ORIG: "I've heard rumors that a Nordic ruin, Champion's Rest, was recently uncovered in a silver mine near Shor's Stone. The miners reportedly fled, leaving their belongings behind. I should investigate the miner's campsite to see if I can learn anything about what caused them to flee."
+    TRAD: "J'ai entendu des rumeurs au sujet d'une ruine Nordique, le Repos du Champion, qui a été récemment découverte dans une mine d'argent près de Pierre-de-Shor. Les mineurs ont apparemment fui, laissant leurs affaires derrière eux. Je devrais fouiller le campement des mineurs pour voir ce que je peux découvrir sur la cause de leur fuite."
+  [362] QUST CNAM idx=91 status=TranslationComplete
+    ORIG: "I've come to the great battle arena within Champion's Rest, and discovered an armored specter wielding Umbra. I will need to defeat the phantom in order to rid Shor's Stone of the danger posed by this powerful force."
+    TRAD: "Je me suis rendu à la grande arène de combat au Repos du Champion, et j'ai découvert un spectre en armure maniant Umbra. Je dois vaincre le fantôme afin de libérer Pierre-de-Shor du danger que représente cette puissance."
+  [363] QUST CNAM idx=81 status=TranslationComplete
+    ORIG: "I witnessed an armor-clad ghost that quickly disappeared while exploring Champion's Rest. The sighting filled me with a sense of dread. I should investigate the ruins to find the source of this dark presence."
+    TRAD: "J'ai vu un fantôme en armure disparaître rapidement alors que j'explorais le Repos du Champion. Sa simple vue m'a empli d'effroi. Je devrais fouiller les ruines pour trouver la source de sa présence sombre."
+  [364] QUST CNAM idx=90 status=TranslationComplete
+    ORIG: "I've come to the great battle arena within Champion's Rest, and discovered an armored specter. I will need to defeat the phantom in order to rid Shor's Stone of the danger posed by this powerful force."
+    TRAD: "Je me suis rendu à la grande arène de combat au Repos du Champion, et j'ai découvert un spectre en armurea. Je dois vaincre le fantôme afin de libérer Pierre-de-Shor du danger que représente cette puissance."
+  [365] QUST CNAM idx=61 status=TranslationComplete
+    ORIG: 'The Daedric artifact Umbra awaits a new owner. I should take it to prevent it from falling into the wrong hands again.'
+    TRAD: "L'artefact Daedra, Umbra, flotte au centre de l'arène, dans l'attente d'un nouveau propriétaire. Je devrais la prendre pour éviter qu'elle tombe à nouveaux entre les mauvaises mains."
+  [366] QUST CNAM idx=98 status=TranslationComplete
+    ORIG: 'The blade of the defeated spectral warrior awaits a new owner. When I gaze upon it, a single word is whispered in my mind: "Umbra". I should take it to prevent it from falling into the wrong hands again.'
+    TRAD: 'La lame du guerrier spectral vaincu flotte au centre de l\'arène. Lorsque je la regarde, un simple mot est murmuré à mon esprit :"Umbra". Je devrais la prendre pour éviter qu\'elle tombe à nouveaux entre les mauvaises mains.'
+  [367] QUST CNAM idx=78 status=TranslationComplete
+    ORIG: "I was able to rid Shor's Stone of the danger posed by the artifact sword Umbra by defeating its former bearer and retrieving it for myself."
+    TRAD: "J'ai réussi à libérer Pierre-de-Shor du danger causé par l'épée Umbra en vainquant son précédent porteur et en la prenant moi-même."
+
+=======================================================
+QUEST: 11000829|ccbgssse036-petbwolf.esl (ccBGSSSE036_PetBWolfAcquisitionQuest) (Total strings: 14)
+=======================================================
+  [26] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Let Sleeping Wolves Lie'
+    TRAD: 'Le sommeil des loups'
+  [48] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Find the necromancer and the strange creatures'
+    TRAD: 'Trouvez le nécromancien et les créatures étranges'
+  [71] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Take the totem to the caged wolf'
+    TRAD: 'Apportez le totem au loup en cage'
+  [95] QUST NNAM idx=5 status=TranslationComplete
+    ORIG: 'Read the note from Bolgeir Bearclaw'
+    TRAD: "Lisez la note de Bolgeir Griffe-d'Ours"
+  [161] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Search the necromancer'
+    TRAD: 'Fouillez le nécromancien'
+  [269] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Defeat the necromancer'
+    TRAD: 'Éliminez le nécromancien'
+  [319] QUST NNAM idx=15 status=TranslationComplete
+    ORIG: 'Defeat the necromancer'
+    TRAD: 'Éliminez le nécromancien'
+  [454] QUST CNAM idx=78 status=TranslationComplete
+    ORIG: "I have a note from Bolgeir Bearclaw. I should read it and find out if there's anything he needs assistance with."
+    TRAD: "J'ai reçu une note de Bolgeir Griffe-d'Ours. Je ferais bien de la lire pour savoir s'il a besoin d'aide."
+  [455] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: 'Bolgeir Bearclaw has informed me that a dark necromancer has been attacking innocents somewhere along the northern coast. The note also tells of strange creatures that accompany him. I should search the coast and see if I can unravel this mystery.'
+    TRAD: "Bolgeir Griffe-d'Ours dit qu'un nécromancien maléfique attaque des innocents quelque part le long de la côte nord. La note signale également que des créatures étranges l'accompagnent. Je devrais explorer la côte et voir si je peux lever le voile sur ce mystère."
+  [456] QUST CNAM idx=88 status=TranslationComplete
+    ORIG: 'I have encountered a dark necromancer and two undead wolves. These  creatures appear to be controlled by the necromancer. Putting a stop to these experiments should prevent him from raising more. '
+    TRAD: "J'ai rencontré un nécromancien maléfique et deux loups morts-vivants. Ces créatures semblent être sous son contrôle. Mettre un terme à ses expériences devrait l'empêcher d'en ranimer d'autres."
+  [457] QUST CNAM idx=91 status=TranslationComplete
+    ORIG: "I have discovered the necromancer's location. The strange creatures mentioned in the note appear to be undead wolves, raised by the dark arts of the necromancer. Putting a stop to these experiments should prevent him from raising more."
+    TRAD: "J'ai découvert l'endroit où se trouve le nécromancien. Les créatures étranges mentionnées dans la note semblent être des loups morts-vivants, ranimés par ses arcanes sombres. Mettre un terme à ses expériences devrait l'empêcher d'en ranimer d'autres."
+  [458] QUST CNAM idx=105 status=TranslationComplete
+    ORIG: 'The necromancer is dead. I should search his body for any clues.'
+    TRAD: "Le nécromancien est mort. Je devrais fouiller son cadavre à la recherche d'indices."
+  [459] QUST CNAM idx=111 status=TranslationComplete
+    ORIG: 'In a cage nearby, there is another of these strange creatures, who I suspect the totem belongs to. I should take it to him.'
+    TRAD: "Il semblerait que le nécromancien tirait sa puissance de ces loups morts-vivants en consommant leurs totems. Je l'ai arrêté avant qu'il ne puisse consommer la puissance d'un troisième. Dans une cage à proximité se trouve une autre de ces créatures, que je suspecte être le propriétaire du troisième totem. Je devrais lui rapporter."
+  [460] QUST CNAM idx=103 status=TranslationComplete
+    ORIG: "Bone Wolf appears calm and content now that I've returned his totem. It appears he will follow me if I wish. Some may consider him strange to look upon, but there may be something deeper about him beyond his appearance."
+    TRAD: "Le loup squelette semble calme et heureux maintenant que je lui ai rendu son totem. Je pense qu'il me suivra si jamais j'en ai envie. Certains pourraient penser qu'il est bizarre, mais quelque chose me dit qu'il y a autre chose chez lui que son apparence étrange."
+
+=======================================================
+QUEST: 1500080E|ccbgssse038-bowofshadows.esl (ccBGSSSE038_Quest) (Total strings: 20)
+=======================================================
+  [28] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: "Speak to the Jarl's Steward"
+    TRAD: 'Parlez au chambellan du jarl'
+  [39] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Read the Business Ledger Copy'
+    TRAD: 'Consultez la copie du livre de comptes'
+  [50] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: 'Investigate the Silent Moons Camp'
+    TRAD: 'Inspectez le camp de la Lune silencieuse'
+  [53] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Check the stables'
+    TRAD: 'Inspectez les écuries de Blancherive'
+  [64] QUST NNAM idx=90 status=TranslationComplete
+    ORIG: 'Retrieve the Bow of Obfuscation'
+    TRAD: "Récupérez l'Arc d'obfuscation"
+  [146] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: "Take the ledger copy at Arcadia's Cauldron"
+    TRAD: "Prenez la copie du livre de comptes au Chaudron d'Arcadia"
+  [255] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: "Read the Steward's Note"
+    TRAD: 'Lisez la note du chambellan'
+  [261] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: 'Investigate the Hall of the Dead'
+    TRAD: 'Inspectez la Nécropole de Blancherive'
+  [272] QUST NNAM idx=80 status=TranslationComplete
+    ORIG: 'Find the Assassin on the upper floor of Dragonsreach when the Jarl is unoccupied'
+    TRAD: "Trouvez l'assassin à l'étage de Fort-Dragon lorsque le jarl est inoccupé"
+  [290] QUST NNAM idx=100 status=TranslationComplete
+    ORIG: "Speak to the Jarl's Steward"
+    TRAD: 'Parlez au chambellan du jarl'
+  [309] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'In the Shadows'
+    TRAD: 'Dans les ombres'
+  [499] QUST CNAM idx=97 status=TranslationComplete
+    ORIG: 'With the death of King Torygg, it seems not even the Jarls are safe in Skyrim, and security comes at a premium. Given the need for capable warriors, I should speak with the steward and see if he has any work for me.'
+    TRAD: "Avec la mort du roi Torygg, il semblerait que même les jarls ne soient plus à l'abri en Bordeciel, et la sécurité a un prix. Étant donné les besoins en guerriers efficaces, je devrais parler au chambellan et voir s'il a du travail à me confier."
+  [500] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: "In Whiterun, I spoke to the Jarl's steward and asked him if he had any work. He handed me a note with details on a job."
+    TRAD: "À Blancherive, j'ai parlé au chambellan du jarl et lui ai demandé s'il avait du travail. Il m'a donné une note avec des informations concernant une mission."
+  [501] QUST CNAM idx=105 status=TranslationComplete
+    ORIG: "In Whiterun, I spoke to the Jarl's steward and asked him if he had any work. He handed me a note with details on a job. Reading the note, it seems there may be a potential assassination plot against the Jarl. The steward wants me to visit the local alchemist and check if anyone has purchased any poisons."
+    TRAD: "À Blancherive, j'ai parlé au chambellan du jarl et lui ai demandé s'il avait du travail. Il m'a donné une note avec des informations concernant une mission. D'après la note, il semblerait que l'on complote pour assassiner le jarl. Le chambellan souhaite que je me rende chez l'alchimiste locale pour vérifier si quelqu'un a acheté du poison récemment."
+  [502] QUST CNAM idx=111 status=TranslationComplete
+    ORIG: "It seems there may be a potential assassination plot against the Jarl. At the steward's direction, I visited a local alchemist and took a copy of her ledger. I should read it to see if anyone has recently purchased any poisons."
+    TRAD: "Il semblerait que l'on complote pour assassiner le jarl. À la demande du chambellan, j'ai rendu visite à l'alchimiste locale et pris une copie de son livre de comptes. Je devrais le lire pour voir si quelqu'un a acheté du poison récemment."
+  [503] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: 'At the Silent Moons Camp, I discovered a journal from an assassin who intends on killing the Jarl of Whiterun. After following his trail, I found him in Dragonsreach and eliminated him. I then returned to the steward and received my reward.'
+    TRAD: "Au camp de la Lune silencieuse, j'ai découvert le journal d'un assassin qui projetait d'assassiner le jarl de Blancherive. Après avoir suivi sa piste, je l'ai trouvé à Fort-Dragon et l'ai éliminé. J'en ai profité pour récupérer l'Arc des ombres. J'ai ensuite rendu visite au chambellan, qui m'a donné ma récompense."
+  [504] QUST CNAM idx=87 status=TranslationComplete
+    ORIG: "It seems there may be a potential assassination plot against the Jarl. At the steward's direction, I visited a local alchemist and took a copy of her ledger. I read it and found two people had purchased poisons. A priest at the Hall of the Dead, and a stable boy. At the Whiterun Stables I found a dead body and clues that point to the Silent Moons Camp. I should investigate the area and see what I can find."
+    TRAD: "Il semblerait que l'on complote pour assassiner le jarl. À la demande du chambellan, j'ai rendu visite à l'alchimiste locale et pris une copie de son livre de comptes. Je l'ai lu et j'ai découvert que deux personnes avaient acheté du poison récemment, un prêtre de la nécropole et un garçon d'écurie. Aux écuries de Blancherive, j'ai découvert un cadavre et des indices menant au camp de la Lune silencieuse. Je devrais inspecter la zone et voir ce que je peux y trouver."
+  [505] QUST CNAM idx=103 status=TranslationComplete
+    ORIG: "At the Silent Moons Camp, I discovered a journal from an assassin who intends on killing the Jarl of Whiterun. He intends to take the shot from somewhere unoccupied, using the Bow of Shadows to conceal himself. It's likely he will only appear when the Jarl is not tending to any other business. I should find him and take him out before he can carry through with the plot."
+    TRAD: "Au camp de la Lune silencieuse, j'ai découvert le journal d'un assassin qui projette d'assassiner le jarl de Blancherive. Il compte abattre sa cible depuis un endroit discret, en utilisant l'Arc des ombres pour se dissimuler. Il est probable qu'il n'apparaisse que lorsque le jarl ne sera pas occupé. Je ferais bien de le retrouver et de l'éliminer avant qu'il ne puisse mener son assassinat à bien."
+  [506] QUST CNAM idx=104 status=TranslationComplete
+    ORIG: 'At the Silent Moons Camp, I discovered a journal from an assassin who intends on killing the Jarl of Whiterun. After following his trail, I found him in Dragonsreach and eliminated him.'
+    TRAD: "Au camp de la Lune silencieuse, j'ai découvert le journal d'un assassin qui projetait d'assassiner le jarl de Blancherive. Après avoir suivi sa piste, je l'ai trouvé à Fort-Dragon et l'ai éliminé."
+  [507] QUST CNAM idx=81 status=TranslationComplete
+    ORIG: 'At the Silent Moons Camp, I discovered a journal from an assassin who intends on killing the Jarl of Whiterun. After following his trail, I found him in Dragonsreach and eliminated him.'
+    TRAD: "Au camp de la Lune silencieuse, j'ai découvert le journal d'un assassin qui projetait d'assassiner le jarl de Blancherive. Après avoir suivi sa piste, je l'ai trouvé à Fort-Dragon et l'ai éliminé."
+
+=======================================================
+QUEST: 00023B6C|Skyrim.esm (T01) (Total strings: 19)
+=======================================================
+  [29] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'The Heart of Dibella'
+    TRAD: 'Le Coeur de Dibella'
+  [31] QUST NNAM idx=56 status=TranslationComplete
+    ORIG: 'Wait for Mother Hamal'
+    TRAD: 'Attendez la mère Hamal'
+  [62] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Steal statue of Dibella'
+    TRAD: 'Volez la statue de Dibella'
+  [69] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Enter the Temple of Dibella'
+    TRAD: 'Introduisez-vous dans le temple de Dibella'
+  [84] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: 'Rescue Fjotra from the Forsworn'
+    TRAD: 'Délivrez Fjotra des Parjures'
+  [111] QUST NNAM idx=100 status=TranslationComplete
+    ORIG: "Pray at Dibella's Altar"
+    TRAD: "Priez à l'autel de Dibella"
+  [160] QUST NNAM idx=57 status=TranslationComplete
+    ORIG: 'Talk to Mother Hamal'
+    TRAD: 'Parlez à la mère Hamal'
+  [191] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Find the future Sybil of Dibella'
+    TRAD: 'Trouvez la future Sibylle de Dibella'
+  [256] QUST NNAM idx=55 status=TranslationComplete
+    ORIG: 'Visit the Temple of Dibella'
+    TRAD: 'Rendez-vous au temple de Dibella'
+  [286] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Give the statue to Degaine'
+    TRAD: 'Allez donner la statue à Degaine'
+  [311] QUST NNAM idx=80 status=TranslationComplete
+    ORIG: 'Bring Fjotra to the Temple'
+    TRAD: 'Amenez Fjotra au temple de Dibella'
+  [320] QUST CNAM idx=78 status=TranslationComplete
+    ORIG: 'I have received a letter inviting me to visit the Temple of Dibella.'
+    TRAD: "J'ai reçu une lettre m'invitant à me rendre au temple de Dibella."
+  [321] QUST CNAM idx=104 status=TranslationComplete
+    ORIG: 'After rescuing her from the Fosworn, I must now bring Fjotra, the next Sybil of the Temple of Dibella, to the priestesses in Markarth.'
+    TRAD: "Après avoir sauvé Fjotra des Parjures, je dois maintenant l'amener aux prêtresses de Dibella de Markarth."
+  [322] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: 'I have been instructed to pray at the sacred fountain of Dibella to receive my blessing.'
+    TRAD: "On m'a demandé de prier à la fontaine sacrée de Dibella pour recevoir ma bénédiction."
+  [323] QUST CNAM idx=103 status=TranslationComplete
+    ORIG: "I have agreed to find the young girl who will be their next Sybil. It's been prophesied that she lives in the village of Karthwasten, to the north of Markarth."
+    TRAD: "J'ai accepté de trouver la jeune fille qui sera la prochaine Sibylle de Dibella. Une prophétie a révélé qu'elle vit dans le village de Folpertuis, au nord de Markarth."
+  [324] QUST CNAM idx=98 status=TranslationComplete
+    ORIG: 'I have agreed to find the young girl who will be their next Sybil. The girl must be rescued from the Forsworn who have kidnapped her.'
+    TRAD: "J'ai accepté de trouver la jeune fille qui sera la prochaine Sibylle de Dibella. Elle doit être sauvée des Parjures qui l'ont enlevée."
+  [325] QUST CNAM idx=110 status=TranslationComplete
+    ORIG: 'I rescued the new Sybil of the Temple of Dibella from the Forsworn and received a blessing from Dibella.'
+    TRAD: "J'ai sauvé la nouvelle Sibylle du temple de Dibella des Parjures et reçu la bénédiction de Dibella."
+  [326] QUST CNAM idx=76 status=TranslationComplete
+    ORIG: 'I stole a statue from the Temple of Dibella and sold it to the beggar Degaine.'
+    TRAD: "J'ai volé une statue du temple de Dibella et l'ai vendue à Degaine le mendiant."
+  [327] QUST CNAM idx=92 status=TranslationComplete
+    ORIG: 'I refused to help the priestesses of the Temple of Dibella. Whatever it was they were up to, I want no part of it.'
+    TRAD: "J'ai refusé d'aider les prêtresses du temple de Dibella. Quoi qu'elles fassent, je ne veux pas m'en mêler."
+
+=======================================================
+QUEST: 0700083D|ccbgssse003-zombies.esl (ccBGSSSE003_ZombieQuestStartEncounter) (Total strings: 8)
+=======================================================
+  [33] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: "Read the Necromancer's Journal"
+    TRAD: 'Lire le journal du nécromancien'
+  [102] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'The Rising Dead'
+    TRAD: 'Les morts-vivants'
+  [134] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Investigate the Ritual Site'
+    TRAD: 'Examiner le site du rituel'
+  [249] QUST NNAM idx=0 status=TranslationComplete
+    ORIG: 'Read the Anonymous Letter'
+    TRAD: 'Lire la lettre anonyme'
+  [416] QUST CNAM idx=70 status=TranslationComplete
+    ORIG: "I've found an urgent anonymous letter.  I should read it and see what it's regarding."
+    TRAD: "J'ai trouvé une lettre anonyme urgente. Je devrais la lire pour voir de quoi il s'agit."
+  [417] QUST CNAM idx=72 status=TranslationComplete
+    ORIG: "I've received an anonymous letter asking me to help stop a group of Necromancers who are planning to raise an army of Zombies.  I should investigate the ritual site."
+    TRAD: "J'ai reçu une lettre anonyme m'exhortant à empêcher une bande de nécromanciens de réveiller une armée de zombies. Je devrais aller examiner le site du rituel."
+  [418] QUST CNAM idx=87 status=TranslationComplete
+    ORIG: "Read the Necromancer's Journal"
+    TRAD: 'Lire le journal du nécromancien'
+  [419] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: "I found the Necromancer's ritual site, but it's too late.  I also found a journal detailing what transpired here.  They appear to have already conjured the risen dead, possibly across all of Skyrim.  I'll need to be vigilant, especially during the late night hours."
+    TRAD: "J'ai trouvé le site du rituel du nécromancien, mais trop tard. J'ai également trouvé un journal qui raconte en détail ce qui s'est passé ici. On dirait que les morts ont déjà été réveillés, probablement dans tout Bordeciel. Je vais devoir faire preuve de vigilance, surtout en pleine nuit."
+
+=======================================================
+QUEST: 0800080C|ccbgssse004-ruinsedge.esl (ccBGSSSE004_Quest) (Total strings: 4)
+=======================================================
+  [35] QUST NNAM idx=0 status=TranslationComplete
+    ORIG: "Find Ruin's Edge"
+    TRAD: 'Trouvez Borderuine'
+  [204] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'The Edge of Ruin'
+    TRAD: 'Au bord de la ruine'
+  [420] QUST CNAM idx=99 status=TranslationComplete
+    ORIG: "I found a map to the location of the fabled bow, Ruin's Edge."
+    TRAD: "J'ai trouvé une carte qui mène à l'emplacement de Borderuine, l'arc légendaire."
+  [421] QUST CNAM idx=72 status=TranslationComplete
+    ORIG: "I've found Ruin's Edge."
+    TRAD: "J'ai trouvé Borderuine."
+
+=======================================================
+QUEST: 00035354|Skyrim.esm (dunForelhostQST) (Total strings: 13)
+=======================================================
+  [38] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: "(Optional) Find Skorm Snow-Strider's journal"
+    TRAD: '(Facultatif) Trouvez le journal de Skorm Marcheneige'
+  [49] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: 'Kill the imposter Valmir'
+    TRAD: "Tuez Valmir l'imposteur"
+  [145] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: '(Optional) Find the key to the well in the Catacombs'
+    TRAD: '(Facultatif) Trouvez la clé du puits des catacombes'
+  [159] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Return to Valmir'
+    TRAD: 'Retournez voir Valmir'
+  [239] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: "(Optional) Show Skorm Snow-Strider's journal to Valmir"
+    TRAD: '(Facultatif) Montrez le journal de Skorm Marcheneige à Valmir'
+  [246] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: "Obtain Rahgot's mask"
+    TRAD: 'Récupérez le masque de Rahgot'
+  [308] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Siege on the Dragon Cult'
+    TRAD: 'Assiégez le Culte du Dragon'
+  [328] QUST CNAM idx=106 status=TranslationComplete
+    ORIG: 'I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask. A journal left by Skorm Snow-Strider may reveal a way past the collapsed areas.'
+    TRAD: "On m'a demandé de vaincre le prêtre-dragon de Forelhost et de rapporter son Masque. Un journal, laissé par Skorm Marcheneige, pourrait me révéler un chemin qui traverse les zones effondrées."
+  [329] QUST CNAM idx=79 status=TranslationComplete
+    ORIG: 'I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask. I have found the journal of Skorm Snow-Strider, which may reveal how to bypass the collapsed areas.'
+    TRAD: "On m'a demandé de vaincre le prêtre-dragon de Forelhost et de rapporter son Masque. J'ai trouvé le Journal de Skorm Marcheneige, qui pourrait me révéler un chemin traversant les zones effondrées."
+  [330] QUST CNAM idx=69 status=TranslationComplete
+    ORIG: 'I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask. I can reach the blocked off areas of the stronghold through the well.'
+    TRAD: "On m'a demandé de vaincre le prêtre-dragon de Forelhost et de rapporter son Masque. Je peux atteindre les zones bloquées de la forteresse en passant par le puits."
+  [331] QUST CNAM idx=89 status=TranslationComplete
+    ORIG: 'I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask.'
+    TRAD: "On m'a demandé de vaincre le prêtre-dragon de Forelhost et de rapporter son Masque."
+  [332] QUST CNAM idx=72 status=TranslationComplete
+    ORIG: 'I have defeated the Dragon Priest, Rahgot, and taken his mask. I should return with it to Valmir.'
+    TRAD: "J'ai vaincu Rahgot, le prêtre-dragon, et pris son Masque. Je dois le rapporter à Valmir."
+  [333] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: 'Valmir has betrayed me and has been tricking soldiers into the ruins. He must die.'
+    TRAD: 'Valmir est un traître et il a piégé des soldats en les envoyant dans les ruines. Il doit mourir.'
+
+=======================================================
+QUEST: 0A000822|ccbgssse019-staffofsheogorath.esl (ccBGSSSE019_StaffOfSheogorathQuest) (Total strings: 12)
+=======================================================
+  [40] QUST NNAM idx=25 status=TranslationComplete
+    ORIG: 'Take the Fork of Horripilation'
+    TRAD: "Prenez la Fourchette d'Horripilation"
+  [85] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Investigate the Retching Netch'
+    TRAD: 'Enquêtez au Netch éméché'
+  [152] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Put A Fork In It'
+    TRAD: 'Un bon coup de fourchette'
+  [181] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Craft the Staff of Sheogorath'
+    TRAD: 'Fabriquez le Bâton de Shéogorath'
+  [196] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Travel to Solstheim'
+    TRAD: 'Allez sur Solstheim'
+  [250] QUST NNAM idx=35 status=TranslationComplete
+    ORIG: 'Obtain the Branch of the Tree of Shades'
+    TRAD: "Obtenez la branche de l'Arbre des Ombres"
+  [295] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Obtain the Eye of Ciirta'
+    TRAD: "Obtenez l'Oeil de Ciirta"
+  [422] QUST CNAM idx=121 status=TranslationComplete
+    ORIG: "I've found a strange note, ostensibly from the Daedric Prince Sheogorath, exhorting me to take the Fork of Horripilation and kill two special Bull Netches who allegedly possess a pair of artifacts that can be combined into the legendary Staff of Sheogorath."
+    TRAD: "J'ai trouvé une étrange note, apparemment du prince daedra Shéogorath, m'incitant à prendre la Fourchette d'Horripilation et à tuer des netchs mâles spéciaux qui posséderaient deux artéfacts qui peuvent se combiner avec le légendaire Bâton de Shéogorath."
+  [423] QUST CNAM idx=86 status=TranslationComplete
+    ORIG: "There's something waiting for me in Raven Rock, I should see what it is."
+    TRAD: "Quelque chose m'attend à Corberoc. Je devrais aller voir ce que c'est."
+  [424] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: "I've accepted Sheogorath's combat trial. I'll need to find these special Bull Netches, kill them with the Fork of Horripilation, and obtain the artifacts."
+    TRAD: "J'ai accepté l'épreuve de combat de Shéogorath. Je dois trouver des netchs mâles spéciaux, les tuer avec la Fourchette d'Horripilation et obtenir des artéfacts."
+  [425] QUST CNAM idx=84 status=TranslationComplete
+    ORIG: "I've killed the Bull Netches and obtained the artifacts. I need to gain access to a Staff Enchanter and combine them to create the Staff of Sheogorath."
+    TRAD: "J'ai tué les netchs mâles et obtenu les artéfacts. Je dois trouver un enchanteur de bâton pour les combiner afin de créer le Bâton de Shéogorath."
+  [426] QUST CNAM idx=107 status=TranslationComplete
+    ORIG: 'I have completed the trial, and crafted the Staff of Sheogorath.'
+    TRAD: "J'ai terminé l'épreuve et fabriqué le Bâton de Shéogorath."
+
+=======================================================
+QUEST: 1900080D|ccbgssse068-bloodfall.esl (ccBGSSSE068_Quest) (Total strings: 9)
+=======================================================
+  [47] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Blood in the Water'
+    TRAD: "Du sang dans l'eau"
+  [74] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Read the Letter from Shogarz gra-Batul'
+    TRAD: 'Lisez la lettre de Shogarz gra-Batul'
+  [164] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Ask an innkeeper for work'
+    TRAD: 'Demandez du travail à un aubergiste'
+  [172] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: "Retrieve the Headman's Cleaver"
+    TRAD: 'Retrouvez le Fendoir de chef'
+  [300] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Eliminate the bandits in Lost Knife Hideout'
+    TRAD: 'Éliminez les bandits de la cachette du Couteau perdu'
+  [529] QUST CNAM idx=82 status=TranslationComplete
+    ORIG: "Talking to innkeepers has always been a good way to find work. I should head to the local inn and see if there's anything worthwhile."
+    TRAD: "Parler aux aubergistes a toujours été une bonne façon de trouver du travail. Je devrais me rendre à l'auberge du coin et voir si je peux y apprendre quoi que ce soit d'utile."
+  [530] QUST CNAM idx=105 status=TranslationComplete
+    ORIG: 'Talking to innkeepers has always been a good way to find work. I received a note from one that may provide a lead.'
+    TRAD: "Parler aux aubergistes a toujours été une bonne façon de trouver du travail. L'un d'entre eux m'a donné une note qui pourrait me fournir une piste."
+  [531] QUST CNAM idx=111 status=TranslationComplete
+    ORIG: "I received a note from a vassal of the Bloodfall Queen stating a group of bandits have stolen her weapon. I should head to Lost Knife Hideout to see what's become of it."
+    TRAD: "J'ai reçu une note d'une vassale de la reine des Chutes de sang indiquant qu'un groupe de bandits a dérobé son arme. Je devrais me rendre à la cachette du Couteau perdu et découvrir ce qu'elle est devenue."
+  [532] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: "I received a note from a vassal of the Bloodfall Queen stating a group of bandits have stolen her weapon. I made my way to Lost Knife Hideout and retrieved the Headman's Cleaver from the bandits."
+    TRAD: "J'ai reçu une note d'une vassale de la reine des Chutes de sang indiquant qu'un groupe de bandits a dérobé son arme. J'ai voyagé jusqu'à la cachette du Couteau perdu et retrouvé le Fendoir que gardaient les bandits."
+
+=======================================================
+QUEST: 0D000FF3|cceejsse002-tower.esl (ccEEJSSE002_MageTowerQuest) (Total strings: 13)
+=======================================================
+  [54] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Find a way inside the tower'
+    TRAD: "Trouvez un moyen d'entrer dans la tour"
+  [126] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Myrwatch'
+    TRAD: 'Myrwatch'
+  [193] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Follow the hare'
+    TRAD: 'Suivez le lièvre'
+  [264] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Investigate Myrwatch'
+    TRAD: 'Inspectez Myrwatch'
+  [278] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Activate the seal'
+    TRAD: 'Activez le sceau'
+  [291] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Enter Myrwatch'
+    TRAD: 'Entrez dans Myrwatch'
+  [312] QUST NNAM idx=5 status=TranslationComplete
+    ORIG: "Read Hans's journal"
+    TRAD: "Lisez le journal d'Hans"
+  [434] QUST CNAM idx=79 status=TranslationComplete
+    ORIG: "I've heard rumors of a mysterious tower somewhere east of Morthal. If it's abandoned, I may be able to make of use of it. When I reached the tower, I found a journal that may provide clues on how to enter it."
+    TRAD: "J'ai entendu des rumeurs au sujet d'une tour mystérieuse à l'est de Morthal. Si elle est abandonnée, je pourrais peut-être en faire usage. Lorsque j'ai atteint la tour, j'ai trouvé un journal qui pourrait contenir des indices pour réussir à entrer."
+  [435] QUST CNAM idx=104 status=TranslationComplete
+    ORIG: "I've heard rumors of a mysterious tower somewhere east of Morthal. If it's abandoned, I may be able to make of use of it."
+    TRAD: "J'ai entendu des rumeurs au sujet d'une tour mystérieuse à l'est de Morthal. Si elle est abandonnée, je pourrais peut-être en faire usage."
+  [436] QUST CNAM idx=92 status=TranslationComplete
+    ORIG: "I've found a mysterious tower in the swamps of Hjaalmarch. However, the door to tower is locked. I should investigate the area to see if there's a way in."
+    TRAD: "J'ai découvert une tour mystérieuse dans les marais de Hjaalmarch. Cependant, la porte de la tour est verrouillée. Je devrais inspecter la zone pour voir si je peux trouver un moyen d'entrer."
+  [437] QUST CNAM idx=90 status=TranslationComplete
+    ORIG: "I've found a mysterious tower in the swamps of Hjaalmarch. However, the door to tower is locked. A journal on a nearby body indicates I need to activate a stone seal. Activating it summoned a ghostly apparition. I should follow it and see where it leads."
+    TRAD: "J'ai découvert une tour mystérieuse dans les marais de Hjaalmarch. Cependant, la porte de la tour est verrouillée. Un journal sur un cadavre non loin indique que je dois activer un sceau de pierre. Activer le sceau à l'entrée a invoqué une apparition fantomatique. Je devrais la suivre pour voir où elle me conduit."
+  [438] QUST CNAM idx=96 status=TranslationComplete
+    ORIG: "I've found a mysterious tower in the swamps of Hjaalmarch. After finding my way inside, it appears to be an elaborate home built for a powerful mage. I may be able to make use of the lodgings in my travels through Skyrim. "
+    TRAD: "J'ai découvert une tour mystérieuse dans les marais de Hjaalmarch. Après avoir réussi à entrer, il semble s'agir d'une maison élaborée construite pour un puissant mage. Je pourrais peut-être utiliser cet endroit pour me loger au fil de mes voyages en Bordeciel. "
+  [439] QUST CNAM idx=83 status=TranslationComplete
+    ORIG: "I've found a mysterious tower in the swamps of Hjaalmarch. Activating a seal by the front door summoned a ghostly apparition which unlocked the tower."
+    TRAD: "J'ai découvert une tour mystérieuse dans les marais de Hjaalmarch. Activer le sceau à l'entrée a invoqué une apparition fantomatique, ce qui a déverrouillé la porte."
+
+=======================================================
+QUEST: 13000926|ccmtysse002-ve.esl (ccMTYSSE002_Quest) (Total strings: 30)
+=======================================================
+  [58] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Unholy Vigil'
+    TRAD: 'Le Vigile impie'
+  [80] QUST NNAM idx=56 status=TranslationComplete
+    ORIG: "Read the Miner's Note"
+    TRAD: 'Lisez la note du mineur'
+  [96] QUST NNAM idx=48 status=TranslationComplete
+    ORIG: "Escape Irine's detection"
+    TRAD: "Échappez à la détection d'Irine"
+  [100] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Investigate the Hall of the Vigilant'
+    TRAD: 'Inspectez le Bastion des Vigiles'
+  [109] QUST NNAM idx=70 status=TranslationComplete
+    ORIG: 'Destroy the Daedric cult'
+    TRAD: 'Détruisez le culte daedrique'
+  [123] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: "(Optional) Check the suspects' pockets for suspicious items"
+    TRAD: "(Facultatif) Fouillez les poches du suspect à la recherche de l'arme du crime"
+  [124] QUST NNAM idx=51 status=TranslationComplete
+    ORIG: '(Optional) Trail Irine at night'
+    TRAD: '(Facultatif) Suivez Irine de nuit'
+  [169] QUST NNAM idx=35 status=TranslationComplete
+    ORIG: "Read Azarain's Journal"
+    TRAD: "Lisez le journal d'Azarain"
+  [199] QUST NNAM idx=49 status=TranslationComplete
+    ORIG: "Escape Vereth's detection"
+    TRAD: 'Échappez à la détection de Vereth'
+  [216] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Investigate the Windward Ruins'
+    TRAD: 'Inspectez les ruines de Folvent'
+  [222] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Find the cult of Daedra worshippers'
+    TRAD: 'Trouvez le lieu de culte des adorateurs de Daedra'
+  [237] QUST NNAM idx=52 status=TranslationComplete
+    ORIG: '(Optional) Trail Vereth at night'
+    TRAD: '(Facultatif) Suivez Vereth de nuit'
+  [260] QUST NNAM idx=55 status=TranslationComplete
+    ORIG: "Search Harald's body for clues"
+    TRAD: "Fouillez le corps d'Harald pour trouver des indices"
+  [297] QUST NNAM idx=47 status=TranslationComplete
+    ORIG: "Escape Harald's detection"
+    TRAD: "Échappez à la détection d'Harald"
+  [299] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Search for the Vigilant at the Windpeak Inn'
+    TRAD: "Cherchez le Vigile à l'auberge Montvent"
+  [310] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: '(Optional) Trail Harald at night'
+    TRAD: '(Facultatif) Suivez Harald de nuit'
+  [485] QUST CNAM idx=107 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members, and identified three potential suspects that may be involved. After some investigation, I found the location of their place of worship, behind a secret door in the Quicksilver Mine. '
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères, et avait réussi à identifier trois suspects potentiels qui pourraient être impliqués dans cette affaire. À l'issue d'une courte investigation, j'ai découvert l'emplacement de leur lieu de culte, derrière une porte secrète dans la mine Vif-Argent. "
+  [486] QUST CNAM idx=83 status=TranslationComplete
+    ORIG: 'At the Hall of the Vigilant I found a note regarding missing patrols near Dawnstar. I should head to the Windpeak Inn and see what else I can uncover.'
+    TRAD: "J'ai trouvé un message au Bastion des Vigiles évoquant des patrouilles disparues près d'Aubétoile. Je devrais me rendre à l'auberge Montvent et voir ce que je peux découvrir."
+  [487] QUST CNAM idx=65 status=TranslationComplete
+    ORIG: 'At the Hall of the Vigilant I found a note regarding missing patrols near Dawnstar. I should head to the Windpeak Inn and see what else I can uncover.'
+    TRAD: "J'ai trouvé un message au Bastion des Vigiles évoquant des patrouilles disparues près d'Aubétoile. Je devrais me rendre à l'auberge Montvent et voir ce que je peux découvrir."
+  [488] QUST CNAM idx=79 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members. During his investigation, he was given a note to meet at the Windward Ruins. Further clues might be found there.'
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères. Au cours de ses investigations, il a reçu un message lui demandant de se rendre aux ruines de Folvent pour y rencontrer quelqu'un. Je trouverai peut-être plus d'indices sur place."
+  [489] QUST CNAM idx=92 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members. During his investigation, he was given a note to meet at the Windward Ruins. Unfortunately, he was murdered at the site. His journal, however, may offer more clues on what happened to him.'
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères. Au cours de ses investigations, il a reçu un message lui demandant de se rendre aux ruines de Folvent pour y rencontrer quelqu'un. Malheureusement il s'est fait assassiner peu après son arrivée sur place. Mais son journal permettra peut-être de découvrir ce qui lui est arrivé."
+  [490] QUST CNAM idx=82 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members. During his investigation, he was given a note to meet at the Windward Ruins. Unfortunately, he was murdered at the site. His journal, however, provides clues on three potential suspects. Following them may lead me to the location of this cult.'
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères. Au cours de ses investigations, il a reçu un message lui demandant de se rendre aux ruines de Folvent pour y rencontrer quelqu'un. Malheureusement il s'est fait assassiner peu après son arrivée sur place. Mais son journal contenait des indices me permettant d'identifier trois suspects potentiels. Si je les suis, ils me guideront peut-être jusqu'à leur lieu de culte."
+  [491] QUST CNAM idx=114 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members. During his investigation, he was given a note to meet at the Windward Ruins. Unfortunately, he was murdered at the site. His journal, however, provides clues on three potential suspects. Following them may lead me to the location of this cult.'
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères. Au cours de ses investigations, il a reçu un message lui demandant de se rendre aux ruines de Folvent pour y rencontrer quelqu'un. Malheureusement il s'est fait assassiner peu après son arrivée sur place. Mais son journal contenait des indices me permettant d'identifier trois suspects potentiels. Si je les suis, ils me guideront peut-être jusqu'à leur lieu de culte."
+  [492] QUST CNAM idx=90 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members. During his investigation, he was given a note to meet at the Windward Ruins. Unfortunately, he was murdered at the site. His journal, however, provides clues on three potential suspects. Following them may lead me to the location of this cult.'
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères. Au cours de ses investigations, il a reçu un message lui demandant de se rendre aux ruines de Folvent pour y rencontrer quelqu'un. Malheureusement il s'est fait assassiner peu après son arrivée sur place. Mais son journal contenait des indices me permettant d'identifier trois suspects potentiels. Si je les suis, ils me guideront peut-être jusqu'à leur lieu de culte."
+  [493] QUST CNAM idx=91 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members, and identified three potential suspects that may be involved. After some investigation, I found the location of their place of worship, behind a secret door in the Quicksilver Mine.'
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères, et avait réussi à identifier trois suspects potentiels qui pourraient être impliqués dans cette affaire. À l'issue d'une courte investigation, j'ai découvert l'emplacement de leur lieu de culte, derrière une porte secrète dans la mine Vif-Argent. "
+  [494] QUST CNAM idx=86 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members, and identified three potential suspects that may be involved. After some investigation, I found the location of their place of worship, behind a secret door in the Quicksilver Mine. '
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères, et avait réussi à identifier trois suspects potentiels qui pourraient être impliqués dans cette affaire. À l'issue d'une courte investigation, j'ai découvert l'emplacement de leur lieu de culte, derrière une porte secrète dans la mine Vif-Argent. "
+  [495] QUST CNAM idx=81 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members, and identified three potential suspects that may be involved. I tracked one down and killed him. While he can no longer lead me to their place of worship, on his body was a note that mentioned a secret door in the Quicksilver Mine.'
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères, et avait réussi à identifier trois suspects potentiels qui pourraient être impliqués dans cette affaire. J'ai remonté la piste menant à l'un d'entre eux et je l'ai tué. Bien qu'il ne puisse plus me conduire jusqu'à leur lieu de culte, j'ai trouvé un message en le fouillant qui mentionne l'existence d'une porte secrète dans la mine Vif-Argent."
+  [496] QUST CNAM idx=89 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members, and identified three potential suspects that may be involved. After some investigation, I found the location of their place of worship, behind a secret door in the Quicksilver Mine. I should dispatch the cult members before they cause more trouble.'
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères, et avait réussi à identifier trois suspects potentiels qui pourraient être impliqués dans cette affaire. À l'issue d'une courte investigation, j'ai découvert l'emplacement de leur lieu de culte, derrière une porte secrète dans la mine Vif-Argent. Je devrais éliminer les membres du culte avant qu'ils ne causent de nouveaux désordres."
+  [497] QUST CNAM idx=73 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members, and identified three potential suspects that may be involved. After some investigation, I found the location of their place of worship, behind a secret door in the Quicksilver Mine. '
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères, et avait réussi à identifier trois suspects potentiels qui pourraient être impliqués dans cette affaire. À l'issue d'une courte investigation, j'ai découvert l'emplacement de leur lieu de culte, derrière une porte secrète dans la mine Vif-Argent. "
+  [498] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: 'A Vigilant of Stendarr has been investigating the disappearance of his fellow members, and identified three potential suspects that may be involved. After some research, I found the location of their place of worship, behind a secret door in the Quicksilver Mine. I cleared the mine of all cult members, bringing an end to the investigation.'
+    TRAD: "Un Vigile de Stendarr enquêtait sur la disparition de ses confrères, et avait réussi à identifier trois suspects potentiels qui pourraient être impliqués dans cette affaire. À l'issue d'une courte investigation, j'ai découvert l'emplacement de leur lieu de culte, derrière une porte secrète dans la mine Vif-Argent. J'ai éliminé tous les membres du culte présents dans la mine, mettant ainsi un terme à l'enquête."
+
+=======================================================
+QUEST: 16000822|ccbgssse050-ba_daedric.esl (ccBGSSSE050_Quest) (Total strings: 12)
+=======================================================
+  [60] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Beyond the Grave'
+    TRAD: 'Par-delà la tombe'
+  [79] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Look for a note in Dragonsreach Dungeon'
+    TRAD: 'Cherchez une note au Donjon de Fort-Dragon'
+  [92] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Investigate Knifepoint Ridge'
+    TRAD: 'Inspectez la Crête de Tranchelame'
+  [176] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: "Read the Khajiit's Note"
+    TRAD: 'Lisez la note du Khajiit'
+  [304] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: "Visit Edward's grave in Falkreath"
+    TRAD: "Allez voir la tombe d'Edward à Épervine"
+  [315] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: 'Retrieve the armor'
+    TRAD: "Récupérez l'armure"
+  [508] QUST CNAM idx=101 status=TranslationComplete
+    ORIG: "I've heard stories of bandits being an issue throughout Skyrim. Perhaps if I visit the Dragonsreach Dungeon in Whiterun, I might find some information on their whereabouts."
+    TRAD: "On m'a raconté que des bandits poseraient problème dans tout Bordeciel. Peut-être qu'en inspectant le donjon de Fort-Dragon à Blancherive, je pourrais trouver quelques informations sur leur emplacement."
+  [509] QUST CNAM idx=103 status=TranslationComplete
+    ORIG: "I've heard stories of bandits being an issue throughout Skyrim. At the dungeon in Whiterun, I read about one such bandit who died in Falkreath. I should visit the cemetery to confirm he's dead."
+    TRAD: "On m'a raconté que des bandits poseraient problème dans tout Bordeciel. Une fois au donjon de Blancherive, j'ai lu l'histoire d'un de ces bandits, mort à Épervine. Je devrais me rendre au cimetière pour vérifier s'il est bel et bien mort."
+  [510] QUST CNAM idx=111 status=TranslationComplete
+    ORIG: "I've heard stories of bandits being an issue throughout Skyrim. At the dungeon in Whiterun, I read about one such bandit who died in Falkreath. However, upon arriving at the grave site, I found the body of a dead Khajiit."
+    TRAD: "On m'a raconté que des bandits poseraient problème dans tout Bordeciel. Une fois au donjon de Blancherive, j'ai lu l'histoire d'un de ces bandits, mort à Épervine. Cependant, une fois devant la tombe, j'ai retrouvé le cadavre d'un Khajiit."
+  [511] QUST CNAM idx=85 status=TranslationComplete
+    ORIG: "I've heard stories of bandits being an issue throughout Skyrim. At the dungeon in Whiterun, I read about one such bandit who died in Falkreath. However, upon arriving at the grave site, I found the body of a dead Khajiit. The Khajiit was previously investigating a lead that points to Knifepoint Ridge."
+    TRAD: "On m'a raconté que des bandits poseraient problème dans tout Bordeciel. Une fois au donjon de Blancherive, j'ai lu l'histoire d'un de ces bandits, mort à Épervine. Cependant, une fois devant la tombe, j'ai retrouvé le cadavre d'un Khajiit. Ce dernier avait suivi une piste qui devait le mener jusqu'à la Crête de Tranchelame."
+  [512] QUST CNAM idx=87 status=TranslationComplete
+    ORIG: "I've heard stories of bandits being an issue throughout Skyrim. At the dungeon in Whiterun, I read about one such bandit who died in Falkreath. However, upon arriving at the grave site, I found the body of a dead Khajiit. The Khajiit was previously investigating a lead that points to Knifepoint Ridge. After traveling to the bandit camp, I was attacked by a warrior in Daedric Plate armor."
+    TRAD: "On m'a raconté que des bandits poseraient problème dans tout Bordeciel. Une fois au donjon de Blancherive, j'ai lu l'histoire d'un de ces bandits, mort à Épervine. Cependant, une fois devant la tombe, j'ai retrouvé le cadavre d'un Khajiit. Ce dernier avait suivi une piste qui devait le mener jusqu'à la Crête de Tranchelame. Après avoir voyagé jusqu'au camp de bandits, un guerrier vêtu d'une armure de plates daedra s'est jeté sur moi."
+  [513] QUST CNAM idx=96 status=TranslationComplete
+    ORIG: "I've heard stories of bandits being an issue throughout Skyrim. At the dungeon in Whiterun, I read about one such bandit who died in Falkreath. However, upon arriving at the grave site, I found the body of a dead Khajiit. The Khajiit was previously investigating a lead that points to Knifepoint Ridge. After traveling to the bandit camp, I was attacked by a warrior in Daedric Plate armor. I defeated the warrior and retrieved his armor."
+    TRAD: "On m'a raconté que des bandits poseraient problème dans tout Bordeciel. Une fois au donjon de Blancherive, j'ai lu l'histoire d'un de ces bandits, mort à Épervine. Cependant, une fois devant la tombe, j'ai retrouvé le cadavre d'un Khajiit. Ce dernier avait suivi une piste qui devait le mener jusqu'à la Crête de Tranchelame. Après avoir voyagé jusqu'au camp de bandits, un guerrier vêtu d'une armure de plates daedra s'est jeté sur moi. Je l'ai vaincu et ai récupéré son armure."
+
+=======================================================
+QUEST: 1E000C4F|cceejsse004-hall.esl (ccEEJSSE004_Quest) (Total strings: 14)
+=======================================================
+  [73] QUST NNAM idx=60 status=TranslationComplete
+    ORIG: 'Enter Hendraheim'
+    TRAD: 'Entrez dans Hendraheim.'
+  [171] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Speak to the warrior at Hendraheim'
+    TRAD: 'Parlez à la guerrière à Hendraheim.'
+  [186] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: 'Take the key to Hendraheim'
+    TRAD: 'Apportez la clé à Hendraheim.'
+  [231] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Hendraheim'
+    TRAD: 'Hendraheim'
+  [258] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: "Read the Warrior's Challenge"
+    TRAD: 'Lisez le Défi du guerrier.'
+  [262] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: 'Await news from a courier'
+    TRAD: "Attendez des nouvelles d'un messager."
+  [273] QUST NNAM idx=40 status=TranslationComplete
+    ORIG: 'Defeat the warrior'
+    TRAD: 'Battez la guerrière.'
+  [548] QUST CNAM idx=82 status=TranslationComplete
+    ORIG: 'Couriers often deliver notices to travelers across Skyrim. If I head to a major hold, perhaps I will receive information that may concern me.'
+    TRAD: "Les messagers livrent souvent des avis aux aventuriers dans tout Bordeciel. Si je me rends dans une châtellerie importante, j'obtiendrai peut-être des informations qui pourraient m'intéresser."
+  [549] QUST CNAM idx=95 status=TranslationComplete
+    ORIG: 'Couriers often deliver notices to travelers across Skyrim. If I head to a major hold, perhaps I will receive information that may concern me.'
+    TRAD: "Les messagers livrent souvent des avis aux aventuriers dans tout Bordeciel. Si je me rends dans une châtellerie importante, j'obtiendrai peut-être des informations qui pourraient m'intéresser."
+  [550] QUST CNAM idx=100 status=TranslationComplete
+    ORIG: 'Couriers often deliver notices to travelers across Skyrim. I received one such letter and should read it to find out more.'
+    TRAD: "Les messagers livrent souvent des avis aux aventuriers dans tout Bordeciel. L'un d'eux m'a donné une lettre. Je devrais la lire pour en savoir plus."
+  [551] QUST CNAM idx=97 status=TranslationComplete
+    ORIG: 'I received a letter regarding a warrior home nestled in the mountains north of Bilegulch Mine. The owner seems interested in bequeathing the home to me, but has first asked that I prove my worthiness in battle.'
+    TRAD: "J'ai reçu une lettre concernant une maison de guerrier nichée dans les montagnes au nord de la mine de Bilegulch. La propriétaire semble vouloir me la transmettre, mais elle m'a d'abord demandé de prouver ma valeur au combat."
+  [552] QUST CNAM idx=80 status=TranslationComplete
+    ORIG: 'I received a letter regarding a warrior home nestled in the mountains north of Bilegulch Mine. I defeated the owner in single combat, and should now search her body for a key.'
+    TRAD: "J'ai reçu une lettre concernant une maison de guerrier nichée dans les montagnes au nord de la mine de Bilegulch. J'ai vaincu la propriétaire en combat singulier, et je devrais maintenant fouiller son corps à la recherche d'une clé."
+  [553] QUST CNAM idx=84 status=TranslationComplete
+    ORIG: 'I received a letter regarding a warrior home nestled in the mountains north of Bilegulch Mine. I defeated the owner in single combat and took the key to the house.'
+    TRAD: "J'ai reçu une lettre concernant une maison de guerrier nichée dans les montagnes au nord de la Mine de Bilegulch. J'ai vaincu sa propriétaire en duel et ai récupéré la clé de la maison."
+  [554] QUST CNAM idx=99 status=TranslationComplete
+    ORIG: 'I received a letter regarding Hendraheim, a warrior home nestled in the mountains north of Bilegulch Mine. After defeating the owner in single combat, I took the key to the house and claimed it for myself.'
+    TRAD: "J'ai reçu une lettre concernant Hendraheim, une maison de guerrier nichée dans les montagnes au nord de la Mine de Bilegulch. Après avoir vaincu sa propriétaire en duel, j'ai récupéré la clé de la maison et m'en suis emparée."
+
+=======================================================
+QUEST: 06000AD6|ccBGSSSE001-Fish.esm (ccBGSSSE001_Misc_Dwarven) (Total strings: 18)
+=======================================================
+  [83] QUST NNAM idx=0 status=TranslationComplete
+    ORIG: 'Investigate the entrance of Bronze Water Cave'
+    TRAD: "Examinez l'entrée de la Grotte de Bronzeflot"
+  [107] QUST NNAM idx=30 status=TranslationComplete
+    ORIG: 'Use the Dwarven fishing rod to catch the strange objects near Bronze Water Cave (<Global=ccBGSSSE001_MDDLeft>/<Global=ccBGSSSE001_MDDTotal>)'
+    TRAD: 'Utilisez la canne à pêche dwemer pour remonter les objets étranges près de la Grotte de Bronzeflot (<Global=ccBGSSSE001_MDDLeft>/<Global=ccBGSSSE001_MDDTotal>)'
+  [147] QUST NNAM idx=25 status=TranslationComplete
+    ORIG: 'Return to Calcelmo'
+    TRAD: 'Retournez voir Calcelmo'
+  [197] QUST NNAM idx=20 status=TranslationComplete
+    ORIG: 'Wait 24 hours for Calcelmo to build the fishing rod'
+    TRAD: 'Attendez 24 heures que Calcelmo fabrique la canne à pêche'
+  [207] QUST NNAM idx=50 status=TranslationComplete
+    ORIG: 'Insert the aetherium dynamo core into the dynamo actuator (<Global=ccBGSSSE001_CoresLeft>/<Global=ccBGSSSE001_CoresTotal>)'
+    TRAD: "Insérez le noyau d'énergie d'aethérium dans l'actionneur (<Global=ccBGSSSE001_CoresLeft>/<Global=ccBGSSSE001_CoresTotal>)"
+  [241] QUST NNAM idx=15 status=TranslationComplete
+    ORIG: 'Find the Dwarven fishing rod schematic in Alftand Ruined Tower'
+    TRAD: "Trouvez le plan de la canne à pêche dwemer dans la Tour en ruines d'Alftand"
+  [263] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Beneath Bronze Waters'
+    TRAD: 'Sous les flots de bronze'
+  [296] QUST NNAM idx=18 status=TranslationComplete
+    ORIG: 'Bring the Dwarven fishing rod schematic to Calcelmo'
+    TRAD: 'Apportez le plan de la canne à pêche dwemer à Calcelmo'
+  [307] QUST NNAM idx=10 status=TranslationComplete
+    ORIG: "Read the fisherman's journal"
+    TRAD: 'Lisez le journal du pêcheur'
+  [352] QUST CNAM idx=82 status=TranslationComplete
+    ORIG: "Calcelmo has heard fishermen's tales of a strange apparatus outside of Bronze Water Cave. He believes it is an ancient Dwemer mechanism of unknown purpose, waiting to be brought to life. I should investigate the area and see if there might be any way to trigger it."
+    TRAD: "Calcelmo a entendu des histoires de pêcheurs affirmant qu'un appareil étrange se trouve à l'extérieur de la Grotte de Bronzeflot. Il pense qu'il s'agit d'un ancien mécanisme dwemer n'attendant que d'être ramené à la vie. Je devrais inspecter les lieux et voir s'il existe un moyen de l'activer."
+  [353] QUST CNAM idx=84 status=TranslationComplete
+    ORIG: "I've arrived at the entrance of Bronze Water Cave. The fishermen that once fished here seem to have left behind a journal. It may contain a clue for activating the mechanisms nearby."
+    TRAD: "Me voilà à l'entrée de la Grotte de Bronzeflot. Les pêcheurs qui se sont établis ici auparavant semblent avoir laissé un journal. Il contient peut-être un indice pour activer les mécanismes à proximité."
+  [354] QUST CNAM idx=71 status=TranslationComplete
+    ORIG: 'The fishermen at Bronze Water Cave saw faint glowing objects at the bottom of the lake near Bronze Water Cave, but they were unable to fish them up. They believed that a fishing rod of Dwarven make might be needed to retrieve them. They recently left for Alftand Ruined Tower, where the schematics for such a rod might be located.'
+    TRAD: "Les pêcheurs de la Grotte de Bronzeflot ont vu des objets brillants au fond du lac près de la grotte, mais n'ont pas réussi à les remonter. Ils pensent qu'une canne à pêche fabriquée par les Dwemers pourrait être en mesure de le faire. Ils sont partis récemment pour la Tour en ruines d'Alftand, où le plan d'une telle canne à pêche pourrait se trouver."
+  [355] QUST CNAM idx=95 status=TranslationComplete
+    ORIG: "I've found the schematics for the Dwarven fishing rod that might be used to catch the glowing objects that lie below the water's surface outside of Bronze Water Cave. I should return it to Calcelmo so that he can construct it."
+    TRAD: "J'ai trouvé le plan d'une canne à pêche dwemer qui pourrait m'aider à remonter les objets brillants reposant au fond du lac à l'extérieur de la Grotte de Bronzeflot. Je devrais l'apporter à Calcelmo pour qu'il m'en fabrique une."
+  [356] QUST CNAM idx=111 status=TranslationComplete
+    ORIG: "I've given Calcelmo the schematics for the Dwarven fishing rod. I now need to wait for him to construct it. I should ask him about it at this time tomorrow."
+    TRAD: "J'ai donné le plan de la canne à pêche dwemer à Calcelmo. Je dois maintenant attendre qu'il la fabrique. Je devrais retourner le voir demain à la même heure."
+  [357] QUST CNAM idx=87 status=TranslationComplete
+    ORIG: 'Calcelmo should be finished constructing the Dwarven fishing rod from the schematic I discovered.'
+    TRAD: "Calcelmo devrait avoir finir de fabriquer la canne à pêche dwemer grâce au plan que j'ai découvert."
+  [358] QUST CNAM idx=89 status=TranslationComplete
+    ORIG: 'Calcelmo has given me the Dwarven fishing rod. I should cast it at the fishing spots near Bronze Water Cave so that I might be able to catch the objects that might activate the mechanisms near the cave.'
+    TRAD: "Calcelmo m'a donné la canne à pêche dwemer. Je devrais l'utiliser dans les coins de pêche près de la Grotte de Bronzeflot afin de remonter les objets qui pourraient activer les mécanismes près de la grotte."
+  [359] QUST CNAM idx=81 status=TranslationComplete
+    ORIG: 'After using the Dwarven fishing rod near Bronze Water Cave and powering up an ancient mechanism using aetherium dynamo cores, a pedestal rose from beneath the surface revealing a submerged chest.'
+    TRAD: "Après avoir utilisé la canne à pêche dwemer près de la Grotte de Bronzeflot et réalimenté un ancien mécanisme à l'aide de noyaux d'énergie d'aethérium, un piédestal est remonté à la surface, révélant ainsi un coffre submergé."
+  [360] QUST CNAM idx=99 status=TranslationComplete
+    ORIG: "I cast the Dwarven fishing rod into the water near Bronze Water Cave, and caught an aetherium dynamo core. An empty socket on the pedestal nearby appears to be shaped to hold such a core. I'll have to insert the dynamo core to bring the rest of the mechanism to life."
+    TRAD: "J'ai utilisé la canne à pêche dwemer dans l'eau près de la Grotte de Bronzeflot et j'ai remonté un noyau d'énergie d'aethérium. Un emplacement vide dans le piédestal à proximité semble avoir la même forme. Je devrais insérer le noyau d'énergie pour faire revenir le mécanisme à la vie."
+
+=======================================================
+QUEST: 1B0008B7|ccvsvsse003-necroarts.esl (ccVSVSSE003_MainQuest) (Total strings: 1)
+=======================================================
+  [148] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Necromantic Arts'
+    TRAD: 'Arts nécromanciens'
+
+=======================================================
+QUEST: 0F000D65|ccbgssse034-mntuni.esl (ccBGSSSE034_WildHorsesQuest) (Total strings: 4)
+=======================================================
+  [163] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'Horse Whisperer'
+    TRAD: "Le Dovahkiin qui murmurait à l'oreille des chevaux"
+  [289] QUST NNAM idx=0 status=TranslationComplete
+    ORIG: 'Purchase a map of wild horse locations'
+    TRAD: 'Achetez une carte indiquant la position des chevaux sauvages.'
+  [444] QUST CNAM idx=82 status=TranslationComplete
+    ORIG: 'Hostlers in Skyrim have begun taming wild horses in order to keep up with the demand. I should speak with a hostler and see if they can give me some information. Perhaps I could find and tame some of them myself.'
+    TRAD: "Les valets de Bordeciel commencent à dompter des chevaux sauvages afin de pouvoir répondre à la demande. Je devrais parler avec un valet et voir s'il peut me donner des informations. Peut-être pourrai-je en trouver un et le dompter moi-même."
+  [445] QUST CNAM idx=73 status=TranslationComplete
+    ORIG: "I've acquired a map and a journal with locations of where wild horses have been known to roam. I should find and tame them. Afterward I can bring them to a stable to add a saddle or change their name."
+    TRAD: "J'ai acquis une carte et un journal indiquant les endroits où des chevaux sauvages ont l'habitude de paître. Je devrais les trouver et les dompter, ensuite je pourrai les amener à une écurie pour leur mettre une selle ou changer leur nom."
+
+=======================================================
+QUEST: 09000805|ccbgssse006-stendarshammer.esl (ccBGSSSE006_Quest) (Total strings: 1)
+=======================================================
+  [232] QUST FULL idx=None status=TranslationComplete
+    ORIG: 'If I had a Hammer'
+    TRAD: "Si j'avais un marteau"

@@ -1,0 +1,180 @@
+[QUST NNAM] (0C00083C|ccmtysse001-knightsofthenine.esl) ccMTYSSE001_StartupQuest_Alt idx=10
+  ORIG: 'Investigate the second knight.'
+  TRAD: 'Examinez le second chevalier.'
+
+[QUST FULL] (00023B6C|Skyrim.esm) T01 idx=None
+  ORIG: 'The Heart of Dibella'
+  TRAD: 'Le Coeur de Dibella'
+
+[QUST NNAM] (00023B6C|Skyrim.esm) T01 idx=56
+  ORIG: 'Wait for Mother Hamal'
+  TRAD: 'Attendez la mère Hamal'
+
+[QUST NNAM] (00035354|Skyrim.esm) dunForelhostQST idx=10
+  ORIG: "(Optional) Find Skorm Snow-Strider's journal"
+  TRAD: '(Facultatif) Trouvez le journal de Skorm Marcheneige'
+
+[QUST NNAM] (00035354|Skyrim.esm) dunForelhostQST idx=70
+  ORIG: 'Kill the imposter Valmir'
+  TRAD: "Tuez Valmir l'imposteur"
+
+[QUST NNAM] (00023B6C|Skyrim.esm) T01 idx=20
+  ORIG: 'Steal statue of Dibella'
+  TRAD: 'Volez la statue de Dibella'
+
+[QUST NNAM] (1500080E|ccbgssse038-bowofshadows.esl) ccBGSSSE038_Quest idx=90
+  ORIG: 'Retrieve the Bow of Obfuscation'
+  TRAD: "Récupérez l'Arc d'obfuscation"
+
+[QUST NNAM] (00023B6C|Skyrim.esm) T01 idx=10
+  ORIG: 'Enter the Temple of Dibella'
+  TRAD: 'Introduisez-vous dans le temple de Dibella'
+
+[QUST NNAM] (00023B6C|Skyrim.esm) T01 idx=70
+  ORIG: 'Rescue Fjotra from the Forsworn'
+  TRAD: 'Délivrez Fjotra des Parjures'
+
+[QUST NNAM] (06000AD6|ccBGSSSE001-Fish.esm) ccBGSSSE001_Misc_Dwarven idx=30
+  ORIG: 'Use the Dwarven fishing rod to catch the strange objects near Bronze Water Cave (<Global=ccBGSSSE001_MDDLeft>/<Global=ccBGSSSE001_MDDTotal>)'
+  TRAD: 'Utilisez la canne à pêche dwemer pour remonter les objets étranges près de la Grotte de Bronzeflot (<Global=ccBGSSSE001_MDDLeft>/<Global=ccBGSSSE001_MDDTotal>)'
+
+[QUST NNAM] (00023B6C|Skyrim.esm) T01 idx=100
+  ORIG: "Pray at Dibella's Altar"
+  TRAD: "Priez à l'autel de Dibella"
+
+[QUST NNAM] (0C00083C|ccmtysse001-knightsofthenine.esl) ccMTYSSE001_StartupQuest_Alt idx=0
+  ORIG: 'Investigate the first knight.'
+  TRAD: 'Examinez le premier chevalier.'
+
+[QUST NNAM] (00035354|Skyrim.esm) dunForelhostQST idx=30
+  ORIG: '(Optional) Find the key to the well in the Catacombs'
+  TRAD: '(Facultatif) Trouvez la clé du puits des catacombes'
+
+[QUST NNAM] (00035354|Skyrim.esm) dunForelhostQST idx=60
+  ORIG: 'Return to Valmir'
+  TRAD: 'Retournez voir Valmir'
+
+[QUST NNAM] (00023B6C|Skyrim.esm) T01 idx=57
+  ORIG: 'Talk to Mother Hamal'
+  TRAD: 'Parlez à la mère Hamal'
+
+[QUST NNAM] (00023B6C|Skyrim.esm) T01 idx=60
+  ORIG: 'Find the future Sybil of Dibella'
+  TRAD: 'Trouvez la future Sibylle de Dibella'
+
+[QUST NNAM] (00035354|Skyrim.esm) dunForelhostQST idx=20
+  ORIG: "(Optional) Show Skorm Snow-Strider's journal to Valmir"
+  TRAD: '(Facultatif) Montrez le journal de Skorm Marcheneige à Valmir'
+
+[QUST NNAM] (00035354|Skyrim.esm) dunForelhostQST idx=50
+  ORIG: "Obtain Rahgot's mask"
+  TRAD: 'Récupérez le masque de Rahgot'
+
+[QUST NNAM] (00023B6C|Skyrim.esm) T01 idx=55
+  ORIG: 'Visit the Temple of Dibella'
+  TRAD: 'Rendez-vous au temple de Dibella'
+
+[QUST NNAM] (00023B6C|Skyrim.esm) T01 idx=30
+  ORIG: 'Give the statue to Degaine'
+  TRAD: 'Allez donner la statue à Degaine'
+
+[QUST FULL] (00035354|Skyrim.esm) dunForelhostQST idx=None
+  ORIG: 'Siege on the Dragon Cult'
+  TRAD: 'Assiégez le Culte du Dragon'
+
+[QUST NNAM] (00023B6C|Skyrim.esm) T01 idx=80
+  ORIG: 'Bring Fjotra to the Temple'
+  TRAD: 'Amenez Fjotra au temple de Dibella'
+
+[QUST CNAM] (00023B6C|Skyrim.esm) T01 idx=78
+  ORIG: 'I have received a letter inviting me to visit the Temple of Dibella.'
+  TRAD: "J'ai reçu une lettre m'invitant à me rendre au temple de Dibella."
+
+[QUST CNAM] (00023B6C|Skyrim.esm) T01 idx=104
+  ORIG: 'After rescuing her from the Fosworn, I must now bring Fjotra, the next Sybil of the Temple of Dibella, to the priestesses in Markarth.'
+  TRAD: "Après avoir sauvé Fjotra des Parjures, je dois maintenant l'amener aux prêtresses de Dibella de Markarth."
+
+[QUST CNAM] (00023B6C|Skyrim.esm) T01 idx=85
+  ORIG: 'I have been instructed to pray at the sacred fountain of Dibella to receive my blessing.'
+  TRAD: "On m'a demandé de prier à la fontaine sacrée de Dibella pour recevoir ma bénédiction."
+
+[QUST CNAM] (00023B6C|Skyrim.esm) T01 idx=103
+  ORIG: "I have agreed to find the young girl who will be their next Sybil. It's been prophesied that she lives in the village of Karthwasten, to the north of Markarth."
+  TRAD: "J'ai accepté de trouver la jeune fille qui sera la prochaine Sibylle de Dibella. Une prophétie a révélé qu'elle vit dans le village de Folpertuis, au nord de Markarth."
+
+[QUST CNAM] (00023B6C|Skyrim.esm) T01 idx=98
+  ORIG: 'I have agreed to find the young girl who will be their next Sybil. The girl must be rescued from the Forsworn who have kidnapped her.'
+  TRAD: "J'ai accepté de trouver la jeune fille qui sera la prochaine Sibylle de Dibella. Elle doit être sauvée des Parjures qui l'ont enlevée."
+
+[QUST CNAM] (00023B6C|Skyrim.esm) T01 idx=110
+  ORIG: 'I rescued the new Sybil of the Temple of Dibella from the Forsworn and received a blessing from Dibella.'
+  TRAD: "J'ai sauvé la nouvelle Sibylle du temple de Dibella des Parjures et reçu la bénédiction de Dibella."
+
+[QUST CNAM] (00023B6C|Skyrim.esm) T01 idx=76
+  ORIG: 'I stole a statue from the Temple of Dibella and sold it to the beggar Degaine.'
+  TRAD: "J'ai volé une statue du temple de Dibella et l'ai vendue à Degaine le mendiant."
+
+[QUST CNAM] (00023B6C|Skyrim.esm) T01 idx=92
+  ORIG: 'I refused to help the priestesses of the Temple of Dibella. Whatever it was they were up to, I want no part of it.'
+  TRAD: "J'ai refusé d'aider les prêtresses du temple de Dibella. Quoi qu'elles fassent, je ne veux pas m'en mêler."
+
+[QUST CNAM] (00035354|Skyrim.esm) dunForelhostQST idx=106
+  ORIG: 'I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask. A journal left by Skorm Snow-Strider may reveal a way past the collapsed areas.'
+  TRAD: "On m'a demandé de vaincre le prêtre-dragon de Forelhost et de rapporter son Masque. Un journal, laissé par Skorm Marcheneige, pourrait me révéler un chemin qui traverse les zones effondrées."
+
+[QUST CNAM] (00035354|Skyrim.esm) dunForelhostQST idx=79
+  ORIG: 'I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask. I have found the journal of Skorm Snow-Strider, which may reveal how to bypass the collapsed areas.'
+  TRAD: "On m'a demandé de vaincre le prêtre-dragon de Forelhost et de rapporter son Masque. J'ai trouvé le Journal de Skorm Marcheneige, qui pourrait me révéler un chemin traversant les zones effondrées."
+
+[QUST CNAM] (00035354|Skyrim.esm) dunForelhostQST idx=69
+  ORIG: 'I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask. I can reach the blocked off areas of the stronghold through the well.'
+  TRAD: "On m'a demandé de vaincre le prêtre-dragon de Forelhost et de rapporter son Masque. Je peux atteindre les zones bloquées de la forteresse en passant par le puits."
+
+[QUST CNAM] (00035354|Skyrim.esm) dunForelhostQST idx=89
+  ORIG: 'I have been asked to defeat the Dragon Priest in Forelhost and to bring back his mask.'
+  TRAD: "On m'a demandé de vaincre le prêtre-dragon de Forelhost et de rapporter son Masque."
+
+[QUST CNAM] (00035354|Skyrim.esm) dunForelhostQST idx=72
+  ORIG: 'I have defeated the Dragon Priest, Rahgot, and taken his mask. I should return with it to Valmir.'
+  TRAD: "J'ai vaincu Rahgot, le prêtre-dragon, et pris son Masque. Je dois le rapporter à Valmir."
+
+[QUST CNAM] (00035354|Skyrim.esm) dunForelhostQST idx=85
+  ORIG: 'Valmir has betrayed me and has been tricking soldiers into the ruins. He must die.'
+  TRAD: 'Valmir est un traître et il a piégé des soldats en les envoyant dans les ruines. Il doit mourir.'
+
+[QUST CNAM] (1806BFC1|ccbgssse067-daedinv.esm) ccBGSSSE067_Quest idx=77
+  ORIG: 'I found the Oblivion Gate and defeated the leader of the Mythic Dawn, Vonos. It appears this was an elaborate ritual designed to decieve me, and killing Vonos was the final step. I have become an unwitting instrument of Mehrunes Dagon, and my actions have opened the Oblivion Gate.'
+  TRAD: "J'ai trouvé la porte d'Oblivion et ai vaincu Vonos, le chef de l'Aube mythique. Il semblerait qu'il s'agissait d'un rituel complexe conçu pour me duper. Tuer Vonos en était l'étape finale. Sans le vouloir, j'ai servi la cause de Mehrunes Dagon et mes actions ont conduit à ouvrir la porte d'Oblivion."
+
+[QUST CNAM] (1C000912|ccBGSSSE025-AdvDSGS.esm) ccBGSSSE025_QuestA idx=85
+  ORIG: "I've heard a rumor that a Khajiit caravan merchant has been running into trouble with bandits along the road, and is in need of assistance. I should speak to him if we ever cross paths."
+  TRAD: "On raconte qu'un marchand khajiit et sa caravane ont eu des ennuis avec des bandits sur la route. Ils semblent avoir besoin d'aide. Je devrais lui en toucher un mot si jamais nos chemins se croisent."
+
+[QUST CNAM] (1C000912|ccBGSSSE025-AdvDSGS.esm) ccBGSSSE025_QuestA idx=67
+  ORIG: "I've located the bandits that call themselves the Saints. I must deal with them in order to make this trade route safer to travel."
+  TRAD: "J'ai trouvé les bandits se faisant appeler les Saints. Je dois m'occuper d'eux afin de sécuriser cette route commerciale."
+
+[QUST CNAM] (1C000912|ccBGSSSE025-AdvDSGS.esm) ccBGSSSE025_QuestA idx=95
+  ORIG: "I discovered a note that detailed how the Saints bandits are being assisted by a conjurer who seeks strange artifacts. The note was vague about his whereabouts, only noting that he is somewhere in Solitude. I should now finish eliminating the Seducers, the other bandit group causing trouble for Ri'saad's caravans. Perhaps I can learn more about this conjurer and where to find him."
+  TRAD: "J'ai découvert une note indiquant que les Saints reçoivent de l'aide d'un invocateur à la recherche d'étranges artéfacts. La note n'était pas claire quant à sa position exacte, mais elle mentionnait qu'il devait se trouver quelque part à Solitude. Je devrais finir d'éliminer les Séducteurs, l'autre groupe de bandits s'en prenant aux caravanes de Ri'saad. Peut-être pourrai-je en apprendre davantage sur l'invocateur et l'endroit où il se trouve."
+
+[QUST CNAM] (0A000822|ccbgssse019-staffofsheogorath.esl) ccBGSSSE019_StaffOfSheogorathQuest idx=121
+  ORIG: "I've found a strange note, ostensibly from the Daedric Prince Sheogorath, exhorting me to take the Fork of Horripilation and kill two special Bull Netches who allegedly possess a pair of artifacts that can be combined into the legendary Staff of Sheogorath."
+  TRAD: "J'ai trouvé une étrange note, apparemment du prince daedra Shéogorath, m'incitant à prendre la Fourchette d'Horripilation et à tuer des netchs mâles spéciaux qui posséderaient deux artéfacts qui peuvent se combiner avec le légendaire Bâton de Shéogorath."
+
+[QUST CNAM] (0A000822|ccbgssse019-staffofsheogorath.esl) ccBGSSSE019_StaffOfSheogorathQuest idx=84
+  ORIG: "I've killed the Bull Netches and obtained the artifacts. I need to gain access to a Staff Enchanter and combine them to create the Staff of Sheogorath."
+  TRAD: "J'ai tué les netchs mâles et obtenu les artéfacts. Je dois trouver un enchanteur de bâton pour les combiner afin de créer le Bâton de Shéogorath."
+
+[QUST CNAM] (0C00083C|ccmtysse001-knightsofthenine.esl) ccMTYSSE001_StartupQuest_Alt idx=87
+  ORIG: 'I have heard rumors of some very well armed knights who have been killed at Four Skull Lookout. I should investigate to see what happened.'
+  TRAD: "J'ai entendu des rumeurs sur des chevaliers très bien armés qui ont été tués au Guet des quatre crânes. Je devrais enquêter pour voir ce qui s'est passé."
+
+[QUST CNAM] (0C00083C|ccmtysse001-knightsofthenine.esl) ccMTYSSE001_StartupQuest_Alt idx=85
+  ORIG: 'After investigating the knights, I discovered that they were members of the Order of the Nine that were likely killed by some Thalmor searching for the Relics of the Crusader. The journal I found notes that the Relics are locked away in chests around Skyrim that can only be opened in a special way, I should look out for them on my travels.'
+  TRAD: "Après avoir enquêté sur les chevaliers, j'ai découvert qu'ils étaient membres de l'Ordre des Neuf et qu'ils avaient probablement été tués par un Thalmor qui cherchait les Reliques du Divin croisé. Le journal que j'ai trouvé indique que les reliques sont enfermées dans des coffres, un peu partout en Bordeciel, qui ne peuvent être ouverts que d'une manière particulière, je devrais les chercher lors de mes voyages."
+
+[QUST CNAM] (1500080E|ccbgssse038-bowofshadows.esl) ccBGSSSE038_Quest idx=85
+  ORIG: 'At the Silent Moons Camp, I discovered a journal from an assassin who intends on killing the Jarl of Whiterun. After following his trail, I found him in Dragonsreach and eliminated him. I then returned to the steward and received my reward.'
+  TRAD: "Au camp de la Lune silencieuse, j'ai découvert le journal d'un assassin qui projetait d'assassiner le jarl de Blancherive. Après avoir suivi sa piste, je l'ai trouvé à Fort-Dragon et l'ai éliminé. J'en ai profité pour récupérer l'Arc des ombres. J'ai ensuite rendu visite au chambellan, qui m'a donné ma récompense."
+

@@ -183,6 +183,7 @@ class GeminiChatDialog(QDialog):
         if self.__history and self.__history[-1].get("role") == "user":
             self.__history.pop()
         self.__status.setText(self.tr("Gemini request failed."))
+        self.__append_message(self.tr("Error"), message)
         QMessageBox.warning(self, self.tr("Gemini error"), message)
 
     def __on_finished(self) -> None:

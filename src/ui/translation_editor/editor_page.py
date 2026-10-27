@@ -42,6 +42,9 @@ class EditorPage(QSplitter):
         int: New number of open tabs.
     """
 
+    refresh_translation_requested = Signal(Translation)
+    """Signal emitted when an editor tab requests a translation reload from disk."""
+
     __app_config: AppConfig
     __user_data: UserData
     __translator_service: TranslatorService
@@ -292,6 +295,9 @@ class EditorPage(QSplitter):
             )
             translation_tab.changed_signal.connect(self.__update_tab_labels)
             translation_tab.close_signal.connect(self.close_translation)
+            translation_tab.refresh_translation_requested.connect(
+                self.refresh_translation_requested.emit
+            )
             self.__tabs[translation] = translation_tab, translation_item
             self.__page_widget.addWidget(translation_tab)
 

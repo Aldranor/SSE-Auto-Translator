@@ -1,0 +1,880 @@
+{
+  "PNJ_NAMES": [
+    {
+      "mod": "(FR - DSD) Strongholds - Mor Khazgur VF",
+      "file": "Orc Strongholds - Mor Khazgur.esp.json",
+      "total": 6,
+      "samples": "Azgab [NPC_ FULL], Tarzag [NPC_ FULL], Bargat [NPC_ FULL]"
+    },
+    {
+      "mod": "(FR) JK's Solitude Outskirts",
+      "file": "jk's solitude outskirts.esp.json",
+      "total": 4,
+      "samples": "Thorbur [NPC_ FULL], Thorbur [NPC_ SHRT], Allding [NPC_ FULL]"
+    },
+    {
+      "mod": "(FR) Strongholds - Largashbur",
+      "file": "Orc Strongholds - Largashbur.esp.json",
+      "total": 4,
+      "samples": "Horza [NPC_ FULL], Lorm [NPC_ FULL], Shagrat [NPC_ FULL]"
+    },
+    {
+      "mod": "Amber Guard - French version",
+      "file": "Amber Guard.esp.json",
+      "total": 10,
+      "samples": "Glynys [NPC_ FULL], Ambrine [NPC_ FULL], Dugald [NPC_ SHRT]"
+    },
+    {
+      "mod": "Amélioration des enfants de Bordeciel",
+      "file": "RSC WT Patch.esp.json",
+      "total": 1,
+      "samples": "Signy [NPC_ FULL]"
+    },
+    {
+      "mod": "Amélioration des enfants de Bordeciel",
+      "file": "RSChildren Patch - BS Bruma.esp.json",
+      "total": 1,
+      "samples": "Ellina [NPC_ SHRT]"
+    },
+    {
+      "mod": "Armure viridienne",
+      "file": "KSA_vdk.esp.json",
+      "total": 1,
+      "samples": "Isabile Frascel [NPC_ FULL]"
+    },
+    {
+      "mod": "AttackoDaedra.esp - French",
+      "file": "attackodaedra.esp.json",
+      "total": 1,
+      "samples": "Alonrys [NPC_ FULL]"
+    },
+    {
+      "mod": "Auri - Nerussa - Replacer - French",
+      "file": "AuriNerussa.esp.json",
+      "total": 1,
+      "samples": "Auri [NPC_ FULL]"
+    },
+    {
+      "mod": "Bois de Vernim",
+      "file": "RSChildren - Vernim Wood.esp.json",
+      "total": 2,
+      "samples": "Meino [NPC_ FULL], Ostara [NPC_ SHRT]"
+    },
+    {
+      "mod": "Bois de Vernim",
+      "file": "Vernim Wood.esp.json",
+      "total": 13,
+      "samples": "Scuan Vangus [NPC_ FULL], Corvina [NPC_ SHRT], Ostara [NPC_ SHRT]"
+    },
+    {
+      "mod": "Chaurus à démembrer",
+      "file": "mihaildismemberthosechaurus.esp.json",
+      "total": 1,
+      "samples": "Chaurusfortestnouse [NPC_ FULL]"
+    },
+    {
+      "mod": "Creation Club Crossbow Integration - French",
+      "file": "crossbow integration.esp.json",
+      "total": 11,
+      "samples": "Durak [NPC_ SHRT], Tilde [NPC_ FULL], Beleval [NPC_ FULL]"
+    },
+    {
+      "mod": "Dunpar Wall - French version v1.00.2 SE",
+      "file": "Dunpar Wall.esp.json",
+      "total": 1,
+      "samples": "Jolnir [NPC_ SHRT]"
+    },
+    {
+      "mod": "Gobelins et riekrs",
+      "file": "mihailgoblinsandriekrs.esp.json",
+      "total": 2,
+      "samples": "AudioTemplateAtronachFrost [NPC_ FULL], AudioTemplateAtronachFrost [NPC_ FULL]"
+    },
+    {
+      "mod": "Gray Quarter Overhaul",
+      "file": "grey_quarter_overhaul.esp.json",
+      "total": 29,
+      "samples": "Arthos [NPC_ SHRT], Othral Hatubis [NPC_ FULL], Ryven Dres [NPC_ FULL]"
+    },
+    {
+      "mod": "Great Village of Kynesgrove Patch Collection - FR",
+      "file": "Great Village of Kynesgrove - RS Children Patch.esp.json",
+      "total": 3,
+      "samples": "Folke [NPC_ FULL], Brand [NPC_ FULL], Frigg [NPC_ FULL]"
+    },
+    {
+      "mod": "Great Village of Mixwater Mill FR",
+      "file": "The Great Village of Mixwater Mill.esp.json",
+      "total": 1,
+      "samples": "Haukr [NPC_ FULL]"
+    },
+    {
+      "mod": "Great Village of Mixwater Mill Patch Collection FR",
+      "file": "Great Village of Mixwater Mill - RS Children Patch.esp.json",
+      "total": 1,
+      "samples": "Haukr [NPC_ FULL]"
+    },
+    {
+      "mod": "Guivrecroc",
+      "file": "WyrmstoothUWR.esp.json",
+      "total": 5,
+      "samples": "Lurius Liore [NPC_ FULL], Athir [NPC_ FULL], Shargam [NPC_ FULL]"
+    },
+    {
+      "mod": "JK's Whiterun Outskirts (FR)",
+      "file": "JK's Whiterun's Outskirts.esp.json",
+      "total": 5,
+      "samples": "Pavel [NPC_ FULL], Augustus [NPC_ FULL], Augustus [NPC_ SHRT]"
+    },
+    {
+      "mod": "JKJ - Moonpath.esp - French",
+      "file": "jkj - moonpath.esp.json",
+      "total": 52,
+      "samples": "Ku'rana [NPC_ FULL], Mogra [NPC_ FULL], Dervar [NPC_ SHRT]"
+    },
+    {
+      "mod": "Lainalten",
+      "file": "Lainalten.esp.json",
+      "total": 8,
+      "samples": "Hertha [NPC_ FULL], Peranir [NPC_ FULL], Ossian [NPC_ FULL]"
+    },
+    {
+      "mod": "Lainalten - Modpocalypse NPCs",
+      "file": "modpocalypse npcs (v3) lainalten.esp.json",
+      "total": 7,
+      "samples": "Peranam [NPC_ FULL], Insa [NPC_ FULL], Ossian [NPC_ FULL]"
+    },
+    {
+      "mod": "Le Tournoi des Dix Sangs",
+      "file": "ArtifactsOfBoethiah.esp.json",
+      "total": 1,
+      "samples": "Aldantar [NPC_ FULL]"
+    },
+    {
+      "mod": "Les Roues de Lull",
+      "file": "High Poly NPCs - WheelsOfLull.esp.json",
+      "total": 4,
+      "samples": "Masscroft [NPC_ FULL], Medeliu Hammar [NPC_ FULL], Medeliu [NPC_ SHRT]"
+    },
+    {
+      "mod": "LOTD - Patches officiels",
+      "file": "DBM_RSChildren_Patch.esp.json",
+      "total": 1,
+      "samples": "Henry [NPC_ FULL]"
+    },
+    {
+      "mod": "Madmen - Patches - French",
+      "file": "madmen - wyrmstooth.esp.json",
+      "total": 1,
+      "samples": "Alka [NPC_ FULL]"
+    },
+    {
+      "mod": "Madmen - Refonte des Parjures",
+      "file": "Madmen - Wyrmstooth.esp.json",
+      "total": 1,
+      "samples": "Alka [NPC_ FULL]"
+    },
+    {
+      "mod": "Modpocalypse NPCs - Added Quests Fixes - French",
+      "file": "modpocalypse npcs - added quest fixes.esp.json",
+      "total": 1,
+      "samples": "Thelma [NPC_ FULL]"
+    },
+    {
+      "mod": "Modpocalypse NPCs - All Vanilla NPCs",
+      "file": "modpocalypse npcs (v3) sse.esp.json",
+      "total": 8,
+      "samples": "TestCarryBasket [NPC_ FULL], TestFurnitureUseIdleLinkedRefNPC [NPC_ FULL], DomnaMagia [NPC_ FULL]"
+    },
+    {
+      "mod": "Modpocalypse NPCs - Citizens of Tamriel",
+      "file": "modpocalypse npcs (v3) citizens of tamriel.esp.json",
+      "total": 25,
+      "samples": "Kala [NPC_ FULL], Soliron [NPC_ FULL], Rha'zho [NPC_ FULL]"
+    },
+    {
+      "mod": "Modpocalypse NPCs - Cutting Room Floor",
+      "file": "modpocalypse npcs (v3) cutting room floor.esp.json",
+      "total": 8,
+      "samples": "Fathenda [NPC_ FULL], Aleuc [NPC_ FULL], Heigen [NPC_ FULL]"
+    },
+    {
+      "mod": "Modpocalypse NPCs - Moonpath to Elsweyr",
+      "file": "modpocalypse npcs (v3) moonpath to elsweyr.esp.json",
+      "total": 53,
+      "samples": "Khulan [NPC_ FULL], Khulan [NPC_ SHRT], Shi'ara [NPC_ SHRT]"
+    },
+    {
+      "mod": "Modpocalypse NPCs - The Forgotten City",
+      "file": "modpocalypse npcs (v3) the forgotten city.esp.json",
+      "total": 26,
+      "samples": "Vitus [NPC_ FULL], Ulrin [NPC_ FULL], Jarl Metellus [NPC_ FULL]"
+    },
+    {
+      "mod": "Modpocalypse NPCs - Wyrmstooth",
+      "file": "modpocalypse npcs (v3) wyrmstooth.esp.json",
+      "total": 34,
+      "samples": "Alberthor [NPC_ FULL], Shargam [NPC_ FULL], Skonjar [NPC_ FULL]"
+    },
+    {
+      "mod": "Nolvus Awakening Combat Scaling Overhaul - Prepare to Die - French",
+      "file": "nolvus awakening combat scaling overhaul - consistency patch.esp.json",
+      "total": 18,
+      "samples": "Ku'rana [NPC_ SHRT], Ku'rana [NPC_ FULL], Athir [NPC_ FULL]"
+    },
+    {
+      "mod": "Patrouilles et cavaliers draugr",
+      "file": "mihaildraugrpatrolsandcavalry.esp.json",
+      "total": 1,
+      "samples": "Draugulf [NPC_ FULL]"
+    },
+    {
+      "mod": "RiftenLaketown.esp - French",
+      "file": "riftenlaketown.esp.json",
+      "total": 1,
+      "samples": "Christophe [NPC_ FULL]"
+    },
+    {
+      "mod": "RS Children Overhaul - Falskaar Patch - French",
+      "file": "falskaarrschildrenpatch.esp.json",
+      "total": 6,
+      "samples": "Wilhard [NPC_ SHRT], Varrina [NPC_ FULL], Varrina [NPC_ SHRT]"
+    },
+    {
+      "mod": "Strongholds - Narzulbur",
+      "file": "strongholds - narzulbur.esp.json",
+      "total": 7,
+      "samples": "Ugluk [NPC_ FULL], Ghamorz gro-Drog [NPC_ FULL], Gorbag [NPC_ FULL]"
+    },
+    {
+      "mod": "The Coachmen - Carriage Guards - French",
+      "file": "Carriage Guards.esp.json",
+      "total": 3,
+      "samples": "Brovar [NPC_ FULL], Reekeepa [NPC_ FULL], Grozhak [NPC_ FULL]"
+    },
+    {
+      "mod": "The Great City Of Dawnstar (French)",
+      "file": "The Great City of Dawnstar.esp.json",
+      "total": 1,
+      "samples": "Ulrik [NPC_ FULL]"
+    },
+    {
+      "mod": "True Sons of Skyrim Refined - Nolvus Patch - French",
+      "file": "nolvus awakening tsos patch.esp.json",
+      "total": 1,
+      "samples": "Movarth [NPC_ FULL]"
+    },
+    {
+      "mod": "Vampire Beasts- Mihail Monsters and Animals - FR",
+      "file": "mihailvampirebeasts.esp.json",
+      "total": 5,
+      "samples": "Garkain [NPC_ FULL], Katakan [NPC_ FULL], Ekimmara [NPC_ FULL]"
+    },
+    {
+      "mod": "Vernim Wood - High Poly NPCs - French",
+      "file": "soup_schlitzohr_vernimwood.esp.json",
+      "total": 10,
+      "samples": "Alsuna [NPC_ FULL], Scuan [NPC_ SHRT], Dolfi [NPC_ FULL]"
+    },
+    {
+      "mod": "Vigilant - Artifact Immersion Patch",
+      "file": "kri_vigilant_artifactimmersionpatch.esp.json",
+      "total": 1,
+      "samples": "Gloriel [NPC_ SHRT]"
+    },
+    {
+      "mod": "Vigilant - Gwyneth Replacer - French",
+      "file": "VIGILANT - My patches by Xtudo - Gwyneth replacer.esp.json",
+      "total": 2,
+      "samples": "Gwyneth [NPC_ FULL], Gwyneth [NPC_ FULL]"
+    },
+    {
+      "mod": "Windhelm Lighthouse (New) (French)",
+      "file": "Windhelm Lighthouse.esp.json",
+      "total": 3,
+      "samples": "Isulf [NPC_ SHRT], Hadanus Durena [NPC_ FULL], Hadanus [NPC_ SHRT]"
+    },
+    {
+      "mod": "Zerofrost Ultimate Armor Collection fr Nolvus",
+      "file": "Zerofrost Ultimate Armor Collection.esp.json",
+      "total": 8,
+      "samples": "Excelsior [WEAP FULL], Brutus [NPC_ FULL], Kain [NPC_ FULL]"
+    }
+  ],
+  "TECH_ANIM": [
+    {
+      "mod": "Aetherius - Refonte des races",
+      "file": "aetheriusspells.esp.json",
+      "total": 6,
+      "samples": "Aetherius Controller Ability [SPEL FULL], Imperial Controller Effect [MGEF FULL], Dark Elf Controller Effect [MGEF FULL]"
+    },
+    {
+      "mod": "Amélioration de la Lame des Sangskaals",
+      "file": "ZIA_Complete Pack - Bloodskal Blade T&E Patch.esp.json",
+      "total": 1,
+      "samples": "Visual [MGEF FULL]"
+    },
+    {
+      "mod": "Animals Swim",
+      "file": "animals swim.esp.json",
+      "total": 1,
+      "samples": "RabbitWaterWalking [SPEL FULL]"
+    },
+    {
+      "mod": "Armure de mage noire",
+      "file": "Black Mage Armor SE.esp.json",
+      "total": 1,
+      "samples": "Black Mage Startup Quest [QUST FULL]"
+    },
+    {
+      "mod": "ASHLEY - Witcher in Whiterun.esp - French",
+      "file": "ashley - witcher in whiterun.esp.json",
+      "total": 18,
+      "samples": "HedgeColumn [TREE FULL], HedgeBox [TREE FULL], HedgeLow01 [TREE FULL]"
+    },
+    {
+      "mod": "Eating Animations and Sounds - Patch Collection - French",
+      "file": "taberu animation - cheesemod patch.esp.json",
+      "total": 414,
+      "samples": "AgedBretonCheeseCut_Animation_ME [MGEF FULL], AgedBretonCheeseWedge_Animation_ME [MGEF FULL], AgedBretonCheeseWheel_Animation_ME [MGEF FULL]"
+    },
+    {
+      "mod": "Eating Animations and Sounds - Patch Collection - French",
+      "file": "taberu animation - dawn of skyrim patch.esp.json",
+      "total": 28,
+      "samples": "ApplePie_Animation_ME [MGEF FULL], DustedBread_Animation_ME [MGEF FULL], FalkreathPorridge_Animation_ME [MGEF FULL]"
+    },
+    {
+      "mod": "Eating Animations and Sounds - Patch Collection - French",
+      "file": "taberu animation - falskaar patch.esp.json",
+      "total": 4,
+      "samples": "Falskaar_AmberMead_Animation_ME [MGEF FULL], Falskaar_Stew_Animation_ME [MGEF FULL], leftovers_Falskaar_AmberMead [ALCH FULL]"
+    },
+    {
+      "mod": "Gourmet - Refonte de la cuisine",
+      "file": "Taberu Animations - Gourmet Patch.esp.json",
+      "total": 42,
+      "samples": "Eversnow_Animation_ME [MGEF FULL], RoastedCarrots_Animation_ME [MGEF FULL], RoastedGlowingMushroom_Animation_ME [MGEF FULL]"
+    },
+    {
+      "mod": "GrayCowlRevoice.esp - French",
+      "file": "graycowlrevoice.esp.json",
+      "total": 1,
+      "samples": "manny_GF_Dialogues_Hello [DIAL FULL]"
+    },
+    {
+      "mod": "Helmet Toggle 2",
+      "file": "helmet toggle 2.esp.json",
+      "total": 20,
+      "samples": "HT_SpellMonitorEffect [MGEF FULL], HT_FollowerSpellMonitorAliasEffect [MGEF FULL], HT_NPCSpellMonitorAliasEffect [MGEF FULL]"
+    },
+    {
+      "mod": "JKs Guild HQ Interiors Patch Collection",
+      "file": "jks high hrothgar - thunderchild patch.esp.json",
+      "total": 1,
+      "samples": "JKsHH_ThunderchildPersistentRefsQuest [QUST FULL]"
+    },
+    {
+      "mod": "Nolvus Awakening Seasonal Tree Mashup - Fall Forest - French",
+      "file": "Nolvus Awakening Seasonal Tree Mashup - Fall Forest.esp.json",
+      "total": 72,
+      "samples": "TreeAspen01_Alt1 [TREE FULL], TreeAspen01_Alt2 [TREE FULL], TreeAspen01_Alt3 [TREE FULL]"
+    },
+    {
+      "mod": "Nolvus Awakening Seasonal Tree Mashup - Pine Forest - French",
+      "file": "Nolvus Awakening Seasonal Tree Mashup - Pine Forest.esp.json",
+      "total": 39,
+      "samples": "TreePineForest01_Alt1 [TREE FULL], TreePineForest02_Alt1 [TREE FULL], TreePineForest05_Alt1 [TREE FULL]"
+    },
+    {
+      "mod": "Nolvus Awakening Whiterun Seasons Patch",
+      "file": "Nolvus Awakening Whiterun Seasons Patch.esp.json",
+      "total": 12,
+      "samples": "HedgeColumn [TREE FULL], HedgeBox [TREE FULL], HedgeLow01 [TREE FULL]"
+    },
+    {
+      "mod": "Nouvelle chasse au trésor",
+      "file": "treasure_hunt.esp.json",
+      "total": 13,
+      "samples": "<img src='img://Textures/Interface/Books/dunKarthwastenTreasMap.png' width='290' height='389'> [BOOK DESC], <img src='img://Textures/Interface/Books/dunPalePassTreasMap.png' width='290' height='389'> [BOOK DESC], <img src='img://Textures/Interface/Books/dunGjunkarTreasMap.png' width='290' height='389'> [BOOK DESC]"
+    },
+    {
+      "mod": "Quick Light - Followers",
+      "file": "quicklightforfollowers.esp.json",
+      "total": 5,
+      "samples": "normal [MESG ITXT], QuickLight [MGEF FULL], QuickLight [MGEF FULL]"
+    },
+    {
+      "mod": "Rainbows",
+      "file": "rainbows.esp.json",
+      "total": 5,
+      "samples": "RB Teleporting Script [MGEF FULL], RB Start Before Script [MGEF FULL], RB Main Script [MGEF FULL]"
+    },
+    {
+      "mod": "Rainbows over Waterfalls - French",
+      "file": "Rainbows over Waterfalls.esp.json",
+      "total": 16,
+      "samples": "Rainbow_waterfall_03 [ACTI FULL], Rainbow_waterfall_03 [ACTI FULL], Rainbow_waterfall_03 [ACTI FULL]"
+    },
+    {
+      "mod": "Shrubbery Symphony Enhanced Greenery.esp - French",
+      "file": "shrubbery symphony enhanced greenery.esp.json",
+      "total": 9,
+      "samples": "GoldenRod [TREE FULL], GoldenRod [TREE FULL], GoldenRod [TREE FULL]"
+    },
+    {
+      "mod": "Shrubbery Symphony Enhanced Greenery_Seasons.esp - French",
+      "file": "shrubbery symphony enhanced greenery_seasons.esp.json",
+      "total": 18,
+      "samples": "GoldenRod [TREE FULL], GoldenRod [TREE FULL], GoldenRod [TREE FULL]"
+    },
+    {
+      "mod": "Smooth Moveset.esp - French",
+      "file": "smooth moveset.esp.json",
+      "total": 2,
+      "samples": "move_equip [MGEF FULL], move_equip [SPEL FULL]"
+    },
+    {
+      "mod": "Stances - Dynamic Animation Sets",
+      "file": "stances - dynamic weapon movesets se.esp.json",
+      "total": 21,
+      "samples": "stances_neutral_icon_mgef [MGEF FULL], stances_mid_shader_mgef [MGEF FULL], stances_low_shader_mgef [MGEF FULL]"
+    },
+    {
+      "mod": "The New Gentleman",
+      "file": "TheNewGentleman.esp.json",
+      "total": 6,
+      "samples": "$TNG_TCT [ARMO FULL], $TNG_TMT [ARMO FULL], $TNG_TRT [ARMO FULL]"
+    },
+    {
+      "mod": "True Armor - Evolved",
+      "file": "True Armor - Evolved.esp.json",
+      "total": 99,
+      "samples": "TA_ExamineArmor_Effect [MGEF FULL], TA_Overview_Effect [MGEF FULL], TA_Block_Player [PERK FULL]"
+    },
+    {
+      "mod": "TrueArmor.esp - French",
+      "file": "truearmor.esp.json",
+      "total": 76,
+      "samples": "TA_AddArmorProtection_Effect [MGEF FULL], TA_Highlight_Effect [MGEF FULL], TA_ExamineArmor_Effect [MGEF FULL]"
+    },
+    {
+      "mod": "TsunDalBoss.esp - French",
+      "file": "tsundalboss.esp.json",
+      "total": 19,
+      "samples": "Mathain [NPC_ FULL], 0_DragonAspectEffect [MGEF FULL], 0_BearHideSpellEffect [MGEF FULL]"
+    },
+    {
+      "mod": "Vampire Lords Can Fly",
+      "file": "vampirelordscanfly.esp.json",
+      "total": 1,
+      "samples": "Flight_Detector [MGEF FULL]"
+    },
+    {
+      "mod": "Wade In Water",
+      "file": "wadeinwater.esp.json",
+      "total": 4,
+      "samples": "wSlow [MGEF FULL], WaterSlowSmall [SPEL FULL], WaterSlowLarge [SPEL FULL]"
+    },
+    {
+      "mod": "Wintersun - Religions de Bordeciel",
+      "file": "Wintersun - Faiths of Skyrim.esp.json",
+      "total": 3,
+      "samples": "HoonDing [PERK FULL], HoonDing [PERK FULL], HoonDing [PERK FULL]"
+    },
+    {
+      "mod": "Witcherun - A Verdant Whiterun Overhaul",
+      "file": "Witcherun A Verdant Whiterun Overhaul.esp.json",
+      "total": 6,
+      "samples": "HedgeColumn [TREE FULL], HedgeBox [TREE FULL], HedgeLow01 [TREE FULL]"
+    }
+  ],
+  "PROPER_WEAPONS": [
+    {
+      "mod": "Apothecary - StarRiseShine's Patches - French",
+      "file": "apothecary - beyond reach.esp.json",
+      "total": 1,
+      "samples": "Kinisroot [INGR FULL]"
+    },
+    {
+      "mod": "Arbre de compétence des Compagnons",
+      "file": "Companionsskillltree.esp.json",
+      "total": 1,
+      "samples": "Speedmult [MGEF FULL]"
+    },
+    {
+      "mod": "Armes de Billyro",
+      "file": "Billyro's Weapons.esp.json",
+      "total": 15,
+      "samples": "Atricor [WEAP FULL], Atricor [WEAP FULL], Crag [WEAP FULL]"
+    },
+    {
+      "mod": "art_Macari.esp - French",
+      "file": "art_macari.esp.json",
+      "total": 1,
+      "samples": "Macari [WEAP FULL]"
+    },
+    {
+      "mod": "Clanbringer - Salle des banquets de Thirsk - FR",
+      "file": "Clanbringer.esp.json",
+      "total": 1,
+      "samples": "Clanbringer [WEAP FULL]"
+    },
+    {
+      "mod": "Claymore.esp - French",
+      "file": "claymore.esp.json",
+      "total": 1,
+      "samples": "Claymore [WEAP FULL]"
+    },
+    {
+      "mod": "Collections de BadGremlin",
+      "file": "BGCollectables.esp.json",
+      "total": 2,
+      "samples": "Cyrospade [MISC FULL], Guppy [MISC FULL]"
+    },
+    {
+      "mod": "DanpHravnaDagger.esp - French",
+      "file": "danphravnadagger.esp.json",
+      "total": 1,
+      "samples": "Hravna [WEAP FULL]"
+    },
+    {
+      "mod": "Drizzt_Swords.esp - French",
+      "file": "drizzt_swords.esp.json",
+      "total": 1,
+      "samples": "FrostBrand [ENCH FULL]"
+    },
+    {
+      "mod": "Echizen.esp - French",
+      "file": "echizen.esp.json",
+      "total": 1,
+      "samples": "Echizen [WEAP FULL]"
+    },
+    {
+      "mod": "eFPS - Unofficial Patches - French",
+      "file": "occ_skyrim_sr-exterior-cities_patch.esp.json",
+      "total": 2,
+      "samples": "Solitude [WRLD FULL], Markarth [WRLD FULL]"
+    },
+    {
+      "mod": "Eikbiter - A Long Axe",
+      "file": "eikbiter.esp.json",
+      "total": 1,
+      "samples": "Eikbiter [WEAP FULL]"
+    },
+    {
+      "mod": "Elexorien",
+      "file": "elexorien.esp.json",
+      "total": 1,
+      "samples": "Elexorien [WEAP FULL]"
+    },
+    {
+      "mod": "Falchion",
+      "file": "falchion.esp.json",
+      "total": 1,
+      "samples": "Falchion [WEAP FULL]"
+    },
+    {
+      "mod": "Fanatical Enemies - Patches - French",
+      "file": "fanatical enemies - consistency patch.esp.json",
+      "total": 1,
+      "samples": "Skyrim [WRLD FULL]"
+    },
+    {
+      "mod": "Fanatical Enemies.esp - French",
+      "file": "fanatical enemies.esp.json",
+      "total": 7,
+      "samples": "…k? [GMST DATA], š™Y? [GMST DATA], ÍĚL= [GMST DATA]"
+    },
+    {
+      "mod": "FlamingStrike.esp - French",
+      "file": "flamingstrike.esp.json",
+      "total": 5,
+      "samples": "enchfire [ENCH FULL], spelleffect1 [SPEL FULL], spellench [SPEL FULL]"
+    },
+    {
+      "mod": "Frenzy.esp - French",
+      "file": "frenzy.esp.json",
+      "total": 14,
+      "samples": "FZrune2 [MGEF FULL], FZlight [MGEF FULL], FZrune [SPEL FULL]"
+    },
+    {
+      "mod": "Gourmet - Patches - French",
+      "file": "gourmet - auri.esp.json",
+      "total": 1,
+      "samples": "Jagga [ALCH FULL]"
+    },
+    {
+      "mod": "Gourmet - Patches - French",
+      "file": "gourmet - vigilant.esp.json",
+      "total": 1,
+      "samples": "Unthrappa [ALCH FULL]"
+    },
+    {
+      "mod": "Gourmet - Patches - French",
+      "file": "gourmet - wyrmstooth.esp.json",
+      "total": 2,
+      "samples": "Soln [ALCH FULL], Greef [ALCH FULL]"
+    },
+    {
+      "mod": "Gourmet - Refonte de la cuisine",
+      "file": "Gourmet - Vigilant.esp.json",
+      "total": 1,
+      "samples": "Unthrappa [ALCH FULL]"
+    },
+    {
+      "mod": "Gourmet - Refonte de la cuisine",
+      "file": "Gourmet - Wyrmstooth.esp.json",
+      "total": 2,
+      "samples": "Soln [ALCH FULL], Greef [ALCH FULL]"
+    },
+    {
+      "mod": "Gourmet - Refonte de la cuisine",
+      "file": "Taberu Animation - Gourmet - Wyrmstooth Patch.esp.json",
+      "total": 2,
+      "samples": "Soln [ALCH FULL], Greef [ALCH FULL]"
+    },
+    {
+      "mod": "Grummites",
+      "file": "mihailgrummite.esp.json",
+      "total": 2,
+      "samples": "m [MGEF FULL], d [MGEF FULL]"
+    },
+    {
+      "mod": "Ilieh, l'épée du Tourment",
+      "file": "Ilieh Cry of the Damned.esp.json",
+      "total": 1,
+      "samples": "Ilieh [WEAP FULL]"
+    },
+    {
+      "mod": "Imperial Falchion and War Cleaver",
+      "file": "imperialfalchion_by_flarescale.esp.json",
+      "total": 1,
+      "samples": "ImperialFalchionInjectionQuest [QUST FULL]"
+    },
+    {
+      "mod": "Legacy of the Dragonborn - Follower Room Patches - French",
+      "file": "dbm_inigo_patch.esp.json",
+      "total": 1,
+      "samples": "Inigo [QUST FULL]"
+    },
+    {
+      "mod": "LOTD - Patches officiels",
+      "file": "DBM_CheeseMod_Patch.esp.json",
+      "total": 1,
+      "samples": "Solitude [WRLD FULL]"
+    },
+    {
+      "mod": "Luciendar.esp - French",
+      "file": "luciendar.esp.json",
+      "total": 1,
+      "samples": "Luciendar [WEAP FULL]"
+    },
+    {
+      "mod": "Magie stellaire",
+      "file": "Supernova.esl.json",
+      "total": 1,
+      "samples": "Supernova [SPEL FULL]"
+    },
+    {
+      "mod": "Make Your Riften",
+      "file": "ryften - back door east.esp.json",
+      "total": 1,
+      "samples": "WoodBeam [DOOR FULL]"
+    },
+    {
+      "mod": "Manger et boire - Sons et animations",
+      "file": "Taberu Animation - Wyrmstooth Patch.esp.json",
+      "total": 2,
+      "samples": "Soln [ALCH FULL], Greef [ALCH FULL]"
+    },
+    {
+      "mod": "Nolvus - Northern Roads Grass Patches - French",
+      "file": "northern roads - bs bruma patch - nolvus.esp.json",
+      "total": 1,
+      "samples": "Tamriel [WRLD FULL]"
+    },
+    {
+      "mod": "Northern Roads Patch Collection - French",
+      "file": "Northern Roads - BS Bruma Patch.esp.json",
+      "total": 1,
+      "samples": "Tamriel [WRLD FULL]"
+    },
+    {
+      "mod": "Racial Skin Variance - SPID",
+      "file": "Racial Skin Variance - SPID.esp.json",
+      "total": 1,
+      "samples": "RSVDummyRingUpdater [ARMO FULL]"
+    },
+    {
+      "mod": "Rapier and Dirk",
+      "file": "rapier_and_dirk_by_flarescale.esp.json",
+      "total": 1,
+      "samples": "Dirk [WEAP FULL]"
+    },
+    {
+      "mod": "Réactions à la nécromancie",
+      "file": "NPCs React To Necromancy.esp.json",
+      "total": 1,
+      "samples": "Reactions [QUST FULL]"
+    },
+    {
+      "mod": "Static Skill Leveling Rewritten - French",
+      "file": "staticskillleveling.esp.json",
+      "total": 1,
+      "samples": "StaticSkillLevelingQuest [QUST FULL]"
+    },
+    {
+      "mod": "SunHelm - Experience Patch - French",
+      "file": "Sunhelm - Experience Patch.esp.json",
+      "total": 2,
+      "samples": "SunHelm [QUST FULL], Initializing [QUST CNAM]"
+    },
+    {
+      "mod": "SunHelm - Survie et besoins",
+      "file": "SunHelm_Wyrmstooth.esp.json",
+      "total": 2,
+      "samples": "Soln [ALCH FULL], Greef [ALCH FULL]"
+    },
+    {
+      "mod": "Thaumaturgie - Refonte de l'enchantement",
+      "file": "Thaumaturgy.esp.json",
+      "total": 5,
+      "samples": "\b\u0007 [GMST DATA], ` [GMST DATA], ¸ [GMST DATA]"
+    },
+    {
+      "mod": "The Gray Cowl of Nocturnal - Addons and Patches - French",
+      "file": "Gray Cowl - WACCF Patch.esp.json",
+      "total": 2,
+      "samples": "Yokuda [ARMO FULL], Yokuda [ARMO FULL]"
+    },
+    {
+      "mod": "Wade In Water - Redone",
+      "file": "wadeinwaterredone.esp.json",
+      "total": 1,
+      "samples": "wSlow [MGEF FULL]"
+    },
+    {
+      "mod": "Welcome Back to the Bee and Barb - French",
+      "file": "WelcomeToTheBnB.esp.json",
+      "total": 1,
+      "samples": "DialogueRiftenGoodbyes [DIAL FULL]"
+    },
+    {
+      "mod": "Yol'Kreh, la faux infernale",
+      "file": "Yol'Kreh Scythes.esp.json",
+      "total": 1,
+      "samples": "Yol'Kreh [WEAP FULL]"
+    },
+    {
+      "mod": "YOT - Carved Brink.esp - French",
+      "file": "yot - carved brink.esp.json",
+      "total": 2,
+      "samples": "Abra [MESG ITXT], Cadabra [MESG ITXT]"
+    },
+    {
+      "mod": "YOT - Vos propres pensées",
+      "file": "YOT - Growl.esp.json",
+      "total": 1,
+      "samples": "Vargr [MGEF FULL]"
+    },
+    {
+      "mod": "YOT - Vos propres pensées",
+      "file": "YOT - Project AHO.esp.json",
+      "total": 9,
+      "samples": "I [MESG ITXT], V [MESG ITXT], VIII [MESG ITXT]"
+    },
+    {
+      "mod": "YOT - Vos propres pensées",
+      "file": "YOT - Sacrosanct.esp.json",
+      "total": 7,
+      "samples": "Possession [MGEF FULL], Wassail [MGEF FULL], Wassail [MGEF FULL]"
+    },
+    {
+      "mod": "YOT - Vos propres pensées",
+      "file": "YOT - Thunderchild.esp.json",
+      "total": 1,
+      "samples": "Anomalies [MGEF FULL]"
+    },
+    {
+      "mod": "YOT - Vos propres pensées",
+      "file": "YOT - Vigilant.esp.json",
+      "total": 1,
+      "samples": "Karma [MESG ITXT]"
+    },
+    {
+      "mod": "YOT - Vos propres pensées",
+      "file": "YOT - Your Own Thoughts.esp.json",
+      "total": 2,
+      "samples": "Destination [GMST DATA], OghmaInfinium [MESG FULL]"
+    }
+  ],
+  "DEV_INTERNAL": [
+    {
+      "mod": "AkaviriFollower.esp - French",
+      "file": "akavirifollower.esp.json",
+      "total": 100,
+      "samples": "Nagamaki [WEAP FULL], Seiko [ARMO FULL], Nodachi [WEAP FULL]"
+    },
+    {
+      "mod": "Bluthund - A Longsword",
+      "file": "bluthundsword.esp.json",
+      "total": 3,
+      "samples": "Bluthund [WEAP FULL], Sojourner [WEAP FULL], Timmy [NPC_ SHRT]"
+    },
+    {
+      "mod": "Extraction de fossiles",
+      "file": "Fossilsyum.esp.json",
+      "total": 3,
+      "samples": "Darnette Lauven [NPC_ FULL], Darnette [NPC_ SHRT], Mhmm. [INFO NAM1]"
+    },
+    {
+      "mod": "Immortel",
+      "file": "Undeath.esp.json",
+      "total": 21,
+      "samples": "<img src='img://Textures/Interface/Books/NecroBookRitual/tomeofunlife01.png' height='451' width='256'>\r\n<img src='img://Textures/Interface/Books/NecroBookRitual/tomeofunlife02.png' height='451' width='256'> [BOOK DESC], Gundar [NPC_ FULL], Torvalen [NPC_ FULL]"
+    },
+    {
+      "mod": "ISD_RavensBeak.esp - French",
+      "file": "isd_ravensbeak.esp.json",
+      "total": 4,
+      "samples": "EggShellTest [MISC FULL], TurnUndeadMassExplosion [EXPL FULL], TurnUndeadMassExplosion [EXPL FULL]"
+    },
+    {
+      "mod": "Magic of Vile Darkness - NPCS - French version",
+      "file": "Magic of Vile Darkness - NPCS.esp.json",
+      "total": 2,
+      "samples": "Mutant [RACE FULL], Nax Test Cell [CELL FULL]"
+    },
+    {
+      "mod": "Magie de hiérophante",
+      "file": "Ghostlight.esl.json",
+      "total": 7,
+      "samples": "Absolution [MGEF FULL], Absolution [MGEF FULL], Inhibition [MGEF FULL]"
+    },
+    {
+      "mod": "Refuge du Sicaire",
+      "file": "Eli_Sicarius' Refuge.esp.json",
+      "total": 7,
+      "samples": "Norok [NPC_ FULL], Norok [NPC_ SHRT], Koor [INFO NAM1]"
+    },
+    {
+      "mod": "Sunthgat",
+      "file": "Sunthgat.esp.json",
+      "total": 5,
+      "samples": "Aberlin [NPC_ SHRT], Wendela [NPC_ FULL], Larunon [NPC_ FULL]"
+    },
+    {
+      "mod": "The Great Village of Kynesgrove FR",
+      "file": "The Great Village of Kynesgrove.esp.json",
+      "total": 5,
+      "samples": "Frigg [NPC_ FULL], Folke [NPC_ FULL], Brand [NPC_ FULL]"
+    },
+    {
+      "mod": "VokriinatorBlack - combatforcaco.esp - French",
+      "file": "vokriinatorblack - combatforcaco.esp.json",
+      "total": 2,
+      "samples": "Buff Monitor [SPEL FULL], Avalanche [PERK FULL]"
+    }
+  ]
+}

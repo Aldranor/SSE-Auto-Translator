@@ -1,0 +1,296 @@
+=== Entry 0 [CONT FULL] FormID: 0500ADB3|Sunthgat.esp EDID: MerchantSunthgatCleverMansCauldronChest Status: TranslationComplete ===
+ORIG: Chest
+TRAD: Coffre
+
+=== Entry 1 [MISC FULL] FormID: 050293E3|Sunthgat.esp EDID: SGTQuest02Crate Status: TranslationComplete ===
+ORIG: Suspicious Crate
+TRAD: Caisse douteuse
+
+=== Entry 2 [WEAP FULL] FormID: 05029401|Sunthgat.esp EDID: SGTQuest03Greatsword Status: TranslationComplete ===
+ORIG: Greatsword of Sister Hawk
+TRAD: Espadon de la Soeur du Faucon
+
+=== Entry 3 [NPC_ FULL] FormID: 05000986|Sunthgat.esp EDID: Gamrik Status: TranslationComplete ===
+ORIG: Gamrik
+TRAD: Gamrik
+
+=== Entry 4 [NPC_ FULL] FormID: 0500ADB6|Sunthgat.esp EDID: Aberlin Status: TranslationComplete ===
+ORIG: Aberlin Fox-Hide
+TRAD: Aberlin Peau-de-Renard
+
+=== Entry 5 [NPC_ SHRT] FormID: 0500ADB6|Sunthgat.esp EDID: Aberlin Status: TranslationComplete ===
+ORIG: Aberlin
+TRAD: Aberlin
+
+=== Entry 6 [NPC_ FULL] FormID: 0500098A|Sunthgat.esp EDID: HirelingBandit Status: TranslationComplete ===
+ORIG: Gamrath
+TRAD: Gamrath
+
+=== Entry 7 [NPC_ FULL] FormID: 050008E6|Sunthgat.esp EDID: Helrun Status: TranslationComplete ===
+ORIG: Helrun
+TRAD: Helrun
+
+=== Entry 8 [NPC_ FULL] FormID: 0500ADBA|Sunthgat.esp EDID: Wendela Status: TranslationComplete ===
+ORIG: Wendela
+TRAD: Wendela
+
+=== Entry 9 [NPC_ FULL] FormID: 050293F5|Sunthgat.esp EDID: Larunon Status: TranslationComplete ===
+ORIG: Larunon
+TRAD: Larunon
+
+=== Entry 10 [KEYM FULL] FormID: 05000991|Sunthgat.esp EDID: SunthgatHelrunsHouseKey Status: TranslationComplete ===
+ORIG: Key to Helrun's House
+TRAD: Clé de la maison d'Helrun
+
+=== Entry 11 [KEYM FULL] FormID: 05005BA2|Sunthgat.esp EDID: SunthgatHallOfTheDeadKey Status: TranslationComplete ===
+ORIG: Hall of the Dead Key
+TRAD: Clé de la nécropole de Sunthgat
+
+=== Entry 12 [KEYM FULL] FormID: 0500AD45|Sunthgat.esp EDID: SunthgatCleverMansCauldronKey Status: TranslationComplete ===
+ORIG: Clever Man's Cauldron Key
+TRAD: Clé du Chaudron futé
+
+=== Entry 13 [CELL FULL] FormID: 05005B40|Sunthgat.esp EDID: SunthgatCleverMansCauldron Status: TranslationComplete ===
+ORIG: Clever Man's Cauldron
+TRAD: Le Chaudron futé
+
+=== Entry 14 [CELL FULL] FormID: 05005B41|Sunthgat.esp EDID: SunthgatHallOfTheDead Status: TranslationComplete ===
+ORIG: Hall of the Dead
+TRAD: Nécropole de Sunthgat
+
+=== Entry 15 [CELL FULL] FormID: 050008F9|Sunthgat.esp EDID: SunthgatHangedManInn Status: TranslationComplete ===
+ORIG: Hanged Man Inn
+TRAD: Auberge du Pendu
+
+=== Entry 16 [CELL FULL] FormID: 0500088C|Sunthgat.esp EDID: SunthgatHelrunsHouse Status: TranslationComplete ===
+ORIG: Helrun's House
+TRAD: Maison d'Helrun
+
+=== Entry 17 [WRLD FULL] FormID: 0000003C|Skyrim.esm EDID: Tamriel Status: TranslationComplete ===
+ORIG: Skyrim
+TRAD: Bordeciel
+
+=== Entry 18 [REFR FULL] FormID: 0500085E|Sunthgat.esp EDID: SunthgatMapMarker Status: TranslationComplete ===
+ORIG: Sunthgat
+TRAD: Sunthgat
+
+=== Entry 19 [DIAL FULL] FormID: 05014FDA|Sunthgat.esp EDID: SGTQuest01Branch01Topic01 Status: TranslationComplete ===
+ORIG: I have mammoth tusks to sell.
+TRAD: J'ai des défenses de mammouth à vendre.
+
+=== Entry 20 [INFO NAM1] FormID: 05014FDB|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: My partners will be pleased.
+TRAD: Mes partenaires seront ravis !
+
+=== Entry 21 [INFO NAM1] FormID: 05014FDB|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Here is your share.
+TRAD: Voici votre part.
+
+=== Entry 22 [DIAL FULL] FormID: 050293E0|Sunthgat.esp EDID: SGTQuest01Branch02Topic01 Status: TranslationComplete ===
+ORIG: I have some skooma to sell.
+TRAD: J'ai du skooma à vendre.
+
+=== Entry 23 [INFO NAM1] FormID: 050293E1|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: My partners will be pleased.
+TRAD: Mes partenaires seront ravis !
+
+=== Entry 24 [INFO NAM1] FormID: 050293E1|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Here is your share.
+TRAD: Voici votre part.
+
+=== Entry 25 [DIAL FULL] FormID: 050293E5|Sunthgat.esp EDID: SGTQuest02Branch01Topic01 Status: TranslationComplete ===
+ORIG: How's business up here?
+TRAD: Comment vont les affaires ?
+
+=== Entry 26 [INFO NAM1] FormID: 050293EE|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Not many patrons, but there are other sources of income.
+TRAD: Peu de clients, mais on trouve d'autres sources de revenus.
+
+=== Entry 27 [INFO NAM1] FormID: 050293EE|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Interested in recovering some stolen goods?
+TRAD: Récupérer des biens volés, ça vous intéresse ?
+
+=== Entry 28 [DIAL FULL] FormID: 050293E6|Sunthgat.esp EDID: SGTQuest02Branch01Topic02 Status: TranslationComplete ===
+ORIG: What do you need?
+TRAD: Que voulez-vous ?
+
+=== Entry 29 [INFO NAM1] FormID: 050293EF|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: A former associate of mine thought it would be a good idea to disappear with a crate that belongs to me.
+TRAD: Un de mes anciens associés a pensé que ce serait une bonne idée de disparaître avec une caisse qui m'appartient.
+
+=== Entry 30 [INFO NAM1] FormID: 050293EF|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: I want that crate back. I'll show you where to find it.
+TRAD: Je veux récupérer cette caisse. Je vais vous montrer où la trouver.
+
+=== Entry 31 [DIAL FULL] FormID: 050293E7|Sunthgat.esp EDID: SGTQuest02Branch01Topic03 Status: TranslationComplete ===
+ORIG: Not my line of work.
+TRAD: Ce n'est pas mon affaire.
+
+=== Entry 32 [INFO NAM1] FormID: 050293F0|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Is there anything else you need?
+TRAD: Avez-vous besoin d'autre chose ?
+
+=== Entry 33 [DIAL FULL] FormID: 050293E9|Sunthgat.esp EDID: SGTQuest02Branch02Topic01 Status: TranslationComplete ===
+ORIG: About that retrieval job.
+TRAD: À propos de cette affaire de bien volés...
+
+=== Entry 34 [INFO NAM1] FormID: 050293F1|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Ready to get going?
+TRAD: On se met en route ?
+
+=== Entry 35 [DIAL FULL] FormID: 050293EB|Sunthgat.esp EDID: SGTQuest02Branch03Topic01 Status: TranslationComplete ===
+ORIG: I got your crate.
+TRAD: J'ai récupéré votre caisse.
+
+=== Entry 36 [INFO NAM1] FormID: 050293F2|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Here, take this.
+TRAD: Tenez, c'est pour vous.
+
+=== Entry 37 [INFO NAM1] FormID: 050293F2|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: If you get your hands on any mammoth tusks or skooma, I'm your man.
+TRAD: Si vous mettez la main sur des défenses de mammouth ou du skooma, je suis votre homme.
+
+=== Entry 38 [DIAL FULL] FormID: 050293ED|Sunthgat.esp EDID: SGTQuest02Branch04Topic01 Status: TranslationComplete ===
+ORIG: The innkeeper from Sunthgat tasked me with the retrieval of this crate.
+TRAD: L'aubergiste de Sunthgat m'a demandé de récupérer cette caisse.
+
+=== Entry 39 [INFO NAM1] FormID: 050293F3|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: You better forget about this.
+TRAD: Vous feriez mieux d'oublier ça.
+
+=== Entry 40 [INFO NAM1] FormID: 050293F3|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Take this coin and I will take care of the rest.
+TRAD: Prenez cette pièce et je m'occuperai du reste.
+
+=== Entry 41 [DIAL FULL] FormID: 050293F7|Sunthgat.esp EDID: SGTQuest03Branch01Topic01 Status: TranslationComplete ===
+ORIG: A war axe, huh? Have you always been a priest? 
+TRAD: Une hache de guerre ? Avez-vous toujours été prêtre ? 
+
+=== Entry 42 [INFO NAM1] FormID: 050293FE|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: I used to be part of a mercenary group. Not your average bandit rabble. We fought with honor. The Band of Kyne they called us.
+TRAD: Avant, je faisais partie d'un groupe de mercenaires. Mais nous n'étions pas de vulgaires bandits ! Nous nous battions avec honneur. On nous appelait la bande de Kyne.
+
+=== Entry 43 [INFO NAM1] FormID: 050293FE|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: But it has been almost three decades since then. We were betrayed by one of our own. Larunon, an elven mage. Not surprising.
+TRAD: Mais c'était il y a presque trois décennies. Nous avons été trahis par l'un des nôtres. Larunon, un mage elfique. Pas étonnant...
+
+=== Entry 44 [INFO NAM1] FormID: 050293FE|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Everyone was dead. Except for that bastard and me. Continued to work as a mercenary for a while. But someday I couldn't do it anymore.
+TRAD: Tout le monde était mort. Sauf ce félon et moi. Nous avons continué à travailler comme mercenaires pendant un certain temps. Mais un jour, je me suis rendue compte que je ne pouvais plus le faire.
+
+=== Entry 45 [INFO NAM1] FormID: 050293FE|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Met an old priest up here and chose to assist him. He passed away of old age and I carried on his work.
+TRAD: J'ai rencontré un vieux prêtre dans ce village et j'ai choisi de l'aider. Puis il est décédé, et j'ai continué son travail.
+
+=== Entry 46 [DIAL FULL] FormID: 050293F8|Sunthgat.esp EDID: SGTQuest03Branch01Topic02 Status: TranslationComplete ===
+ORIG: What is with Larunon. You don't want to avenge your dead friends?
+TRAD: Que se passe-t-il avec Larunon ? Vous ne voulez pas venger vos camarades ?
+
+=== Entry 47 [INFO NAM1] FormID: 050293FF|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: I tried to track him down every now and then, before I settled down here. But he was always gone when i thought I got him.
+TRAD: J'ai quelquefois essayé de retrouver sa trace avant de m'installer ici. Mais à chaque fois que je pensais avoir remis la main sur lui, il avait déjà filé.
+
+=== Entry 48 [INFO NAM1] FormID: 050293FF|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: Last I heard he joined some coven. But I just don't want to fuel this hatred anymore...
+TRAD: Aux dernières nouvelles, il a rejoint un cercle de mages. Mais je ne veux plus alimenter ma haine envers lui...
+
+=== Entry 49 [DIAL FULL] FormID: 050293FD|Sunthgat.esp EDID: SGTQuest03Branch03Topic01 Status: TranslationComplete ===
+ORIG: Larunon is dead.
+TRAD: Larunon est mort.
+
+=== Entry 50 [INFO NAM1] FormID: 05029400|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: I don't know how to feel about this. He was the only other one who could remember our golden days.
+TRAD: Je ne sais pas trop qu'en penser. Il était le seul à pouvoir se souvenir de nos beaux jours.
+
+=== Entry 51 [INFO NAM1] FormID: 05029400|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: But I guess all things have to come to an end. Take this sword. It belonged to our leader. Please remember me and also the Band of Kyne.
+TRAD: Mais je suppose que toutes les bonnes choses ont une fin. Prenez cette épée. Elle appartenait à notre chef. Je vous en prie, souvenez-vous de moi et de la bande de Kyne.
+
+=== Entry 52 [DIAL FULL] FormID: 05029404|Sunthgat.esp EDID: SGTQuest04Branch01Topic01 Status: TranslationComplete ===
+ORIG: Do you need any help?
+TRAD: Vous avez besoin d'aide ?
+
+=== Entry 53 [INFO NAM1] FormID: 05029407|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: How nice of you to ask. You look like you could indeed help me.
+TRAD: C'est gentil à vous de me le demander. Vous semblez pouvoir m'aider !
+
+=== Entry 54 [INFO NAM1] FormID: 05029407|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: I'm looking for a rare spell tome. It contains the knowledge of a rune that triggers an unbridled rage.
+TRAD: Je cherche un rarissime livre de sort. Grâce à cet artéfact, il est possible de libérer une rune qui déclenche une rage effrénée !
+
+=== Entry 55 [INFO NAM1] FormID: 05029407|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: There is a rumor that one copy is hidden in Shriekwind Bastion to the south.
+TRAD: Une rumeur affirme qu'une copie est cachée dans le bastion de Hurlevent, au sud d'ici.
+
+=== Entry 56 [INFO NAM1] FormID: 05029407|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: But beware, if you intend to recover it. The place is overrun by vampires.
+TRAD: Mais prenez garde si vous avez l'intention de le récupérer. L'endroit grouille de vampires.
+
+=== Entry 57 [DIAL FULL] FormID: 05029406|Sunthgat.esp EDID: SGTQuest04Branch02Topic01 Status: TranslationComplete ===
+ORIG: I got your spell tome.
+TRAD: J'ai votre livre de sort.
+
+=== Entry 58 [INFO NAM1] FormID: 05029408|Sunthgat.esp EDID: None Status: TranslationComplete ===
+ORIG: So it really existed? That's good to know. Please keep the book and also take this potion as your reward.
+TRAD: Donc, il existe vraiment ? C'est bon à savoir ! Gardez le livre et prenez cette potion comme récompense.
+
+=== Entry 59 [QUST FULL] FormID: 0500FED6|Sunthgat.esp EDID: SGTQuest02 Status: TranslationComplete ===
+ORIG: Expected Betrayal
+TRAD: Trahison escomptée
+
+=== Entry 60 [QUST NNAM] FormID: 0500FED6|Sunthgat.esp EDID: SGTQuest02 Status: TranslationComplete ===
+ORIG: Get the crate from <Alias=BanditCamp>
+TRAD: Trouvez la caisse à cet endroit : <Alias=BanditCamp>
+
+=== Entry 61 [QUST NNAM] FormID: 0500FED6|Sunthgat.esp EDID: SGTQuest02 Status: TranslationComplete ===
+ORIG: Return the crate to Gamrik or a Falkreath Guard
+TRAD: Rapportez la caisse à Gamrik ou à un garde d'Épervine
+
+=== Entry 62 [QUST FULL] FormID: 0500FED3|Sunthgat.esp EDID: SGTQuest01 Status: TranslationComplete ===
+ORIG: Mammoth Tusk and Skooma
+TRAD: Des défenses de mammouth et du skooma
+
+=== Entry 63 [QUST FULL] FormID: 0500FED5|Sunthgat.esp EDID: SGTQuest04 Status: TranslationComplete ===
+ORIG: The Clever Craft
+TRAD: Art savant
+
+=== Entry 64 [QUST NNAM] FormID: 0500FED5|Sunthgat.esp EDID: SGTQuest04 Status: TranslationComplete ===
+ORIG: Get the spell tome from Shriekwind Bastion
+TRAD: Trouvez le livre de sort au Bastion de Hurlevent
+
+=== Entry 65 [QUST NNAM] FormID: 0500FED5|Sunthgat.esp EDID: SGTQuest04 Status: TranslationComplete ===
+ORIG: Deliver the spell tome to Aberlin
+TRAD: Rapportez le livre de sort à Aberlin
+
+=== Entry 66 [QUST FULL] FormID: 0500FED4|Sunthgat.esp EDID: SGTQuest03 Status: TranslationComplete ===
+ORIG: Golden Days
+TRAD: Jours dorés
+
+=== Entry 67 [QUST NNAM] FormID: 0500FED4|Sunthgat.esp EDID: SGTQuest03 Status: TranslationComplete ===
+ORIG: Try to find Larunon at <Alias=WarlockLair>
+TRAD: Trouvez Larunon à l'endroit suivant : <Alias=WarlockLair>
+
+=== Entry 68 [QUST NNAM] FormID: 0500FED4|Sunthgat.esp EDID: SGTQuest03 Status: TranslationComplete ===
+ORIG: Return to Wendela
+TRAD: Retournez voir Wendela
+
+=== Entry 69 [LCTN FULL] FormID: 050008FA|Sunthgat.esp EDID: SunthgatHelgrunsHouseLocation Status: TranslationComplete ===
+ORIG: Helgrun's House
+TRAD: Maison d'Helrun
+
+=== Entry 70 [LCTN FULL] FormID: 05005B3F|Sunthgat.esp EDID: SunthgatHallOfTheDeadLocation Status: TranslationComplete ===
+ORIG: Hall of the Dead
+TRAD: Nécropole de Sunthgat
+
+=== Entry 71 [LCTN FULL] FormID: 050008FB|Sunthgat.esp EDID: SunthgatHangedManInnLocation Status: TranslationComplete ===
+ORIG: Hanged Man Inn
+TRAD: Auberge du Pendu
+
+=== Entry 72 [LCTN FULL] FormID: 05005B3E|Sunthgat.esp EDID: SunthgatCleverMansCauldronLocation Status: TranslationComplete ===
+ORIG: Clever Man's Cauldron
+TRAD: Le Chaudron futé
+
+=== Entry 73 [LCTN FULL] FormID: 05000874|Sunthgat.esp EDID: SunthgatLocation Status: TranslationComplete ===
+ORIG: Sunthgat
+TRAD: Sunthgat
+
