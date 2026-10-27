@@ -1,7 +1,7 @@
 [
   {
     "original": "Spell Tome: Tsun's Cloak",
-    "string": "Livre de sort - Manteau de Tsun",
+    "string": "Livre de sort - Cape de Tsun",
     "status": "TranslationComplete",
     "form_id": "0500082A|TsunDalBoss.esp",
     "type": "BOOK FULL",
@@ -28,7 +28,7 @@
   },
   {
     "original": "For <dur> seconds, opponents in melee range take <8> points Holy damage and Stamina damage per second.",
-    "string": "Pendant <dur> secondes, les adversaires à portée de mêlée subissent <8> points de dégâts sacrés et de dégâts de vigueur par seconde.",
+    "string": "Pendant <dur> secondes, les adversaires à portée de mêlée subissent chaque seconde <8> points de dégâts sacrés et perdent autant de vigueur.",
     "status": "TranslationComplete",
     "form_id": "0500080A|TsunDalBoss.esp",
     "type": "MGEF DNAM",
@@ -55,7 +55,7 @@
   },
   {
     "original": "Shout defies steel, as you rip the weapon from an opponent's grasp.",
-    "string": "Votre cri défie l’acier et arrache l’arme des mains de votre adversaire.",
+    "string": "Votre cri défie l’acier tandis que vous arrachez l’arme des mains de votre adversaire.",
     "status": "TranslationComplete",
     "form_id": "05000892|TsunDalBoss.esp",
     "type": "SHOU DESC",
@@ -64,7 +64,7 @@
   },
   {
     "original": "A blast of cold that does <mag> points of damage per second to Health and Stamina.",
-    "string": "Un souffle glacé qui inflige <mag> points de dégâts à la santé et à la vigueur par seconde.",
+    "string": "Une vague de froid inflige <mag> points de dégâts à la santé et à la vigueur chaque seconde.",
     "status": "TranslationComplete",
     "form_id": "05000810|TsunDalBoss.esp",
     "type": "MGEF DNAM",
@@ -73,7 +73,7 @@
   },
   {
     "original": "Frost Cloak",
-    "string": "Cape de givre",
+    "string": "Aura glaciale",
     "status": "TranslationComplete",
     "form_id": "0500080A|TsunDalBoss.esp",
     "type": "MGEF FULL",
@@ -109,7 +109,7 @@
   },
   {
     "original": "Summons Tsun from Sovngarde for <dur> seconds wherever the caster is pointing.",
-    "string": "Invoque Tsun depuis Sovngarde pendant <dur> secondes à l’endroit visé par le lanceur de sorts.",
+    "string": "Invoque Tsun depuis Sovngarde pendant <dur> secondes à l’endroit visé.",
     "status": "TranslationComplete",
     "form_id": "05000811|TsunDalBoss.esp",
     "type": "MGEF DNAM",
@@ -145,7 +145,7 @@
   },
   {
     "original": "While blocking, creates a ward that protects against spells for up to <mag> points.",
-    "string": "Pendant les parades, crée une protection contre des sorts pouvant atteindre jusqu'à <mag> points.",
+    "string": "En bloquant, vous créez une barrière magique qui absorbe jusqu’à <mag> points de dégâts des sorts.",
     "status": "TranslationComplete",
     "form_id": "05000809|TsunDalBoss.esp",
     "type": "MGEF DNAM",
@@ -154,7 +154,7 @@
   },
   {
     "original": "Citizens of Skyrim, they are a tall and fair-haired people.  Strong and hardy, Nords are famous for their resistance to cold and their talent as warriors. They can use a Battlecry to make opponents flee.",
-    "string": "Habitants de Bordeciel, ils sont grands et ont les cheveux blonds. Aussi forts qu'intrépides, les Nordiques sont célèbres pour leur résistance au froid et leur amour inné du combat. Ils peuvent se servir du Cri de guerre pour faire fuir leurs adversaires.",
+    "string": "Peuple de Bordeciel, les Nordiques sont grands et blonds. Robustes et endurants, ils sont réputés pour leur résistance au froid et leur talent au combat. Leur Cri de guerre peut faire fuir leurs adversaires.",
     "status": "TranslationComplete",
     "form_id": "05000807|TsunDalBoss.esp",
     "type": "RACE DESC",
@@ -235,7 +235,7 @@
   },
   {
     "original": "Hall of Valor",
-    "string": "Panthéon des Braves",
+    "string": "Panthéon des braves",
     "status": "TranslationComplete",
     "form_id": "00095C44|Skyrim.esm",
     "type": "CELL FULL",
@@ -253,7 +253,7 @@
   },
   {
     "original": "Target takes <mag> points of frost damage to Health and Stamina.",
-    "string": "La santé et la vigueur de la cible subissent <mag> points de dégâts de glace.",
+    "string": "La cible subit <mag> points de dégâts de glace qui affectent sa santé et sa vigueur.",
     "status": "TranslationComplete",
     "form_id": "0500080F|TsunDalBoss.esp",
     "type": "MGEF DNAM",
@@ -289,7 +289,7 @@
   },
   {
     "original": "Your breath is winter, you Thu'um a blizzard.",
-    "string": "Ton souffle est l’hiver, ton Thu’um est une tempête de neige.",
+    "string": "Votre souffle est de glace, votre Thu'um un blizzard.",
     "status": "TranslationComplete",
     "form_id": "05000891|TsunDalBoss.esp",
     "type": "SHOU DESC",
@@ -343,7 +343,7 @@
   },
   {
     "original": "Summons Tsun's Companion Mathain from Sovngarde for <dur> seconds wherever the caster is pointing.",
-    "string": "Invoque Mathain, le compagnon de Tsun, depuis Sovngarde pendant <dur> secondes à l’endroit visé par le lanceur de sorts.",
+    "string": "Invoque le compagnon de Tsun, Mathain, depuis Sovngarde pendant <dur> secondes à l’endroit visé.",
     "status": "TranslationComplete",
     "form_id": "0500080C|TsunDalBoss.esp",
     "type": "MGEF DNAM",
@@ -370,7 +370,7 @@
   },
   {
     "original": "Summons Tsun from Sovngarde for <dur> seconds wherever the caster is pointing.",
-    "string": "Invoque Tsun depuis Sovngarde pendant <dur> secondes à l’endroit visé par le lanceur de sorts.",
+    "string": "Invoque Tsun depuis Sovngarde pendant <dur> secondes à l’endroit visé.",
     "status": "TranslationComplete",
     "form_id": "0500080E|TsunDalBoss.esp",
     "type": "MGEF DNAM",
@@ -424,7 +424,7 @@
   },
   {
     "original": "Heals everyone close to the caster <mag> points.",
-    "string": "Rend <mag> points de santé à toutes les personnes proches du lanceur de sorts.",
+    "string": "Soigne de <mag> points de santé tous ceux qui se trouvent à proximité du lanceur de sorts.",
     "status": "TranslationComplete",
     "form_id": "0500080B|TsunDalBoss.esp",
     "type": "MGEF DNAM",
@@ -568,7 +568,7 @@
   },
   {
     "original": "BearSlam",
-    "string": "Charge d’ours",
+    "string": "Coup écrasant de l’ours",
     "status": "TranslationComplete",
     "form_id": "05000820|TsunDalBoss.esp",
     "type": "SPEL FULL",
@@ -586,7 +586,7 @@
   },
   {
     "original": "TsunCloakShout",
-    "string": "Manteau de Tsun",
+    "string": "Cape de Tsun",
     "status": "TranslationComplete",
     "form_id": "05000891|TsunDalBoss.esp",
     "type": "SHOU FULL",
