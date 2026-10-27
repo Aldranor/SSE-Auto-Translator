@@ -8,6 +8,7 @@ from core.config.translator_config import TranslatorConfig
 
 from .apis import TranslatorApi
 from .deepl import DeepLTranslator
+from .gemini import GeminiTranslator
 from .google import GoogleTranslator
 from .translator import Translator
 
@@ -39,6 +40,7 @@ class TranslatorService(Singleton):
         translators: dict[TranslatorApi, type[Translator]] = {
             TranslatorApi.Google: GoogleTranslator,
             TranslatorApi.DeepL: DeepLTranslator,
+            TranslatorApi.Gemini: GeminiTranslator,
         }
 
         translator_cls: type[Translator] = translators[
@@ -46,3 +48,8 @@ class TranslatorService(Singleton):
         ]
 
         return translator_cls(self.__translator_config)
+
+    def get_gemini_translator(self) -> GeminiTranslator:
+        """Returns a Gemini translator regardless of the selected default API."""
+
+        return GeminiTranslator(self.__translator_config)

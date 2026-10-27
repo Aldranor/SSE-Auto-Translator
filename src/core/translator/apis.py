@@ -13,3 +13,6 @@ class TranslatorApi(Enum):
 
     DeepL = "DeepL"
     """DeepL translator API (requires API key)."""
+
+    Gemini = "Gemini"
+    """Google Gemini API (requires a Gemini API key)."""

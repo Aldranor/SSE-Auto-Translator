@@ -8,7 +8,7 @@ from cutleast_core_lib.ui.theme.manager import ThemeManager
 from cutleast_core_lib.ui.utilities.state_manager import WidgetStateManager
 from cutleast_core_lib.ui.widgets.divider import Divider
 from cutleast_core_lib.ui.widgets.line_number_text_edit import LineNumberTextEdit
-from PySide6.QtCore import Qt, Signal
+from PySide6.QtCore import Qt, QThread, Signal
 from PySide6.QtGui import QCloseEvent, QKeySequence, QShortcut
 from PySide6.QtWidgets import (
     QApplication,
@@ -26,15 +26,44 @@ from core.config.app_config import AppConfig
 from core.config.user_config import UserConfig
 from core.string.string_status import StringStatus
 from core.string.types import String
+from core.translator.gemini import GeminiTranslator
 from core.translator.service import TranslatorService
 from core.translator.translator import Translator
 from core.user_data.user_data_service import UserDataService
+from core.utilities.game_language import GameLanguage
 from ui.utilities.icon_provider import IconProvider
 from ui.widgets.shortcut_button import ShortcutButton
 from ui.widgets.spell_check.spell_check_edit import SpellCheckEdit
 
 if TYPE_CHECKING:
     from .editor_tab import EditorTab
+
+
+class GeminiTranslationWorker(QThread):
+    """Runs a single-string Gemini translation request away from the UI thread."""
+
+    translation_ready = Signal(str)
+    request_failed = Signal(str)
+
+    def __init__(
+        self, translator: GeminiTranslator, text: str, language: GameLanguage
+    ) -> None:
+        """Stores the Gemini request parameters for the worker thread."""
+
+        super().__init__()
+        self.__translator = translator
+        self.__text = text
+        self.__language = language
+
+    def run(self) -> None:
+        """Requests a translation and emits the result or error."""
+
+        try:
+            translation = self.__translator.translate(self.__text, self.__language)
+        except Exception as ex:  # noqa: BLE001
+            self.request_failed.emit(str(ex))
+        else:
+            self.translation_ready.emit(translation)
 
 
 class TranslatorDialog(QWidget):
@@ -48,7 +77,7 @@ class TranslatorDialog(QWidget):
     update_signal = Signal()
     """Signal emitted when the current string is saved."""
 
-    __parent: "EditorTab"
+    __parent: EditorTab
 
     __app_config: AppConfig
     __user_config: UserConfig
@@ -63,10 +92,12 @@ class TranslatorDialog(QWidget):
 
     __original_entry: QPlainTextEdit
     __translated_entry: QPlainTextEdit | SpellCheckEdit
+    __translate_button: ShortcutButton
+    __gemini_worker: Optional[GeminiTranslationWorker]
 
     def __init__(
         self,
-        parent: "EditorTab",
+        parent: EditorTab,
         initial_string: String,
         app_config: AppConfig,
         user_config: UserConfig,
@@ -89,6 +120,7 @@ class TranslatorDialog(QWidget):
 
         self.__changes_pending = False
         self.__prev_text = None
+        self.__gemini_worker = None
 
         self.changes_signal.connect(self.__on_change)
 
@@ -225,13 +257,18 @@ class TranslatorDialog(QWidget):
         hlayout = QHBoxLayout()
         vlayout.addLayout(hlayout)
 
-        translate_button = ShortcutButton(self.tr("Translate with API"))
+        self.__translate_button = ShortcutButton(self.tr("Translate with API"))
         IconProvider.bind_qta_icon(
-            translate_button, translate_button.setIcon, "mdi6.translate"
+            self.__translate_button, self.__translate_button.setIcon, "mdi6.translate"
         )
-        translate_button.clicked.connect(self.__translate_with_api)
-        translate_button.setShortcut(QKeySequence("Ctrl+F5"))
-        hlayout.addWidget(translate_button)
+        self.__translate_button.clicked.connect(self.__translate_with_api)
+        self.__translate_button.setShortcut(QKeySequence("Ctrl+F5"))
+        hlayout.addWidget(self.__translate_button)
+
+        chat_button = ShortcutButton(self.tr("Chat with Gemini"))
+        IconProvider.bind_qta_icon(chat_button, chat_button.setIcon, "mdi6.chat")
+        chat_button.clicked.connect(self.__open_gemini_chat)
+        hlayout.addWidget(chat_button)
 
         reset_button = ShortcutButton(self.tr("Reset string"))
         IconProvider.bind_qta_icon(reset_button, reset_button.setIcon, "mdi6.undo")
@@ -294,17 +331,75 @@ class TranslatorDialog(QWidget):
         Translates string with API.
         """
 
-        translator: Translator = self.__translator_service.get_translator()
+        try:
+            translator: Translator = self.__translator_service.get_translator()
+        except RuntimeError as ex:
+            QMessageBox.warning(self, self.tr("Translator is not configured"), str(ex))
+            return
+
+        if isinstance(translator, GeminiTranslator):
+            self.__translate_button.setEnabled(False)
+            self.__translated_entry.setEnabled(False)
+            worker = GeminiTranslationWorker(
+                translator,
+                self.__current_string.original,
+                self.__user_config.language,
+            )
+            self.__gemini_worker = worker
+            worker.translation_ready.connect(self.__on_gemini_translation_ready)
+            worker.request_failed.connect(self.__on_gemini_translation_error)
+            worker.finished.connect(self.__on_gemini_worker_finished)
+            worker.start()
+            return
+
         translated: str = translator.translate(
             self.__current_string.original, self.__user_config.language
         )
 
         self.__translated_entry.setPlainText(translated)
 
+    def __on_gemini_translation_ready(self, translated: str) -> None:
+        self.__translated_entry.setPlainText(translated)
+
+    def __on_gemini_translation_error(self, message: str) -> None:
+        QMessageBox.warning(self, self.tr("Gemini error"), message)
+
+    def __on_gemini_worker_finished(self) -> None:
+        self.__translate_button.setEnabled(True)
+        self.__translated_entry.setEnabled(True)
+        if self.__gemini_worker is not None:
+            self.__gemini_worker.deleteLater()
+            self.__gemini_worker = None
+
+    def __open_gemini_chat(self) -> None:
+        if self.__gemini_worker is not None and self.__gemini_worker.isRunning():
+            return
+        from .gemini_chat_dialog import GeminiChatDialog
+
+        try:
+            translator = self.__translator_service.get_gemini_translator()
+        except RuntimeError as ex:
+            QMessageBox.warning(self, self.tr("Gemini is not configured"), str(ex))
+            return
+
+        chat_dialog = GeminiChatDialog(
+            parent=self,
+            translator=translator,
+            original=self.__current_string.original,
+            current_translation=self.__current_string.string or "",
+            context=self.__current_string.get_localized_info(),
+            language=self.__user_config.language,
+        )
+        chat_dialog.translation_proposed.connect(self.__translated_entry.setPlainText)
+        chat_dialog.exec()
+
     def __reset_translation(self) -> None:
         """
         Resets string to original string.
         """
+
+        if self.__gemini_worker is not None and self.__gemini_worker.isRunning():
+            return
 
         self.__translated_entry.setPlainText(self.__current_string.original)
 
@@ -312,6 +407,15 @@ class TranslatorDialog(QWidget):
         """
         Closes dialog without saving, asks for confirmation if changes are pending
         """
+
+        if self.__gemini_worker is not None and self.__gemini_worker.isRunning():
+            QMessageBox.information(
+                self,
+                self.tr("Gemini request in progress"),
+                self.tr("Wait for the current Gemini request to finish before closing."),
+            )
+            event.ignore()
+            return
 
         if self.__changes_pending:
             message_box = QMessageBox(self)
@@ -352,6 +456,9 @@ class TranslatorDialog(QWidget):
             finalize_with_status (Status | None, optional):
                 The status to finalize the current string with. Defaults to None.
         """
+
+        if self.__gemini_worker is not None and self.__gemini_worker.isRunning():
+            return
 
         if finalize_with_status:
             self.finalize_string(finalize_with_status)
@@ -415,6 +522,9 @@ class TranslatorDialog(QWidget):
                 TranslationComplete.
         """
 
+        if self.__gemini_worker is not None and self.__gemini_worker.isRunning():
+            return
+
         visible_strings_count: int = self.__parent.get_visible_string_count()
 
         if visible_strings_count > 1:
@@ -470,6 +580,9 @@ class TranslatorDialog(QWidget):
                 TranslationComplete.
         """
 
+        if self.__gemini_worker is not None and self.__gemini_worker.isRunning():
+            return
+
         self.__current_string.status = status
 
         if self.__changes_pending:
@@ -493,6 +606,9 @@ class TranslatorDialog(QWidget):
         """
         Finalizes edited string with status "Translation Complete" and closes dialog.
         """
+
+        if self.__gemini_worker is not None and self.__gemini_worker.isRunning():
+            return
 
         self.finalize_string()
         self.close()

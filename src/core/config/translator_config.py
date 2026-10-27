@@ -22,6 +22,17 @@ class TranslatorConfig(BaseConfig):
     )
     """The API key for the translator API."""
 
+    gemini_api_key: Annotated[
+        Optional[str], BaseConfig.PropertyMarker.ExcludeFromLogging
+    ] = None
+    """The API key for the Gemini API."""
+
+    gemini_model: str = "gemini-3.8-flash"
+    """The Gemini model used for translation and editor chat."""
+
+    gemini_custom_instructions: str = ""
+    """Optional user instructions prepended to Gemini translation prompts."""
+
     show_confirmation_dialogs: bool = True
     """Whether to ask for confirmation before starting a machine translation."""
 
