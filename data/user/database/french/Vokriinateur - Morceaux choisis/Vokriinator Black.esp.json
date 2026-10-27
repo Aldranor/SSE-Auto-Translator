@@ -352,7 +352,7 @@
   },
   {
     "original": "Nearby living allies receive <50> extra Health, Magicka, and Stamina for <dur> seconds.",
-    "string": "Les alliés vivants voisins reçoivent 50 points de santé, de magie et de vigueur supplémentaires pendant <dur> secondes.",
+    "string": "Les alliés vivants voisins reçoivent <50> points de santé, de magie et de vigueur supplémentaires pendant <dur> secondes.",
     "status": "TranslationComplete",
     "form_id": "0001EA76|Skyrim.esm",
     "type": "MGEF DNAM",
@@ -406,7 +406,7 @@
   },
   {
     "original": "Nearby living allies receive <25> extra Health, Magicka, and Stamina for <dur> seconds.",
-    "string": "Les alliés vivants voisins reçoivent 25 points de santé, de magie et de vigueur supplémentaires pendant <dur> secondes.",
+    "string": "Les alliés vivants voisins reçoivent <25> points de santé, de magie et de vigueur supplémentaires pendant <dur> secondes.",
     "status": "TranslationComplete",
     "form_id": "0001EA79|Skyrim.esm",
     "type": "MGEF DNAM",
@@ -964,7 +964,7 @@
   },
   {
     "original": "Living targets won't flee for <dur> seconds. They also recieve <100> extra Health and Stamina, as well as improved combat skills.",
-    "string": "Les cibles vivantes ne fuient pas pendant <dur> secondes. Elles reçoivent également 100 points de santé et de vigueur supplémentaires, et leurs compétences de combat sont améliorées.",
+    "string": "Les cibles vivantes ne fuient pas pendant <dur> secondes. Elles reçoivent également <100> points de santé et de vigueur supplémentaires, et leurs compétences de combat sont améliorées.",
     "status": "TranslationComplete",
     "form_id": "0008BB2D|Skyrim.esm",
     "type": "MGEF DNAM",
@@ -1675,7 +1675,7 @@
   },
   {
     "original": "A blast of flame that ignites targets, dealing <mag> damage per second for <10> seconds.",
-    "string": "Un souffle de flammes qui enflamme les cibles, infligeant <mag> points de dégâts par seconde pendant 10 secondes.",
+    "string": "Un souffle de flammes qui enflamme les cibles, infligeant <mag> points de dégâts par seconde pendant <10> secondes.",
     "status": "TranslationComplete",
     "form_id": "0302732C|Dragonborn.esm",
     "type": "MGEF DNAM",
@@ -2377,7 +2377,7 @@
   },
   {
     "original": "Spells cost health to cast instead of magicka. Your maximum health is increased by <50>% of your magicka pool.",
-    "string": "Lancer des sorts consomme de la santé plutôt que de la magie. Votre santé maximale augmente de 50 % de votre réserve de magie.",
+    "string": "Lancer des sorts consomme de la santé plutôt que de la magie. Votre santé maximale augmente de <50> % de votre réserve de magie.",
     "status": "TranslationComplete",
     "form_id": "07000895|PathOfSorcery.esp",
     "type": "MGEF DNAM",
@@ -2683,7 +2683,7 @@
   },
   {
     "original": "Gain a permenant <100> point bonus to armor rating.",
-    "string": "Octroie 100 points de valeur d'armure de manière permanente.",
+    "string": "Octroie <100> points de valeur d'armure de manière permanente.",
     "status": "TranslationComplete",
     "form_id": "0C000848|Vokriinator Black.esp",
     "type": "MGEF DNAM",
@@ -3187,7 +3187,7 @@
   },
   {
     "original": "Melee attack speed is increased by <15>%.",
-    "string": "La vitesse d'attaque au corps à corps augmente de 15 %.",
+    "string": "La vitesse d'attaque au corps à corps augmente de <15> %.",
     "status": "TranslationComplete",
     "form_id": "0500751E|SPERG-SSE.esp",
     "type": "SPEL DESC",
@@ -3250,7 +3250,7 @@
   },
   {
     "original": "<15>% fire resistance.",
-    "string": "15 % de résistance au feu.",
+    "string": "<15> % de résistance au feu.",
     "status": "TranslationComplete",
     "form_id": "07000A06|PathOfSorcery.esp",
     "type": "SPEL DESC",
@@ -3268,7 +3268,7 @@
   },
   {
     "original": "<20>% fire resistance.",
-    "string": "20 % de résistance au feu.",
+    "string": "<20> % de résistance au feu.",
     "status": "TranslationComplete",
     "form_id": "07000A07|PathOfSorcery.esp",
     "type": "SPEL DESC",
@@ -3286,7 +3286,7 @@
   },
   {
     "original": "<15>% frost resistance.",
-    "string": "15 % de résistance à la glace.",
+    "string": "<15> % de résistance à la glace.",
     "status": "TranslationComplete",
     "form_id": "07000A08|PathOfSorcery.esp",
     "type": "SPEL DESC",
@@ -3304,7 +3304,7 @@
   },
   {
     "original": "<20>% frost resistance.",
-    "string": "20 % de résistance à la glace.",
+    "string": "<20> % de résistance à la glace.",
     "status": "TranslationComplete",
     "form_id": "07000A09|PathOfSorcery.esp",
     "type": "SPEL DESC",
@@ -3322,7 +3322,7 @@
   },
   {
     "original": "<15>% shock resistance.",
-    "string": "15 % de résistance à la foudre.",
+    "string": "<15> % de résistance à la foudre.",
     "status": "TranslationComplete",
     "form_id": "07000A0A|PathOfSorcery.esp",
     "type": "SPEL DESC",
@@ -3340,7 +3340,7 @@
   },
   {
     "original": "<20>% shock resistance.",
-    "string": "20 % de résistance à la foudre.",
+    "string": "<20> % de résistance à la foudre.",
     "status": "TranslationComplete",
     "form_id": "07000A0B|PathOfSorcery.esp",
     "type": "SPEL DESC",
@@ -3385,7 +3385,7 @@
   },
   {
     "original": "Tough Light Armor grants <40>% Poison Resist and Disease Resist.",
-    "string": "L'atout Peau dure avec une armure légère augmente la résistance au poison et aux maladies de 40 %.",
+    "string": "L'atout Peau dure avec une armure légère augmente la résistance au poison et aux maladies de <40> %.",
     "status": "TranslationComplete",
     "form_id": "08000AAC|Vokrii - Minimalistic Perks of Skyrim.esp",
     "type": "SPEL DESC",
@@ -3754,7 +3754,7 @@
   },
   {
     "original": "Increases run speed by <10>% .",
-    "string": "Augmente la vitesse de course de 10 %.",
+    "string": "Augmente la vitesse de course de <10> %.",
     "status": "TranslationComplete",
     "form_id": "0B000819|Ordinator - Combat Styles.esp",
     "type": "SPEL DESC",

@@ -1,0 +1,566 @@
+[
+  {
+    "original": "General",
+    "string": "Général",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_General"
+  },
+  {
+    "original": "Leveling",
+    "string": "Progression",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Leveling"
+  },
+  {
+    "original": "Exploring",
+    "string": "Exploration",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Exploring"
+  },
+  {
+    "original": "Clearing",
+    "string": "Nettoyage de lieux",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Clearing"
+  },
+  {
+    "original": "Questing",
+    "string": "Quêtes",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Questing"
+  },
+  {
+    "original": "Killing",
+    "string": "Éliminations",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Killing"
+  },
+  {
+    "original": "Reading",
+    "string": "Lecture",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Reading"
+  },
+  {
+    "original": "Levels",
+    "string": "Niveaux",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Levels"
+  },
+  {
+    "original": "Skills",
+    "string": "Compétences",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Skills"
+  },
+  {
+    "original": "Display",
+    "string": "Affichage",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Display"
+  },
+  {
+    "original": "Info",
+    "string": "Infos",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Info"
+  },
+  {
+    "original": "Maximum Level",
+    "string": "Niveau maximal",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_MaximumLevel"
+  },
+  {
+    "original": "LevelUp Base",
+    "string": "EXP de base par niveau",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_LevelUpBase"
+  },
+  {
+    "original": "LevelUp Multiplier",
+    "string": "Multiplicateur de progression de niveau",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_LevelUpMult"
+  },
+  {
+    "original": "SkillCap Base",
+    "string": "Limite de compétence de base",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_SkillCapBase"
+  },
+  {
+    "original": "SkillCap Multiplier",
+    "string": "Multiplicateur de limite de compétence",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_SkillCapMult"
+  },
+  {
+    "original": "Use Racial Bonuses",
+    "string": "Appliquer les bonus raciaux",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_UseRacialCaps"
+  },
+  {
+    "original": "Show Messages",
+    "string": "Afficher les messages",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_ShowMessages"
+  },
+  {
+    "original": "Message Format",
+    "string": "Format des messages",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_MessageFormat"
+  },
+  {
+    "original": "Meter Mode",
+    "string": "Mode d’affichage de la jauge",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_MeterMode"
+  },
+  {
+    "original": "Level Factor",
+    "string": "Facteur de niveau",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_LevelFactor"
+  },
+  {
+    "original": "Group Factor",
+    "string": "Facteur de groupe",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_GroupFactor"
+  },
+  {
+    "original": "Damage Threshold",
+    "string": "Seuil de dégâts",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_DamageThreshold"
+  },
+  {
+    "original": "Killing Multiplier",
+    "string": "Multiplicateur des gains liés aux éliminations",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_KillingMult"
+  },
+  {
+    "original": "Reading Multiplier",
+    "string": "Multiplicateur des gains de lecture",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_ReadingMult"
+  },
+  {
+    "original": "DLL Version",
+    "string": "Version de la DLL",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_PluginVersion"
+  },
+  {
+    "original": "Script Version",
+    "string": "Version du script",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_ScriptVersion"
+  },
+  {
+    "original": "Hidden",
+    "string": "Dissimulée",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Hidden"
+  },
+  {
+    "original": "Dynamic",
+    "string": "Dynamique",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Dynamic"
+  },
+  {
+    "original": "Forced",
+    "string": "Forcé",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Forced"
+  },
+  {
+    "original": "Main",
+    "string": "Principale",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_Main"
+  },
+  {
+    "original": "College of Winterhold",
+    "string": "Académie de Fortdhiver",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_College"
+  },
+  {
+    "original": "Thieves Guild",
+    "string": "Guilde des voleurs",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_Thieves"
+  },
+  {
+    "original": "Dark Brotherhood",
+    "string": "Confrérie noire",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_Brotherhood"
+  },
+  {
+    "original": "The Companions",
+    "string": "Les Compagnons",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_Companions"
+  },
+  {
+    "original": "Daedric",
+    "string": "Daedrique",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_Daedric"
+  },
+  {
+    "original": "Side",
+    "string": "Secondaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_Side"
+  },
+  {
+    "original": "Civil War",
+    "string": "Guerre civile",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_CivilWar"
+  },
+  {
+    "original": "Dawnguard",
+    "string": "Garde de l'aube",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_Dawnguard"
+  },
+  {
+    "original": "Dragonborn",
+    "string": "Enfant de dragon",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_Dragonborn"
+  },
+  {
+    "original": "Objectives",
+    "string": "Objectifs",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Quest_Objectives"
+  },
+  {
+    "original": "Cities",
+    "string": "Villes",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Cities"
+  },
+  {
+    "original": "Towns",
+    "string": "Villes",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Towns"
+  },
+  {
+    "original": "Settlements",
+    "string": "Villages",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Settlements"
+  },
+  {
+    "original": "Caves",
+    "string": "Grottes",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Caves"
+  },
+  {
+    "original": "Camps",
+    "string": "Camps",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Camps"
+  },
+  {
+    "original": "Military Forts",
+    "string": "Forts militaires",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_MilitaryForts"
+  },
+  {
+    "original": "Nordic Ruins",
+    "string": "Ruines nordiques",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_NordicRuins"
+  },
+  {
+    "original": "Dwemer Ruins",
+    "string": "Ruines dwemers",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_DwemerRuins"
+  },
+  {
+    "original": "Shipwrecks",
+    "string": "Épaves",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Shipwrecks"
+  },
+  {
+    "original": "Groves",
+    "string": "Bosquets",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Groves"
+  },
+  {
+    "original": "Landmarks",
+    "string": "Repères",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Landmarks"
+  },
+  {
+    "original": "Dragon Lairs",
+    "string": "Antres de dragon",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_DragonLairs"
+  },
+  {
+    "original": "Farms",
+    "string": "Fermes",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Farms"
+  },
+  {
+    "original": "Wood Mills",
+    "string": "Scieries",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_WoodMills"
+  },
+  {
+    "original": "Mines",
+    "string": "Mines",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Mines"
+  },
+  {
+    "original": "Military Camps",
+    "string": "Camps militaires",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_MilitaryCamps"
+  },
+  {
+    "original": "Doomstones",
+    "string": "Pierres gardiennes",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Doomstones"
+  },
+  {
+    "original": "Wheat Mills",
+    "string": "Moulins à blé",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_WheatMills"
+  },
+  {
+    "original": "Smelters",
+    "string": "Fonderies",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Smelters"
+  },
+  {
+    "original": "Stables",
+    "string": "Écuries",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Stables"
+  },
+  {
+    "original": "Imperial Towers",
+    "string": "Tours impériales",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_ImperialTowers"
+  },
+  {
+    "original": "Clearings",
+    "string": "Clairières",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Clearings"
+  },
+  {
+    "original": "Passes",
+    "string": "Cols",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Passes"
+  },
+  {
+    "original": "Altars",
+    "string": "Autels",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Altars"
+  },
+  {
+    "original": "Rocks",
+    "string": "Rochers",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Rocks"
+  },
+  {
+    "original": "Lighthouses",
+    "string": "Phares",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Lighthouses"
+  },
+  {
+    "original": "Orc Strongholds",
+    "string": "Forteresses orques",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_OrcStrongholds"
+  },
+  {
+    "original": "Giant Camps",
+    "string": "Campements de géants",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_GiantCamps"
+  },
+  {
+    "original": "Shacks",
+    "string": "Cabanes",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Shacks"
+  },
+  {
+    "original": "Nordic Towers",
+    "string": "Tours nordiques",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_NordicTowers"
+  },
+  {
+    "original": "Ruins",
+    "string": "Ruines",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Ruins"
+  },
+  {
+    "original": "Docks",
+    "string": "Quais",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Docks"
+  },
+  {
+    "original": "Daedric Shrines",
+    "string": "Autels daedriques",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_DaedricShrines"
+  },
+  {
+    "original": "Castles",
+    "string": "Châteaux",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_Castles"
+  },
+  {
+    "original": "Miraak Temple",
+    "string": "Temple de Miraak",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_MiraakTemple"
+  },
+  {
+    "original": "Beast Stones",
+    "string": "Pierre de la Bête",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_BeastStone"
+  },
+  {
+    "original": "Telvanni Towers",
+    "string": "Tours telvanni",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_TelvanniTower"
+  },
+  {
+    "original": "Castle Karstaag",
+    "string": "Château Karstaag",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Location_CastleKarstaag"
+  },
+  {
+    "original": "Maximum level a player character can reach in-game.",
+    "string": "Niveau maximal qu’un personnage joueur peut atteindre dans le jeu.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_MaximumLevel_Info"
+  },
+  {
+    "original": "Used to determine skill cap for player.",
+    "string": "Détermine le niveau maximal que le joueur peut atteindre dans chaque compétence.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_SkillCap_Info"
+  },
+  {
+    "original": "Adds racial bonuses to skill cap values.",
+    "string": "Ajoute les bonus raciaux aux limites de compétence.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_UseRacialCaps_Info"
+  },
+  {
+    "original": "Shows experience gains in notification area.",
+    "string": "Affiche les gains d’expérience dans la zone de notifications.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_ShowMessages_Info"
+  },
+  {
+    "original": "Due to SkyUI bug curly braces cannot be displayed.\\nDefault: {:+d} XP",
+    "string": "À cause d’un bug de SkyUI, les accolades ne s’affichent pas.\nPar défaut : {:+d} EXP",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_MessageFormat_Info"
+  },
+  {
+    "original": "Controls visibility of level meter.",
+    "string": "Détermine si la jauge de progression de niveau est affichée.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_MeterMode_Info"
+  },
+  {
+    "original": "Experience points for completing this quest type.",
+    "string": "Points d’expérience accordés pour l’accomplissement de ce type de quête.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Questing_Info"
+  },
+  {
+    "original": "Experience points for completing quest objectives.",
+    "string": "Points d’expérience accordés pour l’accomplissement des objectifs de quête.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Objectives_Info"
+  },
+  {
+    "original": "The factor used to calculate multiplier based on level difference.",
+    "string": "Facteur utilisé pour calculer le multiplicateur selon l’écart de niveau.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_LevelFactor_Info"
+  },
+  {
+    "original": "Percentage of experience points stolen by each follower.",
+    "string": "Pourcentage des points d’expérience prélevés par chaque compagnon.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_GroupFactor_Info"
+  },
+  {
+    "original": "Minimum damage threshold required to gain XP.",
+    "string": "Dégâts minimum à infliger pour gagner des points d’expérience.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_DamageThreshold_Info"
+  },
+  {
+    "original": "Global multiplier of all killing related settings.",
+    "string": "Multiplicateur global appliqué aux paramètres liés aux éliminations.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_KillingMult_Info"
+  },
+  {
+    "original": "Multiplies experience reward gained from reading books.",
+    "string": "Multiplie les points d’expérience obtenus en lisant des livres.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_ReadingMult_Info"
+  },
+  {
+    "original": "Experience points for discovering this location type.",
+    "string": "Points d’expérience accordés à la découverte d’un lieu de ce type.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Exploring_Info"
+  },
+  {
+    "original": "Experience points for clearing this location type.",
+    "string": "Points d’expérience accordés pour avoir vidé un lieu de ce type.",
+    "status": "TranslationComplete",
+    "mcm_id": "$EXP_Clearing_Info"
+  }
+]

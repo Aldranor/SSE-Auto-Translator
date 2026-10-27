@@ -42,6 +42,8 @@
 | **Quests Award Perk Points (QAPP)** | 15 fichiers de patchs QAPP | Traduction harmonisée des notifications d'attribution de points d'atouts lors de l'achèvement des quêtes. |
 | **Stances - Dynamic Animation Sets** | `stances - dynamic weapon movesets se.esp.json` | **100 % Complete (36 / 36 entrées).** Harmonisation terminologique sur le terme noble « Posture » (*Posture haute, Posture médiane, Posture basse*) au lieu de « Position », respect de la terminologie officielle Bethesda pour la Vigueur (*Stamina* corrigé de « endurance » en « vigueur »), descriptions fluides et validation des 21 identifiants techniques internes. |
 | **Stances - Add-On** | `stances - add-on.esp.json` | **100 % Complete (27 / 27 entrées).** Traduction complète de toutes les chaînes manquantes/en anglais (bonus/pénalités de vitesse de déplacement, vitesse d'attaque en main principale / main secondaire, ajustements d'armes, quête MCM). Rétablissement des descriptions propres à l'Add-On pour les 3 postures qui avaient été écrasées par le mod de base. |
+| **Nolvus Awakening Stances Perk System** | `nolvus awakening stances perk system.esp.json` (196 entrées, dont 13 chaînes liées à Stances - Dynamic Weapon Movesets SE, 1 à Stances - Add-On et 1 à Smooth Animation) | **Audit complet validé (196 / 196 entrées ; 29 chaînes manquantes complétées).** Révision des traductions existantes, correction de formulations littérales et de termes d’armes, harmonisation « posture » / « vigueur », traduction des noms et descriptions d’atouts, des attaques chargées et des effets/entrées de quête. Identifiants techniques `stances_switch_*` conservés. Contrôle des identifiants, textes sources et pourcentages après écriture. |
+| **Animations de Chasse immersive (Immersive Hunting Animations)** | `immersivehunting.esp.json`<br>`ImmersiveHunting_french.txt.json` | **100 % Complete (ESP : 53 / 53 entrées ; MCM : 72 / 72 entrées).** Correction de faux-sens majeurs (*Butcher* traduit à tort par le nom de métier « Boucher » au lieu de l'action « Découper la viande » ; *Skin* traduit par « Peau » au lieu de l'action « Dépecer » ; *Harvest* « Récupérer » affiné en « Prélever » ; *Prompt* « Sur demande » affiné en « Menu interactif »). Traduction intégrale des 61 chaînes MCM SkyUI laissées en anglais (modes de fouille, transport de carcasses, vue forcée à la 3e personne, dépeçage réaliste, intégrations Campfire, Shovels Bury Bodies, Skyrim Souls, QuickLoot, IED). Traduction et harmonisation intégrale dans l'ESP des 15 carcasses d'animaux, des 15 modèles d'animaux écorchés, des fourrures d'exposition IED (*brune, noire, blanche, des neiges, des vallées*) et du menu interactif selon la terminologie officielle de *Simple Hunting Overhaul* et du jeu de base. |
 
 ---
 
@@ -89,6 +91,21 @@
 | **L'Hôtel de la Ville d'Aubétoile (The Great City of Dawnstar)** | `The Great City of Dawnstar.esp.json` | Traduction et harmonisation des nouveaux bâtiments et commerces portuaires. |
 | **Missives** | Fichiers des tableaux d'affichage (Bruma, Falskaar, Wyrmstooth, Solstheim, Midwood) | Harmonisation des avis de recherche (« Récupération dans un repaire », « Récupération dans une ruine », etc.). |
 | **USSEP (Unofficial Skyrim Patch)** | `Unofficial Skyrim Special Edition Patch.esp.json` | Réinjection de 283 chaînes manquantes, harmonisation sur la localisation française officielle (100 % complet). |
+
+---
+
+## 🧩 8. Mods vérifiés — passe du 27 octobre 2026
+
+| Mod / fichiers audités | Interventions et statut |
+| :--- | :--- |
+| **Amélioration de la Lame des Sangskaals** — `Bloodskal Blade - Tweaks and Enhancements.esp.json`, `ZIA_Complete Pack - Bloodskal Blade T&E Patch.esp.json` | Harmonisation de la « Frappe des Sangskaals », révision de la description des dégâts et de leur progression ; conservation des variables numériques du jeu. Patch ZIA vérifié. Fichiers complets. |
+| **CCQuest - Experience Patch** — `ccquest - experience patch.esp.json` | Traduction des entrées manquantes de la quête de l’Aube et révision de textes voisins pour garder le fil narratif du Gardien et du caveau. Correction de chaînes du contenu Pêche dont les variables d’alias ou de quête avaient été omises ou remplacées. 1 594 entrées vérifiées, aucune chaîne manquante ni variable discordante. |
+| **Experience** — `Experience_FRENCH.txt.json` | Traduction des 62 chaînes MCM manquantes ; vérification des variables de format et de la terminologie de progression. 94 entrées complètes. |
+| **Nolvus Awakening Stances Perk System** — `nolvus awakening stances perk system.esp.json` | Traduction des 29 chaînes manquantes, révision des 89 descriptions et traduction/harmonisation des 89 noms d’atouts. « Posture », « vigueur » et désignations d’armes uniformisés. 196 entrées complètes ; balises et variables contrôlées. |
+| **Runes étranges** — `StrangeRunes.esp.json`, `StrangeRunes_french.txt.json` | Traduction des noms et effets du plugin ainsi que des libellés MCM (décalages et rotations X/Y/Z). 419 entrées plugin et 87 entrées d’interface complètes ; variables de format conservées. |
+| **GIST - Capture d’âmes intelligente** — `GIST soul trap.esp.json` | Vérification des 19 entrées, traduction des libellés de test et maintien de l’identifiant technique interne sans traduction. Fichier complet. |
+| **Nolvus Awakening Perk Patch** — `nolvus awakening perk patch.esp.json` | Traduction de la description manquante ; harmonisation de « vigueur », « magie » et des griffes liées. 85 entrées complètes. |
+| **Vokriinator Black et patch Apocalypse** — `Vokriinator Black.esp.json`, `Vokriinator Black - Apocalypse patch.esp.json` | Recontrôle des 1 236 et 7 entrées ; restauration des marqueurs numériques de jeu conservés sous la forme `<nombre>` dans 15 descriptions. Aucune chaîne restante à traduire. |
 
 ---
 
