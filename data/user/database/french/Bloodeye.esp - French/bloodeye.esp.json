@@ -37,8 +37,8 @@
   },
   {
     "original": "Bloodeye Albert",
-    "string": "Bloodeye Albert",
-    "status": "NoTranslationRequired",
+    "string": "Albert Œil-de-sang",
+    "status": "TranslationComplete",
     "form_id": "01000800|Bloodeye.esp",
     "type": "NPC_ FULL",
     "index": null,
