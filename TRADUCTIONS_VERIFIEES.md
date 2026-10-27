@@ -105,6 +105,7 @@
 | **Runes étranges** — `StrangeRunes.esp.json`, `StrangeRunes_french.txt.json` | Traduction des noms et effets du plugin ainsi que des libellés MCM (décalages et rotations X/Y/Z). 419 entrées plugin et 87 entrées d’interface complètes ; variables de format conservées. |
 | **GIST - Capture d’âmes intelligente** — `GIST soul trap.esp.json` | Vérification des 19 entrées, traduction des libellés de test et maintien de l’identifiant technique interne sans traduction. Fichier complet. |
 | **Nolvus Awakening Perk Patch** — `nolvus awakening perk patch.esp.json` | Traduction de la description manquante ; harmonisation de « vigueur », « magie » et des griffes liées. 85 entrées complètes. |
+| **RaceMenu High Heels Fixes - Advanced** — `heelsfix_french.txt.json`, `heelsfix.esp.json` | Traduction des 45 chaînes MCM manquantes ; harmonisation du vocabulaire des corrections de talons, des réglages de Mu Joint Fix et des libellés visibles du plugin. Correction de formulations/typos et conservation stricte des balises et noms techniques. 70 entrées vérifiées, aucune chaîne manquante. |
 | **Vokriinator Black et patch Apocalypse** — `Vokriinator Black.esp.json`, `Vokriinator Black - Apocalypse patch.esp.json` | Recontrôle des 1 236 et 7 entrées ; restauration des marqueurs numériques de jeu conservés sous la forme `<nombre>` dans 15 descriptions. Aucune chaîne restante à traduire. |
 
 ---
