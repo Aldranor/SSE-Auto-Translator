@@ -29,6 +29,7 @@ class GeminiChatWorker(QThread):
 
     response_ready = Signal(str)
     request_failed = Signal(str)
+    retry_status = Signal(str)
 
     def __init__(
         self,
@@ -59,6 +60,7 @@ class GeminiChatWorker(QThread):
                 string_context=self.__context,
                 dst=self.__language,
                 history=self.__history,
+                on_retry=self.retry_status.emit,
             )
         except Exception as ex:  # noqa: BLE001
             self.request_failed.emit(str(ex))
@@ -167,6 +169,7 @@ class GeminiChatDialog(QDialog):
         self.__worker = worker
         worker.response_ready.connect(self.__on_response)
         worker.request_failed.connect(self.__on_error)
+        worker.retry_status.connect(self.__status.setText)
         worker.finished.connect(self.__on_finished)
         worker.start()
 

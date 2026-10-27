@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import json
 import time
+from collections.abc import Callable
 from typing import Any, override
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
@@ -23,7 +24,7 @@ class GeminiTranslator(Translator):
         "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     )
     DEFAULT_MODEL = "gemini-3.8-flash"
-    REQUEST_TIMEOUT = 90
+    REQUEST_TIMEOUT = 30
     MAX_RETRIES = 3
     MAX_RETRY_DELAY = 8
     RETRYABLE_STATUS_CODES = frozenset({429, 500, 502, 503, 504})
@@ -64,6 +65,7 @@ class GeminiTranslator(Translator):
         string_context: str,
         dst: GameLanguage,
         history: list[dict[str, Any]],
+        on_retry: Callable[[str], None] | None = None,
     ) -> str:
         """Sends a contextual chat turn for the currently edited string."""
 
@@ -83,13 +85,18 @@ class GeminiTranslator(Translator):
                 "\n\nUser's custom translation instructions:\n" + custom_instructions
             )
 
-        return self.generate(system_instruction=system_instruction, contents=history)
+        return self.generate(
+            system_instruction=system_instruction,
+            contents=history,
+            on_retry=on_retry,
+        )
 
     def generate(
         self,
         *,
         system_instruction: str,
         contents: list[dict[str, Any]],
+        on_retry: Callable[[str], None] | None = None,
     ) -> str:
         """Calls Gemini's generateContent REST endpoint."""
 
@@ -125,10 +132,13 @@ class GeminiTranslator(Translator):
                     raise RuntimeError(self._format_api_error(detail, ex.code)) from ex
 
                 delay = self._get_retry_delay(ex.headers.get("Retry-After"), attempt)
-                self.log.warning(
+                retry_message = (
                     f"Gemini API returned HTTP {ex.code}; retrying in {delay} second(s) "
                     f"({attempt + 1}/{self.MAX_RETRIES})."
                 )
+                self.log.warning(retry_message)
+                if on_retry is not None:
+                    on_retry(retry_message)
                 time.sleep(delay)
             except URLError as ex:
                 raise RuntimeError(
@@ -141,10 +151,13 @@ class GeminiTranslator(Translator):
                     ) from ex
 
                 delay = self._get_retry_delay(None, attempt)
-                self.log.warning(
+                retry_message = (
                     f"Gemini API request timed out; retrying in {delay} second(s) "
                     f"({attempt + 1}/{self.MAX_RETRIES})."
                 )
+                self.log.warning(retry_message)
+                if on_retry is not None:
+                    on_retry(retry_message)
                 time.sleep(delay)
         else:
             raise RuntimeError("Gemini API request failed after several retries.")
