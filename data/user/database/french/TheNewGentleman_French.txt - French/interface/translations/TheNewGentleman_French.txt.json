@@ -1,0 +1,788 @@
+[
+  {
+    "original": "General",
+    "string": "Général",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_Gnl"
+  },
+  {
+    "original": "Race groups",
+    "string": "Groupes raciaux",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_Rac"
+  },
+  {
+    "original": "Addons",
+    "string": "Addons",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_Add"
+  },
+  {
+    "original": "Slot 52 Mods",
+    "string": "Mods utilisant le slot 52",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_S52"
+  },
+  {
+    "original": "Advanced",
+    "string": "Avancé",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_Adv"
+  },
+  {
+    "original": "Reset to default",
+    "string": "Rétablir les valeurs par défaut",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TRS"
+  },
+  {
+    "original": "No genital",
+    "string": "Aucun",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TNT"
+  },
+  {
+    "original": "Circumcised",
+    "string": "Circoncis",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TCT"
+  },
+  {
+    "original": "Muscular-Style 1",
+    "string": "Style musclé 1",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TMT"
+  },
+  {
+    "original": "Muscular-Style 2",
+    "string": "Style musclé 2",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TM2"
+  },
+  {
+    "original": "Regular-Style 1",
+    "string": "Style classique 1",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TRT"
+  },
+  {
+    "original": "Regular-Style 2",
+    "string": "Style classique 2",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TR2"
+  },
+  {
+    "original": "Circumcised (d)",
+    "string": "Circoncis (d)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TCT (d)"
+  },
+  {
+    "original": "Muscular-Style 1 (d)",
+    "string": "Style musclé 1 (d)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TMT (d)"
+  },
+  {
+    "original": "Muscular-Style 2 (d)",
+    "string": "Style musclé 2 (d)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TM2 (d)"
+  },
+  {
+    "original": "Regular-Style 1 (d)",
+    "string": "Style classique 1 (d)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TRT (d)"
+  },
+  {
+    "original": "Regular-Style 2 (d)",
+    "string": "Style classique 2 (d)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TR2 (d)"
+  },
+  {
+    "original": "Circumcised (s)",
+    "string": "Circoncis (s)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TCT (s)"
+  },
+  {
+    "original": "Muscular-Style 1 (s)",
+    "string": "Style musclé 1 (s)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TMT (s)"
+  },
+  {
+    "original": "Muscular-Style 2 (s)",
+    "string": "Style musclé 2 (s)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TM2 (s)"
+  },
+  {
+    "original": "Regular-Style 1 (s)",
+    "string": "Style classique 1 (s)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TRT (s)"
+  },
+  {
+    "original": "Regular-Style 2 (s)",
+    "string": "Style classique 2 (s)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_TR2 (s)"
+  },
+  {
+    "original": "Default Sizes",
+    "string": "Tailles par défaut",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_SOH"
+  },
+  {
+    "original": "Reset Size",
+    "string": "Rétablir la taille",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_SRS"
+  },
+  {
+    "original": "Do not change",
+    "string": "Ne pas modifier",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_SDC"
+  },
+  {
+    "original": "X-Small",
+    "string": "Très petit",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_SXS"
+  },
+  {
+    "original": "Small",
+    "string": "Petit",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_S_S"
+  },
+  {
+    "original": "Medium",
+    "string": "Moyen",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_S_M"
+  },
+  {
+    "original": "Large",
+    "string": "Grand",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_S_L"
+  },
+  {
+    "original": "X-Large",
+    "string": "Très grand",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_SXL"
+  },
+  {
+    "original": "Notifications",
+    "string": "Notifications",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_GNT"
+  },
+  {
+    "original": "Controls",
+    "string": "Commandes",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_KyH"
+  },
+  {
+    "original": "Integration with DAK",
+    "string": "Intégration à DAK",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_DAK"
+  },
+  {
+    "original": "DAK integration has been removed. This can cause conflicts between the assigned keys with other mods. Do you want to reset all of them?",
+    "string": "L’intégration à DAK a été supprimée. Les touches attribuées risquent d’entrer en conflit avec celles d’autres mods. Voulez-vous toutes les réinitialiser ?",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_DKN"
+  },
+  {
+    "original": "Addon/Size Customization",
+    "string": "Personnalisation de l’addon et de la taille",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_K_N"
+  },
+  {
+    "original": "Swap Revealing/Covering",
+    "string": "Basculer entre révélateur et couvrant",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_K_R"
+  },
+  {
+    "original": "Raise genital",
+    "string": "Relever l’organe génital",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_K_U"
+  },
+  {
+    "original": "Lower genital",
+    "string": "Abaisser l’organe génital",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_K_D"
+  },
+  {
+    "original": "TNG actor lock on:",
+    "string": "Verrouillage de l’acteur par TNG :",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_KAL"
+  },
+  {
+    "original": "Released actor lock",
+    "string": "Verrouillage de l’acteur désactivé",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_KAR"
+  },
+  {
+    "original": "Genital Type",
+    "string": "Type d’organe génital",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_OGT"
+  },
+  {
+    "original": "Genital Size Multiplier",
+    "string": "Multiplicateur de taille de l’organe génital",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_OGS"
+  },
+  {
+    "original": "Randomize men addons",
+    "string": "Attribuer des addons aléatoires aux hommes",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_AMR"
+  },
+  {
+    "original": "Women chance for an addon",
+    "string": "Probabilité d’attribuer un addon aux femmes",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_AWC"
+  },
+  {
+    "original": "Select the size:",
+    "string": "Choisissez la taille :",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_ASS"
+  },
+  {
+    "original": "Select the addon:",
+    "string": "Choisissez l’addon :",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_AST"
+  },
+  {
+    "original": "Select the armor:",
+    "string": "Choisissez l’armure :",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_ASA"
+  },
+  {
+    "original": "Gentlewomen Addons",
+    "string": "Addons féminins",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_A_W"
+  },
+  {
+    "original": "Gentlemen Addons",
+    "string": "Addons masculins",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_A_M"
+  },
+  {
+    "original": "There seems to be no addons installed for women!",
+    "string": "Aucun addon ne semble installé pour les femmes !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_ANW"
+  },
+  {
+    "original": "There seems to be no addons installed for men!",
+    "string": "Aucun addon ne semble installé pour les hommes !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_ANM"
+  },
+  {
+    "original": "For these body armor:",
+    "string": "Pour ces armures :",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_52D"
+  },
+  {
+    "original": "Hides genitalia",
+    "string": "Masque les organes génitaux",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_52C"
+  },
+  {
+    "original": "Reveals genitalia",
+    "string": "Révèle les organes génitaux",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_52R"
+  },
+  {
+    "original": "Let me to choose",
+    "string": "Me laisser choisir",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_52U"
+  },
+  {
+    "original": "No conflicting mods with slot 52 found!",
+    "string": "Aucun mod utilisant le slot 52 n’a été détecté en conflit !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_52N"
+  },
+  {
+    "original": "Yes",
+    "string": "Oui",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_Yes"
+  },
+  {
+    "original": "No",
+    "string": "Non",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG__No"
+  },
+  {
+    "original": "Could not find a relevant armor!",
+    "string": "Aucune armure correspondante trouvée !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_N_1"
+  },
+  {
+    "original": "The armor was handled successfully!",
+    "string": "Armure traitée avec succès !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_N_2"
+  },
+  {
+    "original": "The armor cannot be modified!",
+    "string": "Cette armure ne peut pas être modifiée.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_N_3"
+  },
+  {
+    "original": "There are no addons for the current NPC!",
+    "string": "Aucun addon n’est disponible pour ce PNJ !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_N_4"
+  },
+  {
+    "original": "No actor can be selected!",
+    "string": "Aucun acteur ne peut être sélectionné !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_W_1"
+  },
+  {
+    "original": "DAK Integration is enabled but relevant information cannot be found. Please open MCM and disable DAK integration.",
+    "string": "L’intégration à DAK est activée, mais les informations nécessaires sont introuvables. Ouvrez le MCM et désactivez l’intégration à DAK.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_W_3"
+  },
+  {
+    "original": "The New Gentleman DLL cannot be loaded successfully! Make sure you have all the requirements installed!",
+    "string": "Impossible de charger la DLL de The New Gentleman. Vérifiez que toutes les dépendances sont installées !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_E_0"
+  },
+  {
+    "original": "The current race cannot be modified by TNG.",
+    "string": "TNG ne peut pas modifier la race actuelle.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WN1"
+  },
+  {
+    "original": "The current actor cannot be modified by TNG.",
+    "string": "TNG ne peut pas modifier l’acteur actuel.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WN2"
+  },
+  {
+    "original": "The selected addon cannot be used.",
+    "string": "L’addon sélectionné ne peut pas être utilisé.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WN3"
+  },
+  {
+    "original": "TNG internal issue handling the armor.",
+    "string": "Erreur interne de TNG lors du traitement de l’armure.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WN4"
+  },
+  {
+    "original": "The NPC current skin does not allow any modifications.",
+    "string": "La peau actuelle du PNJ ne permet aucune modification.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WN5"
+  },
+  {
+    "original": "The player size cannot be modified due to the option in MCM.",
+    "string": "La taille du joueur ne peut pas être modifiée en raison d’une option du MCM.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WN6"
+  },
+  {
+    "original": "The skeleton is missing the bones for genitalia. TNG won't modify the race!",
+    "string": "Le squelette ne comporte pas les os nécessaires aux organes génitaux. TNG ne modifiera pas cette race !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WN7"
+  },
+  {
+    "original": "The actor's race is not supported by TNG.",
+    "string": "La race de l’acteur n’est pas prise en charge par TNG.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WN8"
+  },
+  {
+    "original": "TNG faced an internal error. If the error can be reproduced, please report this error on the mod page as a bug report!",
+    "string": "TNG a rencontré une erreur interne. Si vous pouvez la reproduire, signalez-la sur la page du mod.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WN9"
+  },
+  {
+    "original": "The players genital addon was reverted to original to avoid issues.",
+    "string": "L’addon génital du joueur a été rétabli à sa valeur d’origine pour éviter les problèmes.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WPT"
+  },
+  {
+    "original": "The players genital size was reverted to original to avoid issues.",
+    "string": "La taille de l’organe génital du joueur a été rétablie à sa valeur d’origine pour éviter les problèmes.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_WPS"
+  },
+  {
+    "original": "To avoid hotkey conflicts you can use the key from Dynamic activation key in combination with the selected keys below to activate them.",
+    "string": "Pour éviter les conflits de raccourcis, vous pouvez associer la touche d’activation dynamique aux touches sélectionnées ci-dessous.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HGD"
+  },
+  {
+    "original": "Double check for clipping issues when an armor is equipped.",
+    "string": "Vérifiez qu’aucun élément ne traverse l’armure lorsque vous en équipez une.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HGC"
+  },
+  {
+    "original": "Automatically mark armor on female characters to revealing if they have an item equipped on slot 52. Note that if armor is shared between men and women, it would also become revealing for men.",
+    "string": "Marquer automatiquement comme révélatrices les armures des personnages féminins lorsqu’un objet est équipé dans le slot 52. Si une armure est portée à la fois par des hommes et des femmes, elle sera aussi révélatrice pour les hommes.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HGF"
+  },
+  {
+    "original": "Automatically mark armor on male characters to revealing if they have an item equipped on slot 52. Note that if armor is shared between men and women, it would also become revealing for women.",
+    "string": "Marquer automatiquement comme révélatrices les armures des personnages masculins lorsqu’un objet est équipé dans le slot 52. Si une armure est portée à la fois par des hommes et des femmes, elle sera aussi révélatrice pour les femmes.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HGM"
+  },
+  {
+    "original": "Show or hide notifications on the hud.",
+    "string": "Afficher ou masquer les notifications à l’écran.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HGN"
+  },
+  {
+    "original": "Leave player size to be modified in the race menu using the XP32 racemenu addon.",
+    "string": "Laisser la taille du joueur être modifiée dans le menu des races grâce à l’addon RaceMenu de XP32.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HGE"
+  },
+  {
+    "original": "Move the genital up or down. If there is an NPC with genital under the cursor it would move the NPC's genital, otherwise the player's.",
+    "string": "Déplacer l’organe génital vers le haut ou le bas. Si le curseur pointe vers un PNJ qui en possède un, c’est le sien qui sera déplacé ; sinon, ce sera celui du joueur.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HKU"
+  },
+  {
+    "original": "Customize player or NPCs addon and size. If there is an NPC under cursor it would customize the NPC, otherwise it would customize the player.",
+    "string": "Personnaliser l’addon et la taille du joueur ou d’un PNJ. Si le curseur pointe vers un PNJ, c’est lui qui sera modifié ; sinon, ce sera le joueur.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HKN"
+  },
+  {
+    "original": "Swap revealing/covering",
+    "string": "Basculer entre révélateur et couvrant",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HKS"
+  },
+  {
+    "original": "Changes the size category multiplier. Each actor gets a size category randomly and can be customized using the customization key. Their final genital size would be: (their race multiplier) * (their size category)",
+    "string": "Modifie le multiplicateur de la catégorie de taille. Chaque acteur se voit attribuer une catégorie au hasard, modifiable avec la touche de personnalisation. La taille finale de son organe génital correspond à : (multiplicateur de sa race) × (multiplicateur de sa catégorie de taille).",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_H_S"
+  },
+  {
+    "original": "Set the default addon for the race. You can further customize NPCs using the customization keyword. (For race group info hold Left Alt)",
+    "string": "Définir l’addon par défaut pour cette race. Vous pourrez personnaliser les PNJ avec la touche de personnalisation. (Maintenez Alt gauche pour afficher les groupes raciaux.)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HOA"
+  },
+  {
+    "original": "Changes the race multiplier on top of NPCs size category. The final multiplier for each NPC: [race multiplier] * [size category multiplier].  (For race group info hold Left Alt)",
+    "string": "Modifie le multiplicateur de la race, qui s’applique à la catégorie de taille du PNJ. Multiplicateur final : [multiplicateur de race] × [multiplicateur de catégorie de taille]. (Maintenez Alt gauche pour afficher les groupes raciaux.)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HOS"
+  },
+  {
+    "original": "The chance that women receive any of the selected addons below.",
+    "string": "Probabilité que les femmes reçoivent l’un des addons sélectionnés ci-dessous.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HAC"
+  },
+  {
+    "original": "Whether to distribute this addon to NPCs. All addons are always available in customization menu.",
+    "string": "Détermine si cet addon est attribué aux PNJ. Tous les addons restent disponibles dans le menu de personnalisation.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HAD"
+  },
+  {
+    "original": "If you click, a message the local folder on your device where the TNG log (and other SKSE logs) are saved.",
+    "string": "Cliquez pour afficher le dossier de votre appareil où sont enregistrés le journal de TNG et les autres journaux de SKSE.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HLF"
+  },
+  {
+    "original": "The level of the information that is logged. Don't change it unless you think that is necessary!",
+    "string": "Niveau de détail du journal. Ne le modifiez que si cela vous semble nécessaire !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HLL"
+  },
+  {
+    "original": "Default behavior to treat the conflicting mods.",
+    "string": "Comportement par défaut à appliquer aux mods en conflit.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_H52"
+  },
+  {
+    "original": "Set behavior to neglect conflict(unchecked) or to treat the mod as a revealing mod(checked).",
+    "string": "Détermine si le conflit est ignoré (case décochée) ou si le mod est considéré comme révélateur (case cochée).",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HMR"
+  },
+  {
+    "original": "Randomizes men genitalia with a higher chance for racial addon",
+    "string": "Attribue aléatoirement des organes génitaux aux hommes, avec une probabilité accrue d’utiliser l’addon propre à leur race.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HRM"
+  },
+  {
+    "original": "If your player addon disappears after load, enable this option. (Forced active with RSV)",
+    "string": "Activez cette option si l’addon du joueur disparaît après le chargement. (Toujours active avec RSV.)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HPU"
+  },
+  {
+    "original": "(Experimental) If your NPC addons disappears after load, enable this option. (Forced active with RSV)",
+    "string": "(Expérimental) Activez cette option si les addons des PNJ disparaissent après le chargement. (Toujours active avec RSV.)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HPN"
+  },
+  {
+    "original": "(Experimental) The key to find issues when actors do not have genitalia or their genitalia is visible through armor",
+    "string": "(Expérimental) Touche permettant de détecter les problèmes : absence d’organes génitaux ou visibilité à travers l’armure.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HLD"
+  },
+  {
+    "original": "Show all compatible races in the MCM. By default TNG filters non-playable races that have less than 5 NPCs",
+    "string": "Afficher toutes les races compatibles dans le MCM. Par défaut, TNG masque les races non jouables comptant moins de cinq PNJ.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HPR"
+  },
+  {
+    "original": "(Experimental) Go to bed compatibility",
+    "string": "(Expérimental) Compatibilité avec Go to Bed.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_HZZ"
+  },
+  {
+    "original": "Player extra options",
+    "string": "Options supplémentaires du joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_GPH"
+  },
+  {
+    "original": "Compatibility",
+    "string": "Compatibilité",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_GAD"
+  },
+  {
+    "original": "Check after load",
+    "string": "Vérifier après le chargement",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_GPC"
+  },
+  {
+    "original": "Don't change size",
+    "string": "Ne pas modifier la taille",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_GEP"
+  },
+  {
+    "original": "Check NPCs regularly",
+    "string": "Vérifier régulièrement les PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_GNP"
+  },
+  {
+    "original": "Show every race",
+    "string": "Afficher toutes les races",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_GPR"
+  },
+  {
+    "original": "Go To Bed",
+    "string": "Go to Bed",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_GZZ"
+  },
+  {
+    "original": "Logging",
+    "string": "Journal",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_L_H"
+  },
+  {
+    "original": "Log level",
+    "string": "Niveau de journalisation",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_L_T"
+  },
+  {
+    "original": "Show log directory",
+    "string": "Afficher le dossier des journaux",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_L_D"
+  },
+  {
+    "original": "Log directory not found",
+    "string": "Dossier des journaux introuvable",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_LDN"
+  },
+  {
+    "original": "Debug",
+    "string": "Dépannage",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_LLD"
+  },
+  {
+    "original": "Info(Default)",
+    "string": "Informations (par défaut)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_LLI"
+  },
+  {
+    "original": "Warnings and worse",
+    "string": "Avertissements et erreurs",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_LLW"
+  },
+  {
+    "original": "Errors and worse",
+    "string": "Erreurs et critiques",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_LLE"
+  },
+  {
+    "original": "Critical",
+    "string": "Critique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_LLC"
+  },
+  {
+    "original": "Off",
+    "string": "Inactif",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_LLO"
+  },
+  {
+    "original": "Debugging key",
+    "string": "Touche de diagnostic",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_P_K"
+  },
+  {
+    "original": "Never mind",
+    "string": "Laissez tomber.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_P_0"
+  },
+  {
+    "original": "I can see the genital through clothes!",
+    "string": "Je vois l’organe génital à travers les vêtements !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_P_1"
+  },
+  {
+    "original": "I cannot see the genital!",
+    "string": "Je ne vois pas l’organe génital !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_P_2"
+  },
+  {
+    "original": "No issues found with the actor. If you see an issue, please report it.",
+    "string": "Aucun problème détecté sur cet acteur. Si vous en constatez un, veuillez le signaler.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_PD0"
+  },
+  {
+    "original": "An issue was found with the actor. TNG tried to fix it. If the issue is widespread among NPCs, please report it.",
+    "string": "Un problème a été détecté sur cet acteur et TNG a tenté de le corriger. S’il touche de nombreux PNJ, veuillez le signaler.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_PD1"
+  },
+  {
+    "original": "An issue was found with the actor and TNG could not fix it. Please report it.",
+    "string": "Un problème a été détecté sur cet acteur, mais TNG n’a pas pu le corriger. Veuillez le signaler.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_PD2"
+  },
+  {
+    "original": "The current actor cannot be evaluated!",
+    "string": "Impossible d’évaluer l’acteur actuel !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_PD9"
+  },
+  {
+    "original": "The current actor is not wearing any covering items!",
+    "string": "L’acteur actuel ne porte aucun élément couvrant !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_PA1"
+  },
+  {
+    "original": "The current actor is equipping an item on slot 52 which covers genital.!",
+    "string": "L’acteur actuel porte un objet dans le slot 52 qui couvre ses organes génitaux !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_PA2"
+  },
+  {
+    "original": "The current actor is excluded! Use NPC customization key to reset their addon, and it should re-appear!",
+    "string": "Cet acteur est exclu. Utilisez la touche de personnalisation des PNJ pour réinitialiser son addon ; il devrait alors réapparaître !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_PA3"
+  },
+  {
+    "original": "The current actor is a woman and you didn't set women chance to 100!",
+    "string": "L’acteur actuel est une femme, mais vous n’avez pas réglé la probabilité d’attribution aux femmes sur 100 % !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_PA4"
+  },
+  {
+    "original": "The current actor's race is set to have no addons in the MCM menu!",
+    "string": "La race de l’acteur actuel est configurée pour ne recevoir aucun addon dans le MCM !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_PA5"
+  },
+  {
+    "original": "The current actor is wearing a piece of covering items!",
+    "string": "L’acteur actuel porte un élément couvrant !",
+    "status": "TranslationComplete",
+    "mcm_id": "$TNG_PA6"
+  }
+]
