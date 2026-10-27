@@ -1,0 +1,155 @@
+[
+  {
+    "original": "Nordic Crossbow",
+    "string": "Arbalète nordique",
+    "status": "TranslationComplete",
+    "form_id": "0500080C|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_NordicCrossbow"
+  },
+  {
+    "original": "Glass Crossbow",
+    "string": "Arbalète en verre",
+    "status": "TranslationComplete",
+    "form_id": "0500080A|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_GlassCrossbow"
+  },
+  {
+    "original": "Daedric Crossbow",
+    "string": "Arbalète daedrique",
+    "status": "TranslationComplete",
+    "form_id": "05000808|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_DaedricCrossbow"
+  },
+  {
+    "original": "Silver Crossbow",
+    "string": "Arbalète en argent",
+    "status": "TranslationComplete",
+    "form_id": "0500080E|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_SilverCrossbow"
+  },
+  {
+    "original": "Silver Marksman's Crossbow",
+    "string": "Arbalète en argent de tireur d’élite",
+    "status": "TranslationComplete",
+    "form_id": "0500081A|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_SilverCrossbowEnhanced"
+  },
+  {
+    "original": "Dragonbone Crossbow",
+    "string": "Arbalète en os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "05000809|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_DragonboneCrossbow"
+  },
+  {
+    "original": "Dragonbone Marksman's Crossbow",
+    "string": "Arbalète en os de dragon de tireur d’élite",
+    "status": "TranslationComplete",
+    "form_id": "05000815|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_DragonboneCrossbowEnhanced"
+  },
+  {
+    "original": "Orcish Marksman's Crossbow",
+    "string": "Arbalète orque de tireur d’élite",
+    "status": "TranslationComplete",
+    "form_id": "05000819|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_OrcishCrossbowEnhanced"
+  },
+  {
+    "original": "Seeding Quest",
+    "string": "Quête de semailles",
+    "status": "TranslationComplete",
+    "form_id": "0500083E|ccffbsse002-crossbowpack.esl",
+    "type": "QUST FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_Quest"
+  },
+  {
+    "original": "Glass Marksman's Crossbow",
+    "string": "Arbalète en verre de tireur d’élite",
+    "status": "TranslationComplete",
+    "form_id": "05000816|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_GlassCrossbowEnhanced"
+  },
+  {
+    "original": "Nordic Marksman's Crossbow",
+    "string": "Arbalète nordique de tireur d’élite",
+    "status": "TranslationComplete",
+    "form_id": "05000818|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_NordicCrossbowEnhanced"
+  },
+  {
+    "original": "Imperial Marksman's Crossbow",
+    "string": "Arbalète impériale de tireur d’élite",
+    "status": "TranslationComplete",
+    "form_id": "05000817|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_ImperialCrossbowEnhanced"
+  },
+  {
+    "original": "Stalhrim Marksman's Crossbow",
+    "string": "Arbalète en stalhrim de tireur d’élite",
+    "status": "TranslationComplete",
+    "form_id": "0500081B|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_StalhrimCrossbowEnhanced"
+  },
+  {
+    "original": "Stalhrim Crossbow",
+    "string": "Arbalète en stalhrim",
+    "status": "TranslationComplete",
+    "form_id": "0500080F|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_StalhrimCrossbow"
+  },
+  {
+    "original": "Daedric Marksman's Crossbow",
+    "string": "Arbalète daedrique de tireur d’élite",
+    "status": "TranslationComplete",
+    "form_id": "05000814|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_DaedricCrossbowEnhanced"
+  },
+  {
+    "original": "Orcish Crossbow",
+    "string": "Arbalète orque",
+    "status": "TranslationComplete",
+    "form_id": "0500080D|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_OrcishCrossbow"
+  },
+  {
+    "original": "Imperial Crossbow",
+    "string": "Arbalète impériale",
+    "status": "TranslationComplete",
+    "form_id": "0500080B|ccffbsse002-crossbowpack.esl",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ccFFBSSE002_ImperialCrossbow"
+  }
+]

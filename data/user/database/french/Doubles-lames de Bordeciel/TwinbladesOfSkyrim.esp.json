@@ -1,0 +1,209 @@
+[
+  {
+    "original": "DawnBreaker Twinblade",
+    "string": "Double-lame d’Aubéclat",
+    "status": "TranslationComplete",
+    "form_id": "04000802|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwinbladeDawn"
+  },
+  {
+    "original": "Steel Twinblade",
+    "string": "Double-lame d'acier",
+    "status": "TranslationComplete",
+    "form_id": "04000807|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwinbladeSteel"
+  },
+  {
+    "original": "Blades Twinblade",
+    "string": "Double-lame des Lames",
+    "status": "TranslationComplete",
+    "form_id": "0400080A|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwinbladeAkavir"
+  },
+  {
+    "original": "Silver Twinblades",
+    "string": "Double-lame d'argent",
+    "status": "TranslationComplete",
+    "form_id": "0400080C|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwinbladeSilver"
+  },
+  {
+    "original": "Elven Twinblade",
+    "string": "Double-lame elfique",
+    "status": "TranslationComplete",
+    "form_id": "0400080F|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ElvenTwinblades"
+  },
+  {
+    "original": "Glass Twinblade",
+    "string": "Double-lame de verre",
+    "status": "TranslationComplete",
+    "form_id": "04000815|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "GlassTwinblade"
+  },
+  {
+    "original": "Iron Twinblade",
+    "string": "Double-lame de fer",
+    "status": "TranslationComplete",
+    "form_id": "04000818|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronTwinblade"
+  },
+  {
+    "original": "Ebony Twinblade",
+    "string": "Double-lame d'ébonite",
+    "status": "TranslationComplete",
+    "form_id": "0400081A|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyTwinblade"
+  },
+  {
+    "original": "Daedric Twinblade",
+    "string": "Double-lame daedrique",
+    "status": "TranslationComplete",
+    "form_id": "0400081E|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DaedricTwinblade"
+  },
+  {
+    "original": "Dwarven Twinblade",
+    "string": "Double-lame dwemer",
+    "status": "TranslationComplete",
+    "form_id": "04000826|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DwarvenTwinblade"
+  },
+  {
+    "original": "Forsworn Poleblade",
+    "string": "Double-lame de Parjure",
+    "status": "TranslationComplete",
+    "form_id": "04000829|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "ForswornTwinblade"
+  },
+  {
+    "original": "Dragonbone Twinblade",
+    "string": "Double-lame d'os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "0400082F|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC1DragonboneTwinblade"
+  },
+  {
+    "original": "Stalhrim Twinblade",
+    "string": "Double-lame de stalhrim",
+    "status": "TranslationComplete",
+    "form_id": "04000832|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2StalhrimTwinblade"
+  },
+  {
+    "original": "Nordic Twinblade",
+    "string": "Double-lame nordique",
+    "status": "TranslationComplete",
+    "form_id": "04000835|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2NordicTwinblade"
+  },
+  {
+    "original": "Ancient Nord Twinblade",
+    "string": "Double-lame nordique antique affûtée",
+    "status": "TranslationComplete",
+    "form_id": "0400083F|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DraugrTwinbladeHoned"
+  },
+  {
+    "original": "Ancient Nord Twinblade",
+    "string": "Double-lame nordique antique",
+    "status": "TranslationComplete",
+    "form_id": "04000840|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DraugrTwinblade"
+  },
+  {
+    "original": "Dragonbone Twinblade",
+    "string": "Double-lame d'os de dragon",
+    "status": "TranslationComplete",
+    "form_id": "0400084C|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC1DragonmawTwinblade"
+  },
+  {
+    "original": "Imperial Twinblade",
+    "string": "Double-lame impériale",
+    "status": "TranslationComplete",
+    "form_id": "04000850|TwinbladesOfSkyrim.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "TwinbladeImperial"
+  },
+  {
+    "original": "Silver Hand",
+    "string": "Main d'argent",
+    "status": "TranslationComplete",
+    "form_id": "04000838|TwinbladesOfSkyrim.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "LvlSilverhandMelee2HTwinblade"
+  },
+  {
+    "original": "Kilkreath Catacombs",
+    "string": "Catacombes de Primortis",
+    "status": "TranslationComplete",
+    "form_id": "00027D1C|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "KilkreathRuins03"
+  },
+  {
+    "original": "Sky Haven Temple",
+    "string": "Temple d'Havreciel",
+    "status": "TranslationComplete",
+    "form_id": "000161EB|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "SkyHavenTemple"
+  },
+  {
+    "original": "Driftshade Refuge",
+    "string": "Refuge de Pénombris",
+    "status": "TranslationComplete",
+    "form_id": "00015288|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "DriftshadeSanctuary01"
+  },
+  {
+    "original": "Skyrim",
+    "string": "Bordeciel",
+    "status": "TranslationComplete",
+    "form_id": "0000003C|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "Tamriel"
+  }
+]

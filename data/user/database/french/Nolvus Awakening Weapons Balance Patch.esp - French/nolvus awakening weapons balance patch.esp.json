@@ -1,7 +1,7 @@
 [
   {
     "original": "Blades Twinblade",
-    "string": "Lame jumelle akaviri",
+    "string": "Double-lame des Lames",
     "status": "TranslationComplete",
     "form_id": "5500080A|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -10,7 +10,7 @@
   },
   {
     "original": "Hearthguard Greatsword",
-    "string": "Espadon de garde-coeur",
+    "string": "Espadon de garde du logis",
     "status": "TranslationComplete",
     "form_id": "0400088F|Armors of the Velothi Pt2.esl",
     "type": "WEAP FULL",
@@ -244,7 +244,7 @@
   },
   {
     "original": "Iron Twinblade",
-    "string": "Lame jumelle en fer",
+    "string": "Double-lame de fer",
     "status": "TranslationComplete",
     "form_id": "55000818|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -595,7 +595,7 @@
   },
   {
     "original": "Dragon Fang",
-    "string": "Croc de dragon",
+    "string": "Croc-de-dragon",
     "status": "TranslationComplete",
     "form_id": "23000D63|[Ghozgul] Dragon Fang.esp",
     "type": "WEAP FULL",
@@ -604,7 +604,7 @@
   },
   {
     "original": "Dragonbone Twinblade",
-    "string": "Lame jumelle en os de dragon",
+    "string": "Double-lame d'os de dragon",
     "status": "TranslationComplete",
     "form_id": "5500082F|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -613,7 +613,7 @@
   },
   {
     "original": "Ancient Nord Twinblade",
-    "string": "Lame jumelle nordique antique",
+    "string": "Double-lame nordique antique",
     "status": "TranslationComplete",
     "form_id": "55000840|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -865,7 +865,7 @@
   },
   {
     "original": "Baltimore Dagger",
-    "string": "Dague de Baltimore",
+    "string": "Poignard de Baltimore",
     "status": "TranslationComplete",
     "form_id": "0B000804|Baltimore Weapons.esp",
     "type": "WEAP FULL",
@@ -901,7 +901,7 @@
   },
   {
     "original": "Dark Dragonbone Greatsword",
-    "string": "Espadon sombre en os de dragon",
+    "string": "Espadon d'os de dragon sombre",
     "status": "TranslationComplete",
     "form_id": "05001064|JSwords.esm",
     "type": "WEAP FULL",
@@ -1099,7 +1099,7 @@
   },
   {
     "original": "Greatsword",
-    "string": "Lespadon",
+    "string": "Espadon",
     "status": "TranslationComplete",
     "form_id": "0A000829|Billyro's Weapons.esp",
     "type": "WEAP FULL",
@@ -1135,7 +1135,7 @@
   },
   {
     "original": "Knight's Greatsword",
-    "string": "Espadon bréton en acier",
+    "string": "Espadon de chevalier",
     "status": "TranslationComplete",
     "form_id": "030A0010|JSwords.esm",
     "type": "WEAP FULL",
@@ -1171,7 +1171,7 @@
   },
   {
     "original": "Glass Quarterstaff",
-    "string": "Bâton en verre",
+    "string": "Bâton de verre",
     "status": "TranslationComplete",
     "form_id": "1C000819|Quarterstaff.esp",
     "type": "WEAP FULL",
@@ -1234,7 +1234,7 @@
   },
   {
     "original": "Dragonsting Dagger",
-    "string": "Dague dragon sertie",
+    "string": "Dague Dard-de-dragon",
     "status": "TranslationComplete",
     "form_id": "03001028|JSwords.esm",
     "type": "WEAP FULL",
@@ -1279,7 +1279,7 @@
   },
   {
     "original": "Glass Twinblade",
-    "string": "Lame jumelle en verre",
+    "string": "Double-lame de verre",
     "status": "TranslationComplete",
     "form_id": "55000815|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -1297,7 +1297,7 @@
   },
   {
     "original": "Steel Twinblade",
-    "string": "Lame jumelle en acier",
+    "string": "Double-lame d'acier",
     "status": "TranslationComplete",
     "form_id": "55000807|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -1756,7 +1756,7 @@
   },
   {
     "original": "Imperial Twinblade",
-    "string": "Lame jumelle impériale",
+    "string": "Double-lame impériale",
     "status": "TranslationComplete",
     "form_id": "55000850|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -1909,7 +1909,7 @@
   },
   {
     "original": "Dwarven Twinblade",
-    "string": "Lame jumelle dwemer",
+    "string": "Double-lame dwemer",
     "status": "TranslationComplete",
     "form_id": "55000826|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -1927,7 +1927,7 @@
   },
   {
     "original": "Silver Twinblades",
-    "string": "Lame jumelle en argent",
+    "string": "Double-lame d'argent",
     "status": "TranslationComplete",
     "form_id": "5500080C|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -1963,7 +1963,7 @@
   },
   {
     "original": "Baltimore Falchion",
-    "string": "Falshion de Baltimore",
+    "string": "Fauchon de Baltimore",
     "status": "TranslationComplete",
     "form_id": "0B000D62|Baltimore Weapons.esp",
     "type": "WEAP FULL",
@@ -2008,7 +2008,7 @@
   },
   {
     "original": "DawnBreaker Twinblade",
-    "string": "Lame jumelle aubéclat",
+    "string": "Double-lame d’Aubéclat",
     "status": "TranslationComplete",
     "form_id": "55000802|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -2233,7 +2233,7 @@
   },
   {
     "original": "Ebony Twinblade",
-    "string": "Lame jumelle en ébonite",
+    "string": "Double-lame d'ébonite",
     "status": "TranslationComplete",
     "form_id": "5500081A|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -2287,7 +2287,7 @@
   },
   {
     "original": "Nord Steel Sword",
-    "string": "Épée nordique en acier",
+    "string": "Épée d'acier nordique",
     "status": "TranslationComplete",
     "form_id": "05001022|JSwords.esm",
     "type": "WEAP FULL",
@@ -2530,7 +2530,7 @@
   },
   {
     "original": "Steel Quarterstaff",
-    "string": "Bâton en Acier",
+    "string": "Bâton d'acier",
     "status": "TranslationComplete",
     "form_id": "1C000808|Quarterstaff.esp",
     "type": "WEAP FULL",
@@ -2710,7 +2710,7 @@
   },
   {
     "original": "Ebony Quarterstaff",
-    "string": "Bâton d'Ébonite",
+    "string": "Bâton d'ébonite",
     "status": "TranslationComplete",
     "form_id": "1C00080B|Quarterstaff.esp",
     "type": "WEAP FULL",
@@ -2773,7 +2773,7 @@
   },
   {
     "original": "Morag Tong Grandmaster Sword",
-    "string": "Épée de grand maître de la Morag Tong",
+    "string": "Épée de grand-maître de la Morag Tong",
     "status": "TranslationComplete",
     "form_id": "0400088B|Armors of the Velothi Pt2.esl",
     "type": "WEAP FULL",
@@ -2872,7 +2872,7 @@
   },
   {
     "original": "Daedric Twinblade",
-    "string": "Lame jumelle daedrique",
+    "string": "Double-lame daedrique",
     "status": "TranslationComplete",
     "form_id": "5500081E|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -2953,7 +2953,7 @@
   },
   {
     "original": "Anathros Greatsword",
-    "string": "Anathros [2M]",
+    "string": "Espadon d’Anathros",
     "status": "TranslationComplete",
     "form_id": "2F000D66|Anathros.esp",
     "type": "WEAP FULL",
@@ -2962,7 +2962,7 @@
   },
   {
     "original": "Elven Quarterstaff",
-    "string": "Bâton Elfique",
+    "string": "Bâton elfe",
     "status": "TranslationComplete",
     "form_id": "1C00080A|Quarterstaff.esp",
     "type": "WEAP FULL",
@@ -3070,7 +3070,7 @@
   },
   {
     "original": "Fine Norse Axe",
-    "string": "Hache nordique",
+    "string": "Hache nordique de qualité",
     "status": "TranslationComplete",
     "form_id": "0300100C|JSwords.esm",
     "type": "WEAP FULL",
@@ -3142,7 +3142,7 @@
   },
   {
     "original": "Forsworn Poleblade",
-    "string": "Lame jumelle parjure",
+    "string": "Double-lame de Parjure",
     "status": "TranslationComplete",
     "form_id": "55000829|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -3187,7 +3187,7 @@
   },
   {
     "original": "Argonian Dagger",
-    "string": "Lame argonienne",
+    "string": "Dague argonienne",
     "status": "TranslationComplete",
     "form_id": "030A0008|JSwords.esm",
     "type": "WEAP FULL",
@@ -3205,7 +3205,7 @@
   },
   {
     "original": "Ceremonial Tsaesci Sword",
-    "string": "Lame de jade",
+    "string": "Épée tsaesci cérémonielle",
     "status": "TranslationComplete",
     "form_id": "030A0019|JSwords.esm",
     "type": "WEAP FULL",
@@ -3232,7 +3232,7 @@
   },
   {
     "original": "Hearthguard Sword",
-    "string": "Espadon de garde-coeur",
+    "string": "Épée de garde du logis",
     "status": "TranslationComplete",
     "form_id": "04000890|Armors of the Velothi Pt2.esl",
     "type": "WEAP FULL",
@@ -3421,7 +3421,7 @@
   },
   {
     "original": "Elven Twinblade",
-    "string": "Lame jumelle elfique",
+    "string": "Double-lame elfique",
     "status": "TranslationComplete",
     "form_id": "5500080F|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -3448,7 +3448,7 @@
   },
   {
     "original": "Dwarven Quarterstaff",
-    "string": "Bâton Dwemer",
+    "string": "Bâton dwemer",
     "status": "TranslationComplete",
     "form_id": "1C000803|Quarterstaff.esp",
     "type": "WEAP FULL",
@@ -3502,7 +3502,7 @@
   },
   {
     "original": "Gilded Scimitar",
-    "string": "Cimeterre élégant",
+    "string": "Cimeterre doré",
     "status": "TranslationComplete",
     "form_id": "03001048|JSwords.esm",
     "type": "WEAP FULL",
@@ -3556,7 +3556,7 @@
   },
   {
     "original": "Clara's Dagger",
-    "string": "Plume de Treva",
+    "string": "Dague de Clara",
     "status": "TranslationComplete",
     "form_id": "0A00081C|Billyro's Weapons.esp",
     "type": "WEAP FULL",
@@ -3583,7 +3583,7 @@
   },
   {
     "original": "Argonian Greatsword",
-    "string": "Lame longue argonienne",
+    "string": "Espadon argonien",
     "status": "TranslationComplete",
     "form_id": "030A0011|JSwords.esm",
     "type": "WEAP FULL",
@@ -3817,7 +3817,7 @@
   },
   {
     "original": "Dragonbone Twinblade",
-    "string": "Lame jumelle en os de dragon",
+    "string": "Double-lame d'os de dragon",
     "status": "TranslationComplete",
     "form_id": "5500084C|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -3835,7 +3835,7 @@
   },
   {
     "original": "Nordic Twinblade",
-    "string": "Lame jumelle nordique",
+    "string": "Double-lame nordique",
     "status": "TranslationComplete",
     "form_id": "55000835|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",
@@ -3925,7 +3925,7 @@
   },
   {
     "original": "Daedric Quarterstaff",
-    "string": "Bâton daedrique",
+    "string": "Bâton daedra",
     "status": "TranslationComplete",
     "form_id": "1C000817|Quarterstaff.esp",
     "type": "WEAP FULL",
@@ -3970,7 +3970,7 @@
   },
   {
     "original": "Orcish Quarterstaff",
-    "string": "Bâton Orque",
+    "string": "Bâton orque",
     "status": "TranslationComplete",
     "form_id": "1C000809|Quarterstaff.esp",
     "type": "WEAP FULL",
@@ -4186,7 +4186,7 @@
   },
   {
     "original": "Stalhrim Twinblade",
-    "string": "Lame jumelle en stalhrim",
+    "string": "Double-lame de stalhrim",
     "status": "TranslationComplete",
     "form_id": "55000832|TwinbladesOfSkyrim.esp",
     "type": "WEAP FULL",

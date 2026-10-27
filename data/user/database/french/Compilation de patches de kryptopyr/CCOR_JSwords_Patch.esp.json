@@ -1,0 +1,731 @@
+[
+  {
+    "original": "Steel Fighting Dagger",
+    "string": "Dague d'acier de combat",
+    "status": "TranslationComplete",
+    "form_id": "06001000|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDagger"
+  },
+  {
+    "original": "Nordic Blade",
+    "string": "Lame nordique",
+    "status": "TranslationComplete",
+    "form_id": "06001001|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsBlade1"
+  },
+  {
+    "original": "Crusader's Steel Greatsword",
+    "string": "Espadon d'acier de croisé",
+    "status": "TranslationComplete",
+    "form_id": "06001002|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsCrusader1b"
+  },
+  {
+    "original": "Azurbrand",
+    "string": "Lamedazur",
+    "status": "TranslationComplete",
+    "form_id": "06001003|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsMeanSword"
+  },
+  {
+    "original": "Nord Axe",
+    "string": "Hache nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600100C|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDaneAxe1h"
+  },
+  {
+    "original": "Nord Great Axe",
+    "string": "Hache d'armes nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600100F|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDaneAxe2H"
+  },
+  {
+    "original": "Crusader's Silver Sword",
+    "string": "Épée de croisé argentée",
+    "status": "TranslationComplete",
+    "form_id": "06001014|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsCrusader2grey"
+  },
+  {
+    "original": "Crusader's Gilded Sword",
+    "string": "Épée de croisé dorée",
+    "status": "TranslationComplete",
+    "form_id": "06001015|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsCrusader2gold"
+  },
+  {
+    "original": "Elegant Gilded Nord Sword",
+    "string": "Épée nordique élégante dorée",
+    "status": "TranslationComplete",
+    "form_id": "06001019|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsViking1"
+  },
+  {
+    "original": "Elegant Nord Sword",
+    "string": "Épée nordique élégante",
+    "status": "TranslationComplete",
+    "form_id": "0600101A|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsViking1grey"
+  },
+  {
+    "original": "Crusader's Steel Sword",
+    "string": "Épée d'acier de croisé",
+    "status": "TranslationComplete",
+    "form_id": "06001020|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsCrusader1"
+  },
+  {
+    "original": "Nord Steel Sword",
+    "string": "Épée d'acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06001022|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsNorse"
+  },
+  {
+    "original": "Dragonsting Dagger",
+    "string": "Dague Dard-de-dragon",
+    "status": "TranslationComplete",
+    "form_id": "06001028|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDaggerA01"
+  },
+  {
+    "original": "Dragonsting Sword",
+    "string": "Épée dragon sertie",
+    "status": "TranslationComplete",
+    "form_id": "0600102C|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDaggerA01b"
+  },
+  {
+    "original": "Albensword",
+    "string": "Épée alben",
+    "status": "TranslationComplete",
+    "form_id": "06001031|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsAlbensword"
+  },
+  {
+    "original": "Gungnir",
+    "string": "Gungnir",
+    "status": "TranslationComplete",
+    "form_id": "06001038|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsGungnir"
+  },
+  {
+    "original": "Corsair's Knife",
+    "string": "Couteau de corsaire",
+    "status": "TranslationComplete",
+    "form_id": "06001039|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsHuntingSword"
+  },
+  {
+    "original": "Corsair's Knife",
+    "string": "Couteau de corsaire",
+    "status": "TranslationComplete",
+    "form_id": "0600103F|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsHuntingSwordBlack"
+  },
+  {
+    "original": "Corsair's Sword",
+    "string": "Épée de corsaire",
+    "status": "TranslationComplete",
+    "form_id": "06001040|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsHuntingSwordLong"
+  },
+  {
+    "original": "Corsair's Sword",
+    "string": "Épée de corsaire",
+    "status": "TranslationComplete",
+    "form_id": "06001041|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsHuntingSwordLongBlack"
+  },
+  {
+    "original": "Elegant Scimitar",
+    "string": "Cimeterre élégant",
+    "status": "TranslationComplete",
+    "form_id": "06001048|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsScimitar"
+  },
+  {
+    "original": "Dragonbrand",
+    "string": "Lamedragon",
+    "status": "TranslationComplete",
+    "form_id": "0600104D|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonbrand"
+  },
+  {
+    "original": "Breton Knight's Greatsword",
+    "string": "Espadon de chevalier bréton",
+    "status": "TranslationComplete",
+    "form_id": "06001051|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsFineBastard"
+  },
+  {
+    "original": "Khajiit Saber",
+    "string": "Sabre khajiit",
+    "status": "TranslationComplete",
+    "form_id": "06001056|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsKhajiitSaber"
+  },
+  {
+    "original": "Blade of Dibella",
+    "string": "Lame de Dibella",
+    "status": "TranslationComplete",
+    "form_id": "0600105A|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDibella"
+  },
+  {
+    "original": "Dark Dragonbone Sword",
+    "string": "Épée d'os de dragon sombre",
+    "status": "TranslationComplete",
+    "form_id": "0600105E|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonboneSword1h"
+  },
+  {
+    "original": "Dark Dragonbone Greatsword",
+    "string": "Espadon d'os de dragon sombre",
+    "status": "TranslationComplete",
+    "form_id": "06001064|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonboneSword2H"
+  },
+  {
+    "original": "Dark Dragonbone Battleaxe",
+    "string": "Hache d'armes d'os de dragon sombre",
+    "status": "TranslationComplete",
+    "form_id": "06001065|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonboneAxe2H"
+  },
+  {
+    "original": "Dark Dragonbone War Axe",
+    "string": "Hache d'os de dragon sombre",
+    "status": "TranslationComplete",
+    "form_id": "06001066|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonboneAxe1H"
+  },
+  {
+    "original": "Imperial Legionnaire's Sword",
+    "string": "Épée de légionnaire impérial",
+    "status": "TranslationComplete",
+    "form_id": "0600106D|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsGladius"
+  },
+  {
+    "original": "Baskethilt Sword",
+    "string": "Épée à garde panier",
+    "status": "TranslationComplete",
+    "form_id": "06001075|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsBaskethilt"
+  },
+  {
+    "original": "Ancient Nordic Sword",
+    "string": "Épée nordique antique",
+    "status": "TranslationComplete",
+    "form_id": "06001076|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsBronzesword"
+  },
+  {
+    "original": "Ancient Corundum Blade",
+    "string": "Lame de corindon légendaire",
+    "status": "TranslationComplete",
+    "form_id": "06001077|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsGouJiAn"
+  },
+  {
+    "original": "Breton Steel Bastard Sword",
+    "string": "Épée bâtarde d'acier bréton",
+    "status": "TranslationComplete",
+    "form_id": "06001078|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsBastardSword"
+  },
+  {
+    "original": "Dovah Luv",
+    "string": "Dovah Luv",
+    "status": "TranslationComplete",
+    "form_id": "06001084|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonHilt"
+  },
+  {
+    "original": "Breton Steel Sword",
+    "string": "Épée d'acier bréton",
+    "status": "TranslationComplete",
+    "form_id": "060A0001|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsKnights1H"
+  },
+  {
+    "original": "Breton Iron Sword",
+    "string": "Épée de fer bréton",
+    "status": "TranslationComplete",
+    "form_id": "060A0002|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsFineIron"
+  },
+  {
+    "original": "Sidering Sword",
+    "string": "Épée sublime",
+    "status": "TranslationComplete",
+    "form_id": "060A0003|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsMagnificent"
+  },
+  {
+    "original": "Smallsword",
+    "string": "Épée courte",
+    "status": "TranslationComplete",
+    "form_id": "060A0004|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsSmallsword"
+  },
+  {
+    "original": "Steel Boarding Sword",
+    "string": "Épée d'acier d'abordage",
+    "status": "TranslationComplete",
+    "form_id": "060A0005|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsBoardingKnife"
+  },
+  {
+    "original": "Shiavonna",
+    "string": "Shiavonna",
+    "status": "TranslationComplete",
+    "form_id": "060A0006|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsShiavonna"
+  },
+  {
+    "original": "Akaviri Blade",
+    "string": "Lame akaviri",
+    "status": "TranslationComplete",
+    "form_id": "060A0007|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsAkavirii"
+  },
+  {
+    "original": "Argonian Blade",
+    "string": "Lame argonienne",
+    "status": "TranslationComplete",
+    "form_id": "060A0008|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsArgonian1H"
+  },
+  {
+    "original": "Akaviri Saber",
+    "string": "Sabre akaviri",
+    "status": "TranslationComplete",
+    "form_id": "060A0009|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsNihontoWak"
+  },
+  {
+    "original": "Breton Steel Greatsword",
+    "string": "Espadon d'acier bréton",
+    "status": "TranslationComplete",
+    "form_id": "060A0010|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsKnights2H"
+  },
+  {
+    "original": "Argonian Battleblade",
+    "string": "Lame longue argonienne",
+    "status": "TranslationComplete",
+    "form_id": "060A0011|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsArgonian2H"
+  },
+  {
+    "original": "Akaviri Battlesaber",
+    "string": "Sabre long akaviri",
+    "status": "TranslationComplete",
+    "form_id": "060A0012|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsNihontoKat"
+  },
+  {
+    "original": "Iron Woodsman's Axe",
+    "string": "Hache de fer de bûcheron",
+    "status": "TranslationComplete",
+    "form_id": "060A0013|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsAxeA"
+  },
+  {
+    "original": "Crude Iron Axe",
+    "string": "Hache de fer simple",
+    "status": "TranslationComplete",
+    "form_id": "060A0014|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsAxeB"
+  },
+  {
+    "original": "Nord Iron Axe",
+    "string": "Hache de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "060A0015|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsAxeC"
+  },
+  {
+    "original": "Iron Hunting Knife",
+    "string": "Couteau de fer de chasse",
+    "status": "TranslationComplete",
+    "form_id": "060A0016|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsKnifeA"
+  },
+  {
+    "original": "Akaviri Short Saber",
+    "string": "Sabre court akaviri",
+    "status": "TranslationComplete",
+    "form_id": "060A0017|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsNihontoWakShort"
+  },
+  {
+    "original": "Jade Blade",
+    "string": "Lame de jade",
+    "status": "TranslationComplete",
+    "form_id": "060A0019|JSwords.esm",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsJianA"
+  },
+  {
+    "original": "Dibellan Dagger",
+    "string": "Dague de Dibella",
+    "status": "TranslationComplete",
+    "form_id": "09000946|CCOR_JSwords_Patch.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDibellaReplica_CCO"
+  },
+  {
+    "original": "Dragonslayer Sword",
+    "string": "Épée de tueur de dragons",
+    "status": "TranslationComplete",
+    "form_id": "09000947|CCOR_JSwords_Patch.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonbrandReplica_CCO"
+  },
+  {
+    "original": "Dovah Blade",
+    "string": "Lame de Dovah",
+    "status": "TranslationComplete",
+    "form_id": "09000948|CCOR_JSwords_Patch.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsDragonHiltReplica_CCO"
+  },
+  {
+    "original": "Corundum Blade",
+    "string": "Lame de corindon",
+    "status": "TranslationComplete",
+    "form_id": "09000949|CCOR_JSwords_Patch.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsGouJiAnReplica_CCO"
+  },
+  {
+    "original": "Tsaesci Jade Sword",
+    "string": "Épée de jade tsaesci",
+    "status": "TranslationComplete",
+    "form_id": "0900094A|CCOR_JSwords_Patch.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsJianAReplica_CCO"
+  },
+  {
+    "original": "Necromancer's Sword",
+    "string": "Épée de nécromancien",
+    "status": "TranslationComplete",
+    "form_id": "0900094B|CCOR_JSwords_Patch.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsMeanSwordReplica_CCO"
+  },
+  {
+    "original": "Thane's Blade",
+    "string": "Lame de thane",
+    "status": "TranslationComplete",
+    "form_id": "0900094C|CCOR_JSwords_Patch.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "JSwordsGungnirReplica_CCO"
+  },
+  {
+    "original": "Ma'jhad",
+    "string": "Ma'jhad",
+    "status": "TranslationComplete",
+    "form_id": "0001B1D5|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Majhad"
+  },
+  {
+    "original": "Ahkari",
+    "string": "Ahkari",
+    "status": "TranslationComplete",
+    "form_id": "0001B1D6|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ahkari"
+  },
+  {
+    "original": "Ma'randru-jo",
+    "string": "Ma'randru-jo",
+    "status": "TranslationComplete",
+    "form_id": "0001B1D7|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Marandrujo"
+  },
+  {
+    "original": "Khayla",
+    "string": "Khayla",
+    "status": "TranslationComplete",
+    "form_id": "0001B1D9|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Khayla"
+  },
+  {
+    "original": "Atahbah",
+    "string": "Atahbah",
+    "status": "TranslationComplete",
+    "form_id": "0001B1DA|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Atahba"
+  },
+  {
+    "original": "Ri'saad",
+    "string": "Ri'saad",
+    "status": "TranslationComplete",
+    "form_id": "0001B1DB|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Risaad"
+  },
+  {
+    "original": "Alik'r Warrior",
+    "string": "Guerrier alik'r",
+    "status": "TranslationComplete",
+    "form_id": "00020071|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS08AlikrWarrior"
+  },
+  {
+    "original": "Kematu",
+    "string": "Kematu",
+    "status": "TranslationComplete",
+    "form_id": "00021601|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS08Kematu"
+  },
+  {
+    "original": "Alik'r Warrior",
+    "string": "Guerrier alik'r",
+    "status": "TranslationComplete",
+    "form_id": "00055FB2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS08AlikrWarriorWhiterun"
+  },
+  {
+    "original": "Alik'r Warrior",
+    "string": "Guerrier alik'r",
+    "status": "TranslationComplete",
+    "form_id": "00058B3F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS08AlikrKematuGuard"
+  },
+  {
+    "original": "Hunter",
+    "string": "Chasseur",
+    "status": "TranslationComplete",
+    "form_id": "00073FBE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHunter00Template"
+  },
+  {
+    "original": "Khajiit",
+    "string": "Khajiit",
+    "status": "TranslationComplete",
+    "form_id": "00097DA9|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "TreasCorpseCommonerKhajiitGuard"
+  },
+  {
+    "original": "Vigilant of Stendarr",
+    "string": "Vigile de Stendarr",
+    "status": "TranslationComplete",
+    "form_id": "000BFB54|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncVigilantOfStendarr00Template"
+  },
+  {
+    "original": "Vigilant",
+    "string": "Vigile",
+    "status": "TranslationComplete",
+    "form_id": "000BFB54|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "EncVigilantOfStendarr00Template"
+  },
+  {
+    "original": "Khajiit",
+    "string": "Khajiit",
+    "status": "TranslationComplete",
+    "form_id": "00105551|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WEAdventurerWarriorDualKhajiitM"
+  },
+  {
+    "original": "Sleeping Giant Inn",
+    "string": "Auberge du Géant endormi",
+    "status": "TranslationComplete",
+    "form_id": "000133C6|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiverwoodSleepingGiantInn"
+  },
+  {
+    "original": "Ilinalta's Deluge",
+    "string": "Déluge d'Ilinalta",
+    "status": "TranslationComplete",
+    "form_id": "0003FC8F|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "IlinaltasDeep02"
+  },
+  {
+    "original": "Ustengrav Depths",
+    "string": "Tréfonds d'Ustengrav",
+    "status": "TranslationComplete",
+    "form_id": "000152AA|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "Ustengrav02"
+  },
+  {
+    "original": "Skyrim",
+    "string": "Bordeciel",
+    "status": "TranslationComplete",
+    "form_id": "0000003C|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "Tamriel"
+  },
+  {
+    "original": "Skuldafn",
+    "string": "Skuldafn",
+    "status": "TranslationComplete",
+    "form_id": "000278DD|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "SkuldafnWorld"
+  },
+  {
+    "original": "Brinewater Grotto",
+    "string": "Grotte de Merleau",
+    "status": "TranslationComplete",
+    "form_id": "00050015|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "BrinewaterGrottoWorld"
+  }
+]

@@ -1,0 +1,776 @@
+[
+  {
+    "original": "Northern Steel Mace",
+    "string": "Masse d'acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600082F|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelMace_NW"
+  },
+  {
+    "original": "Rusty Plate Armor",
+    "string": "Armure de plaque rouillée",
+    "status": "TranslationComplete",
+    "form_id": "06000968|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelPlateCuirass_NW"
+  },
+  {
+    "original": "Dwarven Guardian Sword",
+    "string": "Épée de gardien dwemer",
+    "status": "TranslationComplete",
+    "form_id": "06000833|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DwarvenSword_NW"
+  },
+  {
+    "original": "Ebony Knight Arrow",
+    "string": "Flèche de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "06000802|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "PROJ FULL",
+    "index": null,
+    "editor_id": "ArrowEbonyProjectile_NW"
+  },
+  {
+    "original": "Northern Steel Sword",
+    "string": "Épée en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000830|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelSword_NW"
+  },
+  {
+    "original": "Nordic Steel Warhammer",
+    "string": "Marteau en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600084D|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2NordicWarhammer_NW"
+  },
+  {
+    "original": "Nordic Steel Bow",
+    "string": "Arc en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000847|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2NordicBow_NW"
+  },
+  {
+    "original": "Lamellar Greaves",
+    "string": "Jambières lamellaires",
+    "status": "TranslationComplete",
+    "form_id": "06000971|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorScaledBoots_NW"
+  },
+  {
+    "original": "Nordic Steel Battleaxe",
+    "string": "Hache d’armes en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000846|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2NordicBattleaxe_NW"
+  },
+  {
+    "original": "Northern Leather Boots",
+    "string": "Bottes en cuir nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000958|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorLeatherBoots_NW"
+  },
+  {
+    "original": "Ebony Knight Battleaxe",
+    "string": "Hache d’armes du chevalier d’ébonite",
+    "status": "TranslationComplete",
+    "form_id": "06000835|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyBattleaxe_NW"
+  },
+  {
+    "original": "Dwarven Guardian Armor",
+    "string": "Armure de gardien dwemer",
+    "status": "TranslationComplete",
+    "form_id": "0600095E|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorDwarvenCuirass_NW"
+  },
+  {
+    "original": "Northern Steel Bracers",
+    "string": "Bracelets en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000985|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelGauntletsB_NW"
+  },
+  {
+    "original": "Dwarven Guardian Boots",
+    "string": "Bottes de gardien dwemer",
+    "status": "TranslationComplete",
+    "form_id": "0600095D|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorDwarvenBoots_NW"
+  },
+  {
+    "original": "Rusty Plate Gauntlets",
+    "string": "Gantelets en plaques rouillées",
+    "status": "TranslationComplete",
+    "form_id": "06000969|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelPlateGauntlets_NW"
+  },
+  {
+    "original": "Nordic Steel Dagger",
+    "string": "Dague en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000848|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2NordicDagger_NW"
+  },
+  {
+    "original": "Northern Hide Helmet",
+    "string": "Casque de peau nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000957|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorHideHelmet_NW"
+  },
+  {
+    "original": "Ebony Knight Greatsword",
+    "string": "Espadon du chevalier d’ébonite",
+    "status": "TranslationComplete",
+    "form_id": "0600084E|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyGreatsword_NW"
+  },
+  {
+    "original": "Northern Steel Battleaxe",
+    "string": "Hache d’armes en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600082C|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelBattleaxe_NW"
+  },
+  {
+    "original": "Northern Hide Boots",
+    "string": "Bottes de peau nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000954|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorHideBoots_NW"
+  },
+  {
+    "original": "Ebony Knight Bow",
+    "string": "Arc de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "06000836|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyBow_NW"
+  },
+  {
+    "original": "Northern Steel Gauntlets",
+    "string": "Gantelets en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000964|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelGauntletsA_NW"
+  },
+  {
+    "original": "Northern Hide Bracers",
+    "string": "Bracelets de peau nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000956|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorHideGauntlets_NW"
+  },
+  {
+    "original": "Northern Iron Warhammer",
+    "string": "Marteau de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000829|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronWarhammer_NW"
+  },
+  {
+    "original": "Northern Reinforced Steel Armor",
+    "string": "Armure d'acier renforcée de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000984|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelCuirassB_NW"
+  },
+  {
+    "original": "Dwarven Guardian Shield",
+    "string": "Bouclier de gardien dwemer",
+    "status": "TranslationComplete",
+    "form_id": "06000961|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorDwarvenShield_NW"
+  },
+  {
+    "original": "Lamellar Armor",
+    "string": "Armure lamellaire",
+    "status": "TranslationComplete",
+    "form_id": "06000975|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorScaledCuirass_NW"
+  },
+  {
+    "original": "Northern Iron Armor with Pauldrons",
+    "string": "Armure de fer nordique avec épaulière",
+    "status": "TranslationComplete",
+    "form_id": "0600095B|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorIronBandedCuirass_NW"
+  },
+  {
+    "original": "Northern Iron Sword",
+    "string": "Épée de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000824|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronSword_NW"
+  },
+  {
+    "original": "Nordic Steel Sword",
+    "string": "Épée en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600084B|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2NordicSword_NW"
+  },
+  {
+    "original": "Lamellar Bracers",
+    "string": "Bracelets lamellaires",
+    "status": "TranslationComplete",
+    "form_id": "06000972|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorScaledGauntlets_NW"
+  },
+  {
+    "original": "Harbinger's Wolf Helmet",
+    "string": "Casque de loup du héraut",
+    "status": "TranslationComplete",
+    "form_id": "06000978|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorCompanionsHelmet_NW"
+  },
+  {
+    "original": "Northern Leather Armor",
+    "string": "Armure de cuir nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000977|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorLeatherCuirass_NW"
+  },
+  {
+    "original": "Ebony Knight Boots",
+    "string": "Bottes de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "0600096B|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorEbonyBoots_NW"
+  },
+  {
+    "original": "Northern Leather Bracers",
+    "string": "Bracelets en cuir nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000959|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorLeatherGauntlets_NW"
+  },
+  {
+    "original": "Harbinger's Armor",
+    "string": "Armure du héraut",
+    "status": "TranslationComplete",
+    "form_id": "06000980|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorCompanionsCuirass_NW"
+  },
+  {
+    "original": "Ebony Knight Mace",
+    "string": "Masse de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "0600084F|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyMace_NW"
+  },
+  {
+    "original": "Harbinger's Wolf Armor",
+    "string": "Armure de loup du héraut",
+    "status": "TranslationComplete",
+    "form_id": "06000948|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorCompanionsCuirass1_NW"
+  },
+  {
+    "original": "Northern Iron Armor",
+    "string": "Armure de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000950|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorIronCuirass_NW"
+  },
+  {
+    "original": "Nordic Steel Arrow",
+    "string": "Flèche en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000801|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "AMMO FULL",
+    "index": null,
+    "editor_id": "DLC2NordicArrow_NW"
+  },
+  {
+    "original": "Ebony Knight Armor",
+    "string": "Armure de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "0600096C|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorEbonyCuirass_NW"
+  },
+  {
+    "original": "Northern Hide Armor",
+    "string": "Armure de peau nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000955|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorHideCuirass_NW"
+  },
+  {
+    "original": "Ebony Knight Sword",
+    "string": "Épée de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "06000850|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonySword_NW"
+  },
+  {
+    "original": "Ebony Knight War Axe",
+    "string": "Hache de guerre de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "06000834|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyWarAxe_NW"
+  },
+  {
+    "original": "Nordic Steel Greatsword",
+    "string": "Espadon en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000849|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2NordicGreatsword_NW"
+  },
+  {
+    "original": "Nordic Steel War Axe",
+    "string": "Hache de guerre en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600084C|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2NordicWarAxe_NW"
+  },
+  {
+    "original": "Harbinger's Shield",
+    "string": "Bouclier du héraut",
+    "status": "TranslationComplete",
+    "form_id": "06000AA2|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorCompanionsShield_NW"
+  },
+  {
+    "original": "Dwarven Guardian Helmet",
+    "string": "Casque de gardien dwemer",
+    "status": "TranslationComplete",
+    "form_id": "06000960|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorDwarvenHelmet_NW"
+  },
+  {
+    "original": "Ebony Knight Shield",
+    "string": "Bouclier de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "0600096F|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorEbonyShield_NW"
+  },
+  {
+    "original": "Northern Iron Shield",
+    "string": "Bouclier de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000953|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorIronShield_NW"
+  },
+  {
+    "original": "Ebony Knight Dagger",
+    "string": "Dague du chevalier d’ébonite",
+    "status": "TranslationComplete",
+    "form_id": "06000837|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyDagger_NW"
+  },
+  {
+    "original": "Harbinger's Helmet",
+    "string": "Casque du héraut",
+    "status": "TranslationComplete",
+    "form_id": "06000949|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorCompanionsHelmet1_NW"
+  },
+  {
+    "original": "Dwarven Guardian Gauntlets",
+    "string": "Gantelets de gardien dwemer",
+    "status": "TranslationComplete",
+    "form_id": "0600095F|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorDwarvenGauntlets_NW"
+  },
+  {
+    "original": "Rusty Plate Boots",
+    "string": "Bottes de plaque rouillée",
+    "status": "TranslationComplete",
+    "form_id": "06000967|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelPlateBoots_NW"
+  },
+  {
+    "original": "Harbinger's Gauntlets",
+    "string": "Gantelets du héraut",
+    "status": "TranslationComplete",
+    "form_id": "06000982|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorCompanionsGauntlets_NW"
+  },
+  {
+    "original": "Northern Steel Boots",
+    "string": "Bottes en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000983|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelBootsB_NW"
+  },
+  {
+    "original": "Northern Steel Greatsword",
+    "string": "Espadon en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600082E|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelGreatsword_NW"
+  },
+  {
+    "original": "Northern Iron Battleaxe",
+    "string": "Hache d’armes en fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000828|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronBattleaxe_NW"
+  },
+  {
+    "original": "Northern Steel Greaves",
+    "string": "Jambières en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000962|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelBootsA_NW"
+  },
+  {
+    "original": "Northern Steel Armor",
+    "string": "Armure d'acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000963|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelCuirassA_NW"
+  },
+  {
+    "original": "Northern Steel Warhammer",
+    "string": "Marteau de guerre en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000831|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelWarhammer_NW"
+  },
+  {
+    "original": "Northern Leather Helmet",
+    "string": "Casque en cuir nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600095A|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorLeatherHelmet_NW"
+  },
+  {
+    "original": "Northern Steel Shield",
+    "string": "Bouclier d'acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000966|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelShield_NW"
+  },
+  {
+    "original": "Northern Steel Helmet with Noseguard",
+    "string": "Casque en acier nordique avec protège-nez",
+    "status": "TranslationComplete",
+    "form_id": "06000986|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelHelmetB_NW"
+  },
+  {
+    "original": "Ebony Knight Helmet",
+    "string": "Casque de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "0600096E|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorEbonyHelmet_NW"
+  },
+  {
+    "original": "Ebony Knight Gauntlets",
+    "string": "Gantelets de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "0600096D|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorEbonyGauntlets_NW"
+  },
+  {
+    "original": "Northern Iron Helmet",
+    "string": "Casque de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000952|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorIronHelmet_NW"
+  },
+  {
+    "original": "Northern Iron Mace",
+    "string": "Masse de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600082A|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronMace_NW"
+  },
+  {
+    "original": "Nordic Steel Arrow",
+    "string": "Flèche en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000803|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "PROJ FULL",
+    "index": null,
+    "editor_id": "DLC2ArrowNordicProjectile_NW"
+  },
+  {
+    "original": "Lamellar Armor with Pauldrons",
+    "string": "Armure lamellaire avec épaulières",
+    "status": "TranslationComplete",
+    "form_id": "06000976|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorScaledCuirassB_NW"
+  },
+  {
+    "original": "Nordic Steel Mace",
+    "string": "Masse en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600084A|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "DLC2NordicMace_NW"
+  },
+  {
+    "original": "Ebony Knight Arrow",
+    "string": "Flèche de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "06000800|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "AMMO FULL",
+    "index": null,
+    "editor_id": "EbonyArrow_NW"
+  },
+  {
+    "original": "Northern Iron Greatsword",
+    "string": "Espadon de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000825|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronGreatsword_NW"
+  },
+  {
+    "original": "Northern Iron Dagger",
+    "string": "Dague de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000827|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronDagger_NW"
+  },
+  {
+    "original": "Rusty Plate Helmet",
+    "string": "Casque à plaque rouillée",
+    "status": "TranslationComplete",
+    "form_id": "0600096A|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelPlateHelmet_NW"
+  },
+  {
+    "original": "Harbinger's Boots",
+    "string": "Bottes du héraut",
+    "status": "TranslationComplete",
+    "form_id": "06000981|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorCompanionsBoots_NW"
+  },
+  {
+    "original": "Northern Studded Armor",
+    "string": "Armure cloutée nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000974|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorStuddedCuirass_NW"
+  },
+  {
+    "original": "Ebony Knight Warhammer",
+    "string": "Marteau de guerre de chevalier d'ébène",
+    "status": "TranslationComplete",
+    "form_id": "06000845|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "EbonyWarhammer_NW"
+  },
+  {
+    "original": "Northern Banded Iron Shield",
+    "string": "Bouclier en fer bandé en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600095C|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorIronBandedShield_NW"
+  },
+  {
+    "original": "Northern Steel Dagger",
+    "string": "Dague en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600082D|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelDagger_NW"
+  },
+  {
+    "original": "Northern Steel War Axe",
+    "string": "Hache de guerre en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600082B|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "SteelWarAxe_NW"
+  },
+  {
+    "original": "Northern Iron War Axe",
+    "string": "Hache de guerre de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000826|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "IronWarAxe_NW"
+  },
+  {
+    "original": "Northern Steel Helmet",
+    "string": "Casque en acier nordique",
+    "status": "TranslationComplete",
+    "form_id": "06000965|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorSteelHelmetA_NW"
+  },
+  {
+    "original": "Lamellar Helmet",
+    "string": "Casque lamellaire",
+    "status": "TranslationComplete",
+    "form_id": "06000973|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorScaledHelmet_NW"
+  },
+  {
+    "original": "Northern Iron Gauntlets",
+    "string": "Gantelets de fer nordique",
+    "status": "TranslationComplete",
+    "form_id": "0600094F|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorIronGauntlets_NW"
+  },
+  {
+    "original": "Northern Iron Boots",
+    "string": "Bottes de fer nordiques",
+    "status": "TranslationComplete",
+    "form_id": "06000951|NordWarUA's Vanilla Armor and Weapon Expansion - Craft Only.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorIronBoots_NW"
+  }
+]
