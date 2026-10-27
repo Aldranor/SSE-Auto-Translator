@@ -134,7 +134,7 @@
 | **Skyrim’s Unique Drinks et refontes de magie/artisanat** | SUDs.esp.json, Apocalypse - Magic of Skyrim.esp.json, Apocalypse - Ordinator Compatibility Patch.esp.json, Desecration.esp.json, MysticismMagic.esp.json, Thaumaturgy.esp.json | Traduction et harmonisation des chaînes restantes ; terminologie vérifiée entre les mods de magie, leurs effets et le patch de compatibilité. |
 | **Fanatical Enemies** | fanatical enemies.esp.json et patchs Nithi, Modpocalypse, Dibella’s Blessing et consistency | Relecture complète de l’ancienne traduction, corrections de français et de cohérence avec les patchs ; chaînes manquantes complétées. |
 | **Skyshards** | Skyshards.esp.json | Relecture de cohérence selon le lore et les règles du projet ; traduction des chaînes manquantes. |
-| **C.O.I.N. — Monnaies de Bordeciel** | C.O.I.N.esp.json, COINMerchantExchange.esp.json, C.O.I.N. - Beyond Skyrim Patch.esp.json | Traduction et harmonisation des monnaies, échanges et entrées du patch Bruma. |
+| **C.O.I.N. — Monnaies de Bordeciel** | `c.o.i.n_english.txt.json`, C.O.I.N.esp.json, COINMerchantExchange.esp.json, C.O.I.N. - Beyond Skyrim Patch.esp.json | Traduction du MCM et harmonisation des termes « pièces » et « septims » avec le plugin ; monnaies, échanges et entrées du patch Bruma vérifiés. 8 entrées MCM complètes. |
 | **SekiroCombat II** | sekirocombat_ii.esp.json | Traduction des six entrées du mod et vérification de la terminologie de combat. |
 | **Additional Hearthfire Dolls** | AdditionalHearthfireDolls.esp.json | Traduction et vérification des noms des poupées et de leur cohérence avec les patchs LOTD. |
 
