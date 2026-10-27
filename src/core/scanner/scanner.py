@@ -23,6 +23,7 @@ from core.config.user_config import UserConfig
 from core.database.database import TranslationDatabase
 from core.database.database_service import DatabaseService
 from core.database.translation import Translation
+from core.file_types.bestiary.file import BestiaryFile
 from core.masterlist.masterlist import Masterlist
 from core.masterlist.masterlist_entry import MasterlistEntry
 from core.mod_file.mod_file import ModFile
@@ -262,6 +263,29 @@ class Scanner(QObject):
         if self.__detector.requires_translation(modfile_strings):
             if norm_path in database_translations:
                 translation, trans_strings = database_translations[norm_path]
+
+                if (
+                    isinstance(modfile, BestiaryFile)
+                    and self.__detector.detect_lang(
+                        "\n".join(
+                            list(
+                                dict.fromkeys(
+                                    string.original for string in modfile_strings
+                                )
+                            )[:39]
+                        )
+                    )
+                    is None
+                    and self.__bestiary_strings_match_translation(
+                        modfile_strings, trans_strings
+                    )
+                ):
+                    self.log.debug(
+                        f"Bestiary file '{modfile_path_text}' matches its installed "
+                        "database translation; language detection was inconclusive."
+                    )
+                    return TranslationStatus.IsTranslated
+
                 required_string_ids: set[str] = {
                     string.id for string in modfile_strings
                 }
@@ -343,6 +367,25 @@ class Scanner(QObject):
             self.log.debug("Mod file is already translated.")
 
         return status
+
+    @staticmethod
+    def __bestiary_strings_match_translation(
+        modfile_strings: StringList, translation_strings: StringList
+    ) -> bool:
+        """Checks whether the extracted Bestiary file exactly matches its translation."""
+
+        if not modfile_strings:
+            return False
+
+        translated_by_id = {
+            string.id: string.string
+            for string in translation_strings
+            if string.string is not None
+        }
+        return all(
+            translated_by_id.get(string.id) == string.original
+            for string in modfile_strings
+        )
 
     def run_online_scan(
         self,
