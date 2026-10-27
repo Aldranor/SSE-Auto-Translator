@@ -135,7 +135,17 @@ class GeminiTranslator(Translator):
                     f"Could not connect to Gemini API: {ex.reason}"
                 ) from ex
             except TimeoutError as ex:
-                raise RuntimeError("Gemini API request timed out.") from ex
+                if attempt >= self.MAX_RETRIES:
+                    raise RuntimeError(
+                        "Gemini API request timed out after several retries."
+                    ) from ex
+
+                delay = self._get_retry_delay(None, attempt)
+                self.log.warning(
+                    f"Gemini API request timed out; retrying in {delay} second(s) "
+                    f"({attempt + 1}/{self.MAX_RETRIES})."
+                )
+                time.sleep(delay)
         else:
             raise RuntimeError("Gemini API request failed after several retries.")
 
