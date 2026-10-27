@@ -1,0 +1,146 @@
+[
+  {
+    "original": "penetrator F Feet",
+    "string": "Bottes féminines du Penetrator",
+    "status": "TranslationComplete",
+    "form_id": "02000D65|ThePenetratorBoss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "penetratorFFeet"
+  },
+  {
+    "original": "Skyrim",
+    "string": "Bordeciel",
+    "status": "TranslationComplete",
+    "form_id": "0000003C|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "Tamriel"
+  },
+  {
+    "original": "The Penetrator",
+    "string": "Le pénétrateur",
+    "status": "TranslationComplete",
+    "form_id": "02000D6E|ThePenetratorBoss.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Penetrator Boss"
+  },
+  {
+    "original": "penetratorF Gauntlets",
+    "string": "Gantelets féminins du Penetrator",
+    "status": "TranslationComplete",
+    "form_id": "02000D67|ThePenetratorBoss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "penetratorF_Gauntlets"
+  },
+  {
+    "original": "Absorb Health",
+    "string": "Siphon de santé",
+    "status": "TranslationComplete",
+    "form_id": "02000D74|ThePenetratorBoss.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "EnchWeaponAbsorbHealth"
+  },
+  {
+    "original": "penetrator F Armor",
+    "string": "Armure féminine du Penetrator",
+    "status": "TranslationComplete",
+    "form_id": "02000D66|ThePenetratorBoss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "penetratorFBody"
+  },
+  {
+    "original": "SlashRight",
+    "string": "SlashRight",
+    "status": "NoTranslationRequired",
+    "form_id": "02000D82|ThePenetratorBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Slash01Effect"
+  },
+  {
+    "original": "SlashLeft",
+    "string": "SlashLeft",
+    "status": "NoTranslationRequired",
+    "form_id": "02000D86|ThePenetratorBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Slash02Effect"
+  },
+  {
+    "original": "ThrustForward",
+    "string": "ThrustForward",
+    "status": "NoTranslationRequired",
+    "form_id": "02000D88|ThePenetratorBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Thrust01Effect"
+  },
+  {
+    "original": "SlashRight",
+    "string": "SlashRight",
+    "status": "NoTranslationRequired",
+    "form_id": "02000D80|ThePenetratorBoss.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "Slash01"
+  },
+  {
+    "original": "SlashLeft",
+    "string": "SlashLeft",
+    "status": "NoTranslationRequired",
+    "form_id": "02000D81|ThePenetratorBoss.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "Slash02"
+  },
+  {
+    "original": "ThrustSlash",
+    "string": "ThrustSlash",
+    "status": "NoTranslationRequired",
+    "form_id": "02000D87|ThePenetratorBoss.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "Thurst01"
+  },
+  {
+    "original": "penetratorF_Helm",
+    "string": "Casque féminin du Penetrator",
+    "status": "TranslationComplete",
+    "form_id": "02000D68|ThePenetratorBoss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "penetratorF_Helm"
+  },
+  {
+    "original": "penetratorF_Skirt",
+    "string": "Jupe du Penetrator",
+    "status": "TranslationComplete",
+    "form_id": "02000D6A|ThePenetratorBoss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "penetratorF_Skirt"
+  },
+  {
+    "original": "penetrator_Weapon",
+    "string": "Lame de l'Immuable",
+    "status": "TranslationComplete",
+    "form_id": "02000D6C|ThePenetratorBoss.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "penetrator_Weapon"
+  },
+  {
+    "original": "ThrustProjectile",
+    "string": "ThrustProjectile",
+    "status": "NoTranslationRequired",
+    "form_id": "02000D89|ThePenetratorBoss.esp",
+    "type": "PROJ FULL",
+    "index": null,
+    "editor_id": "ThrustEffectProj"
+  }
+]

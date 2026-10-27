@@ -1,0 +1,209 @@
+[
+  {
+    "original": "Absorb Health",
+    "string": "Absorption de santé",
+    "status": "TranslationComplete",
+    "form_id": "0D000809|Nolvus Awakening Combat Scaling Overhaul - Boss.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "EnchWeaponAbsorbHealthCustom"
+  },
+  {
+    "original": "Twisted Faith Armor",
+    "string": "Armure de la Foi ébranlée",
+    "status": "TranslationComplete",
+    "form_id": "0D000803|Nolvus Awakening Combat Scaling Overhaul - Boss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "boss_ArmorTwistedFaithCuirass"
+  },
+  {
+    "original": "Bipedal Charyboid",
+    "string": "Charybde bipède",
+    "status": "TranslationComplete",
+    "form_id": "0501A817|AttackoDaedra.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "_002_BipedalCharyboidDaedraActorSummon"
+  },
+  {
+    "original": "The Stone Keeper",
+    "string": "Vorgrimm l'Immuable",
+    "status": "TranslationComplete",
+    "form_id": "09000D6E|ThePenetratorBoss.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "The Sone Keeper"
+  },
+  {
+    "original": "Bloodeye Albert",
+    "string": "Bloodeye Albert",
+    "status": "NoTranslationRequired",
+    "form_id": "07000800|Bloodeye.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Albert"
+  },
+  {
+    "original": "Twisted Faith Face",
+    "string": "Visage de la Foi ébranlée",
+    "status": "TranslationComplete",
+    "form_id": "0D000806|Nolvus Awakening Combat Scaling Overhaul - Boss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "boss_ArmorTwistedFaithHelmet"
+  },
+  {
+    "original": "Tsun",
+    "string": "Tsun",
+    "status": "TranslationComplete",
+    "form_id": "0004F828|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Tsun"
+  },
+  {
+    "original": "Sulking Twilight",
+    "string": "Crépusculaire boudeur",
+    "status": "TranslationComplete",
+    "form_id": "0501A81A|AttackoDaedra.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "_555_SulkingTwilightEnemy1Summon"
+  },
+  {
+    "original": "Twisted Faith Gauntlets",
+    "string": "Gantelets de la Foi ébranlée",
+    "status": "TranslationComplete",
+    "form_id": "0D000802|Nolvus Awakening Combat Scaling Overhaul - Boss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "boss_ArmorTwistedFaithGauntlets"
+  },
+  {
+    "original": "Sulking Twilight",
+    "string": "Crépusculaire boudeur",
+    "status": "TranslationComplete",
+    "form_id": "05015702|AttackoDaedra.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "_555_SulkingTwilightEnemy1"
+  },
+  {
+    "original": "Abhorrent Behemoth",
+    "string": "Béhémoth abominable",
+    "status": "TranslationComplete",
+    "form_id": "0501A818|AttackoDaedra.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "_555_AbhorrentBehemothDaedraSummon"
+  },
+  {
+    "original": "Abhorrent Behemoth",
+    "string": "Béhémoth abominable",
+    "status": "TranslationComplete",
+    "form_id": "050012D3|AttackoDaedra.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "_555_AbhorrentBehemothDaedra"
+  },
+  {
+    "original": "penetrator F Armor",
+    "string": "Armure féminine du Penetrator",
+    "status": "TranslationComplete",
+    "form_id": "08000D66|ThePenetratorBoss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "penetratorFBody"
+  },
+  {
+    "original": "Twisted Faith Mask",
+    "string": "Masque de la Foi ébranlée",
+    "status": "TranslationComplete",
+    "form_id": "0D000805|Nolvus Awakening Combat Scaling Overhaul - Boss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "boss_ArmorTwistedFaithCirclet"
+  },
+  {
+    "original": "Bipedal Charyboid",
+    "string": "Charybde bipède",
+    "status": "TranslationComplete",
+    "form_id": "0501A815|AttackoDaedra.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "_002_BipedalCharyboidDaedraActor"
+  },
+  {
+    "original": "penetratorF Gauntlets",
+    "string": "Gantelets féminins du Penetrator",
+    "status": "TranslationComplete",
+    "form_id": "08000D67|ThePenetratorBoss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "penetratorF_Gauntlets"
+  },
+  {
+    "original": "penetrator F Feet",
+    "string": "Bottes féminines du Penetrator",
+    "status": "TranslationComplete",
+    "form_id": "08000D65|ThePenetratorBoss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "penetratorFFeet"
+  },
+  {
+    "original": "Keeper's Blade",
+    "string": "Lame du gardien",
+    "status": "TranslationComplete",
+    "form_id": "09000D6C|ThePenetratorBoss.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "penetrator_Weapon"
+  },
+  {
+    "original": "Keeper's Blade",
+    "string": "Lame du gardien",
+    "status": "TranslationComplete",
+    "form_id": "0D000808|Nolvus Awakening Combat Scaling Overhaul - Boss.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "penetrator_Weapon_LOOT"
+  },
+  {
+    "original": "Twisted Faith Hood",
+    "string": "Capuche de la Foi ébranlée",
+    "status": "TranslationComplete",
+    "form_id": "0D000801|Nolvus Awakening Combat Scaling Overhaul - Boss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "boss_ArmorTwistedFaithHood"
+  },
+  {
+    "original": "Twisted Faith Boots",
+    "string": "Bottes de la Foi ébranlée",
+    "status": "TranslationComplete",
+    "form_id": "0D000804|Nolvus Awakening Combat Scaling Overhaul - Boss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "boss_ArmorTwistedFaithBoots"
+  },
+  {
+    "original": "penetratorF_Helm",
+    "string": "Casque féminin du Penetrator",
+    "status": "TranslationComplete",
+    "form_id": "09000D68|ThePenetratorBoss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "penetratorF_Helm"
+  },
+  {
+    "original": "penetratorF_Skirt",
+    "string": "Jupe du Penetrator",
+    "status": "TranslationComplete",
+    "form_id": "09000D6A|ThePenetratorBoss.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "penetratorF_Skirt"
+  }
+]

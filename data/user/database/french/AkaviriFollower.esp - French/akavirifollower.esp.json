@@ -1,0 +1,2891 @@
+[
+  {
+    "original": "Nagamaki",
+    "string": "Nagamaki",
+    "status": "NoTranslationRequired",
+    "form_id": "040008B9|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_EbonyNagamaki"
+  },
+  {
+    "original": "Seiko",
+    "string": "Seiko",
+    "status": "NoTranslationRequired",
+    "form_id": "04000885|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_SayakoRing"
+  },
+  {
+    "original": "Summons a familiar that will charge the nearest enemy and explode.",
+    "string": "Invoque un familier qui charge l'ennemi le plus proche et explose.",
+    "status": "TranslationComplete",
+    "form_id": "0400095C|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_FlamingThrallEff"
+  },
+  {
+    "original": "Sword of the Deity",
+    "string": "Épée de la divinité",
+    "status": "TranslationComplete",
+    "form_id": "040008B4|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_Jian"
+  },
+  {
+    "original": "50% less stagger when wearing only Heavy Armor.",
+    "string": "50 % de réduction d'étourdissement en portant uniquement une armure lourde.",
+    "status": "TranslationComplete",
+    "form_id": "04000BB7|AkaviriFollower.esp",
+    "type": "PERK DESC",
+    "index": null,
+    "editor_id": "0_StaggerResistUltra"
+  },
+  {
+    "original": "Skyrim",
+    "string": "Bordeciel",
+    "status": "TranslationComplete",
+    "form_id": "0000003C|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "Tamriel"
+  },
+  {
+    "original": "Solstheim",
+    "string": "Solstheim",
+    "status": "TranslationComplete",
+    "form_id": "03000800|Dragonborn.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "DLC2SolstheimWorld"
+  },
+  {
+    "original": "Blades Sword",
+    "string": "Épée des Lames",
+    "status": "TranslationComplete",
+    "form_id": "040008AB|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_AkaviriKatana"
+  },
+  {
+    "original": "Magus of the Dragonguard, Akamizu",
+    "string": "Mage de la Garde-dragon, Akamizu",
+    "status": "TranslationComplete",
+    "form_id": "040008BE|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_DragonguardMagus"
+  },
+  {
+    "original": "Reman's Memory",
+    "string": "Mémoire de Reman",
+    "status": "TranslationComplete",
+    "form_id": "040009A3|AkaviriFollower.esp",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "AAAncientSkyhavenTemple"
+  },
+  {
+    "original": "Imperial",
+    "string": "Impérial",
+    "status": "TranslationComplete",
+    "form_id": "04000955|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_ShoukenCombatRace"
+  },
+  {
+    "original": "Summon Dragonguard Monk Akamizu",
+    "string": "Invocation de moine de la Garde-dragon Akamizu",
+    "status": "TranslationComplete",
+    "form_id": "0400084E|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_SummonMonkSpell"
+  },
+  {
+    "original": "Draugr Skin",
+    "string": "Peau de draugr",
+    "status": "TranslationComplete",
+    "form_id": "0400086E|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardian1"
+  },
+  {
+    "original": "Spell Tome: Kinomaru the Shinobi Dog",
+    "string": "Livre de sort - Kinomaru, le chien shinobi",
+    "status": "TranslationComplete",
+    "form_id": "0400089C|AkaviriFollower.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "0_SummonKinomaruTome"
+  },
+  {
+    "original": "Summons a flaming familiar which will charge into battle and explode.",
+    "string": "Invoque un familier enflammé qui charge au combat et explose.",
+    "status": "TranslationComplete",
+    "form_id": "04000971|AkaviriFollower.esp",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "0_FlamingFamiliarKensei"
+  },
+  {
+    "original": "Conjure Dragonguard Archer",
+    "string": "Invocation d'archer de la Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "0400082E|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_SummonOnna"
+  },
+  {
+    "original": "You can have two atronachs or reanimated zombies.",
+    "string": "Vous pouvez avoir deux atronachs ou zombies réanimés.",
+    "status": "TranslationComplete",
+    "form_id": "04000B82|AkaviriFollower.esp",
+    "type": "PERK DESC",
+    "index": null,
+    "editor_id": "0_TwinSoulsUltra"
+  },
+  {
+    "original": "Summon Halberdier Sujiwara",
+    "string": "Invocation de hallebardier Sujiwara",
+    "status": "TranslationComplete",
+    "form_id": "04000864|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_ConjureSujiwara"
+  },
+  {
+    "original": "Kensei Robes",
+    "string": "Robes de kensei",
+    "status": "TranslationComplete",
+    "form_id": "0400097A|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_KenseiRobes"
+  },
+  {
+    "original": "The Winking Skeever",
+    "string": "Le Ragnard pervers",
+    "status": "TranslationComplete",
+    "form_id": "00016A0E|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "SolitudeWinkingSkeever"
+  },
+  {
+    "original": "Exploding Bullet",
+    "string": "Balle explosive",
+    "status": "TranslationComplete",
+    "form_id": "04000995|AkaviriFollower.esp",
+    "type": "AMMO FULL",
+    "index": null,
+    "editor_id": "0_ExplodingBullet"
+  },
+  {
+    "original": "Monk's Robes",
+    "string": "Robes de moine",
+    "status": "TranslationComplete",
+    "form_id": "04000880|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ArmorOmoi"
+  },
+  {
+    "original": "Mist Form",
+    "string": "Forme de brume",
+    "status": "TranslationComplete",
+    "form_id": "0400096D|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_IshenDissapear"
+  },
+  {
+    "original": "Imperial",
+    "string": "Impérial",
+    "status": "TranslationComplete",
+    "form_id": "04000821|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_VayuCombatRace"
+  },
+  {
+    "original": "Mask of the Saint",
+    "string": "Masque du Saint",
+    "status": "TranslationComplete",
+    "form_id": "0400088B|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_HelmetSayakoDraugr"
+  },
+  {
+    "original": "Two-Handed weapons do twice as much damage.",
+    "string": "Les armes à deux mains infligent le double de dégâts.",
+    "status": "TranslationComplete",
+    "form_id": "04000B81|AkaviriFollower.esp",
+    "type": "PERK DESC",
+    "index": null,
+    "editor_id": "0_KenseiSwordPerk"
+  },
+  {
+    "original": "Dog",
+    "string": "Chien",
+    "status": "TranslationComplete",
+    "form_id": "04000822|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_DogCombatRace"
+  },
+  {
+    "original": "Samurai Armor",
+    "string": "Armure de samouraï",
+    "status": "TranslationComplete",
+    "form_id": "04000977|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_SamuraiArmor"
+  },
+  {
+    "original": "Hand Cannon",
+    "string": "Canon à main",
+    "status": "TranslationComplete",
+    "form_id": "04000992|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_RifleStaff"
+  },
+  {
+    "original": "Absorb <mag> points of Health per second from the target.",
+    "string": "Absorbe <mag> points de santé par seconde de la cible.",
+    "status": "TranslationComplete",
+    "form_id": "04000830|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_MagusStaffEff"
+  },
+  {
+    "original": "Agyo the Giant",
+    "string": "Agyo le géant",
+    "status": "TranslationComplete",
+    "form_id": "040008CA|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_GiantSamuraiS"
+  },
+  {
+    "original": "Silver-Blood Inn",
+    "string": "Auberge du Sang-d'Argent",
+    "status": "TranslationComplete",
+    "form_id": "00016DFE|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "MarkarthSilverBloodInn"
+  },
+  {
+    "original": "Fire Damage",
+    "string": "Dégâts de feu",
+    "status": "TranslationComplete",
+    "form_id": "04000843|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_GiantSwordEnch"
+  },
+  {
+    "original": "Spell Tome: Dragonguard Archer",
+    "string": "Livre de sort - Archer de la Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "0400089D|AkaviriFollower.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "0_SummonYuejaTome"
+  },
+  {
+    "original": "Kinomaru",
+    "string": "Kinomaru",
+    "status": "NoTranslationRequired",
+    "form_id": "040008C5|AkaviriFollower.esp",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "0_KinoDog"
+  },
+  {
+    "original": "Frostfeed",
+    "string": "Drain de givre",
+    "status": "TranslationComplete",
+    "form_id": "0400083E|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_AkaviriChill"
+  },
+  {
+    "original": "Monk's Sandals",
+    "string": "Sandales de moine",
+    "status": "TranslationComplete",
+    "form_id": "0400086D|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_SandalsMonk"
+  },
+  {
+    "original": "Vagabond's Headband",
+    "string": "Bandeau de vagabond",
+    "status": "TranslationComplete",
+    "form_id": "04000869|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_HatHeadband"
+  },
+  {
+    "original": "Spell Tome: Dragonguard Halberdier",
+    "string": "Livre de sort - Hallebardier de la Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "040008A1|AkaviriFollower.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "0_SummonSujiwaraTome"
+  },
+  {
+    "original": "Summons Priestess Sujiwara for <dur> seconds wherever the caster is pointing.",
+    "string": "Invoque la prêtresse Sujiwara pendant <dur> secondes à l'endroit pointé par le lanceur.",
+    "status": "TranslationComplete",
+    "form_id": "0400082D|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_SummonOnna2"
+  },
+  {
+    "original": "Blue Palace",
+    "string": "Palais bleu",
+    "status": "TranslationComplete",
+    "form_id": "00016A04|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "SolitudeBluePalace"
+  },
+  {
+    "original": "Quarterstaff",
+    "string": "Bâton de combat",
+    "status": "TranslationComplete",
+    "form_id": "040008B6|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_Staff"
+  },
+  {
+    "original": "Natives of Cyrodiil, they have proved to be shrewd diplomats and traders. They are skilled with combat and magic. Anywhere gold coins might be found, Imperials always seem to find a few more. They can call upon the Voice of the Emperor to calm an enemy.",
+    "string": "Originaires de Cyrodiil, ils se sont révélés être des diplomates et commerçants avisés. Ils excellent au combat et en magie. Là où des pièces d'or peuvent être trouvées, les Impériaux semblent toujours en dénicher davantage. Ils peuvent invoquer la Voix de l'Empereur pour apaiser un ennemi.",
+    "status": "TranslationComplete",
+    "form_id": "0400094F|AkaviriFollower.esp",
+    "type": "RACE DESC",
+    "index": null,
+    "editor_id": "0_OmoiCombatRace"
+  },
+  {
+    "original": "Dragonguard Monk Yueja",
+    "string": "Moine de la Garde-dragon Yueja",
+    "status": "TranslationComplete",
+    "form_id": "040008CF|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardian5Female"
+  },
+  {
+    "original": "Ancient Dragonguard",
+    "string": "Ancien Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "040008CB|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardia7CommonArcher"
+  },
+  {
+    "original": "Sayako's Armor",
+    "string": "Armure de Sayako",
+    "status": "TranslationComplete",
+    "form_id": "0400086A|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ArmourSayako"
+  },
+  {
+    "original": "Inhale air, exhale flame, and behold the Thu'um as inferno.",
+    "string": "Inspire l'air, expire la flamme, et contemple le Thu'um tel un brasier.",
+    "status": "TranslationComplete",
+    "form_id": "04000929|AkaviriFollower.esp",
+    "type": "SHOU DESC",
+    "index": null,
+    "editor_id": "AAHealingShoutA"
+  },
+  {
+    "original": "Draugr",
+    "string": "Draugr",
+    "status": "TranslationComplete",
+    "form_id": "04000824|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_AncientDraugrGuardianRace"
+  },
+  {
+    "original": "Your Voice is raw power, pushing aside anything - or anyone - who stands in your path.",
+    "string": "Votre voix est une puissance brute, repoussant tout – ou quiconque – se dressant sur votre chemin.",
+    "status": "TranslationComplete",
+    "form_id": "0400092A|AkaviriFollower.esp",
+    "type": "SHOU DESC",
+    "index": null,
+    "editor_id": "AAMonkFleshShout"
+  },
+  {
+    "original": "Twin Souls",
+    "string": "Âmes jumelles",
+    "status": "TranslationComplete",
+    "form_id": "04000B82|AkaviriFollower.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "0_TwinSoulsUltra"
+  },
+  {
+    "original": "Spell Tome: Dragonguard General",
+    "string": "Livre de sort - Général de la Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "040008A0|AkaviriFollower.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "0_SummonDragonGuardGeneral"
+  },
+  {
+    "original": "Nodachi",
+    "string": "Nodachi",
+    "status": "NoTranslationRequired",
+    "form_id": "040008AE|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_NodachiNoEnch"
+  },
+  {
+    "original": "Healing",
+    "string": "Guérison",
+    "status": "TranslationComplete",
+    "form_id": "04000865|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_HealingShout"
+  },
+  {
+    "original": "Akaviri Greatbow",
+    "string": "Grand arc akavirois",
+    "status": "TranslationComplete",
+    "form_id": "0400098E|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_YumiG"
+  },
+  {
+    "original": "50% less stagger when wearing only Heavy Armor.",
+    "string": "50 % de réduction d'étourdissement en portant uniquement une armure lourde.",
+    "status": "TranslationComplete",
+    "form_id": "04000BB6|AkaviriFollower.esp",
+    "type": "PERK DESC",
+    "index": null,
+    "editor_id": "0_StaggerResist"
+  },
+  {
+    "original": "Bloated Man's Grotto",
+    "string": "Grotte du bouffi",
+    "status": "TranslationComplete",
+    "form_id": "0001FAE2|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "BloatedMansGrottoWorld"
+  },
+  {
+    "original": "Light Blades Boots",
+    "string": "Bottes légères des Lames",
+    "status": "TranslationComplete",
+    "form_id": "04000875|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_SamBoots"
+  },
+  {
+    "original": "Summons a legendary Sword Saint from the annals of History.",
+    "string": "Invoque un saint de l'épée légendaire des annales de l'histoire.",
+    "status": "TranslationComplete",
+    "form_id": "0400095B|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_SummonKensei"
+  },
+  {
+    "original": "Burns the target for <mag> points. Targets on fire take extra damage.",
+    "string": "Brûle la cible pour <mag> points. Les cibles en feu subissent des dégâts supplémentaires.",
+    "status": "TranslationComplete",
+    "form_id": "0400082C|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_GiantSwordEff"
+  },
+  {
+    "original": "Magus' Robes",
+    "string": "Robes de mage",
+    "status": "TranslationComplete",
+    "form_id": "04000891|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_DragonguardMagusArmor"
+  },
+  {
+    "original": "Khajiit claws do <15> points of damage.",
+    "string": "Les griffes khajiites infligent <15> points de dégâts.",
+    "status": "TranslationComplete",
+    "form_id": "0400085C|AkaviriFollower.esp",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "0_monkFist2"
+  },
+  {
+    "original": "Spirit of Wrath",
+    "string": "Esprit de courroux",
+    "status": "TranslationComplete",
+    "form_id": "0400099A|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_KenseirBoss"
+  },
+  {
+    "original": "Target takes <mag> points of shock damage per second to Health, and half that to Magicka.",
+    "string": "La cible subit <mag> points de dégâts de foudre par seconde à la santé, et la moitié à la magie.",
+    "status": "TranslationComplete",
+    "form_id": "0400083A|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_LightningExplosionStomp"
+  },
+  {
+    "original": "<font face='$HandwrittenFont'><font size='18'>\r\n\r\n<img src='img://Textures/Interface/Books/MAP_illustration/Skyrim Map_Sky Haven Temple.png' height='451' width='296'>\r\n\r\nWe have barricaded the enterance to the inner sanctum.\r\n\r\nWhen we resigned ourselves to the duty of protecting this Temple, many of us were already weakened having been forced to flee the heartland. \r\n\r\nMuch time has passed and my kin have long since lost their minds, pacing back and forth. Singlemindedly guarding the place that gave them sanctuary...\r\n\r\nAwaiting the arrival of the Dragonborn, true heir to the Imperial Throne.\r\n\r\nYet their faith shall not be rewarded in their lifetimes.\r\n\r\nFor this reason I, blessed with an immortal body, shall devote myself to their memories. To keep some small part of them alive and reward their loyalty.\r\n\r\nAlas, I must return to my duties whilst some semblance of my sanity remains.\r\n\r\nThat is the price I pay for this longevity. The Thirst... Soon it will become unbearable...\r\n\r\nIf these are my last words, then I pray, remember our names.\r\n\r\n\r\n-- Dragonguard High Priestess, Akamizu\r\n</font>\r\n",
+    "string": "<font face='$HandwrittenFont'><font size='18'>\r\n\r\n<img src='img://Textures/Interface/Books/MAP_illustration/Skyrim Map_Sky Haven Temple.png' height='451' width='296'>\r\n\r\nNous avons barricadé l’entrée du sanctuaire intérieur.\r\n\r\nLorsque nous avons accepté de protéger ce temple, beaucoup d’entre nous étaient déjà affaiblis, contraints de fuir le cœur de l’Empire.\r\n\r\nLe temps a passé et les miens ont depuis longtemps perdu la raison. Ils arpentent les lieux sans relâche, gardant avec obstination le sanctuaire qui leur a offert refuge...\r\n\r\nIls attendent l’arrivée de l’Enfant de dragon, véritable héritier du trône impérial.\r\n\r\nPourtant, leur foi ne sera pas récompensée de leur vivant.\r\n\r\nC’est pourquoi moi, dont le corps immortel fut béni, je veillerai sur leur mémoire. Je préserverai ainsi une part d’eux et honorerai leur loyauté.\r\n\r\nHélas, je dois reprendre mon devoir tant qu’il me reste encore un semblant de raison.\r\n\r\nVoilà le prix de ma longévité. La Soif... Bientôt, elle deviendra insupportable...\r\n\r\nSi ces mots sont les derniers que j’écris, je vous en prie : souvenez-vous de nos noms.\r\n\r\n\r\n-- Grande prêtresse de la Garde-dragon, Akamizu\r\n</font>",
+    "status": "TranslationComplete",
+    "form_id": "0400089E|AkaviriFollower.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "0_AkamizuFinalWords"
+  },
+  {
+    "original": "Resist Fire",
+    "string": "Résistance au feu",
+    "status": "TranslationComplete",
+    "form_id": "04000844|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_FireGlass"
+  },
+  {
+    "original": "Summon Kinomaru",
+    "string": "Invocation de Kinomaru",
+    "status": "TranslationComplete",
+    "form_id": "0400084D|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_ConjureKino"
+  },
+  {
+    "original": "Absorb Stamina",
+    "string": "Drain de vigueur",
+    "status": "TranslationComplete",
+    "form_id": "04000847|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_StaffEnch"
+  },
+  {
+    "original": "Conjure Dragonguard Halberd",
+    "string": "Invocation de hallebarde de la Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "0400082D|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_SummonOnna2"
+  },
+  {
+    "original": "Your Voice is raw power, pushing aside anything - or anyone - who stands in your path.",
+    "string": "Votre voix est une puissance brute, repoussant tout – ou quiconque – se dressant sur votre chemin.",
+    "status": "TranslationComplete",
+    "form_id": "0400092B|AkaviriFollower.esp",
+    "type": "SHOU DESC",
+    "index": null,
+    "editor_id": "0_VertShout"
+  },
+  {
+    "original": "Jin's Robes",
+    "string": "Robes de Jin",
+    "status": "TranslationComplete",
+    "form_id": "04000897|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ArmorJin"
+  },
+  {
+    "original": "Mayhem",
+    "string": "Chaos",
+    "status": "TranslationComplete",
+    "form_id": "04000837|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_RageAndBloodEffect"
+  },
+  {
+    "original": "Naginata",
+    "string": "Unique - Naginata",
+    "status": "TranslationComplete",
+    "form_id": "040008AD|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_Naginata"
+  },
+  {
+    "original": "Spell Tome: Agyo the Giant",
+    "string": "Livre de sort - Agyo le géant",
+    "status": "TranslationComplete",
+    "form_id": "0400089B|AkaviriFollower.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "0_SummonDragonguardGiantTome"
+  },
+  {
+    "original": "Agyo's Writ",
+    "string": "Écrit d'Agyo",
+    "status": "TranslationComplete",
+    "form_id": "0400089A|AkaviriFollower.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "0_AgyoWrit"
+  },
+  {
+    "original": "A blast of fire that does <mag> points of damage. Targets on fire take extra damage.",
+    "string": "Une explosion de feu qui inflige <mag> points de dégâts. Les cibles en feu subissent des dégâts supplémentaires.",
+    "status": "TranslationComplete",
+    "form_id": "0400095A|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_Rifle1HandEffect"
+  },
+  {
+    "original": "Sword wielded by the fallen commander of the Akaviri forces. It is a cursed weapon which eats away at the users soul.",
+    "string": "Épée maniée par le commandant déchu des forces akaviroises. C'est une arme maudite qui ronge l'âme de son porteur.",
+    "status": "TranslationComplete",
+    "form_id": "0400098F|AkaviriFollower.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "0_HeirloomSwordPlayer"
+  },
+  {
+    "original": "Heirloom Sword",
+    "string": "Épée d'héritage",
+    "status": "TranslationComplete",
+    "form_id": "0400098F|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_HeirloomSwordPlayer"
+  },
+  {
+    "original": "Equipped weapon swings faster for <dur> seconds.",
+    "string": "L'arme équipée frappe plus vite pendant <dur> secondes.",
+    "status": "TranslationComplete",
+    "form_id": "04000829|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_ElementalFuryGiganteEff"
+  },
+  {
+    "original": "Ancient Praetorian",
+    "string": "Ancien prétorien",
+    "status": "TranslationComplete",
+    "form_id": "04000998|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_CommanderCorpse"
+  },
+  {
+    "original": "Absorb Health",
+    "string": "Drain de santé",
+    "status": "TranslationComplete",
+    "form_id": "04000842|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_AbsorbHealth"
+  },
+  {
+    "original": "Fire Damage",
+    "string": "Dégâts de feu",
+    "status": "TranslationComplete",
+    "form_id": "0400082C|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_GiantSwordEff"
+  },
+  {
+    "original": "Conjure Kensei",
+    "string": "Invocation de kensei",
+    "status": "TranslationComplete",
+    "form_id": "0400095B|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_SummonKensei"
+  },
+  {
+    "original": "You become invulnerable, but unable to attack, while health, magicka and Stamina regen quickly.",
+    "string": "Vous devenez invulnérable, mais incapable d'attaquer, tandis que votre santé, magie et vigueur se régénèrent rapidement.",
+    "status": "TranslationComplete",
+    "form_id": "0400084A|AkaviriFollower.esp",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "0_MonkMistform"
+  },
+  {
+    "original": "The Bee and Barb",
+    "string": "Le Dard de l'abeille",
+    "status": "TranslationComplete",
+    "form_id": "00016BDF|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiftenBeeandBarb"
+  },
+  {
+    "original": "Vagrant's Robes",
+    "string": "Robes de vagabond",
+    "status": "TranslationComplete",
+    "form_id": "04000895|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_RobesSamurai"
+  },
+  {
+    "original": "Sword of the Deity",
+    "string": "Épée de la divinité",
+    "status": "TranslationComplete",
+    "form_id": "040008B7|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_JianNoEnch"
+  },
+  {
+    "original": "Spell Tome: Dragonguard Monk Akamizu",
+    "string": "Livre de sorts : Moine de la Garde-dragon Akamizu",
+    "status": "TranslationComplete",
+    "form_id": "0400089F|AkaviriFollower.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "0_SummonDragonGuardMonk"
+  },
+  {
+    "original": "For <dur> seconds, opponents in melee range take <mag> points fire damage per second. Targets on fire take extra damage.",
+    "string": "Pendant <dur> secondes, les adversaires à portée de mêlée subissent <mag> points de dégâts de feu par seconde. Les cibles en feu subissent des dégâts supplémentaires.",
+    "status": "TranslationComplete",
+    "form_id": "0400095F|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_AtronachCloakEffect"
+  },
+  {
+    "original": "Sky Haven Temple",
+    "string": "Temple d'Havreciel",
+    "status": "TranslationComplete",
+    "form_id": "00018E42|Skyrim.esm",
+    "type": "LCTN FULL",
+    "index": null,
+    "editor_id": "SkyHavenTempleLocation"
+  },
+  {
+    "original": "Dae",
+    "string": "Dae",
+    "status": "NoTranslationRequired",
+    "form_id": "04000886|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_DaeRing"
+  },
+  {
+    "original": "Dragonsreach",
+    "string": "Fort-Dragon",
+    "status": "TranslationComplete",
+    "form_id": "000165A3|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WhiterunDragonsreach"
+  },
+  {
+    "original": "Imperial",
+    "string": "Impérial",
+    "status": "TranslationComplete",
+    "form_id": "0400094F|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_OmoiCombatRace"
+  },
+  {
+    "original": "Target takes <mag> points of shock damage per second to Health, and half that to Magicka.",
+    "string": "La cible subit <mag> points de dégâts de foudre par seconde à la santé, et la moitié à la magie.",
+    "status": "TranslationComplete",
+    "form_id": "0400083B|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_LightningExplosionStomp2"
+  },
+  {
+    "original": "Flaming Okami",
+    "string": "Okami enflammé",
+    "status": "TranslationComplete",
+    "form_id": "04000999|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_FlamingThrallKenseiWolf"
+  },
+  {
+    "original": "Increased damage with Heavy Armor gauntlets.",
+    "string": "Dégâts accrus avec des gantelets d'armure lourde.",
+    "status": "TranslationComplete",
+    "form_id": "0400085A|AkaviriFollower.esp",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "PerkFistsOfSteelDUPLICATE001"
+  },
+  {
+    "original": "Ancient Samurai",
+    "string": "Ancien samouraï",
+    "status": "TranslationComplete",
+    "form_id": "04000997|AkaviriFollower.esp",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "0_SamuraiCorpse"
+  },
+  {
+    "original": "Dead Man's Drink",
+    "string": "Auberge du Mort de soif",
+    "status": "TranslationComplete",
+    "form_id": "0003A184|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "FalkreathDeadMansDrink"
+  },
+  {
+    "original": "Sky Haven Temple",
+    "string": "Temple d'Havreciel",
+    "status": "TranslationComplete",
+    "form_id": "000161EB|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "SkyHavenTemple"
+  },
+  {
+    "original": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nStorm Thrall",
+    "string": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nGolem de foudre",
+    "status": "TranslationComplete",
+    "form_id": "0400097C|AkaviriFollower.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "0_SummonKenseiTome"
+  },
+  {
+    "original": "Explodes for <15> points of fire damage.",
+    "string": "Explose et inflige <15> points de dégâts de feu.",
+    "status": "TranslationComplete",
+    "form_id": "04000995|AkaviriFollower.esp",
+    "type": "AMMO DESC",
+    "index": null,
+    "editor_id": "0_ExplodingBullet"
+  },
+  {
+    "original": "Inhale air, exhale flame, and behold the Thu'um as inferno.",
+    "string": "Inspire l'air, expire la flamme, et contemple le Thu'um tel un brasier.",
+    "status": "TranslationComplete",
+    "form_id": "0400092C|AkaviriFollower.esp",
+    "type": "SHOU DESC",
+    "index": null,
+    "editor_id": "0_GiantFlamesShout"
+  },
+  {
+    "original": "Akaviri Guardian's Helm",
+    "string": "Heaume de gardien akavirois",
+    "status": "TranslationComplete",
+    "form_id": "04000896|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_SamuraiGuardianHelm"
+  },
+  {
+    "original": "Summon General Taira",
+    "string": "Invocation de général Taira",
+    "status": "TranslationComplete",
+    "form_id": "04000854|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_ConjureTaira"
+  },
+  {
+    "original": "Armored Husky",
+    "string": "Husky cuirassé",
+    "status": "TranslationComplete",
+    "form_id": "04000871|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_KinomaruArmored"
+  },
+  {
+    "original": "Incinerate",
+    "string": "Incinération",
+    "status": "TranslationComplete",
+    "form_id": "0400095A|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_Rifle1HandEffect"
+  },
+  {
+    "original": "Dae's Hat",
+    "string": "Chapeau de Dae",
+    "status": "TranslationComplete",
+    "form_id": "04000877|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_HatDae"
+  },
+  {
+    "original": "Kogo",
+    "string": "Kogo",
+    "status": "NoTranslationRequired",
+    "form_id": "04000884|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_KogoRing"
+  },
+  {
+    "original": "Fast Healing",
+    "string": "Guérison rapide",
+    "status": "TranslationComplete",
+    "form_id": "04000861|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "FastHealingDUPLICATE001"
+  },
+  {
+    "original": "Bandit'sCirclet",
+    "string": "Diadème de bandit",
+    "status": "TranslationComplete",
+    "form_id": "0400087D|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_CircletBandit"
+  },
+  {
+    "original": "Natives of Cyrodiil, they have proved to be shrewd diplomats and traders. They are skilled with combat and magic. Anywhere gold coins might be found, Imperials always seem to find a few more. They can call upon the Voice of the Emperor to calm an enemy.",
+    "string": "Originaires de Cyrodiil, ils se sont révélés être des diplomates et commerçants avisés. Ils excellent au combat et en magie. Là où des pièces d'or peuvent être trouvées, les Impériaux semblent toujours en dénicher davantage. Ils peuvent invoquer la Voix de l'Empereur pour apaiser un ennemi.",
+    "status": "TranslationComplete",
+    "form_id": "04000823|AkaviriFollower.esp",
+    "type": "RACE DESC",
+    "index": null,
+    "editor_id": "0_MagusCombatRace"
+  },
+  {
+    "original": "Summon Agyo the Giant",
+    "string": "Invocation d'Agyo le géant",
+    "status": "TranslationComplete",
+    "form_id": "04000856|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_SummonDragonguardGiant"
+  },
+  {
+    "original": "Your Voice is raw power, pushing aside anything - or anyone - who stands in your path.",
+    "string": "Votre voix est une puissance brute, repoussant tout – ou quiconque – se dressant sur votre chemin.",
+    "status": "TranslationComplete",
+    "form_id": "04000B8C|AkaviriFollower.esp",
+    "type": "SHOU DESC",
+    "index": null,
+    "editor_id": "0_KenseiDragonhideShout"
+  },
+  {
+    "original": "Dae's Robes",
+    "string": "Robes de Dae",
+    "status": "TranslationComplete",
+    "form_id": "04000881|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ArmorDae"
+  },
+  {
+    "original": "Creatures and people up to level <mag> will attack anyone nearby for <dur> seconds.",
+    "string": "Les créatures et personnes jusqu'au niveau <mag> attaqueront quiconque à proximité pendant <dur> secondes.",
+    "status": "TranslationComplete",
+    "form_id": "04000837|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_RageAndBloodEffect"
+  },
+  {
+    "original": "Natives of Cyrodiil, they have proved to be shrewd diplomats and traders. They are skilled with combat and magic. Anywhere gold coins might be found, Imperials always seem to find a few more. They can call upon the Voice of the Emperor to calm an enemy.",
+    "string": "Originaires de Cyrodiil, ils se sont révélés être des diplomates et commerçants avisés. Ils excellent au combat et en magie. Là où des pièces d'or peuvent être trouvées, les Impériaux semblent toujours en dénicher davantage. Ils peuvent invoquer la Voix de l'Empereur pour apaiser un ennemi.",
+    "status": "TranslationComplete",
+    "form_id": "04000951|AkaviriFollower.esp",
+    "type": "RACE DESC",
+    "index": null,
+    "editor_id": "0_DaeRaceCombat"
+  },
+  {
+    "original": "Equipped weapon swings faster for <dur> seconds.",
+    "string": "L'arme équipée frappe plus vite pendant <dur> secondes.",
+    "status": "TranslationComplete",
+    "form_id": "0400082B|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_GiantFasterSwings"
+  },
+  {
+    "original": "Natives of Cyrodiil, they have proved to be shrewd diplomats and traders. They are skilled with combat and magic. Anywhere gold coins might be found, Imperials always seem to find a few more. They can call upon the Voice of the Emperor to calm an enemy.",
+    "string": "Originaires de Cyrodiil, ils se sont révélés être des diplomates et commerçants avisés. Ils excellent au combat et en magie. Là où des pièces d'or peuvent être trouvées, les Impériaux semblent toujours en dénicher davantage. Ils peuvent invoquer la Voix de l'Empereur pour apaiser un ennemi.",
+    "status": "TranslationComplete",
+    "form_id": "04000954|AkaviriFollower.esp",
+    "type": "RACE DESC",
+    "index": null,
+    "editor_id": "0_IshenMistform"
+  },
+  {
+    "original": "Frostbite",
+    "string": "Froid mordant",
+    "status": "TranslationComplete",
+    "form_id": "04000850|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_StrongBite"
+  },
+  {
+    "original": "Conjure Dragonguard General",
+    "string": "Invocation de général de la Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "04000833|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_SummonGeneral"
+  },
+  {
+    "original": "Light Blades Gauntlets",
+    "string": "Gantelets légers des Lames",
+    "status": "TranslationComplete",
+    "form_id": "04000888|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_SamGaunt"
+  },
+  {
+    "original": "Mask of the Saint",
+    "string": "Masque du Saint",
+    "status": "TranslationComplete",
+    "form_id": "0400097B|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_SamuraiHelmetSayakoDraugr"
+  },
+  {
+    "original": "Barbarian's Sword",
+    "string": "Épée de barbare",
+    "status": "TranslationComplete",
+    "form_id": "04000993|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_BarbarianSwordEnch"
+  },
+  {
+    "original": "Fists of Steel",
+    "string": "Poings d'acier",
+    "status": "TranslationComplete",
+    "form_id": "0400085A|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "PerkFistsOfSteelDUPLICATE001"
+  },
+  {
+    "original": "Kinomaru",
+    "string": "Kinomaru",
+    "status": "NoTranslationRequired",
+    "form_id": "040008C5|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_KinoDog"
+  },
+  {
+    "original": "Ishen",
+    "string": "Ishen",
+    "status": "NoTranslationRequired",
+    "form_id": "04000870|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_IshenRing"
+  },
+  {
+    "original": "Ishen's Armor",
+    "string": "Armure d'Ishen",
+    "status": "TranslationComplete",
+    "form_id": "0400087F|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ArmorIshen"
+  },
+  {
+    "original": "Draugr Skin",
+    "string": "Peau de draugr",
+    "status": "TranslationComplete",
+    "form_id": "0400086B|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardian3"
+  },
+  {
+    "original": "Traveller's Sandals",
+    "string": "Sandales de voyageur",
+    "status": "TranslationComplete",
+    "form_id": "0400086F|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_Sandals"
+  },
+  {
+    "original": "Gloves",
+    "string": "Gants",
+    "status": "TranslationComplete",
+    "form_id": "0400086C|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_SamuraisGloves"
+  },
+  {
+    "original": "Mask of the Saint",
+    "string": "Masque du Saint",
+    "status": "TranslationComplete",
+    "form_id": "0400087A|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_HelmetSayako"
+  },
+  {
+    "original": "Naginata",
+    "string": "Unique - Naginata",
+    "status": "TranslationComplete",
+    "form_id": "040008AC|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_NaginataNoEnch"
+  },
+  {
+    "original": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nStorm Thrall",
+    "string": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nGolem de foudre",
+    "status": "TranslationComplete",
+    "form_id": "0400089C|AkaviriFollower.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "0_SummonKinomaruTome"
+  },
+  {
+    "original": "Magus' Staff",
+    "string": "Bâton de mage",
+    "status": "TranslationComplete",
+    "form_id": "040008B0|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_DragonguardMagusStaff"
+  },
+  {
+    "original": "Quarterstaff",
+    "string": "Bâton de combat",
+    "status": "TranslationComplete",
+    "form_id": "040008B5|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_StaffNoEnch"
+  },
+  {
+    "original": "A unique design, imported from Akavir.\r\nCombine Fire Salts with a little paper and iron to create bullets.",
+    "string": "Un design unique, importé d'Akavir.\r\nCombinez des sels de feu avec un peu de papier et de fer pour créer des balles.",
+    "status": "TranslationComplete",
+    "form_id": "0400098D|AkaviriFollower.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "0_RifleBigBoom"
+  },
+  {
+    "original": "Firework Cannon",
+    "string": "Canon à feux d'artifice",
+    "status": "TranslationComplete",
+    "form_id": "0400098D|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_RifleBigBoom"
+  },
+  {
+    "original": "Broken Armor",
+    "string": "Armure brisée",
+    "status": "TranslationComplete",
+    "form_id": "04000887|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_BrokenArmorA"
+  },
+  {
+    "original": "Burns the target for <mag> points. Targets on fire take extra damage.",
+    "string": "Brûle la cible pour <mag> points. Les cibles en feu subissent des dégâts supplémentaires.",
+    "status": "TranslationComplete",
+    "form_id": "04000960|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_HeirloomBladeEff"
+  },
+  {
+    "original": "Bandit's Armor",
+    "string": "Armure de bandit",
+    "status": "TranslationComplete",
+    "form_id": "0400088C|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ArmorBandit"
+  },
+  {
+    "original": "Vagabond's Hat",
+    "string": "Chapeau de vagabond",
+    "status": "TranslationComplete",
+    "form_id": "04000883|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_HatSamurai"
+  },
+  {
+    "original": "Akaviri Captain's Helm",
+    "string": "Heaume de capitaine akavirois",
+    "status": "TranslationComplete",
+    "form_id": "04000893|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_SamuraiCaptainsHelm"
+  },
+  {
+    "original": "Summon Kensei",
+    "string": "Invocation de kensei",
+    "status": "TranslationComplete",
+    "form_id": "0400096A|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_SummonKenseiSp"
+  },
+  {
+    "original": "Summon Archer Yueja",
+    "string": "Invocation d'archer Yueja",
+    "status": "TranslationComplete",
+    "form_id": "0400085B|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_ConjureYueja"
+  },
+  {
+    "original": "The Karthspire",
+    "string": "Karthecime",
+    "status": "TranslationComplete",
+    "form_id": "00035699|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "KarthspireRedoubtWorld"
+  },
+  {
+    "original": "Giant Stomp",
+    "string": "Piétinement géant",
+    "status": "TranslationComplete",
+    "form_id": "04000855|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_BossSlamSpell"
+  },
+  {
+    "original": "Shout defies steel, as you rip the weapon from an opponent's grasp.",
+    "string": "Le cri défie l'acier, arrachant l'arme de la main de l'adversaire.",
+    "status": "TranslationComplete",
+    "form_id": "04000B8A|AkaviriFollower.esp",
+    "type": "SHOU DESC",
+    "index": null,
+    "editor_id": "0_KenseiFlameShou"
+  },
+  {
+    "original": "Your Voice is raw power, pushing aside anything - or anyone - who stands in your path.",
+    "string": "Votre voix est une puissance brute, repoussant tout – ou quiconque – se dressant sur votre chemin.",
+    "status": "TranslationComplete",
+    "form_id": "04000927|AkaviriFollower.esp",
+    "type": "SHOU DESC",
+    "index": null,
+    "editor_id": "0_MonkBossSpellEthereal"
+  },
+  {
+    "original": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nStorm Thrall",
+    "string": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nGolem de foudre",
+    "status": "TranslationComplete",
+    "form_id": "0400089D|AkaviriFollower.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "0_SummonYuejaTome"
+  },
+  {
+    "original": "Giant",
+    "string": "Géant",
+    "status": "TranslationComplete",
+    "form_id": "04000820|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_GiantBossRace"
+  },
+  {
+    "original": "Dragonguard General Taira Matsutoshi",
+    "string": "Général de la Garde-dragon Taira Matsutoshi",
+    "status": "TranslationComplete",
+    "form_id": "040008CE|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardian"
+  },
+  {
+    "original": "Taku's Robes",
+    "string": "Robes de Taku",
+    "status": "TranslationComplete",
+    "form_id": "04000890|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ArmorTaku"
+  },
+  {
+    "original": "A fiery explosion for <mag> points of damage in a 15 foot radius. Targets on fire take extra damage.",
+    "string": "Une explosion ardente infligeant <mag> points de dégâts dans un rayon de 15 pieds. Les cibles en feu subissent des dégâts supplémentaires.",
+    "status": "TranslationComplete",
+    "form_id": "04000957|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_FireballBlade"
+  },
+  {
+    "original": "Nodachi",
+    "string": "Nodachi",
+    "status": "NoTranslationRequired",
+    "form_id": "040008AF|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_Nodachi"
+  },
+  {
+    "original": "Absorb <mag> points of Health per second from the target.",
+    "string": "Absorbe <mag> points de santé par seconde de la cible.",
+    "status": "TranslationComplete",
+    "form_id": "0400082A|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_FushigiriEnchEff"
+  },
+  {
+    "original": "Akamizu",
+    "string": "Akamizu",
+    "status": "NoTranslationRequired",
+    "form_id": "040008BE|AkaviriFollower.esp",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "0_DragonguardMagus"
+  },
+  {
+    "original": "Summons General Taira for <dur> seconds wherever the caster is pointing.",
+    "string": "Invoque le général Taira pendant <dur> secondes à l'endroit pointé par le lanceur.",
+    "status": "TranslationComplete",
+    "form_id": "04000833|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_SummonGeneral"
+  },
+  {
+    "original": "Heirloom Sword",
+    "string": "Épée d'héritage",
+    "status": "TranslationComplete",
+    "form_id": "04000990|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_HeirloomSword"
+  },
+  {
+    "original": "Cast on a nearby surface, it explodes for <mag> points of fire damage when enemies come near.",
+    "string": "Lanc é sur une surface proche, il explose pour <mag> points de dégâts de feu lorsque des ennemis s'approchent.",
+    "status": "TranslationComplete",
+    "form_id": "04000959|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_KenseiChargeFireEff"
+  },
+  {
+    "original": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nStorm Thrall",
+    "string": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nGolem de foudre",
+    "status": "TranslationComplete",
+    "form_id": "040008A1|AkaviriFollower.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "0_SummonSujiwaraTome"
+  },
+  {
+    "original": "Imperial",
+    "string": "Impérial",
+    "status": "TranslationComplete",
+    "form_id": "04000823|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_MagusCombatRace"
+  },
+  {
+    "original": "Exploding BulletBoss",
+    "string": "Balle explosive du boss",
+    "status": "TranslationComplete",
+    "form_id": "04000996|AkaviriFollower.esp",
+    "type": "AMMO FULL",
+    "index": null,
+    "editor_id": "0_ExplodingBulletBoss"
+  },
+  {
+    "original": "Natives of Cyrodiil, they have proved to be shrewd diplomats and traders. They are skilled with combat and magic. Anywhere gold coins might be found, Imperials always seem to find a few more. They can call upon the Voice of the Emperor to calm an enemy.",
+    "string": "Originaires de Cyrodiil, ils se sont révélés être des diplomates et commerçants avisés. Ils excellent au combat et en magie. Là où des pièces d'or peuvent être trouvées, les Impériaux semblent toujours en dénicher davantage. Ils peuvent invoquer la Voix de l'Empereur pour apaiser un ennemi.",
+    "status": "TranslationComplete",
+    "form_id": "04000956|AkaviriFollower.esp",
+    "type": "RACE DESC",
+    "index": null,
+    "editor_id": "0_KogoRaceCombat"
+  },
+  {
+    "original": "Dragonguard Captain Kinomasu",
+    "string": "Capitaine de la Garde-dragon Kinomasu",
+    "status": "TranslationComplete",
+    "form_id": "040008C7|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardia3"
+  },
+  {
+    "original": "Target takes <mag> points of frost damage to Health and Stamina.",
+    "string": "La cible subit <mag> points de dégâts de givre à la santé et à la vigueur.",
+    "status": "TranslationComplete",
+    "form_id": "04000838|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_MagusStaffEffV2"
+  },
+  {
+    "original": "Omoi",
+    "string": "Omoi",
+    "status": "NoTranslationRequired",
+    "form_id": "04000873|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_OmoiRing"
+  },
+  {
+    "original": "Kensei Helmet",
+    "string": "Heaume de kensei",
+    "status": "TranslationComplete",
+    "form_id": "04000979|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_KenseiHelm"
+  },
+  {
+    "original": "Natives of Cyrodiil, they have proved to be shrewd diplomats and traders. They are skilled with combat and magic. Anywhere gold coins might be found, Imperials always seem to find a few more. They can call upon the Voice of the Emperor to calm an enemy.",
+    "string": "Originaires de Cyrodiil, ils se sont révélés être des diplomates et commerçants avisés. Ils excellent au combat et en magie. Là où des pièces d'or peuvent être trouvées, les Impériaux semblent toujours en dénicher davantage. Ils peuvent invoquer la Voix de l'Empereur pour apaiser un ennemi.",
+    "status": "TranslationComplete",
+    "form_id": "04000953|AkaviriFollower.esp",
+    "type": "RACE DESC",
+    "index": null,
+    "editor_id": "0_SayakoCombatRace"
+  },
+  {
+    "original": "Natives of Cyrodiil, they have proved to be shrewd diplomats and traders. They are skilled with combat and magic. Anywhere gold coins might be found, Imperials always seem to find a few more. They can call upon the Voice of the Emperor to calm an enemy.",
+    "string": "Originaires de Cyrodiil, ils se sont révélés être des diplomates et commerçants avisés. Ils excellent au combat et en magie. Là où des pièces d'or peuvent être trouvées, les Impériaux semblent toujours en dénicher davantage. Ils peuvent invoquer la Voix de l'Empereur pour apaiser un ennemi.",
+    "status": "TranslationComplete",
+    "form_id": "04000950|AkaviriFollower.esp",
+    "type": "RACE DESC",
+    "index": null,
+    "editor_id": "0_JinCombat"
+  },
+  {
+    "original": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nStorm Thrall",
+    "string": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nGolem de foudre",
+    "status": "TranslationComplete",
+    "form_id": "040008A0|AkaviriFollower.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "0_SummonDragonGuardGeneral"
+  },
+  {
+    "original": "Draugr Skin",
+    "string": "Peau de draugr",
+    "status": "TranslationComplete",
+    "form_id": "0400087C|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardian2"
+  },
+  {
+    "original": "Imperial",
+    "string": "Impérial",
+    "status": "TranslationComplete",
+    "form_id": "04000954|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_IshenMistform"
+  },
+  {
+    "original": "You become invulnerable, but unable to attack, while health, magicka and Stamina regen quickly.",
+    "string": "Vous devenez invulnérable, mais incapable d'attaquer, tandis que votre santé, magie et vigueur se régénèrent rapidement.",
+    "status": "TranslationComplete",
+    "form_id": "0400096D|AkaviriFollower.esp",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "0_IshenDissapear"
+  },
+  {
+    "original": "Improves the caster's armor rating by <mag> points for <dur> seconds.",
+    "string": "Améliore la cote d'armure du lanceur de <mag> points pendant <dur> secondes.",
+    "status": "TranslationComplete",
+    "form_id": "0400083D|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_MonkRageBuffEff"
+  },
+  {
+    "original": "Natives of Cyrodiil, they have proved to be shrewd diplomats and traders. They are skilled with combat and magic. Anywhere gold coins might be found, Imperials always seem to find a few more. They can call upon the Voice of the Emperor to calm an enemy.",
+    "string": "Originaires de Cyrodiil, ils se sont révélés être des diplomates et commerçants avisés. Ils excellent au combat et en magie. Là où des pièces d'or peuvent être trouvées, les Impériaux semblent toujours en dénicher davantage. Ils peuvent invoquer la Voix de l'Empereur pour apaiser un ennemi.",
+    "status": "TranslationComplete",
+    "form_id": "04000952|AkaviriFollower.esp",
+    "type": "RACE DESC",
+    "index": null,
+    "editor_id": "0_KenseiBossCombat"
+  },
+  {
+    "original": "Freezing Storm",
+    "string": "Tempête glaciale",
+    "status": "TranslationComplete",
+    "form_id": "04000858|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_KillStorm"
+  },
+  {
+    "original": "Shouken's Armor",
+    "string": "Armure de Shouken",
+    "status": "TranslationComplete",
+    "form_id": "04000898|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ArmorShouken"
+  },
+  {
+    "original": "A giant blade, forged for the demons of a far away land. Another heirloom which was looted from the Blades' Sanctuary.",
+    "string": "Une lame géante, forgée pour les démons d'une terre lointaine. Un autre héritage pillé dans le sanctuaire des Lames.",
+    "status": "TranslationComplete",
+    "form_id": "040008B3|AkaviriFollower.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "0_GiantsPLayerSword"
+  },
+  {
+    "original": "Magus' Robes",
+    "string": "Robes de mage",
+    "status": "TranslationComplete",
+    "form_id": "04000872|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_DragonguardMagusArmorEquip"
+  },
+  {
+    "original": "Vayu's Armor",
+    "string": "Armure de Vayu",
+    "status": "TranslationComplete",
+    "form_id": "04000878|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ArmorVayu"
+  },
+  {
+    "original": "Summons the Dragonguard monk.",
+    "string": "Invoque le moine de la Garde-dragon.",
+    "status": "TranslationComplete",
+    "form_id": "04000834|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_SummonMonk"
+  },
+  {
+    "original": "Dragonguard Monk Sujiwara",
+    "string": "Moine de la Garde-dragon Sujiwara",
+    "status": "TranslationComplete",
+    "form_id": "040008C1|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardian6Female"
+  },
+  {
+    "original": "Giant ",
+    "string": "Géant",
+    "status": "TranslationComplete",
+    "form_id": "040008CA|AkaviriFollower.esp",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "0_GiantSamuraiS"
+  },
+  {
+    "original": "Explodes for <15> points of fire damage.",
+    "string": "Explose et inflige <15> points de dégâts de feu.",
+    "status": "TranslationComplete",
+    "form_id": "04000996|AkaviriFollower.esp",
+    "type": "AMMO DESC",
+    "index": null,
+    "editor_id": "0_ExplodingBulletBoss"
+  },
+  {
+    "original": "Ancient Dragonguard",
+    "string": "Ancien Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "040008C8|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardia6Common"
+  },
+  {
+    "original": "Summons Agyo the Giant.",
+    "string": "Invoque Agyo le géant.",
+    "status": "TranslationComplete",
+    "form_id": "04000825|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_SummonGiant"
+  },
+  {
+    "original": "Conjure Kinomaru",
+    "string": "Invocation de Kinomaru",
+    "status": "TranslationComplete",
+    "form_id": "04000826|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_SummonKinoTheDog"
+  },
+  {
+    "original": "Your Voice is raw power, pushing aside anything - or anyone - who stands in your path.",
+    "string": "Votre voix est une puissance brute, repoussant tout – ou quiconque – se dressant sur votre chemin.",
+    "status": "TranslationComplete",
+    "form_id": "04000928|AkaviriFollower.esp",
+    "type": "SHOU DESC",
+    "index": null,
+    "editor_id": "AAPowerUpShout"
+  },
+  {
+    "original": "Ancient Dragonguard",
+    "string": "Ancien Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "040008BC|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardia7Common"
+  },
+  {
+    "original": "Taku",
+    "string": "Taku",
+    "status": "NoTranslationRequired",
+    "form_id": "04000882|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_TakuRing"
+  },
+  {
+    "original": "Magus' Staff",
+    "string": "Bâton de mage",
+    "status": "TranslationComplete",
+    "form_id": "040008B2|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_DragonguardMagusStaffPlayer"
+  },
+  {
+    "original": "Final Memoirs",
+    "string": "Dernières mémoires",
+    "status": "TranslationComplete",
+    "form_id": "0400089E|AkaviriFollower.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "0_AkamizuFinalWords"
+  },
+  {
+    "original": "Giant's Sword",
+    "string": "Épée du géant",
+    "status": "TranslationComplete",
+    "form_id": "040008B1|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_GiantSamuraiSword"
+  },
+  {
+    "original": "Fortify Healing Rate",
+    "string": "Renforcement du taux de guérison",
+    "status": "TranslationComplete",
+    "form_id": "04000840|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_HeikeHealing"
+  },
+  {
+    "original": "Ancient Samurai",
+    "string": "Ancien samouraï",
+    "status": "TranslationComplete",
+    "form_id": "04000997|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_SamuraiCorpse"
+  },
+  {
+    "original": "Taira Matsutoshi's Helm",
+    "string": "Heaume de Taira Matsutoshi",
+    "status": "TranslationComplete",
+    "form_id": "04000889|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_SamuraiDragonguardShogunHelm2"
+  },
+  {
+    "original": "Temple of Talos",
+    "string": "Temple de Talos",
+    "status": "TranslationComplete",
+    "form_id": "00016785|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WindhelmTempleofTalos"
+  },
+  {
+    "original": "Unarmed attacks with Heavy Armor gauntlets do their armor rating in extra damage.",
+    "string": "Les attaques à mains nues avec des gantelets d'armure lourde infligent des dégâts supplémentaires équivalents à leur cote d'armure.",
+    "status": "TranslationComplete",
+    "form_id": "040008FD|AkaviriFollower.esp",
+    "type": "PERK DESC",
+    "index": null,
+    "editor_id": "0_MonkStyle"
+  },
+  {
+    "original": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nStorm Thrall",
+    "string": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nGolem de foudre",
+    "status": "TranslationComplete",
+    "form_id": "0400089B|AkaviriFollower.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "0_SummonDragonguardGiantTome"
+  },
+  {
+    "original": "Armor - Ebony",
+    "string": "Armure - Ébène",
+    "status": "TranslationComplete",
+    "form_id": "0400083D|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_MonkRageBuffEff"
+  },
+  {
+    "original": "<font face=\"$HandwrittenFont\" size=\"40\">\r\nBolar leave to die with honor.\r\n\r\nTis' shame. Think about it... sad thoughts stir.\r\n\r\nWas true friend of Giantkin. Teach me to write like commoners...\r\n\r\nThalmor wretches come to steal his blade.\r\n\r\nI smash their skulls. They scream but cannot defend from my Fushigiri.\r\n\r\nNow I must guard this place. To repay you, old friend.",
+    "string": "<font face=\"$HandwrittenFont\" size=\"40\">\r\nBolar est parti pour mourir avec honneur.\r\n\r\nQuel dommage. Y penser... cela suscite des pensées tristes.\r\n\r\nIl fut un véritable ami des géants. Il m'a appris à écrire comme les gens du commun...\r\n\r\nLes misérables Thalmors sont venus voler sa lame.\r\n\r\nJ'ai fracassé leurs crânes. Ils hurlaient, mais ne pouvaient se défendre contre mon Fushigiri.\r\n\r\nDésormais, je dois garder cet endroit. Pour te rendre hommage, vieil ami.",
+    "status": "TranslationComplete",
+    "form_id": "0400089A|AkaviriFollower.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "0_AgyoWrit"
+  },
+  {
+    "original": "Equipped weapon swings faster for <dur> seconds.",
+    "string": "L'arme équipée frappe plus vite pendant <dur> secondes.",
+    "status": "TranslationComplete",
+    "form_id": "04000827|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_GiantFasterSwings2"
+  },
+  {
+    "original": "Attacks with this crossbow ignore 50% of armor.",
+    "string": "Les attaques avec cette arbalète ignorent 50 % de l'armure.",
+    "status": "TranslationComplete",
+    "form_id": "04000991|AkaviriFollower.esp",
+    "type": "WEAP DESC",
+    "index": null,
+    "editor_id": "0_RifleBigBoomBoss"
+  },
+  {
+    "original": "Firework Cannon",
+    "string": "Canon à feux d'artifice",
+    "status": "TranslationComplete",
+    "form_id": "04000991|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_RifleBigBoomBoss"
+  },
+  {
+    "original": "Natives of Cyrodiil, they have proved to be shrewd diplomats and traders. They are skilled with combat and magic. Anywhere gold coins might be found, Imperials always seem to find a few more. They can call upon the Voice of the Emperor to calm an enemy.",
+    "string": "Originaires de Cyrodiil, ils se sont révélés être des diplomates et commerçants avisés. Ils excellent au combat et en magie. Là où des pièces d'or peuvent être trouvées, les Impériaux semblent toujours en dénicher davantage. Ils peuvent invoquer la Voix de l'Empereur pour apaiser un ennemi.",
+    "status": "TranslationComplete",
+    "form_id": "04000955|AkaviriFollower.esp",
+    "type": "RACE DESC",
+    "index": null,
+    "editor_id": "0_ShoukenCombatRace"
+  },
+  {
+    "original": "Conjure Agyo the Giant",
+    "string": "Invocation d'Agyo le géant",
+    "status": "TranslationComplete",
+    "form_id": "04000825|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_SummonGiant"
+  },
+  {
+    "original": "Conjure Dragonguard Monk",
+    "string": "Invocation de moine de la Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "04000834|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_SummonMonk"
+  },
+  {
+    "original": "Target takes <mag> points of shock damage per second to Health, and half that to Magicka.",
+    "string": "La cible subit <mag> points de dégâts de foudre par seconde à la santé, et la moitié à la magie.",
+    "status": "TranslationComplete",
+    "form_id": "0400095E|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_FireRuneStomp"
+  },
+  {
+    "original": "Vayu",
+    "string": "Vayu",
+    "status": "NoTranslationRequired",
+    "form_id": "04000894|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_VayuRing"
+  },
+  {
+    "original": "Spirit of Wrath",
+    "string": "Esprit de courroux",
+    "status": "TranslationComplete",
+    "form_id": "0400099A|AkaviriFollower.esp",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "0_KenseirBoss"
+  },
+  {
+    "original": "Draugr Skin",
+    "string": "Peau de draugr",
+    "status": "TranslationComplete",
+    "form_id": "0400088A|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardian5"
+  },
+  {
+    "original": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nStorm Thrall",
+    "string": "<font face'$HandwrittenFont'><font size='40'><p align='center'>\r\nGolem de foudre",
+    "status": "TranslationComplete",
+    "form_id": "0400089F|AkaviriFollower.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "0_SummonDragonGuardMonk"
+  },
+  {
+    "original": "Raven Rock Mine",
+    "string": "Mine de Corberoc",
+    "status": "TranslationComplete",
+    "form_id": "030142FC|Dragonborn.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "DLC2BloodskalBarrow01"
+  },
+  {
+    "original": "Imperial",
+    "string": "Impérial",
+    "status": "TranslationComplete",
+    "form_id": "04000956|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_KogoRaceCombat"
+  },
+  {
+    "original": "Shout defies steel, as you rip the weapon from an opponent's grasp.",
+    "string": "Le cri défie l'acier, arrachant l'arme de la main de l'adversaire.",
+    "status": "TranslationComplete",
+    "form_id": "04000B8B|AkaviriFollower.esp",
+    "type": "SHOU DESC",
+    "index": null,
+    "editor_id": "0_KenseiRageShout"
+  },
+  {
+    "original": "Natives of Cyrodiil, they have proved to be shrewd diplomats and traders. They are skilled with combat and magic. Anywhere gold coins might be found, Imperials always seem to find a few more. They can call upon the Voice of the Emperor to calm an enemy.",
+    "string": "Originaires de Cyrodiil, ils se sont révélés être des diplomates et commerçants avisés. Ils excellent au combat et en magie. Là où des pièces d'or peuvent être trouvées, les Impériaux semblent toujours en dénicher davantage. Ils peuvent invoquer la Voix de l'Empereur pour apaiser un ennemi.",
+    "status": "TranslationComplete",
+    "form_id": "04000821|AkaviriFollower.esp",
+    "type": "RACE DESC",
+    "index": null,
+    "editor_id": "0_VayuCombatRace"
+  },
+  {
+    "original": "Ancient Dragonguard",
+    "string": "Ancien Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "040008D0|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardia4Common"
+  },
+  {
+    "original": "Draugr Skin",
+    "string": "Peau de draugr",
+    "status": "TranslationComplete",
+    "form_id": "04000892|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardian4"
+  },
+  {
+    "original": "For <dur> seconds, opponents in melee range take <8> points fire damage per second. Targets on fire take extra damage.",
+    "string": "Pendant <dur> secondes, les adversaires à portée de mêlée subissent <8> points de dégâts de feu par seconde. Les cibles en feu subissent des dégâts supplémentaires.",
+    "status": "TranslationComplete",
+    "form_id": "04000832|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_SpellofMagusAbilityEff"
+  },
+  {
+    "original": "Summons Kinomaru, the friendly Shinobi Dog for <dur> seconds wherever the caster is pointing.",
+    "string": "Invoque Kinomaru, le chien shinobi amical, pendant <dur> secondes à l'endroit pointé par le lanceur.",
+    "status": "TranslationComplete",
+    "form_id": "04000826|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_SummonKinoTheDog"
+  },
+  {
+    "original": "Imperial",
+    "string": "Impérial",
+    "status": "TranslationComplete",
+    "form_id": "04000953|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_SayakoCombatRace"
+  },
+  {
+    "original": "Imperial",
+    "string": "Impérial",
+    "status": "TranslationComplete",
+    "form_id": "04000950|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_JinCombat"
+  },
+  {
+    "original": "Imperial",
+    "string": "Impérial",
+    "status": "TranslationComplete",
+    "form_id": "04000952|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_KenseiBossCombat"
+  },
+  {
+    "original": "Shouken",
+    "string": "Shouken",
+    "status": "NoTranslationRequired",
+    "form_id": "0400088F|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ShoukenRing"
+  },
+  {
+    "original": "Ancient Dragonguard",
+    "string": "Ancien Garde-dragon",
+    "status": "TranslationComplete",
+    "form_id": "040008C9|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardia5Common"
+  },
+  {
+    "original": "Spell Tome: Summon Kensei",
+    "string": "Livre de sort - Invocation du kensei",
+    "status": "TranslationComplete",
+    "form_id": "0400097C|AkaviriFollower.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "0_SummonKenseiTome"
+  },
+  {
+    "original": "Barbarian's Sword",
+    "string": "Épée de barbare",
+    "status": "TranslationComplete",
+    "form_id": "04000994|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_BarbarianSword"
+  },
+  {
+    "original": "Dragonguard Captain Haneda",
+    "string": "Capitaine de la Garde-dragon Haneda",
+    "status": "TranslationComplete",
+    "form_id": "040008C6|AkaviriFollower.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "0_TempleDraugrGuardia2"
+  },
+  {
+    "original": "Ancient Praetorian",
+    "string": "Ancien prétorien",
+    "status": "TranslationComplete",
+    "form_id": "04000998|AkaviriFollower.esp",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "0_CommanderCorpse"
+  },
+  {
+    "original": "Imperial",
+    "string": "Impérial",
+    "status": "TranslationComplete",
+    "form_id": "04000951|AkaviriFollower.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "0_DaeRaceCombat"
+  },
+  {
+    "original": "Summons Priestess Yueja for <dur> seconds wherever the caster is pointing.",
+    "string": "Invoque la prêtresse Yueja pendant <dur> secondes à l'endroit pointé par le lanceur.",
+    "status": "TranslationComplete",
+    "form_id": "0400082E|AkaviriFollower.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "0_SummonOnna"
+  },
+  {
+    "original": "Reman's Memory",
+    "string": "Mémoire de Reman",
+    "status": "TranslationComplete",
+    "form_id": "04000B87|AkaviriFollower.esp",
+    "type": "LCTN FULL",
+    "index": null,
+    "editor_id": "SkyHavenTempleLocationMemory"
+  },
+  {
+    "original": "Chaos Damage",
+    "string": "Dégâts de chaos",
+    "status": "TranslationComplete",
+    "form_id": "04000848|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_NagiChaos"
+  },
+  {
+    "original": "Akaviri General's Helm",
+    "string": "Heaume de général akavirois",
+    "status": "TranslationComplete",
+    "form_id": "04000879|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_ArmorShoukenHelm"
+  },
+  {
+    "original": "Yari",
+    "string": "Yari",
+    "status": "NoTranslationRequired",
+    "form_id": "040008B8|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_YariSpear"
+  },
+  {
+    "original": "Makoto",
+    "string": "Makoto",
+    "status": "NoTranslationRequired",
+    "form_id": "040008B3|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_GiantsPLayerSword"
+  },
+  {
+    "original": "Criminal's Bracelet",
+    "string": "Bracelet de criminel",
+    "status": "TranslationComplete",
+    "form_id": "04000978|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_CriminalsBraceletAA"
+  },
+  {
+    "original": "Nagamaki",
+    "string": "Nagamaki",
+    "status": "NoTranslationRequired",
+    "form_id": "040008BA|AkaviriFollower.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "0_EbonyNagamakiNoEnch"
+  },
+  {
+    "original": "The Bannered Mare",
+    "string": "La Jument pavoisée",
+    "status": "TranslationComplete",
+    "form_id": "0001605E|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WhiterunBanneredMare"
+  },
+  {
+    "original": "GiantFasterSwings2",
+    "string": "GiantFasterSwings2",
+    "status": "NoTranslationRequired",
+    "form_id": "04000827|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_GiantFasterSwings2"
+  },
+  {
+    "original": "FlamingThrallEff",
+    "string": "FlamingThrallEff",
+    "status": "NoTranslationRequired",
+    "form_id": "0400095C|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_FlamingThrallEff"
+  },
+  {
+    "original": "0_OnFireCloak",
+    "string": "0_OnFireCloak",
+    "status": "NoTranslationRequired",
+    "form_id": "0400095D|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_OnFireCloak"
+  },
+  {
+    "original": "LightningExplosionStomp",
+    "string": "LightningExplosionStomp",
+    "status": "NoTranslationRequired",
+    "form_id": "0400083A|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_LightningExplosionStomp"
+  },
+  {
+    "original": "GiantFasterSwings",
+    "string": "GiantFasterSwings",
+    "status": "NoTranslationRequired",
+    "form_id": "0400082B|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_GiantFasterSwings"
+  },
+  {
+    "original": "0_MonkAbilityFXEff",
+    "string": "0_MonkAbilityFXEff",
+    "status": "NoTranslationRequired",
+    "form_id": "04000835|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_MonkAbilityFXEff"
+  },
+  {
+    "original": "0_SpellofMagusEff",
+    "string": "0_SpellofMagusEff",
+    "status": "NoTranslationRequired",
+    "form_id": "04000831|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_SpellofMagusEff"
+  },
+  {
+    "original": "BossSlamAttack",
+    "string": "BossSlamAttack",
+    "status": "NoTranslationRequired",
+    "form_id": "04000836|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_BossSlamAttack"
+  },
+  {
+    "original": "LightningExplosionStomp2",
+    "string": "LightningExplosionStomp2",
+    "status": "NoTranslationRequired",
+    "form_id": "0400083B|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_LightningExplosionStomp2"
+  },
+  {
+    "original": "FireballBlade",
+    "string": "FireballBlade",
+    "status": "NoTranslationRequired",
+    "form_id": "04000957|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_FireballBlade"
+  },
+  {
+    "original": "HorizSlashSpellEffFire",
+    "string": "HorizSlashSpellEffFire",
+    "status": "NoTranslationRequired",
+    "form_id": "04000958|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_HorizSlashSpellEffFirePlayer"
+  },
+  {
+    "original": "PowerUp",
+    "string": "PowerUp",
+    "status": "NoTranslationRequired",
+    "form_id": "0400082F|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_PowerUp"
+  },
+  {
+    "original": "FireKenseiCharge",
+    "string": "FireKenseiCharge",
+    "status": "NoTranslationRequired",
+    "form_id": "04000959|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_KenseiChargeFireEff"
+  },
+  {
+    "original": "0_HorizSlashSpellEff",
+    "string": "0_HorizSlashSpellEff",
+    "status": "NoTranslationRequired",
+    "form_id": "04000839|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_HorizSlashSpellEff"
+  },
+  {
+    "original": "0_MagusStaffEffV2",
+    "string": "0_MagusStaffEffV2",
+    "status": "NoTranslationRequired",
+    "form_id": "04000838|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_MagusStaffEffV2"
+  },
+  {
+    "original": "SpellofMagusAbilityEff",
+    "string": "SpellofMagusAbilityEff",
+    "status": "NoTranslationRequired",
+    "form_id": "04000832|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_SpellofMagusAbilityEff"
+  },
+  {
+    "original": "MagusStaffEff",
+    "string": "MagusStaffEff",
+    "status": "NoTranslationRequired",
+    "form_id": "04000830|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_MagusStaffEff"
+  },
+  {
+    "original": "FireRuneStomp",
+    "string": "FireRuneStomp",
+    "status": "NoTranslationRequired",
+    "form_id": "0400095E|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_FireRuneStomp"
+  },
+  {
+    "original": "AtronachCloakEffect",
+    "string": "AtronachCloakEffect",
+    "status": "NoTranslationRequired",
+    "form_id": "0400095F|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_AtronachCloakEffect"
+  },
+  {
+    "original": "HeirloomBladeEff",
+    "string": "HeirloomBladeEff",
+    "status": "NoTranslationRequired",
+    "form_id": "04000960|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_HeirloomBladeEff"
+  },
+  {
+    "original": "KenseiCharge",
+    "string": "KenseiCharge",
+    "status": "NoTranslationRequired",
+    "form_id": "04000961|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_KenseiCharge"
+  },
+  {
+    "original": "0_VertSlashSpellEffFire",
+    "string": "0_VertSlashSpellEffFire",
+    "status": "NoTranslationRequired",
+    "form_id": "04000962|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_VertSlashSpellEffFire"
+  },
+  {
+    "original": "HorizSlashSpellEffFire",
+    "string": "HorizSlashSpellEffFire",
+    "status": "NoTranslationRequired",
+    "form_id": "04000963|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_HorizSlashSpellEffFire"
+  },
+  {
+    "original": "0_GiantFlames",
+    "string": "0_GiantFlames",
+    "status": "NoTranslationRequired",
+    "form_id": "04000828|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_GiantFlames"
+  },
+  {
+    "original": "0_VertSlashSpellEff",
+    "string": "0_VertSlashSpellEff",
+    "status": "NoTranslationRequired",
+    "form_id": "0400083C|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_VertSlashSpellEff"
+  },
+  {
+    "original": "0_ElementalFuryGiganteEff",
+    "string": "0_ElementalFuryGiganteEff",
+    "status": "NoTranslationRequired",
+    "form_id": "04000829|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_ElementalFuryGiganteEff"
+  },
+  {
+    "original": "0_FushigiriEnchEff",
+    "string": "0_FushigiriEnchEff",
+    "status": "NoTranslationRequired",
+    "form_id": "0400082A|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_FushigiriEnchEff"
+  },
+  {
+    "original": "KenseiExplosionEff",
+    "string": "KenseiExplosionEff",
+    "status": "NoTranslationRequired",
+    "form_id": "04000964|AkaviriFollower.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "0_KenseiExplosionEff"
+  },
+  {
+    "original": "0_FushigiriEnch",
+    "string": "0_FushigiriEnch",
+    "status": "NoTranslationRequired",
+    "form_id": "04000849|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_FushigiriEnch"
+  },
+  {
+    "original": "HeirloomBladeEnch",
+    "string": "HeirloomBladeEnch",
+    "status": "NoTranslationRequired",
+    "form_id": "04000965|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_HeirloomBladeEnch2"
+  },
+  {
+    "original": "MagusStaffEnch2",
+    "string": "MagusStaffEnch2",
+    "status": "NoTranslationRequired",
+    "form_id": "04000845|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_MagusStaffEnch2"
+  },
+  {
+    "original": "MagusStaffEnch",
+    "string": "MagusStaffEnch",
+    "status": "NoTranslationRequired",
+    "form_id": "04000841|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_MagusStaffEnch"
+  },
+  {
+    "original": "HeirloomBladeEnch",
+    "string": "HeirloomBladeEnch",
+    "status": "NoTranslationRequired",
+    "form_id": "04000966|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_HeirloomBladeEnch"
+  },
+  {
+    "original": "0_RifleEnchant",
+    "string": "0_RifleEnchant",
+    "status": "NoTranslationRequired",
+    "form_id": "04000967|AkaviriFollower.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "0_RifleEnchant"
+  },
+  {
+    "original": "0_ElementalFuryGigante",
+    "string": "Fureur élémentaire du géant",
+    "status": "TranslationComplete",
+    "form_id": "04000867|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_ElementalFuryGigante"
+  },
+  {
+    "original": "0_HorizSlashSpell",
+    "string": "Entaille horizontale",
+    "status": "TranslationComplete",
+    "form_id": "0400085D|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_HorizSlashSpell"
+  },
+  {
+    "original": "0_MonkFlesh",
+    "string": "Peau de moine",
+    "status": "TranslationComplete",
+    "form_id": "0400085E|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_MonkFlesh"
+  },
+  {
+    "original": "0_VertSlashSpell",
+    "string": "Entaille verticale",
+    "status": "TranslationComplete",
+    "form_id": "0400085F|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_VertSlashSpell"
+  },
+  {
+    "original": "FireRuneStompSpell",
+    "string": "Piétinement de la rune de feu",
+    "status": "TranslationComplete",
+    "form_id": "04000969|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_FireRuneStompSpell"
+  },
+  {
+    "original": "MonkAbilityFX",
+    "string": "Pouvoir du moine",
+    "status": "TranslationComplete",
+    "form_id": "04000860|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_MonkAbilityFX"
+  },
+  {
+    "original": "KenseiCharge",
+    "string": "Charge du kensei",
+    "status": "TranslationComplete",
+    "form_id": "04000968|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_KenseiChargeSpell"
+  },
+  {
+    "original": "0_HorizSlashSpell",
+    "string": "Entaille horizontale",
+    "status": "TranslationComplete",
+    "form_id": "04000862|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_HorizSlashSpell2"
+  },
+  {
+    "original": "SpellofMagus",
+    "string": "Sort du mage",
+    "status": "TranslationComplete",
+    "form_id": "04000853|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_SpellofMagus"
+  },
+  {
+    "original": "MonkBossSpell",
+    "string": "Sort du chef moine",
+    "status": "TranslationComplete",
+    "form_id": "04000852|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_MonkBossSpell"
+  },
+  {
+    "original": "MonkRageBuff",
+    "string": "Rage du moine",
+    "status": "TranslationComplete",
+    "form_id": "04000863|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "000_MonkRageBuffNu"
+  },
+  {
+    "original": "LightningChargeDog",
+    "string": "Charge foudroyante du chien",
+    "status": "TranslationComplete",
+    "form_id": "04000851|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_LightningChargeDog"
+  },
+  {
+    "original": "SupaSpeed",
+    "string": "Vitesse fulgurante",
+    "status": "TranslationComplete",
+    "form_id": "04000857|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_PowerUpSpell"
+  },
+  {
+    "original": "KenseiWrathSpell",
+    "string": "Courroux du kensei",
+    "status": "TranslationComplete",
+    "form_id": "0400096B|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_KenseiWrathSpell"
+  },
+  {
+    "original": "KenseiFireBreath",
+    "string": "Souffle de feu du kensei",
+    "status": "TranslationComplete",
+    "form_id": "0400096C|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_KenseiFireBreath"
+  },
+  {
+    "original": "RageAndBlood",
+    "string": "Rage et sang",
+    "status": "TranslationComplete",
+    "form_id": "0400084C|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_RageAndBlood"
+  },
+  {
+    "original": "MonkMistform",
+    "string": "Forme brumeuse du moine",
+    "status": "TranslationComplete",
+    "form_id": "0400084A|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_MonkMistform"
+  },
+  {
+    "original": "LightningExplosionStompSp",
+    "string": "Piétinement explosif foudroyant",
+    "status": "TranslationComplete",
+    "form_id": "04000866|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_LightningExplosionStompSpell"
+  },
+  {
+    "original": "LongFireStorm",
+    "string": "Longue tempête de feu",
+    "status": "TranslationComplete",
+    "form_id": "0400096E|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_LongFireStorm"
+  },
+  {
+    "original": "KenseiFlameAttack",
+    "string": "Attaque enflammée du kensei",
+    "status": "TranslationComplete",
+    "form_id": "0400096F|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_KenseiFlameAttack"
+  },
+  {
+    "original": "0_VertSlashSpellFire",
+    "string": "Entaille verticale enflammée",
+    "status": "TranslationComplete",
+    "form_id": "04000970|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_VertSlashSpellFire"
+  },
+  {
+    "original": "FlamingFamiliarKensei",
+    "string": "Familier enflammé du kensei",
+    "status": "TranslationComplete",
+    "form_id": "04000971|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_FlamingFamiliarKensei"
+  },
+  {
+    "original": "LightningExplosionStompSp3",
+    "string": "LightningExplosionStompSp3",
+    "status": "NoTranslationRequired",
+    "form_id": "0400084F|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_LightningExplosionStompSpell3"
+  },
+  {
+    "original": "WeakFlameCloak",
+    "string": "WeakFlameCloak",
+    "status": "NoTranslationRequired",
+    "form_id": "04000859|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_GiantFlamesSpell"
+  },
+  {
+    "original": "LightningExplosionStompSp2",
+    "string": "LightningExplosionStompSp2",
+    "status": "NoTranslationRequired",
+    "form_id": "0400084B|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_LightningExplosionStompSpell2"
+  },
+  {
+    "original": "DaeSkill",
+    "string": "DaeSkill",
+    "status": "NoTranslationRequired",
+    "form_id": "04000972|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_DaeSkill"
+  },
+  {
+    "original": "KenseiDragonhide",
+    "string": "Peau de dragon du kensei",
+    "status": "TranslationComplete",
+    "form_id": "04000973|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_KenseiDragonhide"
+  },
+  {
+    "original": "KenseiCloak",
+    "string": "Manteau du kensei",
+    "status": "TranslationComplete",
+    "form_id": "04000974|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_KenseiCloak"
+  },
+  {
+    "original": "0_HorizSlashSpellFire",
+    "string": "Entaille horizontale enflammée",
+    "status": "TranslationComplete",
+    "form_id": "04000975|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_HorizSlashSpellFire"
+  },
+  {
+    "original": "0_monkFist",
+    "string": "0_monkFist",
+    "status": "NoTranslationRequired",
+    "form_id": "0400085C|AkaviriFollower.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "0_monkFist2"
+  },
+  {
+    "original": "GiantSamuraiArmor",
+    "string": "Armure de samouraï géant",
+    "status": "TranslationComplete",
+    "form_id": "04000876|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_GiantSamuraiArmor"
+  },
+  {
+    "original": "KinomaruHusky",
+    "string": "KinomaruHusky",
+    "status": "NoTranslationRequired",
+    "form_id": "04000899|AkaviriFollower.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "0_KinomaruBody"
+  },
+  {
+    "original": "StrongBoxLoot",
+    "string": "StrongBoxLoot",
+    "status": "NoTranslationRequired",
+    "form_id": "04000807|AkaviriFollower.esp",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "0_StrongBoxLoot"
+  },
+  {
+    "original": "MemoryPortal",
+    "string": "Portail des souvenirs",
+    "status": "TranslationComplete",
+    "form_id": "0400097D|AkaviriFollower.esp",
+    "type": "DOOR FULL",
+    "index": null,
+    "editor_id": "0_MemoryPortal"
+  },
+  {
+    "original": "0_VertSlashSpellProjectile",
+    "string": "0_VertSlashSpellProjectile",
+    "status": "NoTranslationRequired",
+    "form_id": "040008D1|AkaviriFollower.esp",
+    "type": "PROJ FULL",
+    "index": null,
+    "editor_id": "0_VertSlashSpellProjectile"
+  },
+  {
+    "original": "0_VertSlashSpellProjectile",
+    "string": "0_VertSlashSpellProjectile",
+    "status": "NoTranslationRequired",
+    "form_id": "0400099C|AkaviriFollower.esp",
+    "type": "PROJ FULL",
+    "index": null,
+    "editor_id": "0_VertSlashSpellProjectileFire"
+  },
+  {
+    "original": "0_MonkStyle",
+    "string": "Style du moine",
+    "status": "TranslationComplete",
+    "form_id": "040008FD|AkaviriFollower.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "0_MonkStyle"
+  },
+  {
+    "original": "KenseiSwordPerk",
+    "string": "Atout de l’épée du kensei",
+    "status": "TranslationComplete",
+    "form_id": "04000B81|AkaviriFollower.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "0_KenseiSwordPerk"
+  },
+  {
+    "original": "0_StaggerResist",
+    "string": "Résistance au déséquilibre",
+    "status": "TranslationComplete",
+    "form_id": "04000BB6|AkaviriFollower.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "0_StaggerResist"
+  },
+  {
+    "original": "0_StaggerResistUltra",
+    "string": "Résistance accrue au déséquilibre",
+    "status": "TranslationComplete",
+    "form_id": "04000BB7|AkaviriFollower.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "0_StaggerResistUltra"
+  },
+  {
+    "original": "KenseiFlameShou",
+    "string": "Cri de flamme du kensei",
+    "status": "TranslationComplete",
+    "form_id": "04000B8A|AkaviriFollower.esp",
+    "type": "SHOU FULL",
+    "index": null,
+    "editor_id": "0_KenseiFlameShou"
+  },
+  {
+    "original": "KenseiRageShout",
+    "string": "Cri de rage du kensei",
+    "status": "TranslationComplete",
+    "form_id": "04000B8B|AkaviriFollower.esp",
+    "type": "SHOU FULL",
+    "index": null,
+    "editor_id": "0_KenseiRageShout"
+  },
+  {
+    "original": "KenseiDragonhide",
+    "string": "Peau de dragon du kensei",
+    "status": "TranslationComplete",
+    "form_id": "04000B8C|AkaviriFollower.esp",
+    "type": "SHOU FULL",
+    "index": null,
+    "editor_id": "0_KenseiDragonhideShout"
+  },
+  {
+    "original": "AAMonkFlesh",
+    "string": "Peau de moine",
+    "status": "TranslationComplete",
+    "form_id": "0400092A|AkaviriFollower.esp",
+    "type": "SHOU FULL",
+    "index": null,
+    "editor_id": "AAMonkFleshShout"
+  },
+  {
+    "original": "PowerUpShout",
+    "string": "Cri de puissance",
+    "status": "TranslationComplete",
+    "form_id": "04000928|AkaviriFollower.esp",
+    "type": "SHOU FULL",
+    "index": null,
+    "editor_id": "AAPowerUpShout"
+  },
+  {
+    "original": "0_VertShout",
+    "string": "Cri d’entaille verticale",
+    "status": "TranslationComplete",
+    "form_id": "0400092B|AkaviriFollower.esp",
+    "type": "SHOU FULL",
+    "index": null,
+    "editor_id": "0_VertShout"
+  },
+  {
+    "original": "MonkBossSpellEthereal",
+    "string": "Forme éthérée du moine",
+    "status": "TranslationComplete",
+    "form_id": "04000927|AkaviriFollower.esp",
+    "type": "SHOU FULL",
+    "index": null,
+    "editor_id": "0_MonkBossSpellEthereal"
+  },
+  {
+    "original": "0_GiantFlames",
+    "string": "0_GiantFlames",
+    "status": "NoTranslationRequired",
+    "form_id": "0400092C|AkaviriFollower.esp",
+    "type": "SHOU FULL",
+    "index": null,
+    "editor_id": "0_GiantFlamesShout"
+  },
+  {
+    "original": "HealingShout",
+    "string": "Cri de guérison",
+    "status": "TranslationComplete",
+    "form_id": "04000929|AkaviriFollower.esp",
+    "type": "SHOU FULL",
+    "index": null,
+    "editor_id": "AAHealingShoutA"
+  }
+]

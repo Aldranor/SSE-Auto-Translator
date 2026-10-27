@@ -1,0 +1,227 @@
+[
+  {
+    "original": "Force Valhalla Exhausiton debuff to stop",
+    "string": "Forcer le débuff d’épuisement de Valhalla à s’arrêter",
+    "status": "TranslationComplete",
+    "form_id": "06000809|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "Val_Exhaustion_Force_MGEF"
+  },
+  {
+    "original": "Exhaustion",
+    "string": "Épuisement",
+    "status": "TranslationComplete",
+    "form_id": "03001827|ValhallaCombat.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "Val_Exhaustion_Spell"
+  },
+  {
+    "original": "Low Stance",
+    "string": "Position basse",
+    "status": "TranslationComplete",
+    "form_id": "0100590C|Stances - Dynamic Weapon Movesets SE.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "stances_lowstance_spell"
+  },
+  {
+    "original": "Troll abilities",
+    "string": "Talents de troll",
+    "status": "TranslationComplete",
+    "form_id": "0002F617|Skyrim.esm",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "AbTroll"
+  },
+  {
+    "original": "Your stamina regeneration is <mag>% slower",
+    "string": "Votre régénération de vigueur est <mag>% plus lente",
+    "status": "TranslationComplete",
+    "form_id": "06000800|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "Nol_Speed_Debuff"
+  },
+  {
+    "original": "Damage Resistance Debuff",
+    "string": "Réduction de la résistance aux dégâts",
+    "status": "TranslationComplete",
+    "form_id": "06000808|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Nol_Damage_Resistance_Debuff"
+  },
+  {
+    "original": "Dynamic Combat",
+    "string": "Combat dynamique",
+    "status": "TranslationComplete",
+    "form_id": "0406ADDB|Valravn - Integrated Combat of Skyrim.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "VAL_DynamicCombat_Spell_Ab"
+  },
+  {
+    "original": "Stamina Regeneration Debuff",
+    "string": "Réduction de la régénération de vigueur",
+    "status": "TranslationComplete",
+    "form_id": "06000807|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Nol_Stamina_Regeneration_Debuff"
+  },
+  {
+    "original": "Nolvus Combat Synergy Quest Controller",
+    "string": "Gestionnaire des synergies de combat Nolvus",
+    "status": "TranslationComplete",
+    "form_id": "06000801|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "QUST FULL",
+    "index": null,
+    "editor_id": "Nol_Syn_Controller_Quest"
+  },
+  {
+    "original": "1 Handed Attack Stamina Cost",
+    "string": "Attaque à 1 main Coût en vigueur",
+    "status": "TranslationComplete",
+    "form_id": "06000803|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Nol_1H_Attack_Cost"
+  },
+  {
+    "original": "Exhaustion",
+    "string": "Épuisement",
+    "status": "TranslationComplete",
+    "form_id": "03001828|ValhallaCombat.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Val_Exhaustion_MGEF"
+  },
+  {
+    "original": "Melee attacks deal 25% less damage.",
+    "string": "Les attaques au corps à corps infligent 25% de dégâts en moins.",
+    "status": "TranslationComplete",
+    "form_id": "03001827|ValhallaCombat.esp",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "Val_Exhaustion_Spell"
+  },
+  {
+    "original": "Nolvus Stamina Attack Cost Spell",
+    "string": "Coût en vigueur des attaques (Nolvus)",
+    "status": "TranslationComplete",
+    "form_id": "06000802|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "Nol_StaminaAttackCost"
+  },
+  {
+    "original": "High Stance",
+    "string": "Position haute",
+    "status": "TranslationComplete",
+    "form_id": "01005908|Stances - Dynamic Weapon Movesets SE.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "stances_highstance_spell"
+  },
+  {
+    "original": "Exhaustion",
+    "string": "Fatigue",
+    "status": "TranslationComplete",
+    "form_id": "06000809|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Val_Exhaustion_Force_MGEF"
+  },
+  {
+    "original": "Exhaustion",
+    "string": "Épuisement",
+    "status": "TranslationComplete",
+    "form_id": "03002DB2|ValhallaCombat.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "Val_Exhaustion_Perk"
+  },
+  {
+    "original": "You move <mag>% slower",
+    "string": "Vous vous déplacez <mag>% plus lentement",
+    "status": "TranslationComplete",
+    "form_id": "06000808|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "Nol_Damage_Resistance_Debuff"
+  },
+  {
+    "original": "2 Handed Attack Stamina Cost",
+    "string": "Attaque à 2 mains Coût en vigueur",
+    "status": "TranslationComplete",
+    "form_id": "06000804|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Nol_2H_Attack_Cost"
+  },
+  {
+    "original": "You move <mag>% slower",
+    "string": "Vous vous déplacez <mag>% plus lentement",
+    "status": "TranslationComplete",
+    "form_id": "06000807|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "Nol_Stamina_Regeneration_Debuff"
+  },
+  {
+    "original": "Frost Troll abilities",
+    "string": "Talents de troll de glace",
+    "status": "TranslationComplete",
+    "form_id": "000B556A|Skyrim.esm",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "AbTrollFrost"
+  },
+  {
+    "original": "Speed Debuff",
+    "string": "Débuff de vitesse",
+    "status": "TranslationComplete",
+    "form_id": "06000800|Nolvus Awakening Combat Synergy Patch.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Nol_Speed_Debuff"
+  },
+  {
+    "original": "Melee attacks deal 25% less damage.",
+    "string": "Les attaques de mêlée infligent 25 % de dégâts en moins.",
+    "status": "TranslationComplete",
+    "form_id": "03001828|ValhallaCombat.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "Val_Exhaustion_MGEF"
+  },
+  {
+    "original": "ŹÂő<",
+    "string": "ŹÂő<",
+    "status": "NoTranslationRequired",
+    "form_id": "00021A71|Skyrim.esm",
+    "type": "GMST DATA",
+    "index": null,
+    "editor_id": "fArmorBaseFactor"
+  },
+  {
+    "original": "ŹÂő=",
+    "string": "ŹÂő=",
+    "status": "NoTranslationRequired",
+    "form_id": "00021A72|Skyrim.esm",
+    "type": "GMST DATA",
+    "index": null,
+    "editor_id": "fArmorScalingFactor"
+  },
+  {
+    "original": "33ł?",
+    "string": "33ł?",
+    "status": "NoTranslationRequired",
+    "form_id": "000C5C0C|Skyrim.esm",
+    "type": "GMST DATA",
+    "index": null,
+    "editor_id": "fArmorRatingPCMax"
+  }
+]

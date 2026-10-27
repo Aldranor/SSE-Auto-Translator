@@ -1,0 +1,56 @@
+[
+  {
+    "original": "天际",
+    "string": "Bordeciel",
+    "status": "TranslationComplete",
+    "form_id": "0000003C|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "Tamriel"
+  },
+  {
+    "original": "bloodeye Skill 1",
+    "string": "Compétence 1 de Bloodeye",
+    "status": "TranslationComplete",
+    "form_id": "01000801|Bloodeye.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "Skill1"
+  },
+  {
+    "original": "Albert journal",
+    "string": "Journal d’Albert",
+    "status": "TranslationComplete",
+    "form_id": "01000802|Bloodeye.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "Albertjournal"
+  },
+  {
+    "original": "Skill 1",
+    "string": "Compétence 1",
+    "status": "TranslationComplete",
+    "form_id": "01000806|Bloodeye.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "Cloak1"
+  },
+  {
+    "original": "Bloodeye Albert",
+    "string": "Bloodeye Albert",
+    "status": "NoTranslationRequired",
+    "form_id": "01000800|Bloodeye.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Albert"
+  },
+  {
+    "original": "<font face=\"$HandwrittenFont\" size=\"17\">这一天，我成为了战士，为天际省的国王效忠，为诺德人的荣耀而战。我梦想着成为英雄，为国家建立功勋，受到人们的敬仰和赞美。我经过了训练，他们说我是百年来最强的诺德战士，我结识了乌弗瑞克。他说，我们是天际省的未来，我们要为国家和人民负责，我们要为自己的信仰和荣耀而战。我们要去对抗帝国的入侵，保卫我们的边境。我准备好了，我穿上了铠甲，拿起了武器，和战友一起上了马，向着边境出发。我兴奋而紧张，我知道，这是我成为英雄的开始。我对自己说，阿尔贝尔，你要勇敢，你要为诺德人的荣耀而战。你要让所有的人都知道，你是一名真正的战士。\r\n[pagebreak]\r\n我们到达了边境，看到了帝国的军队，他们的人数比我们多。但是，我想起了我的信仰，我想起了我的战友，我想起了我的家乡，我要打败他们，赢得这场战争。\r\n我们的指挥官发出了进攻的号令，我们的军队如同洪流，向着帝国的军队冲去。我也冲向了前线，我用我的大剑，与帝国的士兵交战，我感觉到了，我们一定会赢。\r\n[pagebreak]\r\n塔罗斯保佑，我们打败了帝国的军队，我们赢得了这场战斗。\r\n[pagebreak]\r\n这一切都在一夜之间改变了，我们在返回的路上碰到了吸血鬼的袭击，战友们都死了，只有我活了下来。但是我被其中一只吸血鬼的魔法击中了，一开始我并没有症状，但随后几天的日子里我的状态每况愈下。我看到了我的皮肤变得苍白，我看到了我的牙齿变得尖锐，我看到了我的灵魂变得黑暗。\r\n[pagebreak]\r\n我被诅咒了...现在我的脑子里只剩下杀戮和对鲜血的渴望，这样子活下去简直就是耻辱。\r\n[pagebreak]\r\n如果你正在看这本日记，那么说明我已经死了。谢谢你，朋友，我终于解脱了...\r\n</font>",
+    "string": "<font face=\"$HandwrittenFont\" size=\"17\">Ce jour-là, je suis devenu un guerrier. J’ai juré fidélité au roi de Bordeciel et me suis battu pour la gloire des Nordiques. Je rêvais de devenir un héros, de servir mon pays et d’être admiré et loué par tous. J’ai suivi l’entraînement. On disait de moi que j’étais le plus grand guerrier nordique depuis un siècle. C’est alors que j’ai rencontré Ulfric. Il disait que nous étions l’avenir de Bordeciel et que nous avions le devoir de veiller sur le pays et son peuple, de défendre notre foi et notre honneur. Nous devions repousser l’invasion impériale et protéger nos frontières. J’étais prêt. J’ai revêtu mon armure, pris mes armes, puis j’ai enfourché mon cheval avec mes compagnons pour prendre la route de la frontière. J’étais à la fois fébrile et inquiet. Je savais que c’était le début de ma vie de héros. Je me suis dit : « Albert, sois brave. Bats-toi pour la gloire des Nordiques. Montre à tous que tu es un vrai guerrier. »\r\n[pagebreak]\r\nNous sommes arrivés à la frontière et avons aperçu l’armée impériale. Ils étaient plus nombreux que nous. Mais je me suis rappelé ma foi, mes compagnons, ma patrie. Je devais les vaincre et remporter cette guerre.\r\nNotre commandant a donné l’ordre d’attaquer. Notre armée s’est ruée sur les Impériaux comme un torrent. J’ai foncé moi aussi au front, l’épée à deux mains, contre les soldats de l’Empire. Je le sentais : la victoire était à nous.\r\n[pagebreak]\r\nAvec la bénédiction de Talos, nous avons vaincu l’armée impériale. Nous avions remporté cette bataille.\r\n[pagebreak]\r\nTout a changé en une nuit. Sur le chemin du retour, des vampires nous ont attaqués. Mes compagnons sont morts ; j’ai été le seul à survivre. Mais la magie de l’un des vampires m’a atteint. Je n’ai d’abord ressenti aucun symptôme, puis mon état s’est dégradé au fil des jours. Ma peau a blanchi, mes dents sont devenues pointues et mon âme s’est assombrie.\r\n[pagebreak]\r\nJ’ai été maudit... À présent, il ne reste dans mon esprit que l’envie de tuer et la soif de sang. Continuer à vivre ainsi est une honte.\r\n[pagebreak]\r\nSi tu lis ce journal, c’est que je suis mort. Merci, mon ami. J’ai enfin trouvé la paix...\r\n</font>",
+    "status": "TranslationComplete",
+    "form_id": "01000802|Bloodeye.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "Albertjournal"
+  }
+]

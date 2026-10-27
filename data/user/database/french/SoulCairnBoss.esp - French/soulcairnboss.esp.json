@@ -1,0 +1,272 @@
+[
+  {
+    "original": "Red Eye Draugr",
+    "string": "Oeil rouge Draugr",
+    "status": "TranslationComplete",
+    "form_id": "040009C4|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "AbFXRedEyeDraugr"
+  },
+  {
+    "original": "Dark Red FX",
+    "string": "Dark Red FX",
+    "status": "NoTranslationRequired",
+    "form_id": "04000810|SoulCairnBoss.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "AbFXDarkRed"
+  },
+  {
+    "original": "Shadow Bolt",
+    "string": "Éclair ombreux",
+    "status": "TranslationComplete",
+    "form_id": "0400098F|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "_SSPConjureAtronachShadowboltEffect"
+  },
+  {
+    "original": "While in combat, increases physical and magical damage output with decreasing health percentage.",
+    "string": "En combat, augmente les dégâts physiques et magiques en diminuant le pourcentage de santé.",
+    "status": "TranslationComplete",
+    "form_id": "0400098A|SoulCairnBoss.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "EffigyZealot"
+  },
+  {
+    "original": "DLC01 Soul Cairn necro skeleton fx",
+    "string": "DLC01 Soul Cairn necro skeleton fx",
+    "status": "TranslationComplete",
+    "form_id": "0400099C|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "DLC1SoulCairnAbFXSkeletonNecro1"
+  },
+  {
+    "original": "Zealot's Effigy",
+    "string": "Effigie du zélote",
+    "status": "TranslationComplete",
+    "form_id": "0400098A|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "EffigyZealot"
+  },
+  {
+    "original": "Zealot's Effigy",
+    "string": "Effigie du zélote",
+    "status": "TranslationComplete",
+    "form_id": "0400098D|SoulCairnBoss.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "EffigyZealotDUPLICATE003"
+  },
+  {
+    "original": "Zealot's Effigy",
+    "string": "Effigie du zélote",
+    "status": "TranslationComplete",
+    "form_id": "04000989|SoulCairnBoss.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "EffigyZealotDUPLICATE001"
+  },
+  {
+    "original": "Dark Red FX",
+    "string": "Dark Red FX",
+    "status": "NoTranslationRequired",
+    "form_id": "0400080F|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "DarkRedAuraFX"
+  },
+  {
+    "original": "Berserker FX",
+    "string": "Berserker FX",
+    "status": "NoTranslationRequired",
+    "form_id": "04000848|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "BerserkerFX"
+  },
+  {
+    "original": "Draugr Glow One Eye",
+    "string": "Draugr Glow One Eye",
+    "status": "NoTranslationRequired",
+    "form_id": "0400083E|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "AbFXDraugrOneEye"
+  },
+  {
+    "original": "Natural Armor: Boss",
+    "string": "Armure naturelle : Boss",
+    "status": "TranslationComplete",
+    "form_id": "0400085F|SoulCairnBoss.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "REQ_Trait_NaturalArmor_Boss"
+  },
+  {
+    "original": "Red Eye",
+    "string": "Oeil rouge",
+    "status": "TranslationComplete",
+    "form_id": "0400084B|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "AbFXRedEye"
+  },
+  {
+    "original": "Health regenerates <mag>% faster.",
+    "string": "La santé se régénère <mag> % plus vite.",
+    "status": "TranslationComplete",
+    "form_id": "04000983|SoulCairnBoss.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "REQ_Ench_FortifyHealthRegenerationBoss"
+  },
+  {
+    "original": "Shadowbane Purple Glow",
+    "string": "Lueur pourpre de l'arc-en-ciel",
+    "status": "TranslationComplete",
+    "form_id": "04000985|SoulCairnBoss.esp",
+    "type": "ENCH FULL",
+    "index": null,
+    "editor_id": "ShdowbaneGlow"
+  },
+  {
+    "original": "Fortify Health Regeneration",
+    "string": "Renfort de régénération de santé",
+    "status": "TranslationComplete",
+    "form_id": "04000983|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "REQ_Ench_FortifyHealthRegenerationBoss"
+  },
+  {
+    "original": "Soul Cairn",
+    "string": "Cairn de l'Âme",
+    "status": "TranslationComplete",
+    "form_id": "02001408|Dawnguard.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "DLC01SoulCairn"
+  },
+  {
+    "original": "Fortify Health Regen Boss",
+    "string": "Fortifier la régénération de la santé Boss",
+    "status": "TranslationComplete",
+    "form_id": "04000982|SoulCairnBoss.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "REQ_Ability_FortifyHealthRegenBoss"
+  },
+  {
+    "original": "Nameless Warrior",
+    "string": "Guerrier sans nom",
+    "status": "TranslationComplete",
+    "form_id": "0400097D|SoulCairnBoss.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "NamelessWarrior"
+  },
+  {
+    "original": "DA08 necro skeleton fx",
+    "string": "DA08 necro skeleton fx",
+    "status": "TranslationComplete",
+    "form_id": "0400080A|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "AbFXSkeletonNecro1"
+  },
+  {
+    "original": "Boss Perks",
+    "string": "Atouts du boss",
+    "status": "TranslationComplete",
+    "form_id": "0400085E|SoulCairnBoss.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "editor_id": "BossPerk"
+  },
+  {
+    "original": "Shadow Bolt",
+    "string": "Éclair ombreux",
+    "status": "TranslationComplete",
+    "form_id": "0400098C|SoulCairnBoss.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "Shadowbolt"
+  },
+  {
+    "original": "BerserkerFX No Glow",
+    "string": "BerserkerFX No Glow",
+    "status": "NoTranslationRequired",
+    "form_id": "040009B9|SoulCairnBoss.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "AbFXBerserkerNoGlow"
+  },
+  {
+    "original": "Draugr Humanoid",
+    "string": "Draugr Humanoïde",
+    "status": "TranslationComplete",
+    "form_id": "04000819|SoulCairnBoss.esp",
+    "type": "RACE FULL",
+    "index": null,
+    "editor_id": "DraugrHumanoid"
+  },
+  {
+    "original": "Nameless Warrior FX",
+    "string": "Nameless Warrior FX",
+    "status": "NoTranslationRequired",
+    "form_id": "040009BF|SoulCairnBoss.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "REQ_Trait_FX_Nameless_Warrior"
+  },
+  {
+    "original": "Shadowbane",
+    "string": "Lueur de l'Ombre",
+    "status": "TranslationComplete",
+    "form_id": "04000981|SoulCairnBoss.esp",
+    "type": "WEAP FULL",
+    "index": null,
+    "editor_id": "Shadowbane"
+  },
+  {
+    "original": "Natural Armor: Ranged Resistance - Tier 3",
+    "string": "Armure naturelle : Résistance à distance - Niveau 3",
+    "status": "TranslationComplete",
+    "form_id": "04000999|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "REQ_Trait_NaturalArmor_AmorResistance_Ranged3"
+  },
+  {
+    "original": "Purple Glow",
+    "string": "Lueur violette",
+    "status": "TranslationComplete",
+    "form_id": "04000986|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "ShadowbaneGlowEffect"
+  },
+  {
+    "original": "Fortify Mass",
+    "string": "Renfort de masse",
+    "status": "TranslationComplete",
+    "form_id": "0400099A|SoulCairnBoss.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "REQ_AbHide_FortifyMass"
+  },
+  {
+    "original": "BerserkerFX",
+    "string": "BerserkerFX",
+    "status": "NoTranslationRequired",
+    "form_id": "04000849|SoulCairnBoss.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "AbFXBerserker"
+  }
+]

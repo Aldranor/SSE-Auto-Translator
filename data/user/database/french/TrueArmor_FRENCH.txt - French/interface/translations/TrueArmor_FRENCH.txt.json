@@ -1,0 +1,2996 @@
+[
+  {
+    "original": "General Settings",
+    "string": "Paramètres généraux",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page1"
+  },
+  {
+    "original": "Advanced Settings",
+    "string": "Réglages avancés",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page2"
+  },
+  {
+    "original": "Preferences",
+    "string": "Préférences",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page3"
+  },
+  {
+    "original": "Baseline Adjustments",
+    "string": "Réglages de base",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page4"
+  },
+  {
+    "original": "Cloth",
+    "string": "Vêtements",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page5"
+  },
+  {
+    "original": "Hide",
+    "string": "Masquer",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page6"
+  },
+  {
+    "original": "Leather",
+    "string": "Cuir",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page7"
+  },
+  {
+    "original": "Scale",
+    "string": "Échelle",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page8"
+  },
+  {
+    "original": "Iron",
+    "string": "Fer",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page9"
+  },
+  {
+    "original": "Steel",
+    "string": "Acier",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page10"
+  },
+  {
+    "original": "Steel Plate",
+    "string": "Plaques d’acier",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page11"
+  },
+  {
+    "original": "Dwarven",
+    "string": "Dwemer",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page12"
+  },
+  {
+    "original": "Elven",
+    "string": "Elfique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page13"
+  },
+  {
+    "original": "Orcish",
+    "string": "Orque",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page14"
+  },
+  {
+    "original": "Glass",
+    "string": "Verre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page15"
+  },
+  {
+    "original": "Ebony",
+    "string": "Ébonite",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page16"
+  },
+  {
+    "original": "Daedric",
+    "string": "Daedrique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page17"
+  },
+  {
+    "original": "Dragonscale",
+    "string": "Écailles de dragon",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page18"
+  },
+  {
+    "original": "Dragonplate",
+    "string": "Plaques de dragon",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page19"
+  },
+  {
+    "original": "Heavy Cuirass",
+    "string": "Cuirasse lourde",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page20"
+  },
+  {
+    "original": "Light Cuirass",
+    "string": "Cuirasse légère",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page21"
+  },
+  {
+    "original": "Material Properties",
+    "string": "Propriétés des matériaux",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page22"
+  },
+  {
+    "original": "Blocking & Spells",
+    "string": "Blocage et sorts",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page23"
+  },
+  {
+    "original": "Save & Load",
+    "string": "Sauvegarde et chargement",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page24"
+  },
+  {
+    "original": "Advanced Settings: Specialized, in-depth functions, which are only needed in special cases.",
+    "string": "Réglages avancés : fonctions spécialisées et détaillées, utiles uniquement dans certains cas.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page1_Info"
+  },
+  {
+    "original": "Preferences: View options for the True Armor menu and other preference options which have no direct gameplay relevance and are not saved within setting files.",
+    "string": "Préférences : options d’affichage du menu True Armor et autres préférences sans effet direct sur le jeu, qui ne sont pas enregistrées dans les fichiers de réglages.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page3_Info"
+  },
+  {
+    "original": "Baseline Adjustments: Fine tuning of the overall qualities of all armors simultaneously. All settings here are non-destructive modifiers.",
+    "string": "Réglages de base : ajustement précis des propriétés de toutes les armures à la fois. Ces paramètres modifient les valeurs sans altérer les réglages sous-jacents.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page4_Info"
+  },
+  {
+    "original": "This category includes: Cloth, Naked and armors without any recognized keywords. \\nNon-playable races will not profit from the protections and attributes here.",
+    "string": "Cette catégorie comprend les vêtements, les personnages sans armure et les armures sans mot-clé reconnu.\\nLes races non jouables ne bénéficient pas des protections ni des attributs définis ici.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page5_Info"
+  },
+  {
+    "original": "This category includes: Hide, forsworn and Studded Leather armors.",
+    "string": "Cette catégorie comprend les armures en peau, parjures et cuir clouté.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page6_Info"
+  },
+  {
+    "original": "This category includes: Leather, Light Imperial, Thieves Guild, Falmer, Dark Brotherhood and Penitus Oculatus armors.",
+    "string": "Cette catégorie comprend les armures en cuir clouté, impériales légères, de la Guilde des voleurs, falmer, de la Confrérie noire et de la Garde pénale.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page7_Info"
+  },
+  {
+    "original": "This category includes: Scale, Stormcloak, Studded Imperial, Guard and Dawnguard armors.",
+    "string": "Cette catégorie comprend les armures à écailles, des Sombrages, impériales cloutées, des gardes et de la Garde de l’Aube.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page8_Info"
+  },
+  {
+    "original": "This category includes: Iron and Chitin armors.",
+    "string": "Cette catégorie comprend les armures de fer et de chitine.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page9_Info"
+  },
+  {
+    "original": "This category includes: Steel, Heavy Imperial, Blades, Wolf, General Tullius and Nordic Carved armors. \\nArmors without recognized material, but with heavy armor keyword also belong to this category.",
+    "string": "Cette catégorie comprend les armures d’acier, impériales lourdes, des Lames, du Loup, du général Tullius et nordiques sculptées.\\nLes armures lourdes sans matériau reconnu sont également incluses.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page10_Info"
+  },
+  {
+    "original": "This category includes: Steel Plate armors.",
+    "string": "Cette catégorie comprend les armures en plaques d’acier.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page11_Info"
+  },
+  {
+    "original": "This category includes: Dwarven armors.",
+    "string": "Cette catégorie comprend les armures dwemers.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page12_Info"
+  },
+  {
+    "original": "This category includes: Elven, Nightingale and Ancient Falmer armors. \\nArmors without recognized material, but with light armor keyword also belong to this category.",
+    "string": "Cette catégorie comprend les armures elfiques, rossignol et falmer antiques.\\nLes armures légères sans matériau reconnu sont également incluses.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page13_Info"
+  },
+  {
+    "original": "This category includes: Orcish, Bonemold and Heavy or Hardened Falmer armors.",
+    "string": "Cette catégorie comprend les armures orques, en ossemoule, falmer lourdes ou renforcées.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page14_Info"
+  },
+  {
+    "original": "This category includes: Glass and Stahlrim armors.",
+    "string": "Cette catégorie comprend les armures de verre et de stalhrim.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page15_Info"
+  },
+  {
+    "original": "This category includes: Ebony armors.",
+    "string": "Cette catégorie comprend les armures d’ébonite.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page16_Info"
+  },
+  {
+    "original": "This category includes: Daedric armors.",
+    "string": "Cette catégorie comprend les armures daedriques.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page17_Info"
+  },
+  {
+    "original": "This category includes: Dragonscale armors.",
+    "string": "Cette catégorie comprend les armures en écailles de dragon.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page18_Info"
+  },
+  {
+    "original": "This category includes: Dragonplate armors.",
+    "string": "Cette catégorie comprend les armures en plaques de dragon.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page19_Info"
+  },
+  {
+    "original": "Heavy Cuirass Protections.",
+    "string": "Protections des cuirasses lourdes.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page20_Info"
+  },
+  {
+    "original": "Blocking & Spells: Options for tweaking the amount of blocked damage and the passive block mechanic, as well as options for mage armor and ward spells.",
+    "string": "Blocage et sorts : réglages des dégâts bloqués et du blocage passif, ainsi que des sorts d’armure de mage et des protections.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page23_Info"
+  },
+  {
+    "original": "Save & Load: Saving and loading of True Armor presets and custom configurations.",
+    "string": "Sauvegarde et chargement : enregistrement et chargement des préréglages et configurations personnalisées de True Armor.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Page24_Info"
+  },
+  {
+    "original": "Complex Armor Protections",
+    "string": "Protections complexes des armures",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ComplexArmorProtections"
+  },
+  {
+    "original": "Complex System - Armor Attributes",
+    "string": "Système complexe — attributs des armures",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ComplexArmorAttributes"
+  },
+  {
+    "original": "Apply to Player",
+    "string": "Appliquer au joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyToPlayer"
+  },
+  {
+    "original": "Apply to NPCs",
+    "string": "Appliquer aux PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyToNPCs"
+  },
+  {
+    "original": "Activate Complex Armor System for Player",
+    "string": "Activer le système d’armure complexe pour le joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyArmorProtectionsToPlayer"
+  },
+  {
+    "original": "Activate Complex Armor System for NPCs",
+    "string": "Activer le système d’armure complexe pour les PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyArmorProtectionsToNPCs"
+  },
+  {
+    "original": "Activate Block Protection for Player",
+    "string": "Activer la protection au blocage pour le joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyBlockProtectionsToPlayer"
+  },
+  {
+    "original": "Activate Block Protection for NPCs",
+    "string": "Activer la protection au blocage pour les PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyBlockProtectionsToNPCs"
+  },
+  {
+    "original": "Activate Spell Protection for Player",
+    "string": "Activer la protection contre les sorts pour le joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplySpellProtectionsToPlayer"
+  },
+  {
+    "original": "Activate Spell Protection for NPCs",
+    "string": "Activer la protection contre les sorts pour les PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplySpellProtectionsToNPCs"
+  },
+  {
+    "original": "Activate Attributes for Player",
+    "string": "Activer les attributs pour le joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyAttributesToPlayer"
+  },
+  {
+    "original": "Activate Attributes for NPCs",
+    "string": "Activer les attributs pour les PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyAttributesToNPCs"
+  },
+  {
+    "original": "Enables True Armor's original armor based protections for the player. This system requires a script which may affect performance on heavily modded setups. It includes armor material categories, sound effects, tempering, body part selection, etc. Protections stack with the simple system if both are used.",
+    "string": "Active le système de protection original de True Armor, fondé sur les pièces d’armure du joueur. Il nécessite un script susceptible de ralentir les configurations très modifiées. Il gère notamment les matériaux, les effets sonores, l’amélioration et les parties du corps touchées. Ses protections se cumulent avec celles du système simple si les deux sont activés.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyArmorProtectionsToPlayer_Info"
+  },
+  {
+    "original": "Enables True Armor's original armor based protections for NPCs. This system requires a script which may affect performance on heavily modded setups. It includes multiple armor categories, sound effects, tempering, body part selection, etc. Protections stack with the simple system if both are used.",
+    "string": "Active le système de protection original de True Armor, fondé sur les pièces d’armure des PNJ. Il nécessite un script susceptible de ralentir les configurations très modifiées. Il gère plusieurs catégories d’armure, les effets sonores, l’amélioration et les parties du corps touchées. Ses protections se cumulent avec celles du système simple si les deux sont activés.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyArmorProtectionsToNPCs_Info"
+  },
+  {
+    "original": "Enables extra damage blocked and passive shield blocking for the player if facing the attacker. This is separate from the normal blocking percentage. Very lightweight system.",
+    "string": "Le joueur bloque davantage de dégâts et peut bloquer passivement avec un bouclier lorsqu’il fait face à l’assaillant. Ce mécanisme s’ajoute au pourcentage de blocage normal. Système très léger.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyBlockProtectionsToPlayer_Info"
+  },
+  {
+    "original": "Enables extra damage blocked and passive shield blocking for NPCs. This is separate from the normal blocking percentage. Very lightweight system.",
+    "string": "Les PNJ bloquent davantage de dégâts et peuvent bloquer passivement avec un bouclier lorsqu’ils font face à l’assaillant. Ce mécanisme s’ajoute au pourcentage de blocage normal. Système très léger.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyBlockProtectionsToNPCs_Info"
+  },
+  {
+    "original": "Enables extra damage reduction from alteration armor spells for the player. Very lightweight system.",
+    "string": "Les sorts d’armure d’Altération réduisent davantage les dégâts subis par le joueur. Système très léger.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplySpellProtectionsToPlayer_Info"
+  },
+  {
+    "original": "Enables extra damage reduction from alteration armor spells for NPCs. Very lightweight system.",
+    "string": "Les sorts d’armure d’Altération réduisent davantage les dégâts subis par les PNJ. Système très léger.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplySpellProtectionsToNPCs_Info"
+  },
+  {
+    "original": "Worn armor will influence player attributes. This system requires a script which may affect performance on heavily modded setups.",
+    "string": "Les armures portées influent sur les attributs du joueur. Ce système nécessite un script susceptible de ralentir les configurations très modifiées.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyAttributesToPlayer_Info"
+  },
+  {
+    "original": "Worn armor will influence NPC attributes. By default, allies and neutral NPCs are excluded from this effect. See Advanced Settings. This system requires a script which may affect performance on heavily modded setups.",
+    "string": "Les armures portées influent sur les attributs des PNJ. Par défaut, les alliés et les PNJ neutres ne sont pas concernés. Voir les réglages avancés. Ce système nécessite un script susceptible de ralentir les configurations très modifiées.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyAttributesToNPCs_Info"
+  },
+  {
+    "original": "Activate Ward Spells For Player",
+    "string": "Activer les sorts de protection pour le joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EnableWardSpellsForPlayer"
+  },
+  {
+    "original": "Activate Ward Spells For NPCs",
+    "string": "Activer les sorts de protection pour les PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EnableWardSpellsForNPCs"
+  },
+  {
+    "original": "Enables ward spell based physical damage reduction for the player. Compatibility for Mysticism wards is included. Very lightweight system.",
+    "string": "Les sorts de protection réduisent aussi les dégâts physiques subis par le joueur. Les protections de Mysticism sont compatibles. Système très léger.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EnableWardSpellsForPlayer_Info"
+  },
+  {
+    "original": "Enable ward spell based physical damage reduction for NPCs. Compatibility for Mysticism wards is included. Very lightweight system.",
+    "string": "Les sorts de protection réduisent aussi les dégâts physiques subis par les PNJ. Les protections de Mysticism sont compatibles. Système très léger.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EnableWardSpellsForNPCs_Info"
+  },
+  {
+    "original": "Activate Simple Armor System for Player",
+    "string": "Activer le système d’armure simple pour le joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyCuirassProtectionsToPlayer"
+  },
+  {
+    "original": "Enables cuirass based protections for Player. This system is extremely performance friendly but only offers protections for light and heavy cuirasses. It does not include attribute adjustments, sounds, etc. Protections stack with the complex system if both are used.",
+    "string": "Active les protections liées aux cuirasses du joueur. Ce système, très peu gourmand en ressources, ne couvre que les cuirasses légères et lourdes. Il ne modifie pas les attributs et n’ajoute aucun effet sonore. Ses protections se cumulent avec celles du système complexe si les deux sont activés.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyCuirassProtectionsToPlayer_Info"
+  },
+  {
+    "original": "Activate Simple Armor System for NPCs",
+    "string": "Activer le système d’armure simple pour les PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyCuirassProtectionsToNPCs"
+  },
+  {
+    "original": "Enables cuirass based protections for NPCs. This system is extremely performance friendly but only offers protections for light and heavy cuirasses. It does not include attribute adjustments, sounds, etc. Protections stack with the complex system if both are used.",
+    "string": "Active les protections liées aux cuirasses des PNJ. Ce système, très peu gourmand en ressources, ne couvre que les cuirasses légères et lourdes. Il ne modifie pas les attributs et n’ajoute aucun effet sonore. Ses protections se cumulent avec celles du système complexe si les deux sont activés.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyCuirassProtectionsToNPCs_Info"
+  },
+  {
+    "original": "Activate Material Properties for Player",
+    "string": "Activer les propriétés des matériaux pour le joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyMaterialPropertiesToPlayer"
+  },
+  {
+    "original": "Enables material-based magic resistances and vulnerabilities for worn cuirasses for the player. These stack with and/or act against other armor-system based magic protections. Example, if you set heavy cuirasses (Simple System) to resist 25% of fire damage and also set metal materials to take double fire damage 50% of the time, both of these settings will apply if you're wearing a heavy metal cuirass. Very lightweight system.",
+    "string": "Les cuirasses portées par le joueur confèrent des résistances ou des vulnérabilités magiques selon leur matériau. Ces effets s’ajoutent aux autres protections magiques des armures ou les contrent. Par exemple, si le système simple confère aux cuirasses lourdes une résistance de 25 % au feu, tandis que les matériaux métalliques subissent le double de dégâts de feu dans 50 % des cas, les deux réglages s’appliquent à une cuirasse lourde en métal. Système très léger.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyMaterialPropertiesToPlayer_Info"
+  },
+  {
+    "original": "Activate Material Properties for NPCs",
+    "string": "Activer les propriétés des matériaux pour les PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyMaterialPropertiesToNPCs"
+  },
+  {
+    "original": "Enables material-based magic resistances and vulnerabilities for worn cuirasses for NPCs. These stack with and/or act against other armor-system based magic protections. Example, if you set heavy cuirasses (Simple System) to resist 25% of fire damage and also set metal materials to take double fire damage 50% of the time, both of these settings will apply if you're wearing a heavy metal cuirass. Very lightweight system.",
+    "string": "Les cuirasses portées par les PNJ confèrent des résistances ou des vulnérabilités magiques selon leur matériau. Ces effets s’ajoutent aux autres protections magiques des armures ou les contrent. Par exemple, si le système simple confère aux cuirasses lourdes une résistance de 25 % au feu, tandis que les matériaux métalliques subissent le double de dégâts de feu dans 50 % des cas, les deux réglages s’appliquent à une cuirasse lourde en métal. Système très léger.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyMaterialPropertiesToNPCs_Info"
+  },
+  {
+    "original": "Simple Protection Systems",
+    "string": "Systèmes de protection simples",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SimpleProtectionSystems"
+  },
+  {
+    "original": "Armor Settings",
+    "string": "Réglages des armures",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ArmorSettings"
+  },
+  {
+    "original": "Treat Head Like Body for Player",
+    "string": "Assimiler la tête au corps pour le joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_TreatHeadLikeBodyForPlayer"
+  },
+  {
+    "original": "Treat Head Like Body for NPCs",
+    "string": "Assimiler la tête au corps pour les PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_TreatHeadLikeBodyForNPCs"
+  },
+  {
+    "original": "Checking this tells True Armor to ignore whatever you are wearing on your head and to instead assume that it's equal to whatever you are wearing on your body. You can check this if you don't want to use a helmet for your player but still want to be treated as if wearing a matching helmet for your body.",
+    "string": "Cette option demande à True Armor d’ignorer ce que porte le personnage sur la tête et de considérer que sa protection est identique à celle de son armure. Activez-la si vous ne voulez pas porter de casque tout en bénéficiant de la protection correspondante.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_TreatHeadLikeBodyForPlayer_Info"
+  },
+  {
+    "original": "Checking this tells True Armor to ignore whatever NPCs are wearing on their heads and to instead assume that it's equal to whatever they are wearing on their body. You may want to check this if you also checked the same thing for the player to give opponents the same advantage of not needing to wear a helmet.",
+    "string": "Cette option demande à True Armor d’ignorer les casques portés par les PNJ et de considérer que leur protection est identique à celle de leur armure. Activez-la aussi pour le joueur afin que ses adversaires profitent du même avantage sans avoir à porter de casque.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_TreatHeadLikeBodyForNPCs_Info"
+  },
+  {
+    "original": "Armor Priorities",
+    "string": "Priorités des zones d’armure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ArmorPriorities"
+  },
+  {
+    "original": "When an actor gets hit, True Armor will randomly choose which body part was struck. This value determines how likely it is for the different areas to be chosen, relative to the others.",
+    "string": "Lorsqu’un personnage est touché, True Armor choisit au hasard la partie du corps atteinte. Ce réglage détermine la probabilité que chaque zone soit choisie par rapport aux autres.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ArmorPriorities_Info"
+  },
+  {
+    "original": "Attribute Priorities",
+    "string": "Priorités des attributs",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AttributePriorities"
+  },
+  {
+    "original": "Determines how strongly the different areas contribute to complex armor based attributes.",
+    "string": "Détermine l’influence de chaque zone sur les attributs du système d’armure complexe.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AttributePriorities_Info"
+  },
+  {
+    "original": "Head",
+    "string": "Tête",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ArmorHead"
+  },
+  {
+    "original": "Body",
+    "string": "Corps",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ArmorBody"
+  },
+  {
+    "original": "Hands",
+    "string": "Mains",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ArmorHands"
+  },
+  {
+    "original": "Feet",
+    "string": "Pieds",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ArmorFeet"
+  },
+  {
+    "original": "Head",
+    "string": "Tête",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AttributesHead"
+  },
+  {
+    "original": "Body",
+    "string": "Corps",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AttributesBody"
+  },
+  {
+    "original": "Hands",
+    "string": "Mains",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AttributesHands"
+  },
+  {
+    "original": "Feet",
+    "string": "Pieds",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AttributesFeet"
+  },
+  {
+    "original": "Skill Based Armor Ignore",
+    "string": "Ignorer l’armure selon la compétence",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SkillBasedArmorIgnore"
+  },
+  {
+    "original": "One-Handed Armor Ignore",
+    "string": "Ignorer l’armure à une main",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SkillArmorIgnore_OneHanded"
+  },
+  {
+    "original": "Two-Handed Armor Ignore",
+    "string": "Ignorer l’armure à deux mains",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SkillArmorIgnore_TwoHanded"
+  },
+  {
+    "original": "Archery Armor Ignore",
+    "string": "Ignorer l’armure à l’arc",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SkillArmorIgnore_Archery"
+  },
+  {
+    "original": "Only applies to the player character. When using weapons of the specified skill type, the player gets an additional chance to bypass enemy armor, up to the specified value at a skill level of 100.",
+    "string": "S’applique uniquement au joueur. Lorsqu’il utilise une arme associée à la compétence choisie, il a une chance supplémentaire d’ignorer l’armure ennemie. Cette chance atteint la valeur indiquée au niveau 100 de la compétence.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SkillArmorIgnore_Info"
+  },
+  {
+    "original": "Tempering Based Armor Efficiency",
+    "string": "Efficacité de l’armure selon son amélioration",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_TemperingBasedArmorEfficiency"
+  },
+  {
+    "original": "Tempering Based Attribute Efficiency",
+    "string": "Efficacité des attributs selon l’amélioration",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_TemperingBasedAttributeEfficiency"
+  },
+  {
+    "original": "Untempered Armor Efficiency",
+    "string": "Efficacité d’une armure non améliorée",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MinTemperStateArmorEfficiency"
+  },
+  {
+    "original": "Legendary Armor Efficiency",
+    "string": "Efficacité d’une armure légendaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MaxTemperStateArmorEfficiency"
+  },
+  {
+    "original": "Fitting Threshold",
+    "string": "Seuil d’ajustement",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_FittingThreshold"
+  },
+  {
+    "original": "Bad Fit: Armor Efficiency Penalty",
+    "string": "Mauvais ajustement : pénalité d’efficacité de l’armure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_FittingPenalty_ArmorEfficiency"
+  },
+  {
+    "original": "Bad Fit: Movement Speed Penalty",
+    "string": "Mauvais ajustement : pénalité de vitesse de déplacement",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_FittingPenalty_MoveSpeed"
+  },
+  {
+    "original": "Bad Fit: Weapon Speed Penalty",
+    "string": "Mauvais ajustement : pénalité de vitesse d’attaque",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_FittingPenalty_WeaponSpeed"
+  },
+  {
+    "original": "Only applies to the player character. Untempered armor will operate at the specified efficiency which directly translates to how long it will keep you alive. Armor gets stronger in smooth steps as you improve it. Mid-level upgrades fill the gaps between basic and max upgrades.",
+    "string": "S’applique uniquement au joueur. Une armure non améliorée protège selon l’efficacité définie ici, qui détermine directement le temps qu’elle lui permettra de survivre. L’armure gagne progressivement en efficacité à mesure qu’elle est améliorée ; les améliorations intermédiaires comblent l’écart entre le niveau de base et le niveau maximal.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MinTemperStateArmorEfficiency_Info"
+  },
+  {
+    "original": "Only applies to the player character. Legendary tempered armor will operate at the specified efficiency which directly translates to how long it will keep you alive. Armor gets stronger in smooth steps as you improve it. Mid-level upgrades fill the gaps between basic and max upgrades.",
+    "string": "S’applique uniquement au joueur. Une armure améliorée au niveau légendaire protège selon l’efficacité définie ici, qui détermine directement le temps qu’elle lui permettra de survivre. L’armure gagne progressivement en efficacité à mesure qu’elle est améliorée ; les améliorations intermédiaires comblent l’écart entre le niveau de base et le niveau maximal.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MaxTemperStateArmorEfficiency_Info"
+  },
+  {
+    "original": "Each piece of armor with a tempering level below this is considered badly fitted for the character and can incur additional penalties. 0% = Off, 16% = Fine, 33% = Superior, 50% = Exquisite, 66% = Flawless, 83% = Epic, 100% = Legendary.",
+    "string": "Toute pièce d’armure dont le niveau d’amélioration est inférieur à ce seuil est considérée comme mal ajustée et peut entraîner des pénalités supplémentaires. 0 % = désactivé ; 16 % = correct ; 33 % = supérieur ; 50 % = exquis ; 66 % = impeccable ; 83 % = épique ; 100 % = légendaire.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_FittingThreshold_Info"
+  },
+  {
+    "original": "The maximum protection penalty to movement speed a piece of armor can incur for being at a tempering level below the fitting threshold. If the armor has an intermediate tempering level, but still below the threshold, the penalty will scale accordingly.",
+    "string": "Pénalité maximale de protection à la vitesse de déplacement pour une pièce d’armure dont le niveau d’amélioration est inférieur au seuil d’ajustement. Si son niveau d’amélioration se situe entre deux paliers, la pénalité est ajustée en conséquence.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_FittingPenalty_ArmorEfficiency_Info"
+  },
+  {
+    "original": "The maximum protection penalty to weapon speed a piece of armor can incur for being at a tempering level below the fitting threshold. If the armor has an intermediate tempering level, but still below the threshold, the penalty will scale accordingly.",
+    "string": "Pénalité maximale de protection à la vitesse d’attaque pour une pièce d’armure dont le niveau d’amélioration est inférieur au seuil d’ajustement. Si son niveau d’amélioration se situe entre deux paliers, la pénalité est ajustée en conséquence.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_FittingPenalty_WeaponSpeed_Info"
+  },
+  {
+    "original": "The maximum penalty to movement speed which a piece of armor can incur for being at a tempering level below the fitting threshold. If the armor has an intermediate tempering level, but still below the threshold, the penalty will scale accordingly.",
+    "string": "Pénalité maximale à la vitesse de déplacement pour une pièce d’armure dont le niveau d’amélioration est inférieur au seuil d’ajustement. Si son niveau d’amélioration se situe entre deux paliers, la pénalité est ajustée en conséquence.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_FittingPenalty_MoveSpeed_Info"
+  },
+  {
+    "original": "Sound Effects",
+    "string": "Effets sonores",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SoundEffects"
+  },
+  {
+    "original": "Audio Volume Player",
+    "string": "Volume sonore pour le joueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AudioVolume_Player"
+  },
+  {
+    "original": "Audio Volume NPCs",
+    "string": "Volume sonore pour les PNJ",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AudioVolume_NPCs"
+  },
+  {
+    "original": "The volume of True Armor's sound effects, which play when the player gets hit. This gives audible feedback, distinguishing between striking the primary or secondary layer and full hits for physical weapons. It acts as an overlay and will not suppress the default sound effects. Setting this to 0% disables the feature completely.",
+    "string": "Volume des effets sonores de True Armor lorsque le joueur est touché. Ils indiquent si les armes physiques ont frappé la couche primaire, la couche secondaire ou traversé les deux. Ils se superposent aux sons habituels sans les remplacer. Réglez le volume sur 0 % pour désactiver cette fonction.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AudioVolume_Player_Info"
+  },
+  {
+    "original": "The volume of True Armor's sound effects, which play when NPCs get hit by the player. This gives audible feedback, distinguishing between striking the primary or secondary layer and full hits for physical weapons. It acts as an overlay and will not suppress the default sound effects. Setting this to 0% disables the feature completely.",
+    "string": "Volume des effets sonores de True Armor lorsque le joueur touche un PNJ. Ils indiquent si les armes physiques ont frappé la couche primaire, la couche secondaire ou traversé les deux. Ils se superposent aux sons habituels sans les remplacer. Réglez le volume sur 0 % pour désactiver cette fonction.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AudioVolume_NPCs_Info"
+  },
+  {
+    "original": "Health Limiter",
+    "string": "Limiteur de santé",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter"
+  },
+  {
+    "original": "The Health Limiter caps the effective health of all NPCs dynamically. This counters damage sponges with unrealistic amounts of health. The effect is achieved by reducing the resistances of NPCs, taking buffs and debuffs into account. Combine with a mod like Simply Balanced to fine tune specific enemy types for best effect.",
+    "string": "Le limiteur plafonne dynamiquement la santé effective des PNJ et évite ainsi les ennemis qui encaissent des quantités irréalistes de dégâts. Il réduit leurs résistances en tenant compte des effets positifs et négatifs. Combinez-le à un mod comme Simply Balanced pour ajuster certains types d’ennemis.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyHealthLimiterToNPCs_Info"
+  },
+  {
+    "original": "Limiter Strength for Enemies",
+    "string": "Puissance du limiteur contre les ennemis",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter_Enemy_Strength"
+  },
+  {
+    "original": "Limiter Strength for Neutrals",
+    "string": "Puissance du limiteur pour les neutres",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter_Neutral_Strength"
+  },
+  {
+    "original": "Limiter Strength for Allies",
+    "string": "Puissance du limiteur pour les alliés",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter_Ally_Strength"
+  },
+  {
+    "original": "Base Health",
+    "string": "Santé de base",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter_BaseHealth"
+  },
+  {
+    "original": "Health per Level",
+    "string": "Santé par niveau",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter_LevelHealth"
+  },
+  {
+    "original": "Endurance Factor",
+    "string": "Facteur d’endurance",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter_EnduranceFactor"
+  },
+  {
+    "original": "How strictly the calculated health limit is enforced for NPCs with the given relation to the player. Setting this to 0% renders the limiter useless, at 50% the effective health will be right in the middle of their real health value and the limit and at 100% the NPC will have, at maximum, exactly the amount of effective health that was set here.",
+    "string": "Ce réglage détermine la rigueur avec laquelle la limite de santé calculée s’applique aux PNJ selon leur relation avec le joueur. À 0 %, le limiteur est désactivé. À 50 %, leur santé effective se situe à mi-chemin entre leur santé réelle et la limite. À 100 %, elle ne dépasse pas la valeur définie ici.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter_Strength_Info"
+  },
+  {
+    "original": "The base health for calculating the limit. for reference, the player starts with a base of 100 health on level 1. \\n Calculated Limit = Base Health + (Level - 1) * Health per Level",
+    "string": "Santé de base utilisée pour calculer la limite. À titre indicatif, le joueur commence au niveau 1 avec 100 points de santé.\\nLimite calculée = santé de base + (niveau - 1) × santé par niveau",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter_BaseHealth_Info"
+  },
+  {
+    "original": "The amount of health that the limit is increased by for each level of the NPC. for reference the player can attain a maximum of 10 health per level. \\n Calculated Limit = Base Health + (Level - 1) * Health per Level",
+    "string": "Augmentation de la limite de santé à chaque niveau du PNJ. À titre indicatif, le joueur peut gagner jusqu’à 10 points de santé par niveau.\\nLimite calculée = santé de base + (niveau - 1) × santé par niveau",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter_LevelHealth_Info"
+  },
+  {
+    "original": "Multiplies the health limit by the dynamically estimated endurance of an NPC. Increasing this will give big, strong NPCs higher health limits and small, weak NPCs lower ones. At 0 this feature has no influence. At 1 the health limits would be multiplied by the following: Human = 1.0, Bear = 2.6, Giant = 4.2, Mammoth = 6.0, Dragon = 6.8.",
+    "string": "Multiplie la limite de santé par l’endurance estimée du PNJ. Une valeur plus élevée augmente la limite des créatures grandes et puissantes et réduit celle des petites créatures fragiles. À 0, ce facteur est désactivé. À 1, la limite est multipliée par : humain = 1,0 ; ours = 2,6 ; géant = 4,2 ; mammouth = 6,0 ; dragon = 6,8.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthLimiter_EnduranceFactor_Info"
+  },
+  {
+    "original": "Creature Protections",
+    "string": "Protections des créatures",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_CreatureProtections"
+  },
+  {
+    "original": "Draugr",
+    "string": "Draugr",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Draugr_ArmorPrefix"
+  },
+  {
+    "original": "Dwarven Automatons",
+    "string": "Automates dwemers",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DwarvenAutomatons_ArmorPrefix"
+  },
+  {
+    "original": "Mudcrabs",
+    "string": "Vases",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Mudcrabs_ArmorPrefix"
+  },
+  {
+    "original": "Dragons",
+    "string": "Dragons",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragons_ArmorPrefix"
+  },
+  {
+    "original": "Small Creatures",
+    "string": "Petites créatures",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SmallCreatures_ArmorPrefix"
+  },
+  {
+    "original": "Big Creatures",
+    "string": "Grandes créatures",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_BigCreatures_ArmorPrefix"
+  },
+  {
+    "original": "Giant Creatures",
+    "string": "Créatures gigantesques",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GiantCreatures_ArmorPrefix"
+  },
+  {
+    "original": "With the Complex Armor System enabled, choose which armor type should apply to draugr.\\n Setting this to cloth disables protections for them, regardless of the cloth settings.",
+    "string": "Lorsque le système d’armure complexe est activé, choisissez le type d’armure appliqué aux draugr.\\nChoisir les vêtements désactive leurs protections, quels que soient les réglages correspondants.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Draugr_ArmorPrefix_Info"
+  },
+  {
+    "original": "With the Complex Armor System enabled, choose which armor type True Armor should apply to  dwarven automatons.\\n Setting this to cloth disables protections for them, regardless of the cloth settings.",
+    "string": "Lorsque le système d’armure complexe est activé, choisissez le type d’armure appliqué aux automates dwemers.\\nChoisir les vêtements désactive leurs protections, quels que soient les réglages correspondants.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DwarvenAutomatons_ArmorPrefix_Info"
+  },
+  {
+    "original": "With the Complex Armor System enabled, choose which armor type True Armor should apply to  mudcrabs.\\n Setting this to cloth disables protections for them, regardless of the cloth settings.",
+    "string": "Lorsque le système d’armure complexe est activé, choisissez le type d’armure appliqué aux vases.\\nChoisir les vêtements désactive leurs protections, quels que soient les réglages correspondants.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Mudcrabs_ArmorPrefix_Info"
+  },
+  {
+    "original": "With the Complex Armor System enabled, choose which armor type True Armor should apply to  dragons.\\n Setting this to cloth disables protections for them, regardless of the cloth settings.",
+    "string": "Lorsque le système d’armure complexe est activé, choisissez le type d’armure appliqué aux dragons.\\nChoisir les vêtements désactive leurs protections, quels que soient les réglages correspondants.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragons_ArmorPrefix_Info"
+  },
+  {
+    "original": "With the Complex Armor System enabled, choose which armor type True Armor should apply to  other small creatures such as wolves and rabbits.\\n Setting this to cloth disables protections for them, regardless of the cloth settings.",
+    "string": "Lorsque le système d’armure complexe est activé, choisissez le type d’armure appliqué aux petites créatures comme les loups et les lapins.\\nChoisir les vêtements désactive leurs protections, quels que soient les réglages correspondants.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SmallCreatures_ArmorPrefix_Info"
+  },
+  {
+    "original": "With the Complex Armor System enabled, choose which armor type True Armor should apply to  other big creatures such as sabrecats and bears.\\n Setting this to cloth disables protections for them, regardless of the cloth settings.",
+    "string": "Lorsque le système d’armure complexe est activé, choisissez le type d’armure appliqué aux grandes créatures comme les smilodons et les ours.\\nChoisir les vêtements désactive leurs protections, quels que soient les réglages correspondants.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_BigCreatures_ArmorPrefix_Info"
+  },
+  {
+    "original": "With the Complex Armor System enabled, choose which armor type True Armor should apply to  other giant creatures such as giants and mammoths.\\n Setting this to cloth disables protections for them, regardless of the cloth settings.",
+    "string": "Lorsque le système d’armure complexe est activé, choisissez le type d’armure appliqué aux créatures gigantesques comme les géants et les mammouths.\\nChoisir les vêtements désactive leurs protections, quels que soient les réglages correspondants.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GiantCreatures_ArmorPrefix_Info"
+  },
+  {
+    "original": "Disable Attributes for Allies",
+    "string": "Désactiver les attributs des alliés",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DisableAttributesForAllies"
+  },
+  {
+    "original": "Disable Attributes for Neutrals",
+    "string": "Désactiver les attributs des neutres",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DisableAttributesForNeutrals"
+  },
+  {
+    "original": "Default Game Settings",
+    "string": "Réglages par défaut du jeu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GameSettings"
+  },
+  {
+    "original": "Deactivate Speed Penalty for Armor",
+    "string": "Désactiver la pénalité de vitesse liée à l’armure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DisableDefaultMoveSpeedPenalties"
+  },
+  {
+    "original": "Scale Stamina Penalty for Armor",
+    "string": "Ajuster la pénalité de vigueur liée à l’armure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ScaleDefaultStaminaPenalties"
+  },
+  {
+    "original": "Stamina Penalty Scaling",
+    "string": "Facteur d’échelle de la pénalité de vigueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DefaultStaminaPenaltiesScaling"
+  },
+  {
+    "original": "Scale Default Armor Protection",
+    "string": "Ajuster la protection d’armure par défaut",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ScaleDefaultArmorProtection"
+  },
+  {
+    "original": "Default Armor Protection Scaling",
+    "string": "Facteur d’échelle de la protection d’armure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DefaultArmorProtectionScaling"
+  },
+  {
+    "original": "Disables armor attributes for friendly NPCs, especially followers. Some users experienced problems with attributes for friendly NPCs. This will prevent such issues while leaving combat mostly unchanged for the player.",
+    "string": "Désactive les attributs d’armure des PNJ alliés, notamment des compagnons. Certains joueurs ont rencontré des problèmes avec ces attributs. Cette option évite ces problèmes sans modifier sensiblement les combats du joueur.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DisableAttributesForAllies_Info"
+  },
+  {
+    "original": "Disables armor attributes for neutral NPCs. Some users experienced problems with attributes for friendly NPCs. This will prevent such issues while leaving combat mostly unchanged for the player.",
+    "string": "Désactive les attributs d’armure des PNJ neutres. Certains joueurs ont rencontré des problèmes avec les attributs des PNJ alliés. Cette option évite ces problèmes sans modifier sensiblement les combats du joueur.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DisableAttributesForNeutrals_Info"
+  },
+  {
+    "original": "Remove the vanilla movement speed penalty that an actor gets for wearing heavy armor. You may want to disable that if it is already included in your True Armor settings.",
+    "string": "Supprime la pénalité de vitesse de déplacement appliquée par le jeu aux personnages portant une armure lourde. Désactivez cette option si cette pénalité est déjà prise en compte par True Armor.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DisableDefaultMoveSpeedPenalties_Info"
+  },
+  {
+    "original": "Adjust the vanilla stamina penalty that an actor gets for wearing heavy armor. You may want to do that if it is already included in your True Armor settings.",
+    "string": "Modifie la pénalité de vigueur appliquée par le jeu aux personnages portant une armure lourde. Vous pouvez l’ajuster si True Armor prend déjà cette pénalité en compte.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ScaleDefaultStaminaPenalties_Info"
+  },
+  {
+    "original": "Here you can set how much of the vanilla stamina penalty should remain. It can be useful to keep some of the penalty even when using True Armors attribute system, as they apply to different aspects. True Armor only changes how quickly stamina regenerates, while this changes how quickly it drains.",
+    "string": "Définit la part de la pénalité de vigueur du jeu qui est conservée. Il peut être utile d’en garder une partie avec le système d’attributs de True Armor, car les deux agissent différemment : True Armor modifie la vitesse de régénération de la vigueur, tandis que ce réglage modifie sa consommation.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DefaultStaminaPenaltiesScaling_Info"
+  },
+  {
+    "original": "Adjust the effectiveness of the vanilla armor rating system. You may want to do that as high tier armors otherwise profit from both systems at once, making them overly strong. You must enable the vanilla armor system for this to have any effect.",
+    "string": "Modifie l’efficacité du système de défense basé sur la valeur d’armure du jeu. Les armures de haut niveau risquent sinon de profiter des deux systèmes à la fois et de devenir trop puissantes. Le système d’armure du jeu doit être activé pour que ce réglage s’applique.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ScaleDefaultArmorProtection_Info"
+  },
+  {
+    "original": "By default, every 100 points of armor rating equals 12% damage reduction. Decreasing this number results in a higher armor rating needed to reach maximum protection. for example, at 50%, you'll need twice as much armor rating to obtain maximum protection.",
+    "string": "Par défaut, 100 points de valeur d’armure réduisent les dégâts de 12 %. Plus cette valeur baisse, plus il faut de valeur d’armure pour atteindre la protection maximale. À 50 %, par exemple, il en faut deux fois plus.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DefaultArmorProtectionScaling_Info"
+  },
+  {
+    "original": "Enable Armor Rating",
+    "string": "Activer la valeur d’armure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyMaxArmorRatingCap"
+  },
+  {
+    "original": "True Armor disables armor rating based protection by default in favor of its own system. Enable this to turn it back on.",
+    "string": "True Armor désactive par défaut la protection fondée sur la valeur d’armure du jeu au profit de son propre système. Activez cette option pour rétablir cette protection.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ApplyMaxArmorRatingCap_Info"
+  },
+  {
+    "original": "Set Maximum Armor Rating Protection",
+    "string": "Définir la protection maximale conférée par la valeur d’armure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MaxArmorRatingCapValue"
+  },
+  {
+    "original": "Set the maximum protection percentage you can get from armor rating. Default is 80%. This stacks with True Armor's protection settings, so use discretion. Setting this to 100% will make you immune to physical damage at capped armor rating. The lower you set the scaling percentage, the more armor rating you'll need to reach this number.",
+    "string": "Définit la protection maximale apportée par la valeur d’armure. La valeur par défaut est de 80 %. Cette protection se cumule avec celles de True Armor. À 100 %, vous serez immunisé aux dégâts physiques une fois la valeur d’armure maximale atteinte. Plus le facteur d’échelle est bas, plus il faudra de valeur d’armure pour atteindre ce seuil.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MaxArmorRatingCapValue_Info"
+  },
+  {
+    "original": "Prioritized Armor Slots",
+    "string": "Emplacements d’armure prioritaires",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PrioritizedArmorSlots"
+  },
+  {
+    "original": "Here you can specify if True Armor should scan additional armor slots with a priority. At the default value only the commonly used slots will be scanned. Changing this to anything else means the slot here will be scanned first and only if it was empty will the defaults will be scanned. (Complex Armor System)",
+    "string": "Indique si True Armor doit analyser en priorité des emplacements d’armure supplémentaires. Par défaut, seuls les emplacements les plus courants sont vérifiés. Si vous choisissez un autre emplacement, il sera vérifié en premier ; les emplacements habituels ne le seront que s’il est vide. (Système d’armure complexe)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PrioritizedArmorSlots_Info"
+  },
+  {
+    "original": "WeaponSpeedMult Fix",
+    "string": "Correction du multiplicateur de vitesse d’arme",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_WeaponSpeedMultFix"
+  },
+  {
+    "original": "In vanilla Skyrim the weapon speed multiplier defaults to 0 instead of 1 as it should be. This creates stacking problems whenever multiple sources want to adjust the weapon speed multiplier. True Armor comes with an automatic detection that can avoid most of these problems. But in some cases you may want to enforce a specific setting, especially when you notice weapons swinging way too fast or slow.",
+    "string": "Dans Skyrim, le multiplicateur de vitesse d’arme vaut 0 par défaut, alors qu’il devrait valoir 1. Plusieurs sources qui modifient ce multiplicateur peuvent donc entrer en conflit. True Armor détecte automatiquement la plupart de ces problèmes. Vous pouvez toutefois imposer une valeur précise si vos armes vous semblent anormalement rapides ou lentes.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_WeaponSpeedMultFix_Info"
+  },
+  {
+    "original": "Off",
+    "string": "Inactif",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Off"
+  },
+  {
+    "original": "Automatic",
+    "string": "Automatique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Automatic"
+  },
+  {
+    "original": "On",
+    "string": "ON",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_On"
+  },
+  {
+    "original": "Spell Options",
+    "string": "Options des sorts",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SpellOptions"
+  },
+  {
+    "original": "Editor Options",
+    "string": "Options de l’éditeur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EditorOptions"
+  },
+  {
+    "original": "Save & Load Options",
+    "string": "Options de sauvegarde et de chargement",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SaveAndLoadOptions"
+  },
+  {
+    "original": "Raw Values",
+    "string": "Valeurs brutes",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EditorMode_RawValues"
+  },
+  {
+    "original": "Simplified",
+    "string": "Simplifié",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EditorMode_Simplified"
+  },
+  {
+    "original": "Images",
+    "string": "Images",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EditorMode_Images"
+  },
+  {
+    "original": "Armor Editor Mode",
+    "string": "Mode d’édition des armures",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EditorMode"
+  },
+  {
+    "original": "Toggles between the different editor modes for the individual armor pages. Raw Values enables the direct editing of the underlying parameters. Simplified operates on the raw values internally too, but presents them in a more intuitive and condensed way. Images shows typical examples of the armors which belong to a category, in this mode values cannot be edited.",
+    "string": "Permet de choisir le mode d’édition des pages d’armure. « Valeurs brutes » permet de modifier directement les paramètres. « Simplifié » présente ces mêmes valeurs de manière plus claire et condensée. « Images » affiche des exemples d’armures de la catégorie ; les valeurs ne peuvent pas être modifiées dans ce mode.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EditorMode_Info"
+  },
+  {
+    "original": "Enable Examine Armor Spell",
+    "string": "Activer le sort Examiner l’armure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EnableExamineArmorSpell"
+  },
+  {
+    "original": "Enable Overview Spell",
+    "string": "Activer le sort Aperçu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EnableOverviewSpell"
+  },
+  {
+    "original": "Averages Reflect Baseline",
+    "string": "Les moyennes tiennent compte des réglages de base",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AveragesReflectBaseline"
+  },
+  {
+    "original": "Averages Reflect Coverage",
+    "string": "Les moyennes tiennent compte de la couverture",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AveragesReflectCoverage"
+  },
+  {
+    "original": "Keep General and Advanced Settings",
+    "string": "Conserver les réglages généraux et avancés",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_KeepGeneralAndAdvancedSettings"
+  },
+  {
+    "original": "Adds the \"Examine Armor\" spell to the player character. This spell shows complex armor protections and attributes for the player.",
+    "string": "Ajoute le sort « Examiner l’armure » au joueur. Il affiche les protections et les attributs du système d’armure complexe pour le joueur.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EnableExamineArmorSpell_Info"
+  },
+  {
+    "original": "Adds the \"Overview\" spell to the player character. This spell shows the strengths and weaknesses of complex armor categories.",
+    "string": "Ajoute le sort « Aperçu » au joueur. Il présente les forces et les faiblesses des catégories d’armure du système complexe.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_EnableOverviewSpell_Info"
+  },
+  {
+    "original": "When this option is checked the average protection info on the complex armor pages will include the baseline adjustments.",
+    "string": "Lorsque cette option est activée, les protections moyennes affichées dans les pages du système complexe tiennent compte des réglages de base.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AveragesReflectBaseline_Info"
+  },
+  {
+    "original": "When this option is checked the average protection info on the complex armor pages will include the armor coverages.",
+    "string": "Lorsque cette option est activée, les protections moyennes affichées dans les pages du système complexe tiennent compte de la couverture de l’armure.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AveragesReflectCoverage_Info"
+  },
+  {
+    "original": "If this is checked the general settings and advanced settings pages will not be affected when loading settings from file.",
+    "string": "Lorsque cette option est activée, le chargement d’un fichier de réglages ne modifie pas les pages des réglages généraux et avancés.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_KeepGeneralAndAdvancedSettings_Info"
+  },
+  {
+    "original": "General Armor Efficiency",
+    "string": "Efficacité générale de l’armure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_ArmorEfficiency"
+  },
+  {
+    "original": "Cloth Efficiency",
+    "string": "Efficacité des vêtements",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_ClothEfficiency"
+  },
+  {
+    "original": "Hide Efficiency",
+    "string": "Efficacité des armures en peau",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_HideEfficiency"
+  },
+  {
+    "original": "Leather Efficiency",
+    "string": "Efficacité des armures de cuir",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_LeatherEfficiency"
+  },
+  {
+    "original": "Scale Efficiency",
+    "string": "Efficacité des armures à écailles",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_ScaleEfficiency"
+  },
+  {
+    "original": "Iron Efficiency",
+    "string": "Efficacité des armures de fer",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_IronEfficiency"
+  },
+  {
+    "original": "Steel Efficiency",
+    "string": "Efficacité des armures d’acier",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_SteelEfficiency"
+  },
+  {
+    "original": "Steel Plate Efficiency",
+    "string": "Efficacité des armures en plaques d’acier",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_SteelPlateEfficiency"
+  },
+  {
+    "original": "Dwarven Efficiency",
+    "string": "Efficacité des armures dwemers",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_DwarvenEfficiency"
+  },
+  {
+    "original": "Elven Efficiency",
+    "string": "Efficacité des armures elfiques",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_ElvenEfficiency"
+  },
+  {
+    "original": "Orcish Efficiency",
+    "string": "Efficacité des armures orques",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_OrcishEfficiency"
+  },
+  {
+    "original": "Glass Efficiency",
+    "string": "Efficacité des armures de verre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_GlassEfficiency"
+  },
+  {
+    "original": "Ebony Efficiency",
+    "string": "Efficacité des armures d’ébonite",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_EbonyEfficiency"
+  },
+  {
+    "original": "Daedric Efficiency",
+    "string": "Efficacité des armures daedriques",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_DaedricEfficiency"
+  },
+  {
+    "original": "Dragonscale Efficiency",
+    "string": "Efficacité des armures en écailles de dragon",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_DragonscaleEfficiency"
+  },
+  {
+    "original": "Dragonplate Efficiency",
+    "string": "Efficacité des armures en plaques de dragon",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_DragonplateEfficiency"
+  },
+  {
+    "original": "Baseline Adjustment: Complex Armor Protections",
+    "string": "Réglage de base : protections du système complexe",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_PrimaryProtections"
+  },
+  {
+    "original": "Adjust the protection efficiency of all complex armors at once. Suppose an armor would let you survive an additional 100 damage compared to not wearing it. At 50% this armor would now only let you survive an additional 50 damage and at 200% it would let you survive an additional 200 damage.",
+    "string": "Modifie en une fois l’efficacité de protection de toutes les armures du système complexe. Une armure qui permettrait normalement d’encaisser 100 dégâts supplémentaires par rapport à l’absence d’armure n’en permettra que 50 à 50 %, et 200 à 200 %.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_ArmorEfficiency_Info"
+  },
+  {
+    "original": "Adjust the protection efficiency of the specified armor type. Suppose an armor would let you survive an additional 100 damage compared to not wearing it. At 50% this armor would now only let you survive an additional 50 damage and at 200% it would let you survive an additional 200 damage.",
+    "string": "Modifie l’efficacité de protection du type d’armure choisi. Une armure qui permettrait normalement d’encaisser 100 dégâts supplémentaires par rapport à l’absence d’armure n’en permettra que 50 à 50 %, et 200 à 200 %.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_MaterialEfficiency_Info"
+  },
+  {
+    "original": "Baseline Adjustment: Attributes",
+    "string": "Réglage de base : attributs",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_Attributes"
+  },
+  {
+    "original": "Regeneration Scaling Factor",
+    "string": "Facteur d’échelle de la régénération",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_RegenerationScaling"
+  },
+  {
+    "original": "Speed Scaling Factor",
+    "string": "Facteur d’échelle de la vitesse",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_SpeedScaling"
+  },
+  {
+    "original": "Scale the regeneration attributes of all armor types at once. Note that this scaling does not affect the baseline attributes which you can set here.",
+    "string": "Applique à la fois un facteur d’échelle aux attributs de régénération de tous les types d’armure. Ce facteur ne modifie pas les valeurs de base définies ici.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_RegenerationScaling_Info"
+  },
+  {
+    "original": "Scale the speed attributes of all armor types at once. Note that this scaling does not affect the baseline attributes which you can set here.",
+    "string": "Applique à la fois un facteur d’échelle aux attributs de vitesse de tous les types d’armure. Ce facteur ne modifie pas les valeurs de base définies ici.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_SpeedScaling_Info"
+  },
+  {
+    "original": "This value gets added to every actor regardless of the worn armor. The armor specific attributes will be applied on top of this.",
+    "string": "Cette valeur est ajoutée à chaque personnage, quelle que soit l’armure portée. Les attributs propres à l’armure s’y ajoutent.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Baseline_Attributes_Info"
+  },
+  {
+    "original": "Pierce (Daggers & Spears)",
+    "string": "Perforation (dagues et lances)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dagger"
+  },
+  {
+    "original": "Slash (Swords & Axes)",
+    "string": "Tranchant (épées et haches)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Sword"
+  },
+  {
+    "original": "Blunt (Maces & Warhammers)",
+    "string": "Contondant (masses et marteaux de guerre)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Axe"
+  },
+  {
+    "original": "Bashing",
+    "string": "Percussion",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Mace"
+  },
+  {
+    "original": "Archery",
+    "string": "Archerie",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Archery"
+  },
+  {
+    "original": "Unarmed/Monsters",
+    "string": "Sans arme / monstres",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Unarmed"
+  },
+  {
+    "original": "Fire Magic",
+    "string": "Magie du feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Fire"
+  },
+  {
+    "original": "Frost Magic",
+    "string": "Magie du givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Frost"
+  },
+  {
+    "original": "Shock Magic",
+    "string": "Magie de la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Shock"
+  },
+  {
+    "original": "Secondary Protections",
+    "string": "Protections secondaires",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SecondaryProtections"
+  },
+  {
+    "original": "Coverages",
+    "string": "Couverture des zones",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Coverages"
+  },
+  {
+    "original": "Affected Armors Info",
+    "string": "Informations sur les armures concernées",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AffectedArmorsInfo"
+  },
+  {
+    "original": "Current Protection Baseline",
+    "string": "Protection de base actuelle",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_BaselineEfficiencyInfo"
+  },
+  {
+    "original": "The efficiency this armor type currently operates at as specified on the Baseline page. This is a multiplier to the effective health which this armor grants.",
+    "string": "Cette valeur correspond à l’efficacité actuelle de ce type d’armure, définie dans la page Réglages de base. Elle sert de multiplicateur à la santé effective conférée par l’armure.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_BaselineEfficiencyInfo_Info"
+  },
+  {
+    "original": "Protection & Attributes",
+    "string": "Protections et attributs",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ProtectionAndAttributes"
+  },
+  {
+    "original": "Average Protection",
+    "string": "Protection moyenne",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection"
+  },
+  {
+    "original": "Primary Layer Damage Reduction",
+    "string": "Réduction des dégâts de la couche primaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DeflectProtection"
+  },
+  {
+    "original": "Secondary Layer Damage Reduction",
+    "string": "Réduction des dégâts de la couche secondaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PierceProtection"
+  },
+  {
+    "original": "Primary Layer Chance",
+    "string": "Chance de protection de la couche primaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DeflectChance"
+  },
+  {
+    "original": "Secondary Layer Chance",
+    "string": "Chance de protection de la couche secondaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PierceChance"
+  },
+  {
+    "original": "The first values show how this protection changes the effective health of the actor. The second shows the corresponding average damage reduction. This summarizes the protective quality of this armor type against the specified source. Note that one percent of protection is worth much more at 90% than it is at 50% as the effective health value shows.",
+    "string": "La première valeur indique dans quelle mesure cette protection augmente la santé effective du personnage ; la seconde donne la réduction moyenne des dégâts correspondante. Elles résument l’efficacité de l’armure contre la source indiquée. Un point de protection supplémentaire compte davantage à 90 % qu’à 50 %, comme le montre la santé effective.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection_Info"
+  },
+  {
+    "original": "Attacks first encounter the Primary layer. If it is defeated, the Secondary Layer (if utilized) gets an opportunity to mitigate damage. IMPORTANT: For bashing damage reduction to work, both the player and NPC options must be selected.",
+    "string": "Les attaques touchent d’abord la couche primaire. Si elle cède, la couche secondaire, si elle existe, peut à son tour réduire les dégâts. IMPORTANT : pour réduire les dégâts de percussion, les options du joueur et des PNJ doivent toutes deux être activées.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DeflectProtection_Info"
+  },
+  {
+    "original": "Damage that bypasses the Primary Layer will be reduced by the percentage you set here unless this layer also fails. IMPORTANT: For bashing damage reduction to work, both the player and NPC options must be selected.",
+    "string": "Les dégâts qui traversent la couche primaire sont réduits selon le pourcentage défini ici, sauf si cette couche cède également. IMPORTANT : pour réduire les dégâts de percussion, les options du joueur et des PNJ doivent toutes deux être activées.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PierceProtection_Info"
+  },
+  {
+    "original": "A random roll checks to see if this layer is defeated first. Settings like body part weights, tempering, and weapon skill bypass alter final outcomes depending on wheter the target is the player or an NPC.",
+    "string": "Un tirage aléatoire détermine d’abord si cette couche est traversée. Le poids des parties du corps, l’amélioration de l’armure et la compétence d’arme permettant d’ignorer l’armure influent sur le résultat, selon que la cible est le joueur ou un PNJ.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DeflectChance_Info"
+  },
+  {
+    "original": "If the Primary Layer fails, a random roll occurs and is compared to the Secondary Layer chance setting, allowing for two independent chances of damage reduction. Settings like body part weights, tempering, and weapon skill bypass alter final outcomes depending on whether the target is the player or an NPC.",
+    "string": "Si la couche primaire cède, un tirage aléatoire est comparé aux chances de la couche secondaire. Cela donne deux chances indépendantes de réduire les dégâts. Le poids des parties du corps, l’amélioration de l’armure et la compétence d’arme permettant d’ignorer l’armure influent sur le résultat, selon que la cible est le joueur ou un PNJ.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PierceChance_Info"
+  },
+  {
+    "original": "Damage Reduction",
+    "string": "Réduction des dégâts",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Protection"
+  },
+  {
+    "original": "Set a damage reduction percent. At 100%, you will be immune to this damage type unless your chance setting allows attacks to potentially bypass this layer of defense. IMPORTANT: For bashing damage reduction to work, both the player and NPC options must be selected.",
+    "string": "Définit le pourcentage de réduction des dégâts. À 100 %, vous êtes immunisé contre ce type de dégâts, sauf si les chances définies ici permettent à certaines attaques de traverser cette couche de défense. IMPORTANT : pour réduire les dégâts de percussion, les options du joueur et des PNJ doivent toutes deux être activées.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Protection_Info"
+  },
+  {
+    "original": "Chance",
+    "string": "Chance",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Chance"
+  },
+  {
+    "original": "This is the probability that your damage reduction setting will apply. At 100%, attacks will always be subjected to damage reduction. The lower the percentage, the more likely it is that this damage type will defeat your chosen damage reduction setting.",
+    "string": "Détermine les chances que la réduction de dégâts définie ici s’applique. À 100 %, les attaques sont toujours soumises à cette réduction. Plus le pourcentage est bas, plus ce type de dégâts a de chances de traverser la défense choisie.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Chance_Info"
+  },
+  {
+    "original": "Neutralize Poison Chance",
+    "string": "Chance de neutraliser le poison",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PoisonChance"
+  },
+  {
+    "original": "This sets the chance to take no damage from most poison based attacks.",
+    "string": "Ce réglage détermine les chances d’ignorer les dégâts de la plupart des attaques empoisonnées.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PoisonChance_Info"
+  },
+  {
+    "original": "Resist Stagger Chance",
+    "string": "Chance de résister au déséquilibre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_StaggerChance"
+  },
+  {
+    "original": "This sets the chance to resist being staggered.",
+    "string": "Ce réglage détermine les chances de résister au déséquilibre.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_StaggerChance_Info"
+  },
+  {
+    "original": "Pierce (Daggers & Spears)",
+    "string": "Perforation (dagues et lances)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Pierce"
+  },
+  {
+    "original": "Slash (Swords & Axes)",
+    "string": "Tranchant (épées et haches)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Slash"
+  },
+  {
+    "original": "Blunt (Maces & Warhammers)",
+    "string": "Contondant (masses et marteaux de guerre)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Blunt"
+  },
+  {
+    "original": "Bashing",
+    "string": "Percussion",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Bash"
+  },
+  {
+    "original": "Poison",
+    "string": "Poison",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Poison"
+  },
+  {
+    "original": "Stagger",
+    "string": "Vacillement",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stagger"
+  },
+  {
+    "original": "Chance",
+    "string": "Chance",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MaterialPropertiesChance"
+  },
+  {
+    "original": "This is the probability that your resistance/vulnerability settings will apply.",
+    "string": "Détermine les chances que les réglages de résistance et de vulnérabilité s’appliquent.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MaterialPropertiesChance_Info"
+  },
+  {
+    "original": "Metal",
+    "string": "Métal",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Metal"
+  },
+  {
+    "original": "Resist Fire Magic",
+    "string": "Résistance à la magie du feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFireResistance"
+  },
+  {
+    "original": "Materials covered: Iron, Steel, Imperial Heavy, Steel Plate, Dwarven, Orcish, Nordic, Blades, and Penitus. Any heavy cuirass without a keyword assigned will be treated as metal.",
+    "string": "Matériaux concernés : fer, acier, armure impériale lourde, plaques d’acier, dwemer, orque, nordique, Lames et Pénitus Oculatus. Toute cuirasse lourde sans mot-clé associé est considérée comme métallique.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFireResistance_Info"
+  },
+  {
+    "original": "Vulnerability to Fire Magic",
+    "string": "Vulnérabilité à la magie du feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFireVulnerability"
+  },
+  {
+    "original": "Materials covered: Iron, Steel, Imperial Heavy, Steel Plate, Dwarven, Orcish, Nordic, Blades, and Penitus. Any heavy cuirass without a keyword assigned will be treated as metal.",
+    "string": "Matériaux concernés : fer, acier, armure impériale lourde, plaques d’acier, dwemer, orque, nordique, Lames et Pénitus Oculatus. Toute cuirasse lourde sans mot-clé associé est considérée comme métallique.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFireVulnerability_Info"
+  },
+  {
+    "original": "Strong vs Fire",
+    "string": "Résistance accrue au feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFireToggleResistance"
+  },
+  {
+    "original": "Metal cuirasses resist Fire based on your chosen settings. This resistance is separate from and stacks with standard resistances.",
+    "string": "Selon les réglages choisis, les cuirasses métalliques résistent au feu. Cette résistance est indépendante des résistances habituelles et s’y ajoute.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFireToggleResistance_Info"
+  },
+  {
+    "original": "Weak vs Fire",
+    "string": "Vulnérabilité accrue au feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFireToggleVulnerability"
+  },
+  {
+    "original": "Metal cuirasses are weak to Fire based on your chosen settings. At 500%, Fire does 5x damage!",
+    "string": "Selon les réglages choisis, les cuirasses métalliques sont vulnérables au feu. À 500 %, elles subissent cinq fois plus de dégâts.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFireToggleVulnerability_Info"
+  },
+  {
+    "original": "Resist Frost Magic",
+    "string": "Résistance à la magie du givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFrostResistance"
+  },
+  {
+    "original": "Materials covered: Iron, Steel, Imperial Heavy, Steel Plate, Dwarven, Orcish, Nordic, Blades, and Penitus. Any heavy cuirass without a keyword assigned will be treated as metal.",
+    "string": "Matériaux concernés : fer, acier, armure impériale lourde, plaques d’acier, dwemer, orque, nordique, Lames et Pénitus Oculatus. Toute cuirasse lourde sans mot-clé associé est considérée comme métallique.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFrostResistance_Info"
+  },
+  {
+    "original": "Vulnerability to Frost Magic",
+    "string": "Vulnérabilité à la magie du givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFrostVulnerability"
+  },
+  {
+    "original": "Materials covered: Iron, Steel, Imperial Heavy, Steel Plate, Dwarven, Orcish, Nordic, Blades, and Penitus. Any heavy cuirass without a keyword assigned will be treated as metal.",
+    "string": "Matériaux concernés : fer, acier, armure impériale lourde, plaques d’acier, dwemer, orque, nordique, Lames et Pénitus Oculatus. Toute cuirasse lourde sans mot-clé associé est considérée comme métallique.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFrostVulnerability_Info"
+  },
+  {
+    "original": "Strong vs Frost",
+    "string": "Résistance accrue au givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFrostToggleResistance"
+  },
+  {
+    "original": "Metal cuirasses resist Frost based on your chosen settings. This resistance is separate from and stacks with standard resistances.",
+    "string": "Selon les réglages choisis, les cuirasses métalliques résistent au givre. Cette résistance est indépendante des résistances habituelles et s’y ajoute.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFrostToggleResistance_Info"
+  },
+  {
+    "original": "Weak vs Frost",
+    "string": "Vulnérabilité accrue au givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFrostToggleVulnerability"
+  },
+  {
+    "original": "Metal cuirasses are weak to Frost based on your chosen settings. At 500%, Frost does 5x damage!",
+    "string": "Selon les réglages choisis, les cuirasses métalliques sont vulnérables au givre. À 500 %, elles subissent cinq fois plus de dégâts.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalFrostToggleVulnerability_Info"
+  },
+  {
+    "original": "Resist Shock Magic",
+    "string": "Résistance à la magie de la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalShockResistance"
+  },
+  {
+    "original": "Materials covered: Iron, Steel, Imperial Heavy, Steel Plate, Dwarven, Orcish, Nordic, Blades, and Penitus. Any heavy cuirass without a keyword assigned will be treated as metal.",
+    "string": "Matériaux concernés : fer, acier, armure impériale lourde, plaques d’acier, dwemer, orque, nordique, Lames et Pénitus Oculatus. Toute cuirasse lourde sans mot-clé associé est considérée comme métallique.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalShockResistance_Info"
+  },
+  {
+    "original": "Vulnerability to Shock Magic",
+    "string": "Vulnérabilité à la magie de la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalShockVulnerability"
+  },
+  {
+    "original": "Materials covered: Iron, Steel, Imperial Heavy, Steel Plate, Dwarven, Orcish, Nordic, Blades, and Penitus. Any heavy cuirass without a keyword assigned will be treated as metal.",
+    "string": "Matériaux concernés : fer, acier, armure impériale lourde, plaques d’acier, dwemer, orque, nordique, Lames et Pénitus Oculatus. Toute cuirasse lourde sans mot-clé associé est considérée comme métallique.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalShockVulnerability_Info"
+  },
+  {
+    "original": "Strong vs Shock",
+    "string": "Résistance accrue à la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalShockToggleResistance"
+  },
+  {
+    "original": "Metal cuirasses resist Shock based on your chosen settings. This resistance is separate from and stacks with standard resistances.",
+    "string": "Selon les réglages choisis, les cuirasses métalliques résistent à la foudre. Cette résistance est indépendante des résistances habituelles et s’y ajoute.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalShockToggleResistance_Info"
+  },
+  {
+    "original": "Weak vs Shock",
+    "string": "Vulnérabilité accrue à la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalShockToggleVulnerability"
+  },
+  {
+    "original": "Metal cuirasses are weak to Shock based on your chosen settings. At 500%, Shock does 5x damage!",
+    "string": "Selon les réglages choisis, les cuirasses métalliques sont vulnérables à la foudre. À 500 %, elles subissent cinq fois plus de dégâts.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MetalShockToggleVulnerability_Info"
+  },
+  {
+    "original": "Leather",
+    "string": "Cuir",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Leather"
+  },
+  {
+    "original": "Resist Fire Magic",
+    "string": "Résistance à la magie du feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFireResistance"
+  },
+  {
+    "original": "Materials covered: Studded, Imperial Light, Stormcloak, Bear Stormcloak, Leather, Hide, Scaled, Nightingale, Dawnguard, and Dark Brotherhood. Any light cuirass without a keyword assigned will be treated as leather.",
+    "string": "Matériaux concernés : cuir clouté, armure impériale légère, Sombrages, Sombrages à peau d’ours, cuir, peau, écailles, Rossignol, Garde de l’Aube et Confrérie noire. Toute cuirasse légère sans mot-clé associé est considérée comme en cuir.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFireResistance_Info"
+  },
+  {
+    "original": "Vulnerability to Fire Magic",
+    "string": "Vulnérabilité à la magie du feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFireVulnerability"
+  },
+  {
+    "original": "Materials covered: Studded, Imperial Light, Stormcloak, Bear Stormcloak, Leather, Hide, Scaled, Nightingale, Dawnguard, and Dark Brotherhood. Any light cuirass without a keyword assigned will be treated as leather.",
+    "string": "Matériaux concernés : cuir clouté, armure impériale légère, Sombrages, Sombrages à peau d’ours, cuir, peau, écailles, Rossignol, Garde de l’Aube et Confrérie noire. Toute cuirasse légère sans mot-clé associé est considérée comme en cuir.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFireVulnerability_Info"
+  },
+  {
+    "original": "Strong vs Fire",
+    "string": "Résistance accrue au feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFireToggleResistance"
+  },
+  {
+    "original": "Leather cuirasses resist Fire based on your chosen settings. This resistance is separate from and stacks with standard resistances.",
+    "string": "Selon les réglages choisis, les cuirasses de cuir résistent au feu. Cette résistance est indépendante des résistances habituelles et s’y ajoute.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFireToggleResistance_Info"
+  },
+  {
+    "original": "Weak vs Fire",
+    "string": "Vulnérabilité accrue au feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFireToggleVulnerability"
+  },
+  {
+    "original": "Leather cuirasses are weak to Fire based on your chosen settings. At 500%, Fire does 5x damage!",
+    "string": "Selon les réglages choisis, les cuirasses de cuir sont vulnérables au feu. À 500 %, elles subissent cinq fois plus de dégâts.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFireToggleVulnerability_Info"
+  },
+  {
+    "original": "Resist Frost Magic",
+    "string": "Résistance à la magie du givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFrostResistance"
+  },
+  {
+    "original": "Materials covered: Studded, Imperial Light, Stormcloak, Bear Stormcloak, Leather, Hide, Scaled, Nightingale, Dawnguard, and Dark Brotherhood. Any light cuirass without a keyword assigned will be treated as leather.",
+    "string": "Matériaux concernés : cuir clouté, armure impériale légère, Sombrages, Sombrages à peau d’ours, cuir, peau, écailles, Rossignol, Garde de l’Aube et Confrérie noire. Toute cuirasse légère sans mot-clé associé est considérée comme en cuir.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFrostResistance_Info"
+  },
+  {
+    "original": "Vulnerability to Frost Magic",
+    "string": "Vulnérabilité à la magie du givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFrostVulnerability"
+  },
+  {
+    "original": "Materials covered: Studded, Imperial Light, Stormcloak, Bear Stormcloak, Leather, Hide, Scaled, Nightingale, Dawnguard, and Dark Brotherhood. Any light cuirass without a keyword assigned will be treated as leather.",
+    "string": "Matériaux concernés : cuir clouté, armure impériale légère, Sombrages, Sombrages à peau d’ours, cuir, peau, écailles, Rossignol, Garde de l’Aube et Confrérie noire. Toute cuirasse légère sans mot-clé associé est considérée comme en cuir.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFrostVulnerability_Info"
+  },
+  {
+    "original": "Strong vs Frost",
+    "string": "Résistance accrue au givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFrostToggleResistance"
+  },
+  {
+    "original": "Leather cuirasses resist Frost based on your chosen settings. This resistance is separate from and stacks with standard resistances.",
+    "string": "Selon les réglages choisis, les cuirasses de cuir résistent au givre. Cette résistance est indépendante des résistances habituelles et s’y ajoute.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFrostToggleResistance_Info"
+  },
+  {
+    "original": "Weak vs Frost",
+    "string": "Vulnérabilité accrue au givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFrostToggleVulnerability"
+  },
+  {
+    "original": "Leather cuirasses are weak to Frost based on your chosen settings. At 500%, Frost does 5x damage!",
+    "string": "Selon les réglages choisis, les cuirasses de cuir sont vulnérables au givre. À 500 %, elles subissent cinq fois plus de dégâts.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherFrostToggleVulnerability_Info"
+  },
+  {
+    "original": "Resist Shock Magic",
+    "string": "Résistance à la magie de la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherShockResistance"
+  },
+  {
+    "original": "Materials covered: Studded, Imperial Light, Stormcloak, Bear Stormcloak, Leather, Hide, Scaled, Nightingale, Dawnguard, and Dark Brotherhood. Any light cuirass without a keyword assigned will be treated as leather.",
+    "string": "Matériaux concernés : cuir clouté, armure impériale légère, Sombrages, Sombrages à peau d’ours, cuir, peau, écailles, Rossignol, Garde de l’Aube et Confrérie noire. Toute cuirasse légère sans mot-clé associé est considérée comme en cuir.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherShockResistance_Info"
+  },
+  {
+    "original": "Vulnerability to Shock Magic",
+    "string": "Vulnérabilité à la magie de la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherShockVulnerability"
+  },
+  {
+    "original": "Materials covered: Studded, Imperial Light, Stormcloak, Bear Stormcloak, Leather, Hide, Scaled, Nightingale, Dawnguard, and Dark Brotherhood. Any light cuirass without a keyword assigned will be treated as leather.",
+    "string": "Matériaux concernés : cuir clouté, armure impériale légère, Sombrages, Sombrages à peau d’ours, cuir, peau, écailles, Rossignol, Garde de l’Aube et Confrérie noire. Toute cuirasse légère sans mot-clé associé est considérée comme en cuir.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherShockVulnerability_Info"
+  },
+  {
+    "original": "Strong vs Shock",
+    "string": "Résistance accrue à la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherShockToggleResistance"
+  },
+  {
+    "original": "Leather cuirasses resist Shock based on your chosen settings. This resistance is separate from and stacks with standard resistances.",
+    "string": "Selon les réglages choisis, les cuirasses de cuir résistent à la foudre. Cette résistance est indépendante des résistances habituelles et s’y ajoute.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherShockToggleResistance_Info"
+  },
+  {
+    "original": "Weak vs Shock",
+    "string": "Vulnérabilité accrue à la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherShockToggleVulnerability"
+  },
+  {
+    "original": "Leather cuirasses are weak to Shock based on your chosen settings. At 500%, Shock does 5x damage!",
+    "string": "Selon les réglages choisis, les cuirasses de cuir sont vulnérables à la foudre. À 500 %, elles subissent cinq fois plus de dégâts.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LeatherShockToggleVulnerability_Info"
+  },
+  {
+    "original": "Exotic",
+    "string": "Exotique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Exotic"
+  },
+  {
+    "original": "Resist Fire Magic",
+    "string": "Résistance à la magie du feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFireResistance"
+  },
+  {
+    "original": "Materials covered: Glass, Ebony, Elven, Chitin, Stalhrim, Dragonplate, Dragonscale, Daedric, Falmer, and Bonemold.",
+    "string": "Matériaux concernés : verre, ébonite, elfique, chitine, stalhrim, plaques de dragon, écailles de dragon, daedrique, falmer et ossemoule.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFireResistance_Info"
+  },
+  {
+    "original": "Vulnerability to Fire Magic",
+    "string": "Vulnérabilité à la magie du feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFireVulnerability"
+  },
+  {
+    "original": "Materials covered: Glass, Ebony, Elven, Chitin, Stalhrim, Dragonplate, Dragonscale, Daedric, Falmer, and Bonemold.",
+    "string": "Matériaux concernés : verre, ébonite, elfique, chitine, stalhrim, plaques de dragon, écailles de dragon, daedrique, falmer et ossemoule.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFireVulnerability_Info"
+  },
+  {
+    "original": "Strong vs Fire",
+    "string": "Résistance accrue au feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFireToggleResistance"
+  },
+  {
+    "original": "Exotic cuirasses resist Fire based on your chosen settings. This resistance is separate from and stacks with standard resistances.",
+    "string": "Selon les réglages choisis, les cuirasses exotiques résistent au feu. Cette résistance est indépendante des résistances habituelles et s’y ajoute.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFireToggleResistance_Info"
+  },
+  {
+    "original": "Weak vs Fire",
+    "string": "Vulnérabilité accrue au feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFireToggleVulnerability"
+  },
+  {
+    "original": "Exotic cuirasses are weak to Fire based on your chosen settings. At 500%, Fire does 5x damage!",
+    "string": "Selon les réglages choisis, les cuirasses exotiques sont vulnérables au feu. À 500 %, elles subissent cinq fois plus de dégâts.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFireToggleVulnerability_Info"
+  },
+  {
+    "original": "Resist Frost Magic",
+    "string": "Résistance à la magie du givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFrostResistance"
+  },
+  {
+    "original": "Materials covered: Glass, Ebony, Elven, Chitin, Stalhrim, Dragonplate, Dragonscale, Daedric, Falmer, and Bonemold.",
+    "string": "Matériaux concernés : verre, ébonite, elfique, chitine, stalhrim, plaques de dragon, écailles de dragon, daedrique, falmer et ossemoule.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFrostResistance_Info"
+  },
+  {
+    "original": "Vulnerability to Frost Magic",
+    "string": "Vulnérabilité à la magie du givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFrostVulnerability"
+  },
+  {
+    "original": "Materials covered: Glass, Ebony, Elven, Chitin, Stalhrim, Dragonplate, Dragonscale, Daedric, Falmer, and Bonemold.",
+    "string": "Matériaux concernés : verre, ébonite, elfique, chitine, stalhrim, plaques de dragon, écailles de dragon, daedrique, falmer et ossemoule.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFrostVulnerability_Info"
+  },
+  {
+    "original": "Strong vs Frost",
+    "string": "Résistance accrue au givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFrostToggleResistance"
+  },
+  {
+    "original": "Exotic cuirasses resist Frost based on your chosen settings. This resistance is separate from and stacks with standard resistances.",
+    "string": "Selon les réglages choisis, les cuirasses exotiques résistent au givre. Cette résistance est indépendante des résistances habituelles et s’y ajoute.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFrostToggleResistance_Info"
+  },
+  {
+    "original": "Weak vs Frost",
+    "string": "Vulnérabilité accrue au givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFrostToggleVulnerability"
+  },
+  {
+    "original": "Exotic cuirasses are weak to Frost based on your chosen settings. At 500%, Frost does 5x damage!",
+    "string": "Selon les réglages choisis, les cuirasses exotiques sont vulnérables au givre. À 500 %, elles subissent cinq fois plus de dégâts.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticFrostToggleVulnerability_Info"
+  },
+  {
+    "original": "Resist Shock Magic",
+    "string": "Résistance à la magie de la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticShockResistance"
+  },
+  {
+    "original": "Materials covered: Glass, Ebony, Elven, Chitin, Stalhrim, Dragonplate, Dragonscale, Daedric, Falmer, and Bonemold.",
+    "string": "Matériaux concernés : verre, ébonite, elfique, chitine, stalhrim, plaques de dragon, écailles de dragon, daedrique, falmer et ossemoule.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticShockResistance_Info"
+  },
+  {
+    "original": "Vulnerability to Shock Magic",
+    "string": "Vulnérabilité à la magie de la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticShockVulnerability"
+  },
+  {
+    "original": "Materials covered: Glass, Ebony, Elven, Chitin, Stalhrim, Dragonplate, Dragonscale, Daedric, Falmer, and Bonemold.",
+    "string": "Matériaux concernés : verre, ébonite, elfique, chitine, stalhrim, plaques de dragon, écailles de dragon, daedrique, falmer et ossemoule.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticShockVulnerability_Info"
+  },
+  {
+    "original": "Strong vs Shock",
+    "string": "Résistance accrue à la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticShockToggleResistance"
+  },
+  {
+    "original": "Exotic cuirasses resist Shock based on your chosen settings. This resistance is separate from and stacks with standard resistances.",
+    "string": "Selon les réglages choisis, les cuirasses exotiques résistent à la foudre. Cette résistance est indépendante des résistances habituelles et s’y ajoute.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticShockToggleResistance_Info"
+  },
+  {
+    "original": "Weak vs Shock",
+    "string": "Vulnérabilité accrue à la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticShockToggleVulnerability"
+  },
+  {
+    "original": "Exotic cuirasses are weak to Shock based on your chosen settings. At 500%, Shock does 5x damage!",
+    "string": "Selon les réglages choisis, les cuirasses exotiques sont vulnérables à la foudre. À 500 %, elles subissent cinq fois plus de dégâts.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ExoticShockToggleVulnerability_Info"
+  },
+  {
+    "original": "Primary Protections",
+    "string": "Protections primaires",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PrimaryProtections"
+  },
+  {
+    "original": "Pierce Protection",
+    "string": "Protection contre la perforation",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection_Dagger"
+  },
+  {
+    "original": "Slash Protection",
+    "string": "Protection contre les taillades",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection_Sword"
+  },
+  {
+    "original": "Blunt Protection",
+    "string": "Protection contre les dégâts contondants",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection_Axe"
+  },
+  {
+    "original": "Bashing Protection",
+    "string": "Protection contre les coups",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection_Mace"
+  },
+  {
+    "original": "Archery Protection",
+    "string": "Protection contre les flèches",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection_Archery"
+  },
+  {
+    "original": "Unarmed/Monsters Protection",
+    "string": "Protection contre les attaques à mains nues et les monstres",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection_Unarmed"
+  },
+  {
+    "original": "Fire Protection",
+    "string": "Protection contre le feu",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection_Fire"
+  },
+  {
+    "original": "Frost Protection",
+    "string": "Protection contre le givre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection_Frost"
+  },
+  {
+    "original": "Shock Protection",
+    "string": "Protection contre la foudre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AverageProtection_Shock"
+  },
+  {
+    "original": "These values show by how much this armor type protects against the given source on average, summarizing the armor's protective value. The first number indicates how the effective health of the character gets multiplied, the second is the equivalent average protection. (Complex Armor System)",
+    "string": "Ces valeurs indiquent dans quelle mesure ce type d’armure protège en moyenne contre la source indiquée. La première correspond au multiplicateur de santé effective, la seconde à la réduction moyenne des dégâts. (Système d’armure complexe)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Simplified_AverageProtection_Info"
+  },
+  {
+    "original": "Deflect Tendency (Sharp)",
+    "string": "Tendance à dévier (tranchant)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DeflectTendency_Sharp"
+  },
+  {
+    "original": "Deflect Type (Sharp)",
+    "string": "Type de déviation (tranchant)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ProtectionQuality_Sharp"
+  },
+  {
+    "original": "Pierce Type (Sharp)",
+    "string": "Type de perforation (tranchant)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ProtectionConsistency_Sharp"
+  },
+  {
+    "original": "Deflect Tendency (Blunt)",
+    "string": "Tendance à dévier (contondant)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DeflectTendency_Blunt"
+  },
+  {
+    "original": "Deflect Type (Blunt)",
+    "string": "Type de déviation (contondant)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ProtectionQuality_Blunt"
+  },
+  {
+    "original": "Pierce Type (Blunt)",
+    "string": "Type de perforation (contondant)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ProtectionConsistency_Blunt"
+  },
+  {
+    "original": "Deflect Tendency (Piercing)",
+    "string": "Tendance à dévier (perforant)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DeflectTendency_Piercing"
+  },
+  {
+    "original": "Deflect Type (Piercing)",
+    "string": "Type de déviation (perforant)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ProtectionQuality_Piercing"
+  },
+  {
+    "original": "Pierce Type (Piercing)",
+    "string": "Type de perforation (perforant)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ProtectionConsistency_Piercing"
+  },
+  {
+    "original": "This modifies how the average protections above are composed. It determines the tendency with which an armor will deflect weapons of the given type as opposed to getting pierced. (Complex Armor System)",
+    "string": "Détermine la tendance de l’armure à dévier les armes du type indiqué plutôt qu’à être perforée. Ce réglage modifie la composition des protections moyennes ci-dessus. (Système d’armure complexe)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_DeflectTendency_Info"
+  },
+  {
+    "original": "This modifies how the average protections above are composed. Low values yield reliable and consistent deflect protections, while higher values yield less predictable, but stronger deflect protections. (Complex Armor System)",
+    "string": "Modifie la composition des protections moyennes ci-dessus. Une valeur faible donne une déviation fiable et régulière ; une valeur élevée, une déviation plus puissante, mais moins prévisible. (Système d’armure complexe)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ProtectionQuality_Info"
+  },
+  {
+    "original": "This modifies how the average protections above are composed. Low values yield reliable and consistent pierce protections, while higher values yield less predictable, but stronger pierce protections. (Complex Armor System)",
+    "string": "Modifie la composition des protections moyennes ci-dessus. Une valeur faible donne une perforation fiable et régulière ; une valeur élevée, une perforation plus puissante, mais moins prévisible. (Système d’armure complexe)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ProtectionConsistency_Info"
+  },
+  {
+    "original": "Resist Stagger Chance",
+    "string": "Chance de résister au déséquilibre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_StaggerProtection"
+  },
+  {
+    "original": "Neutralize Poison Chance",
+    "string": "Chance de neutraliser le poison",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PoisonProtection"
+  },
+  {
+    "original": "Head Armor Coverage",
+    "string": "Couverture de la tête",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HeadCoverage"
+  },
+  {
+    "original": "Body Armor Coverage",
+    "string": "Couverture du corps",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_BodyCoverage"
+  },
+  {
+    "original": "Hands Armor Coverage",
+    "string": "Couverture des mains",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HandsCoverage"
+  },
+  {
+    "original": "Feet Armor Coverage",
+    "string": "Couverture des pieds",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_FeetCoverage"
+  },
+  {
+    "original": "This sets the chance to resist being staggered.",
+    "string": "Ce réglage détermine les chances de résister au déséquilibre.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_StaggerProtection_Info"
+  },
+  {
+    "original": "This sets the chance to take no damage from most poison based attacks.",
+    "string": "Ce réglage détermine les chances d’ignorer les dégâts de la plupart des attaques empoisonnées.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PoisonProtection_Info"
+  },
+  {
+    "original": "How well this armor type covers the area. Should be used to account for glaring openings and gaps in the armors of this type and is a straight multiplier to all Primary and Secondary Layer chances. This way you do not have to account for weakspots and gaps in the armor models when setting up probability values, as you can adjust that afterwards. (Complex Armor System)",
+    "string": "Indique dans quelle mesure ce type d’armure couvre la zone concernée. Ce facteur permet de tenir compte des ouvertures et des interstices importants ; il multiplie directement les chances des couches primaire et secondaire. Vous pouvez ainsi régler séparément les points faibles du modèle d’armure et les probabilités de protection. (Système d’armure complexe)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Coverage_Info"
+  },
+  {
+    "original": "Attributes",
+    "string": "Attributs",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Attributes"
+  },
+  {
+    "original": "Health Regeneration Offset",
+    "string": "Régénération de santé",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_HealthRegen"
+  },
+  {
+    "original": "Magicka Regeneration Offset",
+    "string": "Régénération de magie",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MagickaRegen"
+  },
+  {
+    "original": "Stamina Regeneration Offset",
+    "string": "Régénération de vigueur",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_StaminaRegen"
+  },
+  {
+    "original": "Movement Speed Offset",
+    "string": "Vitesse de déplacement",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_MoveSpeed"
+  },
+  {
+    "original": "Weapon Speed Offset",
+    "string": "Vitesse d’attaque",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_WeaponSpeed"
+  },
+  {
+    "original": "Each worn piece of this armor type will change this attribute of the actor by the given amount on average. The values are weighted according to the hit priorities of armor.",
+    "string": "Chaque pièce de ce type d’armure modifie en moyenne l’attribut du personnage selon la valeur indiquée. La moyenne tient compte des priorités de chaque partie du corps touchée.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Attributes_Info"
+  },
+  {
+    "original": "Block Protections",
+    "string": "Protections au blocage",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_BlockProtections"
+  },
+  {
+    "original": "Additional Shield Block",
+    "string": "Blocage supplémentaire au bouclier",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AdditionalShieldBlock"
+  },
+  {
+    "original": "Shield Block Chance",
+    "string": "Chance de blocage au bouclier",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ShieldBlockChance"
+  },
+  {
+    "original": "The chance for additional protection while blocking with a shield.",
+    "string": "Chance d’obtenir une protection supplémentaire en bloquant avec un bouclier.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_ShieldBlockChance_Info"
+  },
+  {
+    "original": "Additional Weapon Block",
+    "string": "Blocage supplémentaire à l’arme",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AdditionalWeaponBlock"
+  },
+  {
+    "original": "Weapon Block Chance",
+    "string": "Chance de blocage à l’arme",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_WeaponBlockChance"
+  },
+  {
+    "original": "The chance for additional protection while blocking with a weapon.",
+    "string": "Chance d’obtenir une protection supplémentaire en bloquant avec une arme.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_WeaponBlockChance_Info"
+  },
+  {
+    "original": "Passive Shield Block",
+    "string": "Blocage passif au bouclier",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PassiveShieldBlock"
+  },
+  {
+    "original": "Passive Shield Block Chance",
+    "string": "Chance de blocage passif au bouclier",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PassiveShieldChance"
+  },
+  {
+    "original": "Passive Shield Block Chance Attacking",
+    "string": "Chance de blocage passif au bouclier pendant une attaque",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PassiveShieldChanceAttacking"
+  },
+  {
+    "original": "Additional protection against physical attacks from the front when blocking.",
+    "string": "Protection supplémentaire contre les attaques physiques venant de face pendant un blocage.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AdditionalShieldBlock_Info"
+  },
+  {
+    "original": "Additional protection against physical attacks from the front when blocking.",
+    "string": "Protection supplémentaire contre les attaques physiques venant de face pendant un blocage.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_AdditionalWeaponBlock_Info"
+  },
+  {
+    "original": "The amount of physical protection that a passive shield block provides.",
+    "string": "Protection physique conférée par un blocage passif au bouclier.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PassiveShieldBlock_Info"
+  },
+  {
+    "original": "The chance for a passive block to occur when an attack goes towards a held shield. Passive blocking is only possible when the actor is in combat and does not block actively.",
+    "string": "Chance qu’une attaque visant un bouclier porté soit bloquée passivement. Ce blocage n’est possible qu’en combat, lorsque le personnage ne bloque pas activement.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PassiveShieldChance_Info"
+  },
+  {
+    "original": "The chance for a passive block to occur when an attack goes towards a held shield. While attacking the passive block arc is bigger. Passive blocking is only possible when the actor is in combat and does not block actively.",
+    "string": "Chance qu’une attaque visant un bouclier porté soit bloquée passivement. L’arc de blocage passif est plus large pendant une attaque. Ce blocage n’est possible qu’en combat, lorsque le personnage ne bloque pas activement.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_PassiveShieldChanceAttacking_Info"
+  },
+  {
+    "original": "Protection Spells",
+    "string": "Sorts de protection",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SpellProtections"
+  },
+  {
+    "original": "Oakflesh Max Physical Protection",
+    "string": "Protection physique maximale de Corps de chêne",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_MaxPhysicalProtection"
+  },
+  {
+    "original": "Oakflesh Min Physical Protection",
+    "string": "Protection physique minimale de Corps de chêne",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_MinPhysicalProtection"
+  },
+  {
+    "original": "Oakflesh Max Elemental Protection",
+    "string": "Protection élémentaire maximale de Corps de chêne",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_MaxElementalProtection"
+  },
+  {
+    "original": "Oakflesh Min Elemental Protection",
+    "string": "Protection élémentaire minimale de Corps de chêne",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_MinElementalProtection"
+  },
+  {
+    "original": "The maximum physical protection a caster of Oakflesh who is not wearing an armor cuirass receives at an alteration level of 100.\\n",
+    "string": "Protection physique maximale reçue au niveau 100 en Altération par un lanceur du sort Corps de chêne ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_MaxPhysicalProtection_Info"
+  },
+  {
+    "original": "The minimum physical protection an unarmored caster of Oakflesh who is not wearing an armor cuirass receives at an alteration level of 0.\\n",
+    "string": "Protection physique minimale reçue au niveau 0 en Altération par un lanceur non armuré du sort Corps de chêne ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_MinPhysicalProtection_Info"
+  },
+  {
+    "original": "The maximum elemental protection an unarmored caster of Oakflesh who is not wearing an armor cuirass receives at an alteration level of 100.\\n",
+    "string": "Protection élémentaire maximale reçue au niveau 100 en Altération par un lanceur non armuré du sort Corps de chêne ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_MaxElementalProtection_Info"
+  },
+  {
+    "original": "The minimum elemental protection an unarmored caster of Oakflesh who is not wearing an armor cuirass receives at an alteration level of 0.\\n",
+    "string": "Protection élémentaire minimale reçue au niveau 0 en Altération par un lanceur non armuré du sort Corps de chêne ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_MinElementalProtection_Info"
+  },
+  {
+    "original": "Elemental Protection Chance",
+    "string": "Chance de protection élémentaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_Chance"
+  },
+  {
+    "original": "The probability of elemental damage reduction being successfully applied. Unaffected by alteration skill level.",
+    "string": "Probabilité que la réduction des dégâts élémentaires s’applique. Elle ne dépend pas du niveau d’Altération.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_Chance_Info"
+  },
+  {
+    "original": "Physical Protection Chance",
+    "string": "Chance de protection physique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_PhysicalChance"
+  },
+  {
+    "original": "The probability of physical damage reduction being successfully applied. Unaffected by alteration skill level.",
+    "string": "Probabilité que la réduction des dégâts physiques s’applique. Elle ne dépend pas du niveau d’Altération.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Oakflesh_PhysicalChance_Info"
+  },
+  {
+    "original": "Stoneflesh Max Physical Protection",
+    "string": "Protection physique maximale de Corps de pierre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_MaxPhysicalProtection"
+  },
+  {
+    "original": "Stoneflesh Min Physical Protection",
+    "string": "Protection physique minimale de Corps de pierre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_MinPhysicalProtection"
+  },
+  {
+    "original": "Stoneflesh Max Elemental Protection",
+    "string": "Protection élémentaire maximale de Corps de pierre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_MaxElementalProtection"
+  },
+  {
+    "original": "Stoneflesh Min Elemental Protection",
+    "string": "Protection élémentaire minimale de Corps de pierre",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_MinElementalProtection"
+  },
+  {
+    "original": "The maximum physical protection an unarmored caster of Stoneflesh who is not wearing an armor cuirass receives at an alteration level of 100.\\n",
+    "string": "Protection physique maximale reçue au niveau 100 en Altération par un lanceur non armuré du sort Corps de pierre ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_MaxPhysicalProtection_Info"
+  },
+  {
+    "original": "The minimum physical protection an unarmored caster of Stoneflesh who is not wearing an armor cuirass receives at an alteration level of 0.\\n",
+    "string": "Protection physique minimale reçue au niveau 0 en Altération par un lanceur non armuré du sort Corps de pierre ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_MinPhysicalProtection_Info"
+  },
+  {
+    "original": "The maximum elemental protection an unarmored caster of Stoneflesh who is not wearing an armor cuirass receives at an alteration level of 100.\\n",
+    "string": "Protection élémentaire maximale reçue au niveau 100 en Altération par un lanceur non armuré du sort Corps de pierre ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_MaxElementalProtection_Info"
+  },
+  {
+    "original": "The minimum elemental protection an unarmored caster of Stoneflesh who is not wearing an armor cuirass receives at an alteration level of 0.\\n",
+    "string": "Protection élémentaire minimale reçue au niveau 0 en Altération par un lanceur non armuré du sort Corps de pierre ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_MinElementalProtection_Info"
+  },
+  {
+    "original": "Elemental Protection Chance",
+    "string": "Chance de protection élémentaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_Chance"
+  },
+  {
+    "original": "The probability of elemental damage reduction being successfully applied. Unaffected by alteration skill level.",
+    "string": "Probabilité que la réduction des dégâts élémentaires s’applique. Elle ne dépend pas du niveau d’Altération.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_Chance_Info"
+  },
+  {
+    "original": "Physical Protection Chance",
+    "string": "Chance de protection physique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_PhysicalChance"
+  },
+  {
+    "original": "The probability of damage reduction being successfully applied. Unaffected by alteration skill level.",
+    "string": "Probabilité que la réduction des dégâts s’applique. Elle ne dépend pas du niveau d’Altération.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Stoneflesh_PhysicalChance_Info"
+  },
+  {
+    "original": "Ironflesh Max Physical Protection",
+    "string": "Protection physique maximale de Corps de fer",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_MaxPhysicalProtection"
+  },
+  {
+    "original": "Ironflesh Min Physical Protection",
+    "string": "Protection physique minimale de Corps de fer",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_MinPhysicalProtection"
+  },
+  {
+    "original": "Ironflesh Max Elemental Protection",
+    "string": "Protection élémentaire maximale de Corps de fer",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_MaxElementalProtection"
+  },
+  {
+    "original": "Ironflesh Min Elemental Protection",
+    "string": "Protection élémentaire minimale de Corps de fer",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_MinElementalProtection"
+  },
+  {
+    "original": "The maximum physical protection an unarmored caster of Ironflesh who is not wearing an armor cuirass receives at an alteration level of 100.\\n",
+    "string": "Protection physique maximale reçue au niveau 100 en Altération par un lanceur non armuré du sort Corps de fer ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_MaxPhysicalProtection_Info"
+  },
+  {
+    "original": "The minimum physical protection an unarmored caster of Ironflesh who is not wearing an armor cuirass receives at an alteration level of 0.\\n",
+    "string": "Protection physique minimale reçue au niveau 0 en Altération par un lanceur non armuré du sort Corps de fer ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_MinPhysicalProtection_Info"
+  },
+  {
+    "original": "The maximum elemental protection an unarmored caster of Ironflesh who is not wearing an armor cuirass receives at an alteration level of 100.\\n",
+    "string": "Protection élémentaire maximale reçue au niveau 100 en Altération par un lanceur non armuré du sort Corps de fer ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_MaxElementalProtection_Info"
+  },
+  {
+    "original": "The minimum elemental protection an unarmored caster of Ironflesh who is not wearing an armor cuirass receives at an alteration level of 0.\\n",
+    "string": "Protection élémentaire minimale reçue au niveau 0 en Altération par un lanceur non armuré du sort Corps de fer ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_MinElementalProtection_Info"
+  },
+  {
+    "original": "Elemental Protection Chance",
+    "string": "Chance de protection élémentaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_Chance"
+  },
+  {
+    "original": "The probability of elemental damage reduction being successfully applied. Unaffected by alteration skill level.",
+    "string": "Probabilité que la réduction des dégâts élémentaires s’applique. Elle ne dépend pas du niveau d’Altération.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_Chance_Info"
+  },
+  {
+    "original": "Physical Protection Chance",
+    "string": "Chance de protection physique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_PhysicalChance"
+  },
+  {
+    "original": "The probability of damage reduction being successfully applied. Unaffected by alteration skill level.",
+    "string": "Probabilité que la réduction des dégâts s’applique. Elle ne dépend pas du niveau d’Altération.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ironflesh_PhysicalChance_Info"
+  },
+  {
+    "original": "Ebonyflesh Max Physical Protection",
+    "string": "Protection physique maximale de Corps d’ébène",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_MaxPhysicalProtection"
+  },
+  {
+    "original": "Ebonyflesh Min Physical Protection",
+    "string": "Protection physique minimale de Corps d’ébène",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_MinPhysicalProtection"
+  },
+  {
+    "original": "Ebonyflesh Max Elemental Protection",
+    "string": "Protection élémentaire maximale de Corps d’ébène",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_MaxElementalProtection"
+  },
+  {
+    "original": "Ebonyflesh Min Elemental Protection",
+    "string": "Protection élémentaire minimale de Corps d’ébène",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_MinElementalProtection"
+  },
+  {
+    "original": "The maximum physical protection an unarmored caster of Ebonyflesh who is not wearing an armor cuirass receives at an alteration level of 100.\\n",
+    "string": "Protection physique maximale reçue au niveau 100 en Altération par un lanceur non armuré du sort Corps d’ébène ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_MaxPhysicalProtection_Info"
+  },
+  {
+    "original": "The minimum physical protection an unarmored caster of Ebonyflesh who is not wearing an armor cuirass receives at an alteration level of 0.\\n",
+    "string": "Protection physique minimale reçue au niveau 0 en Altération par un lanceur non armuré du sort Corps d’ébène ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_MinPhysicalProtection_Info"
+  },
+  {
+    "original": "The maximum elemental protection an unarmored caster of Ebonyflesh who is not wearing an armor cuirass receives at an alteration level of 100.\\n",
+    "string": "Protection élémentaire maximale reçue au niveau 100 en Altération par un lanceur non armuré du sort Corps d’ébène ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_MaxElementalProtection_Info"
+  },
+  {
+    "original": "The minimum elemental protection an unarmored caster of Ebonyflesh who is not wearing an armor cuirass receives at an alteration level of 0.\\n",
+    "string": "Protection élémentaire minimale reçue au niveau 0 en Altération par un lanceur non armuré du sort Corps d’ébène ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_MinElementalProtection_Info"
+  },
+  {
+    "original": "Elemental Protection Chance",
+    "string": "Chance de protection élémentaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_Chance"
+  },
+  {
+    "original": "The probability of elemental damage reduction being successfully applied. Unaffected by alteration skill level.",
+    "string": "Probabilité que la réduction des dégâts élémentaires s’applique. Elle ne dépend pas du niveau d’Altération.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_Chance_Info"
+  },
+  {
+    "original": "Physical Protection Chance",
+    "string": "Chance de protection physique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_PhysicalChance"
+  },
+  {
+    "original": "The probability of damage reduction being successfully applied. Unaffected by alteration skill level.",
+    "string": "Probabilité que la réduction des dégâts s’applique. Elle ne dépend pas du niveau d’Altération.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Ebonyflesh_PhysicalChance_Info"
+  },
+  {
+    "original": "Dragonhide Max Physical Protection",
+    "string": "Protection physique maximale de Peau de dragon",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_MaxPhysicalProtection"
+  },
+  {
+    "original": "Dragonhide Min Physical Protection",
+    "string": "Protection physique minimale de Peau de dragon",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_MinPhysicalProtection"
+  },
+  {
+    "original": "Dragonhide Max Elemental Protection",
+    "string": "Protection élémentaire maximale de Peau de dragon",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_MaxElementalProtection"
+  },
+  {
+    "original": "Dragonhide Min Elemental Protection",
+    "string": "Protection élémentaire minimale de Peau de dragon",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_MinElementalProtection"
+  },
+  {
+    "original": "The maximum physical protection an unarmored caster of Dragonhide who is not wearing an armor cuirass receives at an alteration level of 100.\\n Note: If you use vanilla Dragonhide, the default 80% physical damage reduction will stack with your settings. Consider the optional file or use Mysticism to avoid this.",
+    "string": "Protection physique maximale reçue au niveau 100 en Altération par un lanceur non armuré du sort Peau de dragon ne portant pas de cuirasse.\\nRemarque : avec la version originale de Peau de dragon, la réduction par défaut de 80 % des dégâts physiques se cumule avec ces réglages. Utilisez le fichier optionnel ou Mysticism pour éviter ce cumul.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_MaxPhysicalProtection_Info"
+  },
+  {
+    "original": "The minimum physical protection an unarmored caster of Dragonhide who is not wearing an armor cuirass receives at an alteration level of 0.\\n Note: If you use vanilla Dragonhide, the default 80% physical damage reduction will stack with your settings. Consider the optional file or use Mysticism to avoid this.",
+    "string": "Protection physique minimale reçue au niveau 0 en Altération par un lanceur non armuré du sort Peau de dragon ne portant pas de cuirasse.\\nRemarque : avec la version originale de Peau de dragon, la réduction par défaut de 80 % des dégâts physiques se cumule avec ces réglages. Utilisez le fichier optionnel ou Mysticism pour éviter ce cumul.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_MinPhysicalProtection_Info"
+  },
+  {
+    "original": "The maximum elemental protection an unarmored caster of Dragonhide who is not wearing an armor cuirass receives at an alteration level of 100.\\n",
+    "string": "Protection élémentaire maximale reçue au niveau 100 en Altération par un lanceur non armuré du sort Peau de dragon ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_MaxElementalProtection_Info"
+  },
+  {
+    "original": "The minimum elemental protection an unarmored caster of Dragonhide who is not wearing an armor cuirass receives at an alteration level of 0.\\n",
+    "string": "Protection élémentaire minimale reçue au niveau 0 en Altération par un lanceur non armuré du sort Peau de dragon ne portant pas de cuirasse.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_MinElementalProtection_Info"
+  },
+  {
+    "original": "Elemental Protection Chance",
+    "string": "Chance de protection élémentaire",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_Chance"
+  },
+  {
+    "original": "The probability of elemental damage reduction being successfully applied. Unaffected by alteration skill level.",
+    "string": "Probabilité que la réduction des dégâts élémentaires s’applique. Elle ne dépend pas du niveau d’Altération.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_Chance_Info"
+  },
+  {
+    "original": "Physical Protection Chance",
+    "string": "Chance de protection physique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_PhysicalChance"
+  },
+  {
+    "original": "The probability of damage reduction being successfully applied. Unaffected by alteration skill level.",
+    "string": "Probabilité que la réduction des dégâts s’applique. Elle ne dépend pas du niveau d’Altération.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Dragonhide_PhysicalChance_Info"
+  },
+  {
+    "original": "Ward Spells",
+    "string": "Sorts de protection",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_WardSpells"
+  },
+  {
+    "original": "Lesser Ward Max Physical Protection",
+    "string": "Protection physique maximale de Protection mineure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LesserWard_MaxProtection"
+  },
+  {
+    "original": "Lesser Ward Min Physical Protection",
+    "string": "Protection physique minimale de Protection mineure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LesserWard_MinProtection"
+  },
+  {
+    "original": "The maximum physical damage blocked at restoration level 100.\\n",
+    "string": "Protection physique maximale reçue au niveau 100 de Restauration.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LesserWard_MaxProtection_Info"
+  },
+  {
+    "original": "The minimum physical damage blocked at restoration level 0.\\n",
+    "string": "Protection physique minimale reçue au niveau 0 de Restauration.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LesserWard_MinProtection_Info"
+  },
+  {
+    "original": "Physical Protection Chance",
+    "string": "Chance de protection physique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LesserWard_Chance"
+  },
+  {
+    "original": "The probability of physical damage reduction being successfully applied. Unaffected by restoration skill level.",
+    "string": "Probabilité que la réduction des dégâts physiques s’applique. Elle ne dépend pas du niveau de Restauration.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LesserWard_Chance_Info"
+  },
+  {
+    "original": "Steadfast Ward Max Physical Protection",
+    "string": "Protection physique maximale de Protection inébranlable",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SteadfastWard_MaxProtection"
+  },
+  {
+    "original": "Steadfast Ward Min Physical Protection",
+    "string": "Protection physique minimale de Protection inébranlable",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SteadfastWard_MinProtection"
+  },
+  {
+    "original": "The maximum physical damage blocked at restoration level 100.\\n",
+    "string": "Protection physique maximale reçue au niveau 100 de Restauration.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SteadfastWard_MaxProtection_Info"
+  },
+  {
+    "original": "The minimum physical damage blocked at restoration level 0.\\n",
+    "string": "Protection physique minimale reçue au niveau 0 de Restauration.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SteadfastWard_MinProtection_Info"
+  },
+  {
+    "original": "Physical Protection Chance",
+    "string": "Chance de protection physique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SteadfastWard_Chance"
+  },
+  {
+    "original": "The probability of physical damage reduction being successfully applied. Unaffected by restoration skill level.",
+    "string": "Probabilité que la réduction des dégâts physiques s’applique. Elle ne dépend pas du niveau de Restauration.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SteadfastWard_Chance_Info"
+  },
+  {
+    "original": "Greater Ward Max Physical Protection",
+    "string": "Protection physique maximale de Protection majeure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GreaterWard_MaxProtection"
+  },
+  {
+    "original": "Greater Ward Min Physical Protection",
+    "string": "Protection physique minimale de Protection majeure",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GreaterWard_MinProtection"
+  },
+  {
+    "original": "The maximum physical damage blocked at restoration level 100.\\n",
+    "string": "Protection physique maximale reçue au niveau 100 de Restauration.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GreaterWard_MaxProtection_Info"
+  },
+  {
+    "original": "The minimum physical damage blocked at restoration level 0.\\n",
+    "string": "Protection physique minimale reçue au niveau 0 de Restauration.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GreaterWard_MinProtection_Info"
+  },
+  {
+    "original": "Physical Protection Chance",
+    "string": "Chance de protection physique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GreaterWard_Chance"
+  },
+  {
+    "original": "The probability of physical damage reduction being successfully applied. Unaffected by restoration skill level.",
+    "string": "Probabilité que la réduction des dégâts physiques s’applique. Elle ne dépend pas du niveau de Restauration.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GreaterWard_Chance_Info"
+  },
+  {
+    "original": "Mysticism Wards (Requires Mysticism)",
+    "string": "Protections de Mysticism (requiert Mysticism)",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Mysticism_Wards"
+  },
+  {
+    "original": "Grand Ward Max Physical Protection",
+    "string": "Protection physique maximale de Protection suprême",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GrandWard_MaxProtection"
+  },
+  {
+    "original": "Grand Ward Min Physical Protection",
+    "string": "Protection physique minimale de Protection suprême",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GrandWard_MinProtection"
+  },
+  {
+    "original": "The maximum physical damage blocked at restoration level 100.\\n",
+    "string": "Protection physique maximale reçue au niveau 100 de Restauration.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GrandWard_MaxProtection_Info"
+  },
+  {
+    "original": "The minimum physical damage blocked at restoration level 0.\\n",
+    "string": "Protection physique minimale reçue au niveau 0 de Restauration.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GrandWard_MinProtection_Info"
+  },
+  {
+    "original": "Physical Protection Chance",
+    "string": "Chance de protection physique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GrandWard_Chance"
+  },
+  {
+    "original": "The probability of physical damage reduction being successfully applied. Unaffected by restoration skill level.",
+    "string": "Probabilité que la réduction des dégâts physiques s’applique. Elle ne dépend pas du niveau de Restauration.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_GrandWard_Chance_Info"
+  },
+  {
+    "original": "Spelldrinker Max Physical Protection",
+    "string": "Protection physique maximale de Buveur de sorts",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Spelldrinker_MaxProtection"
+  },
+  {
+    "original": "Spelldrinker Min Physical Protection",
+    "string": "Protection physique minimale de Buveur de sorts",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Spelldrinker_MinProtection"
+  },
+  {
+    "original": "The maximum physical damage blocked at restoration level 100.\\n",
+    "string": "Protection physique maximale reçue au niveau 100 de Restauration.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Spelldrinker_MaxProtection_Info"
+  },
+  {
+    "original": "The minimum physical damage blocked at restoration level 0.\\n",
+    "string": "Protection physique minimale reçue au niveau 0 de Restauration.\\n",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Spelldrinker_MinProtection_Info"
+  },
+  {
+    "original": "Physical Protection Chance",
+    "string": "Chance de protection physique",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Spelldrinker_Chance"
+  },
+  {
+    "original": "The probability of physical damage reduction being successfully applied. Unaffected by restoration skill level.",
+    "string": "Probabilité que la réduction des dégâts physiques s’applique. Elle ne dépend pas du niveau de Restauration.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Spelldrinker_Chance_Info"
+  },
+  {
+    "original": "Save & Load",
+    "string": "Sauvegarde et chargement",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SaveAndLoad"
+  },
+  {
+    "original": "Custom Settings",
+    "string": "Réglages personnalisés",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_CustomSettings"
+  },
+  {
+    "original": "Selected File",
+    "string": "Fichier sélectionné",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SelectedFile"
+  },
+  {
+    "original": "Save Custom Settings",
+    "string": "Enregistrer les réglages personnalisés",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SaveCustomSettings"
+  },
+  {
+    "original": "Load Custom Settings",
+    "string": "Charger des réglages personnalisés",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadCustomSettings"
+  },
+  {
+    "original": "With this option you can select one of the placeholders to save your current settings within or to load from that file.",
+    "string": "Cette option permet de choisir l’un des emplacements où enregistrer les réglages actuels ou depuis lequel charger un fichier.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SelectedFile_Info"
+  },
+  {
+    "original": "Clicking this will save the entire True Armor configuration you are currently using in the selected file.",
+    "string": "Enregistre dans le fichier sélectionné l’ensemble des réglages True Armor actuellement utilisés.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SaveCustomSettings_Info"
+  },
+  {
+    "original": "Clicking this will load the True Armor configuration from the selected file, replacing your current settings.",
+    "string": "Charge les réglages True Armor depuis le fichier sélectionné et remplace les réglages actuels.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadCustomSettings_Info"
+  },
+  {
+    "original": "Saving may take a few seconds.\\n\\n Please wait for the completion message before exiting the menu.",
+    "string": "L’enregistrement peut prendre quelques secondes.\\n\\n Attendez le message de confirmation avant de quitter le menu.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SavingSettings"
+  },
+  {
+    "original": "Settings saved.",
+    "string": "Réglages enregistrés.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SettingsSaved"
+  },
+  {
+    "original": "Loading may take a few seconds.\\n\\n Please wait for the completion message before exiting the menu.",
+    "string": "Le chargement peut prendre quelques secondes.\\n\\n Attendez le message de confirmation avant de quitter le menu.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadingSettings"
+  },
+  {
+    "original": "Settings loaded.",
+    "string": "Réglages chargés.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_SettingsLoaded"
+  },
+  {
+    "original": "True Armor Presets",
+    "string": "Préréglages True Armor",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_Presets"
+  },
+  {
+    "original": "Load Blank Settings",
+    "string": "Charger des réglages vierges",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadBlankSettings"
+  },
+  {
+    "original": "Load Balanced Settings",
+    "string": "Charger les réglages équilibrés",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadBalancedSettings"
+  },
+  {
+    "original": "Load Realistic Settings",
+    "string": "Charger les réglages réalistes",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadRealisticSettings"
+  },
+  {
+    "original": "Load Fantasy Settings",
+    "string": "Charger les réglages fantastiques",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadFantasySettings"
+  },
+  {
+    "original": "Restores the default values of the mod which disables all options and functions, giving you a blank state. Use this to create a new configuration from scratch or before uninstalling or updating the mod. Note that it can take up to a minute until all cleanup is complete after exiting the MCM menu when uninstalling or updating.",
+    "string": "Rétablit les valeurs par défaut du mod et désactive toutes ses options et fonctions. Utilisez cette option pour repartir de zéro ou avant de désinstaller ou de mettre à jour le mod. Après avoir quitté le menu, le nettoyage peut prendre jusqu’à une minute lors d’une désinstallation ou d’une mise à jour.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadBlankSettings_Info"
+  },
+  {
+    "original": "A well balanced configuration in which all armors are viable, while simultaneously being as realistic and immersive as possible. Light armors offer little protection, relying on quick dodges and fast strikes. Medium armors combine decent speed with decent allround protection. Heavy armors have hefty penalties in exchange for the best protections. Note: Simple Armor, Spells, and Wards are not included in these settings.",
+    "string": "Configuration équilibrée où toutes les armures restent viables, avec un souci de réalisme et d’immersion. Les armures légères protègent peu et misent sur l’esquive et la rapidité. Les armures intermédiaires offrent un bon compromis entre vitesse et protection. Les armures lourdes imposent de fortes pénalités en échange de la meilleure protection. Remarque : les systèmes simples d’armure, de sorts et de protections ne sont pas inclus.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadBalancedSettings_Info"
+  },
+  {
+    "original": "A configuration which emphasizes realism and logic disregarding game balance. Certain armors and weapons will be clearly superior to others, combat is faster and passive health regeneration is largely disabled. Note: Simple Armor, Spells, and Wards are not included in these settings.",
+    "string": "Configuration privilégiant le réalisme et la logique au détriment de l’équilibrage du jeu. Certaines armures et armes surpassent nettement les autres, les combats sont plus rapides et la régénération passive de santé est largement réduite. Remarque : les systèmes simples d’armure, de sorts et de protections ne sont pas inclus.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadRealisticSettings_Info"
+  },
+  {
+    "original": "Armor attributes are strongly pronounced, while the armor protections are more forgiving with less differences between an armors weaknesses and strengths. This preset is balanced, but unrealistic with armors mostly adhering to classic imaginations. Note: Simple Armor, Spells, and Wards are not included in these settings.",
+    "string": "Les attributs des armures sont très marqués, tandis que leurs protections sont plus généreuses et que les écarts entre leurs forces et leurs faiblesses sont réduits. Cette configuration est équilibrée, mais peu réaliste : les armures suivent davantage les codes de la fantasy classique. Remarque : les systèmes simples d’armure, de sorts et de protections ne sont pas inclus.",
+    "status": "TranslationComplete",
+    "mcm_id": "$TAE_LoadFantasySettings_Info"
+  }
+]
