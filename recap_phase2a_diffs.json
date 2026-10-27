@@ -1,0 +1,38 @@
+[
+  {
+    "file": "nolvus awakening combat scaling overhaul - enemy level.esp.json",
+    "form_id": "00014123|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "original": "Niranye",
+    "before": "Niranyë",
+    "after": "Niranye",
+    "nature": "Canon Altmer : Niranye"
+  },
+  {
+    "file": "nolvus awakening combat scaling overhaul - enemy level.esp.json",
+    "form_id": "040179C7|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "original": "Ralis Sedarys",
+    "before": "Ralis Sédarys",
+    "after": "Ralis Sedarys",
+    "nature": "Canon Dunmer : Ralis Sedarys"
+  },
+  {
+    "file": "nolvus awakening combat scaling overhaul - enemy level.esp.json",
+    "form_id": "0001C196|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "original": "Brelyna",
+    "before": "Brélyna",
+    "after": "Brelyna",
+    "nature": "Canon Dunmer : Brelyna"
+  },
+  {
+    "file": "nolvus awakening combat scaling overhaul - enemy level.esp.json",
+    "form_id": "0001C196|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "original": "Brelyna Maryon",
+    "before": "Brélyna Maryon",
+    "after": "Brelyna Maryon",
+    "nature": "Canon Dunmer : Brelyna Maryon"
+  }
+]

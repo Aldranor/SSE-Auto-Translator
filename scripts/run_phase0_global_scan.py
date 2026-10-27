@@ -8,14 +8,16 @@ from collections import defaultdict
 db_base = Path("data/user/database/french")
 
 # 1. Technical regexes
+# Note: pure numeric tags like <10> or <5> are NOT engine variables; they are illegal tags
 VAR_PATTERNS = [
-    r"<[a-zA-Z0-9_\-=]+>", # <mag>, <dur>, <alias=...>, etc.
-    r"\[[a-zA-Z0-9_\-]+\]", # [pagebreak], [Sprint], [Activate]
-    r"%[0-9]*[sdf]",        # %s, %d, %1$s
-    r"\$[a-zA-Z0-9_]+",    # $Prompt
-    r"\{[0-9]+\}",          # {0}, {1}
+    r"<(?![0-9]+>)[a-zA-Z0-9_\-=]+>", # <mag>, <dur>, <alias=...>, etc. (excluding <10>, <5>)
+    r"\[[a-zA-Z0-9_\-]+\]",           # [pagebreak], [Sprint], [Activate]
+    r"%[0-9]*[sdf]",                  # %s, %d, %1$s
+    r"\$[a-zA-Z0-9_]+",              # $Prompt
+    r"\{[0-9]+\}",                    # {0}, {1}
 ]
 CORRUPT_TAG_RE = re.compile(r"<[0-9]+>")
+
 FONT_TAG_OPEN_RE = re.compile(r"<font\b[^>]*>", re.IGNORECASE)
 FONT_TAG_CLOSE_RE = re.compile(r"</font>", re.IGNORECASE)
 

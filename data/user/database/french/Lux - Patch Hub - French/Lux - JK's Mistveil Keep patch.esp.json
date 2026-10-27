@@ -1,0 +1,29 @@
+[
+  {
+    "original": "Mistveil Keep Jarl's Chambers",
+    "string": "Château d'Embruine - Quartiers du jarl",
+    "status": "TranslationComplete",
+    "form_id": "0003B87D|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiftenMistveilKeepJarlsChambers"
+  },
+  {
+    "original": "Mistveil Keep",
+    "string": "Château d'Embruine",
+    "status": "TranslationComplete",
+    "form_id": "00016BD2|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiftenMistveilKeep"
+  },
+  {
+    "original": "Riften Mistveil Keep",
+    "string": "Château d'Embruine",
+    "status": "TranslationComplete",
+    "form_id": "00022646|Skyrim.esm",
+    "type": "LCTN FULL",
+    "index": null,
+    "editor_id": "RiftenMistveilKeepLocation"
+  }
+]

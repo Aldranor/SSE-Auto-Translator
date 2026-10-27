@@ -1,0 +1,425 @@
+[
+  {
+    "original": "I can only place one weapon on here.",
+    "string": "Une seule arme peut être placée ici.",
+    "status": "TranslationComplete",
+    "form_id": "01035426|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayTooManyWeaponsMsg"
+  },
+  {
+    "original": "I have no need for this right now.",
+    "string": "Pas besoin de ça maintenant.",
+    "status": "TranslationComplete",
+    "form_id": "0159F63B|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWLeverHandleCantUse01Message"
+  },
+  {
+    "original": "My books have been sorted onto the bookcases.",
+    "string": "Mes livres ont été triés dans les bibliothèques.",
+    "status": "TranslationComplete",
+    "form_id": "0102E216|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWSortingCompleteBooks01Msg"
+  },
+  {
+    "original": "I can only place one dragon claw here.",
+    "string": "Une seule griffe de dragon peut être placée ici.",
+    "status": "TranslationComplete",
+    "form_id": "0108E033|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayTooManyClawsMsg"
+  },
+  {
+    "original": "I can only place daggers here.",
+    "string": "Seules les dagues peuvent être placées ici.",
+    "status": "TranslationComplete",
+    "form_id": "01035F6A|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayNotDaggerMsg"
+  },
+  {
+    "original": "Nothing appears to have happened. It appears to be broken.",
+    "string": "Rien ne se passe. Cela semble être cassé.",
+    "status": "TranslationComplete",
+    "form_id": "01328BD8|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWBrokenButton01Msg"
+  },
+  {
+    "original": "I need some Milk in order to make some butter.",
+    "string": "J'ai besoin de lait pour faire du beurre.",
+    "status": "TranslationComplete",
+    "form_id": "010012E9|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWHFNeedMilkMsg"
+  },
+  {
+    "original": "This Arcane Enchanter appears to be incomplete and it cannot be used.",
+    "string": "Cet enchanteur arcanique est incomplet et ne peut pas être utilisé.",
+    "status": "TranslationComplete",
+    "form_id": "01319857|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWArcaneEnchanterBrokenMsg"
+  },
+  {
+    "original": "Shadow Under The Mountain",
+    "string": "Une ombre sous la montagne",
+    "status": "TranslationComplete",
+    "form_id": "0107FD84|Clockwork.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "CLWShadowSlowTimeSpell"
+  },
+  {
+    "original": "My receptacle contents have been sent to the Armoury.",
+    "string": "Le contenu du réceptacle a été envoyé à l'armurerie.",
+    "status": "TranslationComplete",
+    "form_id": "0103EA02|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWTransferCompleteArmoury01Msg"
+  },
+  {
+    "original": "My smithing materials have been sorted into the chests and barrels.",
+    "string": "Vos matériaux de forge ont été triés dans les coffres et les tonneaux.",
+    "status": "TranslationComplete",
+    "form_id": "01038DFA|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWSortingCompleteSmithMat01Msg"
+  },
+  {
+    "original": "A lever handle appears to be missing.",
+    "string": "Il manque la poignée du levier.",
+    "status": "TranslationComplete",
+    "form_id": "0159F636|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWLeverHandleMissing01Message"
+  },
+  {
+    "original": "Gilded Reanimate",
+    "string": "Réanimation de Doré",
+    "status": "TranslationComplete",
+    "form_id": "0153E846|Clockwork.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "CLWGildedReanimateSelfEffect"
+  },
+  {
+    "original": "This is not the time for this right now!",
+    "string": "Pas le temps pour ça maintenant !",
+    "status": "TranslationComplete",
+    "form_id": "0159F63C|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWLeverHandleCantUse02Message"
+  },
+  {
+    "original": "I can only place one shield here.",
+    "string": "Un seul bouclier peut être placé ici.",
+    "status": "TranslationComplete",
+    "form_id": "010359D8|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayTooManyShieldsMsg"
+  },
+  {
+    "original": "My receptacle contents have been sent to the Travel Room.",
+    "string": "Le contenu du réceptacle a été envoyé à la salle de navigation.",
+    "status": "TranslationComplete",
+    "form_id": "0103EA04|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWTransferCompleteTravelRoom01Msg"
+  },
+  {
+    "original": "My food have been sent to the Kitchen.",
+    "string": "Votre nourriture a été envoyée à la cuisine.",
+    "status": "TranslationComplete",
+    "form_id": "0103EA06|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWSortingCompleteKitchen01Msg"
+  },
+  {
+    "original": "My food have been sorted into the barrels.",
+    "string": "Ma nourriture a été triée dans les tonneaux.",
+    "status": "TranslationComplete",
+    "form_id": "0102D19D|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWSortingCompleteFood01Msg"
+  },
+  {
+    "original": "I need a Disassembled Dwemer pipe in order to repair this rupture.",
+    "string": "Tuyau dwemer nécessaire pour réparer la rupture.",
+    "status": "TranslationComplete",
+    "form_id": "01440B5E|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWNoPipeMsg"
+  },
+  {
+    "original": "Now that I have access to Neloth's Staff Enchanter in Tel Mithryn, it may be possible to have Lahar construct one here in the Mage's Study.",
+    "string": "Puisqu'il a accédé à l'enchanteur de bâton de Néloth à Tel Mithryn, il est possible que Lahar en construise un dans l'étude de magie.",
+    "status": "TranslationComplete",
+    "form_id": "017A69CD|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWStaffEnchanterKicker01Msg"
+  },
+  {
+    "original": "I can only place masks here.",
+    "string": "Seuls les masques peuvent être placés ici.",
+    "status": "TranslationComplete",
+    "form_id": "0108B3ED|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayNotMaskMsg"
+  },
+  {
+    "original": "The doorway to the ruins appears unstable. It seems likely that going through it will cause it to collapse, trapping people who use it inside - and any followers outside.\r\n\r\nThis will prevent them from returning to Skyrim until they find another way out.",
+    "string": "La porte vers ces ruines semble instable. Il est probable que la traverser la fera s'effondrer, vous piégeant à l'intérieur - et tous les compagnons à l'extérieur.\n\nCela vous empêchera de retourner en Bordeciel jusqu'à ce que vous trouviez une autre sortie.",
+    "status": "TranslationComplete",
+    "form_id": "010643B5|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWQuest01StartWarnMsg"
+  },
+  {
+    "original": "I can only place one mask here.",
+    "string": "Un seul masque peut être placé ici.",
+    "status": "TranslationComplete",
+    "form_id": "0108B3EB|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayTooManyMasksMsg"
+  },
+  {
+    "original": "Nothing has happened...",
+    "string": "Il ne s'est rien passé...",
+    "status": "TranslationComplete",
+    "form_id": "016567A7|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWButtonInactive01Msg"
+  },
+  {
+    "original": "I can only place dragon claws here.",
+    "string": "Seules les griffes de dragon peuvent être placées ici.",
+    "status": "TranslationComplete",
+    "form_id": "0108E032|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayNotClawMsg"
+  },
+  {
+    "original": "My alchemy ingredients have been sorted into the specimen cabinet.",
+    "string": "Mes ingrédients d'alchimie ont été rangés dans l'armoire à spécimens.",
+    "status": "TranslationComplete",
+    "form_id": "0102CC1E|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWSortingCompleteAlchemyIng01Msg"
+  },
+  {
+    "original": "My receptacle contents have been sent to the Mages Study.",
+    "string": "Le contenu du réceptacle a été envoyé à l'étude de mage.",
+    "status": "TranslationComplete",
+    "form_id": "0103E9F9|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWTransferCompleteMagesStudy01Msg"
+  },
+  {
+    "original": "Nothing has happened. Perhaps I should ask Lahar if he knows what is wrong with this button.",
+    "string": "Il ne s'est rien passé. Je devrais peut-être demander à Lahar s'il sait ce qui ne va pas avec ce bouton.",
+    "status": "TranslationComplete",
+    "form_id": "0179C7AB|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWNotVisitedSolstheimMsg"
+  },
+  {
+    "original": "Time stood still and she came towards the caster.",
+    "string": "Le temps s'arrêta et elle vint vers moi.",
+    "status": "TranslationComplete",
+    "form_id": "0107FD84|Clockwork.esp",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "CLWShadowSlowTimeSpell"
+  },
+  {
+    "original": "I can only place staves here.",
+    "string": "Seuls les bâtons peuvent être placés ici.",
+    "status": "TranslationComplete",
+    "form_id": "01036557|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayNotStaffMsg"
+  },
+  {
+    "original": "Between the pages of this journal I have found a key. Tied to it is a label which reads \"Master Bedroom Wardrobe\".",
+    "string": "Entre les pages de ce journal, vous trouvez une clé. Une étiquette y est attachée, qui dit « Garde-robe de la chambre principale ».",
+    "status": "TranslationComplete",
+    "form_id": "01337FC6|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWLudwigJournalKeyMsg"
+  },
+  {
+    "original": "My books, alchemy ingredients and soul gems have been sent to the Mages Study.",
+    "string": "Vos livres, ingrédients d'alchimie et gemmes spirituelles ont été envoyés à l'étude de mage.",
+    "status": "TranslationComplete",
+    "form_id": "0103E9F7|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWSortingCompleteMagesStudy01Msg"
+  },
+  {
+    "original": "I can only place shields here.",
+    "string": "Seuls les boucliers peuvent être placés ici.",
+    "status": "TranslationComplete",
+    "form_id": "010359D4|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayNotShieldMsg"
+  },
+  {
+    "original": "My receptacle contents have been sent to the Kitchen.",
+    "string": "Le contenu du réceptacle a été envoyé à la cuisine.",
+    "status": "TranslationComplete",
+    "form_id": "0103EA03|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWTransferCompleteKitchen01Msg"
+  },
+  {
+    "original": "I can only place bows here.",
+    "string": "Seuls les arcs peuvent être placés ici.",
+    "status": "TranslationComplete",
+    "form_id": "01035FCF|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayNotBowMsg"
+  },
+  {
+    "original": "Nothing seems to have happened. No steam appears to be reaching this machine.",
+    "string": "Rien ne se passe. La vapeur n'atteint pas la machine.",
+    "status": "TranslationComplete",
+    "form_id": "012CD689|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWNoSteamPower01Msg"
+  },
+  {
+    "original": "I now feel so clean after bathing.",
+    "string": "Vous êtes maintenant propre.",
+    "status": "TranslationComplete",
+    "form_id": "01050444|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWBathingMsg"
+  },
+  {
+    "original": "I can only place weapons here.",
+    "string": "Seules les armes peuvent être placées ici.",
+    "status": "TranslationComplete",
+    "form_id": "01035425|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayNotWeaponMsg"
+  },
+  {
+    "original": "My smithing materials have been sent to the Work Room.",
+    "string": "Votre matériel de forgeage a été envoyé à l'atelier.",
+    "status": "TranslationComplete",
+    "form_id": "0103EA07|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWSortingCompleteWorkRoom01Msg"
+  },
+  {
+    "original": "An odd burr inside this mount seems to need an item that has been split down the middle. In addition, it looks like both halves must be inserted at the same time, otherwise the lone half will fall out with nothing to hold it in place.",
+    "string": "Un étrange rail à l'intérieur permet seulement à un élément divisé en deux d'y être inséré au milieu. En outre, les deux moitiés doivent être insérées en même temps, sans quoi une moitié seule, sans rien pour la maintenir en place, tombera, tout simplement.",
+    "status": "TranslationComplete",
+    "form_id": "0101AF64|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDBNeedAmClawMsg"
+  },
+  {
+    "original": "My soul gems have been sorted into the specimen cabinets.",
+    "string": "Mes gemmes spirituelles ont été triées dans le meuble à spécimens.",
+    "status": "TranslationComplete",
+    "form_id": "0102CC22|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWSortingCompleteSoulGems01Msg"
+  },
+  {
+    "original": "I can only place swords here.",
+    "string": "Seules les épées peuvent être placées ici.",
+    "status": "TranslationComplete",
+    "form_id": "010359D3|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWDisplayNotSwordMsg"
+  },
+  {
+    "original": "My scrolls have been sorted into the chest.",
+    "string": "Mes parchemins ont été triés dans le coffre.",
+    "status": "TranslationComplete",
+    "form_id": "0102D713|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWSortingCompleteScrolls01Msg"
+  },
+  {
+    "original": "This journal appears to have suffered some water damage and I can only read the final entry.",
+    "string": "Ce journal a souffert de l'humidité et seule la dernière inscription est lisible.",
+    "status": "TranslationComplete",
+    "form_id": "0106CB17|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWCaravaneerJournalMsg"
+  },
+  {
+    "original": "Reanimate a dead body to fight for <dur> seconds.",
+    "string": "Réanime un cadavre pour qu'il se batte pendant <dur> secondes.",
+    "status": "TranslationComplete",
+    "form_id": "0153E846|Clockwork.esp",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "CLWGildedReanimateSelfEffect"
+  },
+  {
+    "original": "This Alchemy Lab appears to be incomplete and it cannot be used.",
+    "string": "Ce laboratoire d'alchimie est incomplet et ne peut pas être utilisé.",
+    "status": "TranslationComplete",
+    "form_id": "01319854|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWAlchemyLabBrokenMsg"
+  },
+  {
+    "original": "My receptacle contents have been sent to the Work Room.",
+    "string": "Le contenu des réceptacles a été envoyé à l'atelier.",
+    "status": "TranslationComplete",
+    "form_id": "0103EA05|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "CLWTransferCompleteWorkRoom01Msg"
+  }
+]

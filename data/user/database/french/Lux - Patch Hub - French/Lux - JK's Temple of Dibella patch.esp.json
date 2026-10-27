@@ -1,0 +1,20 @@
+[
+  {
+    "original": "Temple of Dibella",
+    "string": "Temple de Dibella",
+    "status": "TranslationComplete",
+    "form_id": "00016DF3|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "MarkarthTempleofDibella"
+  },
+  {
+    "original": "Inner Sanctum",
+    "string": "Temple de Dibella - Sanctuaire intérieur",
+    "status": "TranslationComplete",
+    "form_id": "0003EA9D|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "MarkarthTempleInnerSanctum"
+  }
+]

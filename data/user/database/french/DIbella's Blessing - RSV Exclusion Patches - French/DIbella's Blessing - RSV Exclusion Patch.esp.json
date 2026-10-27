@@ -1,0 +1,2747 @@
+[
+  {
+    "original": "Jordis",
+    "string": "Jordis",
+    "status": "TranslationComplete",
+    "form_id": "000A2C8F|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "HousecarlSolitude"
+  },
+  {
+    "original": "Ganna",
+    "string": "Ganna",
+    "status": "TranslationComplete",
+    "form_id": "0001365D|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "GannaUriel"
+  },
+  {
+    "original": "Angeline Morrard",
+    "string": "Angeline Morrard",
+    "status": "TranslationComplete",
+    "form_id": "00013260|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "AngelineMorrard"
+  },
+  {
+    "original": "Vivienne",
+    "string": "Vivienne",
+    "status": "TranslationComplete",
+    "form_id": "000132AE|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "VivienneOnis"
+  },
+  {
+    "original": "Adelaisa",
+    "string": "Adelaisa",
+    "status": "TranslationComplete",
+    "form_id": "0001411D|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Adelaisa"
+  },
+  {
+    "original": "Lynly Star-Sung",
+    "string": "Lynly Chantétoile",
+    "status": "TranslationComplete",
+    "form_id": "000136BC|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Lynly"
+  },
+  {
+    "original": "Grosta",
+    "string": "Grosta",
+    "status": "TranslationComplete",
+    "form_id": "00019C00|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Grosta"
+  },
+  {
+    "original": "Elisif",
+    "string": "Élisif",
+    "status": "TranslationComplete",
+    "form_id": "0001326A|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "ElisifTheFair"
+  },
+  {
+    "original": "Laelette the Vampire",
+    "string": "Laelette la vampire",
+    "status": "TranslationComplete",
+    "form_id": "000274A0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS14LaeletteVampire"
+  },
+  {
+    "original": "Gormlaith Golden-Hilt",
+    "string": "Gormlaith Lame-Dorée",
+    "status": "TranslationComplete",
+    "form_id": "000923FA|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "SummonGormlaith"
+  },
+  {
+    "original": "Pantea",
+    "string": "Pantea",
+    "status": "TranslationComplete",
+    "form_id": "0001329F|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "PanteaAteia"
+  },
+  {
+    "original": "Rayya",
+    "string": "Rayya",
+    "status": "TranslationComplete",
+    "form_id": "03005215|HearthFires.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BYOHHousecarlFalkreath"
+  },
+  {
+    "original": "Abelone",
+    "string": "Abelone",
+    "status": "TranslationComplete",
+    "form_id": "0008774F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Abelone"
+  },
+  {
+    "original": "Faleen",
+    "string": "Faleen",
+    "status": "TranslationComplete",
+    "form_id": "00013397|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Faleen"
+  },
+  {
+    "original": "Bolfrida Brandy-Mug",
+    "string": "Bolfrida Brandevin",
+    "status": "TranslationComplete",
+    "form_id": "00014126|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Bolfrida"
+  },
+  {
+    "original": "Colette Marence",
+    "string": "Colette Marence",
+    "status": "TranslationComplete",
+    "form_id": "0001C19A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ColetteMarence"
+  },
+  {
+    "original": "Faralda",
+    "string": "Faralda",
+    "status": "TranslationComplete",
+    "form_id": "0001C197|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Faralda"
+  },
+  {
+    "original": "Svana Far-Shield",
+    "string": "Svana Lointain-Écu",
+    "status": "TranslationComplete",
+    "form_id": "0001337C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Svana"
+  },
+  {
+    "original": "Angi",
+    "string": "Angi",
+    "status": "TranslationComplete",
+    "form_id": "000CAB2F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunAngiREF"
+  },
+  {
+    "original": "Aduri Sarethi",
+    "string": "Aduri Saréthi",
+    "status": "TranslationComplete",
+    "form_id": "00019BFF|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "AduriSarethi"
+  },
+  {
+    "original": "Gabriella",
+    "string": "Gabriella",
+    "status": "TranslationComplete",
+    "form_id": "0001BDB8|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gabriella"
+  },
+  {
+    "original": "Keeper Carcette",
+    "string": "Gardienne Carcette",
+    "status": "TranslationComplete",
+    "form_id": "000BFB55|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "VigilantCarcette"
+  },
+  {
+    "original": "Illdi",
+    "string": "Illdi",
+    "status": "TranslationComplete",
+    "form_id": "00013289|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Illdi"
+  },
+  {
+    "original": "Lami",
+    "string": "Lami",
+    "status": "TranslationComplete",
+    "form_id": "000135EF|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Lami"
+  },
+  {
+    "original": "Arcadia",
+    "string": "Arcadia",
+    "status": "TranslationComplete",
+    "form_id": "00013BA4|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Arcadia"
+  },
+  {
+    "original": "Dravynea the Stoneweaver",
+    "string": "Dravynea la Tisseuse de pierre",
+    "status": "TranslationComplete",
+    "form_id": "0001365F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Dravynea"
+  },
+  {
+    "original": "Jonna",
+    "string": "Jonna",
+    "status": "TranslationComplete",
+    "form_id": "000135ED|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Jonna"
+  },
+  {
+    "original": "Tekla",
+    "string": "Tekla",
+    "status": "TranslationComplete",
+    "form_id": "00013656|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Tekla"
+  },
+  {
+    "original": "Margret",
+    "string": "Margret",
+    "status": "TranslationComplete",
+    "form_id": "0009C8A8|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS01Margret"
+  },
+  {
+    "original": "Uaile",
+    "string": "Uaile",
+    "status": "TranslationComplete",
+    "form_id": "000133BC|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Uaile"
+  },
+  {
+    "original": "Greta",
+    "string": "Greta",
+    "status": "TranslationComplete",
+    "form_id": "00013283|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Greta"
+  },
+  {
+    "original": "Hamal",
+    "string": "Hamal",
+    "status": "TranslationComplete",
+    "form_id": "0001E765|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Hamal"
+  },
+  {
+    "original": "Seren",
+    "string": "Seren",
+    "status": "TranslationComplete",
+    "form_id": "0001361F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Seren"
+  },
+  {
+    "original": "Gemma Uriel",
+    "string": "Gemma Uriel",
+    "status": "TranslationComplete",
+    "form_id": "00014040|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "GemmaUriel"
+  },
+  {
+    "original": "Hefid the Deaf",
+    "string": "Hefid la Sourde",
+    "status": "TranslationComplete",
+    "form_id": "0009400E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Hefid"
+  },
+  {
+    "original": "Delphine",
+    "string": "Delphine",
+    "status": "TranslationComplete",
+    "form_id": "00013478|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Delphine"
+  },
+  {
+    "original": "Farmer",
+    "string": "Fermière",
+    "status": "TranslationComplete",
+    "form_id": "000D74F8|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "WhiterunTempleSicklyFarmer"
+  },
+  {
+    "original": "Silda",
+    "string": "Silda",
+    "status": "TranslationComplete",
+    "form_id": "00014121|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Silda"
+  },
+  {
+    "original": "Sudi",
+    "string": "Sudi",
+    "status": "TranslationComplete",
+    "form_id": "0004815F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunFrostflowAbyssSudi"
+  },
+  {
+    "original": "Sigrid",
+    "string": "Sigrid",
+    "status": "TranslationComplete",
+    "form_id": "00013476|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Sigrid"
+  },
+  {
+    "original": "Tova",
+    "string": "Tova",
+    "status": "TranslationComplete",
+    "form_id": "00014125|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Tova"
+  },
+  {
+    "original": "Annekke Crag-Jumper",
+    "string": "Annekke Saute-Roc",
+    "status": "TranslationComplete",
+    "form_id": "00013666|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Annekke"
+  },
+  {
+    "original": "Nana Ildene",
+    "string": "Nana Ildene",
+    "status": "TranslationComplete",
+    "form_id": "000133A0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ildene"
+  },
+  {
+    "original": "Uthgerd the Unbroken",
+    "string": "Uthgerd l'Inflexible",
+    "status": "TranslationComplete",
+    "form_id": "000918E2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Uthgerd"
+  },
+  {
+    "original": "Senna",
+    "string": "Senna",
+    "status": "TranslationComplete",
+    "form_id": "000133B7|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Senna"
+  },
+  {
+    "original": "Idesa Sadri",
+    "string": "Idesa Sadri",
+    "status": "TranslationComplete",
+    "form_id": "0001411B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "IdesaSadri"
+  },
+  {
+    "original": "Iona",
+    "string": "Iona",
+    "status": "TranslationComplete",
+    "form_id": "000A2C91|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "HousecarlRiften"
+  },
+  {
+    "original": "Inge",
+    "string": "Inge",
+    "status": "TranslationComplete",
+    "form_id": "0001328A|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "IngeSixFingers"
+  },
+  {
+    "original": "Legate Rikke",
+    "string": "Légat Rikke",
+    "status": "TranslationComplete",
+    "form_id": "000132A1|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Rikke"
+  },
+  {
+    "original": "Karliah",
+    "string": "Karliah",
+    "status": "TranslationComplete",
+    "form_id": "0001B07F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Karliah"
+  },
+  {
+    "original": "Rhiada",
+    "string": "Rhiada",
+    "status": "TranslationComplete",
+    "form_id": "000133B4|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Rhiada"
+  },
+  {
+    "original": "Salonia Carvain",
+    "string": "Salonia Carvain",
+    "status": "TranslationComplete",
+    "form_id": "000C0401|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WEDL04SaloniaCarvain"
+  },
+  {
+    "original": "Aranea",
+    "string": "Aranea",
+    "status": "TranslationComplete",
+    "form_id": "00028AD0|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DA01Aranea"
+  },
+  {
+    "original": "Idgrod The Younger",
+    "string": "Idgrod la Jeune",
+    "status": "TranslationComplete",
+    "form_id": "000135EC|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "IdgrodTheYounger"
+  },
+  {
+    "original": "Nirya",
+    "string": "Nirya",
+    "status": "TranslationComplete",
+    "form_id": "0001C19B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nirya"
+  },
+  {
+    "original": "Gwendolyn",
+    "string": "Gwendolyn",
+    "status": "TranslationComplete",
+    "form_id": "0002C930|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gwendolyn"
+  },
+  {
+    "original": "Elda Early-Dawn",
+    "string": "Elda Primaube",
+    "status": "TranslationComplete",
+    "form_id": "0001412A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Elda"
+  },
+  {
+    "original": "Silana",
+    "string": "Silana",
+    "status": "TranslationComplete",
+    "form_id": "000132A5|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "SilanaPetreia"
+  },
+  {
+    "original": "Vigdis",
+    "string": "Vigdis",
+    "status": "TranslationComplete",
+    "form_id": "000133BF|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Vigdis"
+  },
+  {
+    "original": "Karita",
+    "string": "Karita",
+    "status": "TranslationComplete",
+    "form_id": "0001361A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Karita"
+  },
+  {
+    "original": "The Caller",
+    "string": "L'Invocatrice",
+    "status": "TranslationComplete",
+    "form_id": "0004D246|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MG03Caller"
+  },
+  {
+    "original": "Sonir",
+    "string": "Sonir",
+    "status": "TranslationComplete",
+    "form_id": "03019630|HearthFires.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BYOHHouse2Bard"
+  },
+  {
+    "original": "Tormir",
+    "string": "Tormir",
+    "status": "TranslationComplete",
+    "form_id": "0001403D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Tormir"
+  },
+  {
+    "original": "Olfina Gray-Mane",
+    "string": "Olfina Grisetoison",
+    "status": "TranslationComplete",
+    "form_id": "00013B9B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "OlfinaGrayMane"
+  },
+  {
+    "original": "Ahlam",
+    "string": "Ahlam",
+    "status": "TranslationComplete",
+    "form_id": "00013BBE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ahlam"
+  },
+  {
+    "original": "Idgrod Ravencrone",
+    "string": "Idgrod Ailedejais",
+    "status": "TranslationComplete",
+    "form_id": "000135EB|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "IdgrodRavencrone"
+  },
+  {
+    "original": "Legate Rikke",
+    "string": "Légat Rikke",
+    "status": "TranslationComplete",
+    "form_id": "000D0573|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "CWBattleRikke"
+  },
+  {
+    "original": "Suvaris Atheron",
+    "string": "Suvaris Athéron",
+    "status": "TranslationComplete",
+    "form_id": "00014122|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "SuvarisAtheron"
+  },
+  {
+    "original": "Constance Michel",
+    "string": "Constance Michel",
+    "status": "TranslationComplete",
+    "form_id": "00013350|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ConstanceMichel"
+  },
+  {
+    "original": "Fralia",
+    "string": "Fralia",
+    "status": "TranslationComplete",
+    "form_id": "00013B9C|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "FraliaGrayMane"
+  },
+  {
+    "original": "Sybille",
+    "string": "Sybille",
+    "status": "TranslationComplete",
+    "form_id": "000132AA|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "SybilleStentor"
+  },
+  {
+    "original": "Sabine Nytte",
+    "string": "Sabine Nytte",
+    "status": "TranslationComplete",
+    "form_id": "000132A3|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "SabineNytte"
+  },
+  {
+    "original": "Gormlaith Golden-Hilt",
+    "string": "Gormlaith Lame-Dorée",
+    "status": "TranslationComplete",
+    "form_id": "000CD9F7|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MQ206Gormlaith"
+  },
+  {
+    "original": "Ganna Uriel",
+    "string": "Ganna Uriel",
+    "status": "TranslationComplete",
+    "form_id": "0001365D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "GannaUriel"
+  },
+  {
+    "original": "Swanhvir",
+    "string": "Swanhvir",
+    "status": "TranslationComplete",
+    "form_id": "00013608|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Swanhvir"
+  },
+  {
+    "original": "Helgird ",
+    "string": "Helgird",
+    "status": "TranslationComplete",
+    "form_id": "00014124|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Helgird"
+  },
+  {
+    "original": "Madena",
+    "string": "Madena",
+    "status": "TranslationComplete",
+    "form_id": "0001361D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Madena"
+  },
+  {
+    "original": "Adelaisa Vendicci",
+    "string": "Adelaisa Vendicci",
+    "status": "TranslationComplete",
+    "form_id": "0001411D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Adelaisa"
+  },
+  {
+    "original": "Gianna",
+    "string": "Gianna",
+    "status": "TranslationComplete",
+    "form_id": "0004BCC3|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gianna"
+  },
+  {
+    "original": "Synda",
+    "string": "Synda",
+    "status": "TranslationComplete",
+    "form_id": "000BB2C0|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "SyndaLlanith"
+  },
+  {
+    "original": "Ria",
+    "string": "Ria",
+    "status": "TranslationComplete",
+    "form_id": "0001A6D7|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ria"
+  },
+  {
+    "original": "Susanna the Wicked",
+    "string": "Susanna la Fielleuse",
+    "status": "TranslationComplete",
+    "form_id": "0001412B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Susanna"
+  },
+  {
+    "original": "Brina",
+    "string": "Brina",
+    "status": "TranslationComplete",
+    "form_id": "0001A6B7|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "BrinaMerilis"
+  },
+  {
+    "original": "Sultry Maiden",
+    "string": "Femme séduisante",
+    "status": "TranslationComplete",
+    "form_id": "0009F83A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunBluePalaceMareMaiden"
+  },
+  {
+    "original": "Voada",
+    "string": "Voada",
+    "status": "TranslationComplete",
+    "form_id": "000133C0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Voada"
+  },
+  {
+    "original": "Matlara",
+    "string": "Matlara",
+    "status": "TranslationComplete",
+    "form_id": "00013640|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Matlara"
+  },
+  {
+    "original": "Maven Black-Briar",
+    "string": "Maven Roncenoir",
+    "status": "TranslationComplete",
+    "form_id": "0001336A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Maven"
+  },
+  {
+    "original": "Edith",
+    "string": "Edith",
+    "status": "TranslationComplete",
+    "form_id": "000877AF|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Edith"
+  },
+  {
+    "original": "Alea Quintus",
+    "string": "Alea Quintus",
+    "status": "TranslationComplete",
+    "form_id": "0002E3EF|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DB02Captive2"
+  },
+  {
+    "original": "Temba Wide-Arm",
+    "string": "Temba Grandbras",
+    "status": "TranslationComplete",
+    "form_id": "000658D2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "TembaWideArm"
+  },
+  {
+    "original": "Betrid",
+    "string": "Betrid",
+    "status": "TranslationComplete",
+    "form_id": "00013388|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Betrid"
+  },
+  {
+    "original": "Brelas",
+    "string": "Brelas",
+    "status": "TranslationComplete",
+    "form_id": "00069F38|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Brelas"
+  },
+  {
+    "original": "Carlotta Valentia",
+    "string": "Carlotta Valentia",
+    "status": "TranslationComplete",
+    "form_id": "00013B99|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "CarlottaValentia"
+  },
+  {
+    "original": "Frida",
+    "string": "Frida",
+    "status": "TranslationComplete",
+    "form_id": "00013614|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Frida"
+  },
+  {
+    "original": "Anuriel",
+    "string": "Anuriel",
+    "status": "TranslationComplete",
+    "form_id": "00013349|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Anuriel"
+  },
+  {
+    "original": "Valga",
+    "string": "Valga",
+    "status": "TranslationComplete",
+    "form_id": "00013655|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "ValgaVinicia"
+  },
+  {
+    "original": "Danica Pure-Spring",
+    "string": "Danica Pure-Source",
+    "status": "TranslationComplete",
+    "form_id": "00013BA5|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DanicaPureSpring"
+  },
+  {
+    "original": "Olava the Feeble",
+    "string": "Olava la Délicate",
+    "status": "TranslationComplete",
+    "form_id": "00013BAE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "OlavatheFeeble"
+  },
+  {
+    "original": "Nivenor",
+    "string": "Nivenor",
+    "status": "TranslationComplete",
+    "form_id": "0001336F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nivenor"
+  },
+  {
+    "original": "Elenwen",
+    "string": "Elenwen",
+    "status": "TranslationComplete",
+    "form_id": "00013269|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Elenwen"
+  },
+  {
+    "original": "Brelyna",
+    "string": "Brelyna",
+    "status": "TranslationComplete",
+    "form_id": "0001C196|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "BrelynaMaryon"
+  },
+  {
+    "original": "Sickly Farmer",
+    "string": "Fermière malade",
+    "status": "TranslationComplete",
+    "form_id": "000D74F8|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WhiterunTempleSicklyFarmer"
+  },
+  {
+    "original": "Alfhild",
+    "string": "Alfhild",
+    "status": "TranslationComplete",
+    "form_id": "00013BB0|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "AlfhildBattleBorn"
+  },
+  {
+    "original": "Una",
+    "string": "Una",
+    "status": "TranslationComplete",
+    "form_id": "000132AC|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Una"
+  },
+  {
+    "original": "Aeri",
+    "string": "Aeri",
+    "status": "TranslationComplete",
+    "form_id": "0001360B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Aeri"
+  },
+  {
+    "original": "Tova Shatter-Shield",
+    "string": "Tova Brise-Bouclier",
+    "status": "TranslationComplete",
+    "form_id": "00014125|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Tova"
+  },
+  {
+    "original": "Evette",
+    "string": "Evette",
+    "status": "TranslationComplete",
+    "form_id": "00013273|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "EvetteSan"
+  },
+  {
+    "original": "Aia Arria",
+    "string": "Aia Arria",
+    "status": "TranslationComplete",
+    "form_id": "0001325C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "AiaArria"
+  },
+  {
+    "original": "Irileth",
+    "string": "Irileth",
+    "status": "TranslationComplete",
+    "form_id": "00013BB8|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Irileth"
+  },
+  {
+    "original": "Illia",
+    "string": "Illia",
+    "status": "TranslationComplete",
+    "form_id": "00048C2F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunDarklightIllia"
+  },
+  {
+    "original": "Iona",
+    "string": "Iona",
+    "status": "TranslationComplete",
+    "form_id": "000A2C91|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HousecarlRiften"
+  },
+  {
+    "original": "Beitild",
+    "string": "Beitild",
+    "status": "TranslationComplete",
+    "form_id": "00013612|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Beitild"
+  },
+  {
+    "original": "Inge Six Fingers",
+    "string": "Inge Six-Doigts",
+    "status": "TranslationComplete",
+    "form_id": "0001328A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "IngeSixFingers"
+  },
+  {
+    "original": "Asta",
+    "string": "Asta",
+    "status": "TranslationComplete",
+    "form_id": "00015D2B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunEldergleamPilgrimNordF"
+  },
+  {
+    "original": "Eris",
+    "string": "Eris",
+    "status": "TranslationComplete",
+    "form_id": "000AF522|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "SailorEris"
+  },
+  {
+    "original": "Vittoria",
+    "string": "Vittoria",
+    "status": "TranslationComplete",
+    "form_id": "0001327A|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "VittoriaVici"
+  },
+  {
+    "original": "Tova",
+    "string": "Tova",
+    "status": "TranslationComplete",
+    "form_id": "000D2B16|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "TovaDead"
+  },
+  {
+    "original": "Sorli the Builder",
+    "string": "Sorli la Fondatrice",
+    "status": "TranslationComplete",
+    "form_id": "00013606|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Sorli"
+  },
+  {
+    "original": "Silana Petreia",
+    "string": "Silana Petreia",
+    "status": "TranslationComplete",
+    "form_id": "000132A5|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "SilanaPetreia"
+  },
+  {
+    "original": "Saadia",
+    "string": "Saadia",
+    "status": "TranslationComplete",
+    "form_id": "00013BA2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Saadia"
+  },
+  {
+    "original": "Grelod the Kind",
+    "string": "Grelod la Douce",
+    "status": "TranslationComplete",
+    "form_id": "0001335E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Grelod"
+  },
+  {
+    "original": "Aela",
+    "string": "Aela",
+    "status": "TranslationComplete",
+    "form_id": "0001A696|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "AelaTheHuntress"
+  },
+  {
+    "original": "Njada",
+    "string": "Njada",
+    "status": "TranslationComplete",
+    "form_id": "0001A6D9|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "NjadaStonearm"
+  },
+  {
+    "original": "Mirabelle Ervine",
+    "string": "Mirabelle Ervine",
+    "status": "TranslationComplete",
+    "form_id": "0001C1A0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MirabelleErvine"
+  },
+  {
+    "original": "Ramati",
+    "string": "Ramati",
+    "status": "TranslationComplete",
+    "form_id": "0004815E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunFrostflowAbyssRamati"
+  },
+  {
+    "original": "Adrianne Avenicci",
+    "string": "Adrianne Avenicci",
+    "status": "TranslationComplete",
+    "form_id": "00013BB9|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "AdrianneAvenicci"
+  },
+  {
+    "original": "Hermir Strong-Heart",
+    "string": "Hermir Coeurfort",
+    "status": "TranslationComplete",
+    "form_id": "0001412D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Hermir"
+  },
+  {
+    "original": "Laila Law-Giver",
+    "string": "Laila Juste-Loi",
+    "status": "TranslationComplete",
+    "form_id": "00013366|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Laila"
+  },
+  {
+    "original": "Luaffyn",
+    "string": "Luaffyn",
+    "status": "TranslationComplete",
+    "form_id": "00047CAD|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Luaffyn"
+  },
+  {
+    "original": "Julienne",
+    "string": "Julienne",
+    "status": "TranslationComplete",
+    "form_id": "00026F0F|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "JulienneLylvieve"
+  },
+  {
+    "original": "Nilsine",
+    "string": "Nilsine",
+    "status": "TranslationComplete",
+    "form_id": "0001412C|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Nilsine"
+  },
+  {
+    "original": "Fianna",
+    "string": "Fianna",
+    "status": "TranslationComplete",
+    "form_id": "000D16DD|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Fianna"
+  },
+  {
+    "original": "Larina",
+    "string": "Larina",
+    "status": "TranslationComplete",
+    "form_id": "000DBD11|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunHobsFall_TreasCorpseCommonerImperialFemale"
+  },
+  {
+    "original": "Sayma",
+    "string": "Sayma",
+    "status": "TranslationComplete",
+    "form_id": "0001329A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Sayma"
+  },
+  {
+    "original": "Nenya",
+    "string": "Nenya",
+    "status": "TranslationComplete",
+    "form_id": "00013659|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nenya"
+  },
+  {
+    "original": "Gerdur",
+    "string": "Gerdur",
+    "status": "TranslationComplete",
+    "form_id": "0001347C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gerdur"
+  },
+  {
+    "original": "Gerda",
+    "string": "Gerda",
+    "status": "TranslationComplete",
+    "form_id": "000C247E|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Gerda"
+  },
+  {
+    "original": "Sybille Stentor",
+    "string": "Sybille Stentor",
+    "status": "TranslationComplete",
+    "form_id": "000132AA|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "SybilleStentor"
+  },
+  {
+    "original": "Saffir",
+    "string": "Saffir",
+    "status": "TranslationComplete",
+    "form_id": "00013B98|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Saffir"
+  },
+  {
+    "original": "Umana",
+    "string": "Umana",
+    "status": "TranslationComplete",
+    "form_id": "0003B0E3|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunAlftandUmana"
+  },
+  {
+    "original": "Silvia",
+    "string": "Silvia",
+    "status": "TranslationComplete",
+    "form_id": "0004B0AE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunDarklightSilvia"
+  },
+  {
+    "original": "Jala",
+    "string": "Jala",
+    "status": "TranslationComplete",
+    "form_id": "0001328C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Jala"
+  },
+  {
+    "original": "Curwe",
+    "string": "Curwe",
+    "status": "TranslationComplete",
+    "form_id": "0001A6B3|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Curwe"
+  },
+  {
+    "original": "Michel",
+    "string": "Michelle",
+    "status": "TranslationComplete",
+    "form_id": "00019A2E|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "MichelLylvieve"
+  },
+  {
+    "original": "Nimphaneth",
+    "string": "Nimphaneth",
+    "status": "TranslationComplete",
+    "form_id": "0009BB45|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DA11Nimphaneth"
+  },
+  {
+    "original": "Tonilia",
+    "string": "Tonilia",
+    "status": "TranslationComplete",
+    "form_id": "000B8827|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Tonilia"
+  },
+  {
+    "original": "Agnis",
+    "string": "Agnis",
+    "status": "TranslationComplete",
+    "form_id": "00020044|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Agnis"
+  },
+  {
+    "original": "Medresi Dran",
+    "string": "Medresi Dran",
+    "status": "TranslationComplete",
+    "form_id": "0003B5B2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunAngarvundeMedresiDran"
+  },
+  {
+    "original": "Jordis the Sword-Maiden",
+    "string": "Jordis la Guerrière",
+    "status": "TranslationComplete",
+    "form_id": "000A2C8F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HousecarlSolitude"
+  },
+  {
+    "original": "Indara",
+    "string": "Indara",
+    "status": "TranslationComplete",
+    "form_id": "0001364F|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "IndaraCaerellia"
+  },
+  {
+    "original": "Vivienne Onis",
+    "string": "Vivienne Onis",
+    "status": "TranslationComplete",
+    "form_id": "000132AE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "VivienneOnis"
+  },
+  {
+    "original": "Lu'ah",
+    "string": "Lu'ah",
+    "status": "TranslationComplete",
+    "form_id": "0002333A|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "dunAnsilvundLuahAlSkaven"
+  },
+  {
+    "original": "Bandit Leader",
+    "string": "Meneur bandit",
+    "status": "TranslationComplete",
+    "form_id": "00090739|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunMistwatchFjola"
+  },
+  {
+    "original": "Elisif the Fair",
+    "string": "Élisif la Juste",
+    "status": "TranslationComplete",
+    "form_id": "0001326A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ElisifTheFair"
+  },
+  {
+    "original": "Angeline",
+    "string": "Angeline",
+    "status": "TranslationComplete",
+    "form_id": "00013260|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "AngelineMorrard"
+  },
+  {
+    "original": "Alva",
+    "string": "Alva",
+    "status": "TranslationComplete",
+    "form_id": "000135E6|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Alva"
+  },
+  {
+    "original": "Pantea Ateia",
+    "string": "Pantea Ateia",
+    "status": "TranslationComplete",
+    "form_id": "0001329F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "PanteaAteia"
+  },
+  {
+    "original": "Gilfre",
+    "string": "Gilfre",
+    "status": "TranslationComplete",
+    "form_id": "0001367A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gilfre"
+  },
+  {
+    "original": "Bergritte Battle-Born",
+    "string": "Bergritte Guerrier-Né",
+    "status": "TranslationComplete",
+    "form_id": "00013BB3|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BergritteBattleBorn"
+  },
+  {
+    "original": "Jora",
+    "string": "Jora",
+    "status": "TranslationComplete",
+    "form_id": "00014120|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Jora"
+  },
+  {
+    "original": "Betrid Silver-Blood",
+    "string": "Betrid Sang-d'Argent",
+    "status": "TranslationComplete",
+    "form_id": "00013388|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Betrid"
+  },
+  {
+    "original": "Olda",
+    "string": "Olda",
+    "status": "TranslationComplete",
+    "form_id": "00019A20|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Olda"
+  },
+  {
+    "original": "Vex",
+    "string": "Vex",
+    "status": "TranslationComplete",
+    "form_id": "0001CD90|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Vex"
+  },
+  {
+    "original": "Jenassa",
+    "string": "Jenassa",
+    "status": "TranslationComplete",
+    "form_id": "000B9982|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HirelingJenassa"
+  },
+  {
+    "original": "Karita",
+    "string": "Karita",
+    "status": "TranslationComplete",
+    "form_id": "000BC07C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HHPilgrim02"
+  },
+  {
+    "original": "Daighre",
+    "string": "Daighre",
+    "status": "TranslationComplete",
+    "form_id": "00013391|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Daighre"
+  },
+  {
+    "original": "Madwoman",
+    "string": "Folle",
+    "status": "TranslationComplete",
+    "form_id": "000BA1E5|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WEDL07Madwoman"
+  },
+  {
+    "original": "Breya",
+    "string": "Breya",
+    "status": "TranslationComplete",
+    "form_id": "0004C724|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Breya"
+  },
+  {
+    "original": "Bryling",
+    "string": "Bryling",
+    "status": "TranslationComplete",
+    "form_id": "00013265|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Bryling"
+  },
+  {
+    "original": "Safia",
+    "string": "Safia",
+    "status": "TranslationComplete",
+    "form_id": "00013267|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Safia"
+  },
+  {
+    "original": "Curwe",
+    "string": "Curwe",
+    "status": "TranslationComplete",
+    "form_id": "0007F42A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "CurweDead"
+  },
+  {
+    "original": "Anwen",
+    "string": "Anwen",
+    "status": "TranslationComplete",
+    "form_id": "00013386|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Anwen"
+  },
+  {
+    "original": "Hilde",
+    "string": "Hilde",
+    "status": "TranslationComplete",
+    "form_id": "00035533|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Hilde"
+  },
+  {
+    "original": "Eisa Blackthorn",
+    "string": "Eisa Noirépine",
+    "status": "TranslationComplete",
+    "form_id": "000D001A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunFrostmereCryptEisa"
+  },
+  {
+    "original": "Carcette",
+    "string": "Carcette",
+    "status": "TranslationComplete",
+    "form_id": "000BFB55|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "VigilantCarcette"
+  },
+  {
+    "original": "Bjartur",
+    "string": "Bjartur",
+    "status": "TranslationComplete",
+    "form_id": "00013262|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Bjartur"
+  },
+  {
+    "original": "Arivanya",
+    "string": "Arivanya",
+    "status": "TranslationComplete",
+    "form_id": "00014127|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Arivanya"
+  },
+  {
+    "original": "Dinya Balu",
+    "string": "Dinya Balu",
+    "status": "TranslationComplete",
+    "form_id": "00013352|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Dinya"
+  },
+  {
+    "original": "Gormlaith Golden-Hilt",
+    "string": "Gormlaith Lame-Dorée",
+    "status": "TranslationComplete",
+    "form_id": "00044236|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "GormlaithGoldenHilt"
+  },
+  {
+    "original": "Birna",
+    "string": "Birna",
+    "status": "TranslationComplete",
+    "form_id": "0001C187|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Birna"
+  },
+  {
+    "original": "Thaena",
+    "string": "Thaena",
+    "status": "TranslationComplete",
+    "form_id": "0001C189|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Thaena"
+  },
+  {
+    "original": "Alfhild Battle-Born",
+    "string": "Alfhild Guerrier-Né",
+    "status": "TranslationComplete",
+    "form_id": "00013BB0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "AlfhildBattleBorn"
+  },
+  {
+    "original": "Adisla",
+    "string": "Adisla",
+    "status": "TranslationComplete",
+    "form_id": "0001411E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Adisla"
+  },
+  {
+    "original": "Gemma",
+    "string": "Gemma",
+    "status": "TranslationComplete",
+    "form_id": "00014040|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "GemmaUriel"
+  },
+  {
+    "original": "Avrusa Sarethi",
+    "string": "Avrusa Saréthi",
+    "status": "TranslationComplete",
+    "form_id": "00019BFE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "AvrusaSarethi"
+  },
+  {
+    "original": "Marise Aravel",
+    "string": "Marise Aravel",
+    "status": "TranslationComplete",
+    "form_id": "00013369|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Marise"
+  },
+  {
+    "original": "Silda the Unseen",
+    "string": "Silda l'Invisible",
+    "status": "TranslationComplete",
+    "form_id": "00014121|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Silda"
+  },
+  {
+    "original": "Mjoll the Lioness",
+    "string": "Mjoll la Lionne",
+    "status": "TranslationComplete",
+    "form_id": "0001336B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Mjoll"
+  },
+  {
+    "original": "Tova Shatter-Shield",
+    "string": "Tova Brise-Bouclier",
+    "status": "TranslationComplete",
+    "form_id": "000D2B16|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "TovaDead"
+  },
+  {
+    "original": "Kerah",
+    "string": "Kerah",
+    "status": "TranslationComplete",
+    "form_id": "000133A2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Kerah"
+  },
+  {
+    "original": "Mena",
+    "string": "Mena",
+    "status": "TranslationComplete",
+    "form_id": "00013B6D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Mena"
+  },
+  {
+    "original": "Galathil",
+    "string": "Galathil",
+    "status": "TranslationComplete",
+    "form_id": "02006978|Dawnguard.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC1Surgeon"
+  },
+  {
+    "original": "Annekke",
+    "string": "Annekke",
+    "status": "TranslationComplete",
+    "form_id": "00013666|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Annekke"
+  },
+  {
+    "original": "Ildene",
+    "string": "Ildene",
+    "status": "TranslationComplete",
+    "form_id": "000133A0|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Ildene"
+  },
+  {
+    "original": "Agna",
+    "string": "Agna",
+    "status": "TranslationComplete",
+    "form_id": "000A9599|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Agna"
+  },
+  {
+    "original": "Orla",
+    "string": "Orla",
+    "status": "TranslationComplete",
+    "form_id": "000133B0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Orla"
+  },
+  {
+    "original": "Tilma",
+    "string": "Tilma",
+    "status": "TranslationComplete",
+    "form_id": "00013BB6|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Tilma"
+  },
+  {
+    "original": "Haran",
+    "string": "Haran",
+    "status": "TranslationComplete",
+    "form_id": "0001C184|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Haran"
+  },
+  {
+    "original": "Luaffyn",
+    "string": "Luaffyn",
+    "status": "TranslationComplete",
+    "form_id": "00047CAD|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Luaffyn"
+  },
+  {
+    "original": "Aranea Ienith",
+    "string": "Aranea Ienith",
+    "status": "TranslationComplete",
+    "form_id": "00028AD0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DA01Aranea"
+  },
+  {
+    "original": "Niluva Hlaalu",
+    "string": "Niluva Hlaalu",
+    "status": "TranslationComplete",
+    "form_id": "0001336E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Niluva"
+  },
+  {
+    "original": "Julienne Lylvieve",
+    "string": "Julienne Lylvieve",
+    "status": "TranslationComplete",
+    "form_id": "00026F0F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "JulienneLylvieve"
+  },
+  {
+    "original": "Lisbet",
+    "string": "Lisbet",
+    "status": "TranslationComplete",
+    "form_id": "000133A5|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Lisbet"
+  },
+  {
+    "original": "Salonia",
+    "string": "Salonia",
+    "status": "TranslationComplete",
+    "form_id": "000B8149|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "WEDL03SaloniaCarvain"
+  },
+  {
+    "original": "Salonia",
+    "string": "Salonia",
+    "status": "TranslationComplete",
+    "form_id": "000C0401|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "WEDL04SaloniaCarvain"
+  },
+  {
+    "original": "Eola",
+    "string": "Eola",
+    "status": "TranslationComplete",
+    "form_id": "0001990F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Eola"
+  },
+  {
+    "original": "Vigdis Salvius",
+    "string": "Vigdis Salvius",
+    "status": "TranslationComplete",
+    "form_id": "000133BF|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Vigdis"
+  },
+  {
+    "original": "Selveni Nethri",
+    "string": "Selveni Nethri",
+    "status": "TranslationComplete",
+    "form_id": "0003A745|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunSouthfringeSelveniNethri"
+  },
+  {
+    "original": "Sapphire",
+    "string": "Saphir",
+    "status": "TranslationComplete",
+    "form_id": "000C19A3|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Sapphire"
+  },
+  {
+    "original": "Katla",
+    "string": "Katla",
+    "status": "TranslationComplete",
+    "form_id": "00013290|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Katla"
+  },
+  {
+    "original": "Drifa",
+    "string": "Drifa",
+    "status": "TranslationComplete",
+    "form_id": "00013354|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Drifa"
+  },
+  {
+    "original": "Ysolda",
+    "string": "Ysolda",
+    "status": "TranslationComplete",
+    "form_id": "00013BAB|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ysolda"
+  },
+  {
+    "original": "Faida",
+    "string": "Faida",
+    "status": "TranslationComplete",
+    "form_id": "00019A28|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Faida"
+  },
+  {
+    "original": "Olfina",
+    "string": "Olfina",
+    "status": "TranslationComplete",
+    "form_id": "00013B9B|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "OlfinaGrayMane"
+  },
+  {
+    "original": "Michel Lylvieve",
+    "string": "Michelle Lylvieve",
+    "status": "TranslationComplete",
+    "form_id": "00019A2E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MichelLylvieve"
+  },
+  {
+    "original": "Fralia Gray-Mane",
+    "string": "Fralia Grisetoison",
+    "status": "TranslationComplete",
+    "form_id": "00013B9C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "FraliaGrayMane"
+  },
+  {
+    "original": "Isabelle Rolaine",
+    "string": "Isabelle Rolaine",
+    "status": "TranslationComplete",
+    "form_id": "00039840|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "IsabelleRolaine"
+  },
+  {
+    "original": "Alexia Vici",
+    "string": "Alexia Vici",
+    "status": "TranslationComplete",
+    "form_id": "00060B29|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "AlexiaVici"
+  },
+  {
+    "original": "Idgrod",
+    "string": "Idgrod",
+    "status": "TranslationComplete",
+    "form_id": "000135EB|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "IdgrodRavencrone"
+  },
+  {
+    "original": "Taarie",
+    "string": "Taarië",
+    "status": "TranslationComplete",
+    "form_id": "000132AB|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Taarie"
+  },
+  {
+    "original": "Hafjorg",
+    "string": "Hafjorg",
+    "status": "TranslationComplete",
+    "form_id": "00013360|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Hafjorg"
+  },
+  {
+    "original": "Indara Caerellia",
+    "string": "Indara Caerellia",
+    "status": "TranslationComplete",
+    "form_id": "0001364F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "IndaraCaerellia"
+  },
+  {
+    "original": "Zaria",
+    "string": "Zaria",
+    "status": "TranslationComplete",
+    "form_id": "0003A19A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Zaria"
+  },
+  {
+    "original": "Muiri",
+    "string": "Muiri",
+    "status": "TranslationComplete",
+    "form_id": "0001406B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Muiri"
+  },
+  {
+    "original": "Lu'ah Al-Skaven",
+    "string": "Lu'ah Al-Skaven",
+    "status": "TranslationComplete",
+    "form_id": "0002333A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunAnsilvundLuahAlSkaven"
+  },
+  {
+    "original": "Viola",
+    "string": "Viola",
+    "status": "TranslationComplete",
+    "form_id": "00014129|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "ViolaGiordano"
+  },
+  {
+    "original": "Sosia",
+    "string": "Sosia",
+    "status": "TranslationComplete",
+    "form_id": "000133B9|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Sosia"
+  },
+  {
+    "original": "Bothela",
+    "string": "Bothela",
+    "status": "TranslationComplete",
+    "form_id": "0001338B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Bothela"
+  },
+  {
+    "original": "Synda Llanith",
+    "string": "Synda Llanith",
+    "status": "TranslationComplete",
+    "form_id": "000BB2C0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "SyndaLlanith"
+  },
+  {
+    "original": "Jora",
+    "string": "Jora",
+    "status": "TranslationComplete",
+    "form_id": "00014120|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Jora"
+  },
+  {
+    "original": "Wylandriah",
+    "string": "Wylandriah",
+    "status": "TranslationComplete",
+    "form_id": "00019DEF|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Wylandriah"
+  },
+  {
+    "original": "Gormlaith",
+    "string": "Gormlaith",
+    "status": "TranslationComplete",
+    "form_id": "000CD9F7|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "MQ206Gormlaith"
+  },
+  {
+    "original": "Brina Merilis",
+    "string": "Brina Merilis",
+    "status": "TranslationComplete",
+    "form_id": "0001A6B7|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BrinaMerilis"
+  },
+  {
+    "original": "Susanna",
+    "string": "Susanna",
+    "status": "TranslationComplete",
+    "form_id": "0001412B|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Susanna"
+  },
+  {
+    "original": "Ruki",
+    "string": "Ruki",
+    "status": "TranslationComplete",
+    "form_id": "00038289|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "T02Ruki"
+  },
+  {
+    "original": "Maven",
+    "string": "Maven",
+    "status": "TranslationComplete",
+    "form_id": "0001336A|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Maven"
+  },
+  {
+    "original": "Lillith Maiden-Loom",
+    "string": "Lillith Tisse-Reine",
+    "status": "TranslationComplete",
+    "form_id": "00013BC0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "LillithMaidenLoom"
+  },
+  {
+    "original": "Reldith",
+    "string": "Reldith",
+    "status": "TranslationComplete",
+    "form_id": "000136B4|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Reldith"
+  },
+  {
+    "original": "Breya",
+    "string": "Breya",
+    "status": "TranslationComplete",
+    "form_id": "0004C754|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BreyaCorpse"
+  },
+  {
+    "original": "Rayya",
+    "string": "Rayya",
+    "status": "TranslationComplete",
+    "form_id": "03005215|HearthFires.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "BYOHHousecarlFalkreath"
+  },
+  {
+    "original": "Voldsea Giryon",
+    "string": "Voldsea Giryon",
+    "status": "TranslationComplete",
+    "form_id": "0001411C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "VoldseaGiryon"
+  },
+  {
+    "original": "Lisette",
+    "string": "Lisette",
+    "status": "TranslationComplete",
+    "form_id": "00013297|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Lisette"
+  },
+  {
+    "original": "Colette",
+    "string": "Colette",
+    "status": "TranslationComplete",
+    "form_id": "0001C19A|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "ColetteMarence"
+  },
+  {
+    "original": "Fridrika",
+    "string": "Fridrika",
+    "status": "TranslationComplete",
+    "form_id": "00013278|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Fridrika"
+  },
+  {
+    "original": "Alessandra",
+    "string": "Alessandra",
+    "status": "TranslationComplete",
+    "form_id": "00013347|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Alessandra"
+  },
+  {
+    "original": "Valga Vinicia",
+    "string": "Valga Vinicia",
+    "status": "TranslationComplete",
+    "form_id": "00013655|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ValgaVinicia"
+  },
+  {
+    "original": "Freir",
+    "string": "Freir",
+    "status": "TranslationComplete",
+    "form_id": "00013277|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Freir"
+  },
+  {
+    "original": "Boti",
+    "string": "Boti",
+    "status": "TranslationComplete",
+    "form_id": "000136BE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Boti"
+  },
+  {
+    "original": "Carlotta",
+    "string": "Carlotta",
+    "status": "TranslationComplete",
+    "form_id": "00013B99|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "CarlottaValentia"
+  },
+  {
+    "original": "Fjori",
+    "string": "Fjori",
+    "status": "TranslationComplete",
+    "form_id": "0003D725|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunAnsilvundFemaleGhost"
+  },
+  {
+    "original": "Danica",
+    "string": "Danica",
+    "status": "TranslationComplete",
+    "form_id": "00013BA5|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DanicaPureSpring"
+  },
+  {
+    "original": "Dravynea",
+    "string": "Dravynea",
+    "status": "TranslationComplete",
+    "form_id": "0001365F|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Dravynea"
+  },
+  {
+    "original": "Brelyna Maryon",
+    "string": "Brelyna Maryon",
+    "status": "TranslationComplete",
+    "form_id": "0001C196|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BrelynaMaryon"
+  },
+  {
+    "original": "Eydis",
+    "string": "Eydis",
+    "status": "TranslationComplete",
+    "form_id": "00013B77|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Eydis"
+  },
+  {
+    "original": "Irgnir",
+    "string": "Irgnir",
+    "status": "TranslationComplete",
+    "form_id": "00013617|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Irgnir"
+  },
+  {
+    "original": "Frabbi",
+    "string": "Frabbi",
+    "status": "TranslationComplete",
+    "form_id": "00013398|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Frabbi"
+  },
+  {
+    "original": "Bodil",
+    "string": "Bodil",
+    "status": "TranslationComplete",
+    "form_id": "000876DC|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Bodil"
+  },
+  {
+    "original": "Evette San",
+    "string": "Evette San",
+    "status": "TranslationComplete",
+    "form_id": "00013273|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EvetteSan"
+  },
+  {
+    "original": "Fruki",
+    "string": "Fruki",
+    "status": "TranslationComplete",
+    "form_id": "00013615|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Fruki"
+  },
+  {
+    "original": "Nocturnal",
+    "string": "Nocturne",
+    "status": "TranslationComplete",
+    "form_id": "0001A2CF|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nocturnal"
+  },
+  {
+    "original": "Aia",
+    "string": "Aia",
+    "status": "TranslationComplete",
+    "form_id": "0001325C|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "AiaArria"
+  },
+  {
+    "original": "Endarie",
+    "string": "Endarië",
+    "status": "TranslationComplete",
+    "form_id": "0001326F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Endarie"
+  },
+  {
+    "original": "Ingun Black-Briar",
+    "string": "Ingun Roncenoir",
+    "status": "TranslationComplete",
+    "form_id": "00013364|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ingun"
+  },
+  {
+    "original": "Gisli",
+    "string": "Gisli",
+    "status": "TranslationComplete",
+    "form_id": "00013282|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gisli"
+  },
+  {
+    "original": "Hillevi Cruel-Sea",
+    "string": "Hillevi Cruellemer",
+    "status": "TranslationComplete",
+    "form_id": "0001411F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Hillevi"
+  },
+  {
+    "original": "Vittoria Vici",
+    "string": "Vittoria Vici",
+    "status": "TranslationComplete",
+    "form_id": "0001327A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "VittoriaVici"
+  },
+  {
+    "original": "Tilma the Haggard",
+    "string": "Tilma la Sauvage",
+    "status": "TranslationComplete",
+    "form_id": "00013BB6|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Tilma"
+  },
+  {
+    "original": "Niranye",
+    "string": "Niranye",
+    "status": "TranslationComplete",
+    "form_id": "00014123|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Niranye"
+  },
+  {
+    "original": "Hroki",
+    "string": "Hroki",
+    "status": "TranslationComplete",
+    "form_id": "0001339E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Hroki"
+  },
+  {
+    "original": "Edda",
+    "string": "Edda",
+    "status": "TranslationComplete",
+    "form_id": "00013356|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Edda"
+  },
+  {
+    "original": "Camilla Valerius",
+    "string": "Camilla Valerius",
+    "status": "TranslationComplete",
+    "form_id": "0001347B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "CamillaValerius"
+  },
+  {
+    "original": "Grelka",
+    "string": "Grelka",
+    "status": "TranslationComplete",
+    "form_id": "000136C5|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Grelka"
+  },
+  {
+    "original": "Haelga",
+    "string": "Haelga",
+    "status": "TranslationComplete",
+    "form_id": "0001335F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Haelga"
+  },
+  {
+    "original": "Lydia",
+    "string": "Lydia",
+    "status": "TranslationComplete",
+    "form_id": "000A2C8E|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "HousecarlWhiterun"
+  },
+  {
+    "original": "Eris",
+    "string": "Eris",
+    "status": "TranslationComplete",
+    "form_id": "000AF522|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "SailorEris"
+  },
+  {
+    "original": "Salonia Carvain",
+    "string": "Salonia Carvain",
+    "status": "TranslationComplete",
+    "form_id": "000B8149|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WEDL03SaloniaCarvain"
+  },
+  {
+    "original": "Aela the Huntress",
+    "string": "Aela la Chasseuse",
+    "status": "TranslationComplete",
+    "form_id": "0001A696|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "AelaTheHuntress"
+  },
+  {
+    "original": "Lydia",
+    "string": "Lydia",
+    "status": "TranslationComplete",
+    "form_id": "000A2C8E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HousecarlWhiterun"
+  },
+  {
+    "original": "Fastred",
+    "string": "Rougevite",
+    "status": "TranslationComplete",
+    "form_id": "000136BF|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Fastred"
+  },
+  {
+    "original": "Njada Stonearm",
+    "string": "Njada Bras-de-Pierre",
+    "status": "TranslationComplete",
+    "form_id": "0001A6D9|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "NjadaStonearm"
+  },
+  {
+    "original": "Sorli",
+    "string": "Sorli",
+    "status": "TranslationComplete",
+    "form_id": "00013606|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Sorli"
+  },
+  {
+    "original": "Mirabelle ",
+    "string": "Mirabelle",
+    "status": "TranslationComplete",
+    "form_id": "0001C1A0|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "MirabelleErvine"
+  },
+  {
+    "original": "Narri",
+    "string": "Narri",
+    "status": "TranslationComplete",
+    "form_id": "00013654|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Narri"
+  },
+  {
+    "original": "Erdi",
+    "string": "Erdi",
+    "status": "TranslationComplete",
+    "form_id": "00013271|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Erdi"
+  },
+  {
+    "original": "Nura Snow-Shod",
+    "string": "Nora Chausseneige",
+    "status": "TranslationComplete",
+    "form_id": "00013372|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nura"
+  },
+  {
+    "original": "Nilsine Shatter-Shield",
+    "string": "Nilsine Brise-Bouclier",
+    "status": "TranslationComplete",
+    "form_id": "0001412C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nilsine"
+  },
+  {
+    "original": "Hermir",
+    "string": "Hermir",
+    "status": "TranslationComplete",
+    "form_id": "0001412D|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Hermir"
+  },
+  {
+    "original": "Fianna",
+    "string": "Fianna",
+    "status": "TranslationComplete",
+    "form_id": "000D16DD|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Fianna"
+  },
+  {
+    "original": "Idgrod",
+    "string": "Idgrod",
+    "status": "TranslationComplete",
+    "form_id": "000135EC|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "IdgrodTheYounger"
+  },
+  {
+    "original": "Nimriel",
+    "string": "Nimriel",
+    "status": "TranslationComplete",
+    "form_id": "0002C926|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nimriel"
+  },
+  {
+    "original": "Iddra",
+    "string": "Iddra",
+    "status": "TranslationComplete",
+    "form_id": "00013662|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Iddra"
+  },
+  {
+    "original": "Elda",
+    "string": "Elda",
+    "status": "TranslationComplete",
+    "form_id": "0001412A|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Elda"
+  },
+  {
+    "original": "Gerda",
+    "string": "Gerda",
+    "status": "TranslationComplete",
+    "form_id": "000C247E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gerda"
+  },
+  {
+    "original": "Cairine",
+    "string": "Cairine",
+    "status": "TranslationComplete",
+    "form_id": "000D66FE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Cairine"
+  },
+  {
+    "original": "Kaie",
+    "string": "Kaie",
+    "status": "TranslationComplete",
+    "form_id": "00054882|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MS02Kaie"
+  },
+  {
+    "original": "Salma",
+    "string": "Salma",
+    "status": "TranslationComplete",
+    "form_id": "0006CD5A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunIronbindSalma"
+  },
+  {
+    "original": "Viola Giordano",
+    "string": "Viola Giordano",
+    "status": "TranslationComplete",
+    "form_id": "00014129|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ViolaGiordano"
+  },
+  {
+    "original": "Sosia Tremellia",
+    "string": "Sosia Tremellia",
+    "status": "TranslationComplete",
+    "form_id": "000133B9|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Sosia"
+  },
+  {
+    "original": "Anise",
+    "string": "Anise",
+    "status": "TranslationComplete",
+    "form_id": "000DDF86|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunPOIWitchAnise"
+  },
+  {
+    "original": "Sylgja",
+    "string": "Sylgja",
+    "status": "TranslationComplete",
+    "form_id": "000C3A3F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Sylgja"
+  },
+  {
+    "original": "Oriella",
+    "string": "Oriella",
+    "status": "TranslationComplete",
+    "form_id": "03019631|HearthFires.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BYOHHouse3Bard"
+  },
+  {
+    "original": "Astrid",
+    "string": "Astrid",
+    "status": "TranslationComplete",
+    "form_id": "0001BDB4|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Astrid"
+  },
+  {
+    "original": "Ardwen",
+    "string": "Ardwen",
+    "status": "TranslationComplete",
+    "form_id": "000BED8A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WEJS13Ardwen"
+  },
+  {
+    "original": "Threki the Innocent",
+    "string": "Threki l'Innocente",
+    "status": "TranslationComplete",
+    "form_id": "00013367|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Threki"
+  },
+  {
+    "original": "Hulda",
+    "string": "Hulda",
+    "status": "TranslationComplete",
+    "form_id": "00013BA3|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Hulda"
+  }
+]

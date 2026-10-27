@@ -1,8 +1,8 @@
 # Plan d'Attaque Renforcé : Relecture Finale & Audit Qualité des Traductions
 
-> **Objectif :** Révision systématique et harmonisation définitive des traductions françaises du projet (**321 traductions locales pré-octobre 2026** + **contrôle de second niveau des mods déjà validés** + **passe de propagation cascade sur tous les patchs liés**).  
+> **Objectif :** Révision systématique et harmonisation définitive des traductions françaises du projet (**321 traductions locales pré-octobre 2026** + **audit exhaustif de TOUS les patchs créés localement** + **contrôle de second niveau des mods déjà validés** + **passe de propagation cascade sur tous les patchs liés**).  
 > **Norme absolue :** [Translations instructions.txt](file:///e:/Code/SSE%20Translator%20updated/Translations%20instructions.txt) & registre [TRADUCTIONS_VERIFIEES.md](file:///e:/Code/SSE%20Translator%20updated/TRADUCTIONS_VERIFIEES.md).  
-> **Priorités absolues :** Mismatches source/trad, élimination du mot-à-mot (traductions littérales), respect du lore officiel Bethesda, intégrité technique et **alignement cascade source $\rightarrow$ patchs**.
+> **Priorités absolues :** Mismatches source/trad, élimination du mot-à-mot (traductions littérales), intégrité des patchs locaux (les plus sujets aux erreurs), respect du lore officiel Bethesda et **alignement cascade source $\rightarrow$ patchs**.
 
 ---
 
@@ -14,7 +14,7 @@ flowchart TD
     Audit --> P2["2. Qualité du Français & Anti-Littéralisme"]
     Audit --> P3["3. Respect du Lore & Directives Bethesda"]
     Audit --> P4["4. Textes Anglais Fantômes"]
-    Audit --> P5["5. Bugs Techniques & Intégrité Moteur"]
+    Audit --> P5["5. Intégrité des Patchs Locaux & Conflits"]
     Audit --> P6["6. Propagation Cascade Source -> Patchs"]
 
     P1 --> P1a["Désynchronisation de version (mod MAJ, trad obsolète)"]
@@ -33,9 +33,9 @@ flowchart TD
     P4 --> P4a["Anglais intégral validé 'TranslationComplete'"]
     P4 --> P4b["Noms de métier / PNJs communs non traduits"]
 
-    P5 --> P5a["Variables cassées (&lt;mag&gt;, &lt;dur&gt;, %s, [pagebreak])"]
-    P5 --> P5b["Balises numériques corrompues (&lt;10&gt;, &lt;5&gt;)"]
-    P5 --> P5c["Balises HTML orphelines (&lt;font&gt;)"]
+    P5 --> P5a["Patchs Nolvus & custom (les plus sujets aux erreurs)"]
+    P5 --> P5b["Variables cassées (<mag>, <dur>, %s, [pagebreak])"]
+    P5 --> P5c["Balises corrompues (<10>, <5>) & écrasements d'arbres de perks"]
 
     P6 --> P6a["Éviter l'écrasement en jeu par ordre de chargement"]
     P6 --> P6b["Propagation automatique des noms et descriptions validés"]
@@ -44,13 +44,25 @@ flowchart TD
 
 ---
 
-## 🔄 2. Règle Fondamentale : Propagation Cascade Source $\rightarrow$ Patchs
+## ⚠️ 2. Pourquoi les Patchs Créés Localement Sont la Priorité n°1
 
-> [!IMPORTANT]
-> **Pourquoi cette passe est vitale :**  
-> Dans Skyrim, un patch de compatibilité se charge **après** le mod source dans le load order. Si un enregistrement (nom d'objet, description de sort, PNJ) a été corrigé et sublimé dans le mod source mais reste dans son ancienne version (ou en anglais) dans le patch de compatibilité, **le patch écrasera la correction en jeu**.
+Dans une liste de mods moderne (type Nolvus / modlist personnalisée) :
+1. **Derniers dans le Load Order :** Les patchs créés localement (équilibrages Nolvus, intégrations d'expérience, patch hubs, résolutions de conflits) se chargent **après** tous les mods maîtres. S'ils contiennent une ligne en anglais, une ancienne traduction non vérifiée ou une balise numérique tronquée, **ils écrasent immédiatement la traduction du mod maître en jeu**.
+2. **Sources locales non officielles :** Contrairement aux grands mods issus de la Confrérie des Traducteurs qui ont bénéficié de relectures communautaires, les patchs locaux proviennent souvent de scripts de merge automatiques, d'éditions SSEEdit rapides ou de fichiers générés où les textes anglais n'ont jamais été localisés proprement.
+3. **Mismatches de balance et de gameplay :** Les patchs locaux modifient souvent les valeurs d'équilibrage (`fDamageMult`, pourcentages de forge, temps de recharge) tout en conservant l'ancienne description française non mise à jour.
 
-### Mécanisme de la Passe Finale sur les Patchs :
+---
+
+## 🔄 3. Règle Fondamentale : Propagation Cascade Source $\rightarrow$ Patchs
+
+```mermaid
+flowchart LR
+    Source["Mod Source Validé (ex: Vokriinator, LOTD, Remiel)"] -->|Validation Terminologique| Engine["Moteur d'Audit Cascade"]
+    Engine -->|Injection Harmonisée| Patch1["Patch d'Intégration Nolvus"]
+    Engine -->|Injection Harmonisée| Patch2["Patch Hub (Lux / Interiors)"]
+    Engine -->|Injection Harmonisée| Patch3["Patch de Conflits / PNJs"]
+```
+
 1. **Cartographie des dépendances :** Associer chaque patch à son mod source parent (ex: `LOTD` $\rightarrow$ 30+ patchs d'affichage et de compatibilité ; `Vokriinator` $\rightarrow$ patchs ISC/Apocalypse/CACO ; `Wyrmstooth` $\rightarrow$ patchs UWR/Cause/Curios ; `New Armoury` $\rightarrow$ patchs d'animations/perks ; `Citizens of Tamriel` $\rightarrow$ 7 patchs d'intégration).
 2. **Contrôle croisé FormID & Texte original :** Comparer les chaînes partagées entre le mod source validé et le patch.
 3. **Propagation systématique des choix validés :** Réinjecter automatiquement la version française validée dans tous les patchs dépendants (zéro divergence terminologique).
@@ -58,43 +70,78 @@ flowchart TD
 
 ---
 
-## 🔍 3. Focus Détaillé sur les Autres Piliers
+## 🛠️ 4. Séquençage Opérationnel en 9 Phases Révisées
 
-### A. Mismatches Source et Traduction (Désynchronisations critiques)
-* **Désynchronisation de versions :** L'auteur du mod a changé l'effet d'un atout ou d'un sort dans une mise à jour, mais la traduction conservait l'ancien texte français.
-* **Mismatches conceptuels :** L'anglais décrit un effet (ex. *absorption de vigueur*, *lancer double*, *perforation d'armure*) et le français décrit un concept totalement différent (mauvais index / collision de FormID).
-* **Discordances numériques de balance :** Écarts de chiffres entre la source et la traduction (`+15 %` vs `+25 %`, durée de sort, coût en magie).
-* **Anomalies de volumétrie :** Ratios de longueur anormaux (texte source faisant 4 lignes et traduction réduite à un fragment).
-
-### B. Qualité du Français & Éradication des Traductions Littérales
-Conformément à la règle d'or : ***« Traduire le sens, le ton et la personnalité, jamais simplement les mots. »***
-* **Suppression des calques syntaxiques :** Bannir les constructions mot-à-mot lourdes (*"Fait que..."*, *"Permet de..."* à répétition, passifs artificiels, calques de structures anglo-saxonnes).
-* **Fluidité et naturel :** Le texte doit paraître avoir été écrit nativement en français, avec élégance et spontanéité.
-* **Respect strict des registres (Section 3 des instructions) :** Dialogues oraux vivants, journaux personnels intimes, récits immersifs, objectifs de quêtes directs.
-
-### C. Respect des Directives & Canonicité Bethesda
-* **Terminologie officielle obligatoire :** *Vigueur* (non endurance), *Magie* (non mana), *Mont Écarlate* (non Montagne rouge), *Septims*, *Receleur/Receleuse* (*Fence*), noms officiels de donjons, factions et créatures.
-* **Intégrité technique :** Préservation intégrale des variables (`<mag>`, `<dur>`, `%s`, `$Prompt`), de la pagination `[pagebreak]`, et fermeture des balises HTML `<font>`.
+| Phase | Intitulé & Objectif | Statut | Périmètre & Méthode |
+| :---: | :--- | :---: | :--- |
+| **Phase 0** | **Scan Automatisé Global Multi-Critères** | ✅ **TERMINÉ** | Détection en code sur toute la base (mismatches conceptuels, chiffres divergents, calques/faux-amis, restes d'anglais, variables cassées). |
+| **Phase 1** | **Systèmes d'Équilibrage Nolvus Awakening** | ✅ **TERMINÉ & VALIDÉ** | `Nolvus Awakening Armors/Weapons/Clothes/Spells/Vokriinator Black Balance Patches`. (5 plugins, 1 389 armures, 468 armes, 41 atouts corrigés, recap dans [`recap_modifications_phase1.md`](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase1.md)). |
+| **Phase 2** | **Audit Exhaustif de TOUS les Patchs Créés Localement & d'Intégration Nolvus** | ✅ **TERMINÉ & VALIDÉ** (2A, 2B, 2C, 2D & 2E validées) | **La phase la plus sensible.** Audit systématique de tous les patchs Nolvus Awakening restants, des patchs d'intégration créés sur mesure, des patch hubs et des résolutions de conflits (détaillée en sous-phases 2A à 2E ci-dessous). |
+| **Phase 3** | **Poids Lourds Narratifs & Dialogues (Mods Maîtres)** | ⏳ En attente | `Remiel - Dwemer Specialist` (9 651 chaînes), `Vigile 1.7.3` (7 502 chaînes), `Fanatical Enemies` (4 615 chaînes), `AkaviriFollower` (321 chaînes). Fluidité littéraire, oralité vivante, lore officiel. |
+| **Phase 4** | **Quêtes, Nouveaux Mondes & Legacy of the Dragonborn (LOTD)** | ⏳ En attente | `Legacy of the Dragonborn - Hall of Forgotten` (18 plugins, 1 740 chaînes), `DBM Unslaad Display Patch` (343 chaînes), `Follower Room Patches` (128 chaînes), `Hjertesten Hall` (1 810 chaînes), `EEKs Whiterun Interiors`, `Alternate Perspective`. Concordance exacte des artéfacts exposés. |
+| **Phase 5** | **Refontes de PNJs & Enfants (Sujettes aux écrasements de noms)** | ⏳ En attente | `Modpocalypse NPCs - All Vanilla + Addons` (1 916 chaînes), `True Sons of Skyrim Refined` (605 chaînes), `Pride of Skyrim All In One` (457 chaînes), `Children of the Pariah` (125 chaînes), `RS Children`. Rétablissement des titres français et noms propres vanilla. |
+| **Phase 6** | **Équipements, Armes & Armures Dérivées** | ⏳ En attente | `Dismembering Framework`, `Spear of Skyrim`, et les 91 packs d'armes/armures locaux (2 515 chaînes). Concordance des matériaux et tags d'enchantement. |
+| **Phase 7** | **Contrôle de 2nd Niveau des Mods Majeurs Déjà Validés** | ⏳ En attente | Audit de sécurité et de non-régression sur les 47 mods majeurs de [`TRADUCTIONS_VERIFIEES.md`](file:///e:/Code/SSE%20Translator%20updated/TRADUCTIONS_VERIFIEES.md) (Apocalypse, Vokriinator Black de base, CACO, Immersive Sounds, Wyrmstooth, Inigo, Auri...). |
+| **Phase 8** | **Passe Finale de Propagation Cascade Source $\rightarrow$ Patchs** | ⏳ En attente | **Alignement global définitif.** Comparaison automatique multi-plugins pour injecter toutes les corrections validées des mods maîtres dans l'ensemble des patchs dépendants du load order. |
 
 ---
 
-## 🛠️ 4. Séquençage Opérationnel en 7 Phases
+## 🔬 5. Détail Approfondi de la Phase 2 : Les Patchs Créés Localement
 
-| Phase | Intitulé & Objectif | Périmètre & Méthode |
-| :---: | :--- | :--- |
-| **Phase 0** | **Scan Automatisé Global Multi-Critères** | Détection en code sur toute la base (mismatches conceptuels, chiffres divergents, calques/faux-amis, restes d'anglais, variables cassées). |
-| **Phase 1** | **Priorité 1 — Systèmes Nolvus & Équilibrages** | `Nolvus Awakening Armors/Weapons/Clothes/Spells Balance Patches` (21 mods, 3 662 chaînes). Risque gameplay et chiffres maximal. |
-| **Phase 2** | **Priorité 2 — Gros Blocs Narratifs & Dialogues** | `Remiel` (9 651 chaînes), `Vigile` (7 502 chaînes), `Fanatical Enemies` (4 615 chaînes). Fluidité littéraire et oralité des dialogues. |
-| **Phase 3** | **Priorité 3 — Quêtes, Nouveaux Mondes & LOTD** | `Hall of Forgotten` (2 059 chaînes), `DBM Unslaad`, `EEKs Whiterun Interiors`, `Alternate Perspective`. Concordance des artéfacts exposés. |
-| **Phase 4** | **Priorité 4 — Refontes de PNJs & Enfants** | `Modpocalypse NPCs` (All Vanilla + Addons) et `RS Children` (28 mods, 2 933 chaînes). Traduction des titres et respect des noms propres. |
-| **Phase 5** | **Priorité 5 — Équipements, Armes & Micro-Patchs** | `Dismembering Framework`, `Spear of Skyrim`, et les 91 packs d'armes/armures + micro-patchs unitaires. |
-| **Phase 6** | **Contrôle de 2nd Niveau des Mods Validés** | Vérification finale sur les 47 mods majeurs de [TRADUCTIONS_VERIFIEES.md](file:///e:/Code/SSE%20Translator%20updated/TRADUCTIONS_VERIFIEES.md) (sécurité des marqueurs Vokriinator, interfaces MCM UTF-16 LE). |
-| **Phase 7** | **Passe Finale de Propagation Cascade Source $\rightarrow$ Patchs** | **Audit croisé exhaustif de tous les patchs de compatibilité.** Propagation automatique des corrections du mod source vers l'ensemble de ses patchs dépendants pour garantir un zéro écrasement en jeu. |
+Cette phase couvre la totalité des patchs locaux et customisés du projet, regroupés en **5 blocs homogènes** :
+
+### 🔹 Sous-phase 2A : Patchs Systémiques & Gameplay Nolvus Awakening (✅ VALIDÉE — recap_modifications_phase2a.md)
+* **Mods concernés :**
+  * `Nolvus Awakening Combat Scaling Overhaul - Prepare to Die` (Core, Consistency, Enemy level mult)
+  * `Nolvus Awakening AI Patch` (451 chaînes)
+  * `Nolvus Awakening Clothes Patch` (384 chaînes) & `Clothes Balance Patch` (262 chaînes)
+  * `Nolvus Awakening Gourmet Integration` (198 chaînes)
+  * `Nolvus Awakening Stances Perk System` (196 chaînes) & `Ashes of War Stance Framework` (117 chaînes)
+  * `Nolvus Awakening Seasonal Plant Mashup` (143 chaînes) & `Custom Outfits` (114 chaînes)
+  * `Nolvus Awakening Lighting Patch` (112 chaînes)
+  * `Nolvus - Northern Roads Grass Patches` (144 micro-plugins d'intégration de routes et d'herbes)
+* **Objectifs :** Éliminer l'anglais résiduel issu de Nolvus, vérifier la concordance des modificateurs de combat, des effets de posture (*Stances*) et de cuisine (*Gourmet*).
+
+### 🔹 Sous-phase 2B : Patchs d'Expérience, Quêtes & Mécaniques Locales (✅ VALIDÉE — recap_modifications_phase2b.md)
+* **Mods concernés :**
+  * `CCQuest - Experience Patch.esp` (1 594 chaînes — patch local crucial recalibrant l'XP des quêtes Creation Club)
+  * `Nolvus Awakening Experience Integration` (573 chaînes — Dawnfang, quêtes vanilla et d'addons)
+  * `Lucien - Creation Club Patch` (699 chaînes)
+  * `Vokrii - Apply Spell Conditions Fix.esp` (211 chaînes)
+  * `Wintersun - Description Fixes` (156 chaînes) & `Wintersun - Tribunal Integration` (106 chaînes)
+  * `Complete Crafting Overhaul Remastered - Immersive Sounds Patch` (137 chaînes)
+  * `Creation Club Crossbow Integration` (100 chaînes)
+  * `Navigator - Navmesh Fixes` (252 chaînes)
+  * `Eating Animations and Sounds - Patch Collection` (713 chaînes — Cheesemod, Dawn of Skyrim, Falskaar)
+* **Objectifs :** Corriger les intitulés de quêtes, les conditions magiques et s'assurer que les descriptions de religions et d'artisanat sont fluides et fidèles au jeu de base.
+
+### 🔹 Sous-phase 2C : Méta-Hubs de Patchs & Cohérence Monde / Éclairage (✅ VALIDÉE — recap_modifications_phase2c.md)
+* **Mods concernés :**
+  * `Lux - Patch Hub` (147 plugins, 923 chaînes) & `Lux Orbis - Patch Hub` (98 plugins, 115 chaînes)
+  * `JK's Interiors Patch Collection` (147 plugins, 154 chaînes) & `JKs Guild HQ Interiors Patch Collection` (73 plugins, 110 chaînes)
+  * `Water for ENB [4K]` (Patchs Falskaar, Beyond Reach, Beyond Skyrim, Wyrmstooth, Lux...)
+  * `Embers XD - French` (7 plugins)
+* **Objectifs :** Vérifier que les noms de cellules, portes, tavernes, boutiques et sources de lumière ne repassent pas en anglais à cause d'un override d'éclairage.
+
+### 🔹 Sous-phase 2D : Patchs de Conflits PNJs, Races & Apparences (✅ VALIDÉE — recap_modifications_phase2d.md)
+* **Mods concernés :**
+  * `Modpocalypse NPCs - Patch Collection` (13 plugins d'intégration de PNJs)
+  * `True Sons of Skyrim Refined - Nolvus Patch` (281 chaînes)
+  * `Fanatical Enemies - Patches` (Consistency, Modpocalypse, Dibella)
+  * `DIbella's Blessing - RSV Exclusion Patches` (305 chaînes)
+  * `AI Overhaul - Nithi NPC Enhancements Patch Hub` (204 chaînes)
+* **Objectifs :** Garantir que les noms de PNJs uniques et les titres de factions ne sont pas corrompus ou traduits de manière incohérente par les patchs d'apparence.
+
+### 🔹 Sous-phase 2E : Micro-Patchs de Compatibilité & Corrections Unitaires (✅ VALIDÉE — recap_modifications_phase2e.md)
+* **Mods concernés :**
+  * Les **109 dossiers de micro-patchs de compatibilité locaux** répertoriés dans la Catégorie 10 de [`listing_traductions_locales_non_verifiees.md`](file:///e:/Code/SSE%20Translator%20updated/listing_traductions_locales_non_verifiees.md) (110 fichiers, 3 348 chaînes).
+* **Objectifs :** Traitement systématique des petits patchs de compatibilité isolés (fixes de scripts, ajustements de caméras, petits ponts de compatibilité).
 
 ---
 
-## 📑 5. Protocole de Validation & Clôture
+## 📑 6. Protocole de Validation & Clôture par Phase
 
-1. **Rapport de propagation patchs validé :** Preuve que chaque patch lié reprend fidèlement la traduction officielle de son parent.
-2. **Rapport de contrôle final vierge** sur les variables, balises et balises orphelines.
-3. **Mise à jour intégrale de [TRADUCTIONS_VERIFIEES.md](file:///e:/Code/SSE%20Translator%20updated/TRADUCTIONS_VERIFIEES.md)** avec décompte exact des chaînes validées et signature finale du projet.
+1. **Génération d'un fichier récapitulatif `recap_modifications_phaseX.md`** avec tableau complet :
+   `FormID | Mod source | Texte original (EN) | Avant | Après | Nature du correctif`.
+2. **Contrôle d'intégrité automatisé :** 0 balise `<...>` corrompue, 0 balise HTML non fermée, 0 variable perdue (`<mag>`, `<dur>`, `%s`, `[pagebreak]`).
+3. **Mise à jour immédiate du registre [`TRADUCTIONS_VERIFIEES.md`](file:///e:/Code/SSE%20Translator%20updated/TRADUCTIONS_VERIFIEES.md)** avec le nombre exact de chaînes auditées et validées.

@@ -1,0 +1,929 @@
+{
+  "corrections_confirmees": [
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST FULL",
+      "index": null,
+      "source": "A Soul Divided",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Âme scindée",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 78,
+      "source": "Upon returning to the sword chamber, I found the shield surrounding the sword had altered its magical appearance and its hold upon the blade. Could it be that the shield is influenced by defeating the Guardian? As another chamber door has opened, I should proceed into this new area and see if this theory holds any truth.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "En retournant dans la chambre à l’épée, j’ai constaté que le bouclier qui l’entoure avait changé d’apparence et d’emprise sur la lame. La défaite du Gardien aurait-elle une influence sur lui ? Une autre porte de la chambre s’est ouverte. Je devrais explorer cette nouvelle zone pour vérifier mon hypothèse.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 101,
+      "source": "I've heard rumors about a ghostly apparition that has been haunting the Ratway in Riften. I should investigate the area and see if I can learn more.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "J'ai entendu parler d'un fantôme qui hanterait la Souricière, à Faillaise. Je devrais enquêter sur place pour essayer d'en savoir plus.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 74,
+      "source": "I found the ghostly woman, but as I drew near to her, she approached a nearby sewer entrance and vanished before my eyes. I should follow her and see where the sewer entrance leads.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "J'ai trouvé la femme fantomatique, mais alors que je m'en approchais, elle a disparu dans une bouche d'égout, sous mes yeux ébahis. Je devrais la suivre pour voir où mène ce conduit.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 73,
+      "source": "I have battled a strange warrior in the depths of this vault, but he vanished before I could strike my killing blow. However, when he vanished, there was a great burst of magic energy and the ground shook beneath me. I should head back to the sword chamber where perhaps I may encounter him again.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "J’ai affronté un étrange guerrier dans les profondeurs du caveau, mais il a disparu avant que je puisse lui porter le coup fatal. Sa disparition a provoqué une puissante décharge magique et fait trembler le sol. Je devrais retourner dans la chambre à l’épée ; je le retrouverai peut-être là-bas.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 98,
+      "source": "I have vanquished the Guardian. I should return to the sword chamber to see if his defeat has affected the shield.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "J’ai vaincu le Gardien. Je devrais retourner dans la chambre à l’épée pour voir si sa défaite a affecté le bouclier.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 81,
+      "source": "Once again, my encounter with the Guardian has affected the shield that surrounds the sword. I should search the newly opened area where I may encounter the Guardian once more.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Une fois encore, ma rencontre avec le Gardien a eu un effet sur le bouclier qui entoure l’épée. Je devrais fouiller la nouvelle zone ; le Gardien s’y trouve peut-être.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 87,
+      "source": "Upon returning to the sword chamber, I witnessed what appeared to be a reconciliation between the Guardian and the woman, for I saw their spirits embrace and fade away. Perhaps in defeating him, I have actually freed his spirit from his binds to the sword and this vault. Now he is free and so too is the sword. ",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "En retournant dans la chambre à l’épée, j’ai assisté à ce qui semblait être une réconciliation entre le Gardien et la femme : leurs esprits se sont enlacés avant de s’évanouir. En le vainquant, je l’ai peut-être libéré des liens qui l’attachaient à l’épée et au caveau. Il est désormais libre, et l’épée aussi.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 5,
+      "source": "Investigate rumors of ghosts in the Riften Ratway",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Enquêtez sur les rumeurs de fantômes à la Souricière de Faillaise.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 10,
+      "source": "Find the ghost in the Ratway",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Trouvez le fantôme dans la Souricière.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 17,
+      "source": "Follow the ghost",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Suivez le fantôme.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 18,
+      "source": "Investigate the vault",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Examinez la chambre forte.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 19,
+      "source": "Find a way to free the sword",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Trouvez un moyen de libérer l'épée.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 24,
+      "source": "Investigate the north chamber",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Fouillez la chambre nord.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 25,
+      "source": "Defeat the Guardian",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Éliminez le Gardien.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 60,
+      "source": "Investigate the east chamber",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Examinez la chambre est.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 70,
+      "source": "Return to the sword chamber",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Retournez dans la chambre à l'épée.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 80,
+      "source": "Retrieve the sword",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Retrouvez l'épée.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 18,
+      "source": "Investigate the vault",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Examinez la chambre forte.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 10,
+      "source": "Find the ghost in the Ratway",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Trouvez le fantôme dans la Souricière.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 70,
+      "source": "Return to the sword chamber",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Retournez dans la chambre à l'épée.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 5,
+      "source": "Investigate rumors of ghosts in the Riften Ratway",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Enquêtez sur les rumeurs de fantômes à la Souricière de Faillaise.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 24,
+      "source": "Investigate the north chamber",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Fouillez la chambre nord.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 19,
+      "source": "Find a way to free the sword",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Trouvez un moyen de libérer l'épée.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 60,
+      "source": "Investigate the east chamber",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Examinez la chambre est.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 25,
+      "source": "Defeat the Guardian",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Éliminez le Gardien.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 17,
+      "source": "Follow the ghost",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Suivez le fantôme.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST NNAM",
+      "index": 80,
+      "source": "Retrieve the sword",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Retrouvez l'épée.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST FULL",
+      "index": null,
+      "source": "A Soul Divided",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Âme scindée",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 78,
+      "source": "Upon returning to the sword chamber, I found the shield surrounding the sword had altered its magical appearance and its hold upon the blade. Could it be that the shield is influenced by defeating the Guardian? As another chamber door has opened, I should proceed into this new area and see if this theory holds any truth.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "En retournant dans la chambre à l’épée, j’ai constaté que le bouclier qui l’entoure avait changé d’apparence et d’emprise sur la lame. La défaite du Gardien aurait-elle une influence sur lui ? Une autre porte de la chambre s’est ouverte. Je devrais explorer cette nouvelle zone pour vérifier mon hypothèse.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 101,
+      "source": "I've heard rumors about a ghostly apparition that has been haunting the Ratway in Riften. I should investigate the area and see if I can learn more.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "J'ai entendu parler d'un fantôme qui hanterait la Souricière, à Faillaise. Je devrais enquêter sur place pour essayer d'en savoir plus.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 74,
+      "source": "I found the ghostly woman, but as I drew near to her, she approached a nearby sewer entrance and vanished before my eyes. I should follow her and see where the sewer entrance leads.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "J'ai trouvé la femme fantomatique, mais alors que je m'en approchais, elle a disparu dans une bouche d'égout, sous mes yeux ébahis. Je devrais la suivre pour voir où mène ce conduit.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 73,
+      "source": "I have battled a strange warrior in the depths of this vault, but he vanished before I could strike my killing blow. However, when he vanished, there was a great burst of magic energy and the ground shook beneath me. I should head back to the sword chamber where perhaps I may encounter him again.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "J’ai affronté un étrange guerrier dans les profondeurs du caveau, mais il a disparu avant que je puisse lui porter le coup fatal. Sa disparition a provoqué une puissante décharge magique et fait trembler le sol. Je devrais retourner dans la chambre à l’épée ; je le retrouverai peut-être là-bas.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 98,
+      "source": "I have vanquished the Guardian. I should return to the sword chamber to see if his defeat has affected the shield.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "J’ai vaincu le Gardien. Je devrais retourner dans la chambre à l’épée pour voir si sa défaite a affecté le bouclier.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 81,
+      "source": "Once again, my encounter with the Guardian has affected the shield that surrounds the sword. I should search the newly opened area where I may encounter the Guardian once more.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "Une fois encore, ma rencontre avec le Gardien a eu un effet sur le bouclier qui entoure l’épée. Je devrais fouiller la nouvelle zone ; le Gardien s’y trouve peut-être.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 87,
+      "source": "Upon returning to the sword chamber, I witnessed what appeared to be a reconciliation between the Guardian and the woman, for I saw their spirits embrace and fade away. Perhaps in defeating him, I have actually freed his spirit from his binds to the sword and this vault. Now he is free and so too is the sword. ",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné... [paragraphe index 105 dupliqué par erreur]",
+      "apres": "En retournant dans la chambre à l’épée, j’ai assisté à ce qui semblait être une réconciliation entre le Gardien et la femme : leurs esprits se sont enlacés avant de s’évanouir. En le vainquant, je l’ai peut-être libéré des liens qui l’attachaient à l’épée et au caveau. Il est désormais libre, et l’épée aussi.",
+      "note": "Restauration fidèle depuis l'original Bethesda (CCQuest) après écrasement par FormID"
+    },
+    {
+      "file": "nolvus awakening clothes patch.esp.json",
+      "form_id": "0303C0F2|Dragonborn.esm",
+      "type": "ARMO FULL",
+      "index": null,
+      "source": "Miraak's Mask",
+      "avant": "Augmente la résistance à la magie de 10 %. Confère l'accès au Cri benthique.",
+      "apres": "Masque de Miraak",
+      "note": "Rétablissement du nom d'objet Masque de Miraak (écrasé à tort par le texte d'enchantement)"
+    },
+    {
+      "file": "ccquest - experience patch.esp.json",
+      "form_id": "1000080F|ccbgssse020-graycowl.esl",
+      "type": "QUST CNAM",
+      "index": 73,
+      "source": "At the Riften cemetery, I found a thief loitering near a tombstone. On his body was a note that mentioned the Gray Fox was dead, and his cowl was to be passed on to a new owner. I then spoke to a beggar who handed me a note.",
+      "avant": "At the Riften cemetery, I found a thief loitering near a tombstone. On his body was a note that mentioned the Gray Fox was dead, and his cowl was to be passed on to a new owner. I spoke to a beggar who handed me a note informing me of a job.",
+      "apres": "Au cimetière de Faillaise, j'ai trouvé un voleur qui rôdait près d'une pierre tombale. Sur son corps se trouvait une note mentionnant que le Renard gris était mort et que son capuchon devait être transmis à un nouveau propriétaire. J'ai ensuite parlé à un mendiant qui m'a remis une note m'informant d'un travail.",
+      "note": "Traduction complète de l'anglais résiduel sur l'étape de quête index 73 uniquement"
+    },
+    {
+      "file": "taberu animation - dawn of skyrim patch.esp.json",
+      "form_id": "0201DE83|Dawn of Skyrim.esp",
+      "type": "ALCH FULL",
+      "index": null,
+      "source": "Dawnstar Spiced Cake",
+      "avant": "Spiced Cake d'Aubétoile",
+      "apres": "Gâteau aux épices d'Aubétoile",
+      "note": "Correction terminologique/géographique unitaire vérifiée (count=1)"
+    },
+    {
+      "file": "taberu animation - dawn of skyrim patch.esp.json",
+      "form_id": "0201DE87|Dawn of Skyrim.esp",
+      "type": "ALCH FULL",
+      "index": null,
+      "source": "Ivarstead Loaf",
+      "avant": "Tourte de Fort-Ivar",
+      "apres": "Pain de Fort-Ivar",
+      "note": "Correction terminologique/géographique unitaire vérifiée (count=1)"
+    },
+    {
+      "file": "taberu animation - dawn of skyrim patch.esp.json",
+      "form_id": "02020D54|Dawn of Skyrim.esp",
+      "type": "ALCH FULL",
+      "index": null,
+      "source": "Haafingar Butter",
+      "avant": "Beure d'Haafingar",
+      "apres": "Beurre d'Haafingar",
+      "note": "Correction terminologique/géographique unitaire vérifiée (count=1)"
+    },
+    {
+      "file": "taberu animation - dawn of skyrim patch.esp.json",
+      "form_id": "0201DE85|Dawn of Skyrim.esp",
+      "type": "ALCH FULL",
+      "index": null,
+      "source": "Midyear Cake",
+      "avant": "Midyear Cake",
+      "apres": "Gâteau de mi-l'an",
+      "note": "Correction terminologique/géographique unitaire vérifiée (count=1)"
+    },
+    {
+      "file": "taberu animation - dawn of skyrim patch.esp.json",
+      "form_id": "0201DE7A|Dawn of Skyrim.esp",
+      "type": "ALCH FULL",
+      "index": null,
+      "source": "Solitude Dusted Bread",
+      "avant": "Pain saupoudré de Solitude",
+      "apres": "Pain au poivre de Solitude",
+      "note": "Correction terminologique/géographique unitaire vérifiée (count=1)"
+    },
+    {
+      "file": "taberu animation - dawn of skyrim patch.esp.json",
+      "form_id": "0201DE81|Dawn of Skyrim.esp",
+      "type": "ALCH FULL",
+      "index": null,
+      "source": "Snowberry Biscuit",
+      "avant": "Biscuit aux baies de neige",
+      "apres": "Biscuit aux givreboises",
+      "note": "Correction terminologique/géographique unitaire vérifiée (count=1)"
+    },
+    {
+      "file": "taberu animation - dawn of skyrim patch.esp.json",
+      "form_id": "02020D57|Dawn of Skyrim.esp",
+      "type": "ALCH FULL",
+      "index": null,
+      "source": "Falkreath Porridge",
+      "avant": "Porridge de Faillaise",
+      "apres": "Porridge d'Épervine",
+      "note": "Correction terminologique/géographique unitaire vérifiée (count=1)"
+    },
+    {
+      "file": "taberu animation - dawn of skyrim patch.esp.json",
+      "form_id": "0201DE7F|Dawn of Skyrim.esp",
+      "type": "ALCH FULL",
+      "index": null,
+      "source": "Pheasant Pie",
+      "avant": "Tourte au Faisant",
+      "apres": "Tourte au faisan",
+      "note": "Correction terminologique/géographique unitaire vérifiée (count=1)"
+    },
+    {
+      "file": "taberu animation - cheesemod patch.esp.json",
+      "form_id": "02003782|yumcheese.esp",
+      "type": "ALCH FULL",
+      "index": null,
+      "source": "Sliced Autumnshade Cheese",
+      "avant": "Tranche de fromage d'Autumnshade",
+      "apres": "Brie de Vendombre entamé",
+      "note": "Harmonisation toponyme Autumnshade = Vendombre (count=1)"
+    },
+    {
+      "file": "taberu animation - cheesemod patch.esp.json",
+      "form_id": "02003786|yumcheese.esp",
+      "type": "ALCH FULL",
+      "index": null,
+      "source": "Autumnshade Cheese Wedge",
+      "avant": "Portion de fromage d'Autumnshade",
+      "apres": "Brie de Vendombre",
+      "note": "Harmonisation toponyme Autumnshade = Vendombre (count=1)"
+    },
+    {
+      "file": "navigator-navfixes.esl.json",
+      "form_id": "0001529F|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "Darklight Tower",
+      "avant": "Tour Clair-osbcur",
+      "apres": "Tour Clair-Obscur",
+      "note": "Correction coquille toponyme canonique Bethesda (count=1)"
+    },
+    {
+      "file": "navigator-navfixes.esl.json",
+      "form_id": "000466CB|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "Irkngthand Sanctuary",
+      "avant": "Sanctuaire d'Irknghand",
+      "apres": "Sanctuaire d'Irkngthand",
+      "note": "Correction coquille toponyme canonique Bethesda (count=1)"
+    },
+    {
+      "file": "wintersun - gott patch.esp.json",
+      "form_id": "0406AD19|Wintersun - Faiths of Skyrim.esp",
+      "type": "MGEF DNAM",
+      "index": null,
+      "source": "Your benevolence improves your Speech skill by <mag> points for <1> hour.",
+      "avant": "Votre bienveillance améliore votre éloquence de <mag> points pendant 1 heure.",
+      "apres": "Votre bienveillance améliore votre éloquence de <mag> points pendant <1> heure.",
+      "note": "Rétablissement variables dynamiques moteur <Global=...> et <25>/<1>"
+    },
+    {
+      "file": "wintersun - gott patch.esp.json",
+      "form_id": "05000849|Wintersun - GotT Patch.esp",
+      "type": "MGEF DNAM",
+      "index": null,
+      "source": "Items are enchanted <Global=WSN_Favor_Global_Fractional3>% stronger (based on favor with Sotha Sil).",
+      "avant": "Les enchantements d'objets sont 20 % plus puissants (selon votre ferveur envers Sotha Sil).",
+      "apres": "Les enchantements d'objets sont <Global=WSN_Favor_Global_Fractional3> % plus puissants (selon votre ferveur envers Sotha Sil).",
+      "note": "Rétablissement variables dynamiques moteur <Global=...> et <25>/<1>"
+    },
+    {
+      "file": "wintersun - gott patch.esp.json",
+      "form_id": "05000879|Wintersun - GotT Patch.esp",
+      "type": "MGEF DNAM",
+      "index": null,
+      "source": "When health falls below <25>% in combat, receive an automatic healing pulse.  Restored by prayer.",
+      "avant": "Lorsque votre santé passe sous les 25 % en combat, vous recevez une pulsation de soins automatique. Se recharge par la prière.",
+      "apres": "Lorsque votre santé passe sous les <25> % en combat, vous recevez une pulsation de soins automatique. Se recharge par la prière.",
+      "note": "Rétablissement variables dynamiques moteur <Global=...> et <25>/<1>"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F690D|Skyrim.esm",
+      "type": "ARMO FULL",
+      "index": null,
+      "source": "Amulet of Articulation",
+      "avant": "Amulette d'Articulation",
+      "apres": "Amulette d'articulation",
+      "note": "Minuscule canonique Bethesda : Amulette d'articulation"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F690E|Skyrim.esm",
+      "type": "ARMO DESC",
+      "index": null,
+      "source": "Persuade checks in dialogue will almost always succeed and increases Speech skill by <20> points.",
+      "avant": "Les tentatives d'éloquence réussissent presque toujours et l'éloquence augmente de 20 points.",
+      "apres": "Les tentatives de persuasion réussissent presque toujours et l'éloquence augmente de <20> points.",
+      "note": "Rétablissement variable <20> et tournure naturelle"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F690E|Skyrim.esm",
+      "type": "ARMO FULL",
+      "index": null,
+      "source": "Amulet of Articulation",
+      "avant": "Amulette d'Articulation",
+      "apres": "Amulette d'articulation",
+      "note": "Minuscule canonique Bethesda : Amulette d'articulation"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F690D|Skyrim.esm",
+      "type": "ARMO DESC",
+      "index": null,
+      "source": "Persuade checks in dialogue will almost always succeed and increases Speech skill by <15> points.",
+      "avant": "Les tentatives d'éloquence réussissent presque toujours et l'éloquence augmente de 15 points.",
+      "apres": "Les tentatives de persuasion réussissent presque toujours et l'éloquence augmente de <15> points.",
+      "note": "Rétablissement variable <15> et tournure naturelle"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F6910|Skyrim.esm",
+      "type": "ARMO FULL",
+      "index": null,
+      "source": "Amulet of Articulation",
+      "avant": "Amulette d'Articulation",
+      "apres": "Amulette d'articulation",
+      "note": "Minuscule canonique Bethesda : Amulette d'articulation"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F6911|Skyrim.esm",
+      "type": "ARMO FULL",
+      "index": null,
+      "source": "Amulet of Articulation",
+      "avant": "Amulette d'Articulation",
+      "apres": "Amulette d'articulation",
+      "note": "Minuscule canonique Bethesda : Amulette d'articulation"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F690F|Skyrim.esm",
+      "type": "ARMO FULL",
+      "index": null,
+      "source": "Amulet of Articulation",
+      "avant": "Amulette d'Articulation",
+      "apres": "Amulette d'articulation",
+      "note": "Minuscule canonique Bethesda : Amulette d'articulation"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F6910|Skyrim.esm",
+      "type": "ARMO DESC",
+      "index": null,
+      "source": "Persuade checks in dialogue will almost always succeed and increases Speech skill by <30> points.",
+      "avant": "Les tentatives d'éloquence réussissent presque toujours et l'éloquence augmente de 30 points.",
+      "apres": "Les tentatives de persuasion réussissent presque toujours et l'éloquence augmente de <30> points.",
+      "note": "Rétablissement variable <30> et tournure naturelle"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F6904|Skyrim.esm",
+      "type": "ARMO FULL",
+      "index": null,
+      "source": "Amulet of Articulation",
+      "avant": "Amulette d'Articulation",
+      "apres": "Amulette d'articulation",
+      "note": "Minuscule canonique Bethesda : Amulette d'articulation"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F6911|Skyrim.esm",
+      "type": "ARMO DESC",
+      "index": null,
+      "source": "Persuade checks in dialogue will almost always succeed and increases Speech skill by <35> points.",
+      "avant": "Les tentatives d'éloquence réussissent presque toujours et l'éloquence augmente de 35 points.",
+      "apres": "Les tentatives de persuasion réussissent presque toujours et l'éloquence augmente de <35> points.",
+      "note": "Rétablissement variable <35> et tournure naturelle"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F690F|Skyrim.esm",
+      "type": "ARMO DESC",
+      "index": null,
+      "source": "Persuade checks in dialogue will almost always succeed and increases Speech skill by <25> points.",
+      "avant": "Les tentatives d'éloquence réussissent presque toujours et l'éloquence augmente de 25 points.",
+      "apres": "Les tentatives de persuasion réussissent presque toujours et l'éloquence augmente de <25> points.",
+      "note": "Rétablissement variable <25> et tournure naturelle"
+    },
+    {
+      "file": "ImmersiveSoundsCompendium_CCOR_Patch.esp.json",
+      "form_id": "000F6904|Skyrim.esm",
+      "type": "ARMO DESC",
+      "index": null,
+      "source": "Persuade checks in dialogue will almost always succeed and increases Speech skill by <10> points.",
+      "avant": "Les tentatives d'éloquence réussissent presque toujours et l'éloquence augmente de 10 points.",
+      "apres": "Les tentatives de persuasion réussissent presque toujours et l'éloquence augmente de <10> points.",
+      "note": "Rétablissement variable <10> et tournure naturelle"
+    },
+    {
+      "file": "Water for ENB (Shades of Skyrim).esp.json",
+      "form_id": "0005554A|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "Lost Prospect Mine",
+      "avant": "La Mine perdue",
+      "apres": "Mine perdue",
+      "note": "Canon officiel Bethesda sans article superflu (count=1)"
+    },
+    {
+      "file": "Water for ENB (Shades of Skyrim).esp.json",
+      "form_id": "0002BCD7|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "The Midden",
+      "avant": "L'Hyposcole",
+      "apres": "Hyposcole",
+      "note": "Canon officiel Bethesda sans article superflu (count=1)"
+    },
+    {
+      "file": "Water for ENB (Shades of Skyrim).esp.json",
+      "form_id": "00015265|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "Halldir's Cairn",
+      "avant": "Cairn d’Halldir",
+      "apres": "Cairn d'Halldir",
+      "note": "Canon officiel Bethesda sans article superflu (count=1)"
+    },
+    {
+      "file": "Embers XD.esp.json",
+      "form_id": "00015224|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "Redoran's Retreat",
+      "avant": "Refuge de Rédoran",
+      "apres": "Refuge Rédoran",
+      "note": "Canon officiel Bethesda : Refuge Rédoran (count=1)"
+    },
+    {
+      "file": "Lux - JK's Mistveil Keep patch.esp.json",
+      "form_id": "0003B87D|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "Mistveil Keep Jarl's Chambers",
+      "avant": "Château d'Embruine - Quartiers du Jarl",
+      "apres": "Château d'Embruine - Quartiers du jarl",
+      "note": "Harmonisation toponyme officiel Bethesda (count=1)"
+    },
+    {
+      "file": "Lux - JK's Temple of Dibella patch.esp.json",
+      "form_id": "0003EA9D|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "Inner Sanctum",
+      "avant": "Sanctuaire intérieur",
+      "apres": "Temple de Dibella - Sanctuaire intérieur",
+      "note": "Harmonisation toponyme officiel Bethesda (count=1)"
+    },
+    {
+      "file": "Lux - Distinct Interiors patch.esp.json",
+      "form_id": "00013A71|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "Hall of the Dead",
+      "avant": "Chambre des morts",
+      "apres": "Nécropole d'Épervine",
+      "note": "Harmonisation toponyme officiel Bethesda (count=1)"
+    },
+    {
+      "file": "Lux - JK's College patch.esp.json",
+      "form_id": "0002BCD7|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "The Midden",
+      "avant": "L'Hyposcole",
+      "apres": "Hyposcole",
+      "note": "Harmonisation toponyme officiel Bethesda (count=1)"
+    },
+    {
+      "file": "Lux - JK's College patch.esp.json",
+      "form_id": "00013810|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "The Arcanaeum",
+      "avant": "L'Arcanaeum",
+      "apres": "Arcanaeum",
+      "note": "Harmonisation toponyme officiel Bethesda (count=1)"
+    },
+    {
+      "file": "Lux - Anga's Mill COTN patch.esp.json",
+      "form_id": "00016209|Skyrim.esm",
+      "type": "CELL FULL",
+      "index": null,
+      "source": "Anga's Mill Common House",
+      "avant": "Maison commune de la scierie d'Anga",
+      "apres": "Foyer de la scierie d'Anga",
+      "note": "Harmonisation toponyme officiel Bethesda (count=1)"
+    }
+  ],
+  "deja_corrects": [
+    {
+      "file": "Nolvus Awakening Experience Integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 105,
+      "source": "Having followed the apparition, I have found myself inside an abandoned vault. A mysterious sword floats suspended in a magical field at the heart of the vault. Judging by the condition of this place, it looks as if it has lain undisturbed for a very long time. Perhaps if I proceed forward, I may find some answers and a way to unlock the sword.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné. Une épée mystérieuse flotte, suspendue dans un champ magique au cœur de la salle. À en juger par l'état des lieux, personne n'y a pénétré depuis une éternité. Si je m'avance, je trouverai peut-être des réponses et un moyen de libérer l'épée.",
+      "apres": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné. Une épée mystérieuse flotte, suspendue dans un champ magique au cœur de la salle. À en juger par l'état des lieux, personne n'y a pénétré depuis une éternité. Si je m'avance, je trouverai peut-être des réponses et un moyen de libérer l'épée.",
+      "note": "Étape de quête journal index 105 conservée strictement (correspondance exacte avec le texte de journal validé)"
+    },
+    {
+      "file": "nolvus awakening experience integration.esp.json",
+      "form_id": "1D000F18|ccbgssse013-dawnfang.esl",
+      "type": "QUST CNAM",
+      "index": 105,
+      "source": "Having followed the apparition, I have found myself inside an abandoned vault. A mysterious sword floats suspended in a magical field at the heart of the vault. Judging by the condition of this place, it looks as if it has lain undisturbed for a very long time. Perhaps if I proceed forward, I may find some answers and a way to unlock the sword.",
+      "avant": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné. Une épée mystérieuse flotte, suspendue dans un champ magique au cœur de la salle. À en juger par l'état des lieux, personne n'y a pénétré depuis une éternité. Si je m'avance, je trouverai peut-être des réponses et un moyen de libérer l'épée.",
+      "apres": "Après avoir suivi l'apparition, je me suis retrouvé dans un caveau abandonné. Une épée mystérieuse flotte, suspendue dans un champ magique au cœur de la salle. À en juger par l'état des lieux, personne n'y a pénétré depuis une éternité. Si je m'avance, je trouverai peut-être des réponses et un moyen de libérer l'épée.",
+      "note": "Étape de quête journal index 105 conservée strictement (correspondance exacte avec le texte de journal validé)"
+    },
+    {
+      "file": "nolvus awakening clothes patch.esp.json",
+      "form_id": "0303C0F1|Dragonborn.esm",
+      "type": "ARMO FULL",
+      "index": null,
+      "source": "Miraak's Mask",
+      "avant": "Masque de Miraak",
+      "apres": "Masque de Miraak",
+      "note": "Version armure lourde déjà correctement nommée Masque de Miraak"
+    },
+    {
+      "file": "nolvus awakening clothes patch.esp.json",
+      "form_id": "0303C0F2|Dragonborn.esm",
+      "type": "ARMO DESC",
+      "index": null,
+      "source": "Increases Magic Resistance by <10>%.  Gives access to Benthic Scream.",
+      "avant": "Augmente la résistance à la magie de <10> %. Confère l'accès au Cri benthique.",
+      "apres": "Augmente la résistance à la magie de <10> %. Confère l'accès au Cri benthique.",
+      "note": "Description d'enchantement avec balise <10> % déjà correcte et préservée"
+    },
+    {
+      "file": "nolvus awakening clothes patch.esp.json",
+      "form_id": "0303C0F1|Dragonborn.esm",
+      "type": "ARMO DESC",
+      "index": null,
+      "source": "Increases Magic Resistance by <10>%.  Gives access to Benthic Scream.",
+      "avant": "Augmente la résistance à la magie de <10> %. Confère l'accès au Cri benthique.",
+      "apres": "Augmente la résistance à la magie de <10> %. Confère l'accès au Cri benthique.",
+      "note": "Description d'enchantement avec balise <10> % déjà correcte et préservée"
+    }
+  ],
+  "alertes_ecartees": [
+    {
+      "file": "ccquest - experience patch.esp.json",
+      "form_id": "1000080F|ccbgssse020-graycowl.esl",
+      "type": "QUST CNAM",
+      "index": 86,
+      "source": "It's rumored that the Gray Fox is buried in the cemetery in Riften. If so, he may have been buried with his cowl. At the cemetery, I found a thief loitering near a tombstone. On his body was a note.",
+      "avant": "On raconte que le Renard Gris est enterré dans le cimetière de Faillaise. Si ces rumeurs sont vraies, sa tombe pourrait contenir sa capuche. Une fois là-bas, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note.",
+      "apres": "On raconte que le Renard Gris est enterré dans le cimetière de Faillaise. Si ces rumeurs sont vraies, sa tombe pourrait contenir sa capuche. Une fois là-bas, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note.",
+      "note": "Étape journal index 86 distincte préservée, aucune altération ni écrasement collatéral"
+    },
+    {
+      "file": "ccquest - experience patch.esp.json",
+      "form_id": "1000080F|ccbgssse020-graycowl.esl",
+      "type": "QUST CNAM",
+      "index": 101,
+      "source": "It's rumored that the Gray Fox is buried in the cemetery in Riften. If so, he may have been buried with his cowl. ",
+      "avant": "On raconte que le Renard Gris est enterré dans le cimetière de Faillaise. Si ces rumeurs sont vraies, sa tombe pourrait contenir sa capuche.",
+      "apres": "On raconte que le Renard Gris est enterré dans le cimetière de Faillaise. Si ces rumeurs sont vraies, sa tombe pourrait contenir sa capuche.",
+      "note": "Étape journal index 101 distincte préservée, aucune altération ni écrasement collatéral"
+    },
+    {
+      "file": "ccquest - experience patch.esp.json",
+      "form_id": "1000080F|ccbgssse020-graycowl.esl",
+      "type": "QUST CNAM",
+      "index": 105,
+      "source": "It's rumored that the Gray Fox is buried in the cemetery in Riften. If so, he may have been buried with his cowl. At the cemetery, I found a thief loitering near a tombstone.",
+      "avant": "On raconte que le Renard Gris est enterré dans le cimetière de Faillaise. Si ces rumeurs sont vraies, sa tombe pourrait contenir sa capuche. Une fois là-bas, je suis tombé sur un voleur qui traînait près d'une tombe.",
+      "apres": "On raconte que le Renard Gris est enterré dans le cimetière de Faillaise. Si ces rumeurs sont vraies, sa tombe pourrait contenir sa capuche. Une fois là-bas, je suis tombé sur un voleur qui traînait près d'une tombe.",
+      "note": "Étape journal index 105 distincte préservée, aucune altération ni écrasement collatéral"
+    },
+    {
+      "file": "ccquest - experience patch.esp.json",
+      "form_id": "1000080F|ccbgssse020-graycowl.esl",
+      "type": "QUST CNAM",
+      "index": 79,
+      "source": "At the Riften cemetery, I found a thief loitering near a tombstone. On his body was a note that mentioned the Gray Fox was dead, and his cowl was to be passed on to a new owner. I should speak to a beggar and try to learn more.",
+      "avant": "Une fois au cimetière de Faillaise, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. Je devrais parler à un mendiant, et essayer d'en savoir plus.",
+      "apres": "Une fois au cimetière de Faillaise, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. Je devrais parler à un mendiant, et essayer d'en savoir plus.",
+      "note": "Étape journal index 79 distincte préservée, aucune altération ni écrasement collatéral"
+    },
+    {
+      "file": "ccquest - experience patch.esp.json",
+      "form_id": "1000080F|ccbgssse020-graycowl.esl",
+      "type": "QUST CNAM",
+      "index": 98,
+      "source": "At the Riften cemetery, I found a thief loitering near a tombstone. On his body was a note that mentioned the Gray Fox was dead, and his cowl was to be passed on to a new owner. To prove my worth, I retrieved a note in a strongbox that had details on a job in Solitude. I finished the job and received further instructions to retrieve an ancestral item in Silverdrift Lair.",
+      "avant": "Une fois au cimetière de Faillaise, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. Pour prouver ma valeur, j'ai trouvé une note contenue dans un coffre et indiquant les détails d'une mission à Solitude. Une fois accomplie, j'ai reçu d'autres instructions m'enjoignant de retrouver un objet ancestral enfoui dans le Repaire de Brisargent.",
+      "apres": "Une fois au cimetière de Faillaise, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. Pour prouver ma valeur, j'ai trouvé une note contenue dans un coffre et indiquant les détails d'une mission à Solitude. Une fois accomplie, j'ai reçu d'autres instructions m'enjoignant de retrouver un objet ancestral enfoui dans le Repaire de Brisargent.",
+      "note": "Étape journal index 98 distincte préservée, aucune altération ni écrasement collatéral"
+    },
+    {
+      "file": "ccquest - experience patch.esp.json",
+      "form_id": "1000080F|ccbgssse020-graycowl.esl",
+      "type": "QUST CNAM",
+      "index": 89,
+      "source": "At the Riften cemetery, I found a thief loitering near a tombstone. On his body was a note that mentioned the Gray Fox was dead, and his cowl was to be passed on to a new owner. I spoke to a beggar who handed me a note informing me of a job. I managed to find further instructions in a strongbox at Bolli's house.",
+      "avant": "Une fois au cimetière de Faillaise, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. J'ai parlé à un mendiant qui m'a tendu une note concernant une mission. Toutefois, avant cela, je dois trouver un moyen d'accéder au coffre dans la maison de Bolli.",
+      "apres": "Une fois au cimetière de Faillaise, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. J'ai parlé à un mendiant qui m'a tendu une note concernant une mission. Toutefois, avant cela, je dois trouver un moyen d'accéder au coffre dans la maison de Bolli.",
+      "note": "Étape journal index 89 distincte préservée, aucune altération ni écrasement collatéral"
+    },
+    {
+      "file": "ccquest - experience patch.esp.json",
+      "form_id": "1000080F|ccbgssse020-graycowl.esl",
+      "type": "QUST CNAM",
+      "index": 87,
+      "source": "At the Riften cemetery, I found a thief loitering near a tombstone. On his body was a note that mentioned the Gray Fox was dead, and his cowl was to be passed on to a new owner. After some investigating, I found a note in a strongbox that has details on a job in Solitude. If I perform the task in question, I may be rewarded.",
+      "avant": "Une fois au cimetière de Faillaise, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. Pour prouver ma valeur, j'ai trouvé une note contenue dans un coffre et indiquant les détails d'une mission à Solitude. Si je parviens à l'accomplir, j'obtiendrai peut-être une récompense.",
+      "apres": "Une fois au cimetière de Faillaise, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. Pour prouver ma valeur, j'ai trouvé une note contenue dans un coffre et indiquant les détails d'une mission à Solitude. Si je parviens à l'accomplir, j'obtiendrai peut-être une récompense.",
+      "note": "Étape journal index 87 distincte préservée, aucune altération ni écrasement collatéral"
+    },
+    {
+      "file": "ccquest - experience patch.esp.json",
+      "form_id": "1000080F|ccbgssse020-graycowl.esl",
+      "type": "QUST CNAM",
+      "index": 81,
+      "source": "At the Riften cemetery, I found a thief loitering near a tombstone. On his body was a note that mentioned the Gray Fox was dead, and his cowl was to be passed on to a new owner. To prove my worth, I underwent a series of trials to retrieve items for a Stranger. Having found them all, I must now return to Riften so I can hand it and the deed over at the grave of the Gray Fox.",
+      "avant": "Une fois au cimetière de Faillaise, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. Pour prouver ma valeur, j'ai accompli toute une série d'épreuves consistant à retrouver des objets pour l'étranger. Maintenant que je les ai tous récupérés, je devrais les rapporter, avec le titre de propriété, à la tombe du Renard gris à Faillaise.",
+      "apres": "Une fois au cimetière de Faillaise, j'ai croisé un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. Pour prouver ma valeur, j'ai accompli toute une série d'épreuves consistant à retrouver des objets pour l'étranger. Maintenant que je les ai tous récupérés, je devrais les rapporter, avec le titre de propriété, à la tombe du Renard gris à Faillaise.",
+      "note": "Étape journal index 81 distincte préservée, aucune altération ni écrasement collatéral"
+    },
+    {
+      "file": "ccquest - experience patch.esp.json",
+      "form_id": "1000080F|ccbgssse020-graycowl.esl",
+      "type": "QUST CNAM",
+      "index": 85,
+      "source": "At the Riften cemetery, I found a thief loitering near a tombstone. On his body was a note that mentioned the Gray Fox was dead, and his cowl was to be passed on to a new owner. After some trials, I met with the Stranger who revealed himself to be the real Gray Fox. After some brief words, he handed me the Gray Cowl as a reward and left the city with a young child.",
+      "avant": "Une fois au cimetière de Faillaise, j'ai rencontré un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. J'ai accompli plusieurs épreuves, puis ai fini par rencontrer l'étranger qui s'est avéré être le vrai Renard gris. Après avoir échangé quelques mots, il m'a donné la capuche grise comme récompense, puis a quitté la ville accompagné d'un jeune enfant.",
+      "apres": "Une fois au cimetière de Faillaise, j'ai rencontré un voleur qui traînait près d'une tombe. Sur sa dépouille se trouvait une note mentionnant la mort du Renard gris et racontant que sa capuche allait être léguée à un nouveau propriétaire. J'ai accompli plusieurs épreuves, puis ai fini par rencontrer l'étranger qui s'est avéré être le vrai Renard gris. Après avoir échangé quelques mots, il m'a donné la capuche grise comme récompense, puis a quitté la ville accompagné d'un jeune enfant.",
+      "note": "Étape journal index 85 distincte préservée, aucune altération ni écrasement collatéral"
+    },
+    {
+      "file": "wintersun - gott patch.esp.json",
+      "form_id": "0406AD19|Wintersun - Faiths of Skyrim.esp",
+      "type": "MGEF FULL",
+      "index": null,
+      "source": "Fortify Persuasion",
+      "avant": "Renfort de persuasion",
+      "apres": "Renfort de persuasion",
+      "note": "Nom d'effet MGEF FULL distinct préservé, aucune collision avec MGEF DNAM"
+    },
+    {
+      "file": "wintersun - gott patch.esp.json",
+      "form_id": "05000849|Wintersun - GotT Patch.esp",
+      "type": "MGEF FULL",
+      "index": null,
+      "source": "Seht's Guidance",
+      "avant": "L'orientation de Seht",
+      "apres": "L'orientation de Seht",
+      "note": "Nom d'effet MGEF FULL distinct préservé, aucune collision avec MGEF DNAM"
+    },
+    {
+      "file": "wintersun - gott patch.esp.json",
+      "form_id": "05000879|Wintersun - GotT Patch.esp",
+      "type": "MGEF FULL",
+      "index": null,
+      "source": "Ayem's Mercy - Ready",
+      "avant": "Miséricorde d'Ayem - Prêt",
+      "apres": "Miséricorde d'Ayem - Prêt",
+      "note": "Nom d'effet MGEF FULL distinct préservé, aucune collision avec MGEF DNAM"
+    }
+  ],
+  "cas_incertains": []
+}

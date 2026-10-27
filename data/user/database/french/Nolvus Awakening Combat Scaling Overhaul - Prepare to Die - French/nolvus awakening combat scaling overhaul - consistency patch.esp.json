@@ -1,1 +1,1901 @@
-[{"original":"Stormcloak Soldier","string":"Soldat Sombrage","status":"TranslationComplete","form_id":"000F778F|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MQ101StormcloakCartMaleBroder"},{"original":"Jaree-Ra","string":"Jaree-Ra","status":"TranslationComplete","form_id":"0001328D|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"JareeRa"},{"original":"Demented Mage","string":"Mage dément","status":"TranslationComplete","form_id":"3D000827|mihailgrummite.esp","type":"NPC_ FULL","index":null,"editor_id":"mihail_grummite_mage_demented1a"},{"original":"Mandyn Hlaalu","string":"Mandyn Hlaalu","status":"TranslationComplete","form_id":"1000E247|MoonAndStar_MAS.esp","type":"NPC_ FULL","index":null,"editor_id":"MASMandyn"},{"original":"Imperial Soldier","string":"Soldat impérial","status":"TranslationComplete","form_id":"0008DE5D|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MQ101ImperialSoldierOfficerMale01"},{"original":"Othreloth","string":"Othreloth","status":"TranslationComplete","form_id":"0401828A|Dragonborn.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC2RRElderOthreloth"},{"original":"Revna","string":"Cheval","status":"TranslationComplete","form_id":"03010FBE|HearthFires.esm","type":"NPC_ FULL","index":null,"editor_id":"BYOHPlayerHorseSaddledBlackNoRespawn"},{"original":"Storm Wizard","string":"Sorcier de foudre","status":"TranslationComplete","form_id":"00045CBD|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncWarlock05TemplateStorm"},{"original":"Borgakh the Steel Heart","string":"Borgakh Coeur-de-Fer","status":"TranslationComplete","form_id":"00019959|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Borgakh"},{"original":"Chief Larak","string":"Chef Larak","status":"TranslationComplete","form_id":"00019951|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Larak"},{"original":"Toren Darrosa","string":"Toren Darrosa","status":"TranslationComplete","form_id":"10005E4B|MoonAndStar_MAS.esp","type":"NPC_ FULL","index":null,"editor_id":"MASToren"},{"original":"Exmoor Pony","string":"Cheval","status":"TranslationComplete","form_id":"00023AB2|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHorseSaddledBrown"},{"original":"Malignant Zombie","string":"Zombie malfaisant","status":"TranslationComplete","form_id":"0500080D|ccbgssse003-zombies.esl","type":"NPC_ FULL","index":null,"editor_id":"ccBGSSSE003EncZombie04BodyB"},{"original":"Manic Mage","string":"Mage Maniaque","status":"TranslationComplete","form_id":"3D000832|mihailgrummite.esp","type":"NPC_ FULL","index":null,"editor_id":"mihail_grummite_mage_mania1b"},{"original":"Torturer's Assistant","string":"Assistant du tortionnaire","status":"TranslationComplete","form_id":"000B9655|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MQ101TorturerAssistant"},{"original":"Avulstein Gray-Mane","string":"Avulstein Grisetoison","status":"TranslationComplete","form_id":"00013B9A|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"AvulsteinGrayMane"},{"original":"Ku'rana","string":"Ku'rana","status":"TranslationComplete","form_id":"0F06A898|moonpath.esp","type":"NPC_ SHRT","index":null,"editor_id":"anvil_caravanman"},{"original":"The Caller","string":"L'Invocatrice","status":"TranslationComplete","form_id":"0004D246|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MG03Caller"},{"original":"Demented Mage","string":"Mage dément","status":"TranslationComplete","form_id":"3D000833|mihailgrummite.esp","type":"NPC_ FULL","index":null,"editor_id":"mihail_grummite_mage_demented2a"},{"original":"Haming","string":"Haming","status":"TranslationComplete","form_id":"00013642|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Haming"},{"original":"Uncle Knut","string":"Oncle Knut","status":"TranslationComplete","form_id":"2812239E|The Great Village of Kynesgrove.esp","type":"NPC_ FULL","index":null,"editor_id":"UncleKnutTGCoKG"},{"original":"Ulfnir","string":"Ulfnir","status":"TranslationComplete","form_id":"0600081E|ccbgssse060-ba_dragonscale.esl","type":"NPC_ SHRT","index":null,"editor_id":"ccBGSSSE060_Ulfnir"},{"original":"Annekke Crag-Jumper","string":"Annekke Saute-Roc","status":"TranslationComplete","form_id":"00013666|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Annekke"},{"original":"Valdimar","string":"Valdimar","status":"TranslationComplete","form_id":"0300521B|HearthFires.esm","type":"NPC_ FULL","index":null,"editor_id":"BYOHHousecarlHjaalmarch"},{"original":"Yamarz","string":"Yamarz","status":"TranslationComplete","form_id":"0003BC26|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"Yamarz"},{"original":"Curalmil","string":"Curalmil","status":"TranslationComplete","form_id":"4222B986|The Restless Dead.esp","type":"NPC_ FULL","index":null,"editor_id":"zzTRD_RD_DraugrBoss_Curalmil_05"},{"original":"Valdr","string":"Valdr","status":"TranslationComplete","form_id":"000411BA|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Valdr"},{"original":"Thief","string":"Voleur","status":"TranslationComplete","form_id":"00103510|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"WEThiefTemplate"},{"original":"Curalmil","string":"Curalmil","status":"TranslationComplete","form_id":"4222B988|The Restless Dead.esp","type":"NPC_ FULL","index":null,"editor_id":"zzTRD_RD_DraugrBoss_Curalmil_07"},{"original":"Stormcloak Soldier","string":"Soldat Sombrage","status":"TranslationComplete","form_id":"000F94B1|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"dunCGStormcloakPrisonerMaleDEAD"},{"original":"Lord of Doom","string":"Seigneur de la Ruine","status":"TranslationComplete","form_id":"110008B5|AncientBloodII.esl","type":"NPC_ FULL","index":null,"editor_id":"_AII_DPriest_Boss"},{"original":"Ku'rana","string":"Ku'rana","status":"TranslationComplete","form_id":"0F06A898|moonpath.esp","type":"NPC_ FULL","index":null,"editor_id":"anvil_caravanman"},{"original":"Black Fell Pony","string":"Cheval","status":"TranslationComplete","form_id":"00068D07|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHorseBlack"},{"original":"Vokun","string":"Vokun","status":"TranslationComplete","form_id":"000327C2|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Ianusu"},{"original":"Tyranus","string":"Tyranus","status":"TranslationComplete","form_id":"000A733B|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"Tyranus"},{"original":"Storm Mage","string":"Mage de foudre","status":"TranslationComplete","form_id":"00045CA2|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncWarlock04TemplateStorm"},{"original":"Calder","string":"Calder","status":"TranslationComplete","form_id":"000A2C90|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"HousecarlWindhelm"},{"original":"Vilod","string":"Vilod","status":"TranslationComplete","form_id":"0001363E|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Vilod"},{"original":"Tullius","string":"Tullius","status":"TranslationComplete","form_id":"0001327E|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"GeneralTullius"},{"original":"Chief Yamarz","string":"Chef Yamarz","status":"TranslationComplete","form_id":"0003BC26|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Yamarz"},{"original":"Manic Mage","string":"Mage Maniaque","status":"TranslationComplete","form_id":"3D000826|mihailgrummite.esp","type":"NPC_ FULL","index":null,"editor_id":"mihail_grummite_mage_mania1a"},{"original":"Ri'Suen-dar","string":"Ri'Suen-dar","status":"TranslationComplete","form_id":"0E14F648|Haem Projects Goblands.esp","type":"NPC_ FULL","index":null,"editor_id":"HPGCatRisujen"},{"original":"Mercer Frey","string":"Mercer Frey","status":"TranslationComplete","form_id":"0001B07C|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MercerFrey"},{"original":"Evette San","string":"Evette San","status":"TranslationComplete","form_id":"00013273|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EvetteSan"},{"original":"Ahtar","string":"Ahtar","status":"TranslationComplete","form_id":"0001325F|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Ahtar"},{"original":"Rayya","string":"Rayya","status":"TranslationComplete","form_id":"03005215|HearthFires.esm","type":"NPC_ SHRT","index":null,"editor_id":"BYOHHousecarlFalkreath"},{"original":"Athir","string":"Athir","status":"TranslationComplete","form_id":"0C020C4C|Wyrmstooth.esp","type":"NPC_ FULL","index":null,"editor_id":"WTFollowerAthir"},{"original":"Vigilant Tyranus","string":"Vigile Tyranus","status":"TranslationComplete","form_id":"000A733B|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Tyranus"},{"original":"Stormcloak Soldier","string":"Soldat Sombrage","status":"TranslationComplete","form_id":"0004D366|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MQ101StormcloakArcher"},{"original":"Stormcloak Soldier","string":"Soldat Sombrage","status":"TranslationComplete","form_id":"000F94B2|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"dunCGStormcloakPrisonerFemaleDEAD"},{"original":"Borgakh","string":"Borgakh","status":"TranslationComplete","form_id":"00019959|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"Borgakh"},{"original":"Shargam","string":"Shargam","status":"TranslationComplete","form_id":"0C020C4D|Wyrmstooth.esp","type":"NPC_ FULL","index":null,"editor_id":"WTFollowerShargam"},{"original":"Mazil-do","string":"Mazil-do","status":"TranslationComplete","form_id":"0E159853|Haem Projects Goblands.esp","type":"NPC_ FULL","index":null,"editor_id":"HPGCatMazil"},{"original":"Anwen","string":"Anwen","status":"TranslationComplete","form_id":"00013386|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Anwen"},{"original":"Larak","string":"Larak","status":"TranslationComplete","form_id":"00019951|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"Larak"},{"original":"Keeper Carcette","string":"Carcette la Gardienne","status":"TranslationComplete","form_id":"000BFB55|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"VigilantCarcette"},{"original":"Penitus Oculatus Agent","string":"Agent du Penitus Oculatus","status":"TranslationComplete","form_id":"0007D98C|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncPenitus00Template"},{"original":"Captain Veleth","string":"Capitaine Veleth","status":"TranslationComplete","form_id":"030182AC|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC2RRModynVeleth"},{"original":"Thorald Gray-Mane","string":"Thorald Grisetoison","status":"TranslationComplete","form_id":"0001C241|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"ThoraldGrayMane"},{"original":"Curalmil","string":"Curalmil","status":"TranslationComplete","form_id":"4222B984|The Restless Dead.esp","type":"NPC_ FULL","index":null,"editor_id":"zzTRD_RD_DraugrBoss_Curalmil_03"},{"original":"Gersemi","string":"Cheval","status":"TranslationComplete","form_id":"0300F9A8|HearthFires.esm","type":"NPC_ FULL","index":null,"editor_id":"BYOHPlayerHorseSaddledPalominoNoRespawn"},{"original":"Rayya","string":"Rayya","status":"TranslationComplete","form_id":"03005215|HearthFires.esm","type":"NPC_ FULL","index":null,"editor_id":"BYOHHousecarlFalkreath"},{"original":"Annekke","string":"Annekke","status":"TranslationComplete","form_id":"00013666|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"Annekke"},{"original":"Reaver","string":"Ravageur","status":"TranslationComplete","form_id":"0401E804|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"OREO_DLC2EncBandit00Template"},{"original":"Dusk","string":"Cheval","status":"TranslationComplete","form_id":"03010FBB|HearthFires.esm","type":"NPC_ FULL","index":null,"editor_id":"BYOHPlayerHorseSaddledGreyNoRespawn"},{"original":"Tolfdir","string":"Tolfdir","status":"TranslationComplete","form_id":"0001C19E|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Tolfdir"},{"original":"Lob","string":"Lob","status":"TranslationComplete","form_id":"00019E1E|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Lob"},{"original":"Legate Rikke","string":"Légat Rikke","status":"TranslationComplete","form_id":"000D0573|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"CWBattleRikke"},{"original":"Krosis","string":"Krosis","status":"TranslationComplete","form_id":"00100767|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"dunShearpointKrosisDragonPriest"},{"original":"Yatul","string":"Yatul","status":"TranslationComplete","form_id":"0001B077|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Yatul"},{"original":"Hamal","string":"Hamal","status":"TranslationComplete","form_id":"0001E765|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Hamal"},{"original":"Assassin","string":"Assassin","status":"TranslationComplete","form_id":"001051FB|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"WEAssassinTemplate"},{"original":"Olur","string":"Olur","status":"TranslationComplete","form_id":"0001995B|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Olur"},{"original":"Gharol","string":"Gharol","status":"TranslationComplete","form_id":"00013B7C|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Gharol"},{"original":"Shuftharz","string":"Shuftharz","status":"TranslationComplete","form_id":"00019957|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Shuftharz"},{"original":"Dreyla","string":"Dreyla","status":"TranslationComplete","form_id":"04018294|Dragonborn.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC2RRDreylaAlor"},{"original":"Rahgot","string":"Rahgot","status":"TranslationComplete","form_id":"00035351|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"DunForelhostDragonPriestRahgot"},{"original":"Miraak","string":"Miraak","status":"TranslationComplete","form_id":"0301FB98|Dragonborn.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC2MiraakMQ06"},{"original":"Herleif Knot-Beard","string":"Herleif Barbe-Nouée","status":"TranslationComplete","form_id":"280E0069|The Great Village of Kynesgrove.esp","type":"NPC_ FULL","index":null,"editor_id":"HerleifKnotBeardTGCoKG"},{"original":"Velyna Rathvasi","string":"Vélyna Rathvasi","status":"TranslationComplete","form_id":"100063CF|MoonAndStar_MAS.esp","type":"NPC_ FULL","index":null,"editor_id":"MASVelyna"},{"original":"Krosis","string":"Krosis","status":"TranslationComplete","form_id":"00100767|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"dunShearpointKrosisDragonPriest"},{"original":"Falas Selvayn","string":"Falas Selvayn","status":"TranslationComplete","form_id":"04031862|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC2MerchMerchant"},{"original":"Pilgrim","string":"Pèlerin","status":"TranslationComplete","form_id":"28113061|The Great Village of Kynesgrove.esp","type":"NPC_ FULL","index":null,"editor_id":"KynesgrovePilgrim01TGCoKG"},{"original":"Onmund","string":"Onmund","status":"TranslationComplete","form_id":"0001C194|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Onmund"},{"original":"Evette","string":"Evette","status":"TranslationComplete","form_id":"00013273|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"EvetteSan"},{"original":"Flaming Familiar","string":"Familier de feu","status":"TranslationComplete","form_id":"0009CE28|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"SummonFlamingThrall"},{"original":"Valerica","string":"Valérica","status":"TranslationComplete","form_id":"02003B8B|Dawnguard.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC1Valerica"},{"original":"Rundi","string":"Rundi","status":"TranslationComplete","form_id":"00013BC1|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"POIMageRundi"},{"original":"Dreyla Alor","string":"Dreyla Alor","status":"TranslationComplete","form_id":"04018294|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC2RRDreylaAlor"},{"original":"Tullius","string":"Tullius","status":"TranslationComplete","form_id":"000D0577|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"CWBattleTullius"},{"original":"Miraak, The First Dragonborn","string":"Miraak","status":"TranslationComplete","form_id":"0301FB98|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC2MiraakMQ06"},{"original":"Brelyna Maryon","string":"Brélyna Maryon","status":"TranslationComplete","form_id":"0001C196|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"BrelynaMaryon"},{"original":"Jolene","string":"Jolene","status":"TranslationComplete","form_id":"0D0562AB|3DNPC.esp","type":"NPC_ FULL","index":null,"editor_id":"Jolene3DNPC"},{"original":"Mhiir-do","string":"Mhiir-do","status":"TranslationComplete","form_id":"0E159852|Haem Projects Goblands.esp","type":"NPC_ FULL","index":null,"editor_id":"HPGCatMhiir"},{"original":"Galdrus Hlervu","string":"Galdrus Hlervu","status":"TranslationComplete","form_id":"0401828C|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC2RRGaldrusHlervu"},{"original":"Hunter","string":"Chasseur","status":"TranslationComplete","form_id":"00073FBE|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHunter00Template"},{"original":"Nightmare Courser","string":"Destrier daedra","status":"TranslationComplete","form_id":"07000B4B|ccbgssse067-daedinv.esm","type":"NPC_ FULL","index":null,"editor_id":"ccBGSSSE067_DaedricHorseMount"},{"original":"Manic Mage","string":"Mage Maniaque","status":"TranslationComplete","form_id":"3D000836|mihailgrummite.esp","type":"NPC_ FULL","index":null,"editor_id":"mihail_grummite_mage_mania2b"},{"original":"Veleth","string":"Veleth","status":"TranslationComplete","form_id":"030182AC|Dragonborn.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC2RRModynVeleth"},{"original":"Thorald","string":"Thorald","status":"TranslationComplete","form_id":"0001C241|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"ThoraldGrayMane"},{"original":"Torolf","string":"Torolf","status":"TranslationComplete","form_id":"00013641|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Torolf"},{"original":"Carcette","string":"Carcette","status":"TranslationComplete","form_id":"000BFB55|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"VigilantCarcette"},{"original":"Lurius Liore","string":"Lurius Liore","status":"TranslationComplete","form_id":"0C00BF55|Wyrmstooth.esp","type":"NPC_ FULL","index":null,"editor_id":"WTLuriusLiore"},{"original":"Ingrid","string":"Ingrid","status":"TranslationComplete","form_id":"0001363F|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Ingrid"},{"original":"General Tullius","string":"Général Tullius","status":"TranslationComplete","form_id":"000D0577|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"CWBattleTullius"},{"original":"Marcurio","string":"Marcurio","status":"TranslationComplete","form_id":"000B9980|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"HirelingMarcurio"},{"original":"Malborn","string":"Malborn","status":"TranslationComplete","form_id":"00036194|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Malborn"},{"original":"Dark Brotherhood Initiate","string":"Initiée de la Confrérie noire","status":"TranslationComplete","form_id":"00015CFE|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"DBInitiate2"},{"original":"Nazir","string":"Nazir","status":"TranslationComplete","form_id":"0001C3AB|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Nazir"},{"original":"Uthgerd the Unbroken","string":"Uthgerd l'Inflexible","status":"TranslationComplete","form_id":"000918E2|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Uthgerd"},{"original":"Belvadyr Rathvasi","string":"Belvadyr Rathvasi","status":"TranslationComplete","form_id":"100063D0|MoonAndStar_MAS.esp","type":"NPC_ FULL","index":null,"editor_id":"MASBelvadyr"},{"original":"Pilgrim","string":"Pèlerine","status":"TranslationComplete","form_id":"28113062|The Great Village of Kynesgrove.esp","type":"NPC_ FULL","index":null,"editor_id":"KynesgrovePilgrim02TGCoKG"},{"original":"Imperial Soldier","string":"Soldat impérial","status":"TranslationComplete","form_id":"0010A1AB|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MQ101ImperialSoldierMelee02"},{"original":"Saints Bandit","string":"Saint bandit","status":"TranslationComplete","form_id":"080009A6|ccBGSSSE025-AdvDSGS.esm","type":"NPC_ FULL","index":null,"editor_id":"ccBGSSSE025_EncBanditTemplateMissileGolden"},{"original":"Gala","string":"Gala","status":"TranslationComplete","form_id":"280A2EA1|The Great Village of Kynesgrove.esp","type":"NPC_ FULL","index":null,"editor_id":"GalaTGCoKG"},{"original":"Deeja","string":"Deeja","status":"TranslationComplete","form_id":"00013268|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Deeja"},{"original":"Eskil","string":"Eskil","status":"TranslationComplete","form_id":"2803868C|The Great Village of Kynesgrove.esp","type":"NPC_ FULL","index":null,"editor_id":"EskilTGCoKG"},{"original":"Palomino Horse","string":"Cheval","status":"TranslationComplete","form_id":"00068D6E|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHorsePalomino"},{"original":"Nahkriin","string":"Nahkriin","status":"TranslationComplete","form_id":"000F849B|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"dunSkuldafnNahkriin"},{"original":"Eola","string":"Eola","status":"TranslationComplete","form_id":"0001990F|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Eola"},{"original":"Ollrod","string":"Ollrod","status":"TranslationComplete","form_id":"02010DE7|Dawnguard.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC1DawnguardExterior03"},{"original":"Cindiri","string":"Cindiri","status":"TranslationComplete","form_id":"04018282|Dragonborn.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC2RRCindiriArano"},{"original":"Seducers Bandit","string":"Séducteur bandit","status":"TranslationComplete","form_id":"080009A7|ccBGSSSE025-AdvDSGS.esm","type":"NPC_ FULL","index":null,"editor_id":"ccBGSSSE025_EncBanditTemplateMissileSeducer"},{"original":"Tharstan","string":"Tharstan","status":"TranslationComplete","form_id":"04018FC8|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC2SVTharstan"},{"original":"Morokei","string":"Morokei","status":"TranslationComplete","form_id":"000F496C|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MG07LabyrinthianDragonPriest"},{"original":"Daenlit","string":"Daenlit","status":"TranslationComplete","form_id":"0C020C4E|Wyrmstooth.esp","type":"NPC_ FULL","index":null,"editor_id":"WTFollowerDaenlit"},{"original":"Brelyna","string":"Brélyna","status":"TranslationComplete","form_id":"0001C196|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"BrelynaMaryon"},{"original":"Beautiful Barbarian","string":"Superbe barbare","status":"TranslationComplete","form_id":"00087B9E|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"DBRecurringTarget10GraniteHill"},{"original":"Curalmil","string":"Curalmil","status":"TranslationComplete","form_id":"42208243|The Restless Dead.esp","type":"NPC_ FULL","index":null,"editor_id":"zzTRD_RD_DraugrBoss_Curalmil_02"},{"original":"Galdrus","string":"Galdrus","status":"TranslationComplete","form_id":"0401828C|Dragonborn.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC2RRGaldrusHlervu"},{"original":"Manic Mage","string":"Mage Maniaque","status":"TranslationComplete","form_id":"3D000835|mihailgrummite.esp","type":"NPC_ FULL","index":null,"editor_id":"mihail_grummite_mage_mania2a"},{"original":"Cindiri Arano","string":"Cindiri Arano","status":"TranslationComplete","form_id":"04018282|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC2RRCindiriArano"},{"original":"Volsung","string":"Volsung","status":"TranslationComplete","form_id":"00041930|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"dunVolskyggeDragonPriest01"},{"original":"Demented Mage","string":"Mage dément","status":"TranslationComplete","form_id":"3D000831|mihailgrummite.esp","type":"NPC_ FULL","index":null,"editor_id":"mihail_grummite_mage_demented1b"},{"original":"Talvas","string":"Talvas","status":"TranslationComplete","form_id":"04017777|Dragonborn.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC2Talvas"},{"original":"Gypsy Horse","string":"Cheval","status":"TranslationComplete","form_id":"00068D6B|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHorseBlackAndWhite"},{"original":"Dark Brotherhood Initiate","string":"Initié de la Confrérie noire","status":"TranslationComplete","form_id":"00015CFA|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"DBInitiate1"},{"original":"Gularzob","string":"Gularzob","status":"TranslationComplete","form_id":"00019E20|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Gularzob"},{"original":"Stormcloak Soldier","string":"Soldat Sombrage","status":"TranslationComplete","form_id":"0010A1A6|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MQ101StormcloakArcher02"},{"original":"Black Fell Pony","string":"Cheval","status":"TranslationComplete","form_id":"00068CFA|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHorseSaddledBlack"},{"original":"Bal-Ran","string":"Bal-Ran","status":"TranslationComplete","form_id":"10005E4C|MoonAndStar_MAS.esp","type":"NPC_ FULL","index":null,"editor_id":"MASBalRan"},{"original":"Ralis Sedarys","string":"Ralis Sédarys","status":"TranslationComplete","form_id":"040179C7|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC2dunKolbjornRalis"},{"original":"Shel","string":"Shel","status":"TranslationComplete","form_id":"00013B7D|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Shel"},{"original":"Taren Darrosa","string":"Taren Darrosa","status":"TranslationComplete","form_id":"10005E42|MoonAndStar_MAS.esp","type":"NPC_ FULL","index":null,"editor_id":"MASTaren"},{"original":"Palomino Horse","string":"Cheval","status":"TranslationComplete","form_id":"00068D04|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHorseSaddledPalomino"},{"original":"Nana Ildene","string":"Nana Ildene","status":"TranslationComplete","form_id":"000133A0|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Ildene"},{"original":"Electromancer","string":"Électromancien","status":"TranslationComplete","form_id":"00045CC0|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncWarlock06TemplateStorm"},{"original":"Imperial Captain","string":"Capitaine impériale","status":"TranslationComplete","form_id":"000AAFAC|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MQ101ImperialSoldierOfficer"},{"original":"Confidence","string":"Confiance","status":"TranslationComplete","form_id":"0009F844|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"dunBluePalacePelagiusFearful"},{"original":"Orc Hunter","string":"Orque chasseur","status":"TranslationComplete","form_id":"000D9447|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncOrcHunterTemplate"},{"original":"Elmera","string":"Elmera","status":"TranslationComplete","form_id":"0C020C4F|Wyrmstooth.esp","type":"NPC_ FULL","index":null,"editor_id":"WTFollowerElmera"},{"original":"Gunnar Stone-Eye","string":"Gunnar Oeil-de-Pierre","status":"TranslationComplete","form_id":"00013643|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"GunnarStoneEye"},{"original":"Talvas Fathryon","string":"Talvas Fathryon","status":"TranslationComplete","form_id":"04017777|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC2Talvas"},{"original":"Urog","string":"Urog","status":"TranslationComplete","form_id":"0001B078|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Urog"},{"original":"Demented Mage","string":"Mage dément","status":"TranslationComplete","form_id":"3D000834|mihailgrummite.esp","type":"NPC_ FULL","index":null,"editor_id":"mihail_grummite_mage_demented2b"},{"original":"Angi","string":"Angi","status":"TranslationComplete","form_id":"000CAB2F|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"dunAngiREF"},{"original":"Ugor","string":"Ugor","status":"TranslationComplete","form_id":"00019E1A|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Ugor"},{"original":"Exmoor Pony","string":"Cheval","status":"TranslationComplete","form_id":"00068D5B|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHorseBrown"},{"original":"Djirra-ko","string":"Djirra-ko","status":"TranslationComplete","form_id":"0E14F64A|Haem Projects Goblands.esp","type":"NPC_ FULL","index":null,"editor_id":"HPGCatDjirra"},{"original":"Ghorza gra-Bagol","string":"Ghorza gra-Bagol","status":"TranslationComplete","form_id":"0001339A|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"GhorzaGraBagol"},{"original":"Nagrub","string":"Nagrub","status":"TranslationComplete","form_id":"00013B7F|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Nagrub"},{"original":"Tharstan","string":"Tharstan","status":"TranslationComplete","form_id":"04018FC8|Dragonborn.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC2SVTharstan"},{"original":"Otar the Mad","string":"Otar le Fou","status":"TranslationComplete","form_id":"0003763A|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"dunRagnOtar"},{"original":"Ragna","string":"Ragna","status":"TranslationComplete","form_id":"280E006B|The Great Village of Kynesgrove.esp","type":"NPC_ FULL","index":null,"editor_id":"RagnaTGCoKG"},{"original":"Harkon","string":"Harkon","status":"TranslationComplete","form_id":"02003BA7|Dawnguard.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC1Harkon"},{"original":"Elder Othreloth","string":"Doyen Othreloth","status":"TranslationComplete","form_id":"0401828A|Dragonborn.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC2RRElderOthreloth"},{"original":"Arniel's Shade","string":"Ombre d'Arniel","status":"TranslationComplete","form_id":"0006A152|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MAG_MGArnielSummon"},{"original":"Nirya","string":"Nirya","status":"TranslationComplete","form_id":"0001C19B|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Nirya"},{"original":"Orthorn","string":"Orthorn","status":"TranslationComplete","form_id":"0002A388|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Orthorn"},{"original":"Priestess of Arkay","string":"Prêtresse d'Arkay","status":"TranslationComplete","form_id":"00107572|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"MQ101ImperialPriest"},{"original":"Matlara","string":"Matlara","status":"TranslationComplete","form_id":"00013640|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Matlara"},{"original":"Garakh","string":"Garakh","status":"TranslationComplete","form_id":"00019E1C|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Garakh"},{"original":"Iddra","string":"Iddra","status":"TranslationComplete","form_id":"00013662|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Iddra"},{"original":"Hevnoraak","string":"Hevnoraak","status":"TranslationComplete","form_id":"0004D6E7|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"dunValthumeHevnoraak"},{"original":"Curalmil","string":"Curalmil","status":"TranslationComplete","form_id":"4222B985|The Restless Dead.esp","type":"NPC_ FULL","index":null,"editor_id":"zzTRD_RD_DraugrBoss_Curalmil_04"},{"original":"Otar the Mad","string":"Otar le Fou","status":"TranslationComplete","form_id":"0003763A|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"dunRagnOtar"},{"original":"Mjoll the Lioness","string":"Mjoll la Lionne","status":"TranslationComplete","form_id":"0001336B|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Mjoll"},{"original":"Lord Harkon","string":"Seigneur Harkon","status":"TranslationComplete","form_id":"02003BA7|Dawnguard.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC1Harkon"},{"original":"Gypsy Horse","string":"Cheval","status":"TranslationComplete","form_id":"00068D02|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHorseSaddledBlackAndWhite"},{"original":"Curalmil","string":"Curalmil","status":"TranslationComplete","form_id":"4222B987|The Restless Dead.esp","type":"NPC_ FULL","index":null,"editor_id":"zzTRD_RD_DraugrBoss_Curalmil_06"},{"original":"Ralis","string":"Ralis","status":"TranslationComplete","form_id":"040179C7|Dragonborn.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC2dunKolbjornRalis"},{"original":"Ulfnir Bone-Skin","string":"Ulfnir Peau-d'os","status":"TranslationComplete","form_id":"0600081E|ccbgssse060-ba_dragonscale.esl","type":"NPC_ FULL","index":null,"editor_id":"ccBGSSSE060_Ulfnir"},{"original":"Ildene","string":"Ildene","status":"TranslationComplete","form_id":"000133A0|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"Ildene"},{"original":"Orla","string":"Orla","status":"TranslationComplete","form_id":"000133B0|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Orla"},{"original":"Njada","string":"Njada","status":"TranslationComplete","form_id":"0001A6D9|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"NjadaStonearm"},{"original":"Golldir","string":"Golldir","status":"TranslationComplete","form_id":"00019FE8|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Golldir"},{"original":"Ferryman","string":"Passeur","status":"TranslationComplete","form_id":"0201684C|Dawnguard.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC1FerrymanTemplateNew"},{"original":"Gunnar","string":"Gunnar","status":"TranslationComplete","form_id":"00013643|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"GunnarStoneEye"},{"original":"Jaree","string":"Jaree","status":"TranslationComplete","form_id":"0001328D|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"JareeRa"},{"original":"Ria","string":"Ria","status":"TranslationComplete","form_id":"0001A6D7|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Ria"},{"original":"Grey Fell Pony","string":"Cheval","status":"TranslationComplete","form_id":"00068D6D|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHorseGrey"},{"original":"Calder","string":"Calder","status":"TranslationComplete","form_id":"000A2C90|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"HousecarlWindhelm"},{"original":"Faendal","string":"Faendal","status":"TranslationComplete","form_id":"00013480|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"Faendal"},{"original":"Festus Krex","string":"Festus Krex","status":"TranslationComplete","form_id":"0001BDB2|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"FestusKrex"},{"original":"General Tullius","string":"Général Tullius","status":"TranslationComplete","form_id":"0001327E|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"GeneralTullius"},{"original":"Ghorza","string":"Ghorza","status":"TranslationComplete","form_id":"0001339A|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"GhorzaGraBagol"},{"original":"Ilas-Tei","string":"Ilas-Tei","status":"TranslationComplete","form_id":"000D5046|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"POIMageIlasTei"},{"original":"Njada Stonearm","string":"Njada Bras-de-Pierre","status":"TranslationComplete","form_id":"0001A6D9|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"NjadaStonearm"},{"original":"M'Raksa","string":"M'Raksa","status":"TranslationComplete","form_id":"0E14F646|Haem Projects Goblands.esp","type":"NPC_ FULL","index":null,"editor_id":"HPGCatMRaksa"},{"original":"Grey Fell Pony","string":"Cheval","status":"TranslationComplete","form_id":"00068D03|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncHorseSaddledGrey"},{"original":"Nimphaneth","string":"Nimphaneth","status":"TranslationComplete","form_id":"0009BB45|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"DA11Nimphaneth"},{"original":"Lydia","string":"Lydia","status":"TranslationComplete","form_id":"000A2C8E|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"HousecarlWhiterun"},{"original":"Lydia","string":"Lydia","status":"TranslationComplete","form_id":"000A2C8E|Skyrim.esm","type":"NPC_ SHRT","index":null,"editor_id":"HousecarlWhiterun"},{"original":"Bottar","string":"Bottar","status":"TranslationComplete","form_id":"000B94A9|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"WERJ04Kid02"},{"original":"Dwarven Centurion Guardian","string":"Gardien centurion dwemer","status":"TranslationComplete","form_id":"0010E753|Skyrim.esm","type":"NPC_ FULL","index":null,"editor_id":"EncDwarvenCenturion02"},{"original":"Arch-Curate Vyrthur","string":"Archivicaire Vyrthur","status":"TranslationComplete","form_id":"02003788|Dawnguard.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC1AlthadanVyrthur"},{"original":"Celann","string":"Celann","status":"TranslationComplete","form_id":"0201541E|Dawnguard.esm","type":"NPC_ FULL","index":null,"editor_id":"DLC1Celann"},{"original":"Celann","string":"Celann","status":"TranslationComplete","form_id":"0201541E|Dawnguard.esm","type":"NPC_ SHRT","index":null,"editor_id":"DLC1Celann"},{"original":"Gorr","string":"Gorr","status":"TranslationComplete","form_id":"0C02D184|3DNPC.esp","type":"NPC_ FULL","index":null,"editor_id":"Gorr"},{"original":"Lucien Flavius","string":"Lucien Flavius","status":"TranslationComplete","form_id":"1C005900|Lucien.esp","type":"NPC_ FULL","index":null,"editor_id":"JRLucien"},{"original":"Lucien","string":"Lucien","status":"TranslationComplete","form_id":"1C005900|Lucien.esp","type":"NPC_ SHRT","index":null,"editor_id":"JRLucien"}]
+[
+  {
+    "original": "Stormcloak Soldier",
+    "string": "Soldat Sombrage",
+    "status": "TranslationComplete",
+    "form_id": "000F778F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MQ101StormcloakCartMaleBroder"
+  },
+  {
+    "original": "Jaree-Ra",
+    "string": "Jaree-Ra",
+    "status": "TranslationComplete",
+    "form_id": "0001328D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "JareeRa"
+  },
+  {
+    "original": "Demented Mage",
+    "string": "Mage dément",
+    "status": "TranslationComplete",
+    "form_id": "3D000827|mihailgrummite.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "mihail_grummite_mage_demented1a"
+  },
+  {
+    "original": "Mandyn Hlaalu",
+    "string": "Mandyn Hlaalu",
+    "status": "TranslationComplete",
+    "form_id": "1000E247|MoonAndStar_MAS.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MASMandyn"
+  },
+  {
+    "original": "Imperial Soldier",
+    "string": "Soldat impérial",
+    "status": "TranslationComplete",
+    "form_id": "0008DE5D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MQ101ImperialSoldierOfficerMale01"
+  },
+  {
+    "original": "Othreloth",
+    "string": "Othreloth",
+    "status": "TranslationComplete",
+    "form_id": "0401828A|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC2RRElderOthreloth"
+  },
+  {
+    "original": "Revna",
+    "string": "Cheval",
+    "status": "TranslationComplete",
+    "form_id": "03010FBE|HearthFires.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BYOHPlayerHorseSaddledBlackNoRespawn"
+  },
+  {
+    "original": "Storm Wizard",
+    "string": "Sorcier de foudre",
+    "status": "TranslationComplete",
+    "form_id": "00045CBD|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncWarlock05TemplateStorm"
+  },
+  {
+    "original": "Borgakh the Steel Heart",
+    "string": "Borgakh Coeur-de-Fer",
+    "status": "TranslationComplete",
+    "form_id": "00019959|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Borgakh"
+  },
+  {
+    "original": "Chief Larak",
+    "string": "Chef Larak",
+    "status": "TranslationComplete",
+    "form_id": "00019951|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Larak"
+  },
+  {
+    "original": "Toren Darrosa",
+    "string": "Toren Darrosa",
+    "status": "TranslationComplete",
+    "form_id": "10005E4B|MoonAndStar_MAS.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MASToren"
+  },
+  {
+    "original": "Exmoor Pony",
+    "string": "Poney Exmoor",
+    "status": "TranslationComplete",
+    "form_id": "00023AB2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHorseSaddledBrown"
+  },
+  {
+    "original": "Malignant Zombie",
+    "string": "Zombie malfaisant",
+    "status": "TranslationComplete",
+    "form_id": "0500080D|ccbgssse003-zombies.esl",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ccBGSSSE003EncZombie04BodyB"
+  },
+  {
+    "original": "Manic Mage",
+    "string": "Mage Maniaque",
+    "status": "TranslationComplete",
+    "form_id": "3D000832|mihailgrummite.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "mihail_grummite_mage_mania1b"
+  },
+  {
+    "original": "Torturer's Assistant",
+    "string": "Assistant du tortionnaire",
+    "status": "TranslationComplete",
+    "form_id": "000B9655|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MQ101TorturerAssistant"
+  },
+  {
+    "original": "Avulstein Gray-Mane",
+    "string": "Avulstein Grisetoison",
+    "status": "TranslationComplete",
+    "form_id": "00013B9A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "AvulsteinGrayMane"
+  },
+  {
+    "original": "Ku'rana",
+    "string": "Ku'rana",
+    "status": "TranslationComplete",
+    "form_id": "0F06A898|moonpath.esp",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "anvil_caravanman"
+  },
+  {
+    "original": "The Caller",
+    "string": "L'Invocatrice",
+    "status": "TranslationComplete",
+    "form_id": "0004D246|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MG03Caller"
+  },
+  {
+    "original": "Demented Mage",
+    "string": "Mage dément",
+    "status": "TranslationComplete",
+    "form_id": "3D000833|mihailgrummite.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "mihail_grummite_mage_demented2a"
+  },
+  {
+    "original": "Haming",
+    "string": "Haming",
+    "status": "TranslationComplete",
+    "form_id": "00013642|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Haming"
+  },
+  {
+    "original": "Uncle Knut",
+    "string": "Oncle Knut",
+    "status": "TranslationComplete",
+    "form_id": "2812239E|The Great Village of Kynesgrove.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "UncleKnutTGCoKG"
+  },
+  {
+    "original": "Ulfnir",
+    "string": "Ulfnir",
+    "status": "TranslationComplete",
+    "form_id": "0600081E|ccbgssse060-ba_dragonscale.esl",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "ccBGSSSE060_Ulfnir"
+  },
+  {
+    "original": "Annekke Crag-Jumper",
+    "string": "Annekke Saute-Roc",
+    "status": "TranslationComplete",
+    "form_id": "00013666|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Annekke"
+  },
+  {
+    "original": "Valdimar",
+    "string": "Valdimar",
+    "status": "TranslationComplete",
+    "form_id": "0300521B|HearthFires.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BYOHHousecarlHjaalmarch"
+  },
+  {
+    "original": "Yamarz",
+    "string": "Yamarz",
+    "status": "TranslationComplete",
+    "form_id": "0003BC26|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Yamarz"
+  },
+  {
+    "original": "Curalmil",
+    "string": "Curalmil",
+    "status": "TranslationComplete",
+    "form_id": "4222B986|The Restless Dead.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "zzTRD_RD_DraugrBoss_Curalmil_05"
+  },
+  {
+    "original": "Valdr",
+    "string": "Valdr",
+    "status": "TranslationComplete",
+    "form_id": "000411BA|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Valdr"
+  },
+  {
+    "original": "Thief",
+    "string": "Voleur",
+    "status": "TranslationComplete",
+    "form_id": "00103510|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WEThiefTemplate"
+  },
+  {
+    "original": "Curalmil",
+    "string": "Curalmil",
+    "status": "TranslationComplete",
+    "form_id": "4222B988|The Restless Dead.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "zzTRD_RD_DraugrBoss_Curalmil_07"
+  },
+  {
+    "original": "Stormcloak Soldier",
+    "string": "Soldat Sombrage",
+    "status": "TranslationComplete",
+    "form_id": "000F94B1|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunCGStormcloakPrisonerMaleDEAD"
+  },
+  {
+    "original": "Lord of Doom",
+    "string": "Seigneur de la Ruine",
+    "status": "TranslationComplete",
+    "form_id": "110008B5|AncientBloodII.esl",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "_AII_DPriest_Boss"
+  },
+  {
+    "original": "Ku'rana",
+    "string": "Ku'rana",
+    "status": "TranslationComplete",
+    "form_id": "0F06A898|moonpath.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "anvil_caravanman"
+  },
+  {
+    "original": "Black Fell Pony",
+    "string": "Poney fell noir",
+    "status": "TranslationComplete",
+    "form_id": "00068D07|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHorseBlack"
+  },
+  {
+    "original": "Vokun",
+    "string": "Vokun",
+    "status": "TranslationComplete",
+    "form_id": "000327C2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ianusu"
+  },
+  {
+    "original": "Tyranus",
+    "string": "Tyranus",
+    "status": "TranslationComplete",
+    "form_id": "000A733B|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Tyranus"
+  },
+  {
+    "original": "Storm Mage",
+    "string": "Mage de foudre",
+    "status": "TranslationComplete",
+    "form_id": "00045CA2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncWarlock04TemplateStorm"
+  },
+  {
+    "original": "Calder",
+    "string": "Calder",
+    "status": "TranslationComplete",
+    "form_id": "000A2C90|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "HousecarlWindhelm"
+  },
+  {
+    "original": "Vilod",
+    "string": "Vilod",
+    "status": "TranslationComplete",
+    "form_id": "0001363E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Vilod"
+  },
+  {
+    "original": "Tullius",
+    "string": "Tullius",
+    "status": "TranslationComplete",
+    "form_id": "0001327E|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "GeneralTullius"
+  },
+  {
+    "original": "Chief Yamarz",
+    "string": "Chef Yamarz",
+    "status": "TranslationComplete",
+    "form_id": "0003BC26|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Yamarz"
+  },
+  {
+    "original": "Manic Mage",
+    "string": "Mage Maniaque",
+    "status": "TranslationComplete",
+    "form_id": "3D000826|mihailgrummite.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "mihail_grummite_mage_mania1a"
+  },
+  {
+    "original": "Ri'Suen-dar",
+    "string": "Ri'Suen-dar",
+    "status": "TranslationComplete",
+    "form_id": "0E14F648|Haem Projects Goblands.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HPGCatRisujen"
+  },
+  {
+    "original": "Mercer Frey",
+    "string": "Mercer Frey",
+    "status": "TranslationComplete",
+    "form_id": "0001B07C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MercerFrey"
+  },
+  {
+    "original": "Evette San",
+    "string": "Evette San",
+    "status": "TranslationComplete",
+    "form_id": "00013273|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EvetteSan"
+  },
+  {
+    "original": "Ahtar",
+    "string": "Ahtar",
+    "status": "TranslationComplete",
+    "form_id": "0001325F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ahtar"
+  },
+  {
+    "original": "Rayya",
+    "string": "Rayya",
+    "status": "TranslationComplete",
+    "form_id": "03005215|HearthFires.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "BYOHHousecarlFalkreath"
+  },
+  {
+    "original": "Athir",
+    "string": "Athir",
+    "status": "TranslationComplete",
+    "form_id": "0C020C4C|Wyrmstooth.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WTFollowerAthir"
+  },
+  {
+    "original": "Vigilant Tyranus",
+    "string": "Vigile Tyranus",
+    "status": "TranslationComplete",
+    "form_id": "000A733B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Tyranus"
+  },
+  {
+    "original": "Stormcloak Soldier",
+    "string": "Soldat Sombrage",
+    "status": "TranslationComplete",
+    "form_id": "0004D366|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MQ101StormcloakArcher"
+  },
+  {
+    "original": "Stormcloak Soldier",
+    "string": "Soldat Sombrage",
+    "status": "TranslationComplete",
+    "form_id": "000F94B2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunCGStormcloakPrisonerFemaleDEAD"
+  },
+  {
+    "original": "Borgakh",
+    "string": "Borgakh",
+    "status": "TranslationComplete",
+    "form_id": "00019959|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Borgakh"
+  },
+  {
+    "original": "Shargam",
+    "string": "Shargam",
+    "status": "TranslationComplete",
+    "form_id": "0C020C4D|Wyrmstooth.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WTFollowerShargam"
+  },
+  {
+    "original": "Mazil-do",
+    "string": "Mazil-do",
+    "status": "TranslationComplete",
+    "form_id": "0E159853|Haem Projects Goblands.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HPGCatMazil"
+  },
+  {
+    "original": "Anwen",
+    "string": "Anwen",
+    "status": "TranslationComplete",
+    "form_id": "00013386|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Anwen"
+  },
+  {
+    "original": "Larak",
+    "string": "Larak",
+    "status": "TranslationComplete",
+    "form_id": "00019951|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Larak"
+  },
+  {
+    "original": "Keeper Carcette",
+    "string": "Gardienne Carcette",
+    "status": "TranslationComplete",
+    "form_id": "000BFB55|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "VigilantCarcette"
+  },
+  {
+    "original": "Penitus Oculatus Agent",
+    "string": "Agent du Penitus Oculatus",
+    "status": "TranslationComplete",
+    "form_id": "0007D98C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncPenitus00Template"
+  },
+  {
+    "original": "Captain Veleth",
+    "string": "Capitaine Veleth",
+    "status": "TranslationComplete",
+    "form_id": "030182AC|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2RRModynVeleth"
+  },
+  {
+    "original": "Thorald Gray-Mane",
+    "string": "Thorald Grisetoison",
+    "status": "TranslationComplete",
+    "form_id": "0001C241|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ThoraldGrayMane"
+  },
+  {
+    "original": "Curalmil",
+    "string": "Curalmil",
+    "status": "TranslationComplete",
+    "form_id": "4222B984|The Restless Dead.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "zzTRD_RD_DraugrBoss_Curalmil_03"
+  },
+  {
+    "original": "Gersemi",
+    "string": "Cheval",
+    "status": "TranslationComplete",
+    "form_id": "0300F9A8|HearthFires.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BYOHPlayerHorseSaddledPalominoNoRespawn"
+  },
+  {
+    "original": "Rayya",
+    "string": "Rayya",
+    "status": "TranslationComplete",
+    "form_id": "03005215|HearthFires.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BYOHHousecarlFalkreath"
+  },
+  {
+    "original": "Annekke",
+    "string": "Annekke",
+    "status": "TranslationComplete",
+    "form_id": "00013666|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Annekke"
+  },
+  {
+    "original": "Reaver",
+    "string": "Ravageur",
+    "status": "TranslationComplete",
+    "form_id": "0401E804|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "OREO_DLC2EncBandit00Template"
+  },
+  {
+    "original": "Dusk",
+    "string": "Cheval",
+    "status": "TranslationComplete",
+    "form_id": "03010FBB|HearthFires.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BYOHPlayerHorseSaddledGreyNoRespawn"
+  },
+  {
+    "original": "Tolfdir",
+    "string": "Tolfdir",
+    "status": "TranslationComplete",
+    "form_id": "0001C19E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Tolfdir"
+  },
+  {
+    "original": "Lob",
+    "string": "Lob",
+    "status": "TranslationComplete",
+    "form_id": "00019E1E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Lob"
+  },
+  {
+    "original": "Legate Rikke",
+    "string": "Légat Rikke",
+    "status": "TranslationComplete",
+    "form_id": "000D0573|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "CWBattleRikke"
+  },
+  {
+    "original": "Krosis",
+    "string": "Krosis",
+    "status": "TranslationComplete",
+    "form_id": "00100767|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "dunShearpointKrosisDragonPriest"
+  },
+  {
+    "original": "Yatul",
+    "string": "Yatul",
+    "status": "TranslationComplete",
+    "form_id": "0001B077|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Yatul"
+  },
+  {
+    "original": "Hamal",
+    "string": "Hamal",
+    "status": "TranslationComplete",
+    "form_id": "0001E765|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Hamal"
+  },
+  {
+    "original": "Assassin",
+    "string": "Assassin",
+    "status": "TranslationComplete",
+    "form_id": "001051FB|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WEAssassinTemplate"
+  },
+  {
+    "original": "Olur",
+    "string": "Olur",
+    "status": "TranslationComplete",
+    "form_id": "0001995B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Olur"
+  },
+  {
+    "original": "Gharol",
+    "string": "Gharol",
+    "status": "TranslationComplete",
+    "form_id": "00013B7C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gharol"
+  },
+  {
+    "original": "Shuftharz",
+    "string": "Shuftharz",
+    "status": "TranslationComplete",
+    "form_id": "00019957|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Shuftharz"
+  },
+  {
+    "original": "Dreyla",
+    "string": "Dreyla",
+    "status": "TranslationComplete",
+    "form_id": "04018294|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC2RRDreylaAlor"
+  },
+  {
+    "original": "Rahgot",
+    "string": "Rahgot",
+    "status": "TranslationComplete",
+    "form_id": "00035351|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DunForelhostDragonPriestRahgot"
+  },
+  {
+    "original": "Miraak",
+    "string": "Miraak",
+    "status": "TranslationComplete",
+    "form_id": "0301FB98|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC2MiraakMQ06"
+  },
+  {
+    "original": "Herleif Knot-Beard",
+    "string": "Herleif Barbe-Nouée",
+    "status": "TranslationComplete",
+    "form_id": "280E0069|The Great Village of Kynesgrove.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HerleifKnotBeardTGCoKG"
+  },
+  {
+    "original": "Velyna Rathvasi",
+    "string": "Vélyna Rathvasi",
+    "status": "TranslationComplete",
+    "form_id": "100063CF|MoonAndStar_MAS.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MASVelyna"
+  },
+  {
+    "original": "Krosis",
+    "string": "Krosis",
+    "status": "TranslationComplete",
+    "form_id": "00100767|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunShearpointKrosisDragonPriest"
+  },
+  {
+    "original": "Falas Selvayn",
+    "string": "Falas Selvayn",
+    "status": "TranslationComplete",
+    "form_id": "04031862|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2MerchMerchant"
+  },
+  {
+    "original": "Pilgrim",
+    "string": "Pèlerin",
+    "status": "TranslationComplete",
+    "form_id": "28113061|The Great Village of Kynesgrove.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "KynesgrovePilgrim01TGCoKG"
+  },
+  {
+    "original": "Onmund",
+    "string": "Onmund",
+    "status": "TranslationComplete",
+    "form_id": "0001C194|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Onmund"
+  },
+  {
+    "original": "Evette",
+    "string": "Evette",
+    "status": "TranslationComplete",
+    "form_id": "00013273|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "EvetteSan"
+  },
+  {
+    "original": "Flaming Familiar",
+    "string": "Familier de feu",
+    "status": "TranslationComplete",
+    "form_id": "0009CE28|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "SummonFlamingThrall"
+  },
+  {
+    "original": "Valerica",
+    "string": "Valérica",
+    "status": "TranslationComplete",
+    "form_id": "02003B8B|Dawnguard.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC1Valerica"
+  },
+  {
+    "original": "Rundi",
+    "string": "Rundi",
+    "status": "TranslationComplete",
+    "form_id": "00013BC1|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "POIMageRundi"
+  },
+  {
+    "original": "Dreyla Alor",
+    "string": "Dreyla Alor",
+    "status": "TranslationComplete",
+    "form_id": "04018294|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2RRDreylaAlor"
+  },
+  {
+    "original": "Tullius",
+    "string": "Tullius",
+    "status": "TranslationComplete",
+    "form_id": "000D0577|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "CWBattleTullius"
+  },
+  {
+    "original": "Miraak, The First Dragonborn",
+    "string": "Miraak",
+    "status": "TranslationComplete",
+    "form_id": "0301FB98|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2MiraakMQ06"
+  },
+  {
+    "original": "Brelyna Maryon",
+    "string": "Brelyna Maryon",
+    "status": "TranslationComplete",
+    "form_id": "0001C196|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "BrelynaMaryon"
+  },
+  {
+    "original": "Jolene",
+    "string": "Jolene",
+    "status": "TranslationComplete",
+    "form_id": "0D0562AB|3DNPC.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Jolene3DNPC"
+  },
+  {
+    "original": "Mhiir-do",
+    "string": "Mhiir-do",
+    "status": "TranslationComplete",
+    "form_id": "0E159852|Haem Projects Goblands.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HPGCatMhiir"
+  },
+  {
+    "original": "Galdrus Hlervu",
+    "string": "Galdrus Hlervu",
+    "status": "TranslationComplete",
+    "form_id": "0401828C|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2RRGaldrusHlervu"
+  },
+  {
+    "original": "Hunter",
+    "string": "Chasseur",
+    "status": "TranslationComplete",
+    "form_id": "00073FBE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHunter00Template"
+  },
+  {
+    "original": "Nightmare Courser",
+    "string": "Destrier daedra",
+    "status": "TranslationComplete",
+    "form_id": "07000B4B|ccbgssse067-daedinv.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ccBGSSSE067_DaedricHorseMount"
+  },
+  {
+    "original": "Manic Mage",
+    "string": "Mage Maniaque",
+    "status": "TranslationComplete",
+    "form_id": "3D000836|mihailgrummite.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "mihail_grummite_mage_mania2b"
+  },
+  {
+    "original": "Veleth",
+    "string": "Veleth",
+    "status": "TranslationComplete",
+    "form_id": "030182AC|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC2RRModynVeleth"
+  },
+  {
+    "original": "Thorald",
+    "string": "Thorald",
+    "status": "TranslationComplete",
+    "form_id": "0001C241|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "ThoraldGrayMane"
+  },
+  {
+    "original": "Torolf",
+    "string": "Torolf",
+    "status": "TranslationComplete",
+    "form_id": "00013641|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Torolf"
+  },
+  {
+    "original": "Carcette",
+    "string": "Carcette",
+    "status": "TranslationComplete",
+    "form_id": "000BFB55|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "VigilantCarcette"
+  },
+  {
+    "original": "Lurius Liore",
+    "string": "Lurius Liore",
+    "status": "TranslationComplete",
+    "form_id": "0C00BF55|Wyrmstooth.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WTLuriusLiore"
+  },
+  {
+    "original": "Ingrid",
+    "string": "Ingrid",
+    "status": "TranslationComplete",
+    "form_id": "0001363F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ingrid"
+  },
+  {
+    "original": "General Tullius",
+    "string": "Général Tullius",
+    "status": "TranslationComplete",
+    "form_id": "000D0577|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "CWBattleTullius"
+  },
+  {
+    "original": "Marcurio",
+    "string": "Marcurio",
+    "status": "TranslationComplete",
+    "form_id": "000B9980|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HirelingMarcurio"
+  },
+  {
+    "original": "Malborn",
+    "string": "Malborn",
+    "status": "TranslationComplete",
+    "form_id": "00036194|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Malborn"
+  },
+  {
+    "original": "Dark Brotherhood Initiate",
+    "string": "Initiée de la Confrérie noire",
+    "status": "TranslationComplete",
+    "form_id": "00015CFE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DBInitiate2"
+  },
+  {
+    "original": "Nazir",
+    "string": "Nazir",
+    "status": "TranslationComplete",
+    "form_id": "0001C3AB|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nazir"
+  },
+  {
+    "original": "Uthgerd the Unbroken",
+    "string": "Uthgerd l'Inflexible",
+    "status": "TranslationComplete",
+    "form_id": "000918E2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Uthgerd"
+  },
+  {
+    "original": "Belvadyr Rathvasi",
+    "string": "Belvadyr Rathvasi",
+    "status": "TranslationComplete",
+    "form_id": "100063D0|MoonAndStar_MAS.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MASBelvadyr"
+  },
+  {
+    "original": "Pilgrim",
+    "string": "Pèlerine",
+    "status": "TranslationComplete",
+    "form_id": "28113062|The Great Village of Kynesgrove.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "KynesgrovePilgrim02TGCoKG"
+  },
+  {
+    "original": "Imperial Soldier",
+    "string": "Soldat impérial",
+    "status": "TranslationComplete",
+    "form_id": "0010A1AB|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MQ101ImperialSoldierMelee02"
+  },
+  {
+    "original": "Saints Bandit",
+    "string": "Saint bandit",
+    "status": "TranslationComplete",
+    "form_id": "080009A6|ccBGSSSE025-AdvDSGS.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ccBGSSSE025_EncBanditTemplateMissileGolden"
+  },
+  {
+    "original": "Gala",
+    "string": "Gala",
+    "status": "TranslationComplete",
+    "form_id": "280A2EA1|The Great Village of Kynesgrove.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "GalaTGCoKG"
+  },
+  {
+    "original": "Deeja",
+    "string": "Deeja",
+    "status": "TranslationComplete",
+    "form_id": "00013268|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Deeja"
+  },
+  {
+    "original": "Eskil",
+    "string": "Eskil",
+    "status": "TranslationComplete",
+    "form_id": "2803868C|The Great Village of Kynesgrove.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EskilTGCoKG"
+  },
+  {
+    "original": "Palomino Horse",
+    "string": "Cheval palomino",
+    "status": "TranslationComplete",
+    "form_id": "00068D6E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHorsePalomino"
+  },
+  {
+    "original": "Nahkriin",
+    "string": "Nahkriin",
+    "status": "TranslationComplete",
+    "form_id": "000F849B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunSkuldafnNahkriin"
+  },
+  {
+    "original": "Eola",
+    "string": "Eola",
+    "status": "TranslationComplete",
+    "form_id": "0001990F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Eola"
+  },
+  {
+    "original": "Ollrod",
+    "string": "Ollrod",
+    "status": "TranslationComplete",
+    "form_id": "02010DE7|Dawnguard.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC1DawnguardExterior03"
+  },
+  {
+    "original": "Cindiri",
+    "string": "Cindiri",
+    "status": "TranslationComplete",
+    "form_id": "04018282|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC2RRCindiriArano"
+  },
+  {
+    "original": "Seducers Bandit",
+    "string": "Séducteur bandit",
+    "status": "TranslationComplete",
+    "form_id": "080009A7|ccBGSSSE025-AdvDSGS.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ccBGSSSE025_EncBanditTemplateMissileSeducer"
+  },
+  {
+    "original": "Tharstan",
+    "string": "Tharstan",
+    "status": "TranslationComplete",
+    "form_id": "04018FC8|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2SVTharstan"
+  },
+  {
+    "original": "Morokei",
+    "string": "Morokei",
+    "status": "TranslationComplete",
+    "form_id": "000F496C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MG07LabyrinthianDragonPriest"
+  },
+  {
+    "original": "Daenlit",
+    "string": "Daenlit",
+    "status": "TranslationComplete",
+    "form_id": "0C020C4E|Wyrmstooth.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WTFollowerDaenlit"
+  },
+  {
+    "original": "Brelyna",
+    "string": "Brelyna",
+    "status": "TranslationComplete",
+    "form_id": "0001C196|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "BrelynaMaryon"
+  },
+  {
+    "original": "Beautiful Barbarian",
+    "string": "Superbe barbare",
+    "status": "TranslationComplete",
+    "form_id": "00087B9E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DBRecurringTarget10GraniteHill"
+  },
+  {
+    "original": "Curalmil",
+    "string": "Curalmil",
+    "status": "TranslationComplete",
+    "form_id": "42208243|The Restless Dead.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "zzTRD_RD_DraugrBoss_Curalmil_02"
+  },
+  {
+    "original": "Galdrus",
+    "string": "Galdrus",
+    "status": "TranslationComplete",
+    "form_id": "0401828C|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC2RRGaldrusHlervu"
+  },
+  {
+    "original": "Manic Mage",
+    "string": "Mage Maniaque",
+    "status": "TranslationComplete",
+    "form_id": "3D000835|mihailgrummite.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "mihail_grummite_mage_mania2a"
+  },
+  {
+    "original": "Cindiri Arano",
+    "string": "Cindiri Arano",
+    "status": "TranslationComplete",
+    "form_id": "04018282|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2RRCindiriArano"
+  },
+  {
+    "original": "Volsung",
+    "string": "Volsung",
+    "status": "TranslationComplete",
+    "form_id": "00041930|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunVolskyggeDragonPriest01"
+  },
+  {
+    "original": "Demented Mage",
+    "string": "Mage dément",
+    "status": "TranslationComplete",
+    "form_id": "3D000831|mihailgrummite.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "mihail_grummite_mage_demented1b"
+  },
+  {
+    "original": "Talvas",
+    "string": "Talvas",
+    "status": "TranslationComplete",
+    "form_id": "04017777|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC2Talvas"
+  },
+  {
+    "original": "Gypsy Horse",
+    "string": "Cheval gitan",
+    "status": "TranslationComplete",
+    "form_id": "00068D6B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHorseBlackAndWhite"
+  },
+  {
+    "original": "Dark Brotherhood Initiate",
+    "string": "Initié de la Confrérie noire",
+    "status": "TranslationComplete",
+    "form_id": "00015CFA|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DBInitiate1"
+  },
+  {
+    "original": "Gularzob",
+    "string": "Gularzob",
+    "status": "TranslationComplete",
+    "form_id": "00019E20|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gularzob"
+  },
+  {
+    "original": "Stormcloak Soldier",
+    "string": "Soldat Sombrage",
+    "status": "TranslationComplete",
+    "form_id": "0010A1A6|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MQ101StormcloakArcher02"
+  },
+  {
+    "original": "Black Fell Pony",
+    "string": "Poney fell noir",
+    "status": "TranslationComplete",
+    "form_id": "00068CFA|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHorseSaddledBlack"
+  },
+  {
+    "original": "Bal-Ran",
+    "string": "Bal-Ran",
+    "status": "TranslationComplete",
+    "form_id": "10005E4C|MoonAndStar_MAS.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MASBalRan"
+  },
+  {
+    "original": "Ralis Sedarys",
+    "string": "Ralis Sedarys",
+    "status": "TranslationComplete",
+    "form_id": "040179C7|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2dunKolbjornRalis"
+  },
+  {
+    "original": "Shel",
+    "string": "Shel",
+    "status": "TranslationComplete",
+    "form_id": "00013B7D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Shel"
+  },
+  {
+    "original": "Taren Darrosa",
+    "string": "Taren Darrosa",
+    "status": "TranslationComplete",
+    "form_id": "10005E42|MoonAndStar_MAS.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MASTaren"
+  },
+  {
+    "original": "Palomino Horse",
+    "string": "Cheval palomino",
+    "status": "TranslationComplete",
+    "form_id": "00068D04|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHorseSaddledPalomino"
+  },
+  {
+    "original": "Nana Ildene",
+    "string": "Nana Ildene",
+    "status": "TranslationComplete",
+    "form_id": "000133A0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ildene"
+  },
+  {
+    "original": "Electromancer",
+    "string": "Électromancien",
+    "status": "TranslationComplete",
+    "form_id": "00045CC0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncWarlock06TemplateStorm"
+  },
+  {
+    "original": "Imperial Captain",
+    "string": "Capitaine impériale",
+    "status": "TranslationComplete",
+    "form_id": "000AAFAC|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MQ101ImperialSoldierOfficer"
+  },
+  {
+    "original": "Confidence",
+    "string": "Confiance",
+    "status": "TranslationComplete",
+    "form_id": "0009F844|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunBluePalacePelagiusFearful"
+  },
+  {
+    "original": "Orc Hunter",
+    "string": "Orque chasseur",
+    "status": "TranslationComplete",
+    "form_id": "000D9447|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncOrcHunterTemplate"
+  },
+  {
+    "original": "Elmera",
+    "string": "Elmera",
+    "status": "TranslationComplete",
+    "form_id": "0C020C4F|Wyrmstooth.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WTFollowerElmera"
+  },
+  {
+    "original": "Gunnar Stone-Eye",
+    "string": "Gunnar Oeil-de-Pierre",
+    "status": "TranslationComplete",
+    "form_id": "00013643|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "GunnarStoneEye"
+  },
+  {
+    "original": "Talvas Fathryon",
+    "string": "Talvas Fathryon",
+    "status": "TranslationComplete",
+    "form_id": "04017777|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2Talvas"
+  },
+  {
+    "original": "Urog",
+    "string": "Urog",
+    "status": "TranslationComplete",
+    "form_id": "0001B078|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Urog"
+  },
+  {
+    "original": "Demented Mage",
+    "string": "Mage dément",
+    "status": "TranslationComplete",
+    "form_id": "3D000834|mihailgrummite.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "mihail_grummite_mage_demented2b"
+  },
+  {
+    "original": "Angi",
+    "string": "Angi",
+    "status": "TranslationComplete",
+    "form_id": "000CAB2F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunAngiREF"
+  },
+  {
+    "original": "Ugor",
+    "string": "Ugor",
+    "status": "TranslationComplete",
+    "form_id": "00019E1A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ugor"
+  },
+  {
+    "original": "Exmoor Pony",
+    "string": "Poney Exmoor",
+    "status": "TranslationComplete",
+    "form_id": "00068D5B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHorseBrown"
+  },
+  {
+    "original": "Djirra-ko",
+    "string": "Djirra-ko",
+    "status": "TranslationComplete",
+    "form_id": "0E14F64A|Haem Projects Goblands.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HPGCatDjirra"
+  },
+  {
+    "original": "Ghorza gra-Bagol",
+    "string": "Ghorza gra-Bagol",
+    "status": "TranslationComplete",
+    "form_id": "0001339A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "GhorzaGraBagol"
+  },
+  {
+    "original": "Nagrub",
+    "string": "Nagrub",
+    "status": "TranslationComplete",
+    "form_id": "00013B7F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nagrub"
+  },
+  {
+    "original": "Tharstan",
+    "string": "Tharstan",
+    "status": "TranslationComplete",
+    "form_id": "04018FC8|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC2SVTharstan"
+  },
+  {
+    "original": "Otar the Mad",
+    "string": "Otar le Fou",
+    "status": "TranslationComplete",
+    "form_id": "0003763A|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "dunRagnOtar"
+  },
+  {
+    "original": "Ragna",
+    "string": "Ragna",
+    "status": "TranslationComplete",
+    "form_id": "280E006B|The Great Village of Kynesgrove.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "RagnaTGCoKG"
+  },
+  {
+    "original": "Harkon",
+    "string": "Harkon",
+    "status": "TranslationComplete",
+    "form_id": "02003BA7|Dawnguard.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC1Harkon"
+  },
+  {
+    "original": "Elder Othreloth",
+    "string": "Doyen Othreloth",
+    "status": "TranslationComplete",
+    "form_id": "0401828A|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC2RRElderOthreloth"
+  },
+  {
+    "original": "Arniel's Shade",
+    "string": "Ombre d'Arniel",
+    "status": "TranslationComplete",
+    "form_id": "0006A152|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MAG_MGArnielSummon"
+  },
+  {
+    "original": "Nirya",
+    "string": "Nirya",
+    "status": "TranslationComplete",
+    "form_id": "0001C19B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Nirya"
+  },
+  {
+    "original": "Orthorn",
+    "string": "Orthorn",
+    "status": "TranslationComplete",
+    "form_id": "0002A388|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Orthorn"
+  },
+  {
+    "original": "Priestess of Arkay",
+    "string": "Prêtresse d'Arkay",
+    "status": "TranslationComplete",
+    "form_id": "00107572|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "MQ101ImperialPriest"
+  },
+  {
+    "original": "Matlara",
+    "string": "Matlara",
+    "status": "TranslationComplete",
+    "form_id": "00013640|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Matlara"
+  },
+  {
+    "original": "Garakh",
+    "string": "Garakh",
+    "status": "TranslationComplete",
+    "form_id": "00019E1C|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Garakh"
+  },
+  {
+    "original": "Iddra",
+    "string": "Iddra",
+    "status": "TranslationComplete",
+    "form_id": "00013662|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Iddra"
+  },
+  {
+    "original": "Hevnoraak",
+    "string": "Hevnoraak",
+    "status": "TranslationComplete",
+    "form_id": "0004D6E7|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunValthumeHevnoraak"
+  },
+  {
+    "original": "Curalmil",
+    "string": "Curalmil",
+    "status": "TranslationComplete",
+    "form_id": "4222B985|The Restless Dead.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "zzTRD_RD_DraugrBoss_Curalmil_04"
+  },
+  {
+    "original": "Otar the Mad",
+    "string": "Otar le Fou",
+    "status": "TranslationComplete",
+    "form_id": "0003763A|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "dunRagnOtar"
+  },
+  {
+    "original": "Mjoll the Lioness",
+    "string": "Mjoll la Lionne",
+    "status": "TranslationComplete",
+    "form_id": "0001336B|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Mjoll"
+  },
+  {
+    "original": "Lord Harkon",
+    "string": "Seigneur Harkon",
+    "status": "TranslationComplete",
+    "form_id": "02003BA7|Dawnguard.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC1Harkon"
+  },
+  {
+    "original": "Gypsy Horse",
+    "string": "Cheval gitan",
+    "status": "TranslationComplete",
+    "form_id": "00068D02|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHorseSaddledBlackAndWhite"
+  },
+  {
+    "original": "Curalmil",
+    "string": "Curalmil",
+    "status": "TranslationComplete",
+    "form_id": "4222B987|The Restless Dead.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "zzTRD_RD_DraugrBoss_Curalmil_06"
+  },
+  {
+    "original": "Ralis",
+    "string": "Ralis",
+    "status": "TranslationComplete",
+    "form_id": "040179C7|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC2dunKolbjornRalis"
+  },
+  {
+    "original": "Ulfnir Bone-Skin",
+    "string": "Ulfnir Peau-d'os",
+    "status": "TranslationComplete",
+    "form_id": "0600081E|ccbgssse060-ba_dragonscale.esl",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "ccBGSSSE060_Ulfnir"
+  },
+  {
+    "original": "Ildene",
+    "string": "Ildene",
+    "status": "TranslationComplete",
+    "form_id": "000133A0|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "Ildene"
+  },
+  {
+    "original": "Orla",
+    "string": "Orla",
+    "status": "TranslationComplete",
+    "form_id": "000133B0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Orla"
+  },
+  {
+    "original": "Njada",
+    "string": "Njada",
+    "status": "TranslationComplete",
+    "form_id": "0001A6D9|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "NjadaStonearm"
+  },
+  {
+    "original": "Golldir",
+    "string": "Golldir",
+    "status": "TranslationComplete",
+    "form_id": "00019FE8|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Golldir"
+  },
+  {
+    "original": "Ferryman",
+    "string": "Passeur",
+    "status": "TranslationComplete",
+    "form_id": "0201684C|Dawnguard.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC1FerrymanTemplateNew"
+  },
+  {
+    "original": "Gunnar",
+    "string": "Gunnar",
+    "status": "TranslationComplete",
+    "form_id": "00013643|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "GunnarStoneEye"
+  },
+  {
+    "original": "Jaree",
+    "string": "Jaree",
+    "status": "TranslationComplete",
+    "form_id": "0001328D|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "JareeRa"
+  },
+  {
+    "original": "Ria",
+    "string": "Ria",
+    "status": "TranslationComplete",
+    "form_id": "0001A6D7|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Ria"
+  },
+  {
+    "original": "Grey Fell Pony",
+    "string": "Poney fell gris",
+    "status": "TranslationComplete",
+    "form_id": "00068D6D|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHorseGrey"
+  },
+  {
+    "original": "Calder",
+    "string": "Calder",
+    "status": "TranslationComplete",
+    "form_id": "000A2C90|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HousecarlWindhelm"
+  },
+  {
+    "original": "Faendal",
+    "string": "Faendal",
+    "status": "TranslationComplete",
+    "form_id": "00013480|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Faendal"
+  },
+  {
+    "original": "Festus Krex",
+    "string": "Festus Krex",
+    "status": "TranslationComplete",
+    "form_id": "0001BDB2|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "FestusKrex"
+  },
+  {
+    "original": "General Tullius",
+    "string": "Général Tullius",
+    "status": "TranslationComplete",
+    "form_id": "0001327E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "GeneralTullius"
+  },
+  {
+    "original": "Ghorza",
+    "string": "Ghorza",
+    "status": "TranslationComplete",
+    "form_id": "0001339A|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "GhorzaGraBagol"
+  },
+  {
+    "original": "Ilas-Tei",
+    "string": "Ilas-Tei",
+    "status": "TranslationComplete",
+    "form_id": "000D5046|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "POIMageIlasTei"
+  },
+  {
+    "original": "Njada Stonearm",
+    "string": "Njada Bras-de-Pierre",
+    "status": "TranslationComplete",
+    "form_id": "0001A6D9|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "NjadaStonearm"
+  },
+  {
+    "original": "M'Raksa",
+    "string": "M'Raksa",
+    "status": "TranslationComplete",
+    "form_id": "0E14F646|Haem Projects Goblands.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HPGCatMRaksa"
+  },
+  {
+    "original": "Grey Fell Pony",
+    "string": "Poney fell gris",
+    "status": "TranslationComplete",
+    "form_id": "00068D03|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncHorseSaddledGrey"
+  },
+  {
+    "original": "Nimphaneth",
+    "string": "Nimphaneth",
+    "status": "TranslationComplete",
+    "form_id": "0009BB45|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DA11Nimphaneth"
+  },
+  {
+    "original": "Lydia",
+    "string": "Lydia",
+    "status": "TranslationComplete",
+    "form_id": "000A2C8E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "HousecarlWhiterun"
+  },
+  {
+    "original": "Lydia",
+    "string": "Lydia",
+    "status": "TranslationComplete",
+    "form_id": "000A2C8E|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "HousecarlWhiterun"
+  },
+  {
+    "original": "Bottar",
+    "string": "Bottar",
+    "status": "TranslationComplete",
+    "form_id": "000B94A9|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "WERJ04Kid02"
+  },
+  {
+    "original": "Dwarven Centurion Guardian",
+    "string": "Gardien centurion dwemer",
+    "status": "TranslationComplete",
+    "form_id": "0010E753|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EncDwarvenCenturion02"
+  },
+  {
+    "original": "Arch-Curate Vyrthur",
+    "string": "Archivicaire Vyrthur",
+    "status": "TranslationComplete",
+    "form_id": "02003788|Dawnguard.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC1AlthadanVyrthur"
+  },
+  {
+    "original": "Celann",
+    "string": "Celann",
+    "status": "TranslationComplete",
+    "form_id": "0201541E|Dawnguard.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "DLC1Celann"
+  },
+  {
+    "original": "Celann",
+    "string": "Celann",
+    "status": "TranslationComplete",
+    "form_id": "0201541E|Dawnguard.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "DLC1Celann"
+  },
+  {
+    "original": "Gorr",
+    "string": "Gorr",
+    "status": "TranslationComplete",
+    "form_id": "0C02D184|3DNPC.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Gorr"
+  },
+  {
+    "original": "Lucien Flavius",
+    "string": "Lucien Flavius",
+    "status": "TranslationComplete",
+    "form_id": "1C005900|Lucien.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "JRLucien"
+  },
+  {
+    "original": "Lucien",
+    "string": "Lucien",
+    "status": "TranslationComplete",
+    "form_id": "1C005900|Lucien.esp",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "JRLucien"
+  }
+]

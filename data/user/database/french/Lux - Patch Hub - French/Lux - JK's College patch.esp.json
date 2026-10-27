@@ -1,0 +1,56 @@
+[
+  {
+    "original": "Hall of Attainment",
+    "string": "Pavillon de l'Accomplissement",
+    "status": "TranslationComplete",
+    "form_id": "000CAB91|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WinterholdCollegeHallofAttainment"
+  },
+  {
+    "original": "Arch-Mage's Quarters",
+    "string": "Quartiers de l'archimage",
+    "status": "TranslationComplete",
+    "form_id": "000CAB92|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WinterholdCollegeArchMageQuarters"
+  },
+  {
+    "original": "The Midden",
+    "string": "Hyposcole",
+    "status": "TranslationComplete",
+    "form_id": "0002BCD7|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WinterholdCollegeMidden01"
+  },
+  {
+    "original": "Hall of the Elements",
+    "string": "Salle des éléments",
+    "status": "TranslationComplete",
+    "form_id": "0001380E|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WinterholdCollegeHallofTheElements"
+  },
+  {
+    "original": "Hall of Countenance",
+    "string": "Pavillon de la Prestance",
+    "status": "TranslationComplete",
+    "form_id": "0001380F|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WinterholdCollegeHallofCountenance"
+  },
+  {
+    "original": "The Arcanaeum",
+    "string": "Arcanaeum",
+    "status": "TranslationComplete",
+    "form_id": "00013810|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WinterholdCollegeArcanaeum"
+  }
+]

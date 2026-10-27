@@ -703,7 +703,7 @@
   },
   {
     "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
-    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "string": "Hallebarde maniée par les chevaliers égéens, des guerriers ayant voué leur vie à la protection du peuple de Tamriel.",
     "status": "TranslationComplete",
     "form_id": "17000D65|FGCAegeanSentinelHalberd.esp",
     "type": "WEAP DESC",
@@ -874,7 +874,7 @@
   },
   {
     "original": "Inflicts 10 points of bleeding damage for a duration of 5 seconds",
-    "string": "Tout cela pour ce moment...",
+    "string": "Inflige 10 points de dégâts de saignement pendant 5 secondes.",
     "status": "TranslationComplete",
     "form_id": "28000800|[TDarce] Black Silence Durandal.esp",
     "type": "WEAP DESC",
@@ -1153,7 +1153,7 @@
   },
   {
     "original": "Stalker",
-    "string": "Épée (2)",
+    "string": "Traqueur",
     "status": "TranslationComplete",
     "form_id": "38000D69|Swords 2-5.esp",
     "type": "WEAP FULL",
@@ -1162,7 +1162,7 @@
   },
   {
     "original": "Justice",
-    "string": "Épée (3)",
+    "string": "Justice",
     "status": "TranslationComplete",
     "form_id": "38000D66|Swords 2-5.esp",
     "type": "WEAP FULL",
@@ -1441,7 +1441,7 @@
   },
   {
     "original": "Aegean Sentinel Halberd+2",
-    "string": "Hallebarde de sentinelle Égéenne",
+    "string": "Hallebarde de sentinelle égéenne +2",
     "status": "TranslationComplete",
     "form_id": "17000D65|FGCAegeanSentinelHalberd.esp",
     "type": "WEAP FULL",
@@ -1567,7 +1567,7 @@
   },
   {
     "original": "Aegean Sentinel Halberd+3",
-    "string": "Hallebarde de sentinelle Égéenne",
+    "string": "Hallebarde de sentinelle égéenne +3",
     "status": "TranslationComplete",
     "form_id": "17000D66|FGCAegeanSentinelHalberd.esp",
     "type": "WEAP FULL",
@@ -2080,7 +2080,7 @@
   },
   {
     "original": "Elexorien [2h]",
-    "string": "Elexorien [2 mains]",
+    "string": "Elexorien (deux mains)",
     "status": "TranslationComplete",
     "form_id": "24000D67|Elexorien.esp",
     "type": "WEAP FULL",
@@ -2206,7 +2206,7 @@
   },
   {
     "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
-    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "string": "Hallebarde maniée par les chevaliers égéens, des guerriers ayant voué leur vie à la protection du peuple de Tamriel.",
     "status": "TranslationComplete",
     "form_id": "17000D66|FGCAegeanSentinelHalberd.esp",
     "type": "WEAP DESC",
@@ -2719,7 +2719,7 @@
   },
   {
     "original": "Aegean Sentinel Halberd+4",
-    "string": "Hallebarde de sentinelle Égéenne",
+    "string": "Hallebarde de sentinelle égéenne +4",
     "status": "TranslationComplete",
     "form_id": "17000D67|FGCAegeanSentinelHalberd.esp",
     "type": "WEAP FULL",
@@ -2917,7 +2917,7 @@
   },
   {
     "original": "Aegean Sentinel Halberd+1",
-    "string": "Hallebarde de sentinelle Égéenne",
+    "string": "Hallebarde de sentinelle égéenne +1",
     "status": "TranslationComplete",
     "form_id": "17000D64|FGCAegeanSentinelHalberd.esp",
     "type": "WEAP FULL",
@@ -3250,7 +3250,7 @@
   },
   {
     "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
-    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "string": "Hallebarde maniée par les chevaliers égéens, des guerriers ayant voué leur vie à la protection du peuple de Tamriel.",
     "status": "TranslationComplete",
     "form_id": "17000D67|FGCAegeanSentinelHalberd.esp",
     "type": "WEAP DESC",
@@ -3259,7 +3259,7 @@
   },
   {
     "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
-    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "string": "Hallebarde maniée par les chevaliers égéens, des guerriers ayant voué leur vie à la protection du peuple de Tamriel.",
     "status": "TranslationComplete",
     "form_id": "17000D68|FGCAegeanSentinelHalberd.esp",
     "type": "WEAP DESC",
@@ -3385,7 +3385,7 @@
   },
   {
     "original": "Luciendar (Greatsword)",
-    "string": "Luciendar [2M]",
+    "string": "Luciendar (Espadon)",
     "status": "TranslationComplete",
     "form_id": "2C000805|Luciendar.esp",
     "type": "WEAP FULL",
@@ -3547,7 +3547,7 @@
   },
   {
     "original": "Halberd wielded by the Aegean Knights, warriors that sworn their lives for the protection of Tamriel's people.",
-    "string": "Hallebarde brandie par les chevaliers Égéens, des guerriers qui ont juré leur vie pour la protection du peuple de Tamriel.",
+    "string": "Hallebarde maniée par les chevaliers égéens, des guerriers ayant voué leur vie à la protection du peuple de Tamriel.",
     "status": "TranslationComplete",
     "form_id": "17000D64|FGCAegeanSentinelHalberd.esp",
     "type": "WEAP DESC",
@@ -3934,7 +3934,7 @@
   },
   {
     "original": "Betrayer",
-    "string": "Épée (5)",
+    "string": "Traître",
     "status": "TranslationComplete",
     "form_id": "38000D68|Swords 2-5.esp",
     "type": "WEAP FULL",
@@ -4132,7 +4132,7 @@
   },
   {
     "original": "Aegean Sentinel Halberd+5",
-    "string": "Hallebarde de sentinelle Égéenne",
+    "string": "Hallebarde de sentinelle égéenne +5",
     "status": "TranslationComplete",
     "form_id": "17000D68|FGCAegeanSentinelHalberd.esp",
     "type": "WEAP FULL",

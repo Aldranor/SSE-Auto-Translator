@@ -1,0 +1,432 @@
+[
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "0001326F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Endarie",
+    "before": "Endarie",
+    "after": "Endarië",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Endarië"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "00013272|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Erikur",
+    "before": "Erikur",
+    "after": "Érikur",
+    "nature": "Canon officiel Bethesda / TSOS / AI Overhaul : Érikur"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "00013296|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Wayfinder",
+    "before": "Navigateur",
+    "after": "Nautonier",
+    "nature": "Canon officiel Bethesda / USSEP : Capitaine Nautonier (court: Nautonier)"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "000132AB|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Taarie",
+    "before": "Taarie",
+    "after": "Taarië",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Taarië"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "000133B8|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Skaggi Scar-Face",
+    "before": "Skaggi Balafré",
+    "after": "Skaggi le Balafré",
+    "nature": "Canon officiel Bethesda / USSEP / TSOS : Skaggi le Balafré"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "00013B76|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Leontius Salvius",
+    "before": "Leontius Salvius",
+    "after": "Léontius Salvius",
+    "nature": "Canon officiel Bethesda / USSEP : Léontius Salvius"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "00013B76|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Leontius",
+    "before": "Leontius",
+    "after": "Léontius",
+    "nature": "Canon officiel Bethesda / USSEP : Léontius"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "00014122|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Suvaris Atheron",
+    "before": "Suvaris Atheron",
+    "after": "Suvaris Athéron",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Suvaris Athéron"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "00014140|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Aval Atheron",
+    "before": "Aval Atheron",
+    "after": "Aval Athéron",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Aval Athéron"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "0001414E|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Malthyr Elenil",
+    "before": "Malthyr Elenil",
+    "after": "Malthyr Élénil",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Malthyr Élénil"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "00019A2E|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Michel",
+    "before": "Michel",
+    "after": "Michelle",
+    "nature": "Canon officiel Bethesda / USSEP : Michelle (PNJ Michelle Lylvieve)"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "00019BFE|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Avrusa Sarethi",
+    "before": "Avrusa Sarethi",
+    "after": "Avrusa Saréthi",
+    "nature": "Canon officiel Bethesda / Nithi / Dibella : Avrusa Saréthi"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "00019BFF|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Aduri Sarethi",
+    "before": "Aduri Sarethi",
+    "after": "Aduri Saréthi",
+    "nature": "Canon officiel Bethesda / Nithi / Dibella : Aduri Saréthi"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "0001C182|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Malur Seloth",
+    "before": "Malur Seloth",
+    "after": "Malur Séloth",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Malur Séloth"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "0001C198|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Drevis Neloren",
+    "before": "Drevis Neloren",
+    "after": "Drévis Néloren",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Drévis Néloren"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "0001C198|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Drevis",
+    "before": "Drevis",
+    "after": "Drévis",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Drévis"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "0002C925|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Severio Pelagia",
+    "before": "Severio Pelagia",
+    "after": "Sévério Pélagia",
+    "nature": "Canon officiel Bethesda / USSEP : Sévério Pélagia"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "000350A7|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Erik",
+    "before": "Erik",
+    "after": "Érik",
+    "nature": "Canon officiel Bethesda / USSEP : Érik"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "0003A1D3|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Etienne Rarnis",
+    "before": "Etienne Rarnis",
+    "after": "Étienne Rarnis",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Étienne Rarnis"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "04017778|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Elynea Mothren",
+    "before": "Elynea Mothren",
+    "after": "Élynéa Mothren",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Élynéa Mothren"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "04017778|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Elynea",
+    "before": "Elynea",
+    "after": "Élynéa",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Élynéa"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "0401777D|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Ulves Romoran",
+    "before": "Ulves Romoran",
+    "after": "Ulvès Romoran",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Ulvès Romoran"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "0401777D|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Ulves",
+    "before": "Ulves",
+    "after": "Ulvès",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Ulvès"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "0401827C|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Aphia Velothi",
+    "before": "Aphia Velothi",
+    "after": "Aphia Vélothi",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Aphia Vélothi"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "04039D10|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Evul Seloth",
+    "before": "Evul Seloth",
+    "after": "Évul Séloth",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Évul Séloth"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "04039D10|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Evul",
+    "before": "Evul",
+    "after": "Évul",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Évul"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "04039D16|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Meden Maren",
+    "before": "Meden Maren",
+    "after": "Méden Maren",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Méden Maren"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "04039D16|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Meden",
+    "before": "Meden",
+    "after": "Méden",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Méden"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "04039D18|Dragonborn.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Tolenos Omoren",
+    "before": "Tolenos Omoren",
+    "after": "Tolénos Omoren",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Tolénos Omoren"
+  },
+  {
+    "file": "[xPatch] Modpocalypse NPCs (v3) SSE - AI Overhaul.esp.json",
+    "form_id": "04039D18|Dragonborn.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Tolenos",
+    "before": "Tolenos",
+    "after": "Tolénos",
+    "nature": "Canon officiel Bethesda / Modpocalypse Vanilla : Tolénos"
+  },
+  {
+    "file": "DIbella's Blessing - RSV Exclusion Patch.esp.json",
+    "form_id": "000BFB55|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Keeper Carcette",
+    "before": "Carcette la Gardienne",
+    "after": "Gardienne Carcette",
+    "nature": "Canon officiel Bethesda / USSEP / Nolvus : Gardienne Carcette"
+  },
+  {
+    "file": "DIbella's Blessing - RSV Exclusion Patch.esp.json",
+    "form_id": "0001365F|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Dravynea the Stoneweaver",
+    "before": "Dravynéa la Tisseuse-de-Pierre",
+    "after": "Dravynea la Tisseuse de pierre",
+    "nature": "Canon officiel Bethesda / USSEP : Dravynea la Tisseuse de pierre"
+  },
+  {
+    "file": "DIbella's Blessing - RSV Exclusion Patch.esp.json",
+    "form_id": "0001365F|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Dravynea",
+    "before": "Dravynéa",
+    "after": "Dravynea",
+    "nature": "Canon officiel Bethesda / USSEP : Dravynea"
+  },
+  {
+    "file": "DIbella's Blessing - RSV Exclusion Patch.esp.json",
+    "form_id": "000877AF|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Edith",
+    "before": "Édith",
+    "after": "Edith",
+    "nature": "Canon officiel Bethesda / USSEP : Edith (sans accent)"
+  },
+  {
+    "file": "DIbella's Blessing - RSV Exclusion Patch.esp.json",
+    "form_id": "0001C196|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Brelyna Maryon",
+    "before": "Brélyna Maryon",
+    "after": "Brelyna Maryon",
+    "nature": "Canon officiel Bethesda / USSEP : Brelyna Maryon (sans accent)"
+  },
+  {
+    "file": "DIbella's Blessing - RSV Exclusion Patch.esp.json",
+    "form_id": "0001C196|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Brelyna",
+    "before": "Brélyna",
+    "after": "Brelyna",
+    "nature": "Canon officiel Bethesda / USSEP : Brelyna (sans accent)"
+  },
+  {
+    "file": "DIbella's Blessing - RSV Exclusion Patch.esp.json",
+    "form_id": "00014123|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Niranye",
+    "before": "Niranyë",
+    "after": "Niranye",
+    "nature": "Canon officiel Bethesda / USSEP : Niranye (sans tréma)"
+  },
+  {
+    "file": "DIbella's Blessing - RSV Exclusion Patch.esp.json",
+    "form_id": "000274A0|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Laelette the Vampire",
+    "before": "Laelette",
+    "after": "Laelette la vampire",
+    "nature": "Canon officiel Bethesda / Fanatical Enemies : Laelette la vampire"
+  },
+  {
+    "file": "DIbella's Blessing - RSV Exclusion Patch.esp.json",
+    "form_id": "000D74F8|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Farmer",
+    "before": "Fermier",
+    "after": "Fermière",
+    "nature": "Accord en genre pour PNJ féminin : Fermière (canon Modpocalypse)"
+  },
+  {
+    "file": "fanatical enemies - modpocalypse patch.esp.json",
+    "form_id": "00016FF8|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Dremora Valkynaz",
+    "before": "Drémora Valkynaz",
+    "after": "Valkynaz drémora",
+    "nature": "Canon officiel Bethesda / USSEP / Nolvus Phase 2A : Valkynaz drémora"
+  },
+  {
+    "file": "NITHI NPCs - Whiterun - Complete - AI Overhaul.esp.json",
+    "form_id": "0002C925|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Severio Pelagia",
+    "before": "Severio Pelagia",
+    "after": "Sévério Pélagia",
+    "nature": "Canon officiel Bethesda / USSEP : Sévério Pélagia"
+  },
+  {
+    "file": "NITHI NPCs - Whiterun - Complete - AI Overhaul.esp.json",
+    "form_id": "00065657|Skyrim.esm",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Erik",
+    "before": "Erik",
+    "after": "Érik",
+    "nature": "Canon officiel Bethesda / USSEP : Érik (accent aigu)"
+  },
+  {
+    "file": "TSOS_AI_Overall_Patch.esp.json",
+    "form_id": "00013380|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Vekel the Man",
+    "before": "Vekel l'Homme",
+    "after": "Vekel l'homme",
+    "nature": "Canon officiel Bethesda / USSEP : Vekel l'homme (minuscule)"
+  }
+]

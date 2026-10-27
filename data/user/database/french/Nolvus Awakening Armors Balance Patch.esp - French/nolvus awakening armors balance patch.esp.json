@@ -1,7 +1,7 @@
 [
   {
     "original": "Hermit Hood Black 4",
-    "string": "Capuchon d'Ermite DB4",
+    "string": "Capuchon d'ermite noir 4",
     "status": "TranslationComplete",
     "form_id": "580008EF|Hermit Armor.esp",
     "type": "ARMO FULL",
@@ -46,7 +46,7 @@
   },
   {
     "original": "Black Archmage Ebony Armor",
-    "string": "Armure d’archimage noir en ébonite (légère)",
+    "string": "Armure d'ébène d'archimage noir (légère)",
     "status": "TranslationComplete",
     "form_id": "870008C1|Black Mage Armor SE.esp",
     "type": "ARMO FULL",
@@ -577,7 +577,7 @@
   },
   {
     "original": " Shield Ornamental 2 C",
-    "string": "Bouclier d'acier ouvragé",
+    "string": "Bouclier d'acier ouvragé II C",
     "status": "TranslationComplete",
     "form_id": "71000835|Legendary Alpha Shields.esp",
     "type": "ARMO FULL",
@@ -595,7 +595,7 @@
   },
   {
     "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
-    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "string": "Réduit de <15> % le coût de tous les sorts et augmente de <100> % la régénération de magie.",
     "status": "TranslationComplete",
     "form_id": "870008BF|Black Mage Armor SE.esp",
     "type": "ARMO DESC",
@@ -1000,7 +1000,7 @@
   },
   {
     "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
-    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "string": "Réduit de <15> % le coût de tous les sorts et augmente de <100> % la régénération de magie.",
     "status": "TranslationComplete",
     "form_id": "870008C9|Black Mage Armor SE.esp",
     "type": "ARMO DESC",
@@ -1180,7 +1180,7 @@
   },
   {
     "original": " Shield Ornamental 2 A",
-    "string": "Bouclier d'acier ouvragé",
+    "string": "Bouclier d'acier ouvragé II A",
     "status": "TranslationComplete",
     "form_id": "71000831|Legendary Alpha Shields.esp",
     "type": "ARMO FULL",
@@ -1387,7 +1387,7 @@
   },
   {
     "original": "Drifter Metallic Gauntlets of the Pugilist",
-    "string": "Gantelets métalliques de vagabond [Pugiliste]",
+    "string": "Gantelets métalliques de vagabond du pugiliste",
     "status": "TranslationComplete",
     "form_id": "2B00081B|DrifterArmorAndOutfitByXtudo.esp",
     "type": "ARMO FULL",
@@ -1747,7 +1747,7 @@
   },
   {
     "original": "Black Archmage Robes",
-    "string": "Robe d'archimage noire (légère)",
+    "string": "Robe d'archimage noir",
     "status": "TranslationComplete",
     "form_id": "870008C7|Black Mage Armor SE.esp",
     "type": "ARMO FULL",
@@ -1999,7 +1999,7 @@
   },
   {
     "original": "Hermit Hood White 3",
-    "string": "Capuchon d'Ermite AC3",
+    "string": "Capuchon d'ermite blanc 3",
     "status": "TranslationComplete",
     "form_id": "58000881|Hermit Armor.esp",
     "type": "ARMO FULL",
@@ -2359,7 +2359,7 @@
   },
   {
     "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
-    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "string": "Réduit de <15> % le coût de tous les sorts et augmente de <100> % la régénération de magie.",
     "status": "TranslationComplete",
     "form_id": "870008C1|Black Mage Armor SE.esp",
     "type": "ARMO DESC",
@@ -5788,7 +5788,7 @@
   },
   {
     "original": " Shield Ornamental 2 E",
-    "string": "Bouclier d'acier ouvragé",
+    "string": "Bouclier d'acier ouvragé II E",
     "status": "TranslationComplete",
     "form_id": "71000839|Legendary Alpha Shields.esp",
     "type": "ARMO FULL",
@@ -6130,7 +6130,7 @@
   },
   {
     "original": "Hermit Hood White 4",
-    "string": "Capuchon d'Ermite AC4",
+    "string": "Capuchon d'ermite blanc 4",
     "status": "TranslationComplete",
     "form_id": "580008EE|Hermit Armor.esp",
     "type": "ARMO FULL",
@@ -6634,7 +6634,7 @@
   },
   {
     "original": " Shield Ornamental 2",
-    "string": "Bouclier d'acier ouvragé",
+    "string": "Bouclier d'acier ouvragé II",
     "status": "TranslationComplete",
     "form_id": "7100082F|Legendary Alpha Shields.esp",
     "type": "ARMO FULL",
@@ -6697,7 +6697,7 @@
   },
   {
     "original": "Drifter Metallic Light Gauntlets of the Pugilist",
-    "string": "Gantelets métalliques légers de vagabond [Pugiliste]",
+    "string": "Gantelets métalliques légers de vagabond du pugiliste",
     "status": "TranslationComplete",
     "form_id": "2B00081E|DrifterArmorAndOutfitByXtudo.esp",
     "type": "ARMO FULL",
@@ -6742,7 +6742,7 @@
   },
   {
     "original": "Black Archmage Ebony Armor",
-    "string": "Armure d’archimage noir en ébonite (lourde)",
+    "string": "Armure d'ébène d'archimage noir (lourde)",
     "status": "TranslationComplete",
     "form_id": "870008BF|Black Mage Armor SE.esp",
     "type": "ARMO FULL",
@@ -6805,7 +6805,7 @@
   },
   {
     "original": "Hermit Hood Black 2",
-    "string": "Capuchon d'Ermite DB2",
+    "string": "Capuchon d'ermite noir 2",
     "status": "TranslationComplete",
     "form_id": "58000880|Hermit Armor.esp",
     "type": "ARMO FULL",
@@ -6931,7 +6931,7 @@
   },
   {
     "original": " Shield Ornamental 2 B",
-    "string": "Bouclier d'acier ouvragé",
+    "string": "Bouclier d'acier ouvragé II B",
     "status": "TranslationComplete",
     "form_id": "71000833|Legendary Alpha Shields.esp",
     "type": "ARMO FULL",
@@ -7147,7 +7147,7 @@
   },
   {
     "original": "Drifter Steel Gauntlets of the Pugilist",
-    "string": "Gantelets d'acier de vagabond [Pugiliste]",
+    "string": "Gantelets d'acier de vagabond du pugiliste",
     "status": "TranslationComplete",
     "form_id": "2B000805|DrifterArmorAndOutfitByXtudo.esp",
     "type": "ARMO FULL",
@@ -7759,7 +7759,7 @@
   },
   {
     "original": "Black Archmage Scaled Armor",
-    "string": "Armure d’archimage noir en écailles (légère)",
+    "string": "Armure d'écailles d'archimage noir (légère)",
     "status": "TranslationComplete",
     "form_id": "870008CB|Black Mage Armor SE.esp",
     "type": "ARMO FULL",
@@ -7777,7 +7777,7 @@
   },
   {
     "original": "Hermit Hood Black 1",
-    "string": "Capuchon d'Ermite DB1",
+    "string": "Capuchon d'ermite noir 1",
     "status": "TranslationComplete",
     "form_id": "5800087E|Hermit Armor.esp",
     "type": "ARMO FULL",
@@ -7858,7 +7858,7 @@
   },
   {
     "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
-    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "string": "Réduit de <15> % le coût de tous les sorts et augmente de <100> % la régénération de magie.",
     "status": "TranslationComplete",
     "form_id": "870008C7|Black Mage Armor SE.esp",
     "type": "ARMO DESC",
@@ -8326,7 +8326,7 @@
   },
   {
     "original": "Hermit Hood Black 3",
-    "string": "Capuchon d'Ermite DB3",
+    "string": "Capuchon d'ermite noir 3",
     "status": "TranslationComplete",
     "form_id": "580008ED|Hermit Armor.esp",
     "type": "ARMO FULL",
@@ -9721,7 +9721,7 @@
   },
   {
     "original": " Shield celtic 2",
-    "string": "Bouclier d'acier orné",
+    "string": "Bouclier celtique II",
     "status": "TranslationComplete",
     "form_id": "71000823|Legendary Alpha Shields.esp",
     "type": "ARMO FULL",
@@ -9748,7 +9748,7 @@
   },
   {
     "original": "Soul Hunter Cuirass (Light Armor)",
-    "string": "Cuirasse légère de chasseuse d’âmes",
+    "string": "Cuirasse de chasseur d'âmes (armure légère)",
     "status": "TranslationComplete",
     "form_id": "6B000861|Soul Hunter Armor.esp",
     "type": "ARMO FULL",
@@ -9946,7 +9946,7 @@
   },
   {
     "original": "All spells cost <15>% less to cast, and magicka regenerates <100>% faster.",
-    "string": "Réduit de <15> % le coût des sorts et augmente de <100> % la régénération de magie.",
+    "string": "Réduit de <15> % le coût de tous les sorts et augmente de <100> % la régénération de magie.",
     "status": "TranslationComplete",
     "form_id": "870008CB|Black Mage Armor SE.esp",
     "type": "ARMO DESC",
@@ -10999,7 +10999,7 @@
   },
   {
     "original": "Hermit Hood White 1 ",
-    "string": "Capuchon d'Ermite AC1",
+    "string": "Capuchon d'ermite blanc 1",
     "status": "TranslationComplete",
     "form_id": "5800087D|Hermit Armor.esp",
     "type": "ARMO FULL",
@@ -11125,7 +11125,7 @@
   },
   {
     "original": " Shield Ornamental 2 D",
-    "string": "Bouclier d'acier ouvragé",
+    "string": "Bouclier d'acier ouvragé II D",
     "status": "TranslationComplete",
     "form_id": "71000837|Legendary Alpha Shields.esp",
     "type": "ARMO FULL",
@@ -11242,7 +11242,7 @@
   },
   {
     "original": "Black Archmage Plate Armor",
-    "string": "Armure d’archimage noir en plates (lourde)",
+    "string": "Armure de plates d'archimage noir (lourde)",
     "status": "TranslationComplete",
     "form_id": "870008C9|Black Mage Armor SE.esp",
     "type": "ARMO FULL",
@@ -11251,7 +11251,7 @@
   },
   {
     "original": "Drifter Steel Light Gauntlets of the Pugilist",
-    "string": "Gantelets d'acier légers de vagabond [Pugiliste]",
+    "string": "Gantelets d'acier légers de vagabond du pugiliste",
     "status": "TranslationComplete",
     "form_id": "4000080F|DrifterArmorAndOutfitByXtudo.esp",
     "type": "ARMO FULL",
@@ -12070,7 +12070,7 @@
   },
   {
     "original": "All spells cost <25>% less to cast, Magicka regenerates <250>% faster. And increases Magicka by <85> points,",
-    "string": "Tous les sorts coûtent <25> % de moins et la magie se régénère <250> % plus vite. La réserve de magie augmente aussi de <85> points.",
+    "string": "Tous les sorts coûtent <25> % de moins et la magie se régénère <250> % plus vite. La réserve de magie augmente de <85> points.",
     "status": "TranslationComplete",
     "form_id": "6B000861|Soul Hunter Armor.esp",
     "type": "ARMO DESC",
@@ -12322,7 +12322,7 @@
   },
   {
     "original": "Hermit Hood White 2",
-    "string": "Capuchon d'Ermite AC2",
+    "string": "Capuchon d'ermite blanc 2",
     "status": "TranslationComplete",
     "form_id": "5800087F|Hermit Armor.esp",
     "type": "ARMO FULL",

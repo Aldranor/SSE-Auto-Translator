@@ -1,0 +1,52 @@
+[
+  {
+    "file": "attackodaedra.esp.json",
+    "form_id": "0501A808|AttackoDaedra.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "original": "Namiiric Slash",
+    "before": "Flèche namiirique",
+    "after": "Entaille namiirique",
+    "nature": "Correction de contresens critique : Slash = Entaille/Taillade (et non Flèche)"
+  },
+  {
+    "file": "attackodaedra.esp.json",
+    "form_id": "0501A809|AttackoDaedra.esp",
+    "type": "PROJ FULL",
+    "index": null,
+    "original": "Namiiric Slash",
+    "before": "Flèche namiirique",
+    "after": "Entaille namiirique",
+    "nature": "Correction de contresens critique : Slash = Entaille/Taillade (et non Flèche)"
+  },
+  {
+    "file": "wintersun - gott patch.esp.json",
+    "form_id": "05000A83|Wintersun - GotT Patch.esp",
+    "type": "SPEL FULL",
+    "index": null,
+    "original": "Epic Killer - Cloak Proc",
+    "before": "Epic Killer - Cloak Proc",
+    "after": "Tueur épique - Déclenchement de la cape",
+    "nature": "Traduction de l'anglais résiduel et harmonisation avec Epic Killer - Cloak Start = Tueur épique - Début de la cape"
+  },
+  {
+    "file": "wintersun - gott patch.esp.json",
+    "form_id": "05000A82|Wintersun - GotT Patch.esp",
+    "type": "MGEF FULL",
+    "index": null,
+    "original": "Epic Killer - Cloak Proc",
+    "before": "Epic Killer - Cloak Proc",
+    "after": "Tueur épique - Déclenchement de la cape",
+    "nature": "Traduction de l'anglais résiduel et harmonisation avec Epic Killer - Cloak Start = Tueur épique - Début de la cape"
+  },
+  {
+    "file": "yot - clockwork.esp.json",
+    "form_id": "01035426|Clockwork.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "I can only place one weapon on here.",
+    "before": "Une seule arme une peut être placée ici.",
+    "after": "Une seule arme peut être placée ici.",
+    "nature": "Correction de coquille orthographique et bégaiement 'arme une peut' -> 'arme peut'"
+  }
+]

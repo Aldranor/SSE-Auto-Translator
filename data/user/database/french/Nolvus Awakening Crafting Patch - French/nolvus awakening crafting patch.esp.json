@@ -1,1 +1,254 @@
-[{"original":"Haggle for <mag>% better prices for <dur> seconds.","string":"Vous bénéficiez de prix <mag> % plus avantageux pendant <dur> secondes.","status":"TranslationComplete","form_id":"0003EB23|Skyrim.esm","type":"MGEF DNAM","index":null,"editor_id":"MAG_AlchFortifyBarter"},{"original":"One additional potion or poison is created from the same number of ingredients.","string":"Une potion ou un poison supplémentaire est produit avec la même quantité d’ingrédients.","status":"TranslationComplete","form_id":"0010F84C|Skyrim.esm","type":"MGEF DNAM","index":null,"editor_id":"MAG_SinderionsLegacyEffect"},{"original":"<50>% chance to create an extra potion or poison from the same number of ingredients.","string":"<50> % de chances de produire une potion ou un poison supplémentaire avec la même quantité d’ingrédients.","status":"TranslationComplete","form_id":"0010BF09|Skyrim.esm","type":"SPEL DESC","index":null,"editor_id":"MAG_SinderionsLegacySpell"},{"original":"Sinderion's Legacy","string":"Héritage de Sinderion","status":"TranslationComplete","form_id":"0010F84C|Skyrim.esm","type":"MGEF FULL","index":null,"editor_id":"MAG_SinderionsLegacyEffect"},{"original":"Fortify Barter","string":"Renfort de marchandage","status":"TranslationComplete","form_id":"0003EB23|Skyrim.esm","type":"MGEF FULL","index":null,"editor_id":"MAG_AlchFortifyBarter"},{"original":"Silver Knight Helmet","string":"Heaume du chevalier d'argent","status":"TranslationComplete","form_id":"04000D6A|SPOAsilverknight.esp","type":"ARMO FULL","index":null,"editor_id":"SPOAskaHelmet"},{"original":"<font face='$HandwrittenFont'>\r\nDamage Health poison:\r\n\r\n~Deathbell\r\n\r\n~Small Antlers\r\n</font>","string":"<font face='$HandwrittenFont'>\r\nPoison : dégâts de santé\r\n\r\n~Grelot-de-la-mort\r\n\r\n~Petite ramure\r\n</font>","status":"TranslationComplete","form_id":"000F5CB6|Skyrim.esm","type":"BOOK DESC","index":null,"editor_id":"RecipeDamageHealth2"},{"original":"[pagebreak]\r\n<p align=\"center\">\r\n\r\nLight Armor Forging\r\n\r\nBy \r\nRevus Sarvani</p>\r\n[pagebreak]\r\n[pagebreak]\r\n<p align=\"left\">\r\nThere are two classes of light armor, metallic and non-metallic. Calcinium and Glass are  examples of metallic light armor. You may be surprised to think that Glass can be thought of as metallic, but appearances are deceiving. What we call 'glass' is nothing like the window panes you see in houses. This rare, crystalline material is far stronger and has a much higher melting point.\r\n\r\nNon-metallic armors can be made from hide or leather. For these armor types, the forger is as much tailor as blacksmith.  Hide armors can be further strengthened by the careful placement of metal studs and rings.  Leather can be hardened and made into more effective armors by boiling it in water.  This process requires a skilled hand in order to get the timing and temperature just right.  If boiled for too long, the leather may become overly brittle and crack when stressed.  Leather can also be dyed for greater variety.  Iron can be used to dye leather black, while the roots from the creep cluster plant will create a red dye.\r\n\r\nFor centuries the secret of making Elven armor was a closely guarded secret on Summerset Isle. Then the Betrayal of Ulvul Llaren brought it to the rest of Tamriel. Ulvul was a Dark Elf slave, working the bellows for Nuulion, master smith of the isle from the fifth through the seventh century of the second era. When Ulvul escaped, he could think of no greater punishment to mete out to his cruel master than to reveal all his secrets to the world. Thus we came to know that calcinium, the key ingredient in Elven armor, is an alloy created from moonstone, and that salt water must be used to quench the hot metal.  True Elven armor requires that quicksilver be melded into the calcinium.  It melts at a much lower heat than calcinium, making it tricky to work the two metals together.\r\n\r\nThe trickiest of all is Glass.  The green volcanic material that comprises Glass is similar to ebony, but it is less durable and more lightweight.  It requires a highly skilled glass smith to work the material.  Hammer blows struck across the grain run the risk of shattering the armor. The armor also requires calcinium to bind the glass and to give it strength.  When properly made, Glass armor is much stronger than steel and can absorb and distribute great shocks.","string":"[pagebreak]\r\n<p align=\"center\">\r\n\r\nConfection d’armures légères\r\n\r\nPar \r\nRevus Sarvani</p>\r\n[pagebreak]\r\n[pagebreak]\r\n<p align=\"left\">\r\nIl existe deux catégories d’armures légères : les armures métalliques et les armures non métalliques. Le calcinium et le verre servent à fabriquer des armures légères métalliques. Le verre peut sembler étrange dans cette catégorie, mais les apparences sont trompeuses : celui dont il est question ici n’a rien à voir avec le verre des fenêtres. Ce matériau cristallin rare est bien plus résistant et possède un point de fusion bien plus élevé.\r\n\r\nLes armures non métalliques se fabriquent à partir de peaux ou de cuir. Pour les confectionner, le forgeron doit aussi savoir travailler en tailleur. On peut renforcer les armures de peau en disposant soigneusement des rivets et des anneaux de métal. Le cuir, lui, se durcit en le faisant bouillir dans l’eau. Il faut toutefois bien maîtriser la durée et la température : trop bouilli, il devient cassant et se fissure sous la contrainte. On peut aussi le teindre de différentes couleurs. Le fer donne une teinte noire, tandis que les racines de la plante grimpante produisent une teinture rouge.\r\n\r\nPendant des siècles, le secret de la fabrication des armures elfiques fut jalousement gardé sur l’Archipel de l’Automne. La Trahison d’Ulvul Llaren le révéla au reste de Tamriel. Ulvul était un esclave dunmer qui actionnait les soufflets pour Nuulion, maître forgeron de l’île, entre le cinquième et le septième siècle de la Deuxième Ère. Lorsqu’il s’échappa, il ne trouva pas de meilleure vengeance contre son cruel maître que de révéler tous ses secrets au monde. Nous avons ainsi appris que le calcinium, ingrédient essentiel des armures elfiques, est un alliage obtenu à partir de pierre de lune, et que le métal doit être trempé dans l’eau salée lorsqu’il est encore brûlant. Une véritable armure elfique requiert aussi du vif-argent mêlé au calcinium. Comme le vif-argent fond à une température bien plus basse, il est délicat de travailler ces deux métaux ensemble.\r\n\r\nLe verre est le matériau le plus difficile à travailler. Cette matière volcanique verte ressemble à l’ébonite, mais elle est moins résistante et plus légère. Seul un verrier très expérimenté peut la façonner. Un coup de marteau porté à contre-fil risque de faire éclater l’armure. Il faut aussi du calcinium pour lier le verre et le renforcer. Bien travaillée, une armure de verre est bien plus résistante qu’une armure d’acier et absorbe puis répartit les chocs.","status":"TranslationComplete","form_id":"0001AFD0|Skyrim.esm","type":"BOOK DESC","index":null,"editor_id":"SkillSmithing3"},{"original":"Light Armor Forging","string":"Confection d'armures légères","status":"TranslationComplete","form_id":"0001AFD0|Skyrim.esm","type":"BOOK FULL","index":null,"editor_id":"SkillSmithing3"},{"original":"Poison Recipe - Damage Health","string":"Recette de poison : dégâts de santé","status":"TranslationComplete","form_id":"000F5CB6|Skyrim.esm","type":"BOOK FULL","index":null,"editor_id":"RecipeDamageHealth2"},{"original":"<font face='$HandwrittenFont'>\r\nResist Fire potion:\r\n\r\n~Bonemeal\r\n\r\n~Fire Salts\r\n</font>","string":"<font face='$HandwrittenFont'>\r\nPotion de résistance au feu :\r\n\r\n~Poudre d’os\r\n\r\n~Sels de feu\r\n</font>","status":"TranslationComplete","form_id":"000F5CBD|Skyrim.esm","type":"BOOK DESC","index":null,"editor_id":"MAG_RecipeResistFire1"},{"original":"<mag>% harder to detect while sneaking for <dur> seconds.","string":"Vous êtes <mag> % plus difficile à repérer en vous déplaçant furtivement pendant <dur> secondes.","status":"TranslationComplete","form_id":"0003EB22|Skyrim.esm","type":"MGEF DNAM","index":null,"editor_id":"MAG_AlchFortifySneak"},{"original":"Silver Knight Armor","string":"Armure du chevalier d'argent","status":"TranslationComplete","form_id":"04000D68|SPOAsilverknight.esp","type":"ARMO FULL","index":null,"editor_id":"SPOAskaCuirass"},{"original":"Fortify Sneak","string":"Renfort de furtivité","status":"TranslationComplete","form_id":"0003EB22|Skyrim.esm","type":"MGEF FULL","index":null,"editor_id":"MAG_AlchFortifySneak"},{"original":"Imperial Heavy Shield","string":"Bouclier impérial lourd","status":"TranslationComplete","form_id":"000135BA|Skyrim.esm","type":"ARMO FULL","index":null,"editor_id":"ArmorImperialShield"},{"original":"Potion Recipe - Resist Fire","string":"Recette de potion : résistance au feu","status":"TranslationComplete","form_id":"000F5CBD|Skyrim.esm","type":"BOOK FULL","index":null,"editor_id":"MAG_RecipeResistFire1"},{"original":"<font face='$HandwrittenFont'>\r\nDamage Health poison:\r\n\r\n~Nightshade\r\n\r\n~Red Mountain Flower\r\n</font>","string":"<font face='$HandwrittenFont'>\r\nPoison : dégâts de santé\r\n\r\n~Obscurcine\r\n\r\n~Lys des cimes rouge\r\n</font>","status":"TranslationComplete","form_id":"000F5CB5|Skyrim.esm","type":"BOOK DESC","index":null,"editor_id":"RecipeDamageHealth1"},{"original":"Imperial Bracers","string":"Brassards impériaux","status":"TranslationComplete","form_id":"000136D4|Skyrim.esm","type":"ARMO FULL","index":null,"editor_id":"ArmorImperialGauntlets"},{"original":"Poison Recipe - Damage Health","string":"Recette de poison : dégâts de santé","status":"TranslationComplete","form_id":"000F5CB5|Skyrim.esm","type":"BOOK FULL","index":null,"editor_id":"RecipeDamageHealth1"},{"original":"<font face='$HandwrittenFont'>\r\nResist Frost potion:\r\n\r\n~Moon Sugar\r\n\r\n~Frost Salts\r\n\r\n</font>","string":"<font face='$HandwrittenFont'>\r\nPotion de résistance au froid :\r\n\r\n~Sucrelune\r\n\r\n~Sels de givre\r\n\r\n</font>","status":"TranslationComplete","form_id":"000F5CBF|Skyrim.esm","type":"BOOK DESC","index":null,"editor_id":"MAG_RecipeResistFrost2"},{"original":"<font face='$HandwrittenFont'>\r\nRestore Health potion:\r\n\r\n~Blue Mountain Flower\r\n\r\n~Blisterwort\r\n\r\n</font>","string":"<font face='$HandwrittenFont'>\r\nPotion de restauration de santé :\r\n\r\n~Lys des cimes bleu\r\n\r\n~Cloquerille\r\n\r\n</font>","status":"TranslationComplete","form_id":"000F5CAF|Skyrim.esm","type":"BOOK DESC","index":null,"editor_id":"MAG_RecipeRestoreHealth4"},{"original":"Potion Recipe - Restore Health","string":"Recette de potion : restauration de santé","status":"TranslationComplete","form_id":"000F5CAF|Skyrim.esm","type":"BOOK FULL","index":null,"editor_id":"MAG_RecipeRestoreHealth4"},{"original":"Potion Recipe - Resist Frost","string":"Recette de potion : résistance au froid","status":"TranslationComplete","form_id":"000F5CBF|Skyrim.esm","type":"BOOK FULL","index":null,"editor_id":"MAG_RecipeResistFrost2"},{"original":"Silver Knight Boots","string":"Bottes du chevalier d'argent","status":"TranslationComplete","form_id":"04000D67|SPOAsilverknight.esp","type":"ARMO FULL","index":null,"editor_id":"SPOAskaBoots"},{"original":"Sinderion's Legacy","string":"Héritage de Sinderion","status":"TranslationComplete","form_id":"0010BF09|Skyrim.esm","type":"SPEL FULL","index":null,"editor_id":"MAG_SinderionsLegacySpell"},{"original":"[pagebreak]\r\n<p align=\"center\">\r\n\r\nHeavy Armor Forging\r\n\r\nby\r\nSven Two-Hammers</p>\r\n[pagebreak]\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/H_letter.png'>eavy armor must be designed to take a lot of punishment. It will receive direct blows from all sorts of weapons while protecting the wearer.  Leather strips are used to make the straps and bindings in armor.  Leather, quilted cloth, or even hide is generally used to line the inside of the armor for better fit and comfort.\r\n\r\nIron armor is the simplest heavy armor to make and requires only basic skill and knowledge of the forge. Just heat the iron up and pound it into shape. The heat of the forge is not that critical.  Some material will always be lost in the smithing process, but it's best to try to conserve the metal and work it back into shape.\r\n\r\nBasic steel armor is only slightly more complex than iron, but the versatility of steel and it's ability to be melded into other metals, makes mastering this material a requirement for any devoted smith.  More advanced steel armors can be made by adding molten copper to the steel. The alloy is stronger than either metal by itself, but this technique requires the heat from the forge to be steady and not vary much. \r\n\r\nDwarven armor is made from dwarven metal. The secret of this alloy was lost when the dwarves disappeared millennia ago. Now it can only be found as scrap in the ruins of their abandoned cities and fortresses.  Fortunately, those scraps can still be refined and turned into a heavy, rugged armor.\r\n\r\nOrcish armor requires large amounts of Orichalcum, melded with a bit of steel. Heat should be used sparingly, lest it become brittle. The Orcs are masters of this technique, but it can be learned by any smith with patience and skill.  \r\n\r\nEbony armor is created from a rare volcanic glass that is extremely hard and durable.  It can only be worked when properly heated, and only very skilled smiths can manage to work it with the necessary precision. If it isn't brought to just the right temperature, the ebony will develop small cracks that eventually shatter. Unlike most other metals, Ebony will not alloy with iron or steel. It must be used pure.\r\n\r\nI can only tell you tales of how to make Daedric armor. Prior to the Oblivion Crisis this armor was almost non-existent in Tamriel. While it is still exceedingly rare,  remnants from the Crisis can sometimes be found.  These are generally prized by noble families and wealthy collectors, though their possession is often kept quiet, in part to avoid providing an obvious target for thieves and bandits, but also due to the stigma often attached to Daedric items.  \r\n\r\nI have never seen Daedric armor myself, nor do I know anyone that has. It is supposedly made from ebony. The stories say that it should always be worked at night... ideally under a new or full moon, and never during an eclipse. A red harvest moon is best.  At the right moment, a daedra heart must be thrown into the fire. The heart imbues the armor with the essence of the daedra and transforms the ebony into something even stronger. ","string":"[pagebreak]\r\n<p align=\"center\">\r\n\r\nConfection d’armures lourdes\r\n\r\nPar\r\nSven Deux-Marteaux</p>\r\n[pagebreak]\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/L_letter.png'>es armures lourdes doivent être conçues pour encaisser les coups. Elles reçoivent de plein fouet les attaques de toutes sortes d’armes tout en protégeant leur porteur. Des lanières de cuir servent à assembler les pièces et à fixer les attaches. L’intérieur est généralement doublé de cuir, de tissu matelassé ou même de peaux, pour assurer confort et ajustement.\r\n\r\nL’armure de fer est la plus simple à fabriquer et ne demande qu’un savoir-faire élémentaire à la forge. Il suffit de chauffer le fer et de le marteler pour lui donner la forme voulue ; la température de la forge n’a pas besoin d’être réglée avec précision. Le travail du métal entraîne toujours quelques pertes, mais mieux vaut économiser la matière et la remettre en forme.\r\n\r\nUne armure d’acier ordinaire n’est guère plus difficile à fabriquer qu’une armure de fer. Mais la polyvalence de l’acier et sa capacité à s’allier à d’autres métaux en font un matériau qu’un forgeron digne de ce nom doit maîtriser. On peut obtenir des armures d’acier plus élaborées en y ajoutant du cuivre en fusion. L’alliage est plus résistant que chacun des deux métaux pris séparément, mais il faut maintenir une température de forge très stable.\r\n\r\nLes armures dwemers sont fabriquées à partir de métal dwemer. Le secret de cet alliage fut perdu lorsque les Dwemers disparurent, il y a des millénaires. Aujourd’hui, ce métal ne se trouve qu’à l’état de débris dans les ruines de leurs villes et forteresses abandonnées. Heureusement, ces débris peuvent encore être raffinés pour fabriquer une armure lourde et robuste.\r\n\r\nLes armures orques requièrent de grandes quantités d’orichalque allié à un peu d’acier. Il faut chauffer le métal avec parcimonie pour éviter qu’il ne devienne cassant. Les Orques maîtrisent cette technique, mais tout forgeron patient et habile peut l’apprendre.\r\n\r\nL’armure d’ébonite est faite d’un verre volcanique rare, extrêmement dur et résistant. On ne peut le travailler qu’une fois chauffé à point, et seuls les forgerons les plus habiles ont la précision nécessaire. S’il n’atteint pas la bonne température, l’ébonite se fissure et finit par éclater. Contrairement à la plupart des autres métaux, l’ébonite ne s’allie ni au fer ni à l’acier : elle doit être utilisée pure.\r\n\r\nJe ne peux que rapporter les récits sur la fabrication des armures daedriques. Avant la Crise d’Oblivion, elles étaient presque inexistantes en Tamriel. Elles restent extrêmement rares, mais on trouve parfois des vestiges datant de la Crise. Les familles nobles et les riches collectionneurs les convoitent, mais préfèrent souvent taire qu’ils en possèdent : cela évite d’attirer voleurs et bandits, et de s’exposer à l’opprobre associé aux objets daedriques.\r\n\r\nJe n’ai jamais vu d’armure daedrique, et je ne connais personne qui en ait vu. On dit qu’elle est faite d’ébonite. Selon les récits, elle doit être forgée de nuit, idéalement sous une nouvelle lune ou une pleine lune, et jamais pendant une éclipse. Le mieux est d’attendre la lune rouge des moissons. Au moment propice, il faut jeter un cœur de Daedra dans le feu. Il imprégnera l’armure de l’essence du Daedra et transformera l’ébonite en un matériau encore plus résistant.","status":"TranslationComplete","form_id":"0001AFD2|Skyrim.esm","type":"BOOK DESC","index":null,"editor_id":"SkillSmithing5"},{"original":"Heavy Armor Forging","string":"Confection d'armures lourdes","status":"TranslationComplete","form_id":"0001AFD2|Skyrim.esm","type":"BOOK FULL","index":null,"editor_id":"SkillSmithing5"},{"original":"Silver Knight Gauntlets","string":"Gantelets du chevalier d'argent","status":"TranslationComplete","form_id":"04000D69|SPOAsilverknight.esp","type":"ARMO FULL","index":null,"editor_id":"SPOAskaGauntlets"}]
+[
+  {
+    "original": "Haggle for <mag>% better prices for <dur> seconds.",
+    "string": "Vous bénéficiez de prix <mag> % plus avantageux pendant <dur> secondes.",
+    "status": "TranslationComplete",
+    "form_id": "0003EB23|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "MAG_AlchFortifyBarter"
+  },
+  {
+    "original": "One additional potion or poison is created from the same number of ingredients.",
+    "string": "Une potion ou un poison supplémentaire est produit avec la même quantité d’ingrédients.",
+    "status": "TranslationComplete",
+    "form_id": "0010F84C|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "MAG_SinderionsLegacyEffect"
+  },
+  {
+    "original": "<50>% chance to create an extra potion or poison from the same number of ingredients.",
+    "string": "<50> % de chances de produire une potion ou un poison supplémentaire avec la même quantité d’ingrédients.",
+    "status": "TranslationComplete",
+    "form_id": "0010BF09|Skyrim.esm",
+    "type": "SPEL DESC",
+    "index": null,
+    "editor_id": "MAG_SinderionsLegacySpell"
+  },
+  {
+    "original": "Sinderion's Legacy",
+    "string": "Héritage de Sinderion",
+    "status": "TranslationComplete",
+    "form_id": "0010F84C|Skyrim.esm",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "MAG_SinderionsLegacyEffect"
+  },
+  {
+    "original": "Fortify Barter",
+    "string": "Renfort de marchandage",
+    "status": "TranslationComplete",
+    "form_id": "0003EB23|Skyrim.esm",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "MAG_AlchFortifyBarter"
+  },
+  {
+    "original": "Silver Knight Helmet",
+    "string": "Heaume du chevalier d'argent",
+    "status": "TranslationComplete",
+    "form_id": "04000D6A|SPOAsilverknight.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "SPOAskaHelmet"
+  },
+  {
+    "original": "<font face='$HandwrittenFont'>\r\nDamage Health poison:\r\n\r\n~Deathbell\r\n\r\n~Small Antlers\r\n</font>",
+    "string": "<font face='$HandwrittenFont'>\r\nPoison : dégâts de santé\r\n\r\n~Grelot-de-la-mort\r\n\r\n~Petite ramure\r\n</font>",
+    "status": "TranslationComplete",
+    "form_id": "000F5CB6|Skyrim.esm",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "RecipeDamageHealth2"
+  },
+  {
+    "original": "[pagebreak]\r\n<p align=\"center\">\r\n\r\nLight Armor Forging\r\n\r\nBy \r\nRevus Sarvani</p>\r\n[pagebreak]\r\n[pagebreak]\r\n<p align=\"left\">\r\nThere are two classes of light armor, metallic and non-metallic. Calcinium and Glass are  examples of metallic light armor. You may be surprised to think that Glass can be thought of as metallic, but appearances are deceiving. What we call 'glass' is nothing like the window panes you see in houses. This rare, crystalline material is far stronger and has a much higher melting point.\r\n\r\nNon-metallic armors can be made from hide or leather. For these armor types, the forger is as much tailor as blacksmith.  Hide armors can be further strengthened by the careful placement of metal studs and rings.  Leather can be hardened and made into more effective armors by boiling it in water.  This process requires a skilled hand in order to get the timing and temperature just right.  If boiled for too long, the leather may become overly brittle and crack when stressed.  Leather can also be dyed for greater variety.  Iron can be used to dye leather black, while the roots from the creep cluster plant will create a red dye.\r\n\r\nFor centuries the secret of making Elven armor was a closely guarded secret on Summerset Isle. Then the Betrayal of Ulvul Llaren brought it to the rest of Tamriel. Ulvul was a Dark Elf slave, working the bellows for Nuulion, master smith of the isle from the fifth through the seventh century of the second era. When Ulvul escaped, he could think of no greater punishment to mete out to his cruel master than to reveal all his secrets to the world. Thus we came to know that calcinium, the key ingredient in Elven armor, is an alloy created from moonstone, and that salt water must be used to quench the hot metal.  True Elven armor requires that quicksilver be melded into the calcinium.  It melts at a much lower heat than calcinium, making it tricky to work the two metals together.\r\n\r\nThe trickiest of all is Glass.  The green volcanic material that comprises Glass is similar to ebony, but it is less durable and more lightweight.  It requires a highly skilled glass smith to work the material.  Hammer blows struck across the grain run the risk of shattering the armor. The armor also requires calcinium to bind the glass and to give it strength.  When properly made, Glass armor is much stronger than steel and can absorb and distribute great shocks.",
+    "string": "[pagebreak]\r\n<p align=\"center\">\r\n\r\nConfection d’armures légères\r\n\r\nPar \r\nRevus Sarvani</p>\r\n[pagebreak]\r\n[pagebreak]\r\n<p align=\"left\">\r\nIl existe deux catégories d’armures légères : les armures métalliques et les armures non métalliques. Le calcinium et le verre servent à fabriquer des armures légères métalliques. Le verre peut sembler étrange dans cette catégorie, mais les apparences sont trompeuses : celui dont il est question ici n’a rien à voir avec le verre des fenêtres. Ce matériau cristallin rare est bien plus résistant et possède un point de fusion bien plus élevé.\r\n\r\nLes armures non métalliques se fabriquent à partir de peaux ou de cuir. Pour les confectionner, le forgeron doit aussi savoir travailler en tailleur. On peut renforcer les armures de peau en disposant soigneusement des rivets et des anneaux de métal. Le cuir, lui, se durcit en le faisant bouillir dans l’eau. Il faut toutefois bien maîtriser la durée et la température : trop bouilli, il devient cassant et se fissure sous la contrainte. On peut aussi le teindre de différentes couleurs. Le fer donne une teinte noire, tandis que les racines de la plante grimpante produisent une teinture rouge.\r\n\r\nPendant des siècles, le secret de la fabrication des armures elfiques fut jalousement gardé sur l’Archipel de l’Automne. La Trahison d’Ulvul Llaren le révéla au reste de Tamriel. Ulvul était un esclave dunmer qui actionnait les soufflets pour Nuulion, maître forgeron de l’île, entre le cinquième et le septième siècle de la Deuxième Ère. Lorsqu’il s’échappa, il ne trouva pas de meilleure vengeance contre son cruel maître que de révéler tous ses secrets au monde. Nous avons ainsi appris que le calcinium, ingrédient essentiel des armures elfiques, est un alliage obtenu à partir de pierre de lune, et que le métal doit être trempé dans l’eau salée lorsqu’il est encore brûlant. Une véritable armure elfique requiert aussi du vif-argent mêlé au calcinium. Comme le vif-argent fond à une température bien plus basse, il est délicat de travailler ces deux métaux ensemble.\r\n\r\nLe verre est le matériau le plus difficile à travailler. Cette matière volcanique verte ressemble à l’ébonite, mais elle est moins résistante et plus légère. Seul un verrier très expérimenté peut la façonner. Un coup de marteau porté à contre-fil risque de faire éclater l’armure. Il faut aussi du calcinium pour lier le verre et le renforcer. Bien travaillée, une armure de verre est bien plus résistante qu’une armure d’acier et absorbe puis répartit les chocs.",
+    "status": "TranslationComplete",
+    "form_id": "0001AFD0|Skyrim.esm",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "SkillSmithing3"
+  },
+  {
+    "original": "Light Armor Forging",
+    "string": "Confection d'armures légères",
+    "status": "TranslationComplete",
+    "form_id": "0001AFD0|Skyrim.esm",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "SkillSmithing3"
+  },
+  {
+    "original": "Poison Recipe - Damage Health",
+    "string": "Recette de poison : dégâts de santé",
+    "status": "TranslationComplete",
+    "form_id": "000F5CB6|Skyrim.esm",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "RecipeDamageHealth2"
+  },
+  {
+    "original": "<font face='$HandwrittenFont'>\r\nResist Fire potion:\r\n\r\n~Bonemeal\r\n\r\n~Fire Salts\r\n</font>",
+    "string": "<font face='$HandwrittenFont'>\r\nPotion de résistance au feu :\r\n\r\n~Poudre d’os\r\n\r\n~Sels de feu\r\n</font>",
+    "status": "TranslationComplete",
+    "form_id": "000F5CBD|Skyrim.esm",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "MAG_RecipeResistFire1"
+  },
+  {
+    "original": "<mag>% harder to detect while sneaking for <dur> seconds.",
+    "string": "Vous êtes <mag> % plus difficile à repérer en vous déplaçant furtivement pendant <dur> secondes.",
+    "status": "TranslationComplete",
+    "form_id": "0003EB22|Skyrim.esm",
+    "type": "MGEF DNAM",
+    "index": null,
+    "editor_id": "MAG_AlchFortifySneak"
+  },
+  {
+    "original": "Silver Knight Armor",
+    "string": "Armure du chevalier d'argent",
+    "status": "TranslationComplete",
+    "form_id": "04000D68|SPOAsilverknight.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "SPOAskaCuirass"
+  },
+  {
+    "original": "Fortify Sneak",
+    "string": "Renfort de furtivité",
+    "status": "TranslationComplete",
+    "form_id": "0003EB22|Skyrim.esm",
+    "type": "MGEF FULL",
+    "index": null,
+    "editor_id": "MAG_AlchFortifySneak"
+  },
+  {
+    "original": "Imperial Heavy Shield",
+    "string": "Bouclier impérial lourd",
+    "status": "TranslationComplete",
+    "form_id": "000135BA|Skyrim.esm",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorImperialShield"
+  },
+  {
+    "original": "Potion Recipe - Resist Fire",
+    "string": "Recette de potion : résistance au feu",
+    "status": "TranslationComplete",
+    "form_id": "000F5CBD|Skyrim.esm",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "MAG_RecipeResistFire1"
+  },
+  {
+    "original": "<font face='$HandwrittenFont'>\r\nDamage Health poison:\r\n\r\n~Nightshade\r\n\r\n~Red Mountain Flower\r\n</font>",
+    "string": "<font face='$HandwrittenFont'>\r\nPoison : dégâts de santé\r\n\r\n~Obscurcine\r\n\r\n~Lys des cimes rouge\r\n</font>",
+    "status": "TranslationComplete",
+    "form_id": "000F5CB5|Skyrim.esm",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "RecipeDamageHealth1"
+  },
+  {
+    "original": "Imperial Bracers",
+    "string": "Brassards impériaux",
+    "status": "TranslationComplete",
+    "form_id": "000136D4|Skyrim.esm",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "ArmorImperialGauntlets"
+  },
+  {
+    "original": "Poison Recipe - Damage Health",
+    "string": "Recette de poison : dégâts de santé",
+    "status": "TranslationComplete",
+    "form_id": "000F5CB5|Skyrim.esm",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "RecipeDamageHealth1"
+  },
+  {
+    "original": "<font face='$HandwrittenFont'>\r\nResist Frost potion:\r\n\r\n~Moon Sugar\r\n\r\n~Frost Salts\r\n\r\n</font>",
+    "string": "<font face='$HandwrittenFont'>\r\nPotion de résistance au froid :\r\n\r\n~Sucrelune\r\n\r\n~Sels de givre\r\n\r\n</font>",
+    "status": "TranslationComplete",
+    "form_id": "000F5CBF|Skyrim.esm",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "MAG_RecipeResistFrost2"
+  },
+  {
+    "original": "<font face='$HandwrittenFont'>\r\nRestore Health potion:\r\n\r\n~Blue Mountain Flower\r\n\r\n~Blisterwort\r\n\r\n</font>",
+    "string": "<font face='$HandwrittenFont'>\r\nPotion de restauration de santé :\r\n\r\n~Lys des cimes bleu\r\n\r\n~Cloquerille\r\n\r\n</font>",
+    "status": "TranslationComplete",
+    "form_id": "000F5CAF|Skyrim.esm",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "MAG_RecipeRestoreHealth4"
+  },
+  {
+    "original": "Potion Recipe - Restore Health",
+    "string": "Recette de potion : restauration de santé",
+    "status": "TranslationComplete",
+    "form_id": "000F5CAF|Skyrim.esm",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "MAG_RecipeRestoreHealth4"
+  },
+  {
+    "original": "Potion Recipe - Resist Frost",
+    "string": "Recette de potion : résistance au froid",
+    "status": "TranslationComplete",
+    "form_id": "000F5CBF|Skyrim.esm",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "MAG_RecipeResistFrost2"
+  },
+  {
+    "original": "Silver Knight Boots",
+    "string": "Bottes du chevalier d'argent",
+    "status": "TranslationComplete",
+    "form_id": "04000D67|SPOAsilverknight.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "SPOAskaBoots"
+  },
+  {
+    "original": "Sinderion's Legacy",
+    "string": "Héritage de Sinderion",
+    "status": "TranslationComplete",
+    "form_id": "0010BF09|Skyrim.esm",
+    "type": "SPEL FULL",
+    "index": null,
+    "editor_id": "MAG_SinderionsLegacySpell"
+  },
+  {
+    "original": "[pagebreak]\r\n<p align=\"center\">\r\n\r\nHeavy Armor Forging\r\n\r\nby\r\nSven Two-Hammers</p>\r\n[pagebreak]\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/H_letter.png'>eavy armor must be designed to take a lot of punishment. It will receive direct blows from all sorts of weapons while protecting the wearer.  Leather strips are used to make the straps and bindings in armor.  Leather, quilted cloth, or even hide is generally used to line the inside of the armor for better fit and comfort.\r\n\r\nIron armor is the simplest heavy armor to make and requires only basic skill and knowledge of the forge. Just heat the iron up and pound it into shape. The heat of the forge is not that critical.  Some material will always be lost in the smithing process, but it's best to try to conserve the metal and work it back into shape.\r\n\r\nBasic steel armor is only slightly more complex than iron, but the versatility of steel and it's ability to be melded into other metals, makes mastering this material a requirement for any devoted smith.  More advanced steel armors can be made by adding molten copper to the steel. The alloy is stronger than either metal by itself, but this technique requires the heat from the forge to be steady and not vary much. \r\n\r\nDwarven armor is made from dwarven metal. The secret of this alloy was lost when the dwarves disappeared millennia ago. Now it can only be found as scrap in the ruins of their abandoned cities and fortresses.  Fortunately, those scraps can still be refined and turned into a heavy, rugged armor.\r\n\r\nOrcish armor requires large amounts of Orichalcum, melded with a bit of steel. Heat should be used sparingly, lest it become brittle. The Orcs are masters of this technique, but it can be learned by any smith with patience and skill.  \r\n\r\nEbony armor is created from a rare volcanic glass that is extremely hard and durable.  It can only be worked when properly heated, and only very skilled smiths can manage to work it with the necessary precision. If it isn't brought to just the right temperature, the ebony will develop small cracks that eventually shatter. Unlike most other metals, Ebony will not alloy with iron or steel. It must be used pure.\r\n\r\nI can only tell you tales of how to make Daedric armor. Prior to the Oblivion Crisis this armor was almost non-existent in Tamriel. While it is still exceedingly rare,  remnants from the Crisis can sometimes be found.  These are generally prized by noble families and wealthy collectors, though their possession is often kept quiet, in part to avoid providing an obvious target for thieves and bandits, but also due to the stigma often attached to Daedric items.  \r\n\r\nI have never seen Daedric armor myself, nor do I know anyone that has. It is supposedly made from ebony. The stories say that it should always be worked at night... ideally under a new or full moon, and never during an eclipse. A red harvest moon is best.  At the right moment, a daedra heart must be thrown into the fire. The heart imbues the armor with the essence of the daedra and transforms the ebony into something even stronger. ",
+    "string": "[pagebreak]\r\n<p align=\"center\">\r\n\r\nConfection d’armures lourdes\r\n\r\nPar\r\nSven Deux-Marteaux</p>\r\n[pagebreak]\r\n[pagebreak]\r\n<p align=\"left\">\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/L_letter.png'>es armures lourdes doivent être conçues pour encaisser les coups. Elles reçoivent de plein fouet les attaques de toutes sortes d’armes tout en protégeant leur porteur. Des lanières de cuir servent à assembler les pièces et à fixer les attaches. L’intérieur est généralement doublé de cuir, de tissu matelassé ou même de peaux, pour assurer confort et ajustement.\r\n\r\nL’armure de fer est la plus simple à fabriquer et ne demande qu’un savoir-faire élémentaire à la forge. Il suffit de chauffer le fer et de le marteler pour lui donner la forme voulue ; la température de la forge n’a pas besoin d’être réglée avec précision. Le travail du métal entraîne toujours quelques pertes, mais mieux vaut économiser la matière et la remettre en forme.\r\n\r\nUne armure d’acier ordinaire n’est guère plus difficile à fabriquer qu’une armure de fer. Mais la polyvalence de l’acier et sa capacité à s’allier à d’autres métaux en font un matériau qu’un forgeron digne de ce nom doit maîtriser. On peut obtenir des armures d’acier plus élaborées en y ajoutant du cuivre en fusion. L’alliage est plus résistant que chacun des deux métaux pris séparément, mais il faut maintenir une température de forge très stable.\r\n\r\nLes armures dwemers sont fabriquées à partir de métal dwemer. Le secret de cet alliage fut perdu lorsque les Dwemers disparurent, il y a des millénaires. Aujourd’hui, ce métal ne se trouve qu’à l’état de débris dans les ruines de leurs villes et forteresses abandonnées. Heureusement, ces débris peuvent encore être raffinés pour fabriquer une armure lourde et robuste.\r\n\r\nLes armures orques requièrent de grandes quantités d’orichalque allié à un peu d’acier. Il faut chauffer le métal avec parcimonie pour éviter qu’il ne devienne cassant. Les Orques maîtrisent cette technique, mais tout forgeron patient et habile peut l’apprendre.\r\n\r\nL’armure d’ébonite est faite d’un verre volcanique rare, extrêmement dur et résistant. On ne peut le travailler qu’une fois chauffé à point, et seuls les forgerons les plus habiles ont la précision nécessaire. S’il n’atteint pas la bonne température, l’ébonite se fissure et finit par éclater. Contrairement à la plupart des autres métaux, l’ébonite ne s’allie ni au fer ni à l’acier : elle doit être utilisée pure.\r\n\r\nJe ne peux que rapporter les récits sur la fabrication des armures daedriques. Avant la Crise d’Oblivion, elles étaient presque inexistantes en Tamriel. Elles restent extrêmement rares, mais on trouve parfois des vestiges datant de la Crise. Les familles nobles et les riches collectionneurs les convoitent, mais préfèrent souvent taire qu’ils en possèdent : cela évite d’attirer voleurs et bandits, et de s’exposer à l’opprobre associé aux objets daedriques.\r\n\r\nJe n’ai jamais vu d’armure daedrique, et je ne connais personne qui en ait vu. On dit qu’elle est faite d’ébonite. Selon les récits, elle doit être forgée de nuit, idéalement sous une nouvelle lune ou une pleine lune, et jamais pendant une éclipse. Le mieux est d’attendre la lune rouge des moissons. Au moment propice, il faut jeter un cœur de Daedra dans le feu. Il imprégnera l’armure de l’essence du Daedra et transformera l’ébonite en un matériau encore plus résistant.",
+    "status": "TranslationComplete",
+    "form_id": "0001AFD2|Skyrim.esm",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "SkillSmithing5"
+  },
+  {
+    "original": "Heavy Armor Forging",
+    "string": "Confection d'armures lourdes",
+    "status": "TranslationComplete",
+    "form_id": "0001AFD2|Skyrim.esm",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "SkillSmithing5"
+  },
+  {
+    "original": "Silver Knight Gauntlets",
+    "string": "Gantelets du chevalier d'argent",
+    "status": "TranslationComplete",
+    "form_id": "04000D69|SPOAsilverknight.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "editor_id": "SPOAskaGauntlets"
+  }
+]

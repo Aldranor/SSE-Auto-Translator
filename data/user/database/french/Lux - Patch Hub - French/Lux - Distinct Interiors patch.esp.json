@@ -1,0 +1,353 @@
+[
+  {
+    "original": "Haelga's Bunkhouse",
+    "string": "Dortoir d'Haelga",
+    "status": "TranslationComplete",
+    "form_id": "00016BD4|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiftenHaelgasBunkhouse"
+  },
+  {
+    "original": "Sleeping Giant Inn",
+    "string": "Auberge du Géant endormi",
+    "status": "TranslationComplete",
+    "form_id": "000133C6|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiverwoodSleepingGiantInn"
+  },
+  {
+    "original": "Windpeak Inn",
+    "string": "Auberge Montvent",
+    "status": "TranslationComplete",
+    "form_id": "00013A7F|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "DawnstarWindpeakInn"
+  },
+  {
+    "original": "New Gnisis Cornerclub",
+    "string": "Club de la Nouvelle Gnisis",
+    "status": "TranslationComplete",
+    "form_id": "0001677F|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WindhelmNewGnisisCornerclub"
+  },
+  {
+    "original": "Candlehearth Hall",
+    "string": "Auberge du Candelâtre",
+    "status": "TranslationComplete",
+    "form_id": "00016789|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WindhelmCandlehearthHall"
+  },
+  {
+    "original": "The Bee and Barb",
+    "string": "Le Dard de l'abeille",
+    "status": "TranslationComplete",
+    "form_id": "00016BDF|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiftenBeeandBarb"
+  },
+  {
+    "original": "Birna's Oddments",
+    "string": "Fins de série de Birna",
+    "status": "TranslationComplete",
+    "form_id": "00013813|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WinterholdRanmirshouse"
+  },
+  {
+    "original": "Gray Pine Goods",
+    "string": "Boutique Grispin",
+    "status": "TranslationComplete",
+    "form_id": "00013A76|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "FalkreathGrayPineGoods"
+  },
+  {
+    "original": "Old Hroldan Inn",
+    "string": "Auberge du Vieux-Hroldan",
+    "status": "TranslationComplete",
+    "form_id": "000138BE|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "OldHroldanInn"
+  },
+  {
+    "original": "The Frozen Hearth",
+    "string": "Le Foyer gelé",
+    "status": "TranslationComplete",
+    "form_id": "00013814|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WinterholdTheFrozenHearth"
+  },
+  {
+    "original": "Temple of Mara",
+    "string": "Temple de Mara",
+    "status": "TranslationComplete",
+    "form_id": "00016BD7|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiftenTempleofMara"
+  },
+  {
+    "original": "Temple of Dibella",
+    "string": "Temple de Dibella",
+    "status": "TranslationComplete",
+    "form_id": "00016DF3|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "MarkarthTempleofDibella"
+  },
+  {
+    "original": "Riverwood Trader",
+    "string": "Marché de Rivebois",
+    "status": "TranslationComplete",
+    "form_id": "000133C9|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiverwoodRiverwoodTrader"
+  },
+  {
+    "original": "Sadri's Used Wares",
+    "string": "Les Occasions de Sadri",
+    "status": "TranslationComplete",
+    "form_id": "00016782|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WindhelmSadrisUsedWares"
+  },
+  {
+    "original": "Frostfruit Inn",
+    "string": "Auberge du Fruit gelé",
+    "status": "TranslationComplete",
+    "form_id": "00013870|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RoriksteadFrostfruitInn"
+  },
+  {
+    "original": "The Retching Netch",
+    "string": "Le Netch éméché",
+    "status": "TranslationComplete",
+    "form_id": "04017EC0|Dragonborn.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "DLC2RRTheRetchingNetch"
+  },
+  {
+    "original": "Silver-Blood Inn",
+    "string": "Auberge du Sang-d'Argent",
+    "status": "TranslationComplete",
+    "form_id": "00016DFE|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "MarkarthSilverBloodInn"
+  },
+  {
+    "original": "Braidwood Inn",
+    "string": "Auberge du Bois tressé",
+    "status": "TranslationComplete",
+    "form_id": "00013907|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "KynesgroveBraidwoodInn"
+  },
+  {
+    "original": "The Ragged Flagon",
+    "string": "La Cruche percée",
+    "status": "TranslationComplete",
+    "form_id": "00016BCF|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiftenRaggedFlagon"
+  },
+  {
+    "original": "Pawned Prawn",
+    "string": "La Crevette sauteuse",
+    "status": "TranslationComplete",
+    "form_id": "00016BD9|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiftenPawnedPrawn"
+  },
+  {
+    "original": "Grave Concoctions",
+    "string": "Concoctions d'outre-tombe",
+    "status": "TranslationComplete",
+    "form_id": "0003A183|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "FalkreathGraveConcoctions"
+  },
+  {
+    "original": "The Drunken Huntsman",
+    "string": "Le Chasseur ivre",
+    "status": "TranslationComplete",
+    "form_id": "000165B7|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WhiterunDrunkenHuntsman"
+  },
+  {
+    "original": "Arnleif and Sons Trading Company",
+    "string": "Comptoir d'Arnleif et fils",
+    "status": "TranslationComplete",
+    "form_id": "00016DFF|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "MarkarthArnleifandSonsTradingCompany"
+  },
+  {
+    "original": "Nightgate Inn Cellar",
+    "string": "Cave de la Porte nocturne",
+    "status": "TranslationComplete",
+    "form_id": "00027552|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "NightgateInnCellar"
+  },
+  {
+    "original": "Windhelm Barracks",
+    "string": "Baraquements de Vendeaume",
+    "status": "TranslationComplete",
+    "form_id": "0001677A|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WindhelmBloodworks"
+  },
+  {
+    "original": "The Ragged Flagon - Cistern",
+    "string": "La Cruche percée - Réservoir",
+    "status": "TranslationComplete",
+    "form_id": "00016BD0|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "RiftenThievesGuildHeadquarters"
+  },
+  {
+    "original": "Dead Man's Drink",
+    "string": "Auberge du Mort de soif",
+    "status": "TranslationComplete",
+    "form_id": "0003A184|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "FalkreathDeadMansDrink"
+  },
+  {
+    "original": "Olava the Feeble's House",
+    "string": "Maison d'Olava",
+    "status": "TranslationComplete",
+    "form_id": "000165AE|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WhiterunOlavatheFeeblesHouse"
+  },
+  {
+    "original": "Vilemyr Inn",
+    "string": "Auberge de Vilemyr",
+    "status": "TranslationComplete",
+    "form_id": "00013A5C|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "IvarsteadVilemyrInn"
+  },
+  {
+    "original": "The Winking Skeever",
+    "string": "Le Ragnard pervers",
+    "status": "TranslationComplete",
+    "form_id": "00016A0E|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "SolitudeWinkingSkeever"
+  },
+  {
+    "original": "Half-Moon Mill",
+    "string": "Scierie Mi-lune",
+    "status": "TranslationComplete",
+    "form_id": "000161EF|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "HalfMoonMill"
+  },
+  {
+    "original": "Nightgate Inn",
+    "string": "Auberge de la Porte nocturne",
+    "status": "TranslationComplete",
+    "form_id": "00013A5D|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "NightgateInn"
+  },
+  {
+    "original": "Radiant Raiment",
+    "string": "Friperies fantaisie",
+    "status": "TranslationComplete",
+    "form_id": "00016A0F|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "SolitudeRadiantRaiment"
+  },
+  {
+    "original": "Shrine of Talos",
+    "string": "Autel de Talos",
+    "status": "TranslationComplete",
+    "form_id": "00016DF7|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "MarkarthShrineofTalos"
+  },
+  {
+    "original": "Hall of the Dead",
+    "string": "Nécropole d'Épervine",
+    "status": "TranslationComplete",
+    "form_id": "00013A71|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "FalkreathHouseofArkay"
+  },
+  {
+    "original": "Four Shields Tavern",
+    "string": "Taverne des Quatre boucliers",
+    "status": "TranslationComplete",
+    "form_id": "00013A7C|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "DragonBridgeFourShieldsTavern"
+  },
+  {
+    "original": "Moorside Inn",
+    "string": "Auberge du Mauresque",
+    "status": "TranslationComplete",
+    "form_id": "000138CE|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "MorthalMoorsideInn"
+  },
+  {
+    "original": "Bits and Pieces",
+    "string": "Bric-à-brac",
+    "status": "TranslationComplete",
+    "form_id": "00016A10|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "SolitudeBitsandPieces"
+  },
+  {
+    "original": "Carlotta Valentia's House",
+    "string": "Maison de Carlotta Valentia",
+    "status": "TranslationComplete",
+    "form_id": "000165B1|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WhiterunCarlottaValentiasHouse"
+  }
+]
