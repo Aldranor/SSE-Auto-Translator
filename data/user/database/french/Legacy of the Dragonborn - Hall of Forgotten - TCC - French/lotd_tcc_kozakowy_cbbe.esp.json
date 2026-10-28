@@ -1,0 +1,20 @@
+[
+  {
+    "original": "The Curator's Companion-Kozakowy's Falka Armor",
+    "string": "The Curator's Companion-Kozakowy's Falka Armor",
+    "status": "TranslationComplete",
+    "form_id": "09000803|LOTD_TCC_Kozakowy_CBBE.esp",
+    "type": "QUST FULL",
+    "index": null,
+    "editor_id": "TCC_KozakowyQ"
+  },
+  {
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Kozakowy's Falka Armor)</font>",
+    "string": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Armure de Falka de Kozakowy)</font>",
+    "status": "TranslationComplete",
+    "form_id": "09000801|LOTD_TCC_Kozakowy_CBBE.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "_CompleteNotification_KozakowyQ"
+  }
+]

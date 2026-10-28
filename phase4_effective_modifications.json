@@ -1,0 +1,596 @@
+[
+  {
+    "file": "EEKs Whiterun Interiors.esp - French/eeks whiterun interiors.esp.json",
+    "form_id": "0602DDD6|EEKs Whiterun Interiors.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Aalia",
+    "old_value": "Aalia",
+    "new_value": "Aalia"
+  },
+  {
+    "file": "EEKs Whiterun Interiors.esp - French/eeks whiterun interiors.esp.json",
+    "form_id": "0602DDD6|EEKs Whiterun Interiors.esp",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "original": "Aalia",
+    "old_value": "Aalia",
+    "new_value": "Aalia"
+  },
+  {
+    "file": "EEKs Whiterun Interiors.esp - French/eeks whiterun interiors.esp.json",
+    "form_id": "0605B47B|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "original": "Red Mountain Flowers",
+    "old_value": "Fleurs rouges de montagne",
+    "new_value": "Fleurs rouges de montagne"
+  },
+  {
+    "file": "EEKs Whiterun Interiors.esp - French/eeks whiterun interiors.esp.json",
+    "form_id": "06058CCB|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "original": "Red Mountain Flowers",
+    "old_value": "Fleurs rouges de montagne",
+    "new_value": "Fleurs rouges de montagne"
+  },
+  {
+    "file": "DBM_IdentityCrisis_Patch.esp - French/dbm_identitycrisis_patch.esp.json",
+    "form_id": "0700085A|DBM_IdentityCrisis_Patch.esp",
+    "type": "MISC FULL",
+    "index": null,
+    "original": "Heart of Arden-Sul (replica)",
+    "old_value": "Cœur d'Arden-Sul (réplique)",
+    "new_value": "Cœur d'Arden-Sul (réplique)"
+  },
+  {
+    "file": "DBM_IdentityCrisis_Patch.esp - French/dbm_identitycrisis_patch.esp.json",
+    "form_id": "07000856|DBM_IdentityCrisis_Patch.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "original": "Intriguer's Cowl (replica)",
+    "old_value": "Capuchon de l'Intrigant (réplique)",
+    "new_value": "Capuchon de l'Intrigant (réplique)"
+  },
+  {
+    "file": "DBM_IdentityCrisis_Patch.esp - French/dbm_identitycrisis_patch.esp.json",
+    "form_id": "07000857|DBM_IdentityCrisis_Patch.esp",
+    "type": "LIGH FULL",
+    "index": null,
+    "original": "Heart of Arden-Sul (replica)",
+    "old_value": "Cœur d'Arden-Sul (réplique)",
+    "new_value": "Cœur d'Arden-Sul (réplique)"
+  },
+  {
+    "file": "DBM_IdentityCrisis_Patch.esp - French/dbm_identitycrisis_patch.esp.json",
+    "form_id": "07000852|DBM_IdentityCrisis_Patch.esp",
+    "type": "CONT FULL",
+    "index": null,
+    "original": "Identity Crisis Items",
+    "old_value": "Objets de la Crise d'identité",
+    "new_value": "Objets de la Crise d'identité"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000C02|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Magnar's Warrior Longspear",
+    "old_value": "Espadon du guerrier Magnar",
+    "new_value": "Espadon du guerrier Magnar"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000825|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Dragonslayer Gauntlets",
+    "old_value": "Gantelets de Tueur de dragon",
+    "new_value": "Gantelets de Tueur de dragon"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900083F|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Half-Dragon Doll",
+    "old_value": "Poupée demi-dragon",
+    "new_value": "Poupée demi-dragon"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900082E|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "The Owl Flies at Dusk",
+    "old_value": "Le hibou vole au crépuscule",
+    "new_value": "Le hibou vole au crépuscule"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000827|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Dragonslayer Armor",
+    "old_value": "Armure de Tueur de dragon",
+    "new_value": "Armure de Tueur de dragon"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900083E|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Fang of the Old Dragon",
+    "old_value": "Croc du Vieux dragon",
+    "new_value": "Croc du Vieux dragon"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000831|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Ja'cobee's Dragon Pipe",
+    "old_value": "Pipeau draconique de Ja'cobee",
+    "new_value": "Pipeau draconique de Ja'cobee"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000807|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Dragonslayer Boots",
+    "old_value": "Bottes de Tueur de dragon",
+    "new_value": "Bottes de Tueur de dragon"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000811|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Alcaire Greatlance",
+    "old_value": "Grande lance d'Alcaire",
+    "new_value": "Grande lance d'Alcaire"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000DCB|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "The 36 Lessons of Vivec: Sermon 37",
+    "old_value": "Les 36 Leçons de Vivec : Sermon 37",
+    "new_value": "Les 36 Leçons de Vivec : Sermon 37"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900082B|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Silver Great Keyblade",
+    "old_value": "Grande Clef-Lame d'argent",
+    "new_value": "Grande Clef-Lame d'argent"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000833|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Golden Pus",
+    "old_value": "Masque de Purulence dorée",
+    "new_value": "Masque de Purulence dorée"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000C13|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Khemkel's Carving Knife",
+    "old_value": "Couteau à sculpter de Khemkel",
+    "new_value": "Couteau à sculpter de Khemkel"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000829|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Dragonslayer Greatshield",
+    "old_value": "Grand bouclier de Tueur de dragon",
+    "new_value": "Grand bouclier de Tueur de dragon"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000820|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Orkey Greataxe",
+    "old_value": "Grande hache d'Orkey",
+    "new_value": "Grande hache d'Orkey"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000826|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Dragonslayer Helmet",
+    "old_value": "Casque de Tueur de dragon",
+    "new_value": "Casque de Tueur de dragon"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000C15|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Ysgramor's Fork",
+    "old_value": "Fourche d'Ysgramor",
+    "new_value": "Fourche d'Ysgramor"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000819|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Dragonslayer Greatsword",
+    "old_value": "Espadon de Tueur de dragon",
+    "new_value": "Espadon de Tueur de dragon"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000C0D|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Honeybee's Silver Sting",
+    "old_value": "Piqûre d'argent d'Abeille",
+    "new_value": "Piqûre d'argent d'Abeille"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900080E|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Hoarfrost Scythe",
+    "old_value": "Faux de Feralgide",
+    "new_value": "Faux de Feralgide"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000824|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Hands of Gods",
+    "old_value": "Mains de Dieux",
+    "new_value": "Mains de Dieux"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900080C|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Festering Lesion",
+    "old_value": "Couronne de Suppuration",
+    "new_value": "Couronne de Suppuration"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000809|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Frozen Dragon Soul",
+    "old_value": "Âme de dragon gelé",
+    "new_value": "Âme de dragon gelé"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900081B|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Gray Owl's Mask",
+    "old_value": "Masque du Hibou Gris",
+    "new_value": "Masque du Hibou Gris"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000821|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Festering Greatsword",
+    "old_value": "Espadon de Suppuration",
+    "new_value": "Espadon de Suppuration"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000834|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Darkstalker's Staff",
+    "old_value": "Bâton de Rôdeur sombre",
+    "new_value": "Bâton de Rôdeur sombre"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000818|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Zweihander",
+    "old_value": "Claymore",
+    "new_value": "Claymore"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900082D|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Mage Shield",
+    "old_value": "Bouclier du Mage",
+    "new_value": "Bouclier du Mage"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000836|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Curse Ward Greatsword",
+    "old_value": "Espadon Barrière maudite",
+    "new_value": "Espadon Barrière maudite"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000C1E|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Roots of a Woodland Man",
+    "old_value": "Racines d'un homme des bois",
+    "new_value": "Racines d'un homme des bois"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000C17|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Oracle-Oocyte Amulet",
+    "old_value": "Amulette de l'Oracle Gamétocyte",
+    "new_value": "Amulette de l'Oracle Gamétocyte"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000DD6|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Oracle Iridescent Mask",
+    "old_value": "Masque de l'Oracle Iridescent",
+    "new_value": "Masque de l'Oracle Iridescent"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000822|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Vermilion Bow",
+    "old_value": "Arc Vermillon",
+    "new_value": "Arc Vermillon"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900090D|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Lingering Snow",
+    "old_value": "Neige persistante",
+    "new_value": "Neige persistante"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900083A|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Curse Ward Greatshield",
+    "old_value": "Grand bouclier de Maléfice",
+    "new_value": "Grand bouclier de Maléfice"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000828|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Dragonslayer Ring",
+    "old_value": "Anneau de Tueur de dragon",
+    "new_value": "Anneau de Tueur de dragon"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000838|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Elden Helmet",
+    "old_value": "Casque de l'Aîné",
+    "new_value": "Casque de l'Aîné"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000812|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Elden Shield",
+    "old_value": "Bouclier de l'Aîné",
+    "new_value": "Bouclier de l'Aîné"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "09000841|DBM_Unslaad_Display_Patch.esp",
+    "type": "ARMO FULL",
+    "index": null,
+    "original": "Gray Egg",
+    "old_value": "Œuf gris",
+    "new_value": "Œuf gris"
+  },
+  {
+    "file": "DBM_Unslaad_Display_Patch/dbm_unslaad_display_patch.esp.json",
+    "form_id": "0900081A|DBM_Unslaad_Display_Patch.esp",
+    "type": "ACTI FULL",
+    "index": null,
+    "original": "Frost Shield",
+    "old_value": "Bouclier glacé",
+    "new_value": "Bouclier glacé"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_aiolas.esp.json",
+    "form_id": "02000801|LOTD_TCC_AIOLAS.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Legendary Alpha Shields)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Legendary Alpha Shields)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Boucliers alpha légendaires)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_babayaga.esp.json",
+    "form_id": "09000801|LOTD_TCC_BabaYaga.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Baba Yaga and the Labyrinth)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Baba Yaga and the Labyrinth)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Baba Yaga et le Labyrinthe)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_billyrow.esp.json",
+    "form_id": "09000803|LOTD_TCC_BillyRoW.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (BillyRo Ultimate Swords Anthology)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (BillyRo Ultimate Swords Anthology)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Anthologie ultime d'épées de BillyRo)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_carved brink.esp.json",
+    "form_id": "09000803|LOTD_TCC_Carved Brink.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Carved Brink)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Carved Brink)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Bord abrupt)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_curseofthehoundamulet.esp.json",
+    "form_id": "0A000803|LOTD_TCC_CurseOfTheHoundAmulet.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Curse Of The Hound Amulet)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Curse Of The Hound Amulet)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Malédiction de l'amulette du chien)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_finh.esp.json",
+    "form_id": "02000801|LOTD_TCC_FINH.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Forgotten In History)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Forgotten In History)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Oublié dans l'histoire)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_kings crusader pack(4esl).esp.json",
+    "form_id": "09000801|LOTD_TCC_Kings Crusader Pack(4ESL).esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (King Crusader Mega Pack)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (King Crusader Mega Pack)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Méga pack du Roi croisé)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_kozakowy_cbbe.esp.json",
+    "form_id": "09000801|LOTD_TCC_Kozakowy_CBBE.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Kozakowy's Falka Armor)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Kozakowy's Falka Armor)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Armure de Falka de Kozakowy)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_ksa.esp.json",
+    "form_id": "09000801|LOTD_TCC_KSA.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Viridian Knight Armor)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Viridian Knight Armor)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Armure de chevalier viridien)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_lunar guard.esp.json",
+    "form_id": "09000801|LOTD_TCC_Lunar Guard.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Lunar Guard Armor)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Lunar Guard Armor)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Armure de la Garde lunaire)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_midwoodisle.esp.json",
+    "form_id": "09000803|LOTD_TCC_MidwoodIsle.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Midwood Isle)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Midwood Isle)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Île de Midwood)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_onyxlancer.esp.json",
+    "form_id": "09000801|LOTD_TCC_OnyxLancer.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Onyx Lancer)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Onyx Lancer)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Lancier d'onyx)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_puaio.esp.json",
+    "form_id": "09000803|LOTD_TCC_PUAIO.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (PUAIO)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (PUAIO)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (PUAIO)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_regal paladinesl.esp.json",
+    "form_id": "09000801|LOTD_TCC_Regal PaladinESL.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Regal Paladin Armor)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Regal Paladin Armor)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Armure de paladin royal)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_sirenroot.esp.json",
+    "form_id": "09000801|LOTD_TCC_SirenRoot.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (SirenRoot)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (SirenRoot)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Racine des Sirènes)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_titus mede.esp.json",
+    "form_id": "09000803|LOTD_TCC_Titus Mede.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Armor of Titus Mede)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Armor of Titus Mede)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Armure de Titus Mede)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_velothi.esp.json",
+    "form_id": "09000803|LOTD_TCC_Velothi.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Armors of the Velothi Pt. I)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Armors of the Velothi Pt. I)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Armures des Vélothis - Partie I)</font>"
+  },
+  {
+    "file": "Legacy of the Dragonborn - Hall of Forgotten - TCC - French/lotd_tcc_vinditionaio.esp.json",
+    "form_id": "09000801|LOTD_TCC_VinditionAIO.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Vindition Weapons Collection)</font>",
+    "old_value": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Vindition Weapons Collection)</font>",
+    "new_value": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Collection d'armes de Vindition)</font>"
+  }
+]

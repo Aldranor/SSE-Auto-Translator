@@ -175,3 +175,14 @@ Audit approfondi et révision complète des 4 mods maîtres narratifs (8 fichier
 - **Vigilant 1.7.3 & Akaviri Follower (7 823 entrées) :** Intégrité 100% vérifiée, 0 anomalie joueur.
 - **Protocole :** 289 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (
 ecap_modifications_phase3.md).
+
+## Phase 4 : Quêtes, Nouveaux Mondes & Legacy of the Dragonborn (LOTD) — 28 octobre 2026
+
+Audit approfondi et révision complète des mods LOTD, intérieurs et nouveaux lieux (95 plugins, 5 816 entrées) :
+- **DBM Unslaad Display Patch (343 entrées) :** 40 plaques d'exposition du Musée réalignées mot à mot sur le master Unslaad.esm pour assurer la concordance parfaite entre l'objet dans l'inventaire du joueur et le libellé de l'exposition.
+- **Legacy of the Dragonborn - TCC (18 plugins, 36 entrées) :** Harmonisation des 18 messages de complétion de mods sur la norme officielle des Outils du Conservateur (Les Outils du Conservateur - Mod complété (...)).
+- **EEKs Whiterun Interiors (261 entrées) :** Correction de valeurs nulles (PNJ Aalia) et correction lore de la flore (Fleurs rouges de montagne).
+- **DBM Identity Crisis Patch (20 entrées) :** Rétablissement des suffixes de répliques en français (réplique).
+- **Hjertesten Hall, Alternate Perspective & Follower Room Patches (2 639 entrées) :** Intégrité 100% vérifiée, 0 anomalie joueur, conformité intégrale.
+- **Protocole :** 66 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (
+ecap_modifications_phase4.md).

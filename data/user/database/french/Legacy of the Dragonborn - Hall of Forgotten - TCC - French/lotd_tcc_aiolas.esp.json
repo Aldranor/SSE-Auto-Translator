@@ -1,0 +1,20 @@
+[
+  {
+    "original": "The Curator's Companion - Legendary Alpha Shields",
+    "string": "The Curator's Companion - Legendary Alpha Shields",
+    "status": "TranslationComplete",
+    "form_id": "02000803|LOTD_TCC_AIOLAS.esp",
+    "type": "QUST FULL",
+    "index": null,
+    "editor_id": "TCC_SM_AIOLAS"
+  },
+  {
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Legendary Alpha Shields)</font>",
+    "string": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Boucliers alpha légendaires)</font>",
+    "status": "TranslationComplete",
+    "form_id": "02000801|LOTD_TCC_AIOLAS.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "_CompleteNotification_AIOLAS"
+  }
+]

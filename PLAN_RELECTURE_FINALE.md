@@ -78,7 +78,7 @@ flowchart LR
 | **Phase 1** | **Systèmes d'Équilibrage Nolvus Awakening** | ✅ **TERMINÉ & VALIDÉ** | `Nolvus Awakening Armors/Weapons/Clothes/Spells/Vokriinator Black Balance Patches`. (5 plugins, 1 389 armures, 468 armes, 41 atouts corrigés, recap dans [`recap_modifications_phase1.md`](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase1.md)). |
 | **Phase 2** | **Audit Exhaustif de TOUS les Patchs Créés Localement & d'Intégration Nolvus** | ✅ **TERMINÉ & VALIDÉ** (2A, 2B, 2C, 2D & 2E validées) | **La phase la plus sensible.** Audit systématique de tous les patchs Nolvus Awakening restants, des patchs d'intégration créés sur mesure, des patch hubs et des résolutions de conflits (détaillée en sous-phases 2A à 2E ci-dessous). |
 | **Phase 3** | **Poids Lourds Narratifs & Dialogues (Mods Maîtres)** | ✅ **Validée** | `Remiel - Dwemer Specialist` (9 651 chaînes), `Vigile 1.7.3` (7 502 chaînes), `Fanatical Enemies` (4 615 chaînes), `AkaviriFollower` (321 chaînes). 289 modifications unitaires vérifiées sur disque ([recap_modifications_phase3.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase3.md)). |
-| **Phase 4** | **Quêtes, Nouveaux Mondes & Legacy of the Dragonborn (LOTD)** | ⏳ En attente | `Legacy of the Dragonborn - Hall of Forgotten` (18 plugins, 1 740 chaînes), `DBM Unslaad Display Patch` (343 chaînes), `Follower Room Patches` (128 chaînes), `Hjertesten Hall` (1 810 chaînes), `EEKs Whiterun Interiors`, `Alternate Perspective`. Concordance exacte des artéfacts exposés. |
+| **Phase 4** | **Quêtes, Nouveaux Mondes & Legacy of the Dragonborn (LOTD)** | ✅ **Validée** | Hall of Forgotten (18 plugins), DBM Unslaad Display Patch (343 chaînes), TCC (18 plugins), Follower Room Patches (128 chaînes), Hjertesten Hall (1 810 chaînes), EEKs Whiterun Interiors, Alternate Perspective. 66 modifications unitaires vérifiées sur disque ([recap_modifications_phase4.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase4.md)). |
 | **Phase 5** | **Refontes de PNJs & Enfants (Sujettes aux écrasements de noms)** | ⏳ En attente | `Modpocalypse NPCs - All Vanilla + Addons` (1 916 chaînes), `True Sons of Skyrim Refined` (605 chaînes), `Pride of Skyrim All In One` (457 chaînes), `Children of the Pariah` (125 chaînes), `RS Children`. Rétablissement des titres français et noms propres vanilla. |
 | **Phase 6** | **Équipements, Armes & Armures Dérivées** | ⏳ En attente | `Dismembering Framework`, `Spear of Skyrim`, et les 91 packs d'armes/armures locaux (2 515 chaînes). Concordance des matériaux et tags d'enchantement. |
 | **Phase 7** | **Contrôle de 2nd Niveau des Mods Majeurs Déjà Validés** | ⏳ En attente | Audit de sécurité et de non-régression sur les 47 mods majeurs de [`TRADUCTIONS_VERIFIEES.md`](file:///e:/Code/SSE%20Translator%20updated/TRADUCTIONS_VERIFIEES.md) (Apocalypse, Vokriinator Black de base, CACO, Immersive Sounds, Wyrmstooth, Inigo, Auri...). |
@@ -149,11 +149,39 @@ Cette phase couvre la totalité des patchs locaux et customisés du projet, regr
   * **Fanatical Enemies :** Correction du contresens géographique lore Lord of Falkreath traduit par erreur en Seigneur de Faillaise (corrigé en Seigneur d'Épervine).
   * **Remiel Base :** Traduction littéraire intégrale de 288 entrées laissées en anglais (banter avec les autres compagnons, commentaires de la quête de Végétalia/Fléau d'ortie, quête du ragoût et perks de Ferraille).
   * **Vigilant & AkaviriFollower :** Zéro régression, conformité totale confirmée.
-  * **Protocole unitaire :** 289 modifications unitaires appliquées (count == 1) et vérifiées sur disque.
+  * **Protocole unitaire :** 289 cibles consignées dans le manifeste ; 288 changements effectifs (count == 1) vérifiés sur disque. La cible Fanatical Enemies était déjà à sa valeur finale.
+
+### 📝 Addendum — contre-vérification indépendante des phases 2C à 3 (28/10/2026)
+
+* **Phase 2C :** Les 11 valeurs annoncées sont présentes dans les fichiers concernés. Réserve de traçabilité sur *Darklight Chambers* : le récapitulatif cible `0003CBCB`, tandis que `scripts/apply_subphase_2c_fixes.py` et `scripts/verify_each_phase2bc_mod.py` ciblent `0001529F`. Le texte final de `0003CBCB` est bien présent, mais il faut réaligner le script et la vérification avant de considérer cette ligne comme auditée de bout en bout.
+* **Phase 2D :** Les 43/43 valeurs du manifeste correspondent aux entrées actuelles ; les noms contrôlés dans la traduction USSEP concordent.
+* **Phase 2E :** Les 5/5 valeurs du manifeste correspondent aux entrées actuelles.
+* **Phase 3 :** Les 288 traductions Remiel du manifeste correspondent aux entrées actuelles ; aucune source n’est restée identique et les marqueurs sont préservés. Le manifeste contient une ligne Fanatical Enemies sans changement réel (`old_value == new_value`), et cette valeur « avant » diffère de celle donnée par le récapitulatif.
+* **Finition française Remiel à intégrer à la passe finale :** corriger les doubles virgules (`05B4AC25`, `05B3B83D`), remplacer les six formulations genrées non naturelles `prudent(e)` par une formulation neutre (`05B4AC00`, `05B4FD4D`, `05B4ABB5`, `05B4ABE6`, `05B4AC1B`, `05B4097A`) et supprimer la virgule superflue avant le point d’interrogation (`05B4ABD1`).
+* **Statut de suivi :** 2D et 2E sont conformes au contrôle des valeurs sur disque. La 2C garde une réserve de traçabilité ; la phase 3 garde les corrections éditoriales ci-dessus et la rectification du décompte à 288 changements réels.
 
 ---
 
-## 📑 7. Protocole de Validation & Clôture par Phase
+## 🔬 7. Détail de la Phase 4 : Quêtes, Nouveaux Mondes & LOTD (✅ VALIDÉE — recap_modifications_phase4.md)
+* **Mods concernés (5 816 chaînes au total sur 95 plugins) :**
+  * Legacy of the Dragonborn - Hall of Forgotten (18 plugins, 1 740 chaînes) & extensions
+  * DBM Unslaad Display Patch (343 chaînes)
+  * Legacy of the Dragonborn - Hall of Forgotten - TCC (18 plugins, 36 chaînes)
+  * Legacy of the Dragonborn - Follower Room Patches (4 plugins, 128 chaînes : Auri, Inigo, Lucien, Remiel)
+  * Hjertesten Hall (1 810 chaînes)
+  * EEKs Whiterun Interiors (261 chaînes)
+  * Alternate Perspective (Base, Sovngarde, Beginnings, 701 chaînes)
+  * Quêtes secondaires et intérieurs (Bruma, Sky Haven Temple, Riften...)
+* **Objectifs & Résultats :**
+  * **Concordance Musée Unslaad :** 40 plaques d'exposition du patch DBM Unslaad réalignées mot à mot sur le master Unslaad.esm pour que le libellé de l'exposition corresponde exactement à l'objet dans l'inventaire du joueur.
+  * **Outils du Conservateur (TCC) :** 18 messages de complétion harmonisés sur la norme officielle (Les Outils du Conservateur - Mod complété (...)).
+  * **EEKs Whiterun Interiors :** Rétablissement de valeurs nulles (PNJ Aalia) et correction lore de la flore (Fleurs rouges de montagne).
+  * **Identity Crisis :** Éradication des suffixes résiduels anglais (replica) en (réplique).
+  * **Protocole unitaire :** 66 modifications unitaires appliquées (count == 1) et vérifiées sur disque.
+
+---
+
+## 📑 8. Protocole de Validation & Clôture par Phase
 
 1. **Génération d'un fichier récapitulatif `recap_modifications_phaseX.md`** avec tableau complet :
    `FormID | Mod source | Texte original (EN) | Avant | Après | Nature du correctif`.

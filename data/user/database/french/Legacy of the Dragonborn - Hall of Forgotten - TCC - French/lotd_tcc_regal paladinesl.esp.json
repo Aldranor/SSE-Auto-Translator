@@ -1,0 +1,20 @@
+[
+  {
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Regal Paladin Armor)</font>",
+    "string": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Armure de paladin royal)</font>",
+    "status": "TranslationComplete",
+    "form_id": "09000801|LOTD_TCC_Regal PaladinESL.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "_CompleteNotification_Regal"
+  },
+  {
+    "original": "The Curator's Companion-Regal Paladin Armor",
+    "string": "The Curator's Companion-Regal Paladin Armor",
+    "status": "TranslationComplete",
+    "form_id": "09000803|LOTD_TCC_Regal PaladinESL.esp",
+    "type": "QUST FULL",
+    "index": null,
+    "editor_id": "TCC_Regal"
+  }
+]

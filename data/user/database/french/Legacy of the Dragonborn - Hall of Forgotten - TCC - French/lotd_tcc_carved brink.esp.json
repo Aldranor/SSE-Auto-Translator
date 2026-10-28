@@ -1,0 +1,20 @@
+[
+  {
+    "original": "<font color='#<Alias=ColourAlias>'>The Curators Companion: Mod Complete (Carved Brink)</font>",
+    "string": "<font color='#<Alias=ColourAlias>'>Les Outils du Conservateur - Mod complété (Bord abrupt)</font>",
+    "status": "TranslationComplete",
+    "form_id": "09000803|LOTD_TCC_Carved Brink.esp",
+    "type": "MESG DESC",
+    "index": null,
+    "editor_id": "_CompleteNotification_Carved Brink"
+  },
+  {
+    "original": "The Curators Companion -Carved Brink",
+    "string": "The Curators Companion -Carved Brink",
+    "status": "TranslationComplete",
+    "form_id": "09000800|LOTD_TCC_Carved Brink.esp",
+    "type": "QUST FULL",
+    "index": null,
+    "editor_id": "TCC_SM_ACA"
+  }
+]

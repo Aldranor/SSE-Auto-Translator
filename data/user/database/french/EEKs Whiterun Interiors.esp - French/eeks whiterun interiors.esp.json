@@ -1,0 +1,2351 @@
+[
+  {
+    "original": "Blue Mountain Flowers",
+    "string": "Fleurs de montagne bleue",
+    "status": "TranslationComplete",
+    "form_id": "0605B475|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerBlueBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06074877|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableCanisRootsJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0610650D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableEggeBasket"
+  },
+  {
+    "original": "Aalia",
+    "string": "Aalia",
+    "status": "TranslationComplete",
+    "form_id": "0602DDD6|EEKs Whiterun Interiors.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "EEK_Aalia"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06065514|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableEmperorMossJar"
+  },
+  {
+    "original": "Tundra Cotton",
+    "string": "Coton sauvage",
+    "status": "TranslationComplete",
+    "form_id": "060799AA|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableTundraCottonBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06092FA4|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMaxPotionJar"
+  },
+  {
+    "original": "Rock Warbler Eggs",
+    "string": "Oeufs de la Paruline Rock",
+    "status": "TranslationComplete",
+    "form_id": "060799B4|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableRockWarblerEggBasket"
+  },
+  {
+    "original": "Creep Clusters",
+    "string": "Grappes de fluage",
+    "status": "TranslationComplete",
+    "form_id": "0606A620|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableCreepClusterJar"
+  },
+  {
+    "original": "Sigurd's Bed",
+    "string": "Lit de Sigurd",
+    "status": "TranslationComplete",
+    "form_id": "0607B54C|EEKs Whiterun Interiors.esp",
+    "type": "FURN FULL",
+    "index": null,
+    "editor_id": "EEK_commonbed03left"
+  },
+  {
+    "original": "Ingrediants",
+    "string": "Ingrédiens",
+    "status": "TranslationComplete",
+    "form_id": "060E2D3E|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableAlchBox"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06074887|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableSnowberriesJar"
+  },
+  {
+    "original": "Falmer Ears",
+    "string": "Oreilles Falmer",
+    "status": "TranslationComplete",
+    "form_id": "06058CBF|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableFalmerEarJar"
+  },
+  {
+    "original": "Chicken Eggs",
+    "string": "Oeufs de poulet",
+    "status": "TranslationComplete",
+    "form_id": "060799B5|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableChickenEggBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06058CD4|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableNightshadeJar"
+  },
+  {
+    "original": "Orange Dartwig",
+    "string": "Aile de fléchette orange",
+    "status": "TranslationComplete",
+    "form_id": "06074870|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableOrangeDartwigJar"
+  },
+  {
+    "original": "Deathbells",
+    "string": "Grelots-de-la-mort",
+    "status": "TranslationComplete",
+    "form_id": "060799AD|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableDeathbellBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0607EB53|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableRecipeStrongBox"
+  },
+  {
+    "original": "Plates",
+    "string": "Assiettes",
+    "status": "TranslationComplete",
+    "form_id": "060DDC17|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_Harvestable_Crockery_CommonShelf01"
+  },
+  {
+    "original": "Apples",
+    "string": "Pommes",
+    "status": "TranslationComplete",
+    "form_id": "060BDB3E|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMixedAppleBasketnif"
+  },
+  {
+    "original": "Bees",
+    "string": "Abeilles",
+    "status": "TranslationComplete",
+    "form_id": "0605DC75|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableBeeJar"
+  },
+  {
+    "original": "Invoice",
+    "string": "Facture",
+    "status": "TranslationComplete",
+    "form_id": "06092F9A|EEKs Whiterun Interiors.esp",
+    "type": "BOOK CNAM",
+    "index": null,
+    "editor_id": "EEK_BlankInvoice"
+  },
+  {
+    "original": "Jazbay",
+    "string": "Jazbay",
+    "status": "TranslationComplete",
+    "form_id": "060799A2|EEKs Whiterun Interiors.esp",
+    "type": "TREE FULL",
+    "index": null,
+    "editor_id": "EEK_JazbayCascade"
+  },
+  {
+    "original": "Nails",
+    "string": "Clous",
+    "status": "TranslationComplete",
+    "form_id": "06100E07|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableNailJarShort"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06058CC8|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainFlowerPurpleJar"
+  },
+  {
+    "original": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Invoice</font>\r\n",
+    "string": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia — Facture du Chaudron</font>\r\n",
+    "status": "TranslationComplete",
+    "form_id": "06092F9A|EEKs Whiterun Interiors.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "EEK_BlankInvoice"
+  },
+  {
+    "original": "Invoice",
+    "string": "Facture",
+    "status": "TranslationComplete",
+    "form_id": "06092FD9|EEKs Whiterun Interiors.esp",
+    "type": "BOOK CNAM",
+    "index": null,
+    "editor_id": "EEK_PotionOrderAnoriath"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060DDC3A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableLeekCrate"
+  },
+  {
+    "original": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Order Form</font>\r\n\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Anoriath\r\n\r\n   - Potion of True Shot                                        x 2\r\n   - Philter of True Shot                                        x 1\r\n\r\n</font></p>\r\n",
+    "string": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Order Form</font>\r\n\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Anoriath\r\n\r\n   - Potion of True Shot                                        x 2\r\n   - Philter of True Shot                                        x 1\r\n\r\n</font></p></font>",
+    "status": "TranslationComplete",
+    "form_id": "06092FD9|EEKs Whiterun Interiors.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "EEK_PotionOrderAnoriath"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06060412|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableGleamBlossomsJar"
+  },
+  {
+    "original": "Glowing Mushrooms",
+    "string": "Champignons luisants",
+    "status": "TranslationComplete",
+    "form_id": "0607487F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableGlowingMushroomsJar"
+  },
+  {
+    "original": "Invoice",
+    "string": "Facture",
+    "status": "TranslationComplete",
+    "form_id": "06092FA8|EEKs Whiterun Interiors.esp",
+    "type": "BOOK CNAM",
+    "index": null,
+    "editor_id": "EEK_BlankOrder"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06074872|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableHawkBeaksJar"
+  },
+  {
+    "original": "Ice Wraith Teeth",
+    "string": "Dent de spectre de glace",
+    "status": "TranslationComplete",
+    "form_id": "0606A628|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableIceWraithTeethJar"
+  },
+  {
+    "original": "Riverwood Trader Invoice",
+    "string": "Riverwood facture",
+    "status": "TranslationComplete",
+    "form_id": "0605B493|EEKs Whiterun Interiors.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "EEK_RiverwoodInvoice"
+  },
+  {
+    "original": "Tomatoes",
+    "string": "Tomates",
+    "status": "TranslationComplete",
+    "form_id": "060BDB2D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableTomatoeCrate"
+  },
+  {
+    "original": "Nightshade",
+    "string": "Obscurcine",
+    "status": "TranslationComplete",
+    "form_id": "0607999A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableNightshadeBasket"
+  },
+  {
+    "original": "Gourds",
+    "string": "Gourdes",
+    "status": "TranslationComplete",
+    "form_id": "060DDC2C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableGourdBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06079994|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableNirnrootBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060ECF52|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableFarmer04Fclothestack"
+  },
+  {
+    "original": "Mushrooms",
+    "string": "Champignons",
+    "status": "TranslationComplete",
+    "form_id": "0606F751|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestMushroomBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060F1AEE|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_Harvestablelvarrowbasket01"
+  },
+  {
+    "original": "Torches",
+    "string": "Torches",
+    "status": "TranslationComplete",
+    "form_id": "0609D21F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableTorchBasket"
+  },
+  {
+    "original": "Drangonstongue",
+    "string": "Langue de dragon",
+    "status": "TranslationComplete",
+    "form_id": "06058CC2|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableDragonstongueJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0607999C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableDragonstongueBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060BDB26|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableGourdsBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06058CC5|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainFlowerBlueJar"
+  },
+  {
+    "original": "Red Mountain Flowers",
+    "string": "Fleurs rouges de montagne",
+    "status": "TranslationComplete",
+    "form_id": "0605B47B|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerRedBasket"
+  },
+  {
+    "original": "Acolyte Jenssen Order Form",
+    "string": "Facture de commande acolyte jensen",
+    "status": "TranslationComplete",
+    "form_id": "06092FE4|EEKs Whiterun Interiors.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "EEK_PotionOrderAcolyteJenssen"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060E2D3F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableSoulgemsBox"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A63C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableHagFeatherJarnif"
+  },
+  {
+    "original": "Tap Roots",
+    "string": "Racines de tapis",
+    "status": "TranslationComplete",
+    "form_id": "0606A62C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableTapRootsJar"
+  },
+  {
+    "original": "Chaurus Eggs",
+    "string": "Oeufs de chaurus",
+    "status": "TranslationComplete",
+    "form_id": "0606A629|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HavestableChaurusEggsJar"
+  },
+  {
+    "original": "Vegetables",
+    "string": "Légumes",
+    "status": "TranslationComplete",
+    "form_id": "06098100|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HavestableVegBasket"
+  },
+  {
+    "original": "Sabre Cat Eyes",
+    "string": "Yeux de chat sabre",
+    "status": "TranslationComplete",
+    "form_id": "06053BB4|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableSabreCatEyesJar"
+  },
+  {
+    "original": "Idolaf Battle-Born Invoice",
+    "string": "Facture Idolaf Guerrier-Né",
+    "status": "TranslationComplete",
+    "form_id": "0605B4A3|EEKs Whiterun Interiors.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "EEK_IdolafBattleBornInvoice"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0609D228|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableBreadBasket"
+  },
+  {
+    "original": "Clam Meat",
+    "string": "Chair de palourde",
+    "status": "TranslationComplete",
+    "form_id": "060BDB44|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableClamCrate"
+  },
+  {
+    "original": "Adrianne Avenicci Order Form",
+    "string": "Facture de commande Adrianne Avenicci",
+    "status": "TranslationComplete",
+    "form_id": "06092FA9|EEKs Whiterun Interiors.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "EEK_PotionOrderAdrianne"
+  },
+  {
+    "original": "Purple Mountain Flowers",
+    "string": "Fleurs de montagne violet",
+    "status": "TranslationComplete",
+    "form_id": "0605B478|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerPurpleBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060DDC24|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableNordGoblets"
+  },
+  {
+    "original": "Basic Cutley",
+    "string": "Cutley de base",
+    "status": "TranslationComplete",
+    "form_id": "060DDC1C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableBasicCutlery"
+  },
+  {
+    "original": "Honeycomb",
+    "string": "Rayons de miel",
+    "status": "TranslationComplete",
+    "form_id": "0605DC72|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableHoneycomb"
+  },
+  {
+    "original": "Wheat",
+    "string": "Blé",
+    "status": "TranslationComplete",
+    "form_id": "0607EAE2|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableWheatJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06074885|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableSpikeyGrassJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060E2D48|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableJarDragonfliesOrange"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06074883|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestablePearlJarnif"
+  },
+  {
+    "original": "Yellow Mountain Flowers",
+    "string": "Fleurs de montagne jaune",
+    "status": "TranslationComplete",
+    "form_id": "06058CCE|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerYellowJar"
+  },
+  {
+    "original": "Aalia",
+    "string": "Aalia",
+    "status": "TranslationComplete",
+    "form_id": "0602DDD6|EEKs Whiterun Interiors.esp",
+    "type": "NPC_ SHRT",
+    "index": null,
+    "editor_id": "EEK_Aalia"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0610B64B|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableHoneycombJar"
+  },
+  {
+    "original": "Clothes",
+    "string": "Vêtements",
+    "status": "TranslationComplete",
+    "form_id": "0610650F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableFarmer03Fclothestack"
+  },
+  {
+    "original": "Red Mountain Flowers",
+    "string": "Fleurs rouges de montagne",
+    "status": "TranslationComplete",
+    "form_id": "06058CCB|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerRedJar"
+  },
+  {
+    "original": "Thistles",
+    "string": "Chardons",
+    "status": "TranslationComplete",
+    "form_id": "060799BA|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableThistleBasket"
+  },
+  {
+    "original": "Long Taffy",
+    "string": "Taffy longue",
+    "status": "TranslationComplete",
+    "form_id": "06110759|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HavesteableTaffyJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06065516|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableSwampFungalPodJar"
+  },
+  {
+    "original": "Ingrediants",
+    "string": "Ingrédiens",
+    "status": "TranslationComplete",
+    "form_id": "06092FA4|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMaxPotionJar"
+  },
+  {
+    "original": "Invoice",
+    "string": "Facture",
+    "status": "TranslationComplete",
+    "form_id": "0605B4A6|EEKs Whiterun Interiors.esp",
+    "type": "BOOK CNAM",
+    "index": null,
+    "editor_id": "EEK_EimarInvoice"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0607998F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerYellowBasket"
+  },
+  {
+    "original": "Whiterun",
+    "string": "Blancherive",
+    "status": "TranslationComplete",
+    "form_id": "0001A26F|Skyrim.esm",
+    "type": "WRLD FULL",
+    "index": null,
+    "editor_id": "WhiterunWorld"
+  },
+  {
+    "original": "Clothes",
+    "string": "Vêtements",
+    "status": "TranslationComplete",
+    "form_id": "060ECF4F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableFarmer02clothestack"
+  },
+  {
+    "original": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Invoice</font>\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Eimar\r\n\r\n   - Potion of Cure Disease                                      79 g\r\n\r\n\r\nTotal                                                                       79 g\r\n</font></p>\r\n",
+    "string": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Invoice</font>\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Eimar\r\n\r\n   - Potion of Cure Disease                                      79 g\r\n\r\n\r\nTotal                                                                       79 g\r\n</font></p></font>",
+    "status": "TranslationComplete",
+    "form_id": "0605B4A6|EEKs Whiterun Interiors.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "EEK_EimarInvoice"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A62A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableJazbayJar"
+  },
+  {
+    "original": "Rings",
+    "string": "Anneau",
+    "status": "TranslationComplete",
+    "form_id": "060F7185|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableRingBowl"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06053BB7|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableSabreCatTeethJar"
+  },
+  {
+    "original": "Snowberries",
+    "string": "Givreboises",
+    "status": "TranslationComplete",
+    "form_id": "06083C5D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableSnowberryBasket"
+  },
+  {
+    "original": "Apples",
+    "string": "Pommes",
+    "status": "TranslationComplete",
+    "form_id": "060980FE|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMixedAppleBowl"
+  },
+  {
+    "original": "Warmaiden's",
+    "string": "La Guerrière",
+    "status": "TranslationComplete",
+    "form_id": "0001DB4E|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WhiterunWarmaidens"
+  },
+  {
+    "original": "Goblet",
+    "string": "Gobelet",
+    "status": "TranslationComplete",
+    "form_id": "060DDC1F|EEKs Whiterun Interiors.esp",
+    "type": "MISC FULL",
+    "index": null,
+    "editor_id": "GlazedGoblet02"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060ECF4D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableFarmer04clothestack"
+  },
+  {
+    "original": "Purple Mountain Flowers",
+    "string": "Fleurs de montagne violet",
+    "status": "TranslationComplete",
+    "form_id": "06058CC8|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainFlowerPurpleJar"
+  },
+  {
+    "original": "Histcarp",
+    "string": "Carpe du Hist",
+    "status": "TranslationComplete",
+    "form_id": "0607EB38|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableHistcarpjar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060DDC2E|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestablePotatoesBasket"
+  },
+  {
+    "original": "Torches",
+    "string": "Torches",
+    "status": "TranslationComplete",
+    "form_id": "060F205A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableTorchBasketnif"
+  },
+  {
+    "original": "Leeks",
+    "string": "Poireaux",
+    "status": "TranslationComplete",
+    "form_id": "060DDC3A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableLeekCrate"
+  },
+  {
+    "original": "Lockpicks",
+    "string": "Crochets",
+    "status": "TranslationComplete",
+    "form_id": "061064FB|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableLockpickBox"
+  },
+  {
+    "original": "Nordic Barnacles",
+    "string": "Barnacles nordiques",
+    "status": "TranslationComplete",
+    "form_id": "0607487D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableNordicBarnaclesJar"
+  },
+  {
+    "original": "Hawk Feathers",
+    "string": "Plumes de faucon",
+    "status": "TranslationComplete",
+    "form_id": "06074881|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableHawkfeathersJar"
+  },
+  {
+    "original": "Pelts",
+    "string": "Éclater",
+    "status": "TranslationComplete",
+    "form_id": "0609D222|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestablePeltCrate"
+  },
+  {
+    "original": "Invoice",
+    "string": "Facture",
+    "status": "TranslationComplete",
+    "form_id": "0605B47E|EEKs Whiterun Interiors.esp",
+    "type": "BOOK CNAM",
+    "index": null,
+    "editor_id": "EEK_BelethorsInvoice"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06106539|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableChildClothesstack"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0611A9FD|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableDweArtifactBasket01"
+  },
+  {
+    "original": "Pelts",
+    "string": "Éclater",
+    "status": "TranslationComplete",
+    "form_id": "060F719A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableAnimalPeltbasket"
+  },
+  {
+    "original": "Gilder Blossoms",
+    "string": "Fleuris",
+    "status": "TranslationComplete",
+    "form_id": "06060412|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableGleamBlossomsJar"
+  },
+  {
+    "original": "Cabbages",
+    "string": "Choux",
+    "status": "TranslationComplete",
+    "form_id": "060F205D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableCabbageBasket"
+  },
+  {
+    "original": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Invoice</font>\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Belethor's General Goods\r\n\r\n   - Draught of Regeneration x 6                      870 g\r\n   - Potion of Minor Magicka x 6                        120 g   \r\n   - Potion of Vigorous Stamina x 2                   190 g\r\n   - Potion of Minor Healing x4                            68 g\r\n\r\nTotal                                                                 1248 g\r\n</font></p>\r\n",
+    "string": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Invoice</font>\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Belethor's General Goods\r\n\r\n   - Draught of Regeneration x 6                      870 g\r\n   - Potion of Minor Magicka x 6                        120 g   \r\n   - Potion of Vigorous Stamina x 2                   190 g\r\n   - Potion of Minor Healing x4                            68 g\r\n\r\nTotal                                                                 1248 g\r\n</font></p></font>",
+    "status": "TranslationComplete",
+    "form_id": "0605B47E|EEKs Whiterun Interiors.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "EEK_BelethorsInvoice"
+  },
+  {
+    "original": "Blank Invoice",
+    "string": "Facture vide",
+    "status": "TranslationComplete",
+    "form_id": "06092F9A|EEKs Whiterun Interiors.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "EEK_BlankInvoice"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060DDC23|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableGlazedGoblets02"
+  },
+  {
+    "original": "Carrots",
+    "string": "Des carottes",
+    "status": "TranslationComplete",
+    "form_id": "060E2D3C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableCarrotCrate"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A63A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableHagClawJar"
+  },
+  {
+    "original": "Bowl",
+    "string": "Bol",
+    "status": "TranslationComplete",
+    "form_id": "060DDC35|EEKs Whiterun Interiors.esp",
+    "type": "MISC FULL",
+    "index": null,
+    "editor_id": "GlazedBowlDUPLICATE002"
+  },
+  {
+    "original": "Blue Dartwings",
+    "string": "Dartwings bleus",
+    "status": "TranslationComplete",
+    "form_id": "06058CBC|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableDragonfliesBlueJar"
+  },
+  {
+    "original": "Lavender",
+    "string": "Lavande",
+    "status": "TranslationComplete",
+    "form_id": "06079992|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableLavenderBasket"
+  },
+  {
+    "original": "Nirnroot",
+    "string": "Nirnroot",
+    "status": "TranslationComplete",
+    "form_id": "06079994|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableNirnrootBasket"
+  },
+  {
+    "original": "Clothes",
+    "string": "Vêtements",
+    "status": "TranslationComplete",
+    "form_id": "060ECF52|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableFarmer04Fclothestack"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "061064C2|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableOreBucket_Corundum"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06058CD1|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableLavenderJar"
+  },
+  {
+    "original": "Deathbells",
+    "string": "Grelots-de-la-mort",
+    "status": "TranslationComplete",
+    "form_id": "060E2D45|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableJarDeathbells"
+  },
+  {
+    "original": "Blank Order",
+    "string": "Commande vide",
+    "status": "TranslationComplete",
+    "form_id": "06092FA8|EEKs Whiterun Interiors.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "EEK_BlankOrder"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A61A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableBearClawsJar"
+  },
+  {
+    "original": "Soul Gems",
+    "string": "GEMMES SPIRITUELLES",
+    "status": "TranslationComplete",
+    "form_id": "060E2D3F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableSoulgemsBox"
+  },
+  {
+    "original": "Giant Toes",
+    "string": "Orteils géants",
+    "status": "TranslationComplete",
+    "form_id": "060E2D4A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableJarGiantToes"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A618|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableSlaughterFishEggsJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A61C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableBriarheartsJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060E2D46|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableJarDragonstongues"
+  },
+  {
+    "original": "Bread",
+    "string": "Pain",
+    "status": "TranslationComplete",
+    "form_id": "0609D228|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableBreadBasket"
+  },
+  {
+    "original": "Glazed Bowls",
+    "string": "Bols vitrés",
+    "status": "TranslationComplete",
+    "form_id": "060DDC32|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableGlazedBowls01"
+  },
+  {
+    "original": "Giant Lichen",
+    "string": "Lichen géant",
+    "status": "TranslationComplete",
+    "form_id": "06074879|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HavestableJarGiantLichen"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0605B475|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerBlueBasket"
+  },
+  {
+    "original": "Pearls",
+    "string": "Perles",
+    "status": "TranslationComplete",
+    "form_id": "06074883|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestablePearlJarnif"
+  },
+  {
+    "original": "Canis Roots",
+    "string": "Racines canis",
+    "status": "TranslationComplete",
+    "form_id": "06074877|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableCanisRootsJar"
+  },
+  {
+    "original": "Eggs",
+    "string": "Œufs",
+    "status": "TranslationComplete",
+    "form_id": "0610650D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableEggeBasket"
+  },
+  {
+    "original": "Emperor Parasol Moss",
+    "string": "Mousse-parasol",
+    "status": "TranslationComplete",
+    "form_id": "06065514|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableEmperorMossJar"
+  },
+  {
+    "original": "Alchemy Lab",
+    "string": "Laboratoire d'alchimie ",
+    "status": "TranslationComplete",
+    "form_id": "06092FB9|EEKs Whiterun Interiors.esp",
+    "type": "FURN FULL",
+    "index": null,
+    "editor_id": "EEK_AlchemyWorkstationMarkeronly"
+  },
+  {
+    "original": "Yellow Mountain Flowers",
+    "string": "Fleurs de montagne jaune",
+    "status": "TranslationComplete",
+    "form_id": "0607998F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerYellowBasket"
+  },
+  {
+    "original": "Bed",
+    "string": "Lit",
+    "status": "TranslationComplete",
+    "form_id": "0602B72E|EEKs Whiterun Interiors.esp",
+    "type": "FURN FULL",
+    "index": null,
+    "editor_id": "EEK_lvnoblebedmaster"
+  },
+  {
+    "original": "Jazbay Grapes",
+    "string": "Raisin jazbay",
+    "status": "TranslationComplete",
+    "form_id": "0606A62A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableJazbayJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A62B|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HavestableSpiderEggsJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060799B4|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableRockWarblerEggBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06074875|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestabledeadricHeartJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060DDC30|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableTomatoesCrate"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060E2D3E|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableAlchBox"
+  },
+  {
+    "original": "Snowberries",
+    "string": "Givreboises",
+    "status": "TranslationComplete",
+    "form_id": "06074887|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableSnowberriesJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06058CBF|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableFalmerEarJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06098110|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMammothTuskCrate"
+  },
+  {
+    "original": "Eimar Invoice",
+    "string": "Facture Eimar",
+    "status": "TranslationComplete",
+    "form_id": "0605B4A6|EEKs Whiterun Interiors.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "EEK_EimarInvoice"
+  },
+  {
+    "original": "Nightshade",
+    "string": "Obscurcine",
+    "status": "TranslationComplete",
+    "form_id": "06058CD4|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableNightshadeJar"
+  },
+  {
+    "original": "Bowl",
+    "string": "Bol",
+    "status": "TranslationComplete",
+    "form_id": "060DDC36|EEKs Whiterun Interiors.esp",
+    "type": "MISC FULL",
+    "index": null,
+    "editor_id": "GlazedBowl03"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060DDC17|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_Harvestable_Crockery_CommonShelf01"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06074870|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableOrangeDartwigJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0605DC75|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableBeeJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060799AD|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableDeathbellBasket"
+  },
+  {
+    "original": "Recipes",
+    "string": "Recettes",
+    "status": "TranslationComplete",
+    "form_id": "0607EB53|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableRecipeStrongBox"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060BDB3E|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMixedAppleBasketnif"
+  },
+  {
+    "original": "Potatoes",
+    "string": "Pommes de terre",
+    "status": "TranslationComplete",
+    "form_id": "060DDC2E|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestablePotatoesBasket"
+  },
+  {
+    "original": "Children Clothes",
+    "string": "Vêtements pour enfants",
+    "status": "TranslationComplete",
+    "form_id": "06106539|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableChildClothesstack"
+  },
+  {
+    "original": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Invoice</font>\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Riverwood Trader\r\n\r\n   - Cure Poison x 3                                             93 g\r\n   - Draught of Resist Cold x 5                          755 g   \r\n   - Potion of Cure Disease x 3                          237 g\r\n   - Potion of Minor Healing x 3                            51 g\r\n\r\nTotal                                                                 1136 g\r\n</font></p>\r\n",
+    "string": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Invoice</font>\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Riverwood Trader\r\n\r\n   - Cure Poison x 3                                             93 g\r\n   - Draught of Resist Cold x 5                          755 g   \r\n   - Potion of Cure Disease x 3                          237 g\r\n   - Potion of Minor Healing x 3                            51 g\r\n\r\nTotal                                                                 1136 g\r\n</font></p></font>",
+    "status": "TranslationComplete",
+    "form_id": "0605B493|EEKs Whiterun Interiors.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "EEK_RiverwoodInvoice"
+  },
+  {
+    "original": "Glazed Goblets",
+    "string": "Gobelets vitrés",
+    "status": "TranslationComplete",
+    "form_id": "060DDC23|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableGlazedGoblets02"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060C7D77|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMushroomBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0607487F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableGlowingMushroomsJar"
+  },
+  {
+    "original": "Arcadias Chest",
+    "string": "Coffre d'Arcadias",
+    "status": "TranslationComplete",
+    "form_id": "0602B716|EEKs Whiterun Interiors.esp",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "EEK_Arcadias_Chest_01"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A628|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableIceWraithTeethJar"
+  },
+  {
+    "original": "Hawk Beaks",
+    "string": "Becs de faucon",
+    "status": "TranslationComplete",
+    "form_id": "06074872|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableHawkBeaksJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060BDB2D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableTomatoeCrate"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0607999A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableNightshadeBasket"
+  },
+  {
+    "original": "Arcadia's Cauldron",
+    "string": "Le Chaudron d'Arcadia",
+    "status": "TranslationComplete",
+    "form_id": "000165B6|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WhiterunArcadiasCauldron"
+  },
+  {
+    "original": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Order Form</font>\r\n\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Acolyte Jenssen\r\n\r\n   - Potion of Cure Disease                                      x 6\r\n\r\n</font></p>\r\n",
+    "string": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Order Form</font>\r\n\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Acolyte Jenssen\r\n\r\n   - Potion of Cure Disease                                      x 6\r\n\r\n</font></p></font>",
+    "status": "TranslationComplete",
+    "form_id": "06092FE4|EEKs Whiterun Interiors.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "EEK_PotionOrderAcolyteJenssen"
+  },
+  {
+    "original": "Belethor's General Goods Invoice",
+    "string": "Facture générale des marchandises de Belethor",
+    "status": "TranslationComplete",
+    "form_id": "0605B47E|EEKs Whiterun Interiors.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "EEK_BelethorsInvoice"
+  },
+  {
+    "original": "Corundum Ore",
+    "string": "Corindon brut",
+    "status": "TranslationComplete",
+    "form_id": "061064C2|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableOreBucket_Corundum"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0607487B|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableSlaughterfishscalesJar"
+  },
+  {
+    "original": "Anoriath Order Form",
+    "string": "Facture de commande anoriath",
+    "status": "TranslationComplete",
+    "form_id": "06092FD9|EEKs Whiterun Interiors.esp",
+    "type": "BOOK FULL",
+    "index": null,
+    "editor_id": "EEK_PotionOrderAnoriath"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606F751|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestMushroomBasket"
+  },
+  {
+    "original": "Steel Arrows",
+    "string": "Flèches en acier",
+    "status": "TranslationComplete",
+    "form_id": "060F1AEE|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_Harvestablelvarrowbasket01"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0609D21F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableTorchBasket"
+  },
+  {
+    "original": "Slaughter Fish Eggs",
+    "string": "Massacre des œufs de poisson",
+    "status": "TranslationComplete",
+    "form_id": "0606A618|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableSlaughterFishEggsJar"
+  },
+  {
+    "original": "Dragonstongue",
+    "string": "Langue de dragon",
+    "status": "TranslationComplete",
+    "form_id": "0607999C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableDragonstongueBasket"
+  },
+  {
+    "original": "Dragonstongue",
+    "string": "Langue de dragon",
+    "status": "TranslationComplete",
+    "form_id": "060E2D46|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableJarDragonstongues"
+  },
+  {
+    "original": "Blue Mountain Flowers",
+    "string": "Fleurs de montagne bleue",
+    "status": "TranslationComplete",
+    "form_id": "06058CC5|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainFlowerBlueJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060799B2|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestablePineThrushEggBasket"
+  },
+  {
+    "original": "Nails",
+    "string": "Clous",
+    "status": "TranslationComplete",
+    "form_id": "060DDC1A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableNailJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0609D214|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableLinenCrate"
+  },
+  {
+    "original": "Gourds",
+    "string": "Gourdes",
+    "status": "TranslationComplete",
+    "form_id": "060BDB26|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableGourdsBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A62C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableTapRootsJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A629|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HavestableChaurusEggsJar"
+  },
+  {
+    "original": "Hagraven Feathers",
+    "string": "Plumes de harfreuse",
+    "status": "TranslationComplete",
+    "form_id": "0606A63C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableHagFeatherJarnif"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06098100|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HavestableVegBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06053BB4|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableSabreCatEyesJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06060410|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableAncestorWingsJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060BDB44|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableClamCrate"
+  },
+  {
+    "original": "Arcadia",
+    "string": "Arcadia",
+    "status": "TranslationComplete",
+    "form_id": "00013BA4|Skyrim.esm",
+    "type": "NPC_ FULL",
+    "index": null,
+    "editor_id": "Arcadia"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0605B478|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerPurpleBasket"
+  },
+  {
+    "original": "Chair",
+    "string": "Chaise",
+    "status": "TranslationComplete",
+    "form_id": "060995AE|EEKs Whiterun Interiors.esp",
+    "type": "FURN FULL",
+    "index": null,
+    "editor_id": "EEK_Chair"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060BDB35|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableJazbayBowl"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0605DC72|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableHoneycomb"
+  },
+  {
+    "original": "Nord Goblets",
+    "string": "Gobelets du Nord",
+    "status": "TranslationComplete",
+    "form_id": "060DDC24|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableNordGoblets"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0607EAE2|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableWheatJar"
+  },
+  {
+    "original": "Belethor's Bed",
+    "string": "Le lit de Belethor",
+    "status": "TranslationComplete",
+    "form_id": "06085780|EEKs Whiterun Interiors.esp",
+    "type": "FURN FULL",
+    "index": null,
+    "editor_id": "EEK_BelehorsBed"
+  },
+  {
+    "original": "The Bannered Mare",
+    "string": "La Jument pavoisée",
+    "status": "TranslationComplete",
+    "form_id": "0001605E|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WhiterunBanneredMare"
+  },
+  {
+    "original": "Grass Pods",
+    "string": "Cosses",
+    "status": "TranslationComplete",
+    "form_id": "06074885|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableSpikeyGrassJar"
+  },
+  {
+    "original": "Orange Dartwigs",
+    "string": "Ailes de fléchette orange",
+    "status": "TranslationComplete",
+    "form_id": "060E2D48|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableJarDragonfliesOrange"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06058CCE|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerYellowJar"
+  },
+  {
+    "original": "Stores Door",
+    "string": "Porte des magasins",
+    "status": "TranslationComplete",
+    "form_id": "06014D3F|EEKs Whiterun Interiors.esp",
+    "type": "DOOR FULL",
+    "index": null,
+    "editor_id": "EEK_WRsell_door"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0610650F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableFarmer03Fclothestack"
+  },
+  {
+    "original": "Honeycomb",
+    "string": "Rayons de miel",
+    "status": "TranslationComplete",
+    "form_id": "0610B64B|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableHoneycombJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06058CCB|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerRedJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060799BA|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableThistleBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06110759|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HavesteableTaffyJar"
+  },
+  {
+    "original": "Alchemy Lab",
+    "string": "Laboratoire d'alchimie ",
+    "status": "TranslationComplete",
+    "form_id": "06006B48|EEKs Whiterun Interiors.esp",
+    "type": "FURN FULL",
+    "index": null,
+    "editor_id": "EEK_CraftingAlchemyWorkbenchTabletop"
+  },
+  {
+    "original": "Spider Eggs",
+    "string": "Œufs d'araignée",
+    "status": "TranslationComplete",
+    "form_id": "0606A62B|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HavestableSpiderEggsJar"
+  },
+  {
+    "original": "Swamp Fungal Pods",
+    "string": "Posses fongiques de marais",
+    "status": "TranslationComplete",
+    "form_id": "06065516|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableSwampFungalPodJar"
+  },
+  {
+    "original": "Iron Ore",
+    "string": "Minerai de fer",
+    "status": "TranslationComplete",
+    "form_id": "061064C3|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableOreBucket_Iron"
+  },
+  {
+    "original": "Jazbays",
+    "string": "Raisins jazbay",
+    "status": "TranslationComplete",
+    "form_id": "060E2D44|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableJarJazbays"
+  },
+  {
+    "original": "Daedra Heart",
+    "string": "Coeur de Daedra",
+    "status": "TranslationComplete",
+    "form_id": "06074875|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestabledeadricHeartJar"
+  },
+  {
+    "original": "Tomatoes",
+    "string": "Tomates",
+    "status": "TranslationComplete",
+    "form_id": "060DDC30|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableTomatoesCrate"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060ECF4F|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableFarmer02clothestack"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060799AA|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableTundraCottonBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060980FE|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMixedAppleBowl"
+  },
+  {
+    "original": "Sabre Cat Teeth",
+    "string": "Dent de smilodon",
+    "status": "TranslationComplete",
+    "form_id": "06053BB7|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableSabreCatTeethJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06083C5D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableSnowberryBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0606A620|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableCreepClusterJar"
+  },
+  {
+    "original": "Mammoth Tusks",
+    "string": "Tusks de mammouth",
+    "status": "TranslationComplete",
+    "form_id": "06098110|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMammothTuskCrate"
+  },
+  {
+    "original": "Bed",
+    "string": "Lit",
+    "status": "TranslationComplete",
+    "form_id": "0602AB9A|EEKs Whiterun Interiors.esp",
+    "type": "FURN FULL",
+    "index": null,
+    "editor_id": "EEK_Common_bed01"
+  },
+  {
+    "original": "Silver Goblets",
+    "string": "Gobelets en argent",
+    "status": "TranslationComplete",
+    "form_id": "060DDC29|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableSilverGoblets"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060799B5|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableChickenEggBasket"
+  },
+  {
+    "original": "Sack",
+    "string": "Sac",
+    "status": "TranslationComplete",
+    "form_id": "0607EB54|EEKs Whiterun Interiors.esp",
+    "type": "CONT FULL",
+    "index": null,
+    "editor_id": "EEK_MiscSack02SmallFlatIngrediants"
+  },
+  {
+    "original": "Clothes",
+    "string": "Vêtements",
+    "status": "TranslationComplete",
+    "form_id": "060ECF4D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableFarmer04clothestack"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0607EB38|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableHistcarpjar"
+  },
+  {
+    "original": "Glazed Bowls",
+    "string": "Bols vitrés",
+    "status": "TranslationComplete",
+    "form_id": "060DDC34|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableGlazedBowls02"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060F205A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableTorchBasketnif"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0607487D|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableNordicBarnaclesJar"
+  },
+  {
+    "original": "Invoice",
+    "string": "Facture",
+    "status": "TranslationComplete",
+    "form_id": "0605B493|EEKs Whiterun Interiors.esp",
+    "type": "BOOK CNAM",
+    "index": null,
+    "editor_id": "EEK_RiverwoodInvoice"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06074881|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableHawkfeathersJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0609D222|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestablePeltCrate"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06100E07|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableNailJarShort"
+  },
+  {
+    "original": "Dwarven Junk",
+    "string": "Marchandises",
+    "status": "TranslationComplete",
+    "form_id": "0611A9FD|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableDweArtifactBasket01"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060F719A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableAnimalPeltbasket"
+  },
+  {
+    "original": "Mushrooms",
+    "string": "Champignons",
+    "status": "TranslationComplete",
+    "form_id": "060C7D77|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableMushroomBasket"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060E2D3C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableCarrotCrate"
+  },
+  {
+    "original": "Hagraven Claw",
+    "string": "Serre de harfreuse",
+    "status": "TranslationComplete",
+    "form_id": "0606A63A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableHagClawJar"
+  },
+  {
+    "original": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Order Form</font>\r\n",
+    "string": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia — Bon de commande du Chaudron</font>\r\n",
+    "status": "TranslationComplete",
+    "form_id": "06092FA8|EEKs Whiterun Interiors.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "EEK_BlankOrder"
+  },
+  {
+    "original": "Slaughterfish Scales",
+    "string": "Écailles de poisson carnassier",
+    "status": "TranslationComplete",
+    "form_id": "0607487B|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableSlaughterfishscalesJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06058CBC|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableDragonfliesBlueJar"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06079992|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableLavenderBasket"
+  },
+  {
+    "original": "Invoice",
+    "string": "Facture",
+    "status": "TranslationComplete",
+    "form_id": "06092FE4|EEKs Whiterun Interiors.esp",
+    "type": "BOOK CNAM",
+    "index": null,
+    "editor_id": "EEK_PotionOrderAcolyteJenssen"
+  },
+  {
+    "original": "Glazed Goblets",
+    "string": "Gobelets vitrés",
+    "status": "TranslationComplete",
+    "form_id": "060DDC21|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableGlazedGoblets01"
+  },
+  {
+    "original": "Belethor's General Goods",
+    "string": "Épicerie Belethor",
+    "status": "TranslationComplete",
+    "form_id": "000165B3|Skyrim.esm",
+    "type": "CELL FULL",
+    "index": null,
+    "editor_id": "WhiterunBelethorsGeneralGoods"
+  },
+  {
+    "original": "Invoice",
+    "string": "Facture",
+    "status": "TranslationComplete",
+    "form_id": "0605B4A3|EEKs Whiterun Interiors.esp",
+    "type": "BOOK CNAM",
+    "index": null,
+    "editor_id": "EEK_IdolafBattleBornInvoice"
+  },
+  {
+    "original": "Invoice",
+    "string": "Facture",
+    "status": "TranslationComplete",
+    "form_id": "06092FA9|EEKs Whiterun Interiors.esp",
+    "type": "BOOK CNAM",
+    "index": null,
+    "editor_id": "EEK_PotionOrderAdrianne"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060E2D45|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableJarDeathbells"
+  },
+  {
+    "original": "Lavender",
+    "string": "Lavande",
+    "status": "TranslationComplete",
+    "form_id": "06058CD1|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableLavenderJar"
+  },
+  {
+    "original": "Bear Claws",
+    "string": "Griffes d'ours",
+    "status": "TranslationComplete",
+    "form_id": "0606A61A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableBearClawsJar"
+  },
+  {
+    "original": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Invoice</font>\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Idolaf Battle-Born\r\n\r\n   - Potion of the Warrior                                      96 g\r\n\r\n\r\nTotal                                                                    96 g\r\n</font></p>\r\n",
+    "string": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Invoice</font>\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Idolaf Battle-Born\r\n\r\n   - Potion of the Warrior                                      96 g\r\n\r\n\r\nTotal                                                                    96 g\r\n</font></p></font>",
+    "status": "TranslationComplete",
+    "form_id": "0605B4A3|EEKs Whiterun Interiors.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "EEK_IdolafBattleBornInvoice"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "060E2D4A|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableJarGiantToes"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06058CC2|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableDragonstongueJar"
+  },
+  {
+    "original": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Order Form</font>\r\n\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Adrianne Avenicci\r\n\r\n   - Blacksmith's Elixir                                            x 6\r\n   - Philter of Enhanced Stamina                          x 4\r\n   - Potion of Vigorous Stamina                            x 6 \r\n\r\n</font></p>\r\n",
+    "string": "<p align='center'><font size='30'>\r\n<img src='img://Textures/Interface/Books/Illuminated_Letters/A_letter.png'>rcadia's Cauldron Order Form</font>\r\n\r\n\r\n<font size='15'><font face='$HandwrittenFont'>For Adrianne Avenicci\r\n\r\n   - Blacksmith's Elixir                                            x 6\r\n   - Philter of Enhanced Stamina                          x 4\r\n   - Potion of Vigorous Stamina                            x 6 \r\n\r\n</font></p></font>",
+    "status": "TranslationComplete",
+    "form_id": "06092FA9|EEKs Whiterun Interiors.esp",
+    "type": "BOOK DESC",
+    "index": null,
+    "editor_id": "EEK_PotionOrderAdrianne"
+  },
+  {
+    "original": "Briar Hearts",
+    "string": "Cœurs de ronces",
+    "status": "TranslationComplete",
+    "form_id": "0606A61C|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableBriarheartsJar"
+  },
+  {
+    "original": "Pine Thrush Eggs",
+    "string": "Œufs de pince",
+    "status": "TranslationComplete",
+    "form_id": "060799B2|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestablePineThrushEggBasket"
+  },
+  {
+    "original": "Ancestor Moth Wings",
+    "string": "Ailes de papillons ancêtres",
+    "status": "TranslationComplete",
+    "form_id": "06060410|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableAncestorWingsJar"
+  },
+  {
+    "original": "Linen",
+    "string": "Lin",
+    "status": "TranslationComplete",
+    "form_id": "0609D214|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableLinenCrate"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "0605B47B|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HarvestableMountainflowerRedBasket"
+  },
+  {
+    "original": "Jazbays",
+    "string": "Raisins jazbay",
+    "status": "TranslationComplete",
+    "form_id": "060BDB35|EEKs Whiterun Interiors.esp",
+    "type": "FLOR FULL",
+    "index": null,
+    "editor_id": "EEK_HarvestableJazbayBowl"
+  },
+  {
+    "original": "Take",
+    "string": "Prendre",
+    "status": "TranslationComplete",
+    "form_id": "06074879|EEKs Whiterun Interiors.esp",
+    "type": "FLOR RNAM",
+    "index": null,
+    "editor_id": "EEK_HavestableJarGiantLichen"
+  }
+]
