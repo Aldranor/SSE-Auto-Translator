@@ -194,3 +194,14 @@ Audit approfondi et révision complète des refontes de PNJs et enfants (43 plug
 - **Pride of Skyrim All In One (8 corrections) :** Rétablissement des accents et noms propres officiels (*Érik*, *Léontius*, *Sévério*, *Nautonier*, *Bolgeir*).
 - **Children of the Pariah & RS Children Overhaul (12 plugins, 271 entrées) :** Intégrité 100% vérifiée, 0 anomalie joueur, préservation stricte des noms propres d'enfants et d'orques.
 - **Protocole :** 105 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (recap_modifications_phase5.md).
+
+## Phase 6 : Équipements, Armes & Armures Dérivées — 28 octobre 2026
+
+Audit approfondi et révision complète des packs d'armes et armures autonomes (91 plugins, 2 515 entrées) :
+- **Triss Armor Retextured (36 corrections) :** Restauration des 3 balises moteur vitales `[pagebreak]` (auparavant écrites `[saut de page]`), remplacement systématique de l'anglicisme *Jerkin* par *Pourpoint* (30 tenues), traduction de *Ranger* en *Rôdeur*, et adaptation littéraire soignée du livre *L'Annuel du tailleur*.
+- **Breton Apparel - Imperial Renaissance (11 corrections) :** Correction de l'accent erroné *Bréton* en *breton* et uniformisation du singulier *Robe de mage / d'érudit*.
+- **[Ashtoreth] Duskrogue Armor (7 corrections) :** Traduction de *Pauldrons* en *Épaulières*, correction de l'accord d'*obsidienne* (singulier invariable) et singulier des vêtements (*pantalon*).
+- **NordWarUA's Vanilla Expansion & Witcher Nilfgaardian (8 corrections) :** Rétablissement de la nomenclature Bethesda (*Bouclier en fer renforcé nordique*, *Armure / bottes / casque de plates*), francisation intégrale des pièces *nilfgaardiennes* et suppression des doubles espaces.
+- **QND SPID The Witcher 3 & Imperial Battlemage (3 corrections) :** Traduction des coloris de tenues laissés en anglais (*Blanc*, *Violet*), nettoyage de coquille HTML et singulier *Robe de mage de bataille impérial*.
+- **Dismembering Framework & Spear of Skyrim (84 plugins restants, 2 344 entrées) :** Intégrité 100% vérifiée, 0 anomalie joueur, préservation exemplaire des armes et armures.
+- **Protocole :** 65 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (recap_modifications_phase6.md).

@@ -80,7 +80,7 @@ flowchart LR
 | **Phase 3** | **Poids Lourds Narratifs & Dialogues (Mods Maîtres)** | ✅ **Validée** | `Remiel - Dwemer Specialist` (9 651 chaînes), `Vigile 1.7.3` (7 502 chaînes), `Fanatical Enemies` (4 615 chaînes), `AkaviriFollower` (321 chaînes). 289 modifications unitaires vérifiées sur disque ([recap_modifications_phase3.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase3.md)). |
 | **Phase 4** | **Quêtes, Nouveaux Mondes & Legacy of the Dragonborn (LOTD)** | ✅ **Validée** | Hall of Forgotten (18 plugins), DBM Unslaad Display Patch (343 chaînes), TCC (18 plugins), Follower Room Patches (128 chaînes), Hjertesten Hall (1 810 chaînes), EEKs Whiterun Interiors, Alternate Perspective. 66 modifications unitaires vérifiées sur disque ([recap_modifications_phase4.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase4.md)). |
 | **Phase 5** | **Refontes de PNJs & Enfants (Sujettes aux écrasements de noms)** | ✅ **Validée** | `Modpocalypse NPCs - All Vanilla + Addons` (21 plugins), `True Sons of Skyrim Refined` (6 plugins), `Pride of Skyrim All In One`, `Children of the Pariah`, `RS Children` (10 plugins). 105 modifications unitaires vérifiées sur disque ([recap_modifications_phase5.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase5.md)). |
-| **Phase 6** | **Équipements, Armes & Armures Dérivées** | ⏳ En attente | `Dismembering Framework`, `Spear of Skyrim`, et les 91 packs d'armes/armures locaux (2 515 chaînes). Concordance des matériaux et tags d'enchantement. |
+| **Phase 6** | **Équipements, Armes & Armures Dérivées** | ✅ **Validée** | `Dismembering Framework` (860 chaînes), `Spear of Skyrim` (591 chaînes), et les 89 packs d'armes/armures locaux (1 064 chaînes). 65 modifications unitaires vérifiées sur disque ([recap_modifications_phase6.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase6.md)). |
 | **Phase 7** | **Contrôle de 2nd Niveau des Mods Majeurs Déjà Validés** | ⏳ En attente | Audit de sécurité et de non-régression sur les 47 mods majeurs de [`TRADUCTIONS_VERIFIEES.md`](file:///e:/Code/SSE%20Translator%20updated/TRADUCTIONS_VERIFIEES.md) (Apocalypse, Vokriinator Black de base, CACO, Immersive Sounds, Wyrmstooth, Inigo, Auri...). |
 | **Phase 8** | **Passe Finale de Propagation Cascade Source $\rightarrow$ Patchs** | ⏳ En attente | **Alignement global définitif.** Comparaison automatique multi-plugins pour injecter toutes les corrections validées des mods maîtres dans l'ensemble des patchs dépendants du load order. |
 
@@ -182,6 +182,24 @@ Cette phase couvre la totalité des patchs locaux et customisés du projet, regr
   * **Harmonisation Drémora & Vigiles :** Rétablissement de l'ordre canonique des mots *Valkynaz drémora* et du rôle exact *Vigile* pour le garde de Cragslane (`dunCragslaneLvlBanditGuard`).
   * **Typographie & Rôles :** Uniformisation systématique de la majuscule canonique sur les 52 *Soldat Sombrage* (auparavant *Soldat sombrage*) et correction de *Vekel l'homme*.
   * **Protocole unitaire :** 105 modifications unitaires appliquées (count == 1 strict) et vérifiées sur disque.
+
+### 🔹 Phase 6 : Équipements, Armes & Armures Dérivées (✅ VALIDÉE — recap_modifications_phase6.md)
+* **Mods concernés :**
+  * `Dismembering Framework` (Humanoid & Creature Packs — 860 chaînes)
+  * `Spear of Skyrim - Thaumaturgy` (591 chaînes)
+  * `Triss Armor Retextured` (72 chaînes)
+  * `QND SPID Clothing Pack 1` (The Witcher 3 Female Armors — 65 chaînes)
+  * `NordWarUA's Vanilla Armor and Weapon Expansion` (86 chaînes)
+  * `[Ashtoreth] Duskrogue Armor` (18 chaînes)
+  * `Breton Apparel - Imperial Renaissance` (11 chaînes)
+  * `Witcher Nilfgaardian Armor` (6 chaînes)
+  * `Imperial Battlemage Robes` (8 chaînes)
+  * Et les 82 autres packs d'armes/armures autonomes (TrueArmor, Ashlander Apparel, Regal Paladin, King's Pawn, Fuse00, Billyro, Nicos, etc.).
+* **Objectifs & Résultats :**
+  * **Intégrité Moteur des Livres :** Restauration des 3 balises moteur vitales `[pagebreak]` (qui avaient été traduites à tort en `[saut de page]`) dans le traité *L'Annuel du tailleur*, éliminant les textes bruts affichés dans l'interface de lecture.
+  * **Nomenclature Canonique Bethesda :** Remplacement de l'anglicisme *Jerkin* par *Pourpoint* sur les 30 tenues de Triss, traduction de *Ranger* en *Rôdeur*, de *Pauldrons* en *Épaulières*, et de *Northern Banded Iron Shield* en *Bouclier en fer renforcé nordique*. Pluriel officiel rétabli pour les pièces de plates (*Armure, bottes et casque de plates*).
+  * **Harmonisation Lore & Typographie :** Correction de l'accent erroné sur *Breton* (11 occurrences), francisation de *Nilfgaardian* en *nilfgaardien/nilfgaardienne*, et traduction des coloris *Blanc* et *Violet* dans les tenues de Triss.
+  * **Protocole unitaire :** 65 modifications unitaires appliquées (count == 1 strict) et vérifiées sur disque.
 
 ---
 
