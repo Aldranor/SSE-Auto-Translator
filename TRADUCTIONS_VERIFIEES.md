@@ -184,5 +184,13 @@ Audit approfondi et révision complète des mods LOTD, intérieurs et nouveaux l
 - **EEKs Whiterun Interiors (261 entrées) :** Correction de valeurs nulles (PNJ Aalia) et correction lore de la flore (Fleurs rouges de montagne).
 - **DBM Identity Crisis Patch (20 entrées) :** Rétablissement des suffixes de répliques en français (réplique).
 - **Hjertesten Hall, Alternate Perspective & Follower Room Patches (2 639 entrées) :** Intégrité 100% vérifiée, 0 anomalie joueur, conformité intégrale.
-- **Protocole :** 66 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (
-ecap_modifications_phase4.md).
+- **Protocole :** 66 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (recap_modifications_phase4.md).
+
+## Phase 5 : Refontes de PNJs & Enfants — 28 octobre 2026
+
+Audit approfondi et révision complète des refontes de PNJs et enfants (43 plugins, 6 334 entrées) :
+- **Modpocalypse NPCs All Vanilla & Addons (39 corrections) :** Restauration des noms et titres canoniques officiels Bethesda/USSEP altérés par les overrides d'apparence (*Bolgeir Griffedours*, *Giraud Germane*, *Léontius Salvius*, *Sévério Pélagia*, *Gardienne Carcette*, *Crescius Cérellius*, *Valkynaz drémora*, *Vigile* de Cragslane).
+- **True Sons of Skyrim Refined & Nolvus Patch (58 corrections) :** Uniformisation typographique canonique sur les 52 *Soldat Sombrage* (auparavant *Soldat sombrage* sans majuscule de faction), correction du nom court de *Bolgeir* et de *Vekel l'homme*.
+- **Pride of Skyrim All In One (8 corrections) :** Rétablissement des accents et noms propres officiels (*Érik*, *Léontius*, *Sévério*, *Nautonier*, *Bolgeir*).
+- **Children of the Pariah & RS Children Overhaul (12 plugins, 271 entrées) :** Intégrité 100% vérifiée, 0 anomalie joueur, préservation stricte des noms propres d'enfants et d'orques.
+- **Protocole :** 105 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (recap_modifications_phase5.md).
