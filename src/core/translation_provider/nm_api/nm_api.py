@@ -486,6 +486,12 @@ class NexusModsApi(ProviderApi):
             translation_timestamp,
         )
 
+    def get_mod_files(self, game_id: str, mod_id: int) -> NmFiles:
+        """
+        Requests a list of files a mod has at Nexus Mods.
+        """
+        return self.__request_mod_files(game_id, mod_id)
+
     def __request_mod_files(self, game_id: str, mod_id: int) -> NmFiles:
         """
         Requests a list of files a mod has at Nexus Mods.

@@ -17,6 +17,8 @@ from PySide6.QtGui import QCloseEvent, QShortcut
 from PySide6.QtWidgets import QMainWindow, QMessageBox, QTabWidget
 
 from core.config.app_config import AppConfig
+from core.database.database_service import DatabaseService
+from core.database.translation import Translation
 from core.downloader.download_manager import DownloadManager
 from core.mod_instance.state_service import StateService
 from core.scanner.scanner import Scanner
@@ -94,6 +96,22 @@ class MainWindow(QMainWindow):
         self.__mainpage_widget.edit_translation_requested.connect(
             self.__translation_editor.open_translation
         )
+        self.__mainpage_widget.refresh_translation_requested.connect(
+            self.__refresh_translation
+        )
+
+    def __refresh_translation(self, translation: Translation) -> None:
+        if not self.__translation_editor.confirm_translation_reload(translation):
+            return
+
+        DatabaseService.reload_translation(translation, self.__user_data.database)
+        self.__translation_editor.reload_translation(translation)
+
+        QMessageBox.information(
+            self,
+            self.tr("Translation refreshed"),
+            self.tr("Reloaded '{0}' from its JSON files.").format(translation.name),
+        )
 
     def __init_ui(self) -> None:
         self.__init_menu_bar()
@@ -135,7 +153,10 @@ class MainWindow(QMainWindow):
         self.__tab_widget.addTab(self.__mainpage_widget, self.tr("Modlist"))
 
         self.__translation_editor = EditorPage(
-            self.__app_config, self.__user_data, self.__translator_service
+            self.__app_config,
+            self.__user_data,
+            self.__translator_service,
+            provider=self.__provider,
         )
         self.__tab_widget.addTab(
             self.__translation_editor, self.tr("Translation Editor")

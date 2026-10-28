@@ -2,6 +2,7 @@
 Copyright (c) Cutleast
 """
 
+import re
 from pathlib import Path
 from typing import Optional
 
@@ -117,7 +118,7 @@ class ModInstance:
         if ignore_states is None:
             ignore_states = []
 
-        return [
+        matched = [
             mf
             for mf in self.modfiles_by_path.get(modfile, [])
             if (
@@ -125,6 +126,56 @@ class ModInstance:
                 and mf.status not in ignore_states
             )
         ]
+        if matched:
+            return matched
+
+        # If plugin file, try alternative plugin extensions (.esp, .esl, .esm)
+        plugin_exts = {".esp", ".esl", ".esm"}
+        suffix = modfile.suffix.lower()
+        if suffix in plugin_exts:
+            for alt_ext in plugin_exts - {suffix}:
+                alt_path = modfile.with_suffix(alt_ext)
+                alt_matched = [
+                    mf
+                    for mf in self.modfiles_by_path.get(alt_path, [])
+                    if (
+                        not any(mf in mod.modfiles for mod in ignore_mods)
+                        and mf.status not in ignore_states
+                    )
+                ]
+                if alt_matched:
+                    return alt_matched
+
+        # If interface translation file, match by base name regardless of language suffix
+        norm_modfile_str = str(modfile).replace("\\", "/").lower()
+        if "interface/translations" in norm_modfile_str and suffix == ".txt":
+            base_m = re.search(
+                r"^(.*?)_([a-zA-Z]+)\.txt$", modfile.name, re.IGNORECASE
+            )
+            prefix = base_m.group(1).lower() if base_m else modfile.stem.lower()
+            for key, mf_list in self.modfiles_by_path.items():
+                norm_key_str = str(key).replace("\\", "/").lower()
+                if (
+                    "interface/translations" in norm_key_str
+                    and key.suffix.lower() == ".txt"
+                ):
+                    k_m = re.search(
+                        r"^(.*?)_([a-zA-Z]+)\.txt$", key.name, re.IGNORECASE
+                    )
+                    k_prefix = k_m.group(1).lower() if k_m else key.stem.lower()
+                    if prefix == k_prefix:
+                        alt_matched = [
+                            mf
+                            for mf in mf_list
+                            if (
+                                not any(mf in mod.modfiles for mod in ignore_mods)
+                                and mf.status not in ignore_states
+                            )
+                        ]
+                        if alt_matched:
+                            return alt_matched
+
+        return []
 
     def get_mod(self, mod_id: NxmModId) -> Optional[Mod]:
         """

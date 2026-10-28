@@ -37,6 +37,9 @@ class ModInstanceMenu(TreeMenu):
     download_requested = Signal()
     """Signal emitted when the user clicks on the download action."""
 
+    refresh_mod_status_requested = Signal()
+    """Signal emitted when the user refreshes the current mod's status."""
+
     import_as_translation_requested = Signal()
     """Signal emitted when the user clicks on the import as translation action."""
 
@@ -48,6 +51,9 @@ class ModInstanceMenu(TreeMenu):
 
     show_translation_strings_requested = Signal()
     """Signal emitted when the user clicks on the show translation strings action."""
+
+    refresh_translation_requested = Signal()
+    """Signal emitted when the user refreshes a translation from disk."""
 
     edit_translation_requested = Signal()
     """Signal emitted when the user clicks on the edit translation action."""
@@ -89,6 +95,7 @@ class ModInstanceMenu(TreeMenu):
     __uncheck_action: QAction
     __check_action: QAction
     __show_strings_action: QAction
+    __refresh_mod_status_action: QAction
     __online_scan_action: QAction
     __download_action: QAction
 
@@ -97,6 +104,7 @@ class ModInstanceMenu(TreeMenu):
     __show_untranslated_strings_action: QAction
     __show_translation_action: QAction
     __show_translation_strings_action: QAction
+    __refresh_translation_action: QAction
     __edit_translation_action: QAction
 
     # New translations
@@ -212,6 +220,18 @@ class ModInstanceMenu(TreeMenu):
             self.show_translation_strings_requested.emit
         )
 
+        self.__refresh_translation_action = self.__translation_menu.addAction(
+            self.tr("Refresh translation from disk")
+        )
+        IconProvider.bind_qta_icon(
+            self.__refresh_translation_action,
+            self.__refresh_translation_action.setIcon,
+            "mdi6.refresh",
+        )
+        self.__refresh_translation_action.triggered.connect(
+            self.refresh_translation_requested.emit
+        )
+
         self.__edit_translation_action = self.__translation_menu.addAction(
             self.tr("Edit translation...")
         )
@@ -280,6 +300,20 @@ class ModInstanceMenu(TreeMenu):
         self.addSeparator()
 
     def __init_general_actions(self) -> None:
+        self.__refresh_mod_status_action = self.addAction(
+            self.tr("Refresh mod status")
+        )
+        IconProvider.bind_qta_icon(
+            self.__refresh_mod_status_action,
+            self.__refresh_mod_status_action.setIcon,
+            "mdi6.refresh",
+        )
+        self.__refresh_mod_status_action.triggered.connect(
+            self.refresh_mod_status_requested.emit
+        )
+
+        self.addSeparator()
+
         self.__show_strings_action = self.addAction(self.tr("Show strings..."))
         IconProvider.bind_qta_icon(
             self.__show_strings_action,
@@ -340,6 +374,7 @@ class ModInstanceMenu(TreeMenu):
         )
         self.__show_translation_action.setVisible(translation_installed)
         self.__show_translation_strings_action.setVisible(translation_installed)
+        self.__refresh_translation_action.setVisible(translation_installed)
         self.__edit_translation_action.setVisible(translation_installed)
 
         # import action only visible if current item is a mod with at
@@ -375,6 +410,7 @@ class ModInstanceMenu(TreeMenu):
             self.__show_untranslated_strings_action.isVisible()
             or self.__show_translation_action.isVisible()
             or self.__show_translation_strings_action.isVisible()
+            or self.__refresh_translation_action.isVisible()
             or self.__edit_translation_action.isVisible()
             or self.__import_as_translation_action.isVisible()
             or self.__create_translation_action.isVisible()
@@ -384,6 +420,10 @@ class ModInstanceMenu(TreeMenu):
         self.__modfile_menu.menuAction().setVisible(isinstance(current_item, ModFile))
 
         # show strings action only visible if the current item has strings
+        self.__refresh_mod_status_action.setVisible(
+            isinstance(current_item, Mod) and bool(current_item.modfiles)
+        )
+
         self.__show_strings_action.setVisible(
             isinstance(current_item, ModFile)
             or (

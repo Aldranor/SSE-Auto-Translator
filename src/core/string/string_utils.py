@@ -8,6 +8,9 @@ from copy import copy
 from typing import Optional
 
 from cutleast_core_lib.core.utilities.unique import unique
+from sse_plugin_interface.utilities import is_valid_string
+
+from core.file_types.plugin.string import PluginString
 
 from .string_status import StringStatus
 from .types import String, StringList, StringType
@@ -39,6 +42,85 @@ class StringUtils:
         return unique(strings, key=lambda s: s.id)
 
     @classmethod
+    def _build_lookup_maps(
+        cls, translation_strings: list[StringType]
+    ) -> tuple[
+        dict[str, StringType],
+        dict[str, StringType],
+        dict[str, StringType],
+        dict[str, StringType],
+    ]:
+        strings_by_id: dict[str, StringType] = {}
+        strings_by_edid: dict[str, StringType] = {}
+        strings_by_original: dict[str, StringType] = {}
+        strings_by_original_lower: dict[str, StringType] = {}
+
+        for string in translation_strings:
+            strings_by_id.setdefault(string.id, string)
+
+            # EDID fallback (only when index is None, ignoring multi-string records like INFO/QUST)
+            if (
+                isinstance(string, PluginString)
+                and string.editor_id
+                and string.index is None
+            ):
+                edid_key = f"{string.editor_id}###{string.type}"
+                strings_by_edid.setdefault(edid_key, string)
+
+            orig_text = string.original.strip() if string.original else ""
+            if orig_text:
+                strings_by_original.setdefault(orig_text, string)
+                strings_by_original_lower.setdefault(orig_text.lower(), string)
+
+        return (
+            strings_by_id,
+            strings_by_edid,
+            strings_by_original,
+            strings_by_original_lower,
+        )
+
+    @classmethod
+    def _find_matching_string(
+        cls,
+        original_string: StringType,
+        strings_by_id: dict[str, StringType],
+        strings_by_edid: dict[str, StringType],
+        strings_by_original: dict[str, StringType],
+        strings_by_original_lower: dict[str, StringType],
+    ) -> tuple[Optional[StringType], bool]:
+        # 1. Exact ID match (FormID + EDID + Type + Index)
+        if original_string.id in strings_by_id:
+            return strings_by_id[original_string.id], True
+
+        # 2. Fallback index None <-> 1
+        if isinstance(original_string, PluginString) and original_string.index in (None, 1):
+            alt_index = 1 if original_string.index is None else None
+            alt_id = f"{original_string.form_id[2:].lower()}###{original_string.editor_id}###{original_string.type}###{alt_index}"
+            if alt_id in strings_by_id:
+                return strings_by_id[alt_id], False
+
+        # 3. Fallback EDID + Type (only if index is None, avoiding dialogues/quests mismatch)
+        if (
+            isinstance(original_string, PluginString)
+            and original_string.editor_id
+            and original_string.index is None
+        ):
+            edid_key = f"{original_string.editor_id}###{original_string.type}"
+            if edid_key in strings_by_edid:
+                return strings_by_edid[edid_key], False
+
+        # 4. Fallback original text (exact strip)
+        orig_text = original_string.original.strip() if original_string.original else ""
+        if orig_text in strings_by_original:
+            return strings_by_original[orig_text], False
+
+        # 5. Fallback original text (case-insensitive)
+        if orig_text.lower() in strings_by_original_lower:
+            return strings_by_original_lower[orig_text.lower()], False
+
+        return None, False
+
+    @classmethod
     def map_strings(
         cls, original_strings: list[StringType], translation_strings: list[StringType]
     ) -> list[StringType]:
@@ -58,33 +140,59 @@ class StringUtils:
             f"{len(original_strings)} original string(s)..."
         )
 
-        translation_strings_by_id: dict[str, StringType] = {
-            string.id: string for string in translation_strings
-        }
+        (
+            strings_by_id,
+            strings_by_edid,
+            strings_by_original,
+            strings_by_original_lower,
+        ) = cls._build_lookup_maps(translation_strings)
 
         merged_strings: list[StringType] = []
         for original_string in original_strings:
             merged_string: StringType = copy(original_string)
 
-            if merged_string.status == StringStatus.NoTranslationRequired:
+            if (
+                merged_string.status == StringStatus.NoTranslationRequired
+                and not is_valid_string(merged_string.original)
+            ):
                 merged_string.string = merged_string.original
                 merged_strings.append(merged_string)
                 continue
 
-            # Translate string if available
-            if original_string.id in translation_strings_by_id:
-                translated_string: StringType = translation_strings_by_id[
-                    original_string.id
-                ]
+            translated_string, is_exact = cls._find_matching_string(
+                original_string,
+                strings_by_id,
+                strings_by_edid,
+                strings_by_original,
+                strings_by_original_lower,
+            )
 
-                # Check if translation differs from the original and set status
-                # accordingly
-                if original_string.original == translated_string.original:
-                    merged_string.string = merged_string.original
-                    merged_string.status = StringStatus.NoTranslationRequired
+            # Translate string if available
+            if translated_string is not None:
+                trans_text = (
+                    translated_string.string
+                    if (translated_string.string and translated_string.string != translated_string.original)
+                    else translated_string.original
+                )
+
+                # Check if translation differs from the original and set status accordingly
+                if original_string.original == trans_text:
+                    merged_string.string = original_string.original
+                    merged_string.status = (
+                        StringStatus.NoTranslationRequired
+                        if not is_valid_string(original_string.original)
+                        else StringStatus.TranslationIncomplete
+                    )
                 else:
-                    merged_string.string = translated_string.original
-                    merged_string.status = StringStatus.TranslationComplete
+                    merged_string.string = trans_text
+                    if is_exact:
+                        merged_string.status = (
+                            translated_string.status
+                            if translated_string.status in (StringStatus.TranslationComplete, StringStatus.TranslationIncomplete)
+                            else StringStatus.TranslationComplete
+                        )
+                    else:
+                        merged_string.status = StringStatus.TranslationIncomplete
 
             # Set status to translation required if no translation available
             else:
@@ -101,8 +209,18 @@ class StringUtils:
 
     @classmethod
     def match_strings(
-        cls, strings_to_update: StringList, database_strings: StringList
-    ) -> None:
+        cls,
+        strings_to_update: StringList,
+        database_strings: StringList,
+        lookup_maps: Optional[
+            tuple[
+                dict[str, StringType],
+                dict[str, StringType],
+                dict[str, StringType],
+                dict[str, StringType],
+            ]
+        ] = None,
+    ) -> int:
         """
         Updates a list of strings and attempts to translate them via similarities to
         existing strings.
@@ -110,6 +228,11 @@ class StringUtils:
         Args:
             strings_to_update (StringList): Strings to update.
             database_strings (StringList): Existing strings to use for translation.
+            lookup_maps (Optional[tuple], optional):
+                Pre-built lookup maps from cls._build_lookup_maps. Defaults to None.
+
+        Returns:
+            int: Number of successfully matched strings.
         """
 
         cls.log.debug(
@@ -117,22 +240,34 @@ class StringUtils:
             f"{len(database_strings)} existing string(s)..."
         )
 
-        db_strings_by_id: dict[str, String] = {
-            string.id: string for string in database_strings
-        }
-        db_strings_by_original: dict[str, String] = {
-            string.original: string for string in database_strings
-        }
+        if lookup_maps is not None:
+            (
+                db_strings_by_id,
+                db_strings_by_edid,
+                db_strings_by_original,
+                db_strings_by_original_lower,
+            ) = lookup_maps
+        else:
+            (
+                db_strings_by_id,
+                db_strings_by_edid,
+                db_strings_by_original,
+                db_strings_by_original_lower,
+            ) = cls._build_lookup_maps(database_strings)
 
         matched: int = 0
         for string in strings_to_update:
-            matched += cls.match_string(
+            if cls.match_string(
                 string_to_update=string,
                 database_strings_by_id=db_strings_by_id,
                 database_strings_by_original=db_strings_by_original,
-            )
+                database_strings_by_edid=db_strings_by_edid,
+                database_strings_by_original_lower=db_strings_by_original_lower,
+            ):
+                matched += 1
 
         cls.log.debug(f"Successfully translated {matched} string(s).")
+        return matched
 
     @classmethod
     def match_string(
@@ -140,6 +275,8 @@ class StringUtils:
         string_to_update: String,
         database_strings_by_id: dict[str, String],
         database_strings_by_original: dict[str, String],
+        database_strings_by_edid: Optional[dict[str, String]] = None,
+        database_strings_by_original_lower: Optional[dict[str, String]] = None,
     ) -> bool:
         """
         Updates a string and attempts to translate it via similarities to existing strings.
@@ -150,27 +287,77 @@ class StringUtils:
                 Dictionary mapping string IDs to existing strings.
             database_strings_by_original (dict[str, String]):
                 Dictionary mapping original strings to existing strings.
+            database_strings_by_edid (Optional[dict[str, String]], optional):
+                Dictionary mapping EDID keys to existing strings. Defaults to None.
+            database_strings_by_original_lower (Optional[dict[str, String]], optional):
+                Dictionary mapping lowercased original strings to existing strings.
+                Defaults to None.
 
         Returns:
             bool: `True` if the string was updated, `False` otherwise.
         """
 
-        matched: bool = False
-
-        database_string: String
+        # 1. Exact ID match (FormID + EDID + Type + Index)
         if string_to_update.id in database_strings_by_id:
             database_string = database_strings_by_id[string_to_update.id]
-            string_to_update.string = database_string.string
-            string_to_update.status = StringStatus.TranslationComplete
-            matched = True
+            if database_string.string:
+                string_to_update.string = database_string.string
+                string_to_update.status = StringStatus.TranslationComplete
+                return True
 
-        elif string_to_update.original in database_strings_by_original:
+        # 2. Fallback index None <-> 1 (if PluginString)
+        if isinstance(string_to_update, PluginString) and string_to_update.index in (None, 1):
+            alt_index = 1 if string_to_update.index is None else None
+            alt_id = f"{string_to_update.form_id[2:].lower()}###{string_to_update.editor_id}###{string_to_update.type}###{alt_index}"
+            if alt_id in database_strings_by_id:
+                database_string = database_strings_by_id[alt_id]
+                if database_string.string:
+                    string_to_update.string = database_string.string
+                    string_to_update.status = StringStatus.TranslationIncomplete
+                    return True
+
+        # 3. Fallback EDID + Type (only if index is None)
+        if (
+            database_strings_by_edid is not None
+            and isinstance(string_to_update, PluginString)
+            and string_to_update.editor_id
+            and string_to_update.index is None
+        ):
+            edid_key = f"{string_to_update.editor_id}###{string_to_update.type}"
+            if edid_key in database_strings_by_edid:
+                database_string = database_strings_by_edid[edid_key]
+                if database_string.string:
+                    string_to_update.string = database_string.string
+                    string_to_update.status = StringStatus.TranslationIncomplete
+                    return True
+
+        # 4. Fallback exact original string
+        if string_to_update.original in database_strings_by_original:
             database_string = database_strings_by_original[string_to_update.original]
-            string_to_update.string = database_string.string
-            string_to_update.status = StringStatus.TranslationIncomplete
-            matched = True
+            if database_string.string:
+                string_to_update.string = database_string.string
+                string_to_update.status = StringStatus.TranslationIncomplete
+                return True
 
-        return matched
+        # 5. Fallback original string stripped / lowercased
+        orig_text = string_to_update.original.strip() if string_to_update.original else ""
+        if orig_text and orig_text in database_strings_by_original:
+            database_string = database_strings_by_original[orig_text]
+            if database_string.string:
+                string_to_update.string = database_string.string
+                string_to_update.status = StringStatus.TranslationIncomplete
+                return True
+
+        if database_strings_by_original_lower is not None and orig_text:
+            orig_lower = orig_text.lower()
+            if orig_lower in database_strings_by_original_lower:
+                database_string = database_strings_by_original_lower[orig_lower]
+                if database_string.string:
+                    string_to_update.string = database_string.string
+                    string_to_update.status = StringStatus.TranslationIncomplete
+                    return True
+
+        return False
 
     @classmethod
     def update_string_list(
@@ -197,29 +384,72 @@ class StringUtils:
                 `True` if any strings were updated, added or removed, `False` otherwise.
         """
 
-        translation_map: dict[str, String] = {
-            string.id: string for string in translation_strings
-        }
+        (
+            strings_by_id,
+            strings_by_edid,
+            strings_by_original,
+            strings_by_original_lower,
+        ) = cls._build_lookup_maps(translation_strings)
 
         changed: bool = False
         for original_string in original_strings:
-            translated_string: Optional[String] = translation_map.get(original_string.id)
+            translated_string: Optional[String] = strings_by_id.get(original_string.id)
 
             if translated_string is None:
-                # string is missing -> add it and mark as "translation required"
-                new_string: String = copy(original_string)
-                new_string.status = StringStatus.TranslationRequired
-                new_string.string = new_string.original
-                translation_map[new_string.id] = new_string
-                translation_strings.append(new_string)
-                changed = True
+                # Try fallback matching (EDID, index 1/None, original text)
+                fallback_string, _ = cls._find_matching_string(
+                    original_string,
+                    strings_by_id,
+                    strings_by_edid,
+                    strings_by_original,
+                    strings_by_original_lower,
+                )
+                if (
+                    fallback_string is not None
+                    and fallback_string.string
+                    and fallback_string.string != fallback_string.original
+                ):
+                    new_string = copy(original_string)
+                    new_string.string = fallback_string.string
+                    new_string.status = (
+                        fallback_string.status
+                        if fallback_string.status in (StringStatus.TranslationComplete, StringStatus.TranslationIncomplete)
+                        else StringStatus.TranslationComplete
+                    )
+                    strings_by_id[new_string.id] = new_string
+                    translation_strings.append(new_string)
+                    changed = True
+                else:
+                    # string is missing -> add it and mark as "translation required"
+                    new_string = copy(original_string)
+                    new_string.status = StringStatus.TranslationRequired
+                    new_string.string = new_string.original
+                    strings_by_id[new_string.id] = new_string
+                    translation_strings.append(new_string)
+                    changed = True
 
             elif translated_string.original != original_string.original:
-                # original string has changed -> reset translation to original and mark
-                # string as "translation required"
-                translated_string.original = original_string.original
-                translated_string.status = StringStatus.TranslationRequired
-                translated_string.string = translated_string.original
+                # original string has changed -> check if we have a match for the new text
+                fallback_string, _ = cls._find_matching_string(
+                    original_string,
+                    strings_by_id,
+                    strings_by_edid,
+                    strings_by_original,
+                    strings_by_original_lower,
+                )
+                if fallback_string is not None and fallback_string.original == original_string.original:
+                    trans_text = (
+                        fallback_string.string
+                        if (fallback_string.string and fallback_string.string != fallback_string.original)
+                        else fallback_string.original
+                    )
+                    translated_string.original = original_string.original
+                    translated_string.string = trans_text
+                    translated_string.status = StringStatus.TranslationIncomplete
+                else:
+                    translated_string.original = original_string.original
+                    translated_string.status = StringStatus.TranslationRequired
+                    translated_string.string = translated_string.original
                 changed = True
 
         if not keep_deleted:

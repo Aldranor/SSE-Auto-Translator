@@ -6,7 +6,7 @@ import logging
 import re
 from copy import copy, deepcopy
 from pathlib import Path
-from typing import Optional
+from typing import Any, Optional
 
 from cutleast_core_lib.core.multithreading.progress import ProgressUpdate
 from cutleast_core_lib.ui.progress.display import ProgressDisplay
@@ -87,6 +87,11 @@ class Editor(QObject):
         self.__translation.save()
 
         self.log.info(f"Saved translation '{self.__translation.name}'.")
+        self.__changes_pending = False
+
+    def reload_from_translation(self) -> None:
+        """Discards the editing copy and reloads strings from the translation model."""
+        self.__strings_cache = deepcopy(self.__translation.strings)
         self.__changes_pending = False
 
     def __on_change(self, changes_pending: bool = True) -> None:
@@ -252,7 +257,7 @@ class Editor(QObject):
 
             elif string.original in database_originals:
                 string.string = database_originals[string.original].string
-                string.status = StringStatus.TranslationIncomplete
+                string.status = StringStatus.TranslationComplete
                 modified_strings.append(string)
 
         self.strings_changed.emit(modified_strings)
@@ -303,3 +308,252 @@ class Editor(QObject):
 
         self.strings_changed.emit(strings)
         self.log.info("Strings reset.")
+
+    def apply_translation_strings(
+
+            self,
+
+            new_strings: dict[Path, StringList] | StringList,
+
+            missing_only: bool = True,
+
+        ) -> int:
+            """
+
+            Applies translated strings from an external source (download or re-translation)
+
+            to the current translation strings.
+
+
+
+            Matching rules:
+
+            1. Direct match: Exact string ID (FormID + editor_id + type + index)
+
+            2. Exact original text match: target.original == source.original
+
+            3. EDID match: target.editor_id == source.editor_id (ONLY IF target.index is None and source.index is None)
+
+
+
+            If missing_only is True, only modifies strings that are not TranslationComplete or missing translation.
+
+
+
+            Returns:
+                int: Number of strings modified.
+
+            """
+
+
+
+            from core.file_types.plugin.string import PluginString
+
+
+
+            modified_strings: StringList = []
+
+
+
+            if isinstance(new_strings, dict):
+
+                all_source_strings: StringList = [
+
+                    s for s_list in new_strings.values() for s in s_list
+
+                ]
+
+            else:
+
+                all_source_strings = new_strings
+
+
+
+            for modfile_path, target_strings in self.__strings_cache.items():
+
+                source_candidates: StringList = all_source_strings
+
+                if isinstance(new_strings, dict):
+
+                    matched_key = next(
+
+                        (
+
+                            k
+
+                            for k in new_strings
+
+                            if k.name.lower() == modfile_path.name.lower()
+
+                        ),
+
+                        None,
+
+                    )
+
+                    if matched_key is None:
+
+                        matched_key = next(
+
+                            (
+
+                                k
+
+                                for k in new_strings
+
+                                if k.stem.lower() == modfile_path.stem.lower()
+
+                            ),
+
+                            None,
+
+                        )
+
+                    if matched_key is not None:
+
+                        source_candidates = new_strings[matched_key]
+
+
+
+                by_id: dict[str, String] = {s.id: s for s in source_candidates}
+
+                by_original: dict[str, String] = {
+
+                    s.original.strip(): s
+
+                    for s in source_candidates
+
+                    if s.original and s.original.strip()
+
+                }
+
+                by_edid: dict[str, String] = {
+
+                    f"{s.editor_id}###{s.type}": s
+
+                    for s in source_candidates
+
+                    if isinstance(s, PluginString) and s.editor_id and s.index is None
+
+                }
+
+
+
+                for target in target_strings:
+
+                    if (
+
+                        missing_only
+
+                        and target.status == StringStatus.TranslationComplete
+
+                        and target.string
+
+                    ):
+
+                        continue
+
+
+
+                    matched: Optional[String] = None
+                    match_type: Optional[str] = None
+
+                    # 1. Direct ID match
+                    if target.id in by_id:
+                        matched = by_id[target.id]
+                        match_type = "id"
+                    # 2. Exact original match
+                    elif target.original and target.original.strip() in by_original:
+                        matched = by_original[target.original.strip()]
+                        match_type = "original"
+                    # 3. EDID match ONLY if index is None
+                    elif (
+                        isinstance(target, PluginString)
+                        and target.editor_id
+                        and target.index is None
+                    ):
+                        edid_key = f"{target.editor_id}###{target.type}"
+                        if edid_key in by_edid:
+                            matched = by_edid[edid_key]
+                            match_type = "edid"
+
+                    if matched is not None:
+                        trans_text = (
+                            matched.string
+                            if (matched.string and matched.string != matched.original)
+                            else matched.original
+                        )
+                        if trans_text:
+                            trans_text = trans_text.replace("\xa0", " ").replace("\u202f", " ").replace("\u200b", "")
+
+                        if trans_text and trans_text.strip() != target.original.strip():
+                            target.string = trans_text
+                            target.status = (
+                                StringStatus.TranslationComplete
+                                if (
+                                    match_type == "original"
+                                    or (
+                                        match_type == "id"
+                                        and matched.original.strip() == target.original.strip()
+                                    )
+                                )
+                                else StringStatus.TranslationIncomplete
+                            )
+                            modified_strings.append(target)
+                        elif trans_text and trans_text.strip() == target.original.strip():
+                            # The extractor marks an identical line as incomplete only
+                            # when it was present in the source archive. Missing lines
+                            # are filled from the original mod and remain required.
+                            if (
+                                matched.status == StringStatus.TranslationIncomplete
+                                and target.status == StringStatus.TranslationRequired
+                            ):
+                                target.string = trans_text
+                                target.status = StringStatus.TranslationIncomplete
+                                modified_strings.append(target)
+
+            if modified_strings:
+
+                self.strings_changed.emit(modified_strings)
+
+                self.log.info(
+
+                    f"Applied {len(modified_strings)} strings from source translation."
+
+                )
+
+
+
+            return len(modified_strings)
+
+    def apply_bridge(
+        self,
+        bridge: dict[str, Any],
+        missing_only: bool = True,
+    ) -> int:
+        """
+        Applies a translation bridge to the current translation strings.
+
+        Args:
+            bridge (dict[str, Any]): Bridge mappings generated by TranslationBridge.
+            missing_only (bool, optional): Only translate missing strings. Defaults to True.
+
+        Returns:
+            int: Number of strings modified.
+        """
+        from core.editor.translation_bridge import TranslationBridge
+
+        modified_strings: StringList = []
+        for target_strings in self.__strings_cache.values():
+            changed = TranslationBridge.apply_bridge(
+                bridge=bridge,
+                target_strings=target_strings,
+                missing_only=missing_only,
+            )
+            modified_strings.extend(changed)
+
+        if modified_strings:
+            self.strings_changed.emit(modified_strings)
+            self.log.info(f"Bridge applied {len(modified_strings)} strings.")
+
+        return len(modified_strings)

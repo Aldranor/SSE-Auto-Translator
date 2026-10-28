@@ -78,6 +78,9 @@ class ModInstanceWidget(QTreeWidget):
         Translation: Translation to open with the editor.
     """
 
+    refresh_translation_requested = Signal(Translation)
+    """Signal emitted when a translation should be reloaded from disk."""
+
     __app_config: AppConfig
     __user_data: UserData
     __database: TranslationDatabase
@@ -142,6 +145,9 @@ class ModInstanceWidget(QTreeWidget):
             self.__show_translation_strings
         )
         self.__menu.edit_translation_requested.connect(self.__edit_translation)
+        self.__menu.refresh_translation_requested.connect(
+            self.__refresh_translation
+        )
         self.__menu.create_translation_requested.connect(self.__create_translation)
         self.__menu.add_to_ignore_list_requested.connect(self.__add_to_ignore_list)
         self.__menu.open_requested.connect(self.__open_modfile)
@@ -602,6 +608,20 @@ class ModInstanceWidget(QTreeWidget):
 
         if translation is not None:
             self.edit_translation_requested.emit(translation)
+
+    def __refresh_translation(self) -> None:
+        current_item: Optional[Mod | ModFile] = self.__get_current_item()
+
+        translation: Optional[Translation] = None
+        if isinstance(current_item, ModFile):
+            translation = self.__database.get_translation_by_modfile_path(
+                current_item.path
+            )
+        elif isinstance(current_item, Mod):
+            translation = self.__database.get_translation_by_mod(current_item)
+
+        if translation is not None:
+            self.refresh_translation_requested.emit(translation)
 
     def __open_modfile(self) -> None:
         current_item: Optional[Mod | ModFile] = self.__get_current_item()

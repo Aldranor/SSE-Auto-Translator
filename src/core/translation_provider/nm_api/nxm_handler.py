@@ -51,6 +51,7 @@ class NXMHandler(SingletonQObject):
         super().__init__()
 
         self.__reg_value = executable + ' --download "%1"'
+        self.__prev_value = None
         self.__thread = Thread(self.__listen)
 
     def bind(self) -> None:
@@ -153,7 +154,8 @@ class NXMHandler(SingletonQObject):
 
         self.log.info("Unbinding from NXM Links...")
 
-        if self.__prev_value is None:
+        prev_value = getattr(self, "_NXMHandler__prev_value", None)
+        if prev_value is None:
             self.log.debug("Previous Value is None. Deleting Registry Key...")
 
             try:
@@ -162,12 +164,12 @@ class NXMHandler(SingletonQObject):
                 return
 
         else:
-            self.log.debug(f"Setting Registry value to '{self.__prev_value}'...")
+            self.log.debug(f"Setting Registry value to '{prev_value}'...")
 
             with winreg.OpenKey(
                 winreg.HKEY_CLASSES_ROOT, NXMHandler.REG_PATH, access=winreg.KEY_WRITE
             ) as hkey:
-                winreg.SetValue(hkey, "", winreg.REG_SZ, self.__prev_value)
+                winreg.SetValue(hkey, "", winreg.REG_SZ, prev_value)
 
         self.log.info("Unbound from NXM Links.")
 

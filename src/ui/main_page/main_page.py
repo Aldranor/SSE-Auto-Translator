@@ -8,8 +8,10 @@ import webbrowser
 from pathlib import Path
 from typing import Optional, cast, override
 
+from cutleast_core_lib.core.multithreading.progress import ProgressUpdate
 from cutleast_core_lib.core.utilities.exe_info import get_current_path
 from cutleast_core_lib.ui.progress.dialog import ProgressDialog
+from cutleast_core_lib.ui.progress.display import ProgressDisplay
 from cutleast_core_lib.ui.theme.manager import ThemeManager
 from cutleast_core_lib.ui.utilities.state_manager import WidgetStateManager
 from cutleast_core_lib.ui.utilities.window_manager import WindowManager
@@ -32,6 +34,7 @@ from PySide6.QtWidgets import (
 )
 
 from core.config.app_config import AppConfig
+from core.database.database_service import DatabaseService
 from core.database.exporter import Exporter
 from core.database.translation import Translation
 from core.downloader.download_manager import DownloadListEntries, DownloadManager
@@ -44,6 +47,7 @@ from core.mod_instance.mod_instance import ModInstance
 from core.mod_instance.state_service import StateService
 from core.scanner.scanner import Scanner
 from core.string.search_filter import SearchFilter
+from core.string.string_status import StringStatus
 from core.string.types import StringList
 from core.translation_provider.provider import TranslationProvider
 from core.user_data.user_data import UserData
@@ -76,6 +80,9 @@ class MainPageWidget(QWidget):
     Args:
         Translation: The translation to edit.
     """
+
+    refresh_translation_requested = Signal(Translation)
+    """Signal emitted when a translation should be reloaded from disk."""
 
     log: logging.Logger = logging.getLogger("Main")
 
@@ -141,6 +148,9 @@ class MainPageWidget(QWidget):
         self.__tool_bar.build_output_requested.connect(self.__build_output)
         self.__tool_bar.string_search_requested.connect(self.__run_string_search)
         self.__tool_bar.export_states_requested.connect(self.__export_modfile_states)
+        self.__tool_bar.apply_db_translations_requested.connect(
+            self.__apply_database_translations
+        )
 
         self.__search_bar.searchChanged.connect(self.__on_search_changed)
 
@@ -158,6 +168,9 @@ class MainPageWidget(QWidget):
         )
         self.__modinstance_widget.edit_translation_requested.connect(
             self.edit_translation_requested.emit
+        )
+        self.__modinstance_widget.refresh_translation_requested.connect(
+            self.refresh_translation_requested.emit
         )
 
         self.__database_widget.edit_translation_requested.connect(
@@ -183,6 +196,8 @@ class MainPageWidget(QWidget):
         self.__tool_bar = MainToolBar()
         self.__tool_bar.set_provider_features_enabled(self.__provider.is_available)
         self.__tool_bar.set_shortcut_target(self)
+        self.__tool_bar.apply_db_on_scan = self.__app_config.auto_create_database_translations
+        self.__tool_bar.apply_db_on_scan_changed.connect(self.__on_apply_db_on_scan_changed)
         self.__vlayout.addWidget(self.__tool_bar)
 
         first_action: QAction = self.__tool_bar.actions()[0]
@@ -361,7 +376,13 @@ class MainPageWidget(QWidget):
             parent=QApplication.activeModalWidget(),
         ).exec()
 
-    def __run_basic_scan(self, only_selected: bool = False) -> None:
+    def __on_apply_db_on_scan_changed(self, enabled: bool) -> None:
+        self.__app_config.auto_create_database_translations = enabled
+        self.__app_config.save()
+
+    def __run_basic_scan(
+        self, only_selected: bool = False, apply_db: Optional[bool] = None
+    ) -> None:
         """
         Runs a basic scan over the currently checked mod files.
 
@@ -369,7 +390,11 @@ class MainPageWidget(QWidget):
             only_selected (bool, optional):
                 Whether to scan only the currently selected mods and mod files.
                 Defaults to False.
+            apply_db (Optional[bool], optional):
+                Whether to apply database translations. Defaults to None (uses toolbar setting).
         """
+        if apply_db is None:
+            apply_db = self.__tool_bar.apply_db_on_scan
 
         mods: list[Mod]
         modfiles: dict[Mod, list[ModFile]]
@@ -382,7 +407,9 @@ class MainPageWidget(QWidget):
 
         scan_result: dict[ModFile, TranslationStatus] = join_dicts(
             *ProgressDialog(
-                func=lambda pdisplay: self.__scanner.run_basic_scan(modfiles, pdisplay),
+                func=lambda pdisplay: self.__scanner.run_basic_scan(
+                    modfiles, pdisplay, apply_db=apply_db
+                ),
                 parent=QApplication.activeModalWidget(),
             )
             .run()
@@ -398,9 +425,14 @@ class MainPageWidget(QWidget):
                 parent=QApplication.activeModalWidget(),
             ).run()
 
+        if apply_db:
+            self.__apply_database_translations(only_selected=only_selected, silent=True)
+
         self.__show_scan_result(list(scan_result.keys()))
 
-    def __run_online_scan(self, only_selected: bool = False) -> None:
+    def __run_online_scan(
+        self, only_selected: bool = False, apply_db: Optional[bool] = None
+    ) -> None:
         """
         Runs an online scan over the currently checked mod files.
 
@@ -408,7 +440,11 @@ class MainPageWidget(QWidget):
             only_selected (bool, optional):
                 Whether to scan only the currently selected mods and mod files.
                 Defaults to False.
+            apply_db (Optional[bool], optional):
+                Whether to apply database translations. Defaults to None (uses toolbar setting).
         """
+        if apply_db is None:
+            apply_db = self.__tool_bar.apply_db_on_scan
 
         modfiles: dict[Mod, list[ModFile]]
         if not only_selected:
@@ -425,7 +461,128 @@ class MainPageWidget(QWidget):
         )
         self.__state_service.set_modfile_states(scan_result)
 
+        if apply_db:
+            self.__apply_database_translations(only_selected=only_selected, silent=True)
+
         self.__show_scan_result(list(scan_result.keys()))
+
+    def __apply_database_translations(
+        self, only_selected: bool = False, silent: bool = False
+    ) -> None:
+        """
+        Creates and applies translations for mod files that are available in the database.
+
+        Args:
+            only_selected (bool, optional):
+                Whether to apply only for selected mod files. Defaults to False.
+            silent (bool, optional):
+                Whether to suppress dialog messages if no translations are found.
+                Defaults to False.
+        """
+
+        modfiles: list[ModFile]
+        target_statuses = (
+            TranslationStatus.TranslationAvailableInDatabase,
+            TranslationStatus.TranslationIncomplete,
+            TranslationStatus.RequiresTranslation,
+        )
+
+        def is_load_order_winner(modfile: ModFile) -> bool:
+            return self.__mod_instance.get_modfile(modfile.path) is modfile
+
+        if only_selected:
+            modfiles = [
+                mf
+                for mfs in self.__modinstance_widget.get_selected_modfiles().values()
+                for mf in mfs
+                if mf.status in target_statuses and is_load_order_winner(mf)
+            ]
+        else:
+            checked_items = self.__modinstance_widget.get_checked_items()
+            candidates = (
+                [mf for mfs in checked_items.values() for mf in mfs]
+                if checked_items
+                else self.__mod_instance.modfiles
+            )
+            modfiles = [
+                mf
+                for mf in candidates
+                if mf.status in target_statuses and is_load_order_winner(mf)
+            ]
+
+        if not modfiles:
+            if not silent:
+                QMessageBox.information(
+                    self,
+                    self.tr("Apply database translations"),
+                    self.tr(
+                        "No mod files with translations available in the database were found."
+                    ),
+                )
+            return
+
+        def process(pdisplay: ProgressDisplay) -> None:
+            pdisplay.updateMainProgress(
+                ProgressUpdate(
+                    status_text=self.tr("Applying database translations..."),
+                    value=0,
+                    maximum=len(modfiles),
+                )
+            )
+            states: dict[ModFile, TranslationStatus] = {}
+            new_translations: list[Translation] = []
+
+            for i, modfile in enumerate(modfiles):
+                pdisplay.updateMainProgress(
+                    ProgressUpdate(
+                        status_text=self.tr(
+                            "Applying database translation for '{name}'..."
+                        ).format(name=modfile.name),
+                        value=i,
+                        maximum=len(modfiles),
+                    )
+                )
+                translation = DatabaseService.create_translation_for_modfile(
+                    modfile,
+                    self.__user_data.database,
+                    apply_db=True,
+                    add_and_save=False,
+                )
+                translation.save()
+                new_translations.append(translation)
+
+                norm_path = str(modfile.path).lower().replace("\\", "/")
+                trans_strings = []
+                for p_key, s_list in translation.strings.items():
+                    if str(p_key).lower().replace("\\", "/") == norm_path:
+                        trans_strings = s_list
+                        break
+
+                has_incomplete = any(
+                    s.status > StringStatus.TranslationComplete for s in trans_strings
+                )
+                is_partially_covered = len(trans_strings) < len(modfile.get_strings())
+                if has_incomplete or is_partially_covered:
+                    states[modfile] = TranslationStatus.TranslationIncomplete
+                else:
+                    states[modfile] = TranslationStatus.TranslationInstalled
+
+            if new_translations:
+                DatabaseService.add_translations(
+                    new_translations, self.__user_data.database, save=True
+                )
+            self.__state_service.set_modfile_states(states)
+
+        ProgressDialog(process, parent=QApplication.activeModalWidget()).run()
+
+        if not silent:
+            QMessageBox.information(
+                self,
+                self.tr("Apply database translations"),
+                self.tr(
+                    "Successfully applied database translations for {count} mod file(s)."
+                ).format(count=len(modfiles)),
+            )
 
     def __run_downloads(self, only_selected: bool = False) -> None:
         """

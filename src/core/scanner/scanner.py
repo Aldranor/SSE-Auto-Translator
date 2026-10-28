@@ -5,6 +5,7 @@ Copyright (c) Cutleast
 import logging
 from concurrent.futures import Future, as_completed
 from pathlib import Path
+from threading import Lock
 from typing import Optional
 
 from cutleast_core_lib.core.multithreading.progress import (
@@ -32,7 +33,7 @@ from core.string.search_filter import SearchFilter, matches_filter
 from core.string.string_extractor import StringExtractor
 from core.string.string_status import StringStatus
 from core.string.string_utils import StringUtils
-from core.string.types import StringList
+from core.string.types import StringList, StringType
 from core.translation_provider.mod_id import ModId
 from core.translation_provider.provider import TranslationProvider
 from core.translation_provider.source import Source
@@ -86,9 +87,13 @@ class Scanner(QObject):
             self.__app_config.detector_confidence,
             getattr(Language, self.__user_config.language.id.upper()),
         )
+        self.__translation_lock = Lock()
 
     def run_basic_scan(
-        self, items: dict[Mod, list[ModFile]], pdisplay: Optional[ProgressDisplay] = None
+        self,
+        items: dict[Mod, list[ModFile]],
+        pdisplay: Optional[ProgressDisplay] = None,
+        apply_db: Optional[bool] = None,
     ) -> dict[Mod, dict[ModFile, TranslationStatus]]:
         """
         Scans mods for required and installed translations.
@@ -98,6 +103,8 @@ class Scanner(QObject):
             items (dict[Mod, list[ModFile]]): The items to scan.
             pdisplay (Optional[ProgressDisplay], optional):
                 Optional progress display. Defaults to None.
+            apply_db (Optional[bool], optional):
+                Whether to apply database translations. Defaults to None (uses app config).
 
         Returns:
             dict[Mod, dict[ModFile, TranslationStatus]]:
@@ -116,42 +123,76 @@ class Scanner(QObject):
                 )
             )
 
-        database_strings: StringList = StringUtils.unique(
-            string
+        database_originals: set[str] = {
+            string.original
             for string in self.__database.strings
             if string.status != StringStatus.TranslationRequired
-        )
-        database_originals: list[str] = unique(
-            string.original for string in database_strings
-        )
+        }
 
-        scan_result: dict[Mod, dict[ModFile, TranslationStatus]] = {}
+        database_translations: dict[str, tuple[Translation, StringList]] = {}
+        for translation in self.__database.user_translations:
+            for modfile_key, strings in translation.strings.items():
+                norm_key: str = str(modfile_key).lower().replace("\\", "/")
+                database_translations[norm_key] = (translation, strings)
+
+        if apply_db is None:
+            apply_db = self.__app_config.auto_create_database_translations
+
+        db_lookup_maps = None
+        if apply_db:
+            db_lookup_maps = StringUtils._build_lookup_maps(self.__database.strings)
+
+        scan_result: dict[Mod, dict[ModFile, TranslationStatus]] = {
+            mod: {} for mod in items
+        }
+        scan_targets: dict[
+            str, tuple[Mod, ModFile, list[tuple[Mod, ModFile]]]
+        ] = {}
+        for mod, modfiles in items.items():
+            for modfile in modfiles:
+                winning_modfile = self.__mod_instance.get_modfile(modfile.path)
+                if winning_modfile is None:
+                    winning_modfile = modfile
+
+                winning_mod = (
+                    self.__mod_instance.get_mod_with_modfile(winning_modfile.path)
+                    or mod
+                )
+                key = str(winning_modfile.path).lower().replace("\\", "/")
+                target = scan_targets.setdefault(
+                    key, (winning_mod, winning_modfile, [])
+                )
+                target[2].append((mod, modfile))
+
         failed_modfiles: int = 0
         with ProgressExecutor(
             pdisplay, max_workers=self.__app_config.worker_thread_num
         ) as executor:
             executor.set_main_progress_text(self.tr("Scanning modlist..."))
 
-            tasks: dict[Future[TranslationStatus], tuple[Mod, ModFile]] = {}
-            for mod, modfiles in items.items():
-                scan_result[mod] = {}
-
-                for modfile in modfiles:
-                    future: Future[TranslationStatus] = executor.submit(
-                        lambda ucb, m=mod, mf=modfile: self.__basic_scan_modfile(
-                            mod=m,
-                            modfile=mf,
-                            database_strings=database_strings,
-                            database_originals=database_originals,
-                            update_callback=ucb,
-                        )
+            tasks: dict[
+                Future[TranslationStatus], tuple[Mod, ModFile, list[tuple[Mod, ModFile]]]
+            ] = {}
+            for mod, modfile, references in scan_targets.values():
+                future: Future[TranslationStatus] = executor.submit(
+                    lambda ucb, m=mod, mf=modfile: self.__basic_scan_modfile(
+                        mod=m,
+                        modfile=mf,
+                        database_originals=database_originals,
+                        database_translations=database_translations,
+                        db_lookup_maps=db_lookup_maps,
+                        apply_db=apply_db,
+                        update_callback=ucb,
                     )
-                    tasks[future] = (mod, modfile)
+                )
+                tasks[future] = (mod, modfile, references)
 
             for future in as_completed(tasks):
-                mod, modfile = tasks[future]
+                mod, modfile, references = tasks[future]
                 try:
-                    scan_result[mod][modfile] = future.result()
+                    status = future.result()
+                    for reference_mod, reference_modfile in references:
+                        scan_result[reference_mod][reference_modfile] = status
                 except Exception as ex:
                     failed_modfiles += 1
                     self.log.error(
@@ -168,8 +209,17 @@ class Scanner(QObject):
         self,
         mod: Mod,
         modfile: ModFile,
-        database_strings: StringList,
-        database_originals: list[str],
+        database_originals: set[str],
+        database_translations: dict[str, tuple[Translation, StringList]],
+        db_lookup_maps: Optional[
+            tuple[
+                dict[str, StringType],
+                dict[str, StringType],
+                dict[str, StringType],
+                dict[str, StringType],
+            ]
+        ] = None,
+        apply_db: bool = False,
         update_callback: Optional[UpdateCallback] = None,
     ) -> TranslationStatus:
         modfile_path_text: str = f"{mod.name} > {modfile.name}"
@@ -208,13 +258,56 @@ class Scanner(QObject):
         self.log.debug("Detecting language...")
 
         status: TranslationStatus
+        norm_path: str = str(modfile.path).lower().replace("\\", "/")
         if self.__detector.requires_translation(modfile_strings):
-            if self.__database.get_translation_by_modfile_path(modfile.path) is not None:
-                status = TranslationStatus.TranslationInstalled
+            if norm_path in database_translations:
+                translation, trans_strings = database_translations[norm_path]
+                has_incomplete: bool = any(
+                    string.status > StringStatus.TranslationComplete
+                    for string in trans_strings
+                )
+                is_partially_covered: bool = len(trans_strings) < len(modfile_strings)
+
+                if (has_incomplete or is_partially_covered) and apply_db:
+                    changed = False
+                    if is_partially_covered:
+                        extracted = modfile.get_strings()
+                        if len(trans_strings) < len(extracted):
+                            if StringUtils.update_string_list(trans_strings, extracted):
+                                changed = True
+
+                    untranslated = [
+                        s for s in trans_strings
+                        if s.status in (StringStatus.TranslationRequired, StringStatus.TranslationIncomplete)
+                        or not s.string
+                        or s.string == s.original
+                    ]
+                    if untranslated:
+                        matched_count = StringUtils.match_strings(
+                            strings_to_update=untranslated,
+                            database_strings=self.__database.strings,
+                            lookup_maps=db_lookup_maps,
+                        )
+                        if matched_count > 0:
+                            changed = True
+
+                    if changed:
+                        with self.__translation_lock:
+                            translation.save()
+
+                    has_incomplete = any(
+                        string.status > StringStatus.TranslationComplete
+                        for string in trans_strings
+                    )
+                    is_partially_covered = len(trans_strings) < len(modfile_strings)
+
+                if has_incomplete or is_partially_covered:
+                    status = TranslationStatus.TranslationIncomplete
+                else:
+                    status = TranslationStatus.TranslationInstalled
 
             elif any(
                 string.original not in database_originals
-                and string not in database_strings
                 for string in modfile_strings
             ):
                 status = TranslationStatus.RequiresTranslation

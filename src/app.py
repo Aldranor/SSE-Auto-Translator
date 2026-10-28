@@ -27,6 +27,7 @@ from PySide6.QtWidgets import QApplication, QDialog, QMessageBox
 from core.component_provider import ComponentProvider
 from core.config.app_config import AppConfig
 from core.config.user_config import UserConfig
+from core.editor.translation_bridge import TranslationBridge
 from core.translation_provider.nm_api.nm_api import NexusModsApi
 from core.translation_provider.nm_api.nxm_handler import NXMHandler
 from core.user_data.user_data import UserData
@@ -286,6 +287,8 @@ class App(BaseApp, Singleton):
                 self.__component_provider.get_temp_folder_provider().clean_temp_folder()
             except Exception as ex:
                 self.log.error(f"Failed to clean temp folder: {ex}", exc_info=ex)
+
+        TranslationBridge.clean_temp_dirs()
 
         if NXMHandler.has_instance() and NXMHandler.get().is_bound():
             NXMHandler.get().unbind()

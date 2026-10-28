@@ -59,6 +59,12 @@ class MainToolBar(QToolBar):
     export_states_requested = Signal()
     """Signal when the user clicks on the export states action."""
 
+    apply_db_translations_requested = Signal()
+    """Signal when the user clicks on the apply database translations action."""
+
+    apply_db_on_scan_changed = Signal(bool)
+    """Signal when the apply DB on scan checkbox is toggled."""
+
     __filter_action: QAction
     __filter_menu: Menu
     __state_filter_items: dict[TranslationStatus, QCheckBox]
@@ -70,6 +76,8 @@ class MainToolBar(QToolBar):
     __download_action: QAction
     __build_output_action: QAction
 
+    __apply_db_translations_action: QAction
+    __apply_db_checkbox: QCheckBox
     __string_search_action: QAction
     __export_states_action: QAction
 
@@ -126,6 +134,16 @@ class MainToolBar(QToolBar):
             )
         )
 
+        self.__apply_db_checkbox = QCheckBox(self.tr("Apply DB"))
+        self.__apply_db_checkbox.setToolTip(
+            self.tr("Automatically apply database translations during modlist scan")
+        )
+        self.__apply_db_checkbox.setStyleSheet("margin-left: 4px; margin-right: 6px;")
+        self.__apply_db_checkbox.toggled.connect(
+            lambda checked: self.apply_db_on_scan_changed.emit(checked)
+        )
+        self.addWidget(self.__apply_db_checkbox)
+
         self.__online_scan_action = self.addAction(self.tr("Search for translations"))
         self.__online_scan_action.setShortcut("Ctrl+Shift+2")
         self.__main_action_icons[self.__online_scan_action] = (
@@ -169,6 +187,18 @@ class MainToolBar(QToolBar):
         self.addSeparator()
 
     def __init_utility_actions(self) -> None:
+        self.__apply_db_translations_action = self.addAction(
+            self.tr("Apply database translations"),
+        )
+        IconProvider.bind_qta_icon(
+            self.__apply_db_translations_action,
+            self.__apply_db_translations_action.setIcon,
+            "mdi6.database-check",
+        )
+        self.__apply_db_translations_action.triggered.connect(
+            self.apply_db_translations_requested.emit
+        )
+
         self.__string_search_action = self.addAction(
             self.tr("Search modlist for string..."),
         )
@@ -428,6 +458,15 @@ class MainToolBar(QToolBar):
 
         self.__on_type_filter_change()
         self.__on_state_filter_change()
+
+    @property
+    def apply_db_on_scan(self) -> bool:
+        """Whether to automatically apply database translations during modlist scan."""
+        return self.__apply_db_checkbox.isChecked()
+
+    @apply_db_on_scan.setter
+    def apply_db_on_scan(self, value: bool) -> None:
+        self.__apply_db_checkbox.setChecked(value)
 
     def set_shortcut_target(self, target: QWidget) -> None:
         """

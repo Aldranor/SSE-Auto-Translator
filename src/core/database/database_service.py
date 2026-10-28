@@ -12,6 +12,7 @@ import jstyleson as json
 from cutleast_core_lib.core.utilities.unique import unique
 
 from core.database.translation import Translation
+from core.database.translation_service import TranslationService
 from core.mod_file.mod_file import ModFile
 from core.mod_file.translation_status import TranslationStatus
 from core.mod_instance.mod import Mod
@@ -30,6 +31,18 @@ class DatabaseService:
     """
 
     log: logging.Logger = logging.getLogger("DatabaseService")
+
+    @classmethod
+    def reload_translation(
+        cls, translation: Translation, database: TranslationDatabase
+    ) -> None:
+        """Reloads one translation's JSON files from disk into the database."""
+        translation.strings = TranslationService.load_translation_strings(
+            translation.path
+        )
+        cls.log.info(f"Reloaded translation '{translation.name}' from disk.")
+        database.changed_signal.emit(translation)
+        database.update_signal.emit()
 
     @classmethod
     def load_database(
@@ -533,18 +546,43 @@ class DatabaseService:
                 database=database,
             )
 
-        modfile_strings: StringList = modfile.get_strings()
-        for string in modfile_strings:
-            string.string = string.original
-            string.status = StringStatus.TranslationRequired
+        modfile_strings: StringList
+        norm_modfile_path = str(modfile.path).lower().replace("\\", "/")
+        existing_key = None
+        for k in translation.strings:
+            if str(k).lower().replace("\\", "/") == norm_modfile_path:
+                existing_key = k
+                break
 
-        if apply_db:
-            StringUtils.match_strings(
-                strings_to_update=modfile_strings, database_strings=database.strings
-            )
+        if existing_key is not None and translation.strings[existing_key]:
+            modfile_strings = translation.strings[existing_key]
+            extracted = modfile.get_strings()
+            if len(modfile_strings) < len(extracted):
+                StringUtils.update_string_list(modfile_strings, extracted)
+            if apply_db:
+                untranslated = [
+                    s for s in modfile_strings
+                    if s.status in (StringStatus.TranslationRequired, StringStatus.TranslationIncomplete)
+                    or not s.string
+                    or s.string == s.original
+                ]
+                if untranslated:
+                    StringUtils.match_strings(
+                        strings_to_update=untranslated, database_strings=database.strings
+                    )
+        else:
+            modfile_strings = modfile.get_strings()
+            for string in modfile_strings:
+                string.string = string.original
+                string.status = StringStatus.TranslationRequired
 
-        translation.strings.setdefault(modfile.path, []).extend(modfile_strings)
-        translation.remove_duplicates(save=False)
+            if apply_db:
+                StringUtils.match_strings(
+                    strings_to_update=modfile_strings, database_strings=database.strings
+                )
+
+            translation.strings.setdefault(modfile.path, []).extend(modfile_strings)
+            translation.remove_duplicates(save=False)
 
         if add_and_save:
             translation.save()
