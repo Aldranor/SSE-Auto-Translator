@@ -308,3 +308,22 @@ Normalisation intégrale des termes du Lore officiel Bethesda France et résolut
 - **Sanctuaires & Bâtiments de Guilde :** `la tour Underforge` traduit en **la tour de la Basse-Forge** dans *This Is Jorrvaskr* (`This Is Jorrvaskr.esp.json` `idx=440`).
 - **Harmonisation de Forts :** Harmonisation de `fort Sungard` / `fort Gardesol` vers le nom canonique officiel **fort Gardesoleil** dans le journal des Reliques du Croisé de *LOTD Creation Club Patches* (`DBM_CC_DivineCrusaderHOWPatch.esp.json` `idx=45`).
 - **Statut Git :** Commité directement sur `main` (commit `17683f8`) et poussé sur `origin/main`.
+
+
+## Plan de Nettoyage Final (7 Phases) — Phase 5 : Respect des Règles Définies (`Translations instructions.txt`) & Qualité Littéraire — 28 octobre 2026
+
+Éradication des calques anglais, faux-amis du modding, harmonisation des ensembles d'armures, correction des accords grammaticaux et contrôle structurel de la pagination des livres sur l'ensemble de la base de données (`397 383` entrées) avec **34 corrections appliquées sur 13 fichiers modifiés** :
+- **Catégorie A — Élimination des calques anglais et faux-amis (14 corrections sur 7 fichiers) :**
+  - Remplacement de la tournure calquée *« Vous êtes capable de »* par des formulations naturelles et concises (*« Vous pouvez »*, *« Permet de »*) : *Ordonnateur* (`idx=909, 3776, 4378, 4389`), *Apocalypse - Ordinator Patch* (`idx=36`), *The Gray Cowl of Nocturnal* (`idx=688`), *3DNPC* (`idx=39967`).
+  - Correction de la tournure *« Fait X points de dégâts »* vers la terminologie officielle *« Inflige X points de dégâts »* : *Amulettes de Bordeciel* (`SL01AmuletsSkyrim.esp.json` `idx=51`), *Les Outils de Kagrénac* (`Tools of Kagrenac.esp.json` `idx=26`).
+  - Correction du singulier erroné *« Armure de plate »* vers le pluriel réglementaire en armurerie française **« Armure de plates »** : *Nolvus Awakening Armors Balance Patch* (`idx=901`).
+  - Allègement et naturalisation des formules orales *« Assurez-vous de »* vers *« Veillez à »*, *« Pensez à »*, *« N'oubliez pas de »* dans *3DNPC* (`idx=3621, 6119, 9648, 28488`).
+- **Catégorie B — Cohérence intra-mod des ensembles et accords de genre/nombre (17 corrections sur 5 fichiers) :**
+  - Harmonisation du set de Khash-Ti Dhrur dans *Apocalypse - Magic of Skyrim* (`idx=1730`) : `Armure de Khash-Ti` $\rightarrow$ **« Armure de Khash-Ti Dhrur »**.
+  - Rétablissement des accords pluriels sur les armures daedriques : *Armure daedrique légère* (`mihailxivkynarmor.esp.json` `idx=7, 11`) et *Nolvus Armors* (`idx=97, 1192`) $\rightarrow$ **`Gantelets daedriques légers`** et **`Bottes daedriques légères`**.
+  - Correction des accords féminin singulier : *Nolvus Armors* (`idx=872`) et *Ryn's Crabber's Shanty* (`idx=3`) $\rightarrow$ **`Cuirasse plaquée en chitine de vasard`**.
+  - Harmonisation complète du set *Dragon Infused Daedric Armor* (`DragonInfusedDaedricArmor.esp.json`) : déclinaisons lourdes, légères et tissu harmonisées et accordées en genre et en nombre (`idx=2, 3, 4, 5, 6, 7, 8, 9, 10, 11`).
+- **Catégorie C — Contrôle structurel et pagination des livres (`BOOK DESC`) (3 corrections sur 2 fichiers) :**
+  - *Journal de la Crypte de Givrelac* (`LegacyoftheDragonborn.esm.json` `idx=3549`) : rétablissement des **4 balises `[pagebreak]`** pour afficher chaque semaine de fouilles sur sa page dédiée et éviter le débordement d'interface en jeu.
+  - *Journal de Japhet* (`LegacyoftheDragonborn.esm.json` `idx=3918` et `unofficial skyrim special edition patch.esp.json` `idx=2630`) : rétablissement des **8 balises `[pagebreak]`** séparant les pensées et la descente dans la folie de Japhet sur son île.
+- **Protocole & Intégrité :** Opérations appliquées et vérifiées unitairement sur disque via `verify_clean_phase5.py` (9/9 tests réussis). Commité et poussé directement sur la branche `main` de la base (commit `13fc4a7`).
