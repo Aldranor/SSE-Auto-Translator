@@ -205,3 +205,12 @@ Audit approfondi et révision complète des packs d'armes et armures autonomes (
 - **QND SPID The Witcher 3 & Imperial Battlemage (3 corrections) :** Traduction des coloris de tenues laissés en anglais (*Blanc*, *Violet*), nettoyage de coquille HTML et singulier *Robe de mage de bataille impérial*.
 - **Dismembering Framework & Spear of Skyrim (84 plugins restants, 2 344 entrées) :** Intégrité 100% vérifiée, 0 anomalie joueur, préservation exemplaire des armes et armures.
 - **Protocole :** 65 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (recap_modifications_phase6.md).
+
+## Phase 7 : Contrôle de 2nd Niveau des Mods Majeurs Déjà Validés — 28 octobre 2026
+
+Contrôle de sécurité et de non-régression approfondi sur les 53 fichiers de mods maîtres canoniques (110 074 entrées) :
+- **Conformité globale :** 100 % de complétion confirmée (0 chaîne `TranslationRequired`), 0 mojibake, et maintien rigoureux de la pagination officielle des livres.
+- **Intégrité Moteur des Sorts (4 corrections) :**
+  - **Mysticisme (2 corrections) :** Rétablissement de la variable `<dur>` pour la durée d'effet magique sur *Siphon de santé* et *Siphon de magie* (qui utilisait à tort `<mag>` pour la durée).
+  - **Apocalypse (2 corrections) :** Rétablissement de la variable dynamique de rayon `<mag>` sur *Attraction de butin* et *Maelström de Sotha* en éliminant les valeurs numériques fixes corrompues (`<24>`, `<6>`).
+- **Protocole :** 4 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (recap_modifications_phase7.md).

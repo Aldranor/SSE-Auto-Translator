@@ -81,7 +81,7 @@ flowchart LR
 | **Phase 4** | **Quêtes, Nouveaux Mondes & Legacy of the Dragonborn (LOTD)** | ✅ **Validée** | Hall of Forgotten (18 plugins), DBM Unslaad Display Patch (343 chaînes), TCC (18 plugins), Follower Room Patches (128 chaînes), Hjertesten Hall (1 810 chaînes), EEKs Whiterun Interiors, Alternate Perspective. 66 modifications unitaires vérifiées sur disque ([recap_modifications_phase4.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase4.md)). |
 | **Phase 5** | **Refontes de PNJs & Enfants (Sujettes aux écrasements de noms)** | ✅ **Validée** | `Modpocalypse NPCs - All Vanilla + Addons` (21 plugins), `True Sons of Skyrim Refined` (6 plugins), `Pride of Skyrim All In One`, `Children of the Pariah`, `RS Children` (10 plugins). 105 modifications unitaires vérifiées sur disque ([recap_modifications_phase5.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase5.md)). |
 | **Phase 6** | **Équipements, Armes & Armures Dérivées** | ✅ **Validée** | `Dismembering Framework` (860 chaînes), `Spear of Skyrim` (591 chaînes), et les 89 packs d'armes/armures locaux (1 064 chaînes). 65 modifications unitaires vérifiées sur disque ([recap_modifications_phase6.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase6.md)). |
-| **Phase 7** | **Contrôle de 2nd Niveau des Mods Majeurs Déjà Validés** | ⏳ En attente | Audit de sécurité et de non-régression sur les 47 mods majeurs de [`TRADUCTIONS_VERIFIEES.md`](file:///e:/Code/SSE%20Translator%20updated/TRADUCTIONS_VERIFIEES.md) (Apocalypse, Vokriinator Black de base, CACO, Immersive Sounds, Wyrmstooth, Inigo, Auri...). |
+| **Phase 7** | **Contrôle de 2nd Niveau des Mods Majeurs Déjà Validés** | ✅ **Validée** | Audit de sécurité et de non-régression sur les 53 fichiers de mods majeurs canoniques (110 074 chaînes). 4 corrections de variables dynamiques vérifiées sur disque ([recap_modifications_phase7.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase7.md)). |
 | **Phase 8** | **Passe Finale de Propagation Cascade Source $\rightarrow$ Patchs** | ⏳ En attente | **Alignement global définitif.** Comparaison automatique multi-plugins pour injecter toutes les corrections validées des mods maîtres dans l'ensemble des patchs dépendants du load order. |
 
 ---
@@ -200,6 +200,14 @@ Cette phase couvre la totalité des patchs locaux et customisés du projet, regr
   * **Nomenclature Canonique Bethesda :** Remplacement de l'anglicisme *Jerkin* par *Pourpoint* sur les 30 tenues de Triss, traduction de *Ranger* en *Rôdeur*, de *Pauldrons* en *Épaulières*, et de *Northern Banded Iron Shield* en *Bouclier en fer renforcé nordique*. Pluriel officiel rétabli pour les pièces de plates (*Armure, bottes et casque de plates*).
   * **Harmonisation Lore & Typographie :** Correction de l'accent erroné sur *Breton* (11 occurrences), francisation de *Nilfgaardian* en *nilfgaardien/nilfgaardienne*, et traduction des coloris *Blanc* et *Violet* dans les tenues de Triss.
   * **Protocole unitaire :** 65 modifications unitaires appliquées (count == 1 strict) et vérifiées sur disque.
+
+### 🔹 Phase 7 : Contrôle de 2nd Niveau des Mods Majeurs Déjà Validés (✅ VALIDÉE — recap_modifications_phase7.md)
+* **Mods concernés :**
+  * Les 53 fichiers de grands mods maîtres canoniques répertoriés dans `TRADUCTIONS_VERIFIEES.md` (LOTD, Wyrmstooth, Inigo, Remiel, Vigilant, Unslaad, Forgotten City, Citizens of Tamriel, Apocalypse, Mysticism, Thaumaturgy, Vokriinator Black, Adamant, Vokrii, Path of Sorcery, Stances, Immersive Hunting, Sky Decoction, USSEP, etc. — 110 074 chaînes).
+* **Objectifs & Résultats :**
+  * **Sécurité & Non-Régression :** 100 % des entrées complètes (0 chaîne `TranslationRequired`), 0 mojibake, et préservation intégrale des balises de pagination officielles des livres Bethesda.
+  * **Intégrité Moteur des Sorts :** Correction des inversions de variables dynamiques `<mag>` et `<dur>` dans Mysticisme (*Siphon de santé* et *Siphon de magie*), et restauration de la variable dynamique de rayon `<mag>` dans Apocalypse (*Attraction de butin* et *Maelström de Sotha*).
+  * **Protocole unitaire :** 4 modifications unitaires appliquées (count == 1 strict) et vérifiées sur disque.
 
 ---
 
