@@ -176,6 +176,54 @@ def main():
         lambda e: e.get("form_id") == "0102D990|Apachii_DivineEleganceStore.esm" and e.get("type") == "ARMO FULL" and e.get("original") == "DE Avallach Mask Silver Armor",
         "Masque d'Avallac'h en argent renforcé", cat_b
     )
+    apply_entry_fix(
+        f_nac, get_file(f_nac),
+        lambda e: e.get("form_id") == "0102D98E|Apachii_DivineEleganceStore.esm" and e.get("type") == "ARMO FULL" and e.get("original") == "DE Avallach Mask Gold Armor",
+        "Masque d'Avallac'h en or renforcé", cat_b
+    )
+    apply_entry_fix(
+        f_nac, get_file(f_nac),
+        lambda e: e.get("form_id") == "0102D989|Apachii_DivineEleganceStore.esm" and e.get("type") == "ARMO FULL" and e.get("original") == "DE Avallach Mask Bronze Armor",
+        "Masque d'Avallac'h en bronze renforcé", cat_b
+    )
+    apply_entry_fix(
+        f_nac, get_file(f_nac),
+        lambda e: e.get("form_id") == "0102D98B|Apachii_DivineEleganceStore.esm" and e.get("type") == "ARMO FULL" and e.get("original") == "DE Avallach Mask Ebony Armor",
+        "Masque d'Avallac'h en ébonite renforcé", cat_b
+    )
+
+    f_nadlc = r"Nolvus Awakening DLC Patch - French\nolvus awakening dlc patch.esp.json"
+    apply_entry_fix(
+        f_nadlc, get_file(f_nadlc),
+        lambda e: e.get("form_id") == "07125B04|LegacyoftheDragonborn.esm" and e.get("type") == "ARMO FULL" and e.get("original") == "Ring of Phynaster",
+        "Anneau de Phynaster", cat_b
+    )
+    apply_entry_fix(
+        f_nadlc, get_file(f_nadlc),
+        lambda e: e.get("form_id") == "071253C0|LegacyoftheDragonborn.esm" and e.get("type") == "WEAP FULL" and e.get("original") == "Fang of Haynekhtnamet (CC Replaced)",
+        "Croc de Haynekhtnamet", cat_b
+    )
+
+    f_coin = r"COIN - Monnaies de Bordeciel\C.O.I.N.esp.json"
+    apply_entry_fix(
+        f_coin, get_file(f_coin),
+        lambda e: e.get("form_id") == "01DE5021|Update.esm" and e.get("type") == "MISC FULL" and e.get("original") == "Mede",
+        "Mede", cat_b
+    )
+
+    f_ddc = r"Dragons divers et variés\DiverseDragonsCollectionSE.esp.json"
+    apply_entry_fix(
+        f_ddc, get_file(f_ddc),
+        lambda e: e.get("form_id") == "040DF552|DiverseDragonsCollectionSE.esp" and e.get("type") == "MGEF FULL" and e.get("original") == "Solar Breath Burn Undead",
+        "Souffle solaire brûle-morts-vivants", cat_b
+    )
+
+    f_apo = r"Apocalypse - Magie de Bordeciel\Apocalypse - Magic of Skyrim.esp.json"
+    apply_entry_fix(
+        f_apo, get_file(f_apo),
+        lambda e: e.get("form_id") == "0303E5FF|Apocalypse - Magic of Skyrim.esp" and e.get("type") == "BOOK DESC",
+        "<font face='$HandwrittenFont'><font size='40'><p align='center'>\r\nMalédiction de silence", cat_b
+    )
 
     # 2. Books Overwritten or Truncated (BOOK DESC)
     # 2a. LOTD 04028275|Dragonborn.esm ('The True Noble's Code' -> 'Le Code de la noblesse')
@@ -214,7 +262,7 @@ def main():
                 lambda e: e.get("type") == "BOOK DESC" and (e.get("form_id") or "").endswith("054ECE|Vigilant.esm"),
                 vig_054ece_fr, cat_b
             )
-    for target_f in (f_vig_vost, f_dbm_uns):
+    for target_f in (f_vig_vost, f_vig_bc, f_dbm_uns):
         if vig_4a8afe_fr:
             apply_entry_fix(
                 target_f, get_file(target_f),
@@ -637,8 +685,13 @@ def main():
     # 5. Katana
     apply_entry_fix(
         f_kat, get_file(f_kat),
-        lambda e: e.get("form_id") == "058BB421|Katana.esp" and e.get("type") == "QUST CNAM" and e.get("index") == 87,
+        lambda e: e.get("form_id") == "058BB421|Katana.esp" and e.get("type") == "QUST CNAM" and e.get("index") == 87 and (e.get("original") or "").startswith("I think we should be receiving"),
         "Je pense que nous devrions recevoir quelque chose sous peu... Par un messager, peut-être ?", cat_c
+    )
+    apply_entry_fix(
+        f_kat, get_file(f_kat),
+        lambda e: e.get("form_id") == "058BB421|Katana.esp" and e.get("type") == "QUST CNAM" and e.get("index") == 87 and (e.get("original") or "").startswith("Even Chadryn couldn't ruin"),
+        "Même Chadryn n'a pas pu gâcher un si beau moment. Tout le monde est heureux et fait la fête. Je devrais me joindre à eux et discuter un moment.", cat_c
     )
     apply_entry_fix(
         f_kat, get_file(f_kat),
@@ -679,6 +732,8 @@ def main():
         ("054D1811|LegacyoftheDragonborn.esm", "QUST CNAM", 100, "I should check back with the Windcaller", "Je devrais retourner voir les fouilles du col de Parlevent pour vérifier comment les travaux progressent."),
         ("054D1811|LegacyoftheDragonborn.esm", "QUST CNAM", 72, "The excavation has hit a dead stop", "Les fouilles sont au point mort en raison de la présence de deux dragons dans une clairière du col. Je devrais m'occuper d'eux et découvrir ce qu'ils gardent."),
         ("054D1811|LegacyoftheDragonborn.esm", "QUST NNAM", 50, "Return to Marassi before continuing", "Retournez voir Marassi avant de continuer"),
+        ("054D1811|LegacyoftheDragonborn.esm", "QUST NNAM", 110, "Return to Marassi and report the barrier", "Retournez voir Marassi et signalez la barrière"),
+        ("052DA4B9|LegacyoftheDragonborn.esm", "ACTI FULL", None, "Zainsubani's Notes", "Notes de Zainsubani"),
         ("0558B96A|LegacyoftheDragonborn.esm", "QUST CNAM", 82, "We have finally done it", "Nous avons enfin réussi, et l'entrée se trouvait juste derrière nous depuis le début !"),
         ("0558B96A|LegacyoftheDragonborn.esm", "QUST CNAM", 77, "The explorers will begin their dig", "Les explorateurs vont commencer à creuser sur le site que j'ai marqué. Je devrais revenir dans quelques jours pour voir l'avancement des travaux ou les aider pour accélérer les choses."),
     ]
@@ -908,6 +963,8 @@ def main():
             "Après avoir rejoint l'Académie de Fortdhiver et parlé à Tolfdir, j'ai appris les bases des barrières magiques et je vais accompagner les autres apprentis lors d'une expédition.",
         ("0001F252|Skyrim.esm", "While following Tolfdir through an unexplored section of Saarthal, a vision from the Psijic Order revealed to me that our excavations in Saarthal have set a strange chain of events into motion. I should speak with Tolfdir at once."):
             "En suivant Tolfdir dans un groupe de ruines inexplorées, une vision envoyée par l'Ordre des Psijiques m'a révélé que les fouilles de Saarthal avaient mis un étrange mécanisme en marche. Je dois en avertir Tolfdir.",
+        ("0001F252|Skyrim.esm", "While following Tolfdir through an unexplored section of Saarthal, a vision from the Psijic Order has suggested that something strange has been set in motion by our excavations in Saarthal. I need to tell Tolfdir."):
+            "En suivant Tolfdir dans un groupe de ruines inexplorées, une vision envoyée par l'Ordre des Psijiques m'a révélé que les fouilles de Saarthal avaient mis un étrange mécanisme en marche. Je dois en avertir Tolfdir.",
         ("0001F7A3|Skyrim.esm", "Windhelm is plagued by a shadowy killer. I have entered Hjerim and should investigate anything of interest."):
             "Vendeaume est en proie à un mystérieux tueur. Je suis entré dans Hjerim et je devrais examiner tout ce qui semble suspect.",
         ("0001F7A3|Skyrim.esm", "Windhelm is plagued by a shadowy killer. Jorleif has given me permission to investigate the crime scenes and search for clues."):
@@ -922,6 +979,8 @@ def main():
             "D'après les rumeurs qui courent à la Jument pavoisée de Blancherive, les enfants du jarl Balgruuf auraient un comportement étrange. Le plus jeune, Nelkir, semble particulièrement perturbé.",
         ("0004E4E1|Skyrim.esm", "I defeated Sinding in Bloated Man's Grotto and claimed his skin, which Hircine transformed into the Savior's Hide."):
             "J'ai vaincu Sinding dans la grotte du Bouffi et j'ai récupéré sa peau, qu'Hircine a transformée en Peau du Sauveur.",
+        ("0004E4E1|Skyrim.esm", "An otherworldly voice coming from Mount Kilkreath is commanding me to find a beacon and return it."):
+            "Une voix venue d'un autre monde et émanant du mont Kilkreath m'ordonne de trouver un cristal et de le lui rapporter.",
         ("0007EDE5|Skyrim.esm", "Deliver the forged letter to Camilla Valerius"):
             "Donnez la fausse lettre à Camilla Valerius",
         ("000E4D31|Skyrim.esm", "An accident with the lexicon seems to have left me with some strange knowledge of the Dwemer."):
@@ -934,13 +993,26 @@ def main():
             "J'ai récupéré le gyroscope dwemer et l'ai rapporté à Sorine Jurard.",
         ("02004C3D|Dawnguard.esm", "Sorine Jurard has asked me to recover some schematics for a Dwemer crossbow."):
             "Sorine Jurard m'a demandé de récupérer les schémas d'une arbalète dwemer.",
+        ("02004C3D|Dawnguard.esm", "With the Moth Priest safely back at Castle Volkihar, the time has come to hear the prophecies contained within the Elder Scroll."):
+            "Maintenant que le prêtre de la Phalène est arrivé sain et sauf au château Volkihar, le moment est venu d'entendre les prophéties que renferme le Parchemin des Anciens.",
         ("020098CB|Dawnguard.esm", "I have slain Harkon and ended his tyrannical rule over the Volkihar clan."):
             "J'ai tué Harkon et mis fin à son règne tyrannique sur le clan Volkihar.",
+        ("020098CB|Dawnguard.esm", "Harkon's agents have captured the Moth Priest! I have tracked them to Forebears' Holdout, but the vampires have enthralled the Moth Priest and I will have to confront him in order to break their hold."):
+            "Les agents d'Harkon ont capturé le prêtre de la Phalène ! J'ai suivi leur trace jusqu'au Refuge des Aïeux, mais les vampires ont subjugué le prêtre de la Phalène et je vais devoir l'affronter pour briser leur emprise.",
+        ("020098CB|Dawnguard.esm", "I rescued the Moth Priest from his vampire captors and asked him to meet me at Fort Dawnguard. I must return to Isran and tell him of our success."):
+            "J'ai délivré le prêtre de la Phalène des vampires qui le retenaient prisonnier et lui ai demandé de me retrouver au fort de la Garde de l'Aube. Je dois retourner voir Isran pour lui annoncer notre victoire.",
+        ("020098CB|Dawnguard.esm", "With the Moth Priest safely back at Fort Dawnguard, he can now read Serana's Elder Scroll and learn more about the prophecy."):
+            "Maintenant que le prêtre de la Phalène est de retour sain et sauf au fort de la Garde de l'Aube, il peut lire le Parchemin des Anciens de Sérana et nous en apprendre davantage sur la prophétie.",
+        ("02007201|Dawnguard.esm", "<Alias=QuestGiver> learned that a <Alias=Vampire> kidnapped <Alias=Prisoner>. I rescued <Alias.PronounObj=Prisoner> from in <Alias=Dungeon>."):
+            "<Alias=QuestGiver> a appris qu'un <Alias=Vampire> avait enlevé <Alias=Prisoner>. Je l'ai secouru dans : <Alias=Dungeon>.",
+        ("05000AD6|ccBGSSSE001-Fish.esm", "After using the Dwarven fishing rod near Bronze Water Cave and powering up an ancient mechanism using aetherium dynamo cores, a pedestal rose from beneath the surface revealing a submerged chest."):
+            "Après avoir utilisé la canne à pêche dwemer près de la grotte de Bronzeflot et alimenté un ancien mécanisme à l'aide de noyaux de dynamo d'aethérium, un piédestal a émergé de l'eau, révélant un coffre submergé.",
         ("0001DBFC|Skyrim.esm", "I found the body of Reyda in the river near Ivarstead. I should let Narfi know what happened to his sister."):
             "J'ai trouvé le corps de Reyda dans la rivière près de Fort-Ivar. Je devrais annoncer à Narfi ce qui est arrivé à sa sœur.",
     }
     target_vanilla_files = [
         f_ussep,
+        f_qais,
         r"Wintersun - Religions de Bordeciel\Wintersun - Faiths of Skyrim.esp.json",
         r"Wintersun - Religions de Bordeciel\Wintersun - USSEP Patch.esp.json",
         r"Experience Quests Tweak fr\Experience Quests Tweak.esp.json",
@@ -987,20 +1059,23 @@ def main():
         cat_c
     )
 
-    # Fix 050990EF|ccasvsse001-almsivi.esm idx=81 & 2000089E|ccbgssse043-crosselv.esl idx=67 across all 3 CC Experience files
+    # Fix 050990EF|ccasvsse001-almsivi.esm idx=81 & 2000089E|ccbgssse043-crosselv.esl idx=67 & 5 other CC quests across all 3 CC Experience files
+    cc_extra_fixes = [
+        ("0990ef|ccasvsse001-almsivi.esm", 81, "I found an Unenchanted Weapon", "J'ai trouvé une arme non enchantée et je l'ai placée dans un emplacement spécial de la forge dwemer. Une fois l'alimentation de la forge rétablie, elle devrait enchanter l'arme."),
+        ("00089e|ccbgssse043-crosselv.esl", 67, "I found a letter penned by Kragrash", "J'ai trouvé une lettre écrite par Kragrash, le chasseur de vampires. Au cours d'une chasse, il a été blessé et a contracté le vampirisme. Le jour où il devait se transformer en vampire, il est allé dans les montagnes pour contempler un dernier lever de soleil. Il a laissé son équipement dans sa cave, qui reste verrouillée. La lettre indique que la clé de sa cave devrait se trouver sur sa dépouille."),
+        ("000cc3|ccasvsse001-almsivi.esm", 84, "After finding information on a group of Tribunal heretics", "Après avoir trouvé des informations sur un groupe d'hérétiques du Tribunal, j'ai suivi leur piste jusqu'à un temple caché rempli d'adorateurs. En lisant une note écrite par la matriarche, j'ai appris l'existence de plusieurs activités à l'extérieur du temple sur lesquelles je peux enquêter."),
+        ("19952a|ccbgssse067-daedinv.esm", 97, "I found the Oblivion Gate and defeated the leader of the Mythic Dawn, Vonos", "J'ai trouvé la porte d'Oblivion et vaincu le chef de l'Aube mythique, Vonos. Il semble qu'il s'agissait d'un rituel complexe conçu pour me tromper, et dont la mort de Vonos était l'étape finale. Sans le vouloir, j'ai servi la cause de Mehrunes Dagon et mes actions ont ouvert la porte d'Oblivion. J'ai franchi la porte et vaincu un drémora Valkynaz maniant l'arme Tourment."),
+        ("000a39|ccafdsse001-dwesanctuary.esm", 91, "I provided the dwarven sphere overseer", "J'ai fourni les pièces requises à la sphère dwemer superviseuse et je peux désormais remettre la manufacture en service. Je devrais pouvoir utiliser la manufacture pour restaurer le sanctuaire grâce aux automates qui peuvent y être construits."),
+        ("00088c|ccedhsse003-redguard.esl", 90, "I spoke the secret phrase to Josla", "J'ai prononcé la phrase secrète devant Josla, une espionne des Revenants à Karthwasten. Elle m'a remis une note qui devrait contenir des informations sur l'endroit où est détenu l'agent des Revenants capturé."),
+        ("000a90|cckrtsse001_altar.esl", 86, "I received a letter from a rogue asking me to perform a job Markarth", "J'ai reçu une lettre d'un voleur me demandant d'accomplir un travail à Markarth. À l'aide d'un anneau à cacheter dérobé à un Haut-Elfe, j'ai falsifié une lettre et me suis fait passer pour un messager afin de piéger son garde du corps. Après la mort de son compagnon, le Haut-Elfe s'est réfugié dans sa chambre forte pour vérifier sa fortune. Je l'ai suivi à l'intérieur et ai accédé à la chambre forte, où j'ai affronté l'Altmer. Par la suite, j'ai parlé au voleur qui m'a remis une récompense."),
+    ]
     for f_cc in (f_cc_exp, f_naei_bad, f_naei_good):
-        apply_entry_fix(
-            f_cc, get_file(f_cc),
-            lambda e: (e.get("form_id") or "").lower().endswith("0990ef|ccasvsse001-almsivi.esm") and e.get("type") == "QUST CNAM" and e.get("index") == 81 and (e.get("original") or "").startswith("I found an Unenchanted Weapon"),
-            "J'ai trouvé une arme non enchantée et je l'ai placée dans un emplacement spécial de la forge dwemer. Une fois l'alimentation de la forge rétablie, elle devrait enchanter l'arme.",
-            cat_c
-        )
-        apply_entry_fix(
-            f_cc, get_file(f_cc),
-            lambda e: (e.get("form_id") or "").lower().endswith("00089e|ccbgssse043-crosselv.esl") and e.get("type") == "QUST CNAM" and e.get("index") == 67 and (e.get("original") or "").startswith("I found a letter penned by Kragrash"),
-            "J'ai trouvé une lettre écrite par Kragrash, le chasseur de vampires. Au cours d'une chasse, il a été blessé et a contracté le vampirisme. Le jour où il devait se transformer en vampire, il est allé dans les montagnes pour contempler un dernier lever de soleil. Il a laissé son équipement dans sa cave, qui reste verrouillée. La lettre indique que la clé de sa cave devrait se trouver sur sa dépouille.",
-            cat_c
-        )
+        for fid_suf, idx_val, orig_pref, new_fr in cc_extra_fixes:
+            apply_entry_fix(
+                f_cc, get_file(f_cc),
+                lambda e, fs=fid_suf, iv=idx_val, op=orig_pref: (e.get("form_id") or "").lower().endswith(fs) and e.get("type") == "QUST CNAM" and e.get("index") == iv and (e.get("original") or "").startswith(op),
+                new_fr, cat_c
+            )
 
     # Align Creation Club Integration - Armours and DBM_CC_TheBowOfShadowsHOWPatch with canonical CC translations
     apply_entry_fix(
@@ -1010,11 +1085,74 @@ def main():
         cat_c
     )
     apply_entry_fix(
+        f_cci_ae, get_file(f_cci_ae),
+        lambda e: (e.get("form_id") or "").lower().endswith("000830|ccbgssse055-ba_orcishscaled.esl") and e.get("type") == "QUST CNAM" and e.get("index") == 72 and (e.get("original") or "").endswith("whereabouts."),
+        "J'ai entendu parler d'histoires concernant d'anciens bandits vivant comme des fugitifs à travers Tamriel. Si je me rends aux baraquements des gardes de Faillaise, je trouverai peut-être des informations sur l'endroit où ils se cachent.",
+        cat_c
+    )
+    apply_entry_fix(
         f_dbm_bos, get_file(f_dbm_bos),
         lambda e: e.get("type") == "QUST CNAM" and (e.get("type"), e.get("original")) in naei_good_map,
         lambda e: naei_good_map[(e.get("type"), e.get("original"))],
         cat_c
     )
+
+    # 18. Additional MESG ITXT, PERK EPF2, QUST NNAM, and Paragliding fixes
+    f_para = r"Du parapente en Bordeciel\Paragliding.esp.json"
+    apply_entry_fix(
+        f_para, get_file(f_para),
+        lambda e: e.get("form_id") == "0200801F|Paragliding.esp" and e.get("type") == "QUST CNAM" and e.get("index") == 82,
+        "Comme je prends quotidiennement des décisions moralement discutables, il y a de fortes chances que je garde ce parapente pour mon usage personnel, malgré la possibilité bien réelle que Fred ait de la famille dans les environs pour qui cet objet aurait une grande valeur sentimentale. Par ailleurs, le fait que ma prise de possession soudaine des biens de Fred coïncide avec sa mort violente — dont j'ai été le seul témoin, faisant de moi la dernière personne à l'avoir vu en vie — et puisse éveiller les soupçons des gardes ne m'inquiète absolument pas. Quoi qu'il en soit, j'ai hâte de voler. Merci, Fred !",
+        cat_c
+    )
+    apply_entry_fix(
+        f_crf, get_file(f_crf),
+        lambda e: e.get("form_id") == "000266F1|Skyrim.esm" and e.get("type") == "QUST NNAM" and e.get("original") == "Find <Alias=MGR01Item>",
+        "Trouvez : <Alias=MGR01Item>", cat_c
+    )
+    apply_entry_fix(
+        f_pos, get_file(f_pos),
+        lambda e: e.get("form_id") == "0A000BA3|PathOfSorcery.esp" and e.get("type") == "PERK EPF2" and e.get("original") == "Access Inventory",
+        "Accéder à l’inventaire", cat_c
+    )
+    f_vok_blk_epf = r"Vokriinateur - Morceaux choisis\Vokriinator Black.esp.json"
+    apply_entry_fix(
+        f_vok_blk_epf, get_file(f_vok_blk_epf),
+        lambda e: e.get("form_id") == "07000BA3|PathOfSorcery.esp" and e.get("type") == "PERK EPF2" and e.get("original") == "Access Inventory",
+        "Accéder à l’inventaire", cat_c
+    )
+    apply_entry_fix(
+        f_oah, get_file(f_oah),
+        lambda e: e.get("form_id") == "05091126|Dwarfsphere.esp" and e.get("type") == "MESG ITXT" and e.get("original") == "Nchardak",
+        "Nchardak", cat_c
+    )
+    f_yot_aho = r"YOT - Vos propres pensées\YOT - Project AHO.esp.json"
+    apply_entry_fix(
+        f_yot_aho, get_file(f_yot_aho),
+        lambda e: e.get("form_id") == "04091126|Dwarfsphere.esp" and e.get("type") == "MESG ITXT" and e.get("original") == "Nchardak",
+        "Nchardak", cat_c
+    )
+    f_yot_lotd_itxt = r"YOT - Vos propres pensées\YOT - LOTD.esp.json"
+    apply_entry_fix(
+        f_yot_lotd_itxt, get_file(f_yot_lotd_itxt),
+        lambda e: e.get("form_id") == "033D4CA8|LegacyoftheDragonborn.esm" and e.get("type") == "MESG ITXT" and e.get("original") == "Yes",
+        "Oui", cat_c
+    )
+    f_yot_vig_itxt = r"YOT - Vos propres pensées\YOT - Vigilant.esp.json"
+    apply_entry_fix(
+        f_yot_vig_itxt, get_file(f_yot_vig_itxt),
+        lambda e: e.get("type") == "MESG ITXT" and e.get("original") == "Strike" and e.get("string") == "Annuler",
+        "Frapper", cat_c
+    )
+    for f_sac in (
+        r"Sacrosanct - Vampires de Bordeciel\Sacrosanct - Vampires of Skyrim.esp.json",
+        r"YOT - Vos propres pensées\YOT - Sacrosanct.esp.json",
+    ):
+        apply_entry_fix(
+            f_sac, get_file(f_sac),
+            lambda e: e.get("form_id") == "02009407|Dawnguard.esm" and e.get("type") == "MESG ITXT" and e.get("original") == "Protean Fury",
+            "Fureur protéiforme", cat_c
+        )
 
     # =========================================================================
     # CATEGORY D: Gameplay Numeric & Effect Discrepancies
