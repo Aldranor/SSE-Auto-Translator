@@ -82,7 +82,7 @@ flowchart LR
 | **Phase 5** | **Refontes de PNJs & Enfants (Sujettes aux écrasements de noms)** | ✅ **Validée** | `Modpocalypse NPCs - All Vanilla + Addons` (21 plugins), `True Sons of Skyrim Refined` (6 plugins), `Pride of Skyrim All In One`, `Children of the Pariah`, `RS Children` (10 plugins). 105 modifications unitaires vérifiées sur disque ([recap_modifications_phase5.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase5.md)). |
 | **Phase 6** | **Équipements, Armes & Armures Dérivées** | ✅ **Validée** | `Dismembering Framework` (860 chaînes), `Spear of Skyrim` (591 chaînes), et les 89 packs d'armes/armures locaux (1 064 chaînes). 65 modifications unitaires vérifiées sur disque ([recap_modifications_phase6.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase6.md)). |
 | **Phase 7** | **Contrôle de 2nd Niveau des Mods Majeurs Déjà Validés** | ✅ **Validée** | Audit de sécurité et de non-régression sur les 53 fichiers de mods majeurs canoniques (110 074 chaînes). 4 corrections de variables dynamiques vérifiées sur disque ([recap_modifications_phase7.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase7.md)). |
-| **Phase 8** | **Passe Finale de Propagation Cascade Source $\rightarrow$ Patchs** | ⏳ En attente | **Alignement global définitif.** Comparaison automatique multi-plugins pour injecter toutes les corrections validées des mods maîtres dans l'ensemble des patchs dépendants du load order. |
+| **Phase 8** | **Passe Finale de Propagation Cascade Source $\rightarrow$ Patchs** | ✅ **Validée** | **Alignement global définitif.** Comparaison automatique multi-plugins sur 4 935 patchs (312 079 chaînes). 1 209 injections cascade unitaires vérifiées sur disque ([recap_modifications_phase8.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase8.md)). |
 
 ---
 
@@ -208,6 +208,15 @@ Cette phase couvre la totalité des patchs locaux et customisés du projet, regr
   * **Sécurité & Non-Régression :** 100 % des entrées complètes (0 chaîne `TranslationRequired`), 0 mojibake, et préservation intégrale des balises de pagination officielles des livres Bethesda.
   * **Intégrité Moteur des Sorts :** Correction des inversions de variables dynamiques `<mag>` et `<dur>` dans Mysticisme (*Siphon de santé* et *Siphon de magie*), et restauration de la variable dynamique de rayon `<mag>` dans Apocalypse (*Attraction de butin* et *Maelström de Sotha*).
   * **Protocole unitaire :** 4 modifications unitaires appliquées (count == 1 strict) et vérifiées sur disque.
+
+### 🔹 Phase 8 : Passe Finale de Propagation Cascade Source $\rightarrow$ Patchs (✅ VALIDÉE — recap_modifications_phase8.md)
+* **Mods concernés :**
+  * **4 935 fichiers de patchs dépendants** scannés (**312 079 enregistrements**) contre l'index canonique des mods maîtres validés.
+  * **300 fichiers de patchs harmonisés**, notamment l'ensemble des patchs Lux, Navigator, WACCF, Ordinator, patchs LOTD/DBM, patchs de créatures, compagnons et refontes de villes.
+* **Objectifs & Résultats :**
+  * **Éradication des Conflits de Load Order :** Alignement strict de 1 209 entrées de patchs écrasantes sur les traductions canoniques validées (540 cellules intérieures, 209 armures, 123 PNJs, 105 sorts, 54 armes, 53 atouts, 31 livres, 30 quêtes, 28 alchimies, 19 effets magiques).
+  * **Concordance Topographique & Lieux :** Harmonisation des noms de cellules et donjons écrasés par Lux et Navigator (*Avanchnzel - Animachinerie*, *Valthume - Catacombes*, *Alftand - Ruines gelées*, *Irkngthand - Sanctuaire*, etc.).
+  * **Protocole unitaire :** 1 209 modifications unitaires appliquées (count == 1 strict) et vérifiées sur disque.
 
 ---
 

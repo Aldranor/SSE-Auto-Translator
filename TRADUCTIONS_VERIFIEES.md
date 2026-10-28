@@ -214,3 +214,13 @@ Contrôle de sécurité et de non-régression approfondi sur les 53 fichiers de 
   - **Mysticisme (2 corrections) :** Rétablissement de la variable `<dur>` pour la durée d'effet magique sur *Siphon de santé* et *Siphon de magie* (qui utilisait à tort `<mag>` pour la durée).
   - **Apocalypse (2 corrections) :** Rétablissement de la variable dynamique de rayon `<mag>` sur *Attraction de butin* et *Maelström de Sotha* en éliminant les valeurs numériques fixes corrompues (`<24>`, `<6>`).
 - **Protocole :** 4 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (recap_modifications_phase7.md).
+
+## Phase 8 : Passe Finale de Propagation Cascade Source → Patchs — 28 octobre 2026
+
+Passe finale d'alignement cascade multi-plugins sur 4 935 fichiers patchs (312 079 entrées analysées contre l'index canonique de référence) :
+- **Harmonisation globale des patchs dépendants (1 209 corrections sur 300 fichiers patchs) :**
+  - **540 cellules et mondes réalignés :** Élimination des régressions de noms de donjons et intérieurs provoquées par les patchs d'éclairage et d'occlusion (Lux, Navigator, Landscape and Water Fixes, eFPS). Noms canoniques Bethesda scellés (*Avanchnzel - Animachinerie*, *Valthume - Catacombes*, *Alftand - Ruines gelées*, *Irkngthand - Sanctuaire*, *Mausolée du Crépuscule*, *Grand marché de Raldbthar*).
+  - **263 pièces d'équipement réalignées (209 armures, 54 armes) :** Injection des dénominations d'armures et armes canoniques dans WACCF et les patchs d'artisanat.
+  - **140 PNJs réalignés (123 complets, 17 courts) :** Synchronisation des noms propres et titres sur les patchs AI Overhaul, 3DNPC, et patchs de créatures.
+  - **217 compétences et sorts réalignés (105 sorts, 53 atouts, 30 quêtes, 19 effets, 28 ingrédients) :** Synchronisation de Vokrii, Ordinator, Mysticisme et Thaumaturgie sur l'ensemble des patchs de compatibilité.
+- **Protocole :** 1 209 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (recap_modifications_phase8.md).
