@@ -161,3 +161,17 @@
 ---
 
 *Ce document est maintenu à jour au fur et à mesure des audits et des révisions de la modlist.*
+
+
+## Relecture ciblée des mods incomplets visibles dans MO2 — 28 octobre 2026
+
+Recontrôle des packages LOOT, Gourmet, LOTD Compagnons, Outils du Conservateur, Patches officiels et Vigilant. 229 entrées LOTD/Vigilant ont été alignées sur des traductions françaises déjà présentes, avec correspondance stricte `(form_id, type, original)`. Les chaînes joueur manquantes ont été complétées (notamment l’arc d’Auri, les localisations LOTD, les notes et objets des patchs). Les noms propres, alias moteur et libellés de quêtes internes inchangés ont été classés `NoTranslationRequired` sans altérer leurs valeurs. Les noms déjà français des trois packages LOOT et les deux noms d’ingrédients propres à Wyrmstooth ont également été validés. Le dernier champ vide `Dev Aveza` du patch Forgotten City a été conservé comme nom propre et classé non traduisible.
+
+## Phase 3 : Poids Lourds Narratifs & Dialogues — 28 octobre 2026
+
+Audit approfondi et révision complète des 4 mods maîtres narratifs (8 fichiers JSON, 22 089 entrées) :
+- **Remiel - Dwemer Specialist (9 651 entrées) :** 288 lignes de dialogues et textes laissés en anglais (banter de compagnons, quête de Végétalia, perks et quête de Ferraille) traduits en français littéraire fidèle au ton de Remiel.
+- **Fanatical Enemies (4 615 entrées) :** Correction lore unitaire de Lord of Falkreath -> Seigneur d'Épervine (auparavant Seigneur de Faillaise).
+- **Vigilant 1.7.3 & Akaviri Follower (7 823 entrées) :** Intégrité 100% vérifiée, 0 anomalie joueur.
+- **Protocole :** 289 modifications unitaires appliquées strictement sur le quadruple (form_id, type, index, original) avec assertion count == 1 et relecture complète après écriture sur le disque (
+ecap_modifications_phase3.md).

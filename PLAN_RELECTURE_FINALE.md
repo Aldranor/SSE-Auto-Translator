@@ -77,7 +77,7 @@ flowchart LR
 | **Phase 0** | **Scan Automatisé Global Multi-Critères** | ✅ **TERMINÉ** | Détection en code sur toute la base (mismatches conceptuels, chiffres divergents, calques/faux-amis, restes d'anglais, variables cassées). |
 | **Phase 1** | **Systèmes d'Équilibrage Nolvus Awakening** | ✅ **TERMINÉ & VALIDÉ** | `Nolvus Awakening Armors/Weapons/Clothes/Spells/Vokriinator Black Balance Patches`. (5 plugins, 1 389 armures, 468 armes, 41 atouts corrigés, recap dans [`recap_modifications_phase1.md`](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase1.md)). |
 | **Phase 2** | **Audit Exhaustif de TOUS les Patchs Créés Localement & d'Intégration Nolvus** | ✅ **TERMINÉ & VALIDÉ** (2A, 2B, 2C, 2D & 2E validées) | **La phase la plus sensible.** Audit systématique de tous les patchs Nolvus Awakening restants, des patchs d'intégration créés sur mesure, des patch hubs et des résolutions de conflits (détaillée en sous-phases 2A à 2E ci-dessous). |
-| **Phase 3** | **Poids Lourds Narratifs & Dialogues (Mods Maîtres)** | ⏳ En attente | `Remiel - Dwemer Specialist` (9 651 chaînes), `Vigile 1.7.3` (7 502 chaînes), `Fanatical Enemies` (4 615 chaînes), `AkaviriFollower` (321 chaînes). Fluidité littéraire, oralité vivante, lore officiel. |
+| **Phase 3** | **Poids Lourds Narratifs & Dialogues (Mods Maîtres)** | ✅ **Validée** | `Remiel - Dwemer Specialist` (9 651 chaînes), `Vigile 1.7.3` (7 502 chaînes), `Fanatical Enemies` (4 615 chaînes), `AkaviriFollower` (321 chaînes). 289 modifications unitaires vérifiées sur disque ([recap_modifications_phase3.md](file:///e:/Code/SSE%20Translator%20updated/recap_modifications_phase3.md)). |
 | **Phase 4** | **Quêtes, Nouveaux Mondes & Legacy of the Dragonborn (LOTD)** | ⏳ En attente | `Legacy of the Dragonborn - Hall of Forgotten` (18 plugins, 1 740 chaînes), `DBM Unslaad Display Patch` (343 chaînes), `Follower Room Patches` (128 chaînes), `Hjertesten Hall` (1 810 chaînes), `EEKs Whiterun Interiors`, `Alternate Perspective`. Concordance exacte des artéfacts exposés. |
 | **Phase 5** | **Refontes de PNJs & Enfants (Sujettes aux écrasements de noms)** | ⏳ En attente | `Modpocalypse NPCs - All Vanilla + Addons` (1 916 chaînes), `True Sons of Skyrim Refined` (605 chaînes), `Pride of Skyrim All In One` (457 chaînes), `Children of the Pariah` (125 chaînes), `RS Children`. Rétablissement des titres français et noms propres vanilla. |
 | **Phase 6** | **Équipements, Armes & Armures Dérivées** | ⏳ En attente | `Dismembering Framework`, `Spear of Skyrim`, et les 91 packs d'armes/armures locaux (2 515 chaînes). Concordance des matériaux et tags d'enchantement. |
@@ -139,7 +139,21 @@ Cette phase couvre la totalité des patchs locaux et customisés du projet, regr
 
 ---
 
-## 📑 6. Protocole de Validation & Clôture par Phase
+## 🔬 6. Détail de la Phase 3 : Poids Lourds Narratifs & Dialogues (✅ VALIDÉE — recap_modifications_phase3.md)
+* **Mods concernés (22 089 chaînes au total) :**
+  * Remiel - Dwemer Specialist vostFR (3 fichiers : Base 8 300 chaînes, LOTD 945 chaînes, Beyond Reach 406 chaînes)
+  * Vigile 1.7.3 SSE (3 fichiers : ESM 7 070 chaînes, Voiced 427 chaînes, Giant Creatures Fix 5 chaînes)
+  * Fanatical Enemies (4 615 chaînes)
+  * Akaviri Follower (321 chaînes)
+* **Objectifs & Résultats :**
+  * **Fanatical Enemies :** Correction du contresens géographique lore Lord of Falkreath traduit par erreur en Seigneur de Faillaise (corrigé en Seigneur d'Épervine).
+  * **Remiel Base :** Traduction littéraire intégrale de 288 entrées laissées en anglais (banter avec les autres compagnons, commentaires de la quête de Végétalia/Fléau d'ortie, quête du ragoût et perks de Ferraille).
+  * **Vigilant & AkaviriFollower :** Zéro régression, conformité totale confirmée.
+  * **Protocole unitaire :** 289 modifications unitaires appliquées (count == 1) et vérifiées sur disque.
+
+---
+
+## 📑 7. Protocole de Validation & Clôture par Phase
 
 1. **Génération d'un fichier récapitulatif `recap_modifications_phaseX.md`** avec tableau complet :
    `FormID | Mod source | Texte original (EN) | Avant | Après | Nature du correctif`.

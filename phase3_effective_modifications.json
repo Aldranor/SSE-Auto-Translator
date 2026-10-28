@@ -1,0 +1,2603 @@
+[
+  {
+    "file": "fanatical enemies.esp.json",
+    "form_id": "049CADDC|Fanatical Enemies.esp",
+    "type": "NPC_ FULL",
+    "index": null,
+    "original": "Lord of Falkreath",
+    "old_value": "Seigneur d'Épervine",
+    "new_value": "Seigneur d'Épervine"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC2D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Good work out there, Raven!",
+    "old_value": "Good work out there, Raven!",
+    "new_value": "Beau travail, Raven !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC22|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We are going to live, Doc! Right?",
+    "old_value": "We are going to live, Doc! Right?",
+    "new_value": "On va s'en sortir vivants, Doc ! Pas vrai ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC04|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You do not want to fight Ria! Or me!",
+    "old_value": "You do not want to fight Ria! Or me!",
+    "new_value": "Vous ne voulez vraiment pas vous battre contre Ria ! Ni contre moi !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD55|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Well bye, Joshua. Bye for now, at least.",
+    "old_value": "Well bye, Joshua. Bye for now, at least.",
+    "new_value": "Eh bien, au revoir, Joshua. Du moins pour l'instant."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD4C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Scrap, keep Ganbald safe, okay?!",
+    "old_value": "Scrap, keep Ganbald safe, okay?!",
+    "new_value": "Ferraille, protège Ganbald, d'accord ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD48|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "(Gasp) Well, Ganbald, we aren't dead!",
+    "old_value": "(Gasp) Well, Ganbald, we aren't dead!",
+    "new_value": "(Soupir) Eh bien, Ganbald, nous ne sommes pas morts !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD62|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Good work out there, Josh!",
+    "old_value": "Good work out there, Josh!",
+    "new_value": "Beau travail, Josh !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABCB|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'm happy you're on my side, Buffy.",
+    "old_value": "I'm happy you're on my side, Buffy.",
+    "new_value": "Je suis contente que vous soyez de mon côté, Buffy."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD79|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ahmed, you are a bit scary in battle. Well, everything is scary in battle. Am I scary in battle?",
+    "old_value": "Ahmed, you are a bit scary in battle. Well, everything is scary in battle. Am I scary in battle?",
+    "new_value": "Ahmed, vous faites un peu peur au combat. Enfin, tout fait peur au combat. Est-ce que je fais peur au combat, moi ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABAB|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ubbe. Ubbe. Look at me. Do not forget me here. Ubbe, I will be so sad. Do not forget me.",
+    "old_value": "Ubbe. Ubbe. Look at me. Do not forget me here. Ubbe, I will be so sad. Do not forget me.",
+    "new_value": "Ubbe. Ubbe. Regardez-moi. Ne m'oubliez pas ici. Ubbe, je serais si triste. Ne m'oubliez pas."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABDE|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Well, bye, Revan. Bye for now, at least.",
+    "old_value": "Well, bye, Revan. Bye for now, at least.",
+    "new_value": "Eh bien, au revoir, Revan. Du moins pour l'instant."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABFC|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "And they're dead, and Ria and I are alive. We win!",
+    "old_value": "And they're dead, and Ria and I are alive. We win!",
+    "new_value": "Et ils sont morts, et Ria et moi sommes vivants. On a gagné !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC0D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Doctor, we'll talk later.",
+    "old_value": "Okay, Doctor, we'll talk later.",
+    "new_value": "D'accord, Doctor, on se parlera plus tard."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A9B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't die, Nar! I'd be very upset with you!",
+    "old_value": "Don't die, Nar! I'd be very upset with you!",
+    "new_value": "Ne mourez pas, Nar ! Je vous en voudrais beaucoup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40986|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are you doing okay out there, Ilia?",
+    "old_value": "Are you doing okay out there, Ilia?",
+    "new_value": "Vous tenez le coup, Ilia ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABAD|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "So we're off then, Ubbe? Lead the way.",
+    "old_value": "So we're off then, Ubbe? Lead the way.",
+    "new_value": "On est partis alors, Ubbe ? Montrez le chemin."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD3D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'll be here, Ganbald. And also wherever you take me next.",
+    "old_value": "I'll be here, Ganbald. And also wherever you take me next.",
+    "new_value": "Je serai là, Ganbald. Et partout où vous m'emmènerez ensuite."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABDC|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are we heading out, Revan?",
+    "old_value": "Are we heading out, Revan?",
+    "new_value": "On y va, Revan ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B859|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Alright, Scrap, let's go. Farillae is leading us somewhere fun, right?",
+    "old_value": "Alright, Scrap, let's go. Farillae is leading us somewhere fun, right?",
+    "new_value": "Très bien, Ferraille, on y va. Farillae nous emmène dans un endroit sympa, pas vrai ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC1D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You know you don't need to try to kill Doctor? Or me?",
+    "old_value": "You know you don't need to try to kill Doctor? Or me?",
+    "new_value": "Vous savez que vous n'êtes pas obligés de tuer le Docteur ? Ni moi d'ailleurs ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABAE|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ubbe? Oh, good. You lived. Me too, in case it wasn't obvious.",
+    "old_value": "Ubbe? Oh, good. You lived. Me too, in case it wasn't obvious.",
+    "new_value": "Ubbe ? Oh, tant mieux. Vous avez survécu. Moi aussi, au cas où ce ne serait pas évident."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC0A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'll be here, Doctor. And also wherever you take me next.",
+    "old_value": "I'll be here, Doctor. And also wherever you take me next.",
+    "new_value": "Je serai là, Doctor. Et partout où vous m'emmènerez ensuite."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABD4|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We are going to live, Buffy! Right?",
+    "old_value": "We are going to live, Buffy! Right?",
+    "new_value": "On va s'en sortir vivants, Buffy ! Pas vrai ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B86B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ah! Una, look out! We're being attacked!",
+    "old_value": "Ah! Una, look out! We're being attacked!",
+    "new_value": "Ah ! Una, attention ! On nous attaque !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD6C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We won't die! At least, I don't think Josh will let us die! So there!",
+    "old_value": "We won't die! At least, I don't think Josh will let us die! So there!",
+    "new_value": "On ne va pas mourir ! Enfin, je ne pense pas que Josh va nous laisser mourir ! Alors voilà !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B850|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We'll talk some more later, then, Rennic.",
+    "old_value": "We'll talk some more later, then, Rennic.",
+    "new_value": "On reparlera un peu plus tard, alors, Rennic."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABD1|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Well, are you regretting attacking Buffy, yet?",
+    "old_value": "Well, are you regretting attacking Buffy, yet?",
+    "new_value": "Alors, vous regrettez déjà d'avoir attaqué Buffy, ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC25|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Raven. Raven, look at me. Do not forget I am standing here. Don't forget me, Ray. ",
+    "old_value": "Raven. Raven, look at me. Do not forget I am standing here. Don't forget me, Ray. ",
+    "new_value": "Raven. Raven,, regardez-moi. N'oubliez pas que je suis là. Ne m'oubliez pas, Ray."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABAA|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Time to head out, Ubbe?",
+    "old_value": "Time to head out, Ubbe?",
+    "new_value": "C'est l'heure de partir, Ubbe ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40985|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ilia, if you could kill them now, I'd appreciate it!",
+    "old_value": "Ilia, if you could kill them now, I'd appreciate it!",
+    "new_value": "Ilia, si vous pouviez les tuer maintenant, j'apprécierais beaucoup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC0C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "And Doctor- Oh, you're walking away.",
+    "old_value": "And Doctor- Oh, you're walking away.",
+    "new_value": "Et Doctor... Oh, vous vous en allez."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABC2|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Alright, Buffy, we'll talk later.",
+    "old_value": "Alright, Buffy, we'll talk later.",
+    "new_value": "D'accord, Buffy, on se parlera plus tard."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40983|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "That's done. Well, until you lead us to another fight. Anything to say for yourself, Ilia? Hm?",
+    "old_value": "That's done. Well, until you lead us to another fight. Anything to say for yourself, Ilia? Hm?",
+    "new_value": "C'est réglé. Enfin, jusqu'à ce que vous nous meniez vers un autre combat. Quelque chose à dire pour votre défense, Ilia ? Hm ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABBA|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't worry, Ubbe, I haven't died yet!",
+    "old_value": "Don't worry, Ubbe, I haven't died yet!",
+    "new_value": "Ne vous inquiétez pas, Ubbe, je ne suis pas encore morte !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B869|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Well, bye, Una. Bye for now, at least.",
+    "old_value": "Well, bye, Una. Bye for now, at least.",
+    "new_value": "Eh bien, au revoir, Una. Du moins pour l'instant."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD85|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "What's wrong? Are Ahmed and I more than you can handle?!",
+    "old_value": "What's wrong? Are Ahmed and I more than you can handle?!",
+    "new_value": "Qu'est-ce qu'il y a ? Ahmed et moi, c'est plus que vous ne pouvez supporter ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40979|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Ilia, we'll talk later.",
+    "old_value": "Okay, Ilia, we'll talk later.",
+    "new_value": "D'accord, Ilia, on se parlera plus tard."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD61|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are you okay, Joshua? No eyes poked out? Enough blood to live?",
+    "old_value": "Are you okay, Joshua? No eyes poked out? Enough blood to live?",
+    "new_value": "Vous allez bien, Joshua ? Aucun œil crevé ? Assez de sang pour survivre ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC34|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Scrap, keep Ray safe, okay?!",
+    "old_value": "Scrap, keep Ray safe, okay?!",
+    "new_value": "Ferraille, protège Ray, d'accord ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "052D5257|HLIORemi.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "original": "Scrap's Extra Damage 2",
+    "old_value": "Scrap's Extra Damage 2",
+    "new_value": "Dégâts supplémentaires de Ferraille (x2)"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC27|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Was that all, Raven?",
+    "old_value": "Was that all, Raven?",
+    "new_value": "C'était tout, Raven ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A95|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Excellent work, Nar! We make a good team!",
+    "old_value": "Excellent work, Nar! We make a good team!",
+    "new_value": "Excellent travail, Nar ! Nous formons une bonne équipe !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD73|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, good, you're here, Ahmed!",
+    "old_value": "Oh, good, you're here, Ahmed!",
+    "new_value": "Oh, super, vous êtes là, Ahmed !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABB4|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You do not want to fight Ubbe! Or me!",
+    "old_value": "You do not want to fight Ubbe! Or me!",
+    "new_value": "Vous ne voulez vraiment pas vous battre contre Ubbe ! Ni contre moi !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABF8|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'll admit, I forgot where we were going next. I'll just stick close to you, Ria.",
+    "old_value": "I'll admit, I forgot where we were going next. I'll just stick close to you, Ria.",
+    "new_value": "J'avoue que j'ai oublié où nous allions ensuite. Je vais juste rester près de vous, Ria."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABCD|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Buffy, something is trying to kill us again!",
+    "old_value": "Buffy, something is trying to kill us again!",
+    "new_value": "Buffy, quelque chose essaie encore de nous tuer !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABEA|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Scrap, keep Revan safe!",
+    "old_value": "Scrap, keep Revan safe!",
+    "new_value": "Ferraille, protège Revan !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4097F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ilia, you're always so impressive while fighting.",
+    "old_value": "Ilia, you're always so impressive while fighting.",
+    "new_value": "Ilia, vous êtes toujours si impressionnant(e) au combat."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A9A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ah! Nar! Don't let me die! Wait, don't let you die!",
+    "old_value": "Ah! Nar! Don't let me die! Wait, don't let you die!",
+    "new_value": "Ah ! Nar ! Ne me laissez pas mourir ! Enfin, ne mourez pas non plus !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45AA3|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Nar and I will kill you! You've made a terrible mistake fighting us!",
+    "old_value": "Nar and I will kill you! You've made a terrible mistake fighting us!",
+    "new_value": "Nar et moi allons vous tuer ! Vous avez fait une terrible erreur en nous affrontant !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD58|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Where are we headed next, Joshua?",
+    "old_value": "Where are we headed next, Joshua?",
+    "new_value": "Où va-t-on maintenant, Joshua ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABDF|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Lead the way, Revan.",
+    "old_value": "Lead the way, Revan.",
+    "new_value": "Montrez le chemin, Revan."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC30|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ray, we lived! Oh, maybe I should try to sound less surprised. I'll work on that.",
+    "old_value": "Ray, we lived! Oh, maybe I should try to sound less surprised. I'll work on that.",
+    "new_value": "Ray, on a survécu ! Oh, je devrais peut-être paraître moins surprise. J'y travaillerai."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABB1|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Excellent work, Ubbe! We make a good team!",
+    "old_value": "Excellent work, Ubbe! We make a good team!",
+    "new_value": "Excellent travail, Ubbe ! Nous formons une bonne équipe !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC39|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Raven, if you could kill them now, I'd really appreciate it!",
+    "old_value": "Raven, if you could kill them now, I'd really appreciate it!",
+    "new_value": "Raven, si vous pouviez les tuer maintenant, j'apprécierais vraiment !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD76|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Perfect timing, Ed. Do you have any snacks?",
+    "old_value": "Perfect timing, Ed. Do you have any snacks?",
+    "new_value": "Tombe à pic, Ed. Vous n'auriez pas un en-cas ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABEE|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Well, are you regretting attacking Revan yet?",
+    "old_value": "Well, are you regretting attacking Revan yet?",
+    "new_value": "Alors, vous regrettez déjà d'avoir attaqué Revan ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B845|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Suryvel, before you go- Oh, you're already leaving. Never mind.",
+    "old_value": "Suryvel, before you go- Oh, you're already leaving. Never mind.",
+    "new_value": "Suryvel, avant que vous ne partiez... Oh, vous vous en allez déjà. Laissez tomber."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B85A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Alright, Far, we'll talk later.",
+    "old_value": "Alright, Far, we'll talk later.",
+    "new_value": "D'accord, Far, on se parlera plus tard."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B844|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Off we go, Suryvel.",
+    "old_value": "Off we go, Suryvel.",
+    "new_value": "C'est parti, Suryvel."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABA9|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We're done talking, Ubbe? Sometimes it's hard for me to tell.",
+    "old_value": "We're done talking, Ubbe? Sometimes it's hard for me to tell.",
+    "new_value": "On a fini de parler, Ubbe ? J'ai parfois du mal à le savoir."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40975|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ilia, please don't forget I'm standing here. I'm serious, Ilia. Don't forget me.",
+    "old_value": "Ilia, please don't forget I'm standing here. I'm serious, Ilia. Don't forget me.",
+    "new_value": "Ilia, ne m'oubliez pas ici, s'il vous plaît. Je suis très sérieuse, Ilia. Ne m'oubliez pas."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABF7|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Well, bye, Ria. Bye for now, at least.",
+    "old_value": "Well, bye, Ria. Bye for now, at least.",
+    "new_value": "Eh bien, au revoir, Ria. Du moins pour l'instant."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD65|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ah! Fighting again! Don't let me die, Josh! Don't let you die!",
+    "old_value": "Ah! Fighting again! Don't let me die, Josh! Don't let you die!",
+    "new_value": "Ah ! Encore un combat ! Ne me laissez pas mourir, Josh ! Ne mourez pas non plus !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD8B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Hi Tazvir. Were you doing to ask me something?",
+    "old_value": "Hi Tazvir. Were you doing to ask me something?",
+    "new_value": "Salut Tazvir. Vous alliez me demander quelque chose ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC00|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ria, please be careful!",
+    "old_value": "Ria, please be careful!",
+    "new_value": "Ria, soyez prudent(e) s'il vous plaît !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD81|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Please be careful, Ed!",
+    "old_value": "Please be careful, Ed!",
+    "new_value": "Faites attention, Ed !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B83C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Mor, then I will see you... Well, I'll still *see* you, we just won't be talking. I will *talk* to you later.",
+    "old_value": "Okay, Mor, then I will see you... Well, I'll still *see* you, we just won't be talking. I will *talk* to you later.",
+    "new_value": "D'accord, Mor, alors on se verra... Enfin, je vais toujours vous *voir*, mais on ne se parlera pas. On se *reparlera* plus tard."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B86A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Una, please don't forget I'm standing here. I'm serious, Una. Don't forget me.",
+    "old_value": "Una, please don't forget I'm standing here. I'm serious, Una. Don't forget me.",
+    "new_value": "Una, ne m'oubliez pas ici, s'il vous plaît. Je suis très sérieuse, Una. Ne m'oubliez pas."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A8F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Nar, we'll talk later.",
+    "old_value": "Okay, Nar, we'll talk later.",
+    "new_value": "D'accord, Nar, on se parlera plus tard."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "058C2154|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "A few months after I joined. It wasn't one big incident that made me decide to leave; I just gradually stopped showing up.",
+    "old_value": "A few months after I joined. It wasn't one big incident that made me decide to leave; I just gradually stopped showing up.",
+    "new_value": "Quelques mois après avoir rejoint la guilde. Ce n'est pas un incident particulier qui m'a décidée à partir ; j'ai juste fini par ne plus m'y présenter, petit à petit."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABCE|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't die, Buffy! I'd be very upset with you!",
+    "old_value": "Don't die, Buffy! I'd be very upset with you!",
+    "new_value": "Ne mourez pas, Buffy ! Je vous en voudrais beaucoup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABCF|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You're picking a fight on Buffy? You're in for a rude awakening!",
+    "old_value": "You're picking a fight on Buffy? You're in for a rude awakening!",
+    "new_value": "Vous cherchez la bagarre avec Buffy ? Vous allez tomber de haut !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC3B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't worry, Raven, I haven't died yet!",
+    "old_value": "Don't worry, Raven, I haven't died yet!",
+    "new_value": "Ne vous inquiétez pas, Raven, je ne suis pas encore morte !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "052D5256|HLIORemi.esp",
+    "type": "PERK FULL",
+    "index": null,
+    "original": "Scrap's Extra Damage 1.5",
+    "old_value": "Scrap's Extra Damage 1.5",
+    "new_value": "Dégâts supplémentaires de Ferraille (x1,5)"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABB0|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "That's done. Well, until you lead us to another fight. Anything to say for yourself, Ubbe? Hm?",
+    "old_value": "That's done. Well, until you lead us to another fight. Anything to say for yourself, Ubbe? Hm?",
+    "new_value": "C'est réglé. Enfin, jusqu'à ce que vous nous meniez vers un autre combat. Quelque chose à dire pour votre défense, Ubbe ? Hm ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD66|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Joshua, why does everything want to kill us?!",
+    "old_value": "Joshua, why does everything want to kill us?!",
+    "new_value": "Joshua, pourquoi tout le monde cherche à nous tuer ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD4D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, Ganbald, please be careful!",
+    "old_value": "Oh, Ganbald, please be careful!",
+    "new_value": "Oh, Ganbald, soyez prudent(e) s'il vous plaît !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD88|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "See you later, Taz.",
+    "old_value": "See you later, Taz.",
+    "new_value": "À plus tard, Taz."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABB2|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't lie to me, Ubbe. Am I dying? It feels like I'm dying.",
+    "old_value": "Don't lie to me, Ubbe. Am I dying? It feels like I'm dying.",
+    "new_value": "Ne me mentez pas, Ubbe. Est-ce que je meurs ? J'ai l'impression de mourir."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4097D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ah! So much fighting! I'll just stay behind you, Ilia!",
+    "old_value": "Ah! So much fighting! I'll just stay behind you, Ilia!",
+    "new_value": "Ah ! Tant de violence ! Je vais juste rester derrière vous, Ilia !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD84|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "How are you faring, Ahmed?! I'm getting tired!",
+    "old_value": "How are you faring, Ahmed?! I'm getting tired!",
+    "new_value": "Comment ça se passe pour vous, Ahmed ?! Je commence à fatiguer !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B851|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't leave me here too long, Ren. You know I'll get bored and do something we both regret.",
+    "old_value": "Don't leave me here too long, Ren. You know I'll get bored and do something we both regret.",
+    "new_value": "Ne me laissez pas ici trop longtemps, Ren. Vous savez que je vais m'ennuyer et faire une bêtise que nous regretterons tous les deux."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD4E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ah! Ganbald, something is attacking us! Again!",
+    "old_value": "Ah! Ganbald, something is attacking us! Again!",
+    "new_value": "Ah ! Ganbald, quelque chose nous attaque ! Encore !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABDD|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, but Revan, I still wanted to tell you- Er. I- I forgot. Never mind.",
+    "old_value": "Oh, but Revan, I still wanted to tell you- Er. I- I forgot. Never mind.",
+    "new_value": "Oh, mais Revan, je voulais encore vous dire... Euh... J'ai... j'ai oublié. Laissez tomber."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABFF|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ria, you're always impressive in fights!",
+    "old_value": "Ria, you're always impressive in fights!",
+    "new_value": "Ria, vous êtes toujours impressionnant(e) au combat !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD56|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, but Joshua, I still wanted to tell you- Er. I- I forgot. Never mind.",
+    "old_value": "Oh, but Joshua, I still wanted to tell you- Er. I- I forgot. Never mind.",
+    "new_value": "Oh, mais Joshua, je voulais encore vous dire... Euh... J'ai... j'ai oublié. Laissez tomber."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABB3|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ah! Ubbe! Something is attacking us!",
+    "old_value": "Ah! Ubbe! Something is attacking us!",
+    "new_value": "Ah ! Ubbe ! Quelque chose nous attaque !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "051AF308|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Here it is... I... I can barely believe we're here...",
+    "old_value": "Here it is... I... I can barely believe we're here...",
+    "new_value": "Nous y voilà... Je... j'arrive à peine à croire que nous y sommes..."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B866|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Alright, Una, we'll talk later.",
+    "old_value": "Alright, Una, we'll talk later.",
+    "new_value": "D'accord, Una, on se parlera plus tard."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD72|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are we heading out, Ed?",
+    "old_value": "Are we heading out, Ed?",
+    "new_value": "On y va, Ed ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC32|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ah! Raven! Don't let me die! Wait, don't let you die!",
+    "old_value": "Ah! Raven! Don't let me die! Wait, don't let you die!",
+    "new_value": "Ah ! Raven ! Ne me laissez pas mourir ! Enfin, ne mourez pas non plus !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD71|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "If you leave me here too long, Ahmed, I will take no responsibility for the outcome.",
+    "old_value": "If you leave me here too long, Ahmed, I will take no responsibility for the outcome.",
+    "new_value": "Si vous me laissez ici trop longtemps, Ahmed, je décline toute responsabilité pour ce qui pourrait arriver."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD67|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You're really going to fight me and Joshua?!",
+    "old_value": "You're really going to fight me and Joshua?!",
+    "new_value": "Vous allez vraiment vous battre contre Joshua et moi ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD54|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ganbald, if you could kill them now, I'd appreciate it!",
+    "old_value": "Ganbald, if you could kill them now, I'd appreciate it!",
+    "new_value": "Ganbald, si vous pouviez les tuer maintenant, j'apprécierais beaucoup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD50|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't worry, Ganbald, I haven't died yet!",
+    "old_value": "Don't worry, Ganbald, I haven't died yet!",
+    "new_value": "Ne vous inquiétez pas, Ganbald, je ne suis pas encore morte !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45AA0|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Do. Not. Hit. Nar!",
+    "old_value": "Do. Not. Hit. Nar!",
+    "new_value": "Ne. Touchez. Pas. À Nar !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABB5|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, Ubbe, please be careful!",
+    "old_value": "Oh, Ubbe, please be careful!",
+    "new_value": "Oh, Ubbe, soyez prudent(e) s'il vous plaît !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B852|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Take us somewhere fun, Rennic!",
+    "old_value": "Take us somewhere fun, Rennic!",
+    "new_value": "Emmenez-nous dans un endroit sympa, Rennic !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD46|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Excellent work, Ganbald! We make a good team!",
+    "old_value": "Excellent work, Ganbald! We make a good team!",
+    "new_value": "Excellent travail, Ganbald ! Nous formons une bonne équipe !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD7F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You're making a mistake attacking Ahmed!",
+    "old_value": "You're making a mistake attacking Ahmed!",
+    "new_value": "Vous faites une erreur en attaquant Ahmed !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B83B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Back to it. Er... Mortu, what were we doing again? I'll just follow you.",
+    "old_value": "Back to it. Er... Mortu, what were we doing again? I'll just follow you.",
+    "new_value": "Revenons-y. Euh... Mortu, qu'est-ce qu'on faisait déjà ? Je vais juste vous suivre."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABB6|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Look out, Ubbe! Someone wants to kill us!",
+    "old_value": "Look out, Ubbe! Someone wants to kill us!",
+    "new_value": "Attention, Ubbe ! Quelqu'un veut notre mort !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC2F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'm glad to fight with you and not against you, Raven.",
+    "old_value": "I'm glad to fight with you and not against you, Raven.",
+    "new_value": "Je suis ravie de me battre à vos côtés et pas contre vous, Raven."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABEB|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Do. Not. Hit. Revan!",
+    "old_value": "Do. Not. Hit. Revan!",
+    "new_value": "Ne. Touchez. Pas. À Revan !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05810A00|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "No. I carry a sword. I'm from the swamps of Black Marsh. Do you need me to continue, or can you piece it together from here?",
+    "old_value": "No. I carry a sword. I'm from the swamps of Black Marsh. Do you need me to continue, or can you piece it together from here?",
+    "new_value": "Non. Je porte une épée. Je viens des marécages du Marais noir. Vous voulez que je continue, ou vous avez compris l'idée ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4097E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Ilia! We can do this! They don't stand a chance! Right?",
+    "old_value": "Okay, Ilia! We can do this! They don't stand a chance! Right?",
+    "new_value": "D'accord, Ilia ! On peut y arriver ! Ils n'ont aucune chance, pas vrai ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABED|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Revan and I will kill you! You've made a terrible mistake!",
+    "old_value": "Revan and I will kill you! You've made a terrible mistake!",
+    "new_value": "Revan et moi allons vous tuer ! Vous avez fait une terrible erreur !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B86F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Good work out there, Una!",
+    "old_value": "Good work out there, Una!",
+    "new_value": "Beau travail, Una !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABEF|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We won't die! At least, I don't think Revan will let us die! So there!",
+    "old_value": "We won't die! At least, I don't think Revan will let us die! So there!",
+    "new_value": "On ne va pas mourir ! Enfin, je ne pense pas que Revan va nous laisser mourir ! Alors voilà !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC26|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Well, bye, Raven. Bye for now, at least.",
+    "old_value": "Well, bye, Raven. Bye for now, at least.",
+    "new_value": "Eh bien, au revoir, Raven. Du moins pour l'instant."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD5E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Scrap says 'hello,' Josh.",
+    "old_value": "Scrap says 'hello,' Josh.",
+    "new_value": "Ferraille vous dit bonjour, Josh."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A90|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'm right behind you, Nar.",
+    "old_value": "I'm right behind you, Nar.",
+    "new_value": "Je vous suis de près, Nar."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC23|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are we heading out, Raven?",
+    "old_value": "Are we heading out, Raven?",
+    "new_value": "On y va, Raven ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B848|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are we heading out, Suryvel? Let me know if we are. I don't want to get left behind.",
+    "old_value": "Are we heading out, Suryvel? Let me know if we are. I don't want to get left behind.",
+    "new_value": "On se met en route, Suryvel ? Dites-le-moi si c'est le cas, je ne veux pas être laissée derrière."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45AA2|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Take that! Nar, did you see that?!",
+    "old_value": "Take that! Nar, did you see that?!",
+    "new_value": "Prends ça ! Nar, vous avez vu ça ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC2E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Raven, great news! We lived!",
+    "old_value": "Raven, great news! We lived!",
+    "new_value": "Raven, bonne nouvelle ! On a survécu !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABD0|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ah! Fighting again! I'll just try to stay near you, Buffy!",
+    "old_value": "Ah! Fighting again! I'll just try to stay near you, Buffy!",
+    "new_value": "Ah ! Encore une bagarre ! Je vais juste essayer de rester près de vous, Buffy !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD5F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We live another day! Unless we die in the next fight Josh leads us to.",
+    "old_value": "We live another day! Unless we die in the next fight Josh leads us to.",
+    "new_value": "Nous vivrons un jour de plus ! À moins que nous ne mourions dans le prochain combat où Josh nous mènera."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD4B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Is something- Ganbald, did you hear that?",
+    "old_value": "Is something- Ganbald, did you hear that?",
+    "new_value": "Il y a quelque... Ganbald, vous avez entendu ça ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABAF|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'm happy you're on my side, Ubbe.",
+    "old_value": "I'm happy you're on my side, Ubbe.",
+    "new_value": "Je suis contente que vous soyez de mon côté, Ubbe."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40977|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'm right behind you, Ilia.",
+    "old_value": "I'm right behind you, Ilia.",
+    "new_value": "Je vous suis de près, Ilia."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC21|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "No! Doctor, are you okay? You don't look so great!",
+    "old_value": "No! Doctor, are you okay? You don't look so great!",
+    "new_value": "Non ! Doctor, vous allez bien ? Vous n'avez pas l'air en grande forme !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A98|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Nar. If you could stop leading us into danger, I'd- Well, I'd be a hyprocrite to say that, so never mind.",
+    "old_value": "Okay, Nar. If you could stop leading us into danger, I'd- Well, I'd be a hyprocrite to say that, so never mind.",
+    "new_value": "D'accord, Nar. Si vous pouviez arrêter de nous mener vers le danger, je... enfin, je serais bien hypocrite de dire ça, alors laissez tomber."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A9C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Scrap, keep Nar safe, okay?",
+    "old_value": "Scrap, keep Nar safe, okay?",
+    "new_value": "Ferraille, protège Nar, d'accord ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD47|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ganbald, are you okay? Alive and well? At least alive?",
+    "old_value": "Ganbald, are you okay? Alive and well? At least alive?",
+    "new_value": "Ganbald, vous allez bien ? Sain(e) et sauf/sauve ? Au moins vivant(e) ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABD5|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Take this! Oh, Buffy will be proud of that hit!",
+    "old_value": "Take this! Oh, Buffy will be proud of that hit!",
+    "new_value": "Prends ça ! Oh, Buffy sera fier de ce coup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B84E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Ren, lead the way!",
+    "old_value": "Okay, Ren, lead the way!",
+    "new_value": "D'accord, Ren, montrez la voie !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC19|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Doc, shh. I think I heard something.",
+    "old_value": "Doc, shh. I think I heard something.",
+    "new_value": "Doc, chut... Je crois que j'ai entendu quelque chose."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "050EEA5E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 3,
+    "original": "Maybe one day he'll be better at protecting me than you are?",
+    "old_value": "Maybe one day he'll be better at protecting me than you are?",
+    "new_value": "Peut-être qu'un jour il saura mieux me protéger que vous ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40989|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We won't die! At least, I don't think Ilia will let us die! So there!",
+    "old_value": "We won't die! At least, I don't think Ilia will let us die! So there!",
+    "new_value": "On ne va pas mourir ! Enfin, je ne pense pas que Ilia va nous laisser mourir ! Alors voilà !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B847|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Alright, now that we're done talking- Wait, Suryvel, we were done talking, right? Sometimes it's hard for me to tell. ",
+    "old_value": "Alright, now that we're done talking- Wait, Suryvel, we were done talking, right? Sometimes it's hard for me to tell. ",
+    "new_value": "Très bien, maintenant qu'on a fini de parler... Attendez, Suryvel, on avait fini de parler, n'est-ce pas ? J'ai parfois du mal à le savoir."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05940BE5|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I've always felt the Forsworn were no better than Witchmen. Ever since Cidhna Mine, I've felt vindicated in that belief.",
+    "old_value": "I've always felt the Forsworn were no better than Witchmen. Ever since Cidhna Mine, I've felt vindicated in that belief.",
+    "new_value": "J'ai toujours pensé que les Parjures ne valaient pas mieux que les sorciers. Depuis la mine de Cidhna, j'ai le sentiment d'avoir eu raison d'y croire."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD40|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Time to head out, Ganbald?",
+    "old_value": "Time to head out, Ganbald?",
+    "new_value": "C'est l'heure de partir, Ganbald ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD8A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "What did you need, Taz?",
+    "old_value": "What did you need, Taz?",
+    "new_value": "De quoi aviez-vous besoin, Taz ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD59|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You don't have to worry, Joshua, I'll keep up. Probably.",
+    "old_value": "You don't have to worry, Joshua, I'll keep up. Probably.",
+    "new_value": "Ne vous inquiétez pas, Joshua, je vais suivre le rythme. Probablement."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABB7|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Ubbe! We can do this!",
+    "old_value": "Okay, Ubbe! We can do this!",
+    "new_value": "D'accord, Ubbe ! On peut le faire !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B85E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Um, Farillae, I think we're being attacked!",
+    "old_value": "Um, Farillae, I think we're being attacked!",
+    "new_value": "Euh, Farillae, je crois qu'on nous attaque !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD69|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You're looking tired! Just let Joshua and I kill you, already!",
+    "old_value": "You're looking tired! Just let Joshua and I kill you, already!",
+    "new_value": "Vous avez l'air fatigué ! Laissez Joshua et moi vous achever, qu'on en finisse !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40982|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ilia, you are inhuman. And inmer. Is that a word? Well, you understand.",
+    "old_value": "Ilia, you are inhuman. And inmer. Is that a word? Well, you understand.",
+    "new_value": "Ilia, vous êtes inhumaine. Et inmer. Est-ce que ça existe comme mot ? Enfin, vous voyez ce que je veux dire."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4CA|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, the little new Gildergreen is... really great... It really was worth all the effort...",
+    "old_value": "Oh, the little new Gildergreen is... really great... It really was worth all the effort...",
+    "new_value": "Oh, le nouveau petit Végétalia est... vraiment génial... Ça valait vraiment toute cette peine..."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4097B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh no, oh no. Ilia! Ilia! Something is trying to kill us!",
+    "old_value": "Oh no, oh no. Ilia! Ilia! Something is trying to kill us!",
+    "new_value": "Oh non, oh non ! Ilia ! Ilia ! Quelque chose essaie de nous tuer !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A97|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Good work out there, Nar!",
+    "old_value": "Good work out there, Nar!",
+    "new_value": "Beau travail, Nar !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD60|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We work well together, don't we, Joshua?",
+    "old_value": "We work well together, don't we, Joshua?",
+    "new_value": "Nous travaillons bien ensemble, n'est-ce pas, Joshua ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD6A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "(Gasp) When- When we're done fighting, Joshua, I had an idea for- Never mind!",
+    "old_value": "(Gasp) When- When we're done fighting, Joshua, I had an idea for- Never mind!",
+    "new_value": "(Halète) Quand... quand ce combat sera fini, Joshua, j'ai eu une idée pour... Laissez tomber !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A93|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Nar, back to- What were we doing? Don't tell me; I'll remember eventually.",
+    "old_value": "Okay, Nar, back to- What were we doing? Don't tell me; I'll remember eventually.",
+    "new_value": "D'accord, Nar, revenons à... Qu'est-ce qu'on faisait déjà ? Ne me dites rien, ça va me revenir."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4C3|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I quite like the spooky dead tree near the Companions' guildhall. Although it doesn't quite fit the vision I have of Whiterun.",
+    "old_value": "I quite like the spooky dead tree near the Companions' guildhall. Although it doesn't quite fit the vision I have of Whiterun.",
+    "new_value": "J'aime plutôt bien ce vieil arbre mort sinistre près du sanctuaire des Compagnons. Même si ça ne colle pas tout à fait à l'image que j'avais de Blancherive."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A96|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Nar, do you think the amount of blood that left my body is acceptable? Nar? Nar?",
+    "old_value": "Nar, do you think the amount of blood that left my body is acceptable? Nar? Nar?",
+    "new_value": "Nar, vous pensez que la quantité de sang qui a quitté mon corps est acceptable ? Nar ? Nar ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD3F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, and Ganbald- Oh, you're walking away. Were we done talking?",
+    "old_value": "Oh, and Ganbald- Oh, you're walking away. Were we done talking?",
+    "new_value": "Oh, et Ganbald... Oh, vous vous en allez. Notre conversation était terminée ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4C9|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "'A man of violence,' he says. This is a tree, not his kin.",
+    "old_value": "'A man of violence,' he says. This is a tree, not his kin.",
+    "new_value": "« Un homme de violence », qu'il dit. C'est un arbre, pas sa propre famille."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABFD|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We live another day! Unless we die in the next fight Ria leads us to.",
+    "old_value": "We live another day! Unless we die in the next fight Ria leads us to.",
+    "new_value": "Nous vivrons un jour de plus ! À moins que nous ne mourions dans le prochain combat où Ria nous mènera."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC1A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Doc! We can do this!",
+    "old_value": "Okay, Doc! We can do this!",
+    "new_value": "D'accord, Doc ! On peut le faire !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD53|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You'd regret attacking me, if Ganbald were going to let you live!",
+    "old_value": "You'd regret attacking me, if Ganbald were going to let you live!",
+    "new_value": "Vous regretteriez de m'avoir attaquée, si jamais Ganbald vous laissait en vie !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A99|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Nar! We can do this!",
+    "old_value": "Okay, Nar! We can do this!",
+    "new_value": "D'accord, Nar ! On peut le faire !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B86E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "(Gasp) O-okay! I'm alive. Una is alive. Scrap is alive. Everything is alive. Well, except what we killed.",
+    "old_value": "(Gasp) O-okay! I'm alive. Una is alive. Scrap is alive. Everything is alive. Well, except what we killed.",
+    "new_value": "(Halète) D-d'accord ! Je suis en vie. Una est en vie. Ferraille est en vie. Tout le monde est en vie. Enfin, sauf ce qu'on a tué."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40978|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You don't have to worry, Ilia. I'll keep up. Probably.",
+    "old_value": "You don't have to worry, Ilia. I'll keep up. Probably.",
+    "new_value": "Ne vous inquiétez pas, Ilia, je vais suivre le rythme. Probablement."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD6D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We can do this, Joshua! Probably!",
+    "old_value": "We can do this, Joshua! Probably!",
+    "new_value": "On peut le faire, Joshua ! Probablement !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD68|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Um, Josh, I think we're being attacked!",
+    "old_value": "Um, Josh, I think we're being attacked!",
+    "new_value": "Euh, Josh, je crois qu'on nous attaque !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD57|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "So we're off, then, Joshua? Lead the way.",
+    "old_value": "So we're off, then, Joshua? Lead the way.",
+    "new_value": "On est partis alors, Joshua ? Montrez le chemin."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B868|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We're done talking, Una? Sometimes it's hard for me to tell.",
+    "old_value": "We're done talking, Una? Sometimes it's hard for me to tell.",
+    "new_value": "On a fini de parler, Una ? J'ai parfois du mal à le savoir."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC08|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ria, if you could kill them now, I'd appreciate it!",
+    "old_value": "Ria, if you could kill them now, I'd appreciate it!",
+    "new_value": "Ria, si vous pouviez les tuer maintenant, j'apprécierais beaucoup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABFE|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ria, are you okay? Alive and well? At least alive? ",
+    "old_value": "Ria, are you okay? Alive and well? At least alive? ",
+    "new_value": "Ria, vous allez bien ? Sain(e) et sauf/sauve ? Au moins vivant(e) ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD5C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Did you need something, Joshua?",
+    "old_value": "Did you need something, Joshua?",
+    "new_value": "Vous aviez besoin de quelque chose, Joshua ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "058B2E06|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are you very familiar with thieves, Yazakh?",
+    "old_value": "Are you very familiar with thieves, Yazakh?",
+    "new_value": "Vous connaissez bien les voleurs, Yazakh ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B867|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'm right behind you, Una.",
+    "old_value": "I'm right behind you, Una.",
+    "new_value": "Je vous suis de près, Una."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40980|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ilia. Ilia, are you alive? Oh- Oh, good, you are.",
+    "old_value": "Ilia. Ilia, are you alive? Oh- Oh, good, you are.",
+    "new_value": "Ilia. Ilia, vous êtes en vie ? Oh... Oh, super, oui."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B83D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Mortu. Mortu, look at me. Do not forget I am standing here. Don't forget me, Mor. ",
+    "old_value": "Mortu. Mortu, look at me. Do not forget I am standing here. Don't forget me, Mor. ",
+    "new_value": "Mortu. Mortu,, regardez-moi. N'oubliez pas que je suis là. Ne m'oubliez pas, Mor."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD49|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Hah! That's what you get for attacking me and Ganbald!",
+    "old_value": "Hah! That's what you get for attacking me and Ganbald!",
+    "new_value": "Hah ! Voilà ce qui arrive quand on nous attaque, Ganbald et moi !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD89|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'll be here, Taz.",
+    "old_value": "I'll be here, Taz.",
+    "new_value": "Je serai là, Taz."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC17|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'm happy you're on my side, Doc.",
+    "old_value": "I'm happy you're on my side, Doc.",
+    "new_value": "Je suis contente que vous soyez de mon côté, Doc."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABE3|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Hah! That's what you get for attacking me and Revan!",
+    "old_value": "Hah! That's what you get for attacking me and Revan!",
+    "new_value": "Hah ! Voilà ce qui arrive quand on nous attaque, Revan et moi !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B85B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Far, don't just leave me here forever. I'll miss you.",
+    "old_value": "Far, don't just leave me here forever. I'll miss you.",
+    "new_value": "Far, ne me laissez pas ici pour toujours. Vous allez me manquer."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B860|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are- Are you alright, Farillae? Still have enough blood in your body to live?",
+    "old_value": "Are- Are you alright, Farillae? Still have enough blood in your body to live?",
+    "new_value": "Vous... vous allez bien, Farillae ? Vous avez encore assez de sang dans le corps pour vivre ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD78|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ed is alive. I'm alive. That means we win!",
+    "old_value": "Ed is alive. I'm alive. That means we win!",
+    "new_value": "Ed est en vie. Je suis en vie. Ça veut dire qu'on a gagné !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "058C2150|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 3,
+    "original": "...Uh, I should clarify that the irony in my statement was unintentional.",
+    "old_value": "...Uh, I should clarify that the irony in my statement was unintentional.",
+    "new_value": "... Euh, je devrais préciser que l'ironie dans mes propos était involontaire."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A9E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Nar, if you could kill them now, I'd appreciate it!",
+    "old_value": "Nar, if you could kill them now, I'd appreciate it!",
+    "new_value": "Nar, si vous pouviez les tuer maintenant, j'apprécierais beaucoup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD42|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ganbald, you are very good at leading. At least, I think you are. I'm following you, in any case.",
+    "old_value": "Ganbald, you are very good at leading. At least, I think you are. I'm following you, in any case.",
+    "new_value": "Ganbald, vous vous débrouillez très bien pour nous guider. Enfin, je crois. En tout cas, je vous suis."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABE6|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, Revan, please be careful!",
+    "old_value": "Oh, Revan, please be careful!",
+    "new_value": "Oh, Revan, soyez prudent(e) s'il vous plaît !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40976|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Ilia, lead the way!",
+    "old_value": "Okay, Ilia, lead the way!",
+    "new_value": "D'accord, Ilia, montrez la voie !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4CD|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "And where are they going to put the old Gildergreen? Are they going to chop it down? Do you suppose its wood holds any unique properties? Hm.",
+    "old_value": "And where are they going to put the old Gildergreen? Are they going to chop it down? Do you suppose its wood holds any unique properties? Hm.",
+    "new_value": "Et où vont-ils mettre l'ancien Végétalia ? Vont-ils le débiter ? Pensez-vous que son bois possède des propriétés uniques ? Hm."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC20|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't you want to give up?! Just tell Doc you want to give up, and maybe we'll leave you alone!",
+    "old_value": "Don't you want to give up?! Just tell Doc you want to give up, and maybe we'll leave you alone!",
+    "new_value": "Vous ne voulez pas abandonner ?! Dites simplement à Doc que vous vous rendez, et on vous laissera peut-être tranquille !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD82|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Hah, got you! Ahmed, did you see that?!",
+    "old_value": "Hah, got you! Ahmed, did you see that?!",
+    "new_value": "Hah, touché ! Ahmed, vous avez vu ça ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABE5|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You're really going to fight me and Revan?!",
+    "old_value": "You're really going to fight me and Revan?!",
+    "new_value": "Vous allez vraiment vous battre contre Revan et moi ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD51|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are you doing okay out there, Ganbald?!",
+    "old_value": "Are you doing okay out there, Ganbald?!",
+    "new_value": "Vous tenez le coup là-bas, Ganbald ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABC3|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Buffy, let me just remember what I was doing before talking to you.",
+    "old_value": "Okay, Buffy, let me just remember what I was doing before talking to you.",
+    "new_value": "D'accord, Buffy, laissez-moi juste me rappeler ce que je faisais avant de vous parler."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40988|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Do. Not. Hit. Ilia!",
+    "old_value": "Do. Not. Hit. Ilia!",
+    "new_value": "Ne. Touchez. Pas. À Ilia !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD6B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Joshua is going to kill you! You shouldn't have fought us!",
+    "old_value": "Joshua is going to kill you! You shouldn't have fought us!",
+    "new_value": "Joshua va vous tuer ! Vous n'auriez pas dû nous chercher des ennuis !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4C8|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "'A woman of violence,' he says. This is a tree, not his kin.",
+    "old_value": "'A woman of violence,' he says. This is a tree, not his kin.",
+    "new_value": "« Une femme de violence », qu'il dit. C'est un arbre, pas sa propre famille."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A91|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We're done talking then, Nar?",
+    "old_value": "We're done talking then, Nar?",
+    "new_value": "Notre conversation est terminée alors, Nar ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B85C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Farillae, back to- What were we doing? Hm.",
+    "old_value": "Okay, Farillae, back to- What were we doing? Hm.",
+    "new_value": "D'accord, Farillae, revenons à... Qu'est-ce qu'on faisait ? Hm."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC18|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't lie to me, Doc. Am I dying? It feels like I'm dying.",
+    "old_value": "Don't lie to me, Doc. Am I dying? It feels like I'm dying.",
+    "new_value": "Ne me mentez pas, Doc. Est-ce que je meurs ? J'ai l'impression de mourir."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC36|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Raven, if you don't die, then I won't die! Deal?",
+    "old_value": "Raven, if you don't die, then I won't die! Deal?",
+    "new_value": "Raven, si vous ne mourez pas, alors je ne meurs pas non plus ! Marché conclu ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD80|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ahmed, I think something is trying to kill us!",
+    "old_value": "Ahmed, I think something is trying to kill us!",
+    "new_value": "Ahmed, je crois que quelque chose essaie de nous tuer !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABCA|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Buffy and Remi, an unstoppable killing team! That sounds bad, doesn't it? Oh well.",
+    "old_value": "Buffy and Remi, an unstoppable killing team! That sounds bad, doesn't it? Oh well.",
+    "new_value": "Buffy et Remi, une équipe de choc impitoyable ! Ça sonne un peu violent, non ? Tant pis."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B83E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'll be right behind you, Mortu.",
+    "old_value": "I'll be right behind you, Mortu.",
+    "new_value": "Je vous suis de près, Mortu."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD52|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You're really going to regret fighting Ganbald!",
+    "old_value": "You're really going to regret fighting Ganbald!",
+    "new_value": "Vous allez vraiment regretter d'avoir combattu Ganbald !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD87|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Just a little longer, Tazvir! Stay alive a little longer!",
+    "old_value": "Just a little longer, Tazvir! Stay alive a little longer!",
+    "new_value": "Encore un petit effort, Tazvir ! Restez en vie encore un instant !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC15|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Doc is alive. I'm alive. That means we win!",
+    "old_value": "Doc is alive. I'm alive. That means we win!",
+    "new_value": "Doc est en vie. Je suis en vie. Ça veut dire qu'on a gagné !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABE2|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I think we make a good team, Revan!",
+    "old_value": "I think we make a good team, Revan!",
+    "new_value": "Je trouve que nous faisons une bonne équipe, Revan !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABFB|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We work well together, don't we, Ria?",
+    "old_value": "We work well together, don't we, Ria?",
+    "new_value": "Nous travaillons bien ensemble, n'est-ce pas, Ria ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B858|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We're done talking, then, Farillae?",
+    "old_value": "We're done talking, then, Farillae?",
+    "new_value": "On a fini de parler, alors, Farillae ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD7E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ahmed, what did we do to make everything want to kill us?!",
+    "old_value": "Ahmed, what did we do to make everything want to kill us?!",
+    "new_value": "Ahmed, qu'est-ce qu'on a fait pour que tout le monde cherche à nous tuer ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABB9|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "How are you faring, Ubbe?!",
+    "old_value": "How are you faring, Ubbe?!",
+    "new_value": "Comment vous vous en sortez, Ubbe ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC1C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Doctor, let's neither of us die!",
+    "old_value": "Okay, Doctor, let's neither of us die!",
+    "new_value": "D'accord, Doctor, ne mourons ni l'un ni l'autre !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABC8|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Buffy, we lived! Oh, maybe I should try to sound less surprised. I'll work on that.",
+    "old_value": "Buffy, we lived! Oh, maybe I should try to sound less surprised. I'll work on that.",
+    "new_value": "Buffy, on a survécu ! Oh, je devrais peut-être paraître moins surprise. J'y travaillerai."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABD2|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You haven't died, have you, Buffy? Good.",
+    "old_value": "You haven't died, have you, Buffy? Good.",
+    "new_value": "Vous n'êtes pas mort(e), n'est-ce pas, Buffy ? Bien."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABE9|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "What was- Revan, did you hear something?",
+    "old_value": "What was- Revan, did you hear something?",
+    "new_value": "C'était quoi... Revan, vous avez entendu quelque chose ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC05|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We just have to hold out a bit longer, Ria!",
+    "old_value": "We just have to hold out a bit longer, Ria!",
+    "new_value": "On doit juste tenir encore un petit peu, Ria !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD63|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Joshua, do you think the amount of blood that left my body is acceptable? Josh? Joshua?",
+    "old_value": "Joshua, do you think the amount of blood that left my body is acceptable? Josh? Joshua?",
+    "new_value": "Joshua, vous pensez que la quantité de sang qui a quitté mon corps est acceptable ? Josh ? Joshua ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "0581AD7D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ha-Ha. Do you have any more bad jokes? Because then I'd be out of a job.",
+    "old_value": "Ha-Ha. Do you have any more bad jokes? Because then I'd be out of a job.",
+    "new_value": "Ha-ha. Vous avez d'autres blagues nulles ? Parce que sinon je vais me retrouver au chômage."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD7D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, Ahmed, let's neither of us die!",
+    "old_value": "Okay, Ahmed, let's neither of us die!",
+    "new_value": "D'accord, Ahmed, ne mourons ni l'un ni l'autre !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABE1|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Revan, we lived! Not that I- Not that I doubted we would!",
+    "old_value": "Revan, we lived! Not that I- Not that I doubted we would!",
+    "new_value": "Revan, on a survécu ! Non pas que... non pas que j'en aie douté !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABC5|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You don't have to worry, Buffy, I'll keep up. Probably.",
+    "old_value": "You don't have to worry, Buffy, I'll keep up. Probably.",
+    "new_value": "Ne vous inquiétez pas, Buffy, je vais suivre le rythme. Probablement."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC02|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "No, no, no! Do not attack Ria! Do not attack me!",
+    "old_value": "No, no, no! Do not attack Ria! Do not attack me!",
+    "new_value": "Non, non, non ! N'attaquez pas Ria ! Ne m'attaquez pas !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD4F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Look out, Ganbald! Something is trying to kill us!",
+    "old_value": "Look out, Ganbald! Something is trying to kill us!",
+    "new_value": "Attention, Ganbald ! Quelque chose essaie de nous tuer !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC01|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't die, Ria! I'd be very upset with you!",
+    "old_value": "Don't die, Ria! I'd be very upset with you!",
+    "new_value": "Ne mourez pas, Ria ! Je vous en voudrais beaucoup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4C4|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "So did this hagraven forge Nettlebane? I can't imagine a hagraven near a forge. Their feathers would catch fire, I think.",
+    "old_value": "So did this hagraven forge Nettlebane? I can't imagine a hagraven near a forge. Their feathers would catch fire, I think.",
+    "new_value": "Alors, c'est cette harfreuse qui a forgé Fléau d'ortie ? J'ai du mal à imaginer une harfreuse près d'une forge. Leurs plumes prendraient feu, je pense."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABE0|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Revan? Revan, you didn't die, did you? Oh, you're alive. Good.",
+    "old_value": "Revan? Revan, you didn't die, did you? Oh, you're alive. Good.",
+    "new_value": "Revan ? Revan, vous n'êtes pas mort(e), rassurez-moi ? Oh, vous êtes en vie. Bien."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD7C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ahmed, we lived!",
+    "old_value": "Ahmed, we lived!",
+    "new_value": "Ahmed, on a survécu !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABC7|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "O-okay! I'm alive. Buffy is alive. Scrap is alive. Everyone is alive.",
+    "old_value": "O-okay! I'm alive. Buffy is alive. Scrap is alive. Everyone is alive.",
+    "new_value": "D-d'accord ! Je suis en vie. Buffy est en vie. Ferraille est en vie. Tout le monde est en vie."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD86|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Well, are you regretting attacking Ed yet?",
+    "old_value": "Well, are you regretting attacking Ed yet?",
+    "new_value": "Alors, vous regrettez déjà d'avoir attaqué Ed ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC38|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ray, can we end this soon?! I'm getting tired!",
+    "old_value": "Ray, can we end this soon?! I'm getting tired!",
+    "new_value": "Ray, on peut abréger bientôt ?! Je commence à fatiguer !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABFA|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'll be here, Ria. And also wherever you take me next.",
+    "old_value": "I'll be here, Ria. And also wherever you take me next.",
+    "new_value": "Je serai là, Ria. Et partout où vous m'emmènerez ensuite."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A9D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh no, oh no! Nar! Nar! Something is trying to kill us!",
+    "old_value": "Oh no, oh no! Nar! Nar! Something is trying to kill us!",
+    "new_value": "Oh non, oh non ! Nar ! Nar ! Quelque chose essaie de nous tuer !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC3A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Keep it up, Ray!",
+    "old_value": "Keep it up, Ray!",
+    "new_value": "Continuez comme ça, Ray !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD64|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't die, Joshua! I'd be very upset with you!",
+    "old_value": "Don't die, Joshua! I'd be very upset with you!",
+    "new_value": "Ne mourez pas, Joshua ! Je vous en voudrais beaucoup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B846|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Lead the way, Suryvel.",
+    "old_value": "Lead the way, Suryvel.",
+    "new_value": "Montrez le chemin, Suryvel."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABEC|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are you okay, Revan?!",
+    "old_value": "Are you okay, Revan?!",
+    "new_value": "Vous allez bien, Revan ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC1F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You really shouldn't be fighting me or Doctor!",
+    "old_value": "You really shouldn't be fighting me or Doctor!",
+    "new_value": "Vous ne devriez vraiment pas vous en prendre à moi ni à Doctor !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC1E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "What's wrong? Are Doc and I more than you can handle?",
+    "old_value": "What's wrong? Are Doc and I more than you can handle?",
+    "new_value": "Qu'est-ce qu'il y a ? Doc et moi, c'est trop pour vous ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABF0|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, Ria, you're here! Perfect! Oh- Did you need something before I start asking questions?",
+    "old_value": "Oh, Ria, you're here! Perfect! Oh- Did you need something before I start asking questions?",
+    "new_value": "Oh, Ria, vous êtes là ! Parfait ! Oh... vous aviez besoin de quelque chose avant que je commence à poser des questions ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABD3|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "What did Buffy and I do for you to try to kill us? You're so rude!",
+    "old_value": "What did Buffy and I do for you to try to kill us? You're so rude!",
+    "new_value": "Qu'est-ce que Buffy et moi vous avons fait pour que vous essayiez de nous tuer ? Vous êtes tellement malpoli !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD3C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Was that all, Ganbald?",
+    "old_value": "Was that all, Ganbald?",
+    "new_value": "C'était tout, Ganbald ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD70|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We'll talk later, then, Ed?",
+    "old_value": "We'll talk later, then, Ed?",
+    "new_value": "On reparlera plus tard, alors, Ed ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4097C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "You want to pick a fight with Ilia?! That's rather stupid!",
+    "old_value": "You want to pick a fight with Ilia?! That's rather stupid!",
+    "new_value": "Vous voulez chercher des ennuis à Ilia ?! C'est plutôt stupide !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABF9|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Time to head out, Ria?",
+    "old_value": "Time to head out, Ria?",
+    "new_value": "C'est l'heure de partir, Ria ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC31|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We are unstoppable, Raven!",
+    "old_value": "We are unstoppable, Raven!",
+    "new_value": "Nous sommes invincibles, Raven !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC1B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, Doctor, please be careful!",
+    "old_value": "Oh, Doctor, please be careful!",
+    "new_value": "Oh, Doctor, soyez prudent(e) s'il vous plaît !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC24|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We'll talk some more later, then, Raven.",
+    "old_value": "We'll talk some more later, then, Raven.",
+    "new_value": "On reparlera un peu plus tard, alors, Raven."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B86C|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Scrap, keep Una safe, okay?!",
+    "old_value": "Scrap, keep Una safe, okay?!",
+    "new_value": "Ferraille, protège Una, d'accord ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC09|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "And this attack is for Ria!",
+    "old_value": "And this attack is for Ria!",
+    "new_value": "Et cette attaque, c'est pour Ria !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD7B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We are a great team, Ahmed!",
+    "old_value": "We are a great team, Ahmed!",
+    "new_value": "Nous faisons une formidable équipe, Ahmed !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABC9|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Good work out there, Buffy!",
+    "old_value": "Good work out there, Buffy!",
+    "new_value": "Beau travail, Buffy !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC0E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "So we're off, then, Doctor? Lead the way.",
+    "old_value": "So we're off, then, Doctor? Lead the way.",
+    "new_value": "On est partis alors, Doctor ? Montrez le chemin."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC03|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ria, what do we do that makes everything want us dead?!",
+    "old_value": "Ria, what do we do that makes everything want us dead?!",
+    "new_value": "Ria, qu'est-ce qu'on a fait pour que tout le monde veuille notre mort ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC14|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Doctor, are you okay? Knowing your name references a medic, it feels odd for me to be checking your wellbeing.",
+    "old_value": "Doctor, are you okay? Knowing your name references a medic, it feels odd for me to be checking your wellbeing.",
+    "new_value": "Docteur, vous allez bien ? Sachant que votre nom évoque un médecin, c'est bizarre que ce soit moi qui m'inquiète de votre santé."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC06|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are you doing okay out there, Ria?",
+    "old_value": "Are you doing okay out there, Ria?",
+    "new_value": "Vous tenez le coup, Ria ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD4A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "And they're dead, and Ganbald and I are alive. We win!",
+    "old_value": "And they're dead, and Ganbald and I are alive. We win!",
+    "new_value": "Et ils sont morts, et Ganbald et moi sommes vivants. On a gagné !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40987|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Keep it up, Ilia!",
+    "old_value": "Keep it up, Ilia!",
+    "new_value": "Continuez comme ça, Ilia !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4C6|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I've been resisting saying this, but what is the point of reviving the Gildergreen? Just to attract pilgrims? Is the Temple not pretty enough?",
+    "old_value": "I've been resisting saying this, but what is the point of reviving the Gildergreen? Just to attract pilgrims? Is the Temple not pretty enough?",
+    "new_value": "Je me retenais de le dire, mais quel est l'intérêt de ranimer Végétalia ? Juste pour attirer des pèlerins ? Le Temple n'est pas déjà assez joli comme ça ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD74|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Hello, Ahmed. What did you need?",
+    "old_value": "Hello, Ahmed. What did you need?",
+    "new_value": "Bonjour, Ahmed. De quoi aviez-vous besoin ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD7A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Okay, that fight is done. Now we wait for Ahmed to lead us to another one.",
+    "old_value": "Okay, that fight is done. Now we wait for Ahmed to lead us to another one.",
+    "new_value": "D'accord, ce combat est fini. Maintenant, on attend que Ahmed nous entraîne dans le prochain."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A94|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Nar is alive. I'm alive. Everyone is alive? Good.",
+    "old_value": "Nar is alive. I'm alive. Everyone is alive? Good.",
+    "new_value": "Nar est en vie. Je suis en vie. Tout le monde est en vie ? Bien."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABF6|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "And Ria- Oh, you're walking away.",
+    "old_value": "And Ria- Oh, you're walking away.",
+    "new_value": "Et Ria... Oh, vous vous en allez."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD5D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'm here, Joshua. If not in mind, at least in body. But I'll try to keep my mind here for you, too.",
+    "old_value": "I'm here, Joshua. If not in mind, at least in body. But I'll try to keep my mind here for you, too.",
+    "new_value": "Je suis là, Joshua. Si ce n'est en esprit, au moins en corps. Mais je vais essayer de garder mon esprit ici pour vous aussi."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4CB|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Well, let's let Danica know pilgrims will be running to Whiterun from all across Nirn. Do they pay her to look at the tree? I think I'm confused.",
+    "old_value": "Well, let's let Danica know pilgrims will be running to Whiterun from all across Nirn. Do they pay her to look at the tree? I think I'm confused.",
+    "new_value": "Eh bien, allons prévenir Danica que les pèlerins vont affluer à Blancherive depuis tout Nirn. Est-ce qu'ils la paient pour regarder l'arbre ? Je crois que je suis un peu perdue."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABBB|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ubbe, if you could kill them now, I'd appreciate it!",
+    "old_value": "Ubbe, if you could kill them now, I'd appreciate it!",
+    "new_value": "Ubbe, si vous pouviez les tuer maintenant, j'apprécierais beaucoup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD77|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ahmed, Scrap is shy, but you should know he likes you.",
+    "old_value": "Ahmed, Scrap is shy, but you should know he likes you.",
+    "new_value": "Ahmed, Ferraille est timide, mais vous devez savoir qu'il vous aime bien."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC37|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are you doing okay, Raven?! Enough blood in your body still?",
+    "old_value": "Are you doing okay, Raven?! Enough blood in your body still?",
+    "new_value": "Vous vous en sortez, Raven ?! Il vous reste assez de sang dans le corps ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABB8|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Hah, got you! Ubbe, did you see that?!",
+    "old_value": "Hah, got you! Ubbe, did you see that?!",
+    "new_value": "Hah, touché ! Ubbe, vous avez vu ça ?!"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABDB|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Then we'll talk later, Revan.",
+    "old_value": "Then we'll talk later, Revan.",
+    "new_value": "On se reparlera plus tard, alors, Revan."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B83A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Alright, Mortu, then we'll talk later.",
+    "old_value": "Alright, Mortu, then we'll talk later.",
+    "new_value": "D'accord, Mortu, on se parlera plus tard alors."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC35|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Look out, Raven! Something wants us dead!",
+    "old_value": "Look out, Raven! Something wants us dead!",
+    "new_value": "Attention, Raven ! Quelque chose veut notre mort !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "052985FD|HLIORemi.esp",
+    "type": "QUST FULL",
+    "index": null,
+    "original": "Tamriel's Tastiest Stew",
+    "old_value": "Tamriel's Tastiest Stew",
+    "new_value": "Le ragoût le plus savoureux de Tamriel"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4C7|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "This place is much prettier than the Temple! Perhaps they should just have pilgrims come here. Although it seems there's already some milling about.",
+    "old_value": "This place is much prettier than the Temple! Perhaps they should just have pilgrims come here. Although it seems there's already some milling about.",
+    "new_value": "Cet endroit est bien plus joli que le Temple ! Peut-être qu'ils devraient juste faire venir les pèlerins ici. Même s'il semble y en avoir déjà qui traînent dans le coin."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A92|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "And I was also thinking- Oh. Nar, you're walking away. Oh, were we done talking? Oops.",
+    "old_value": "And I was also thinking- Oh. Nar, you're walking away. Oh, were we done talking? Oops.",
+    "new_value": "Et je pensais aussi à... Oh. Nar, vous vous en allez. Oh, on avait fini de parler ? Oups."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD75|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Oh, Ahmed, you're here! Perfect! Oh- Did you need something before I start asking questions?",
+    "old_value": "Oh, Ahmed, you're here! Perfect! Oh- Did you need something before I start asking questions?",
+    "new_value": "Oh, Ahmed, vous êtes là ! Parfait ! Oh... vous aviez besoin de quelque chose avant que je commence à poser des questions ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABC6|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "If you leave me here too long, Buffy, I will take no responsibility for the outcome.",
+    "old_value": "If you leave me here too long, Buffy, I will take no responsibility for the outcome.",
+    "new_value": "Si vous me laissez ici trop longtemps, Buffy, je décline toute responsabilité pour ce qui pourrait arriver."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABAC|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Alright, Ubbe, we'll talk later.",
+    "old_value": "Alright, Ubbe, we'll talk later.",
+    "new_value": "D'accord, Ubbe, on se parlera plus tard."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B40981|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We work well together, don't we, Ilia?",
+    "old_value": "We work well together, don't we, Ilia?",
+    "new_value": "Nous travaillons bien ensemble, n'est-ce pas, Ilia ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B45A9F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'm getting really tired, Nar! Can you kill them now?",
+    "old_value": "I'm getting really tired, Nar! Can you kill them now?",
+    "new_value": "Je commence vraiment à fatiguer, Nar ! Vous pouvez les achever maintenant ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4CC|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I will miss the spooky centerpiece to Whiterun, but I suppose an alive tree looks... nice enough.",
+    "old_value": "I will miss the spooky centerpiece to Whiterun, but I suppose an alive tree looks... nice enough.",
+    "new_value": "Cet ornement sinistre au centre de Blancherive va me manquer, mais je suppose qu'un arbre vivant est... assez joli."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABE4|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "I'm a bit lightheaded, Revan. You don't think I'm dying, do you?",
+    "old_value": "I'm a bit lightheaded, Revan. You don't think I'm dying, do you?",
+    "new_value": "J'ai un peu la tête qui tourne, Revan. Vous ne pensez pas que je suis en train de mourir, si ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABE7|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ah! Revan, we seem to be under attack!",
+    "old_value": "Ah! Revan, we seem to be under attack!",
+    "new_value": "Ah ! Revan, on dirait qu'on nous attaque !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD83|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Do. Not. Hit. Ahmed!",
+    "old_value": "Do. Not. Hit. Ahmed!",
+    "new_value": "Ne. Touchez. Pas. À Ahmed !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC07|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't worry, Ria, I haven't died yet!",
+    "old_value": "Don't worry, Ria, I haven't died yet!",
+    "new_value": "Ne vous inquiétez pas, Ria, je ne suis pas encore morte !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD3E|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Alright, Ganbald, we'll talk later.",
+    "old_value": "Alright, Ganbald, we'll talk later.",
+    "new_value": "D'accord, Ganbald, on se parlera plus tard."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABCC|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "No, no, no! Do not attack Buffy! Do not attack me!",
+    "old_value": "No, no, no! Do not attack Buffy! Do not attack me!",
+    "new_value": "Non, non, non ! N'attaquez pas Buffy ! Ne m'attaquez pas !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B86D|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Don't die, Una! I'll be very upset with you!",
+    "old_value": "Don't die, Una! I'll be very upset with you!",
+    "new_value": "Ne mourez pas, Una ! Je vous en voudrais beaucoup !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4097A|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ilia, please be careful!",
+    "old_value": "Ilia, please be careful!",
+    "new_value": "Ilia, soyez prudent(e) s'il vous plaît !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC0B|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Are we done talking, Doctor? Sometimes it's hard for me to tell.",
+    "old_value": "Are we done talking, Doctor? Sometimes it's hard for me to tell.",
+    "new_value": "On a fini de parler, Doctor ? J'ai parfois du mal à le savoir."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABBC|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "What's wrong? Regretting fighting me and Ubbe?",
+    "old_value": "What's wrong? Regretting fighting me and Ubbe?",
+    "new_value": "Qu'est-ce qui ne va pas ? Vous regrettez de nous avoir cherché des ennuis, à Ubbe et moi ?"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4AC33|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Ray, something is trying to kill us again!",
+    "old_value": "Ray, something is trying to kill us again!",
+    "new_value": "Ray, quelque chose essaie encore de nous tuer !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4FD6F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Alright, Ahmed, then off we go!",
+    "old_value": "Alright, Ahmed, then off we go!",
+    "new_value": "Très bien, Ahmed, c'est parti !"
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B4ABC4|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "We'll talk some more later, then, Buffy.",
+    "old_value": "We'll talk some more later, then, Buffy.",
+    "new_value": "On reparlera un peu plus tard, alors, Buffy."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05810AE9|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "When it comes to mistakes, I understand. It doesn't really matter. We're still a company of fighters.",
+    "old_value": "When it comes to mistakes, I understand. It doesn't really matter. We're still a company of fighters.",
+    "new_value": "Quand il s'agit d'erreurs, je comprends. Ça n'a pas vraiment d'importance. Nous restons une compagnie de combattants."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B2C4C5|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "They really were sacrificing spriggans here. I'm not sure I'll ever understand hagravens' pastimes. ",
+    "old_value": "They really were sacrificing spriggans here. I'm not sure I'll ever understand hagravens' pastimes. ",
+    "new_value": "Ils sacrifiaient vraiment des spriggans ici. Je ne suis pas sûre de comprendre un jour les passe-temps des harfreuses."
+  },
+  {
+    "file": "hlioremi.esp.json",
+    "form_id": "05B3B84F|HLIORemi.esp",
+    "type": "INFO NAM1",
+    "index": 1,
+    "original": "Time to head out, Rennic?",
+    "old_value": "Time to head out, Rennic?",
+    "new_value": "C'est l'heure de partir, Rennic ?"
+  }
+]
