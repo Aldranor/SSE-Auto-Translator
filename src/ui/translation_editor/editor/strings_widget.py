@@ -50,9 +50,10 @@ class StringsWidget(QTreeWidget):
     """
 
     __modfile_items: dict[Path, TreeItem[ImmutableValue[Path]]]
-    """
-    Mapping of mod file names to their tree items.
-    """
+    """Mapping of mod file names to their tree items."""
+
+    __search_text_by_string_id: dict[int, str]
+    """Lowercase search text, cached by string identity."""
 
     __name_filter: Optional[tuple[str, bool]] = None
     """
@@ -95,6 +96,7 @@ class StringsWidget(QTreeWidget):
     def __init_strings(self, strings: dict[Path, StringList]) -> None:
         self.__string_items = ReferenceDict()
         self.__modfile_items = {}
+        self.__search_text_by_string_id = {}
 
         self.clear()
 
@@ -110,6 +112,9 @@ class StringsWidget(QTreeWidget):
 
                 item = StringItem(string, StringsColumns)
                 self.__string_items[string] = item
+                self.__search_text_by_string_id[id(string)] = (
+                    self.__get_search_text(string).lower()
+                )
                 modfile_item.addChild(item)
 
             self.addTopLevelItem(modfile_item)
@@ -145,37 +150,46 @@ class StringsWidget(QTreeWidget):
         case_sensitive: Optional[bool] = (
             self.__name_filter[1] if self.__name_filter else None
         )
+        search_needle: Optional[str] = name_filter.strip() if name_filter else None
+        if search_needle is not None and not case_sensitive:
+            search_needle = search_needle.lower()
 
-        sorting_enabled: bool = self.isSortingEnabled()
-        if sorting_enabled:
-            self.setSortingEnabled(False)
-
-        for string, item in self.__string_items.items():
-            string_text: str = string.display_id + string.original
-            if string.string is not None:
-                string_text += string.string
-
-            item.setHidden(
-                (
-                    self.__state_filter is not None
-                    and string.status not in self.__state_filter
-                )
-                or not matches_filter(string_text, name_filter, case_sensitive or False)
-            )
-
-        for modfile, modfile_item in self.__modfile_items.items():
-            modfile_item.setHidden(
-                not are_children_visible(modfile_item)
-                and (
-                    not matches_filter(
-                        str(modfile), name_filter, case_sensitive or False
+        # Filtering does not change sort keys, so avoid sorting after each search.
+        updates_enabled: bool = self.updatesEnabled()
+        self.setUpdatesEnabled(False)
+        try:
+            for string, item in self.__string_items.items():
+                if search_needle is None:
+                    matches_name: bool = True
+                elif case_sensitive:
+                    matches_name = (
+                        search_needle in self.__get_search_text(string).strip()
                     )
-                    or self.__state_filter is not None
-                )
-            )
+                else:
+                    matches_name = search_needle in self.__search_text_by_string_id[
+                        id(string)
+                    ].strip()
 
-        if sorting_enabled:
-            self.setSortingEnabled(True)
+                item.setHidden(
+                    (
+                        self.__state_filter is not None
+                        and string.status not in self.__state_filter
+                    )
+                    or not matches_name
+                )
+
+            for modfile, modfile_item in self.__modfile_items.items():
+                modfile_item.setHidden(
+                    not are_children_visible(modfile_item)
+                    and (
+                        not matches_filter(
+                            str(modfile), name_filter, case_sensitive or False
+                        )
+                        or self.__state_filter is not None
+                    )
+                )
+        finally:
+            self.setUpdatesEnabled(updates_enabled)
 
         current_item: Optional[QTreeWidgetItem] = self.currentItem()
         if current_item is not None:
@@ -191,8 +205,18 @@ class StringsWidget(QTreeWidget):
             string (String): The string to update.
         """
 
+        self.__search_text_by_string_id[id(string)] = self.__get_search_text(
+            string
+        ).lower()
         item: StringItem = self.__string_items[string]
         item.update()
+
+    @staticmethod
+    def __get_search_text(string: String) -> str:
+        text: str = string.display_id + string.original
+        if string.string is not None:
+            text += string.string
+        return text
 
     def reload_strings(self, strings: dict[Path, StringList]) -> None:
         """Replaces all displayed strings with a refreshed translation copy."""
