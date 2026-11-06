@@ -25,6 +25,7 @@ from PySide6.QtWidgets import (
 from core.config.app_config import AppConfig
 from core.database.translation import Translation
 from core.translator.service import TranslatorService
+from core.translation_provider.provider import TranslationProvider
 from core.user_data.user_data import UserData
 from ui.utilities.icon_provider import IconProvider
 
@@ -51,6 +52,7 @@ class EditorPage(QSplitter):
     __app_config: AppConfig
     __user_data: UserData
     __translator_service: TranslatorService
+    __provider: TranslationProvider
 
     __tabs: dict[Translation, tuple[EditorTab, QTreeWidgetItem]] = {}
     """
@@ -68,12 +70,14 @@ class EditorPage(QSplitter):
         app_config: AppConfig,
         user_data: UserData,
         translator_service: TranslatorService,
+        provider: TranslationProvider,
     ) -> None:
         """
         Args:
             app_config (AppConfig): The application configuration.
             user_data (UserData): The user data.
             translator_service (TranslatorService): The translator service.
+            provider (TranslationProvider): The configured translation providers.
         """
 
         super().__init__()
@@ -81,6 +85,7 @@ class EditorPage(QSplitter):
         self.__app_config = app_config
         self.__user_data = user_data
         self.__translator_service = translator_service
+        self.__provider = provider
 
         self.__init_ui()
 
@@ -308,6 +313,7 @@ class EditorPage(QSplitter):
                 app_config=self.__app_config,
                 user_data=self.__user_data,
                 translator_service=self.__translator_service,
+                provider=self.__provider,
             )
             translation_tab.changed_signal.connect(self.__update_tab_labels)
             translation_tab.close_signal.connect(self.close_translation)

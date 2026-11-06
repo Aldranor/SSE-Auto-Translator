@@ -18,6 +18,7 @@ from core.database.database import TranslationDatabase
 from core.database.translation import Translation
 from core.mod_instance.mod_instance import ModInstance
 from core.string.string_status import StringStatus
+from core.string.string_utils import StringUtils
 from core.string.types import String, StringList
 from core.translation_context.builder import ContextBuilder
 from core.translation_context.context import TranslationContext
@@ -174,6 +175,49 @@ class Editor(QObject):
 
         self.strings_changed.emit(strings)
         self.log.info(f"Updated status for {len(strings)} string(s).")
+
+    def apply_translation_strings(
+        self, translation_strings: StringList, missing_only: bool = True
+    ) -> int:
+        """Applies downloaded translations to matching strings in the editor.
+
+        Args:
+            translation_strings (StringList): Strings extracted from a translation.
+            missing_only (bool, optional): Whether to keep existing translations.
+                Defaults to True.
+
+        Returns:
+            int: Number of strings updated.
+        """
+
+        target_strings: StringList = self.all_strings
+        mapped_strings: StringList = StringUtils.map_strings(
+            target_strings, translation_strings
+        )
+        modified_strings: StringList = []
+        protected_statuses: tuple[StringStatus, ...] = (
+            StringStatus.TranslationComplete,
+            StringStatus.NoTranslationRequired,
+        )
+
+        for current_string, mapped_string in zip(target_strings, mapped_strings):
+            if missing_only and current_string.status in protected_statuses:
+                continue
+
+            if mapped_string.status not in (
+                StringStatus.TranslationComplete,
+                StringStatus.TranslationIncomplete,
+            ):
+                continue
+
+            current_string.string = mapped_string.string
+            current_string.status = mapped_string.status
+            modified_strings.append(current_string)
+
+        if modified_strings:
+            self.strings_changed.emit(modified_strings)
+
+        return len(modified_strings)
 
     def translate_with_api(
         self, strings: StringList, pdisplay: Optional[ProgressDisplay]

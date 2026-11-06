@@ -4,12 +4,15 @@ Copyright (c) Cutleast
 
 import os
 import re
+import tempfile
 from pathlib import Path
 from typing import Optional, override
 
+from cutleast_core_lib.core.downloader import Downloader
 from cutleast_core_lib.core.utilities.thread import Thread
 from cutleast_core_lib.core.utilities.typing_utils import not_none
 from cutleast_core_lib.ui.progress.dialog import ProgressDialog
+from cutleast_core_lib.ui.progress.display import ProgressDisplay
 from cutleast_core_lib.ui.progress.spinner_display import SpinnerDisplayWidget
 from cutleast_core_lib.ui.theme.manager import ThemeManager
 from cutleast_core_lib.ui.utilities.state_manager import WidgetStateManager
@@ -38,14 +41,21 @@ from core.config.app_config import AppConfig
 from core.database.exporter import Exporter
 from core.database.translation import Translation
 from core.editor.editor import Editor
+from core.string.string_extractor import StringExtractor
 from core.string.string_status import StringStatus
 from core.string.types import String, StringList
+from core.translation_provider.cdt_api.cdt_id import CdtModId
+from core.translation_provider.mod_id import ModId
+from core.translation_provider.nm_api.nxm_id import NxmModId
+from core.translation_provider.provider import TranslationProvider
+from core.translation_provider.source import Source
 from core.translation_context.related_string import RelatedString
 from core.translator.service import TranslatorService
 from core.user_data.user_data import UserData
 from ui.string_list.columns import StringsColumns
 from ui.widgets.stacked_bar import StackedBar
 
+from .download_dialog import DownloadTranslationDialog
 from .editor_menu import EditorMenu
 from .editor_toolbar import EditorToolbar
 from .strings_widget import StringsWidget
@@ -76,6 +86,7 @@ class EditorTab(QWidget):
     __app_config: AppConfig
     __user_data: UserData
     __translator_service: TranslatorService
+    __provider: TranslationProvider
 
     __context_thread: Optional[Thread]
 
@@ -99,6 +110,7 @@ class EditorTab(QWidget):
         app_config: AppConfig,
         user_data: UserData,
         translator_service: TranslatorService,
+        provider: TranslationProvider,
     ) -> None:
         """
         Args:
@@ -106,6 +118,7 @@ class EditorTab(QWidget):
             app_config (AppConfig): The application configuration.
             user_data (UserData): The user data.
             translator_service (TranslatorService): The translator service.
+            provider (TranslationProvider): The configured translation providers.
         """
 
         super().__init__()
@@ -114,6 +127,7 @@ class EditorTab(QWidget):
         self.__app_config = app_config
         self.__user_data = user_data
         self.__translator_service = translator_service
+        self.__provider = provider
 
         self.__editor = Editor(
             translation=translation,
@@ -132,6 +146,9 @@ class EditorTab(QWidget):
 
         self.__tool_bar.filter_changed.connect(self.__on_state_filter_changed)
         self.__tool_bar.apply_database_requested.connect(self.__apply_database)
+        self.__tool_bar.download_translation_requested.connect(
+            self.__download_translation
+        )
         self.__tool_bar.search_and_replace_requested.connect(self.__search_and_replace)
         self.__tool_bar.api_translation_requested.connect(self.__translate_with_api)
         self.__tool_bar.save_requested.connect(self.__save)
@@ -631,6 +648,112 @@ class EditorTab(QWidget):
             ),
             QApplication.activeModalWidget(),
         ).run()
+
+    def __download_translation(self) -> None:
+        """Downloads a source translation and applies matching strings."""
+
+        if self.__user_data.mod_instance is None:
+            QMessageBox.warning(
+                self,
+                self.tr("Download translation"),
+                self.tr("Load a mod list before downloading a translation."),
+            )
+            return
+        mod_instance = self.__user_data.mod_instance
+
+        available_sources: dict[Source, bool] = {
+            Source.Confrerie: self.__provider.is_source_available(Source.Confrerie),
+            Source.NexusMods: self.__provider.is_source_available(Source.NexusMods),
+        }
+        dialog = DownloadTranslationDialog(
+            translation=self.__translation,
+            source_available=available_sources,
+            parent=self,
+        )
+        if dialog.exec() != QDialog.DialogCode.Accepted:
+            return
+
+        source: Source = dialog.selected_source
+        identifier: str = dialog.mod_id_text
+        missing_only: bool = dialog.missing_only
+
+        try:
+            mod_id: ModId
+            if source is Source.NexusMods:
+                id_match = re.fullmatch(r"(\d+)(?::(\d+))?", identifier)
+                if id_match is None or id_match.group(2) is None:
+                    raise ValueError(
+                        self.tr("Enter a Nexus mod ID and file ID as ID:file ID.")
+                    )
+                mod_id = NxmModId(
+                    mod_id=int(id_match.group(1)), file_id=int(id_match.group(2))
+                )
+            else:
+                cdt_match = re.search(r"\d+", identifier)
+                if cdt_match is None:
+                    raise ValueError(self.tr("Enter a valid Confrérie mod ID."))
+                cdt_id: int = int(cdt_match.group())
+                mod_id = CdtModId(mod_id=cdt_id, nm_mod_id=cdt_id)
+
+            def download_and_extract(pdisplay: ProgressDisplay) -> StringList:
+                details = self.__provider.get_details(mod_id, source)
+                download_url: str = self.__provider.request_download(
+                    details.mod_id, source
+                )
+                file_name: str = Path(details.file_name).name
+                if not file_name:
+                    raise ValueError(
+                        self.tr("The provider returned an empty filename.")
+                    )
+
+                with tempfile.TemporaryDirectory(
+                    prefix="sse-translation-download-"
+                ) as temporary_directory:
+                    download_folder: Path = Path(temporary_directory)
+                    Downloader(self.__provider.user_agent).download(
+                        download_url,
+                        download_folder,
+                        file_name,
+                        lambda update: pdisplay.updateMainProgress(update),
+                    )
+                    extracted: dict[Path, StringList] = (
+                        StringExtractor().extract_strings(
+                            input=download_folder / file_name,
+                            mod_instance=mod_instance,
+                            language=self.__user_data.user_config.language,
+                            max_workers=self.__app_config.worker_thread_num,
+                            pdisplay=pdisplay,
+                        )
+                    )
+                    return [
+                        string for strings in extracted.values() for string in strings
+                    ]
+
+            downloaded_strings: StringList = ProgressDialog(
+                download_and_extract, self
+            ).run()
+            if not downloaded_strings:
+                QMessageBox.information(
+                    self,
+                    self.tr("Download translation"),
+                    self.tr("No matching strings were found in the downloaded file."),
+                )
+                return
+
+            updated_count: int = self.__editor.apply_translation_strings(
+                downloaded_strings, missing_only
+            )
+            QMessageBox.information(
+                self,
+                self.tr("Download translation"),
+                self.tr("Applied {0} translated strings.").format(updated_count),
+            )
+        except Exception as ex:
+            QMessageBox.critical(
+                self,
+                self.tr("Download translation failed"),
+                str(ex),
+            )
 
     def __export(self) -> None:
         """

@@ -42,6 +42,9 @@ class EditorToolbar(QToolBar):
     refresh_translation_requested = Signal()
     """Signal emitted when the user asks to reload the translation from disk."""
 
+    download_translation_requested = Signal()
+    """Signal emitted when the user asks to download a translation."""
+
     export_requested = Signal()
     """Signal emitted when the user clicks on the export action."""
 
@@ -89,6 +92,12 @@ class EditorToolbar(QToolBar):
             "mdi6.database-refresh-outline",
         )
         apply_database_action.triggered.connect(self.apply_database_requested.emit)
+
+        download_action = self.addAction(self.tr("Download translation"))
+        IconProvider.bind_qta_icon(
+            download_action, download_action.setIcon, "mdi6.download"
+        )
+        download_action.triggered.connect(self.download_translation_requested.emit)
 
         self.__search_and_replace_action = self.addAction(self.tr("Search and replace"))
         IconProvider.bind_qta_icon(
