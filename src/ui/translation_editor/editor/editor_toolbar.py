@@ -45,6 +45,9 @@ class EditorToolbar(QToolBar):
     download_translation_requested = Signal()
     """Signal emitted when the user asks to download a translation."""
 
+    bridge_translation_requested = Signal()
+    """Signal emitted when the user asks to bridge translations from older files."""
+
     export_requested = Signal()
     """Signal emitted when the user clicks on the export action."""
 
@@ -98,6 +101,12 @@ class EditorToolbar(QToolBar):
             download_action, download_action.setIcon, "mdi6.download"
         )
         download_action.triggered.connect(self.download_translation_requested.emit)
+
+        bridge_action = self.addAction(self.tr("Bridge translation from files"))
+        IconProvider.bind_qta_icon(
+            bridge_action, bridge_action.setIcon, "mdi6.link-variant"
+        )
+        bridge_action.triggered.connect(self.bridge_translation_requested.emit)
 
         self.__search_and_replace_action = self.addAction(self.tr("Search and replace"))
         IconProvider.bind_qta_icon(

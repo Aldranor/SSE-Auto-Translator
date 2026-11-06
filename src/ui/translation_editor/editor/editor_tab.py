@@ -41,6 +41,7 @@ from core.config.app_config import AppConfig
 from core.database.exporter import Exporter
 from core.database.translation import Translation
 from core.editor.editor import Editor
+from core.editor.translation_bridge import TranslationBridge
 from core.string.string_extractor import StringExtractor
 from core.string.string_status import StringStatus
 from core.string.types import String, StringList
@@ -148,6 +149,9 @@ class EditorTab(QWidget):
         self.__tool_bar.apply_database_requested.connect(self.__apply_database)
         self.__tool_bar.download_translation_requested.connect(
             self.__download_translation
+        )
+        self.__tool_bar.bridge_translation_requested.connect(
+            self.__bridge_translation
         )
         self.__tool_bar.search_and_replace_requested.connect(self.__search_and_replace)
         self.__tool_bar.api_translation_requested.connect(self.__translate_with_api)
@@ -650,7 +654,10 @@ class EditorTab(QWidget):
         ).run()
 
     def __download_translation(self) -> None:
-        """Downloads a source translation and applies matching strings."""
+        """Downloads a source translation and applies matching strings.
+
+        Provider or archive errors are shown in an error dialog.
+        """
 
         if self.__user_data.mod_instance is None:
             QMessageBox.warning(
@@ -696,6 +703,15 @@ class EditorTab(QWidget):
                 mod_id = CdtModId(mod_id=cdt_id, nm_mod_id=cdt_id)
 
             def download_and_extract(pdisplay: ProgressDisplay) -> StringList:
+                """Downloads and extracts the selected translation archive.
+
+                Args:
+                    pdisplay (ProgressDisplay): Progress display for the operation.
+
+                Returns:
+                    StringList: Extracted strings from installed plugins.
+                """
+
                 details = self.__provider.get_details(mod_id, source)
                 download_url: str = self.__provider.request_download(
                     details.mod_id, source
@@ -752,6 +768,55 @@ class EditorTab(QWidget):
             QMessageBox.critical(
                 self,
                 self.tr("Download translation failed"),
+                str(ex),
+            )
+
+    def __bridge_translation(self) -> None:
+        """Applies translations from an older translation and matching original.
+
+        The matching files are selected from the user's local archives.
+        """
+
+        translated_path, _ = QFileDialog.getOpenFileName(
+            self,
+            self.tr("Select older translated archive or plugin"),
+            "",
+            self.tr("Supported files (*.7z *.rar *.zip *.esp *.esm *.esl)"),
+        )
+        if not translated_path:
+            return
+
+        original_path, _ = QFileDialog.getOpenFileName(
+            self,
+            self.tr("Select matching original-language archive or plugin"),
+            "",
+            self.tr("Supported files (*.7z *.rar *.zip *.esp *.esm *.esl)"),
+        )
+        if not original_path:
+            return
+
+        try:
+            modified_strings: StringList = ProgressDialog(
+                lambda _: TranslationBridge.apply(
+                    translated_source=Path(translated_path),
+                    original_source=Path(original_path),
+                    target_strings=self.__editor.all_strings,
+                    missing_only=True,
+                ),
+                self,
+            ).run()
+            self.__editor.notify_strings_updated(modified_strings)
+            QMessageBox.information(
+                self,
+                self.tr("Translation bridge"),
+                self.tr("Applied {0} bridged strings.").format(
+                    len(modified_strings)
+                ),
+            )
+        except Exception as ex:
+            QMessageBox.critical(
+                self,
+                self.tr("Translation bridge failed"),
                 str(ex),
             )
 

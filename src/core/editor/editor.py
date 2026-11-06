@@ -219,6 +219,16 @@ class Editor(QObject):
 
         return len(modified_strings)
 
+    def notify_strings_updated(self, strings: StringList) -> None:
+        """Notifies editor views that shared string instances have been modified.
+
+        Args:
+            strings (StringList): Modified strings owned by this editor.
+        """
+
+        if strings:
+            self.strings_changed.emit(strings)
+
     def translate_with_api(
         self, strings: StringList, pdisplay: Optional[ProgressDisplay]
     ) -> None:
