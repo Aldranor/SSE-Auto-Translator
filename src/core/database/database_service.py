@@ -22,6 +22,7 @@ from core.translation_provider.source import Source
 from core.utilities.game_language import GameLanguage
 
 from .database import TranslationDatabase
+from .translation_service import TranslationService
 
 
 class DatabaseService:
@@ -30,6 +31,19 @@ class DatabaseService:
     """
 
     log: logging.Logger = logging.getLogger("DatabaseService")
+
+    @classmethod
+    def reload_translation(
+        cls, translation: Translation, database: TranslationDatabase
+    ) -> None:
+        """Reloads one translation's JSON files from disk into the database."""
+
+        translation.strings = TranslationService.load_translation_strings(
+            translation.path
+        )
+        cls.log.info(f"Reloaded translation '{translation.name}' from disk.")
+        database.changed_signal.emit(translation)
+        database.update_signal.emit()
 
     @classmethod
     def load_database(

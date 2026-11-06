@@ -45,6 +45,9 @@ class EditorPage(QSplitter):
         int: New number of open tabs.
     """
 
+    refresh_translation_requested = Signal(Translation)
+    """Signal emitted when an open translation should be refreshed from disk."""
+
     __app_config: AppConfig
     __user_data: UserData
     __translator_service: TranslatorService
@@ -308,6 +311,9 @@ class EditorPage(QSplitter):
             )
             translation_tab.changed_signal.connect(self.__update_tab_labels)
             translation_tab.close_signal.connect(self.close_translation)
+            translation_tab.refresh_translation_requested.connect(
+                self.refresh_translation_requested.emit
+            )
             self.__tabs[translation] = translation_tab, translation_item
             self.__page_widget.addWidget(translation_tab)
 
@@ -343,4 +349,41 @@ class EditorPage(QSplitter):
         self.__set_tab(self.tabs[-1])
 
         self.tab_count_updated.emit(len(self.tabs))
+        self.__update_tab_labels()
+
+    def confirm_translation_reload(self, translation: Translation) -> bool:
+        """Confirms discarding unsaved editor changes before reloading a translation."""
+
+        tab_entry = self.__tabs.get(translation)
+        if tab_entry is None or not tab_entry[0].changes_pending:
+            return True
+
+        message_box = QMessageBox(self)
+        message_box.setWindowTitle(self.tr("Refresh translation"))
+        message_box.setText(
+            self.tr(
+                "'{0}' has unsaved changes. Discard them and reload the translation "
+                "from disk?"
+            ).format(translation.name)
+        )
+        message_box.setStandardButtons(
+            QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.Cancel
+        )
+        message_box.setDefaultButton(QMessageBox.StandardButton.Cancel)
+        message_box.button(QMessageBox.StandardButton.Yes).setText(
+            self.tr("Discard and refresh")
+        )
+        ThemeManager.update_widget_styles(message_box)
+
+        return message_box.exec() == QMessageBox.StandardButton.Yes
+
+    def reload_translation(self, translation: Translation) -> None:
+        """Refreshes an open editor tab after its translation was reloaded."""
+
+        tab_entry = self.__tabs.get(translation)
+        if tab_entry is None:
+            return
+
+        tab_entry[0].reload_from_translation()
+        self.__review_widget.set_tabs(self.tabs)
         self.__update_tab_labels()

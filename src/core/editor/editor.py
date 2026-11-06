@@ -99,6 +99,13 @@ class Editor(QObject):
         self.log.info(f"Saved translation '{self.__translation.name}'.")
         self.__changes_pending = False
 
+    def reload_from_translation(self) -> None:
+        """Reloads the editing copy from the current translation model."""
+
+        self.__strings_cache = deepcopy(self.__translation.strings)
+        self.__context_cache = ReferenceDict()
+        self.__changes_pending = False
+
     def __on_change(self, changes_pending: bool = True) -> None:
         self.__changes_pending = changes_pending
 

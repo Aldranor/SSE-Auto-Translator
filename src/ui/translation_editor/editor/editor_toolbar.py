@@ -39,6 +39,9 @@ class EditorToolbar(QToolBar):
     save_requested = Signal()
     """Signal emitted when the user clicks on the save action."""
 
+    refresh_translation_requested = Signal()
+    """Signal emitted when the user asks to reload the translation from disk."""
+
     export_requested = Signal()
     """Signal emitted when the user clicks on the export action."""
 
@@ -67,6 +70,12 @@ class EditorToolbar(QToolBar):
         export_action = self.addAction(self.tr("Export translation"))
         IconProvider.bind_qta_icon(export_action, export_action.setIcon, "mdi6.share")
         export_action.triggered.connect(self.export_requested.emit)
+
+        refresh_action = self.addAction(self.tr("Refresh from disk"))
+        IconProvider.bind_qta_icon(
+            refresh_action, refresh_action.setIcon, "mdi6.refresh"
+        )
+        refresh_action.triggered.connect(self.refresh_translation_requested.emit)
 
         self.addSeparator()
 

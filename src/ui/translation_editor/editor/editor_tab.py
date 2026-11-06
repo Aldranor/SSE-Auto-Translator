@@ -67,6 +67,9 @@ class EditorTab(QWidget):
     This signal gets emitted when tab is to be closed.
     """
 
+    refresh_translation_requested = Signal(Translation)
+    """Signal emitted when this tab requests its translation to be reloaded."""
+
     __editor: Editor
 
     __translation: Translation
@@ -133,6 +136,9 @@ class EditorTab(QWidget):
         self.__tool_bar.api_translation_requested.connect(self.__translate_with_api)
         self.__tool_bar.save_requested.connect(self.__save)
         self.__tool_bar.export_requested.connect(self.__export)
+        self.__tool_bar.refresh_translation_requested.connect(
+            lambda: self.refresh_translation_requested.emit(self.__translation)
+        )
         self.__search_bar.searchChanged.connect(self.__on_text_filter_changed)
 
         self.__strings_widget.itemSelectionChanged.connect(
@@ -329,6 +335,14 @@ class EditorTab(QWidget):
 
         if self.__editor.changes_pending:
             self.__save()
+
+    def reload_from_translation(self) -> None:
+        """Reloads this editor tab from the translation's current in-memory data."""
+
+        self.__editor.reload_from_translation()
+        self.__strings_widget.reload_strings(self.__editor.strings)
+        self.__update_metadata()
+        self.changed_signal.emit()
 
     def __edit_string(self, string: Optional[String] = None) -> None:
         """
