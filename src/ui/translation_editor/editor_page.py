@@ -11,11 +11,15 @@ from PySide6.QtCore import Qt, Signal
 from PySide6.QtGui import QFont, QKeySequence
 from PySide6.QtWidgets import (
     QHeaderView,
+    QHBoxLayout,
     QMessageBox,
+    QPushButton,
     QSplitter,
     QStackedWidget,
     QTreeWidget,
     QTreeWidgetItem,
+    QVBoxLayout,
+    QWidget,
 )
 
 from core.config.app_config import AppConfig
@@ -52,6 +56,7 @@ class EditorPage(QSplitter):
 
     __tab_list_widget: QTreeWidget
     __page_widget: QStackedWidget
+    __close_all_button: QPushButton
     __review_widget: ReviewWidget
     __review_item: QTreeWidgetItem
 
@@ -93,7 +98,20 @@ class EditorPage(QSplitter):
         self.__tab_list_widget.header().setSectionResizeMode(
             1, QHeaderView.ResizeMode.ResizeToContents
         )
-        self.addWidget(self.__tab_list_widget)
+
+        tab_list_container = QWidget()
+        tab_list_layout = QVBoxLayout(tab_list_container)
+        tab_list_layout.setContentsMargins(0, 0, 0, 0)
+
+        toolbar_layout = QHBoxLayout()
+        toolbar_layout.addStretch()
+        self.__close_all_button = QPushButton(self.tr("Close all"))
+        self.__close_all_button.setEnabled(False)
+        self.__close_all_button.clicked.connect(self.close_all_translations)
+        toolbar_layout.addWidget(self.__close_all_button)
+        tab_list_layout.addLayout(toolbar_layout)
+        tab_list_layout.addWidget(self.__tab_list_widget, 1)
+        self.addWidget(tab_list_container)
 
         self.__review_item = QTreeWidgetItem(
             [self.tr("Review all open translations")]
@@ -233,7 +251,39 @@ class EditorPage(QSplitter):
         self.__review_item.setHidden(not self.tabs)
 
         self.tab_count_updated.emit(len(self.tabs))
+        self.__close_all_button.setEnabled(bool(self.tabs))
         self.__update_tab_labels()
+
+    def close_all_translations(self) -> None:
+        """Closes every open translation after one confirmation if needed."""
+
+        if not self.__tabs:
+            return
+
+        has_pending_changes = any(
+            tab.changes_pending for tab, _ in self.__tabs.values()
+        )
+        if has_pending_changes:
+            message_box = QMessageBox(self)
+            message_box.setWindowTitle(self.tr("Close all translations"))
+            message_box.setText(
+                self.tr("Unsaved changes will be lost. Close all translations?")
+            )
+            message_box.setStandardButtons(
+                QMessageBox.StandardButton.No | QMessageBox.StandardButton.Yes
+            )
+            message_box.setDefaultButton(QMessageBox.StandardButton.No)
+            message_box.button(QMessageBox.StandardButton.No).setText(self.tr("No"))
+            message_box.button(QMessageBox.StandardButton.Yes).setText(self.tr("Yes"))
+            ThemeManager.update_widget_styles(message_box)
+
+            if message_box.exec() != QMessageBox.StandardButton.Yes:
+                return
+
+        for translation in list(self.__tabs):
+            self.close_translation(translation, silent=True)
+            if translation in self.__tabs:
+                break
 
     def open_translation(self, translation: Translation) -> None:
         """
@@ -285,6 +335,7 @@ class EditorPage(QSplitter):
 
         self.__review_item.setHidden(False)
         self.__review_widget.set_tabs(self.tabs)
+        self.__close_all_button.setEnabled(bool(self.tabs))
 
         self.__tab_list_widget.resizeColumnToContents(1)
 
