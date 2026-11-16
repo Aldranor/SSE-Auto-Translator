@@ -22,6 +22,7 @@ from core.database.translation import Translation
 from core.mod_file.mod_file import ModFile
 from core.mod_file.translation_status import TranslationStatus
 from core.mod_instance.mod import Mod
+from core.mod_instance.mod_instance import ModInstance
 from core.string.string_utils import StringUtils
 from core.string.types import StringList
 from core.translation_provider.source import Source
@@ -40,7 +41,11 @@ class DatabaseService:
 
     @classmethod
     def load_database(
-        cls, appdb_path: Path, userdb_path: Path, language: GameLanguage
+        cls,
+        appdb_path: Path,
+        userdb_path: Path,
+        language: GameLanguage,
+        profiledb_path: Optional[Path] = None,
     ) -> TranslationDatabase:
         """
         Loads the translation database for the specified language from the specified
@@ -48,8 +53,10 @@ class DatabaseService:
 
         Args:
             appdb_path (Path): Path to the application database directory.
-            userdb_path (Path): Path to the user database directory.
+            userdb_path (Path): Path to the shared user database directory.
             language (GameLanguage): Language to load the database for.
+            profiledb_path (Optional[Path], optional): Active profile catalog directory.
+                Defaults to `userdb_path`.
 
         Returns:
             TranslationDatabase: The loaded translation database.
@@ -68,17 +75,42 @@ class DatabaseService:
 
             cls.log.info(f"Created new database for '{language}'.")
 
+        active_profile_db_path: Path = profiledb_path or userdb_path
+        if not (active_profile_db_path / language.id).is_dir():
+            (active_profile_db_path / language.id).mkdir(parents=True, exist_ok=True)
+
+        shared_translations: list[Translation] = cls.__load_user_database(
+            userdb_path, userdb_path, language
+        )
+        if active_profile_db_path == userdb_path:
+            user_translations: list[Translation] = shared_translations
+        else:
+            profile_translations: list[Translation] = cls.__load_user_database(
+                active_profile_db_path, userdb_path, language
+            )
+            shared_by_id: dict[str, Translation] = {
+                translation.id: translation for translation in shared_translations
+            }
+            user_translations = [
+                shared_by_id[translation.id]
+                for translation in profile_translations
+                if translation.id in shared_by_id
+            ]
+
         database = TranslationDatabase(
             userdb_path=userdb_path,
+            profiledb_path=active_profile_db_path,
             appdb_path=appdb_path,
             language=language,
             vanilla_translation=cls.__load_vanilla_translation(appdb_path, language),
-            user_translations=cls.__load_user_database(userdb_path, language),
+            user_translations=user_translations,
+            shared_translations=shared_translations,
         )
 
         cls.log.info(
             f"Loaded database with {len(database.strings)} strings(s) from "
-            f"{len(database.user_translations) + 1} translation(s)."
+            f"{len(database.shared_translations) + 1} shared translation(s), "
+            f"{len(database.user_translations)} active profile translation(s)."
         )
 
         return database
@@ -109,13 +141,14 @@ class DatabaseService:
 
     @classmethod
     def __load_user_database(
-        cls, userdb_path: Path, language: GameLanguage
+        cls, index_path_root: Path, storage_path_root: Path, language: GameLanguage
     ) -> list[Translation]:
         """
         Loads user installed translation database.
 
         Args:
-            userdb_path (Path): Path to the user database directory.
+            index_path_root (Path): Root containing the profile index file.
+            storage_path_root (Path): Root containing translation folders.
             language (GameLanguage): Language to load the database for.
 
         Returns:
@@ -124,12 +157,13 @@ class DatabaseService:
 
         cls.log.info("Loading user database...")
 
-        db_path: Path = userdb_path / language.id
+        db_path: Path = index_path_root / language.id
+        storage_path: Path = storage_path_root / language.id
         translations: list[Translation] = []
         for translation_data in cls.__load_index_data(db_path):
             name: str = translation_data["name"]
             try:
-                translation = Translation.from_index_data(translation_data, db_path)
+                translation = Translation.from_index_data(translation_data, storage_path)
                 translation.strings  # build cache of strings by "calling" the strings property  # noqa: B018
                 translations.append(translation)
             except Exception as ex:
@@ -199,7 +233,7 @@ class DatabaseService:
 
         cls.log.info(f"Reloading translation database for '{database.language}'...")
 
-        db_path: Path = database.userdb_path / database.language.id
+        db_path: Path = database.profiledb_path / database.language.id
         index_data: list[dict[str, Any]] = cls.__load_index_data(db_path)
         existing_translations: dict[str, Translation] = {
             translation.id: translation for translation in database.user_translations
@@ -230,7 +264,7 @@ class DatabaseService:
 
             try:
                 loaded_translation = Translation.from_index_data(
-                    translation_data, db_path
+                    translation_data, database.userdb_path / database.language.id
                 )
                 existing_translation: Optional[Translation] = existing_translations.get(
                     loaded_translation.id
@@ -397,16 +431,80 @@ class DatabaseService:
 
         cls.log.info(f"Saving database index for '{database.language}'...")
 
-        index_path: Path = database.userdb_path / database.language.id / "index.json"
-        index_data: list[dict[str, Any]] = [
+        shared_index_path: Path = (
+            database.userdb_path / database.language.id / "index.json"
+        )
+        shared_index_path.parent.mkdir(parents=True, exist_ok=True)
+        shared_index_data: list[dict[str, Any]] = [
             translation.to_index_data()
-            for translation in unique(database.user_translations, key=lambda t: t.id)
+            for translation in unique(database.shared_translations, key=lambda t: t.id)
         ]
 
-        with index_path.open("w", encoding="utf8") as index_file:
-            json.dump(index_data, index_file, indent=4, ensure_ascii=False)
+        with shared_index_path.open("w", encoding="utf8") as index_file:
+            json.dump(shared_index_data, index_file, indent=4, ensure_ascii=False)
+
+        if database.profiledb_path != database.userdb_path:
+            profile_index_path: Path = (
+                database.profiledb_path / database.language.id / "index.json"
+            )
+            profile_index_path.parent.mkdir(parents=True, exist_ok=True)
+            profile_index_data: list[dict[str, Any]] = [
+                translation.to_index_data()
+                for translation in unique(
+                    database.user_translations, key=lambda t: t.id
+                )
+            ]
+            with profile_index_path.open("w", encoding="utf8") as index_file:
+                json.dump(profile_index_data, index_file, indent=4, ensure_ascii=False)
 
         cls.log.info("Database index saved.")
+
+    @classmethod
+    def synchronize_profile_with_modlist(
+        cls, database: TranslationDatabase, mod_instance: ModInstance
+    ) -> None:
+        """
+        Removes profile catalog entries that do not belong to the loaded modlist.
+
+        Shared translation files are deliberately kept so another profile can still
+        reference them.
+
+        Args:
+            database (TranslationDatabase): Database of the active profile.
+            mod_instance (ModInstance): Loaded modlist.
+        """
+
+        if database.profiledb_path == database.userdb_path:
+            return
+
+        mod_ids = {mod.mod_id for mod in mod_instance.mods if mod.mod_id is not None}
+        modfile_paths = {
+            modfile.path for mod in mod_instance.mods for modfile in mod.modfiles
+        }
+        removed_translations: list[Translation] = [
+            translation
+            for translation in database.user_translations
+            if (
+                translation.mod_id not in mod_ids
+                and not any(
+                    modfile_path in modfile_paths
+                    for modfile_path in translation.strings
+                )
+            )
+        ]
+
+        if not removed_translations:
+            return
+
+        for translation in removed_translations:
+            database.user_translations.remove(translation)
+
+        database.remove_signal.emit(removed_translations)
+        database.update_signal.emit()
+        cls.save_database(database)
+        cls.log.info(
+            f"Removed {len(removed_translations)} stale profile translation(s)."
+        )
 
     @classmethod
     def add_translation(
@@ -459,16 +557,27 @@ class DatabaseService:
 
         added_translations: list[Translation] = []
         for translation in translations:
-            if not database.is_translation_in_database(translation):
-                database.user_translations.append(translation)
+            was_visible: bool = database.is_translation_in_database(translation)
+            shared_translation: Optional[Translation] = next(
+                (
+                    existing
+                    for existing in database.shared_translations
+                    if existing.id == translation.id
+                ),
+                None,
+            )
+            if shared_translation is None:
+                database.shared_translations.append(translation)
+                shared_translation = translation
                 cls.log.info(f"Added translation '{translation.name}' to database.")
-                added_translations.append(translation)
-            else:
-                existing_translation: Translation = database.get_translation_for_id(
-                    translation.id
-                )
-                cls.merge_translations(existing_translation, translation)
+            elif shared_translation is not translation:
+                cls.merge_translations(shared_translation, translation)
                 cls.log.info(f"Updated translation '{translation.name}' in database.")
+
+            if not was_visible:
+                if database.user_translations is not database.shared_translations:
+                    database.user_translations.append(shared_translation)
+                added_translations.append(shared_translation)
 
         if added_translations:
             database.add_signal.emit(added_translations)
@@ -576,12 +685,15 @@ class DatabaseService:
 
         deleted_translations: list[Translation] = []
         for translation in translations:
-            shutil.rmtree(translation.path, ignore_errors=True)
-
             if database.is_translation_in_database(translation):
                 database.user_translations.remove(translation)
                 deleted_translations.append(translation)
                 cls.log.info(f"Deleted translation '{translation.name}' from database.")
+
+            if database.profiledb_path == database.userdb_path:
+                shutil.rmtree(translation.path, ignore_errors=True)
+                if database.is_translation_in_shared_database(translation):
+                    database.shared_translations.remove(translation)
 
         if deleted_translations:
             database.remove_signal.emit(deleted_translations)
@@ -683,7 +795,11 @@ class DatabaseService:
 
         cls.log.info(f"Creating translation for mod '{mod.name}'...")
 
+        # Match by the installed mod identity or its plugin paths. The version is not
+        # part of either lookup, so a newer mod build can reuse the shared translation.
         translation: Optional[Translation] = database.get_translation_by_mod(mod)
+        if translation is None:
+            translation = database.get_shared_translation_by_mod(mod)
         if translation is None:
             translation = cls.create_blank_translation(
                 name=mod.name + " - " + database.language.name,
@@ -712,6 +828,8 @@ class DatabaseService:
         )
 
         if not relevant_modfiles:
+            if add_and_save and not database.is_translation_in_database(translation):
+                cls.add_translation(translation, database)
             return translation
 
         translation_strings: dict[Path, StringList] = translation.strings
@@ -770,6 +888,8 @@ class DatabaseService:
         translation: Optional[Translation] = database.get_translation_by_modfile_path(
             modfile.path
         )
+        if translation is None:
+            translation = database.get_shared_translation_by_modfile_path(modfile.path)
         if translation is None:
             translation = cls.create_blank_translation(
                 name=modfile.name + " - " + database.language.name,

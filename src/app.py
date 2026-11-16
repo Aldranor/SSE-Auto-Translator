@@ -32,6 +32,7 @@ from core.config.app_config import AppConfig
 from core.config.user_config import UserConfig
 from core.translation_provider.nm_api.nm_api import NexusModsApi
 from core.translation_provider.nm_api.nxm_handler import NXMHandler
+from core.user_data.profile_service import ProfileService
 from core.user_data.user_data import UserData
 from core.user_data.user_data_service import UserDataService
 from core.utilities.localisation import Language
@@ -55,6 +56,7 @@ class App(BaseApp, Singleton):
 
     __user_data: Optional[UserData] = None
     __user_data_service: UserDataService
+    __profile_service: ProfileService
 
     compiled: bool
     executable: list[str]
@@ -84,12 +86,18 @@ class App(BaseApp, Singleton):
         self.data_path = (
             (self.cur_path / "data") if not args.data_path else Path(args.data_path)
         )
-        self.cache_path = self.data_path / "cache"
-        self.log_path = self.data_path / "logs"
+        self.__profile_service = ProfileService(self.data_path)
+        active_data_path: Path = self.__profile_service.active_data_path
+        self.cache_path = active_data_path / "cache"
+        self.log_path = active_data_path / "logs"
         self.exit_chain = []
 
         Cache(self.cache_path, App.APP_VERSION)
-        self.__user_data_service = UserDataService(self.res_path, self.data_path)
+        self.__user_data_service = UserDataService(
+            self.res_path,
+            active_data_path,
+            database_path=self.data_path,
+        )
 
         GameService(read_resource(":/sse-at/skyrimse.json"))
 
@@ -161,7 +169,10 @@ class App(BaseApp, Singleton):
 
         if self.__user_data_service.is_setup_required():
             self.setup_complete = (
-                StartupDialog(self.data_path, QApplication.activeModalWidget()).exec()
+                StartupDialog(
+                    self.__profile_service.active_data_path,
+                    QApplication.activeModalWidget(),
+                ).exec()
                 == QDialog.DialogCode.Accepted
             )
 
@@ -208,6 +219,7 @@ class App(BaseApp, Singleton):
             provider=self.__component_provider.get_provider(),
             download_manager=self.__component_provider.get_download_manager(),
             state_service=self.__component_provider.get_state_service(),
+            profile_service=self.__profile_service,
         )
         main_window.showMaximized()
 
