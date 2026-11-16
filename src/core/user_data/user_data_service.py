@@ -32,22 +32,31 @@ class UserDataService(SingletonQObject):
 
     __res_path: Path
     __data_path: Path
+    __database_path: Path
 
     __user_data: Optional[UserData] = None
 
     log: logging.Logger = logging.getLogger("UserDataService")
 
-    def __init__(self, res_path: Path, data_path: Path) -> None:
+    def __init__(
+        self,
+        res_path: Path,
+        data_path: Path,
+        database_path: Optional[Path] = None,
+    ) -> None:
         """
         Args:
             res_path (Path): Path to the folder with the application resources.
             data_path (Path): Path to the folder with the user data.
+            database_path (Optional[Path], optional): Shared translation database path.
+                Defaults to the user data path.
         """
 
         super().__init__()
 
         self.__res_path = res_path
         self.__data_path = data_path
+        self.__database_path = database_path or data_path
 
     def load(
         self, thread_num: int = 4, pdisplay: Optional[ProgressDisplay] = None
@@ -141,7 +150,7 @@ class UserDataService(SingletonQObject):
         self.log.info(f"Loading translation database for language '{language}'...")
 
         appdb_path: Path = self.__res_path / "app" / "database"
-        userdb_path: Path = self.__data_path / "user" / "database"
+        userdb_path: Path = self.__database_path / "user" / "database"
 
         return DatabaseService.load_database(appdb_path, userdb_path, language)
 

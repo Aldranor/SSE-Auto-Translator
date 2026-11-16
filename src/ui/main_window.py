@@ -4,7 +4,7 @@ Copyright (c) Cutleast
 
 import webbrowser
 from pathlib import Path
-from typing import override
+from typing import Optional, override
 
 from cutleast_core_lib.core.config.manager import ConfigManager
 from cutleast_core_lib.core.utilities.path_limit_fixer import PathLimitFixer
@@ -20,7 +20,7 @@ from cutleast_core_lib.ui.widgets.link_button import LinkButton
 from cutleast_core_lib.ui.widgets.tab_widget import TabWidget
 from PySide6.QtCore import Qt
 from PySide6.QtGui import QCloseEvent
-from PySide6.QtWidgets import QMessageBox, QTabWidget
+from PySide6.QtWidgets import QDialog, QMessageBox, QTabWidget
 
 from core.config.app_config import AppConfig
 from core.downloader.download_manager import DownloadManager
@@ -28,6 +28,7 @@ from core.mod_instance.state_service import StateService
 from core.scanner.scanner import Scanner
 from core.translation_provider.provider import TranslationProvider
 from core.translator.service import TranslatorService
+from core.user_data.profile_service import ProfileService
 from core.user_data.user_data import UserData
 from core.utilities.constants import DOCS_URL
 from core.utilities.licenses import LICENSES
@@ -36,6 +37,7 @@ from ui.utilities.icon_provider import IconProvider
 
 from .main_page.main_page import MainPageWidget
 from .menubar import MenuBar
+from .profile_dialog import ProfileDialog
 from .statusbar import StatusBar
 from .toast_notifier import ToastNotifier
 from .translation_editor.editor_page import EditorPage
@@ -59,6 +61,7 @@ class MainWindow(ExtendedMainWindow):
     __provider: TranslationProvider
     __download_manager: DownloadManager
     __state_service: StateService
+    __profile_service: Optional[ProfileService]
 
     __menu_bar: MenuBar
     __alert_button: AlertButton
@@ -82,6 +85,7 @@ class MainWindow(ExtendedMainWindow):
         provider: TranslationProvider,
         download_manager: DownloadManager,
         state_service: StateService,
+        profile_service: Optional[ProfileService] = None,
     ) -> None:
         """
         Args:
@@ -94,6 +98,8 @@ class MainWindow(ExtendedMainWindow):
             provider (TranslationProvider): Translation provider.
             download_manager (DownloadManager): Download manager.
             state_service (StateService): State service.
+            profile_service (Optional[ProfileService], optional): Profile manager.
+                Defaults to None.
         """
 
         self.__app_config_manager = app_config_manager
@@ -106,6 +112,7 @@ class MainWindow(ExtendedMainWindow):
         self.__provider = provider
         self.__download_manager = download_manager
         self.__state_service = state_service
+        self.__profile_service = profile_service
 
         self.__init_ui()
         self.__init_toast_notifier()
@@ -131,6 +138,7 @@ class MainWindow(ExtendedMainWindow):
         self.setMenuBar(self.__menu_bar)
 
         self.__menu_bar.settings_requested.connect(self.__open_settings)
+        self.__menu_bar.profiles_requested.connect(self.__manage_profiles)
         self.__menu_bar.exit_requested.connect(self.close)
         self.__menu_bar.update_check_requested.connect(self.__check_for_updates)
         self.__menu_bar.docs_requested.connect(lambda: webbrowser.open(DOCS_URL))
@@ -156,6 +164,46 @@ class MainWindow(ExtendedMainWindow):
         )
         # self.__ko_fi_button.setProperty("transparent", True)
         self.titleBar().addWidget(self.__ko_fi_button)
+
+    def __manage_profiles(self) -> None:
+        """Opens profile management and restarts after a profile change."""
+
+        if self.__profile_service is None:
+            return
+
+        dialog = ProfileDialog(self.__profile_service, self.__user_data, self)
+        if dialog.exec() != QDialog.DialogCode.Accepted:
+            return
+
+        selected_profile_id: str = dialog.selected_profile_id
+        if selected_profile_id == self.__profile_service.active_profile.id:
+            return
+
+        if any(tab.changes_pending for tab in self.__translation_editor.tabs):
+            result = QMessageBox.question(
+                self,
+                self.tr("Switch profile?"),
+                self.tr(
+                    "Switching profiles restarts SSE Auto Translator. Save open "
+                    "translation changes before continuing?"
+                ),
+                QMessageBox.StandardButton.Save
+                | QMessageBox.StandardButton.Discard
+                | QMessageBox.StandardButton.Cancel,
+                QMessageBox.StandardButton.Cancel,
+            )
+            if result == QMessageBox.StandardButton.Cancel:
+                return
+
+            if result == QMessageBox.StandardButton.Save:
+                self.__translation_editor.save_all()
+
+        self.__translation_editor.close_all()
+        self.__profile_service.set_active_profile(selected_profile_id)
+
+        from app import App
+
+        App.get().restart_application()
 
     def __init_tab_widget(self) -> None:
         self.__tab_widget = TabWidget()

@@ -21,6 +21,9 @@ class MenuBar(QMenuBar):
     settings_requested = Signal()
     """Signal emitted when the user clicks on the settings action."""
 
+    profiles_requested = Signal()
+    """Signal emitted when the user opens profile management."""
+
     exit_requested = Signal()
     """Signal emitted when the user clicks on the exit action."""
 
@@ -62,6 +65,14 @@ class MenuBar(QMenuBar):
         settings_action: QAction = file_menu.addAction(self.tr("Settings"))
         IconProvider.bind_qta_icon(settings_action, settings_action.setIcon, "mdi6.cog")
         settings_action.triggered.connect(self.settings_requested.emit)
+
+        profiles_action: QAction = file_menu.addAction(
+            self.tr("Translation profiles...")
+        )
+        IconProvider.bind_qta_icon(
+            profiles_action, profiles_action.setIcon, "mdi6.account-switch"
+        )
+        profiles_action.triggered.connect(self.profiles_requested.emit)
 
         file_menu.addSeparator()
 

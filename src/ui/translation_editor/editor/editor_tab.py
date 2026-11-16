@@ -467,6 +467,11 @@ class EditorTab(QWidget):
         self.__update_metadata()
         self.changed_signal.emit()
 
+    def save(self) -> None:
+        """Saves the translation currently open in this tab."""
+
+        self.__save()
+
     def __apply_database(self) -> None:
         """
         Applies database to untranslated strings.

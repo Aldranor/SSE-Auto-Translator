@@ -214,6 +214,19 @@ class EditorPage(QSplitter):
         self.tab_count_updated.emit(len(self.tabs))
         self.__update_tab_labels()
 
+    def save_all(self) -> None:
+        """Saves all open translations."""
+
+        for tab in self.tabs:
+            if tab.changes_pending:
+                tab.save()
+
+    def close_all(self) -> None:
+        """Closes all open translations without prompting for unsaved changes."""
+
+        for translation in list(self.__tabs):
+            self.close_translation(translation, silent=True)
+
     def open_translation(self, translation: Translation) -> None:
         """
         Opens a translation in a new tab.
