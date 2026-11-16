@@ -75,6 +75,9 @@ class TranslationDatabase(QObject):
     userdb_path: Path
     """The path to the user database directory (language not included)."""
 
+    profiledb_path: Path
+    """The path to the active profile's database catalog."""
+
     appdb_path: Path
     """The path to the app database directory (language not included)."""
 
@@ -83,6 +86,7 @@ class TranslationDatabase(QObject):
 
     __vanilla_translation: Translation
     __user_translations: list[Translation]
+    __shared_translations: list[Translation]
 
     log: logging.Logger = logging.getLogger("TranslationDatabase")
 
@@ -93,6 +97,8 @@ class TranslationDatabase(QObject):
         language: GameLanguage,
         vanilla_translation: Translation,
         user_translations: list[Translation],
+        profiledb_path: Optional[Path] = None,
+        shared_translations: Optional[list[Translation]] = None,
     ) -> None:
         """
         Args:
@@ -101,16 +107,22 @@ class TranslationDatabase(QObject):
             language (GameLanguage): Language of the database.
             vanilla_translation (Translation): Translation for base game + AE CC Content.
             user_translations (list[Translation]): List of user installed translations.
+            profiledb_path (Optional[Path], optional): Active profile catalog path.
+                Defaults to `userdb_path`.
+            shared_translations (Optional[list[Translation]], optional): Shared corpus.
+                Defaults to `user_translations`.
         """
 
         super().__init__()
 
         self.userdb_path = userdb_path
+        self.profiledb_path = profiledb_path or userdb_path
         self.appdb_path = appdb_path
         self.language = language
 
         self.__vanilla_translation = vanilla_translation
         self.__user_translations = user_translations
+        self.__shared_translations = shared_translations or user_translations
 
     @property
     def vanilla_translation(self) -> Translation:
@@ -129,6 +141,14 @@ class TranslationDatabase(QObject):
         return self.__user_translations
 
     @property
+    def shared_translations(self) -> list[Translation]:
+        """
+        List of translations available to every profile.
+        """
+
+        return self.__shared_translations
+
+    @property
     def strings(self) -> StringList:
         """
         A list of all strings in the database.
@@ -144,7 +164,7 @@ class TranslationDatabase(QObject):
 
         result += [
             string
-            for translation in self.__user_translations
+            for translation in self.__shared_translations
             for modfile_strings in (translation.strings or {}).values()
             for string in modfile_strings
             if string.status != StringStatus.TranslationRequired
@@ -175,6 +195,20 @@ class TranslationDatabase(QObject):
 
         return translations.get(Path(modfile_path))
 
+    def get_shared_translation_by_modfile_path(
+        self, modfile_path: Path
+    ) -> Optional[Translation]:
+        """
+        Gets a shared translation that covers a specified mod file.
+        """
+
+        translations = {
+            _modfile: translation
+            for translation in self.shared_translations
+            for _modfile in translation.strings
+        }
+        return translations.get(Path(modfile_path))
+
     def get_translation_by_mod(self, mod: Mod) -> Optional[Translation]:
         """
         Gets a translation that covers a specified mod.
@@ -186,8 +220,8 @@ class TranslationDatabase(QObject):
             Optional[Translation]: Translation that covers the mod or None.
         """
 
-        installed_translations = {
-            translation.id: translation
+        installed_translations: dict[ModId, Translation] = {
+            translation.mod_id: translation
             for translation in self.user_translations
             if translation.mod_id
         }
@@ -195,15 +229,38 @@ class TranslationDatabase(QObject):
         translation: Optional[Translation] = None
         if (
             mod.mod_id is not None
-            and f"{mod.mod_id.mod_id}###{mod.mod_id.file_id}" in installed_translations
+            and mod.mod_id in installed_translations
         ):
-            translation = installed_translations[
-                f"{mod.mod_id.mod_id}###{mod.mod_id.file_id}"
-            ]
+            translation = installed_translations[mod.mod_id]
 
         elif mod.modfiles:
             for modfile in mod.modfiles:
                 translation = self.get_translation_by_modfile_path(modfile.path)
+                if translation is not None:
+                    break
+
+        return translation
+
+    def get_shared_translation_by_mod(self, mod: Mod) -> Optional[Translation]:
+        """
+        Gets a shared translation that covers a specified mod.
+        """
+
+        installed_translations: dict[ModId, Translation] = {
+            translation.mod_id: translation
+            for translation in self.shared_translations
+            if translation.mod_id
+        }
+
+        translation: Optional[Translation] = None
+        if (
+            mod.mod_id is not None
+            and mod.mod_id in installed_translations
+        ):
+            translation = installed_translations[mod.mod_id]
+        elif mod.modfiles:
+            for modfile in mod.modfiles:
+                translation = self.get_shared_translation_by_modfile_path(modfile.path)
                 if translation is not None:
                     break
 
@@ -228,6 +285,18 @@ class TranslationDatabase(QObject):
 
         return translations.get(mod_id)
 
+    def get_shared_translation_by_mod_id(self, mod_id: ModId) -> Optional[Translation]:
+        """
+        Gets a shared translation for a specified mod and file ID.
+        """
+
+        translations: dict[ModId, Translation] = {
+            translation.mod_id: translation
+            for translation in self.shared_translations
+            if translation.mod_id is not None
+        }
+        return translations.get(mod_id)
+
     def get_translation_for_id(self, id: str) -> Translation:
         """
         Gets a translation for the specified ID.
@@ -249,6 +318,17 @@ class TranslationDatabase(QObject):
 
         raise KeyError(f"Translation with ID '{id}' not found in database.")
 
+    def get_shared_translation_for_id(self, id: str) -> Translation:
+        """
+        Gets a shared translation for the specified ID.
+        """
+
+        for translation in self.shared_translations:
+            if translation.id == id:
+                return translation
+
+        raise KeyError(f"Translation with ID '{id}' not found in database.")
+
     def is_translation_in_database(self, translation: Translation) -> bool:
         """
         Checks if a translation is already installed in the database.
@@ -261,6 +341,13 @@ class TranslationDatabase(QObject):
         """
 
         return any(t.id == translation.id for t in self.user_translations)
+
+    def is_translation_in_shared_database(self, translation: Translation) -> bool:
+        """
+        Checks whether a translation exists in the shared corpus.
+        """
+
+        return any(t.id == translation.id for t in self.shared_translations)
 
     def search_database(self, filter: SearchFilter) -> dict[Path, StringList]:
         """

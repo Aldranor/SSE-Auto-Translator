@@ -108,6 +108,7 @@ class UserDataService(SingletonQObject):
             )
 
         mod_instance = self.__load_modinstance(user_config, thread_num, pdisplay)
+        DatabaseService.synchronize_profile_with_modlist(database, mod_instance)
 
         if pdisplay is not None:
             pdisplay.updateMainProgress(
@@ -151,8 +152,11 @@ class UserDataService(SingletonQObject):
 
         appdb_path: Path = self.__res_path / "app" / "database"
         userdb_path: Path = self.__database_path / "user" / "database"
+        profiledb_path: Path = self.__data_path / "user" / "database"
 
-        return DatabaseService.load_database(appdb_path, userdb_path, language)
+        return DatabaseService.load_database(
+            appdb_path, userdb_path, language, profiledb_path
+        )
 
     def __load_modinstance(
         self,
