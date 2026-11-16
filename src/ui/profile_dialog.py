@@ -128,7 +128,7 @@ class ProfileDialog(QDialog):
                 user_config=self.__user_data.user_config,
                 translator_config=self.__user_data.translator_config,
             )
-        except (OSError, ValueError) as ex:
+        except (OSError, TypeError, ValueError) as ex:
             QMessageBox.critical(
                 self,
                 self.tr("Profile creation failed"),

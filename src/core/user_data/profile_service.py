@@ -143,15 +143,18 @@ class ProfileService:
         profile_path: Path = self.get_profile_data_path(profile.id)
         profile_path.mkdir(parents=True, exist_ok=False)
 
+        # BaseConfig stores a ConfigManager callback in a private attribute. A deep
+        # copy would try to pickle that QObject, so a shallow model copy is intentional
+        # here: the copied models are only serialized and never edited afterward.
         new_user_config: UserConfig = user_config.model_copy(
-            deep=True, update={"mod_instance": mod_instance}
+            deep=False, update={"mod_instance": mod_instance}
         )
         self.__write_config(
             profile_path / UserConfig.get_config_name(), new_user_config
         )
         self.__write_config(
             profile_path / TranslatorConfig.get_config_name(),
-            translator_config.model_copy(deep=True),
+            translator_config.model_copy(deep=False),
         )
 
         self.__registry.profiles.append(profile)
