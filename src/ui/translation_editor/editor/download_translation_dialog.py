@@ -41,6 +41,7 @@ class DownloadTranslationDialog(QDialog):
         translation: Translation,
         default_source: Source,
         mod_id: str,
+        show_source_selector: bool = True,
         parent: Optional[QWidget] = None,
     ) -> None:
         """Initialize the dialog with source and mod information when available.
@@ -49,6 +50,7 @@ class DownloadTranslationDialog(QDialog):
             translation (Translation): Translation currently open in the editor.
             default_source (Source): Initially selected download provider.
             mod_id (str): Mod ID used to prefill the editable field.
+            show_source_selector (bool): Whether to display the provider selector.
             parent (Optional[QWidget]): Parent widget.
         """
 
@@ -61,22 +63,26 @@ class DownloadTranslationDialog(QDialog):
         layout = QVBoxLayout(self)
         layout.addWidget(QLabel(self.tr("Translation: {0}").format(translation.name)))
 
-        source_layout = QHBoxLayout()
         source_group = QButtonGroup(self)
         confrerie_radio = QRadioButton(self.tr("Confrérie des Traducteurs"))
         self.__nexus_radio = QRadioButton(self.tr("Nexus Mods"))
         source_group.addButton(confrerie_radio)
         source_group.addButton(self.__nexus_radio)
-        source_layout.addWidget(confrerie_radio)
-        source_layout.addWidget(self.__nexus_radio)
-        source_layout.addStretch()
         selected_radio = (
             self.__nexus_radio
             if default_source == Source.NexusMods
             else confrerie_radio
         )
         selected_radio.setChecked(True)
-        layout.addLayout(source_layout)
+        if show_source_selector:
+            source_layout = QHBoxLayout()
+            source_layout.addWidget(confrerie_radio)
+            source_layout.addWidget(self.__nexus_radio)
+            source_layout.addStretch()
+            layout.addLayout(source_layout)
+        else:
+            confrerie_radio.hide()
+            self.__nexus_radio.hide()
 
         form = QFormLayout()
         self.__mod_id_input = QLineEdit(mod_id)

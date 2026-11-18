@@ -58,6 +58,37 @@ In addition to that, if a mod got a new mod file through an update, that also re
 After the update is complete, the mod files that had new strings are marked in purple (= _Translation incomplete_) in the mod list. +
 Now you can open the translation in the editor (if it is already open, you have to close it and open it again) and translate the new strings.
 
+[#translation-bridge]
+== Download and bridge translations
+
+When a mod has been updated or ESL-compacted, existing translations for an older release often fail to match directly because FormIDs or record layouts have changed.
+SSE-AT includes a *Translation Bridge* to transfer translations across versions cleanly.
+
+=== From the translation editor
+
+Click on _Download translation_ in the editor toolbar to open the download and bridge dialog:
+
+* *Source*: When _Only Nexus Mods_ is selected in settings, Nexus Mods is used automatically and the selector is hidden. Otherwise, choose between _Confrérie des Traducteurs_ and _Nexus Mods_ (pre-selected from the translation's saved database source when available, or from your provider preference).
+* *Mod ID / URL*: Pre-filled when detected from the open translation or installed mod; can be edited to point to any Nexus or Confrérie mod.
+* *Translation source*: Optional local file (`.7z`, `.zip`, `.rar`, `.esp`, `.esm`, `.esl`, or DSD `.json`) or folder (such as an existing SSE-AT output directory). If left empty, SSE-AT downloads the translation from the selected provider.
+* *Original source (bridge)*: Optional local archive, plugin, or folder matching the version of the translated source. If left empty while bridge mode is enabled, SSE-AT automatically selects and downloads the matching original archive from Nexus Mods (using the installed Nexus file ID when available, or scoring candidates by plugin name and category).
+* *Apply on missing strings only*: Preserves strings that are already marked as complete in the editor.
+* *Bridge translations across versions* (enabled by default): Pairs the translated source with its matching original source before applying translations to the open editor.
+
+=== How the Translation Bridge works
+
+1. *Version-matched pairing*: SSE-AT pairs the translated source and its same-version original source using local FormIDs (ignoring load-order prefixes), record types, string indexes, and EditorIDs.
+It supports embedded plugin strings, localized external string tables (`.strings`, `.dlstrings`, `.ilstrings` both loose and inside `.bsa` archives), and Dynamic String Distributor (DSD) `.json` files.
+2. *Multi-level application*: The resulting pairs are applied to the open translation in priority order:
+   * Local FormID + type + index with verified matching original text (_Translation complete_).
+   * Exact normalized original text match for renumbered or ESL-compacted records (_Translation complete_).
+   * EditorID + type / index fallback.
+   * Identical-to-original entries marked as _Translation incomplete_ on untranslated strings for manual review.
+
+=== Automatic bridge during online scan downloads
+
+When installing translations downloaded from _Search for translations_, SSE-AT automatically attempts to build and apply the Translation Bridge first (including localized string tables and DSD files) when direct Nexus downloads are available or when the archive provides DSD pairs, and falls back to standard string extraction otherwise.
+
 == Edit a translation outside of SSE-AT
 
 Translations are stored as JSON files in SSE-AT's user database (`data/user/database/<language>`), one folder per translation and one JSON file per mod file.
