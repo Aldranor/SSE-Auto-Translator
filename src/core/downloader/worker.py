@@ -145,6 +145,33 @@ class Worker(QThread):
         self.__database = database
         self.__mod_instance = mod_instance
 
+    @staticmethod
+    def __clamp_progress(update: ProgressUpdate) -> ProgressUpdate:
+        """
+        Scales `ProgressUpdate` values above Qt's 32-bit signed int limit
+        (`QProgressBar.setMaximum` / `setValue`) to prevent `OverflowError` on >2 GiB
+        files.
+        """
+
+        qt_int_max: int = 2_147_483_647
+        max_val: Optional[int] = update.maximum
+        cur_val: Optional[int] = update.value
+
+        if (max_val is not None and max_val > qt_int_max) or (
+            cur_val is not None and cur_val > qt_int_max
+        ):
+            scale_base: int = max(max_val or 0, cur_val or 0)
+            shift: int = 0
+            while (scale_base >> shift) > qt_int_max:
+                shift += 10
+            return ProgressUpdate(
+                status_text=update.status_text,
+                value=(cur_val >> shift) if cur_val is not None else None,
+                maximum=(max_val >> shift) if max_val is not None else None,
+            )
+
+        return update
+
     def __process_download(self, download: FileDownload) -> None:
         """
         Processes a file download.
@@ -200,7 +227,9 @@ class Worker(QThread):
                 url,
                 downloads_folder,
                 file_name,
-                lambda update: self.progress_updated.emit(download, update),
+                lambda update: self.progress_updated.emit(
+                    download, Worker.__clamp_progress(update)
+                ),
             )
             self.log.info(f"Downloaded translation to '{mod_file}'.")
         else:
