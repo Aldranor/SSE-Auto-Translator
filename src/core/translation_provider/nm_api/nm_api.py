@@ -146,6 +146,8 @@ class NexusModsApi(ProviderApi):
 
     __website_session: Optional[NexusWebSession]
     __website_session_lock: Lock
+    __unverified_files: set[tuple[int, int]]
+    __unverified_files_lock: Lock
 
     @override
     def __init__(self) -> None:
@@ -153,6 +155,8 @@ class NexusModsApi(ProviderApi):
 
         self.__website_session = None
         self.__website_session_lock = Lock()
+        self.__unverified_files = set()
+        self.__unverified_files_lock = Lock()
 
     def set_website_session(self, encrypted: Optional[str]) -> None:
         """
@@ -443,6 +447,14 @@ class NexusModsApi(ProviderApi):
 
         return translations
 
+    @override
+    def is_unverified_translation(self, mod_id: ModId) -> bool:
+        if not isinstance(mod_id, NxmModId) or mod_id.file_id is None:
+            return False
+
+        with self.__unverified_files_lock:
+            return (mod_id.mod_id, mod_id.file_id) in self.__unverified_files
+
     def __sort_available_translations(
         self, available_translations: list[ModId], original_mod_id: ModId
     ) -> None:
@@ -608,6 +620,7 @@ class NexusModsApi(ProviderApi):
         mod_files: NmFiles = self.__request_mod_files(game_id, mod_id)
 
         file_contents: dict[NmFile, list[str]] = {}
+        unpreviewed_files: list[NmFile] = []
         with ThreadPoolExecutor(thread_name_prefix="NexusModsApiThread") as executor:
             futures: dict[Future[Optional[list[str]]], NmFile] = {}
             for mod_file in mod_files.files:
@@ -629,6 +642,7 @@ class NexusModsApi(ProviderApi):
                 if result is not None:
                     file_contents[mod_file] = result
                 else:
+                    unpreviewed_files.append(mod_file)
                     self.log.debug(
                         f"Failed to get file contents of '{mod_file.file_name}'!"
                     )
@@ -648,9 +662,38 @@ class NexusModsApi(ProviderApi):
 
         matches.reverse()
 
-        if not matches:
-            self.log.error(f"File '{file_name}' not found in mod {mod_id}!")
+        if matches:
+            with self.__unverified_files_lock:
+                for file_id in matches:
+                    self.__unverified_files.discard((mod_id, file_id))
+            return matches
 
+        if unpreviewed_files:
+            category_order: dict[str, int] = {
+                "MAIN": 0,
+                "UPDATE": 1,
+                "OPTIONAL": 2,
+                "MISCELLANEOUS": 3,
+                "OLD_VERSION": 4,
+            }
+            unpreviewed_files.sort(
+                key=lambda f: (
+                    category_order.get((f.category_name or "").upper(), 5),
+                    -f.file_id,
+                )
+            )
+            fallback_ids: list[int] = [f.file_id for f in unpreviewed_files]
+            with self.__unverified_files_lock:
+                for file_id in fallback_ids:
+                    self.__unverified_files.add((mod_id, file_id))
+            self.log.warning(
+                f"File '{file_name}' could not be verified in mod {mod_id} because "
+                f"{len(unpreviewed_files)} file(s) lack content previews; "
+                "returning them as unverified candidates."
+            )
+            return fallback_ids
+
+        self.log.error(f"File '{file_name}' not found in mod {mod_id}!")
         return matches
 
     def __scrape_mod_translations(

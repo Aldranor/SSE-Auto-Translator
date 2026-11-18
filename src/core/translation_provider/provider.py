@@ -245,6 +245,26 @@ class TranslationProvider:
 
         return available_translations
 
+    def is_unverified_translation(self, mod_id: ModId, source: Source) -> bool:
+        """
+        Returns whether the specified translation file identifier could not be
+        verified against a content preview and requires manual user confirmation.
+
+        Args:
+            mod_id (ModId): Translation mod file identifier.
+            source (Source): Translation source.
+
+        Returns:
+            bool: True if unverified, False otherwise.
+        """
+
+        if source == Source.Local:
+            return False
+
+        return self.__provider_manager.get_provider_by_source(
+            source
+        ).is_unverified_translation(mod_id)
+
     def request_download(self, mod_id: ModId, source: Optional[Source] = None) -> str:
         """
         Requests a download url for a mod file from a specified source.

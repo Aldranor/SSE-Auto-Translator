@@ -15,6 +15,7 @@ from PySide6.QtWidgets import QCheckBox, QComboBox, QPushButton, QTreeWidgetItem
 from core.downloader.file_download import FileDownload
 from core.downloader.mod_info import ModInfo
 from core.downloader.translation_download import TranslationDownload
+from core.mod_file.translation_status import TranslationStatus
 from core.translation_provider.mod_details import ModDetails
 from core.translation_provider.nm_api.nxm_id import NxmModId
 from core.translation_provider.provider import TranslationProvider
@@ -37,6 +38,7 @@ class DownloadListItem(QTreeWidgetItem, QObject):  # pyright: ignore[reportIncom
 
     __provider: TranslationProvider
     __translation_downloads: list[TranslationDownload]
+    __unverified: bool = False
 
     __checkbox: QCheckBox
     __translations_combobox: QComboBox
@@ -66,6 +68,9 @@ class DownloadListItem(QTreeWidgetItem, QObject):  # pyright: ignore[reportIncom
 
         self.__provider = provider
         self.__translation_downloads = translation_downloads
+        self.__unverified = bool(translation_downloads) and all(
+            d.unverified for t in translation_downloads for d in t.available_downloads
+        )
 
         self.__init_ui()
 
@@ -73,6 +78,8 @@ class DownloadListItem(QTreeWidgetItem, QObject):  # pyright: ignore[reportIncom
         self.__translations_combobox.currentIndexChanged.connect(
             self.__on_translation_changed
         )
+        self.__translations_combobox.activated.connect(self.__on_user_selected)
+        self.__files_combobox.activated.connect(self.__on_user_selected)
         self.__open_translation_button.clicked.connect(self.__open_translation_modpage)
 
         for d, download in enumerate(translation_downloads):
@@ -82,6 +89,17 @@ class DownloadListItem(QTreeWidgetItem, QObject):  # pyright: ignore[reportIncom
 
         self.__translations_combobox.setEnabled(self.__translations_combobox.count() > 1)
         self.__files_combobox.setEnabled(self.__files_combobox.count() > 1)
+
+        if self.__unverified:
+            self.setForeground(1, TranslationStatus.NoTranslationAvailable.get_fg_color())
+            self.setToolTip(
+                1,
+                self.tr(
+                    "File content preview was unavailable on Nexus Mods. "
+                    "Select the matching archive or check this item to download."
+                ),
+            )
+            self.__checkbox.setChecked(False)
 
     def __init_ui(self) -> None:
         self.__checkbox = QCheckBox()
@@ -110,7 +128,8 @@ class DownloadListItem(QTreeWidgetItem, QObject):  # pyright: ignore[reportIncom
         self.treeWidget().setItemWidget(self, 4, self.__files_combobox)
 
     def __on_checked_changed(self, checked: bool) -> None:
-        if checked:
+        allow_selection: bool = bool(checked) or self.__unverified
+        if allow_selection:
             self.__translations_combobox.setEnabled(
                 self.__translations_combobox.count() > 1
             )
@@ -118,9 +137,13 @@ class DownloadListItem(QTreeWidgetItem, QObject):  # pyright: ignore[reportIncom
         else:
             self.__translations_combobox.setEnabled(False)
             self.__files_combobox.setEnabled(False)
-        self.__open_translation_button.setEnabled(checked)
+        self.__open_translation_button.setEnabled(allow_selection)
 
-        self.toggled.emit(checked, self)
+        self.toggled.emit(bool(checked), self)
+
+    def __on_user_selected(self) -> None:
+        if self.__unverified and not self.__checkbox.isChecked():
+            self.__checkbox.setChecked(True)
 
     def __on_translation_changed(self, new_index: int) -> None:
         new_translation_download: TranslationDownload = self.__translation_downloads[
