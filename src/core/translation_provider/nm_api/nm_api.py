@@ -95,7 +95,7 @@ class NexusModsApi(ProviderApi):
     """
 
     OLD_CONTENT_URL_PATTERN: re.Pattern[str] = re.compile(
-        r"https://file-metadata\.nexusmods\.com/file/nexus-files-s3-meta/\d+/\d+/[^/]+\.json",
+        r"https://file-metadata\.nexusmods\.com/file/(?:production-)?nexus-files-s3-meta/\d+/\d+/[^/]+\.json",
         re.IGNORECASE,
     )
     """
@@ -106,7 +106,7 @@ class NexusModsApi(ProviderApi):
     """
 
     INVALID_CONTENT_URL_PATTERN: re.Pattern[str] = re.compile(
-        r"https://file-metadata\.nexusmods\.com/file/nexus-files-s3-meta/\d+/\d+/"
+        r"https://file-metadata\.nexusmods\.com/file/(?:production-)?nexus-files-s3-meta/\d+/\d+/"
         r"(?P<id>[/0-9a-f\-]+)\.json",
         re.IGNORECASE,
     )
