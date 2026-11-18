@@ -387,3 +387,82 @@ class TestNexusModsApi(CoreTest):
             "https://www.nexusmods.com/skyrimspecialedition/mods/123", 503
         )
         save_cache.assert_not_called()
+
+    @pytest.mark.parametrize(
+        "url",
+        [
+            "https://file-metadata.nexusmods.com/file/nexus-files-s3-meta/1704/73920/test.7z.json",
+            "https://file-metadata.nexusmods.com/file/production-nexus-files-s3-meta/1704/115398/FDE Aela vostFR 3-0-2-115398-3-0-2-1725691575.rar.json",
+        ],
+    )
+    def test_get_file_contents_old_and_production_s3_meta(
+        self, mocker: MockerFixture, url: str
+    ) -> None:
+        """
+        Tests `NexusModsApi.__get_file_contents()` for both legacy and
+        `production-nexus-files-s3-meta` content preview URLs.
+
+        Args:
+            mocker (MockerFixture): Mocking fixture.
+            url (str): Content preview URL to test.
+        """
+
+        # given
+        api = NexusModsApi()
+        response = Mock()
+        response.json.return_value = {
+            "children": [
+                {"type": "file", "path": "FDE Aela.esp"},
+            ]
+        }
+        cached_request = mocker.patch.object(
+            api, "_cached_request", return_value=response
+        )
+        method_name: str = f"_{NexusModsApi.__name__}__get_file_contents"
+        get_file_contents = cast(
+            Callable[[str], Optional[list[str]]], getattr(api, method_name)
+        )
+
+        # when
+        actual: Optional[list[str]] = get_file_contents(url)
+
+        # then
+        assert actual == ["FDE Aela.esp"]
+        cached_request.assert_called_once_with(url)
+
+    def test_get_file_contents_rewrites_production_manifest_hash_url(
+        self, mocker: MockerFixture
+    ) -> None:
+        """
+        Tests `NexusModsApi.__get_file_contents()` rewriting hashed
+        `production-nexus-files-s3-meta` URLs to `mod-file-manifests.nexusmods.com`.
+
+        Args:
+            mocker (MockerFixture): Mocking fixture.
+        """
+
+        # given
+        api = NexusModsApi()
+        url: str = (
+            "https://file-metadata.nexusmods.com/file/"
+            "production-nexus-files-s3-meta/1704/115398/ab/cd/ef01-23.json"
+        )
+        manifest_json: bytes = (
+            b'{"files":[{"file_path":"Data/FDE Aela.esp","file_size":123}]}'
+        )
+        cached_request = mocker.patch.object(
+            api, "_cached_request", return_value=Mock(content=manifest_json)
+        )
+        method_name: str = f"_{NexusModsApi.__name__}__get_file_contents"
+        get_file_contents = cast(
+            Callable[[str], Optional[list[str]]], getattr(api, method_name)
+        )
+
+        # when
+        actual: Optional[list[str]] = get_file_contents(url)
+
+        # then
+        assert actual == ["Data\\FDE Aela.esp"] or actual == ["Data/FDE Aela.esp"]
+        cached_request.assert_called_once_with(
+            "https://mod-file-manifests.nexusmods.com/ab/cd/ef01-23"
+        )
