@@ -76,10 +76,20 @@ class PluginFile(ModFile):
                 log.info(f"Skipping external strings in localized plugin '{self.name}'.")
                 return []
 
-            with self.__get_context(plugin) as context:
-                strings: StringList = [
-                    string for string, _ in self.__iter_strings(plugin, context)
-                ]
+            try:
+                with self.__get_context(plugin) as context:
+                    strings: StringList = [
+                        string for string, _ in self.__iter_strings(plugin, context)
+                    ]
+            except BethkitError as ex:
+                log.warning(
+                    f"Decoding error in '{self.name}' ({ex}); retrying with "
+                    "preserve_undecodable=True."
+                )
+                with self.__get_context(plugin, preserve_undecodable=True) as context:
+                    strings = [
+                        string for string, _ in self.__iter_strings(plugin, context)
+                    ]
 
         log.debug(f"Extracted {len(strings)} string(s).")
         return strings
@@ -97,12 +107,16 @@ class PluginFile(ModFile):
         ).get_real_file()
         return Plugin.open(source_path, Game.SKYRIM_SE)
 
-    def __get_context(self, plugin: Plugin) -> SemanticContext:
+    def __get_context(
+        self, plugin: Plugin, preserve_undecodable: bool = False
+    ) -> SemanticContext:
         """
         Creates the schema and encoding context for a plugin.
 
         Args:
             plugin (Plugin): Source plugin.
+            preserve_undecodable (bool):
+                Preserve suspicious or undecodable inline text instead of failing.
 
         Returns:
             SemanticContext: Owned context for reading and editing strings.
@@ -122,6 +136,7 @@ class PluginFile(ModFile):
                 plugin,
                 cpoverride=override_path if override_path.is_file() else None,
                 mixed=True,
+                preserve_undecodable=preserve_undecodable,
             )
 
     def __iter_strings(
