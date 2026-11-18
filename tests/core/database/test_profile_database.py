@@ -107,3 +107,117 @@ class TestProfileDatabase(CoreTest):
             "Nolvus translation"
         ]
         assert gts_translation.path.exists()
+
+    def test_rename_updates_other_profile_catalogs(self, tmp_path: Path) -> None:
+        """Keeps renamed shared translations loadable in other profile catalogs."""
+
+        language: GameLanguage = GameLanguage.German
+        shared_root: Path = tmp_path / "user" / "database"
+        profile_a_root: Path = tmp_path / "profiles" / "a" / "user" / "database"
+        profile_b_root: Path = tmp_path / "profiles" / "b" / "user" / "database"
+        (shared_root / language.id).mkdir(parents=True)
+        (profile_a_root / language.id).mkdir(parents=True)
+        (profile_b_root / language.id).mkdir(parents=True)
+
+        translation: Translation = DataFactory.translation(
+            "Old translation",
+            shared_root / language.id,
+            {Path("Mod.esp"): []},
+        )
+        translation.save()
+
+        db_b = TranslationDatabase(
+            userdb_path=shared_root,
+            profiledb_path=profile_b_root,
+            appdb_path=tmp_path / "app",
+            language=language,
+            vanilla_translation=DataFactory.translation("Base", tmp_path / "app"),
+            user_translations=[translation],
+            shared_translations=[translation],
+        )
+        DatabaseService.save_database(db_b)
+
+        db_a = TranslationDatabase(
+            userdb_path=shared_root,
+            profiledb_path=profile_a_root,
+            appdb_path=tmp_path / "app",
+            language=language,
+            vanilla_translation=DataFactory.translation("Base", tmp_path / "app"),
+            user_translations=[translation],
+            shared_translations=[translation],
+        )
+        DatabaseService.save_database(db_a)
+
+        DatabaseService.rename_translation(translation, "New translation", db_a)
+
+        reloaded_b: TranslationDatabase = DatabaseService.load_database(
+            tmp_path / "app", shared_root, language, profile_b_root
+        )
+        assert [item.name for item in reloaded_b.user_translations] == [
+            "New translation"
+        ]
+
+    def test_reload_database_syncs_shared_translations(self, tmp_path: Path) -> None:
+        """Links reloaded profile entries to shared translations without duplicating."""
+
+        language: GameLanguage = GameLanguage.German
+        shared_root: Path = tmp_path / "shared"
+        profile_root: Path = tmp_path / "profile"
+        (shared_root / language.id).mkdir(parents=True)
+        (profile_root / language.id).mkdir(parents=True)
+
+        translation: Translation = DataFactory.translation(
+            "Shared mod",
+            shared_root / language.id,
+            {Path("Shared.esp"): []},
+        )
+        translation.save()
+
+        database = TranslationDatabase(
+            userdb_path=shared_root,
+            profiledb_path=profile_root,
+            appdb_path=tmp_path / "app",
+            language=language,
+            vanilla_translation=DataFactory.translation("Base", tmp_path / "app"),
+            user_translations=[],
+            shared_translations=[translation],
+        )
+        DatabaseService.save_database(database)
+
+        # Simulate another process adding the shared translation to this profile index
+        (profile_root / language.id / "index.json").write_text(
+            (shared_root / language.id / "index.json").read_text(encoding="utf-8"),
+            encoding="utf-8",
+        )
+
+        DatabaseService.reload_database(database)
+
+        assert len(database.user_translations) == 1
+        assert database.user_translations[0] is database.shared_translations[0]
+
+    def test_create_translation_skips_blank_when_no_relevant_modfiles(
+        self, tmp_path: Path
+    ) -> None:
+        """Does not persist an empty translation when a mod has no relevant files."""
+
+        language: GameLanguage = GameLanguage.German
+        shared_root: Path = tmp_path / "shared"
+        profile_root: Path = tmp_path / "profile"
+        (shared_root / language.id).mkdir(parents=True)
+        (profile_root / language.id).mkdir(parents=True)
+
+        database = TranslationDatabase(
+            userdb_path=shared_root,
+            profiledb_path=profile_root,
+            appdb_path=tmp_path / "app",
+            language=language,
+            vanilla_translation=DataFactory.translation("Base", tmp_path / "app"),
+            user_translations=[],
+            shared_translations=[],
+        )
+        mod_instance_mod = DataFactory.mod("Empty mod", [])
+
+        DatabaseService.create_translation_for_mod(mod_instance_mod, database)
+
+        assert database.user_translations == []
+        assert database.shared_translations == []

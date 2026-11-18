@@ -161,7 +161,7 @@ class TranslationGlossary(QObject):
         self.__database_glossary = []
         database_examples: list[TranslationGlossary.Example] = []
 
-        translations: list[Translation] = self.__database.user_translations + [
+        translations: list[Translation] = self.__database.shared_translations + [
             self.__database.vanilla_translation
         ]
         for translation in translations:

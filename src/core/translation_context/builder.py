@@ -421,7 +421,7 @@ class ContextBuilder(QObject):
                 [all_strings]
                 + [
                     translation.strings
-                    for translation in self.__database.user_translations
+                    for translation in self.__database.shared_translations
                 ]
                 + [self.__database.vanilla_translation.strings]
             )
@@ -487,7 +487,7 @@ class ContextBuilder(QObject):
 
         translations: list[Translation] = [
             self.__database.vanilla_translation
-        ] + self.__database.user_translations
+        ] + self.__database.shared_translations
 
         key: tuple[str, str]
         seen: set[tuple[str, str]] = set()
