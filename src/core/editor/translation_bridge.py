@@ -8,7 +8,7 @@ import tempfile
 from pathlib import Path
 from typing import Any, Optional
 
-from bethkit import StringFileKind, StringTable
+from bethkit import BethkitError, StringFileKind, StringTable
 from curl_cffi import requests as curl_requests
 from cutleast_core_lib.core.archive_legacy.archive import Archive
 from sse_bsa import BSAArchive
@@ -27,6 +27,7 @@ _TABLE_KINDS: dict[str, StringFileKind] = {
 }
 _PLUGIN_SUFFIXES: set[str] = {".esp", ".esm", ".esl"}
 _BRIDGE_ERRORS: tuple[type[Exception], ...] = (
+    BethkitError,
     OSError,
     ValueError,
     RuntimeError,

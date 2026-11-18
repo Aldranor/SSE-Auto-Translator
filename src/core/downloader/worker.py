@@ -9,6 +9,7 @@ from queue import Empty, Queue
 from tempfile import gettempdir
 from typing import Any, Optional, override
 
+from bethkit import BethkitError
 from cutleast_core_lib.core.archive_legacy.archive import Archive
 from cutleast_core_lib.core.downloader import Downloader
 from cutleast_core_lib.core.multithreading.progress import ProgressUpdate
@@ -229,7 +230,7 @@ class Worker(QThread):
         strings: dict[Path, StringList] = {}
         try:
             strings = self.__try_bridge_install(download, downloaded_file)
-        except (OSError, ValueError, RuntimeError, LookupError) as ex:
+        except (BethkitError, OSError, ValueError, RuntimeError, LookupError) as ex:
             self.log.warning(
                 f"Bridge install failed for '{downloaded_file.name}', "
                 f"falling back to standard extraction: {ex}"
@@ -337,11 +338,19 @@ class Worker(QThread):
 
         result: dict[Path, StringList] = {}
         for _, modfile in target_modfiles:
-            target_strings = modfile.get_strings()
-            if not target_strings and isinstance(modfile, PluginFile):
-                target_strings = TranslationBridge.extract_localized_plugin_strings(
-                    modfile.full_path, "english"
+            try:
+                target_strings = modfile.get_strings()
+                if not target_strings and isinstance(modfile, PluginFile):
+                    target_strings = (
+                        TranslationBridge.extract_localized_plugin_strings(
+                            modfile.full_path, "english"
+                        )
+                    )
+            except (BethkitError, OSError, ValueError, RuntimeError, LookupError) as ex:
+                self.log.warning(
+                    f"Skipping bridge target '{modfile.name}' due to read error: {ex}"
                 )
+                continue
             if not target_strings:
                 continue
             changed = TranslationBridge.apply_bridge(
