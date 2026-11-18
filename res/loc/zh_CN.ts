@@ -84,22 +84,22 @@
 <context>
     <name>AlertDetailsWidget</name>
     <message>
-        <location filename="core-lib/src/cutleast_core_lib/ui/alerts/details_widget.py" line="96"/>
+        <location filename="core-lib/src/cutleast_core_lib/ui/alerts/details_widget.py" line="98"/>
         <source>Dismiss alert</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core-lib/src/cutleast_core_lib/ui/alerts/details_widget.py" line="108"/>
+        <location filename="core-lib/src/cutleast_core_lib/ui/alerts/details_widget.py" line="110"/>
         <source>Details (e.g. traceback)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core-lib/src/cutleast_core_lib/ui/alerts/details_widget.py" line="122"/>
+        <location filename="core-lib/src/cutleast_core_lib/ui/alerts/details_widget.py" line="124"/>
         <source>Copy details</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="core-lib/src/cutleast_core_lib/ui/alerts/details_widget.py" line="135"/>
+        <location filename="core-lib/src/cutleast_core_lib/ui/alerts/details_widget.py" line="137"/>
         <source>Additional context</source>
         <translation type="unfinished"></translation>
     </message>
@@ -282,7 +282,7 @@ You can disable it under Help &gt; Fix Windows Path Limit.</source>
         <location filename="core-lib/src/cutleast_core_lib/ui/settings/app_settings.py" line="156"/>
         <location filename="src/ui/settings/app_settings.py" line="380"/>
         <source>Accent color must be a valid hexadecimal color code!</source>
-        <translation>强调色必须是有效的十六进制颜色代码！</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/ui/settings/app_settings.py" line="128"/>
@@ -345,7 +345,7 @@ This feature is considered experimental because a crash might prevent it from un
     <message>
         <location filename="src/ui/settings/app_settings.py" line="154"/>
         <source>Accent color</source>
-        <translation>强调色</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/ui/settings/app_settings.py" line="172"/>
@@ -727,18 +727,18 @@ This list only affects translations from Nexus Mods!</source>
 <context>
     <name>DatabaseUpdater</name>
     <message>
-        <location filename="src/core/database/database_updater.py" line="89"/>
-        <location filename="src/core/database/database_updater.py" line="94"/>
+        <location filename="src/core/database/database_updater.py" line="92"/>
+        <location filename="src/core/database/database_updater.py" line="97"/>
         <source>Updating database translations...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/core/database/database_updater.py" line="205"/>
+        <location filename="src/core/database/database_updater.py" line="210"/>
         <source>Adding missing mod files to translations...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/core/database/database_updater.py" line="172"/>
+        <location filename="src/core/database/database_updater.py" line="177"/>
         <source>Updating translation strings...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -3244,7 +3244,7 @@ Click on &quot;Show details&quot; to view used filter.</source>
         <translation>正在从&apos;{0}&apos;提取字符串...</translation>
     </message>
     <message>
-        <location filename="src/core/string/string_extractor.py" line="226"/>
+        <location filename="src/core/string/string_extractor.py" line="227"/>
         <source>Processing &apos;{0}&apos;...</source>
         <translation>正在处理 &apos;{0}&apos;...</translation>
     </message>
@@ -3810,6 +3810,71 @@ Click on &quot;Show details&quot; to view used filter.</source>
     </message>
 </context>
 <context>
+    <name>TextDiffView</name>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_diff_view.py" line="57"/>
+        <source>Before</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_diff_view.py" line="60"/>
+        <source>After</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TextEditHistory</name>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/utilities/text_edit_history.py" line="92"/>
+        <source>Edit history</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>TextHistoryDialog</name>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_history_dialog.py" line="74"/>
+        <source>Edit history</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_history_dialog.py" line="103"/>
+        <source>Compare with previous revision</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_history_dialog.py" line="109"/>
+        <source>Restore</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_history_dialog.py" line="113"/>
+        <source>Close</source>
+        <translation type="unfinished">关闭</translation>
+    </message>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_history_dialog.py" line="128"/>
+        <source>(current)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_history_dialog.py" line="152"/>
+        <source>Previous revision</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_history_dialog.py" line="152"/>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_history_dialog.py" line="157"/>
+        <source>Selected revision</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="core-lib/src/cutleast_core_lib/ui/widgets/text_history_dialog.py" line="157"/>
+        <source>Current text</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ToastNotifier</name>
     <message>
         <location filename="src/ui/toast_notifier.py" line="35"/>
@@ -3886,37 +3951,42 @@ Click on &quot;Show details&quot; to view used filter.</source>
 <context>
     <name>TranslationsMenu</name>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="77"/>
+        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="84"/>
         <source>Show translation strings...</source>
         <translation>显示已翻译的字符串...</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="85"/>
+        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="92"/>
         <source>Edit translation...</source>
         <translation>编辑翻译文件...</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="93"/>
+        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="100"/>
         <source>Rename translation...</source>
         <translation>重命名翻译文件...</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="103"/>
+        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="110"/>
         <source>Export translation...</source>
         <translation>导出翻译文件...</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="112"/>
+        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="119"/>
+        <source>Update translation from installed mods</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="128"/>
         <source>Delete selected translation(s)...</source>
         <translation>删除选中的翻译文件...</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="126"/>
+        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="142"/>
         <source>Open mod page...</source>
         <translation>打开 Mod 页面...</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="130"/>
+        <location filename="src/ui/main_page/database/translations/translations_menu.py" line="146"/>
         <source>Open in Explorer...</source>
         <translation>在资源管理器中打开...</translation>
     </message>
@@ -3924,85 +3994,85 @@ Click on &quot;Show details&quot; to view used filter.</source>
 <context>
     <name>TranslationsTab</name>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="152"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="153"/>
         <source>Database</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="165"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="166"/>
         <source>Installed Translations:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="210"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="211"/>
         <source>You can import translations by dragging and dropping mod archives into the list above.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="225"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="226"/>
         <source>Base Game + AE CC Content</source>
         <translation>游戏本体 + AE CC 内容</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="248"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="249"/>
         <source>Search Results</source>
         <translation>搜索结果</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="256"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="257"/>
         <source>No strings found!</source>
         <translation>未找到任何字符串！</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="258"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="259"/>
         <source>Did not find any strings matching the given filter!
 Click on &quot;Show details&quot; to view used filter.</source>
         <translation>未找到任何符合给定筛选条件的字符串！
 点击&quot;显示详情&quot;以查看已使用的筛选条件。</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="281"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="282"/>
         <source>{num} translation(s) could not be reloaded and were left unchanged. Check the alerts for details.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="287"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="288"/>
         <source>Database reloaded with errors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="294"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="295"/>
         <source>Database reloaded</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="276"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="277"/>
         <source>Successfully reloaded {num} translation(s) from disk.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="313"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="314"/>
         <source>Mod archive</source>
         <translation>模组存档</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="317"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="318"/>
         <source>Import Translation...</source>
         <translation>导入翻译文件...</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="402"/>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="411"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="410"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="419"/>
         <source>Database update complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="404"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="412"/>
         <source>Successfully updated translations for {num} mod file(s).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="412"/>
+        <location filename="src/ui/main_page/database/translations/translations_tab.py" line="420"/>
         <source>All translations are up-to-date.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4038,42 +4108,42 @@ Click on &quot;Show details&quot; to view used filter.</source>
 <context>
     <name>TranslationsWidget</name>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="462"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="474"/>
         <source>Rename translation</source>
         <translation>重命名翻译文件</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="463"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="475"/>
         <source>Enter new translation name:</source>
         <translation>输入新的翻译文件名称：</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="466"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="478"/>
         <source>Ok</source>
         <translation>确定</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="467"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="479"/>
         <source>Cancel</source>
         <translation>取消</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="507"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="519"/>
         <source>Export translation...</source>
         <translation>导出翻译文件...</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="525"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="537"/>
         <source>Export successful!</source>
         <translation>导出成功！</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="526"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="538"/>
         <source>Translation successfully exported.</source>
         <translation>翻译成功导出。</translation>
     </message>
     <message numerus="yes">
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="537"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="554"/>
         <source>Delete translation</source>
         <comment>Delete translations</comment>
         <translation>
@@ -4081,7 +4151,7 @@ Click on &quot;Show details&quot; to view used filter.</source>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="544"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="561"/>
         <source>Are you sure you want to delete this translation?</source>
         <comment>Are you sure you want to delete %n translations?</comment>
         <translation>
@@ -4089,12 +4159,12 @@ Click on &quot;Show details&quot; to view used filter.</source>
         </translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="553"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="570"/>
         <source>No</source>
         <translation>否</translation>
     </message>
     <message>
-        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="554"/>
+        <location filename="src/ui/main_page/database/translations/translations_widget.py" line="571"/>
         <source>Yes</source>
         <translation>是</translation>
     </message>
@@ -4163,43 +4233,43 @@ Click on &quot;Show details&quot; to view used filter.</source>
 <context>
     <name>TranslatorDialog</name>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="388"/>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="657"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="392"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="670"/>
         <source>Translate with API</source>
         <translation>使用 API 进行翻译</translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="319"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="321"/>
         <source>Context</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="333"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="335"/>
         <source>Translation</source>
         <translation type="unfinished">翻译</translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="354"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="358"/>
         <source>Diagnostics</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="377"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="381"/>
         <source>Highlighted placeholders occur a different number of times in the translation than in the original (translation/original).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="398"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="402"/>
         <source>Reset string</source>
         <translation>重置字符串</translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="408"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="412"/>
         <source>Sync identical strings</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="420"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="424"/>
         <source>F1: Translation complete
 F2: Translation incomplete
 F3: No translation required
@@ -4207,42 +4277,42 @@ F4: Reset string</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="654"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="667"/>
         <source>Translate selected part with API</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="733"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="762"/>
         <source>Sync identical strings ({count} more)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="428"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="432"/>
         <source>Status</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="272"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="274"/>
         <source>Copy ID</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="291"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="293"/>
         <source>Previous</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="304"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="306"/>
         <source>Next</source>
         <translation type="unfinished">下一步</translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="436"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="440"/>
         <source>Close</source>
         <translation type="unfinished">关闭</translation>
     </message>
     <message>
-        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="707"/>
+        <location filename="src/ui/translation_editor/editor/dialog/dialog.py" line="736"/>
         <source>Matching placeholders:</source>
         <translation type="unfinished"></translation>
     </message>
