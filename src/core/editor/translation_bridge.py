@@ -609,7 +609,7 @@ class TranslationBridge:
                 and target.status == StringStatus.TranslationRequired
             ):
                 target.string = fr_match
-                target.status = StringStatus.TranslationIncomplete
+                target.status = StringStatus.TranslationComplete
                 modified_strings.append(target)
                 identical_applied += 1
 
