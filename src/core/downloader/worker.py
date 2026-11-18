@@ -305,7 +305,7 @@ class Worker(QThread):
         if not plugin_names and not table_stems:
             return {}
 
-        target_modfiles: list[tuple[Mod, ModFile]] = [
+        exact_modfiles: list[tuple[Mod, ModFile]] = [
             (mod, modfile)
             for mod in self.__mod_instance.mods
             for modfile in mod.modfiles
@@ -315,6 +315,25 @@ class Worker(QThread):
                 and modfile.path.stem.lower() in table_stems
             )
         ]
+        matched_names: set[str] = {mf.name.lower() for _, mf in exact_modfiles}
+        unmatched_stems: set[str] = {
+            Path(name).stem.lower()
+            for name in plugin_names
+            if name not in matched_names
+        }
+        stem_modfiles: list[tuple[Mod, ModFile]] = (
+            [
+                (mod, modfile)
+                for mod in self.__mod_instance.mods
+                for modfile in mod.modfiles
+                if isinstance(modfile, PluginFile)
+                and modfile.path.stem.lower() in unmatched_stems
+                and (mod, modfile) not in exact_modfiles
+            ]
+            if unmatched_stems
+            else []
+        )
+        target_modfiles: list[tuple[Mod, ModFile]] = exact_modfiles + stem_modfiles
         if not target_modfiles:
             return {}
 
