@@ -55,6 +55,7 @@ from core.translation_provider.mod_id import ModId
 from core.translation_provider.nm_api.nm_api import NexusModsApi
 from core.translation_provider.nm_api.nxm_id import NxmModId
 from core.translation_provider.provider import TranslationProvider
+from core.translation_provider.provider_preference import ProviderPreference
 from core.translation_provider.source import Source
 from core.translator.models.excerpt import TranslationExcerpt
 from core.translator.service import TranslatorService
@@ -516,13 +517,22 @@ class EditorTab(QWidget):
                     if detected_source == Source.Local:
                         detected_source = Source.NexusMods
                 break
-        if detected_source == Source.Local:
-            detected_source = Source.Confrerie
+        preference = self.__user_data.user_config.provider_preference
+        show_source_selector = preference != ProviderPreference.OnlyNexusMods
+        if not show_source_selector:
+            detected_source = Source.NexusMods
+        elif detected_source not in (Source.Confrerie, Source.NexusMods):
+            detected_source = (
+                Source.NexusMods
+                if preference == ProviderPreference.PreferNexusMods
+                else Source.Confrerie
+            )
 
         dialog = DownloadTranslationDialog(
             translation=self.__translation,
             default_source=detected_source,
             mod_id=detected_id,
+            show_source_selector=show_source_selector,
             parent=self,
         )
         if dialog.exec() != QDialog.DialogCode.Accepted:
