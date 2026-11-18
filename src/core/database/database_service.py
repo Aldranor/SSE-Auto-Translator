@@ -11,6 +11,7 @@ from typing import Any, Optional
 import jstyleson as json
 from cutleast_core_lib.core.alerts.alert import Alert
 from cutleast_core_lib.core.alerts.manager import AlertManager
+from cutleast_core_lib.core.filesystem.utils import rem_last_suffix
 from cutleast_core_lib.core.multithreading.progress import ProgressUpdate
 from cutleast_core_lib.core.utilities.exceptions import format_exception
 from cutleast_core_lib.core.utilities.unique import unique
@@ -22,19 +23,30 @@ from core.database.translation import Translation
 from core.mod_file.mod_file import ModFile
 from core.mod_file.translation_status import TranslationStatus
 from core.mod_instance.mod import Mod
+from core.string.string_loader import StringLoader
 from core.string.string_utils import StringUtils
 from core.string.types import StringList
+from core.translation_provider.mod_id import ModId
 from core.translation_provider.source import Source
+from core.utilities.constants import OUTPUT_MOD_MARKER_FILENAME
 from core.utilities.game_language import GameLanguage
 
 from .database import TranslationDatabase
+from .database_import_result import DatabaseImportResult
 from .database_reload_result import DatabaseReloadResult
+from .translation_service import TranslationService
 
 
 class DatabaseService:
     """
     Service class for managing the translation database.
     """
+
+    LEGACY_STORAGE_DIR_NAMES: set[str] = {
+        "local_mod_translations",
+        "source_mod_translations",
+    }
+    """Folder names used by legacy databases to store hashed translation folders."""
 
     log: logging.Logger = logging.getLogger("DatabaseService")
 
@@ -841,3 +853,576 @@ class DatabaseService:
             cls.add_translation(translation, database)
 
         return translation
+
+    @classmethod
+    def import_database_folder(
+        cls,
+        folder_path: Path,
+        database: TranslationDatabase,
+        pdisplay: Optional[ProgressDisplay] = None,
+    ) -> DatabaseImportResult:
+        """
+        Imports translations from a legacy database directory or a single translation
+        folder into the specified translation database.
+
+        Args:
+            folder_path (Path):
+                Path to the database folder (or single translation folder) to import.
+            database (TranslationDatabase): The target translation database.
+            pdisplay (Optional[ProgressDisplay], optional):
+                Progress display to report the import progress to. Defaults to None.
+
+        Returns:
+            DatabaseImportResult: Summary of the import operation.
+        """
+
+        return cls.import_database_folders(
+            folder_paths=[folder_path], database=database, pdisplay=pdisplay
+        )
+
+    @classmethod
+    def import_database_folders(
+        cls,
+        folder_paths: list[Path],
+        database: TranslationDatabase,
+        pdisplay: Optional[ProgressDisplay] = None,
+    ) -> DatabaseImportResult:
+        """
+        Imports translations from one or more legacy database folders or individual
+        translation folders into the specified translation database. Both indexed entries
+        and unindexed existing folders on disk are recovered. Existing translations and
+        already-covered mod files in the target database are skipped without modification.
+
+        Args:
+            folder_paths (list[Path]): Paths to database or translation folders.
+            database (TranslationDatabase): The target translation database.
+            pdisplay (Optional[ProgressDisplay], optional):
+                Progress display to report the import progress to. Defaults to None.
+
+        Returns:
+            DatabaseImportResult: Summary of the import operation.
+        """
+
+        cls.log.info(
+            f"Importing translation folder(s) into '{database.language}' database..."
+        )
+
+        candidates: list[tuple[Translation, Path]]
+        failed_count: int
+        candidates, failed_count = cls.__collect_import_candidates(
+            folder_paths, database.language
+        )
+
+        target_db_dir: Path = database.userdb_path / database.language.id
+        target_db_dir.mkdir(parents=True, exist_ok=True)
+
+        existing_names: set[str] = {
+            translation.name.lower() for translation in database.user_translations
+        }
+        existing_mod_ids: set[ModId] = {
+            translation.mod_id
+            for translation in database.user_translations
+            if translation.mod_id is not None
+        }
+        covered_modfiles: set[str] = {
+            DatabaseService.__normalize_modfile_key(modfile_path)
+            for translation in database.user_translations
+            for modfile_path in translation.strings
+        }
+
+        added_translations: list[Translation] = []
+        skipped_count: int = 0
+
+        for i, (candidate, source_path) in enumerate(candidates):
+            if pdisplay is not None:
+                pdisplay.updateMainProgress(
+                    ProgressUpdate(
+                        status_text=f"{candidate.name} ({i + 1}/{len(candidates)})",
+                        value=i,
+                        maximum=len(candidates),
+                    )
+                )
+
+            if (source_path / OUTPUT_MOD_MARKER_FILENAME).is_file():
+                skipped_count += 1
+                continue
+
+            json_files: list[Path] = [
+                json_file
+                for json_file in source_path.rglob("*.json")
+                if TranslationService.is_translation_json_file(json_file)
+            ]
+            if not json_files:
+                skipped_count += 1
+                cls.log.debug(
+                    f"Skipping folder '{source_path}' without valid translation files."
+                )
+                continue
+
+            if (
+                source_path.parent.name.lower()
+                in DatabaseService.LEGACY_STORAGE_DIR_NAMES
+                and candidate.name == source_path.name
+            ):
+                first_modfile: Path = rem_last_suffix(json_files[0]).relative_to(
+                    source_path
+                )
+                candidate.name = f"{first_modfile.name} - {database.language.name}"
+
+            normalized_name: str = DatabaseService.__normalize_translation_name(
+                candidate.name
+            )
+            uncovered_json_files: list[tuple[Path, Path]] = [
+                (
+                    rem_last_suffix(json_file).relative_to(source_path),
+                    json_file,
+                )
+                for json_file in json_files
+                if (
+                    DatabaseService.__normalize_modfile_key(
+                        rem_last_suffix(json_file).relative_to(source_path)
+                    )
+                    not in covered_modfiles
+                )
+            ]
+
+            if (
+                normalized_name.lower() in existing_names
+                or (
+                    candidate.mod_id is not None and candidate.mod_id in existing_mod_ids
+                )
+                or not uncovered_json_files
+            ):
+                skipped_count += 1
+                continue
+
+            try:
+                strings: dict[Path, StringList] = cls.__load_uncovered_strings(
+                    uncovered_json_files
+                )
+            except (OSError, ValidationError) as ex:
+                failed_count += 1
+                cls.__report_import_failure(normalized_name, source_path, ex)
+                continue
+
+            if not strings:
+                skipped_count += 1
+                continue
+
+            candidate.name = normalized_name
+            candidate.path = target_db_dir / normalized_name
+            candidate.strings = strings
+            candidate.remove_duplicates(save=False)
+            candidate.save()
+            candidate.size  # build size cache on worker thread  # noqa: B018
+
+            existing_names.add(normalized_name.lower())
+            if candidate.mod_id is not None:
+                existing_mod_ids.add(candidate.mod_id)
+            for modfile_path in candidate.strings:
+                covered_modfiles.add(
+                    DatabaseService.__normalize_modfile_key(modfile_path)
+                )
+
+            added_translations.append(candidate)
+            cls.log.debug(f"Imported new translation '{candidate.name}'.")
+
+        cls.__finalize_import(
+            database=database,
+            added_translations=added_translations,
+        )
+
+        result = DatabaseImportResult(
+            imported=len(added_translations),
+            skipped=skipped_count,
+            failed=failed_count,
+        )
+        cls.log.info(f"Finished importing database folder(s): {result}")
+
+        return result
+
+    @staticmethod
+    def __load_uncovered_strings(
+        uncovered_json_files: list[tuple[Path, Path]],
+    ) -> dict[Path, StringList]:
+        """
+        Loads translation string lists for the specified uncovered JSON files.
+
+        Args:
+            uncovered_json_files (list[tuple[Path, Path]]):
+                Pairs of `(modfile_path, json_file_path)` to load.
+
+        Raises:
+            OSError: If a JSON file cannot be read.
+            ValidationError: If a JSON file contains malformed string data.
+
+        Returns:
+            dict[Path, StringList]: Non-empty string lists keyed by mod file path.
+        """
+
+        strings: dict[Path, StringList] = {}
+        for modfile_path, json_file in uncovered_json_files:
+            loaded_strings: StringList = StringLoader.load_strings_from_json_file(
+                json_file
+            )
+            if loaded_strings:
+                strings[modfile_path] = loaded_strings
+
+        return strings
+
+    @classmethod
+    def __finalize_import(
+        cls,
+        database: TranslationDatabase,
+        added_translations: list[Translation],
+    ) -> None:
+        """
+        Applies newly imported translations to the database, emits signals and persists
+        the index file.
+
+        Args:
+            database (TranslationDatabase): Target translation database.
+            added_translations (list[Translation]): Newly imported translations.
+        """
+
+        if not added_translations:
+            return
+
+        cls.add_translations(
+            translations=added_translations, database=database, save=True
+        )
+
+    @classmethod
+    def __collect_import_candidates(
+        cls, folder_paths: list[Path], language: GameLanguage
+    ) -> tuple[list[tuple[Translation, Path]], int]:
+        """
+        Collects all candidate translations and their source directories from the
+        specified folder paths.
+
+        Args:
+            folder_paths (list[Path]): Input folder paths to scan.
+            language (GameLanguage): Target game language.
+
+        Returns:
+            tuple[list[tuple[Translation, Path]], int]:
+                List of `(Translation, source_path)` pairs and the number of failed index
+                entries.
+        """
+
+        candidates: list[tuple[Translation, Path]] = []
+        failed_count: int = 0
+        for folder_path in folder_paths:
+            folder_candidates: list[tuple[Translation, Path]]
+            folder_failed: int
+            folder_candidates, folder_failed = (
+                cls.__collect_import_candidates_from_folder(folder_path, language)
+            )
+            candidates.extend(folder_candidates)
+            failed_count += folder_failed
+
+        return candidates, failed_count
+
+    @classmethod
+    def __collect_import_candidates_from_folder(
+        cls, folder_path: Path, language: GameLanguage
+    ) -> tuple[list[tuple[Translation, Path]], int]:
+        """
+        Collects candidate translations from a single folder path (either a single
+        translation folder or a database directory).
+
+        Args:
+            folder_path (Path): Folder path to inspect.
+            language (GameLanguage): Target game language.
+
+        Returns:
+            tuple[list[tuple[Translation, Path]], int]:
+                List of `(Translation, source_path)` pairs and the number of failed index
+                entries.
+        """
+
+        resolved_folder: Path = DatabaseService.__resolve_database_folder(
+            folder_path, language
+        )
+        if not resolved_folder.is_dir():
+            return [], 0
+
+        if DatabaseService.__is_single_translation_folder(resolved_folder):
+            name: str = DatabaseService.__normalize_translation_name(
+                resolved_folder.name
+            )
+            return [(Translation(name=name, path=resolved_folder), resolved_folder)], 0
+
+        candidates: list[tuple[Translation, Path]] = []
+        covered_paths: set[str] = set()
+        covered_root_names: set[str] = set()
+        failed_count: int = 0
+
+        index_path: Path = resolved_folder / "index.json"
+        if index_path.is_file():
+            failed_count += cls.__collect_indexed_candidates(
+                resolved_folder=resolved_folder,
+                index_path=index_path,
+                candidates=candidates,
+                covered_paths=covered_paths,
+                covered_root_names=covered_root_names,
+            )
+
+        cls.__collect_unindexed_disk_candidates(
+            resolved_folder=resolved_folder,
+            candidates=candidates,
+            covered_paths=covered_paths,
+            covered_root_names=covered_root_names,
+        )
+
+        return candidates, failed_count
+
+    @classmethod
+    def __collect_indexed_candidates(
+        cls,
+        resolved_folder: Path,
+        index_path: Path,
+        candidates: list[tuple[Translation, Path]],
+        covered_paths: set[str],
+        covered_root_names: set[str],
+    ) -> int:
+        """
+        Populates import candidates from an existing `index.json` file.
+
+        Args:
+            resolved_folder (Path): Database folder containing the index file.
+            index_path (Path): Path to the `index.json` file.
+            candidates (list[tuple[Translation, Path]]): List to append candidates to.
+            covered_paths (set[str]): Set of normalized folder paths already covered.
+            covered_root_names (set[str]): Set of lowercase root folder names covered.
+
+        Returns:
+            int: Number of index entries that failed to parse.
+        """
+
+        failed_count: int = 0
+        try:
+            with index_path.open(encoding="utf8") as index_file:
+                raw_index: Any = json.load(index_file)
+        except (OSError, ValueError) as ex:
+            cls.__report_import_failure("index.json", index_path, ex)
+            return 1
+
+        if not isinstance(raw_index, list):
+            return 0
+
+        for entry in raw_index:
+            if not isinstance(entry, dict):
+                continue
+
+            raw_name: str = str(entry.get("name", ""))
+            try:
+                loaded_translation = Translation.from_index_data(entry, resolved_folder)
+                normalized_name: str = DatabaseService.__normalize_translation_name(
+                    loaded_translation.name
+                )
+                loaded_translation.name = normalized_name
+                source_path: Path = loaded_translation.path
+                if not source_path.is_dir():
+                    fallback_path: Path = resolved_folder / normalized_name
+                    if fallback_path.is_dir():
+                        source_path = fallback_path
+
+                if not source_path.is_dir():
+                    continue
+
+                covered_paths.add(DatabaseService.__normalize_folder_key(source_path))
+                if source_path.parent == resolved_folder:
+                    covered_root_names.add(normalized_name.lower())
+
+                candidates.append((loaded_translation, source_path))
+            except (KeyError, OSError, ValidationError) as ex:
+                failed_count += 1
+                cls.__report_import_failure(raw_name, resolved_folder / raw_name, ex)
+
+        return failed_count
+
+    @classmethod
+    def __collect_unindexed_disk_candidates(
+        cls,
+        resolved_folder: Path,
+        candidates: list[tuple[Translation, Path]],
+        covered_paths: set[str],
+        covered_root_names: set[str],
+    ) -> None:
+        """
+        Scans the database directory on disk and appends any existing translation
+        folders that were not already listed in `index.json`.
+
+        Args:
+            resolved_folder (Path): Database directory to scan.
+            candidates (list[tuple[Translation, Path]]): List to append candidates to.
+            covered_paths (set[str]): Set of normalized folder paths already covered.
+            covered_root_names (set[str]): Set of lowercase root folder names covered.
+        """
+
+        subdirs: list[Path] = sorted(
+            (path for path in resolved_folder.iterdir() if path.is_dir()),
+            key=lambda path: path.name.lower(),
+        )
+        for subdir in subdirs:
+            if subdir.name.lower() in DatabaseService.LEGACY_STORAGE_DIR_NAMES:
+                hashed_dirs: list[Path] = sorted(
+                    (path for path in subdir.iterdir() if path.is_dir()),
+                    key=lambda path: path.name.lower(),
+                )
+                for hashed_dir in hashed_dirs:
+                    hashed_key: str = DatabaseService.__normalize_folder_key(hashed_dir)
+                    if hashed_key not in covered_paths:
+                        covered_paths.add(hashed_key)
+                        candidates.append(
+                            (
+                                Translation(name=hashed_dir.name, path=hashed_dir),
+                                hashed_dir,
+                            )
+                        )
+                continue
+
+            normalized_name: str = DatabaseService.__normalize_translation_name(
+                subdir.name
+            )
+            folder_key: str = DatabaseService.__normalize_folder_key(subdir)
+            if (
+                folder_key in covered_paths
+                or normalized_name.lower() in covered_root_names
+            ):
+                continue
+
+            covered_paths.add(folder_key)
+            covered_root_names.add(normalized_name.lower())
+            candidates.append((Translation(name=normalized_name, path=subdir), subdir))
+
+    @staticmethod
+    def __resolve_database_folder(folder_path: Path, language: GameLanguage) -> Path:
+        """
+        Resolves a user-selected directory to the language-specific database folder when
+        a parent `database` or `data` folder was selected.
+
+        Args:
+            folder_path (Path): Selected folder path.
+            language (GameLanguage): Target language of the active database.
+
+        Returns:
+            Path: Resolved folder path.
+        """
+
+        if not (folder_path / "index.json").is_file():
+            language_dir: Path = folder_path / language.id
+            if language_dir.is_dir():
+                return language_dir
+
+            nested_language_dir: Path = folder_path / "user" / "database" / language.id
+            if nested_language_dir.is_dir():
+                return nested_language_dir
+
+        return folder_path
+
+    @staticmethod
+    def __is_single_translation_folder(folder_path: Path) -> bool:
+        """
+        Determines whether a folder is an individual translation folder rather than a
+        parent database directory containing multiple translation folders.
+
+        Args:
+            folder_path (Path): Folder path to inspect.
+
+        Returns:
+            bool: `True` if `folder_path` directly represents a single translation.
+        """
+
+        if (folder_path / "index.json").is_file() or (
+            folder_path / OUTPUT_MOD_MARKER_FILENAME
+        ).is_file():
+            return False
+
+        if any(
+            TranslationService.is_translation_json_file(file)
+            for file in folder_path.glob("*.json")
+        ):
+            return True
+
+        interface_dir: Path = folder_path / "interface"
+        return interface_dir.is_dir() and any(
+            TranslationService.is_translation_json_file(file)
+            for file in interface_dir.rglob("*.json")
+        )
+
+    @staticmethod
+    def __normalize_translation_name(name: str) -> str:
+        """
+        Normalizes a translation name by stripping trailing dots and spaces that Windows
+        filesystems remove from directory names.
+
+        Args:
+            name (str): Raw translation name.
+
+        Returns:
+            str: Normalized translation name.
+        """
+
+        stripped: str = name.rstrip(". ")
+        return stripped if stripped else name
+
+    @staticmethod
+    def __normalize_folder_key(folder_path: Path) -> str:
+        """
+        Produces a case-insensitive normalized key for a directory path.
+
+        Args:
+            folder_path (Path): Directory path to normalize.
+
+        Returns:
+            str: Normalized path key.
+        """
+
+        return os.path.normcase(str(folder_path.resolve()))
+
+    @staticmethod
+    def __normalize_modfile_key(modfile_path: Path) -> str:
+        """
+        Produces a case-insensitive normalized key for a relative mod file path.
+
+        Args:
+            modfile_path (Path): Relative mod file path to normalize.
+
+        Returns:
+            str: Normalized mod file key.
+        """
+
+        return modfile_path.as_posix().lower()
+
+    @classmethod
+    def __report_import_failure(cls, name: str, path: Path, ex: Exception) -> None:
+        """
+        Logs a translation that failed to import and reports it as an alert.
+
+        Args:
+            name (str): The name of the translation.
+            path (Path): The path to the translation's folder.
+            ex (Exception): The exception that caused the failure.
+        """
+
+        cls.log.error(f"Failed to import translation '{name}': {ex}", exc_info=ex)
+
+        AlertManager.get().add_alert(
+            Alert(
+                severity=Alert.Severity.Error,
+                title=QApplication.translate(
+                    "DatabaseService", "Failed to import translation '{name}'"
+                ).format(name=name),
+                summary=QApplication.translate(
+                    "DatabaseService",
+                    "The translation '{name}' could not be imported from disk.",
+                ).format(name=name),
+                details=format_exception(ex),
+                context={
+                    QApplication.translate("DatabaseService", "Translation"): name,
+                    QApplication.translate("DatabaseService", "Path"): str(path),
+                },
+            )
+        )

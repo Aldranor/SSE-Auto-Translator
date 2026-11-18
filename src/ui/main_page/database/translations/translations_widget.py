@@ -250,6 +250,8 @@ class TranslationsWidget(QTreeWidget):
         )
 
     def __on_translations_added(self, new_translations: list[Translation]) -> None:
+        self.setSortingEnabled(False)
+
         for translation in new_translations:
             if translation in self.__translation_items:
                 continue
@@ -257,6 +259,9 @@ class TranslationsWidget(QTreeWidget):
             item: TreeItem[Translation] = self._create_translation_item(translation)
             self.__translation_items[translation] = item
             self.addTopLevelItem(item)
+            self.__apply_name_filter(translation, item)
+
+        self.setSortingEnabled(True)
 
     def __on_translations_removed(self, removed_translations: list[Translation]) -> None:
         for translation in removed_translations:
@@ -446,7 +451,9 @@ class TranslationsWidget(QTreeWidget):
         # except NotImplementedError:
         #     pass
 
-        valid: bool = path.is_file() and (valid_modfile or valid_archive)
+        valid: bool = path.is_dir() or (
+            path.is_file() and (valid_modfile or valid_archive)
+        )
 
         return valid
 

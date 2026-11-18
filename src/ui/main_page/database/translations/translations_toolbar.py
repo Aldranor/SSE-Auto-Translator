@@ -28,6 +28,9 @@ class TranslationsToolbar(QToolBar):
     local_import_requested = Signal()
     """Signal emitted when the user clicks on the local import action."""
 
+    database_import_requested = Signal()
+    """Signal emitted when the user clicks on the database folder import action."""
+
     update_translations_requested = Signal()
     """Signal emitted when the user clicks on the update translations action."""
 
@@ -76,6 +79,16 @@ class TranslationsToolbar(QToolBar):
             local_import_action, local_import_action.setIcon, "mdi6.import"
         )
         local_import_action.triggered.connect(self.local_import_requested.emit)
+
+        database_import_action: QAction = self.addAction(
+            self.tr("Import translations from database folder")
+        )
+        IconProvider.bind_qta_icon(
+            database_import_action,
+            database_import_action.setIcon,
+            "mdi6.database-import-outline",
+        )
+        database_import_action.triggered.connect(self.database_import_requested.emit)
 
         update_translations_action: QAction = self.addAction(
             self.tr("Update translations from installed mods")

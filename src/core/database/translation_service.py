@@ -17,7 +17,37 @@ class TranslationService:
     Class for loading and saving translations.
     """
 
+    TRANSLATION_FILE_SUFFIXES: set[str] = {
+        ".esl",
+        ".esm",
+        ".esp",
+        ".json",
+        ".txt",
+    }
+    """Supported mod file suffixes wrapped by translation JSON files."""
+
     log: logging.Logger = logging.getLogger("TranslationService")
+
+    @staticmethod
+    def is_translation_json_file(json_file: Path) -> bool:
+        """
+        Checks whether a JSON file path corresponds to a valid mod file translation
+        (i.e. `<modfile>.<ext>.json`).
+
+        Args:
+            json_file (Path): Path to the JSON file to check.
+
+        Returns:
+            bool: `True` if the JSON file wraps a supported mod file extension.
+        """
+
+        if json_file.suffix.lower() != ".json":
+            return False
+
+        modfile_path: Path = rem_last_suffix(json_file)
+        return (
+            modfile_path.suffix.lower() in TranslationService.TRANSLATION_FILE_SUFFIXES
+        )
 
     @classmethod
     def load_translation_strings(
@@ -40,7 +70,11 @@ class TranslationService:
             dict[Path, StringList]: Map of mod file names to their list of strings.
         """
 
-        json_files: list[Path] = list(translation_folder.rglob("*.json"))
+        json_files: list[Path] = [
+            json_file
+            for json_file in translation_folder.rglob("*.json")
+            if TranslationService.is_translation_json_file(json_file)
+        ]
         strings: dict[Path, StringList] = {}
         for json_file in json_files:
             modfile_path: Path = rem_last_suffix(json_file).relative_to(

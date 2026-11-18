@@ -6,6 +6,7 @@ from __future__ import annotations
 
 import time
 from functools import lru_cache
+from hashlib import sha256
 from pathlib import Path
 from typing import Any, Optional, Self, override
 
@@ -72,21 +73,49 @@ class Translation(BaseModel):
             Self: Translation object.
         """
 
+        translation: Self
         try:
             data: dict[str, Any] = index_data.copy()
-            data["path"] = database_path / data["name"]
+            relative_path: str = str(data.get("path", data["name"]))
+            data["path"] = database_path / relative_path
 
-            return cls.model_validate(data)
+            translation = cls.model_validate(data)
         except ValidationError:
-            pass
+            translation = cls.__load_legacy_index_data(index_data, database_path)
 
-        name: str = index_data["name"]
-        raw_mod_id: Optional[int] = index_data.pop("mod_id", None)
-        raw_file_id: Optional[int] = index_data.pop("file_id", None)
-        raw_orig_mod_id: Optional[int] = index_data.pop("original_mod_id", None)
+        if not translation.path.is_dir():
+            legacy_path: Optional[Path] = Translation.__get_legacy_storage_path(
+                translation, database_path
+            )
+            if legacy_path is not None:
+                translation.path = legacy_path
 
-        translation_path: Path = database_path / name
-        source_name: str = index_data.pop("source", "")
+        return translation
+
+    @classmethod
+    def __load_legacy_index_data(
+        cls, index_data: dict[str, Any], database_path: Path
+    ) -> Self:
+        """
+        Loads a translation from legacy index data using flat mod identifier fields.
+
+        Args:
+            index_data (dict[str, Any]): Legacy entry from the index.json file.
+            database_path (Path): The path to the database.
+
+        Returns:
+            Self: Translation object.
+        """
+
+        legacy_data: dict[str, Any] = index_data.copy()
+        name: str = legacy_data["name"]
+        raw_mod_id: Optional[int] = legacy_data.pop("mod_id", None)
+        raw_file_id: Optional[int] = legacy_data.pop("file_id", None)
+        raw_orig_mod_id: Optional[int] = legacy_data.pop("original_mod_id", None)
+        relative_path: str = str(legacy_data.pop("path", name))
+
+        translation_path: Path = database_path / relative_path
+        source_name: str = legacy_data.pop("source", "")
         source: Optional[Source] = Source.get(source_name)
 
         if source is None:
@@ -103,7 +132,42 @@ class Translation(BaseModel):
         elif raw_mod_id and source == Source.Confrerie and raw_orig_mod_id is not None:
             mod_id = CdtModId(mod_id=raw_mod_id, nm_mod_id=raw_orig_mod_id)
 
-        return cls(path=translation_path, mod_id=mod_id, **index_data, source=source)
+        return cls(path=translation_path, mod_id=mod_id, **legacy_data, source=source)
+
+    @staticmethod
+    def __get_legacy_storage_path(
+        translation: Translation, database_path: Path
+    ) -> Optional[Path]:
+        """
+        Resolves a translation path stored in hashed folders by legacy database formats.
+
+        Args:
+            translation (Translation): The translation to resolve the folder for.
+            database_path (Path): The path to the database directory.
+
+        Returns:
+            Optional[Path]: The existing legacy folder path or None.
+        """
+
+        if translation.version is None:
+            return None
+
+        local_source_id: str = sha256(
+            f"{translation.mod_id}:{translation.version}:Local".encode()
+        ).hexdigest()[:16]
+        local_path: Path = database_path / "local_mod_translations" / local_source_id
+        if local_path.is_dir():
+            return local_path
+
+        remote_source_id: str = sha256(
+            f"{translation.mod_id}:{translation.version}:"
+            f"{translation.source.value}".encode()
+        ).hexdigest()[:16]
+        source_path: Path = database_path / "source_mod_translations" / remote_source_id
+        if source_path.is_dir():
+            return source_path
+
+        return None
 
     @classmethod
     def create(

@@ -193,3 +193,28 @@ class TestTranslation(CoreTest):
 
         # then
         assert translation.strings is old_strings
+
+    def test_from_index_data_with_custom_relative_path(self, tmp_path: Path) -> None:
+        """
+        Tests that `Translation.from_index_data()` uses the `path` field from legacy
+        index entries when present.
+        """
+
+        # given
+        hashed_dir: Path = tmp_path / "local_mod_translations" / "583be48c35685b1d"
+        hashed_dir.mkdir(parents=True)
+        index_entry: dict[str, Any] = {
+            "name": "The Dragonborn's Bestiary - Patch Compendium AIO - French",
+            "path": "local_mod_translations/583be48c35685b1d",
+            "timestamp": 1792849507,
+        }
+
+        # when
+        translation: Translation = Translation.from_index_data(index_entry, tmp_path)
+
+        # then
+        assert (
+            translation.name
+            == "The Dragonborn's Bestiary - Patch Compendium AIO - French"
+        )
+        assert translation.path == hashed_dir
