@@ -6,8 +6,10 @@ import logging
 import time
 from pathlib import Path
 from queue import Empty, Queue
-from typing import override
+from tempfile import gettempdir
+from typing import Any, Optional, override
 
+from cutleast_core_lib.core.archive_legacy.archive import Archive
 from cutleast_core_lib.core.downloader import Downloader
 from cutleast_core_lib.core.multithreading.progress import ProgressUpdate
 from PySide6.QtCore import QThread, Signal
@@ -17,9 +19,14 @@ from core.config.user_config import UserConfig
 from core.database.database import TranslationDatabase
 from core.database.database_service import DatabaseService
 from core.database.translation import Translation
+from core.editor.translation_bridge import TranslationBridge
+from core.file_types.plugin.file import PluginFile
+from core.mod_file.mod_file import ModFile
+from core.mod_instance.mod import Mod
 from core.mod_instance.mod_instance import ModInstance
 from core.string.string_extractor import StringExtractor
 from core.string.types import StringList
+from core.translation_provider.cdt_api.cdt_id import CdtModId
 from core.translation_provider.nm_api.nm_api import NexusModsApi
 from core.translation_provider.nm_api.nxm_id import NxmModId
 from core.translation_provider.provider import TranslationProvider
@@ -219,15 +226,25 @@ class Worker(QThread):
             ),
         )
 
+        strings: dict[Path, StringList] = {}
         try:
-            strings: dict[Path, StringList] = StringExtractor().extract_strings(
-                input=downloaded_file,
-                mod_instance=self.__mod_instance,
-                language=self.__database.language,
-                max_workers=self.__app_config.worker_thread_num,
+            strings = self.__try_bridge_install(download, downloaded_file)
+        except (OSError, ValueError, RuntimeError, LookupError) as ex:
+            self.log.warning(
+                f"Bridge install failed for '{downloaded_file.name}', "
+                f"falling back to standard extraction: {ex}"
             )
-        except Exception as ex:
-            raise InstallationFailedError from ex
+
+        if not strings:
+            try:
+                strings = StringExtractor().extract_strings(
+                    input=downloaded_file,
+                    mod_instance=self.__mod_instance,
+                    language=self.__database.language,
+                    max_workers=self.__app_config.worker_thread_num,
+                )
+            except Exception as ex:
+                raise InstallationFailedError from ex
 
         if not strings:
             raise NoStringsExtractedError
@@ -247,6 +264,95 @@ class Worker(QThread):
         translation.strings = strings
         translation.save()
         DatabaseService.add_translation(translation, self.__database)
+
+    def __try_bridge_install(
+        self,
+        download: FileDownload,
+        downloaded_file: Path,
+    ) -> dict[Path, StringList]:
+        """
+        Attempt to install a downloaded translation via `TranslationBridge` first,
+        including localized plugin string tables. Returns an empty dict when bridge
+        data cannot be built so the caller falls back to standard extraction.
+        """
+
+        archive = Archive.load_archive(downloaded_file)
+        plugin_names = {
+            Path(name).name.lower()
+            for name in archive.get_files()
+            if Path(name).suffix.lower() in {".esp", ".esm", ".esl"}
+        }
+        target_modfiles: list[tuple[Mod, ModFile]] = [
+            (mod, modfile)
+            for mod in self.__mod_instance.mods
+            for modfile in mod.modfiles
+            if not plugin_names or modfile.name.lower() in plugin_names
+        ]
+        if not target_modfiles:
+            return {}
+
+        installed_mod: Optional[Mod] = target_modfiles[0][0]
+        source_mod_id = 0
+        if isinstance(download.mod_details.mod_id, CdtModId):
+            source_mod_id = download.mod_details.mod_id.nm_mod_id
+        elif installed_mod.mod_id is not None:
+            source_mod_id = installed_mod.mod_id.mod_id
+
+        original_archive: Optional[Path] = None
+        if source_mod_id and self.__provider.direct_downloads_possible(Source.NexusMods):
+            self.__provider.get_provider_by_source(Source.NexusMods)
+            nexus = self.__provider.get_provider(NexusModsApi)
+            files = nexus.get_mod_files("skyrimspecialedition", source_mod_id)
+            if files.files:
+                original_file = TranslationBridge.select_nexus_original_file(
+                    files=list(files.files),
+                    version=download.mod_details.version,
+                    modfile_paths=[mf.path for _, mf in target_modfiles],
+                    installed_mod=installed_mod,
+                )
+                original_id = NxmModId(
+                    mod_id=source_mod_id, file_id=original_file.file_id
+                )
+                original_url = self.__provider.request_download(
+                    original_id, Source.NexusMods
+                )
+                original_archive = (
+                    Path(gettempdir())
+                    / "sse-at"
+                    / Path(original_file.file_name).name
+                )
+                TranslationBridge.download_archive(original_url, original_archive)
+
+        bridge_data: dict[str, Any] = TranslationBridge.build_bridge(
+            translated_source=downloaded_file,
+            original_source=original_archive,
+            language=self.__database.language.id,
+            target_plugin_names=[mf.name for _, mf in target_modfiles],
+        )
+        if (
+            bridge_data.get("pair_count", 0) == 0
+            and bridge_data.get("identical_count", 0) == 0
+        ):
+            return {}
+
+        result: dict[Path, StringList] = {}
+        for _, modfile in target_modfiles:
+            target_strings = modfile.get_strings()
+            if not target_strings and isinstance(modfile, PluginFile):
+                target_strings = TranslationBridge.extract_localized_plugin_strings(
+                    modfile.full_path, "english"
+                )
+            if not target_strings:
+                continue
+            changed = TranslationBridge.apply_bridge(
+                bridge=bridge_data,
+                target_strings=target_strings,
+                missing_only=False,
+            )
+            if changed:
+                result[modfile.path] = target_strings
+
+        return result
 
     @override
     def run(self) -> None:

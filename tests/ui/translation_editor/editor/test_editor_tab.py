@@ -17,6 +17,7 @@ from core.database.translation import Translation
 from core.editor.editor import Editor
 from core.editor.models.editor_string import EditorString
 from core.string.string_status import StringStatus
+from core.translation_provider.provider import TranslationProvider
 from core.translator.models.request import TranslationRequest
 from core.translator.models.result import TranslationResult
 from core.translator.service import TranslatorService
@@ -73,6 +74,7 @@ class TestEditorTab(BaseTest):
             translation,
             user_data,
             MagicMock(spec=TranslatorService),
+            MagicMock(spec=TranslationProvider),
             tmp_path / "user",
             DICTIONARY_PATH,
         )

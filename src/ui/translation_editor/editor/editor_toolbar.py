@@ -27,8 +27,8 @@ class EditorToolbar(QToolBar):
         list[Status]: List of checked filters
     """
 
-    apply_database_requested = Signal()
-    """Signal emitted when the user clicks on the apply database action."""
+    download_translation_requested = Signal()
+    """Signal emitted when the user requests an online translation download."""
 
     search_and_replace_requested = Signal()
     """Signal emitted when the user clicks on the search and replace action."""
@@ -71,15 +71,11 @@ class EditorToolbar(QToolBar):
         self.addSeparator()
 
     def __init_translation_actions(self) -> None:
-        apply_database_action: QAction = self.addAction(
-            self.tr("Apply database to untranslated strings")
-        )
+        download_action = self.addAction(self.tr("Download translation"))
         IconProvider.bind_qta_icon(
-            apply_database_action,
-            apply_database_action.setIcon,
-            "mdi6.database-refresh-outline",
+            download_action, download_action.setIcon, "mdi6.download"
         )
-        apply_database_action.triggered.connect(self.apply_database_requested.emit)
+        download_action.triggered.connect(self.download_translation_requested.emit)
 
         self.__search_and_replace_action = self.addAction(self.tr("Search and replace"))
         IconProvider.bind_qta_icon(

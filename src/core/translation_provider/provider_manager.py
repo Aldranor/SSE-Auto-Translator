@@ -22,7 +22,9 @@ class ProviderManager:
     """
 
     __providers: dict[Source, ProviderApi]
+    __on_demand_providers: dict[Source, ProviderApi]
     __provider_preference: ProviderPreference
+    __user_config: UserConfig
 
     log: logging.Logger = logging.getLogger("ProviderManager")
 
@@ -35,7 +37,9 @@ class ProviderManager:
         """
 
         self.__providers = {}
+        self.__on_demand_providers = {}
         self.__provider_preference = user_config.provider_preference
+        self.__user_config = user_config
 
         self.log.info("Initializing configured translation providers.")
         self.log.debug(f"Provider preference: '{self.__provider_preference}'")
@@ -106,18 +110,7 @@ class ProviderManager:
         """
 
         try:
-            match source:
-                case Source.NexusMods:
-                    provider = NexusModsApi()
-                    provider.set_api_key(user_config.api_key)
-                    provider.set_website_session(user_config.nexus_website_session)
-
-                case Source.Confrerie:
-                    provider = CDTApi()
-
-                case _:
-                    raise ValueError(f"Unsupported provider source: '{source}'")
-
+            provider: ProviderApi = self.__create_provider(source, user_config)
         except Exception:
             self.log.exception(f"Failed to initialize provider '{source}'.")
 
@@ -154,7 +147,10 @@ class ProviderManager:
             T: The requested provider.
         """
 
-        for provider in self.__providers.values():
+        for provider in (
+            *self.__providers.values(),
+            *self.__on_demand_providers.values(),
+        ):
             if isinstance(provider, provider_type):
                 return provider
 
@@ -175,13 +171,13 @@ class ProviderManager:
 
     def get_provider_by_source(self, source: Source) -> ProviderApi:
         """
-        Gets an initialized provider by source.
+        Gets a provider by source, creating it on demand if needed.
 
         Args:
             source (Source): Provider source.
 
         Raises:
-            ValueError: When the source is local or not initialized.
+            ValueError: When the source is local or unsupported.
 
         Returns:
             ProviderApi: The provider for the source.
@@ -190,9 +186,39 @@ class ProviderManager:
         if source is Source.Local:
             raise ValueError("Local files do not have a translation provider.")
 
-        try:
-            return self.__providers[source]
-        except KeyError as ex:
-            raise ValueError(
-                f"Provider for source '{source}' is not initialized."
-            ) from ex
+        provider = self.__providers.get(source)
+        if provider is not None:
+            return provider
+
+        provider = self.__on_demand_providers.get(source)
+        if provider is not None:
+            return provider
+
+        provider = self.__create_provider(source, self.__user_config)
+        self.__on_demand_providers[source] = provider
+        self.log.info("Initialized provider '%s' on demand.", source)
+        return provider
+
+    def __create_provider(self, source: Source, user_config: UserConfig) -> ProviderApi:
+        """Create a provider using the current user configuration.
+
+        Args:
+            source (Source): Provider to create.
+            user_config (UserConfig): User configuration for credentials.
+
+        Returns:
+            ProviderApi: The newly created provider.
+        """
+
+        match source:
+            case Source.NexusMods:
+                provider = NexusModsApi()
+                provider.set_api_key(user_config.api_key)
+                provider.set_website_session(user_config.nexus_website_session)
+                return provider
+
+            case Source.Confrerie:
+                return CDTApi()
+
+            case _:
+                raise ValueError(f"Unsupported translation provider source '{source}'.")

@@ -50,6 +50,18 @@ class TranslationProvider:
 
         return self.__provider_manager.get_provider(provider_type)
 
+    def get_provider_by_source(self, source: Source) -> ProviderApi:
+        """Return the provider for a source, initializing it on demand.
+
+        Args:
+            source (Source): Provider source.
+
+        Returns:
+            ProviderApi: Provider API for the source.
+        """
+
+        return self.__provider_manager.get_provider_by_source(source)
+
     @property
     def is_available(self) -> bool:
         """

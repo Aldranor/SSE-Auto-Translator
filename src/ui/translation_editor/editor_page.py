@@ -19,6 +19,7 @@ from PySide6.QtWidgets import (
 )
 
 from core.database.translation import Translation
+from core.translation_provider.provider import TranslationProvider
 from core.translator.service import TranslatorService
 from core.user_data.user_data import UserData
 from ui.utilities.icon_provider import IconProvider
@@ -43,6 +44,7 @@ class EditorPage(QSplitter):
     __user_data_path: Path
     __dictionary_path: Path
     __translator_service: TranslatorService
+    __provider: TranslationProvider
 
     __tabs: dict[Translation, tuple[EditorTab, QTreeWidgetItem]] = {}
     """
@@ -58,6 +60,7 @@ class EditorPage(QSplitter):
         user_data_path: Path,
         dictionary_path: Path,
         translator_service: TranslatorService,
+        provider: TranslationProvider,
     ) -> None:
         """
         Args:
@@ -65,6 +68,7 @@ class EditorPage(QSplitter):
             user_data_path (Path): The path to the user data directory.
             dictionary_path (Path): The folder with the Hunspell dictionaries.
             translator_service (TranslatorService): The translator service.
+            provider (TranslationProvider): The translation provider.
         """
 
         super().__init__()
@@ -73,6 +77,7 @@ class EditorPage(QSplitter):
         self.__user_data_path = user_data_path
         self.__dictionary_path = dictionary_path
         self.__translator_service = translator_service
+        self.__provider = provider
 
         self.__init_ui()
 
@@ -246,6 +251,7 @@ class EditorPage(QSplitter):
                 translation=translation,
                 user_data=self.__user_data,
                 translator_service=self.__translator_service,
+                provider=self.__provider,
                 user_data_path=self.__user_data_path,
                 dictionary_path=self.__dictionary_path,
             )
