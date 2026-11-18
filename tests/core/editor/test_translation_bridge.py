@@ -121,7 +121,7 @@ class TestTranslationBridge(BaseTest):
         assert targets[1].string == "Oui"
         assert targets[1].status == StringStatus.TranslationComplete
         assert targets[2].string == "Alduin"
-        assert targets[2].status == StringStatus.TranslationIncomplete
+        assert targets[2].status == StringStatus.TranslationComplete
         assert bridge["stats"]["formid"] == 1
         assert bridge["stats"]["text"] == 1
         assert bridge["stats"]["identical"] == 1
