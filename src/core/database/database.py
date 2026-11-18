@@ -200,6 +200,12 @@ class TranslationDatabase(QObject):
     ) -> Optional[Translation]:
         """
         Gets a shared translation that covers a specified mod file.
+
+        Args:
+            modfile_path (Path): Path to mod file relative to "Data".
+
+        Returns:
+            Optional[Translation]: Shared translation that covers the mod file or None.
         """
 
         translations = {
@@ -244,6 +250,12 @@ class TranslationDatabase(QObject):
     def get_shared_translation_by_mod(self, mod: Mod) -> Optional[Translation]:
         """
         Gets a shared translation that covers a specified mod.
+
+        Args:
+            mod (Mod): Mod to search a shared translation for.
+
+        Returns:
+            Optional[Translation]: Shared translation that covers the mod or None.
         """
 
         installed_translations: dict[ModId, Translation] = {
@@ -288,6 +300,12 @@ class TranslationDatabase(QObject):
     def get_shared_translation_by_mod_id(self, mod_id: ModId) -> Optional[Translation]:
         """
         Gets a shared translation for a specified mod and file ID.
+
+        Args:
+            mod_id (ModId): Mod ID to search a shared translation for.
+
+        Returns:
+            Optional[Translation]: Shared translation for the mod ID or None.
         """
 
         translations: dict[ModId, Translation] = {
@@ -321,6 +339,15 @@ class TranslationDatabase(QObject):
     def get_shared_translation_for_id(self, id: str) -> Translation:
         """
         Gets a shared translation for the specified ID.
+
+        Args:
+            id (str): ID of the translation.
+
+        Raises:
+            KeyError: If no shared translation with the specified ID exists.
+
+        Returns:
+            Translation: Shared translation for the specified ID.
         """
 
         for translation in self.shared_translations:
@@ -345,6 +372,12 @@ class TranslationDatabase(QObject):
     def is_translation_in_shared_database(self, translation: Translation) -> bool:
         """
         Checks whether a translation exists in the shared corpus.
+
+        Args:
+            translation (Translation): Translation to check.
+
+        Returns:
+            bool: True if the translation exists in the shared corpus, False otherwise.
         """
 
         return any(t.id == translation.id for t in self.shared_translations)

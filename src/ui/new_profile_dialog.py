@@ -2,7 +2,7 @@
 Copyright (c) Cutleast
 """
 
-from typing import Optional
+from typing import Optional, cast
 
 from mod_manager_lib.core.game_service import GameService
 from mod_manager_lib.core.mod_manager.modorganizer.instance_info import MO2InstanceInfo
@@ -16,6 +16,7 @@ from PySide6.QtWidgets import (
     QFormLayout,
     QLabel,
     QLineEdit,
+    QPushButton,
     QVBoxLayout,
     QWidget,
 )
@@ -29,6 +30,8 @@ class NewProfileDialog(QDialog):
 
     __name_input: QLineEdit
     __instance_selector: InstanceSelectorWidget
+    __create_button: QPushButton
+    __button_box: QDialogButtonBox
 
     def __init__(
         self,
@@ -42,6 +45,20 @@ class NewProfileDialog(QDialog):
         """
 
         super().__init__(parent)
+
+        self.__init_ui(user_config)
+
+        self.__create_button.clicked.connect(self.__validate_and_accept)
+        self.__button_box.rejected.connect(self.reject)
+
+    def __init_ui(self, user_config: UserConfig) -> None:
+        """
+        Initializes the user interface.
+
+        Args:
+            user_config (UserConfig): Current settings used to seed the new profile.
+        """
+
         self.setWindowTitle(self.tr("Create profile"))
         self.setMinimumWidth(560)
 
@@ -66,15 +83,15 @@ class NewProfileDialog(QDialog):
         form_layout.addRow(self.tr("Modlist instance:"), self.__instance_selector)
         layout.addLayout(form_layout)
 
-        button_box = QDialogButtonBox(
+        self.__button_box = QDialogButtonBox(
             QDialogButtonBox.StandardButton.Cancel
             | QDialogButtonBox.StandardButton.Ok
         )
-        create_button = button_box.button(QDialogButtonBox.StandardButton.Ok)
-        create_button.setText(self.tr("Create"))
-        create_button.clicked.connect(self.__validate_and_accept)
-        button_box.rejected.connect(self.reject)
-        layout.addWidget(button_box)
+        self.__create_button = self.__button_box.button(
+            QDialogButtonBox.StandardButton.Ok
+        )
+        self.__create_button.setText(self.tr("Create"))
+        layout.addWidget(self.__button_box)
 
     @property
     def profile_name(self) -> str:
@@ -86,7 +103,10 @@ class NewProfileDialog(QDialog):
     def mod_instance(self) -> Optional[MO2InstanceInfo | ProfileInfo]:
         """Returns the selected modlist instance."""
 
-        return self.__instance_selector.get_cur_instance_data()
+        return cast(
+            Optional[MO2InstanceInfo | ProfileInfo],
+            self.__instance_selector.get_cur_instance_data(),
+        )
 
     def __validate_and_accept(self) -> None:
         """Accepts the dialog only when the name and instance are valid."""

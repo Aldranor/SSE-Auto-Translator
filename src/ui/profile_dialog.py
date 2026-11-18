@@ -30,6 +30,10 @@ class ProfileDialog(QDialog):
     __profile_service: ProfileService
     __user_data: UserData
     __profile_box: QComboBox
+    __create_button: QPushButton
+    __rename_button: QPushButton
+    __apply_button: QPushButton
+    __button_box: QDialogButtonBox
 
     def __init__(
         self,
@@ -47,6 +51,18 @@ class ProfileDialog(QDialog):
         super().__init__(parent)
         self.__profile_service = profile_service
         self.__user_data = user_data
+
+        self.__init_ui()
+
+        self.__create_button.clicked.connect(self.__create_profile)
+        self.__rename_button.clicked.connect(self.__rename_profile)
+        self.__apply_button.clicked.connect(self.accept)
+        self.__button_box.rejected.connect(self.reject)
+
+    def __init_ui(self) -> None:
+        """
+        Initializes the user interface.
+        """
 
         self.setWindowTitle(self.tr("Translation profiles"))
         self.setMinimumWidth(460)
@@ -69,26 +85,21 @@ class ProfileDialog(QDialog):
         layout.addLayout(form_layout)
 
         profile_actions = QHBoxLayout()
-        create_button = QPushButton(self.tr("Create profile..."))
-        create_button.clicked.connect(self.__create_profile)
-        profile_actions.addWidget(create_button)
-        rename_button = QPushButton(self.tr("Rename..."))
-        rename_button.clicked.connect(self.__rename_profile)
-        profile_actions.addWidget(rename_button)
+        self.__create_button = QPushButton(self.tr("Create profile..."))
+        profile_actions.addWidget(self.__create_button)
+        self.__rename_button = QPushButton(self.tr("Rename..."))
+        profile_actions.addWidget(self.__rename_button)
         layout.addLayout(profile_actions)
 
-        button_box = QDialogButtonBox(
+        self.__button_box = QDialogButtonBox(
             QDialogButtonBox.StandardButton.Close
             | QDialogButtonBox.StandardButton.Apply
         )
-        button_box.button(QDialogButtonBox.StandardButton.Apply).setText(
-            self.tr("Switch profile")
+        self.__apply_button = self.__button_box.button(
+            QDialogButtonBox.StandardButton.Apply
         )
-        button_box.button(QDialogButtonBox.StandardButton.Apply).clicked.connect(
-            self.accept
-        )
-        button_box.rejected.connect(self.reject)
-        layout.addWidget(button_box)
+        self.__apply_button.setText(self.tr("Switch profile"))
+        layout.addWidget(self.__button_box)
 
     @property
     def selected_profile_id(self) -> str:
