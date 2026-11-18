@@ -278,16 +278,42 @@ class Worker(QThread):
         """
 
         archive = Archive.load_archive(downloaded_file)
-        plugin_names = {
+        archive_files: list[str] = archive.get_files()
+        plugin_suffixes: set[str] = {".esp", ".esm", ".esl"}
+        table_suffixes: set[str] = {".strings", ".dlstrings", ".ilstrings"}
+
+        plugin_names: set[str] = {
             Path(name).name.lower()
-            for name in archive.get_files()
-            if Path(name).suffix.lower() in {".esp", ".esm", ".esl"}
+            for name in archive_files
+            if Path(name).suffix.lower() in plugin_suffixes
         }
+        plugin_names.update(
+            Path(name).parent.name.lower()
+            for name in archive_files
+            if (
+                Path(name).suffix.lower() == ".json"
+                and "dynamicstringdistributor" in name.replace("\\", "/").lower()
+                and Path(name).parent.suffix.lower() in plugin_suffixes
+            )
+        )
+        table_stems: set[str] = {
+            Path(name).stem.rsplit("_", 1)[0].lower()
+            for name in archive_files
+            if Path(name).suffix.lower() in table_suffixes and "_" in Path(name).stem
+        }
+
+        if not plugin_names and not table_stems:
+            return {}
+
         target_modfiles: list[tuple[Mod, ModFile]] = [
             (mod, modfile)
             for mod in self.__mod_instance.mods
             for modfile in mod.modfiles
-            if not plugin_names or modfile.name.lower() in plugin_names
+            if modfile.name.lower() in plugin_names
+            or (
+                isinstance(modfile, PluginFile)
+                and modfile.path.stem.lower() in table_stems
+            )
         ]
         if not target_modfiles:
             return {}
