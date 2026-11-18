@@ -348,11 +348,16 @@ class TranslationBridge:
             table_only_names = set(orig_plugins.keys()) - set(trans_plugins.keys())
             if target_plugin_names:
                 target_lowers = {name.lower() for name in target_plugin_names}
+                target_stems = {Path(name).stem.lower() for name in target_plugin_names}
                 filtered_common = {
-                    name for name in common_names if name in target_lowers
+                    name
+                    for name in common_names
+                    if name in target_lowers or Path(name).stem.lower() in target_stems
                 }
                 filtered_table_only = {
-                    name for name in table_only_names if name in target_lowers
+                    name
+                    for name in table_only_names
+                    if name in target_lowers or Path(name).stem.lower() in target_stems
                 }
                 if filtered_common or filtered_table_only:
                     common_names = filtered_common
