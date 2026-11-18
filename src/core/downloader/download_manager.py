@@ -505,7 +505,14 @@ class DownloadManager(QObject):
                     )
                     continue
 
-                download = FileDownload(mod_details=file_details, source=source)
+                is_unverified: bool = self.__provider.is_unverified_translation(
+                    translation_id, source
+                )
+                download = FileDownload(
+                    mod_details=file_details,
+                    source=source,
+                    unverified=is_unverified,
+                )
                 translation_name: str = (
                     file_details.mod_display_name or file_details.display_name
                 )

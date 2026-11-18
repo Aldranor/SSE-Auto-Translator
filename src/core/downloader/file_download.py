@@ -26,6 +26,12 @@ class FileDownload(BaseModel):
     Whether the download is stale and should be removed as soon as a thread picks it up.
     """
 
+    unverified: bool = False
+    """
+    Whether this download was included without content preview verification and requires
+    manual confirmation/selection in the download list.
+    """
+
     @override
     def __hash__(self) -> int:
         return hash(

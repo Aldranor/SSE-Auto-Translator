@@ -223,6 +223,20 @@ class ProviderApi(QObject):
             list[ModId]: List of mod file identifiers
         """
 
+    def is_unverified_translation(self, mod_id: ModId) -> bool:
+        """
+        Returns whether the specified translation file identifier could not be
+        verified against a content preview and requires manual user confirmation.
+
+        Args:
+            mod_id (ModId): Translation mod file identifier.
+
+        Returns:
+            bool: True if unverified, False otherwise.
+        """
+
+        return False
+
     @abstractmethod
     def request_download(self, mod_id: ModId) -> str:
         """

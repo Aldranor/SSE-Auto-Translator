@@ -257,7 +257,9 @@ class DownloadListWidget(QWidget):
             3, QHeaderView.ResizeMode.ResizeToContents
         )
 
-        self.__selected_downloads_num_label.setText(str(len(self.__items)))
+        self.__selected_downloads_num_label.setText(
+            str(len([item for item in self.__items.values() if item.is_checked()]))
+        )
 
     def __add_modpage_button(self, mod_item: QTreeWidgetItem, mod_info: ModInfo) -> None:
         button = IconButton()
