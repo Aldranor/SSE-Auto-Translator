@@ -334,6 +334,16 @@ class Worker(QThread):
             else []
         )
         target_modfiles: list[tuple[Mod, ModFile]] = exact_modfiles + stem_modfiles
+        if not target_modfiles and isinstance(download.mod_details.mod_id, CdtModId):
+            nm_mod_id: int = download.mod_details.mod_id.nm_mod_id
+            if nm_mod_id:
+                target_modfiles = [
+                    (mod, modfile)
+                    for mod in self.__mod_instance.mods
+                    if mod.mod_id is not None and mod.mod_id.mod_id == nm_mod_id
+                    for modfile in mod.modfiles
+                    if isinstance(modfile, PluginFile)
+                ]
         if not target_modfiles:
             return {}
 
