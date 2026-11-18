@@ -178,6 +178,7 @@ class MainWindow(ExtendedMainWindow):
             self.__user_data_path,
             self.__dictionary_path,
             self.__translator_service,
+            self.__provider,
         )
         self.__tab_widget.addTab(
             self.__translation_editor, self.tr("Translation Editor")

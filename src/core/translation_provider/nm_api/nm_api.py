@@ -542,6 +542,19 @@ class NexusModsApi(ProviderApi):
         path = f"games/{game_id}/mods/{mod_id}/files.json?category=main%2Cupdate%2Coptional%2Cold_version%2Cmiscellaneous"
         return self.__request_with_model(path, NmFiles)
 
+    def get_mod_files(self, game_id: str, mod_id: int) -> NmFiles:
+        """Return the files published for a Nexus mod.
+
+        Args:
+            game_id (str): Nexus game identifier.
+            mod_id (int): Nexus mod identifier.
+
+        Returns:
+            NmFiles: Files published for the mod.
+        """
+
+        return self.__request_mod_files(game_id, mod_id)
+
     def __get_file_contents(self, url: str) -> Optional[list[str]]:
         res: req.Response
         try:

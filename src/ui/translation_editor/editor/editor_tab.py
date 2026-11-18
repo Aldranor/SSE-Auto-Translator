@@ -2,14 +2,19 @@
 Copyright (c) Cutleast
 """
 
+import logging
 import os
 import re
+import webbrowser
 from pathlib import Path
-from typing import Optional, override
+from tempfile import gettempdir
+from typing import Any, Optional, override
 
+from cutleast_core_lib.core.multithreading.progress import ProgressUpdate
 from cutleast_core_lib.core.utilities.thread import Thread
 from cutleast_core_lib.core.utilities.typing_utils import coalesce, not_none
 from cutleast_core_lib.ui.progress.dialog import ProgressDialog
+from cutleast_core_lib.ui.progress.display import ProgressDisplay
 from cutleast_core_lib.ui.progress.spinner_display import SpinnerDisplayWidget
 from cutleast_core_lib.ui.theme.manager import ThemeManager
 from cutleast_core_lib.ui.utilities.state_manager import WidgetStateManager
@@ -39,8 +44,18 @@ from core.database.exporter import Exporter
 from core.database.translation import Translation
 from core.editor.editor import Editor
 from core.editor.models import EditorString
+from core.editor.translation_bridge import TranslationBridge
+from core.string.string_extractor import StringExtractor
 from core.string.string_status import StringStatus
+from core.string.types import StringList
 from core.translation_context.related import RelatedString
+from core.translation_provider.cdt_api.cdt_id import CdtModId
+from core.translation_provider.mod_details import ModDetails
+from core.translation_provider.mod_id import ModId
+from core.translation_provider.nm_api.nm_api import NexusModsApi
+from core.translation_provider.nm_api.nxm_id import NxmModId
+from core.translation_provider.provider import TranslationProvider
+from core.translation_provider.source import Source
 from core.translator.models.excerpt import TranslationExcerpt
 from core.translator.service import TranslatorService
 from core.user_data.user_data import UserData
@@ -48,6 +63,7 @@ from ui.string_list.columns import StringsColumns
 from ui.widgets.stacked_bar import StackedBar
 
 from .dialog import TranslatorDialog
+from .download_translation_dialog import DownloadTranslationDialog
 from .editor_menu import EditorMenu
 from .editor_toolbar import EditorToolbar
 from .strings_widget import StringsWidget
@@ -71,6 +87,7 @@ class EditorTab(QWidget):
     __translation: Translation
     __user_data: UserData
     __translator_service: TranslatorService
+    __provider: TranslationProvider
 
     __editor: Editor
 
@@ -95,6 +112,7 @@ class EditorTab(QWidget):
         translation: Translation,
         user_data: UserData,
         translator_service: TranslatorService,
+        provider: TranslationProvider,
         user_data_path: Path,
         dictionary_path: Path,
     ) -> None:
@@ -104,6 +122,7 @@ class EditorTab(QWidget):
             app_config (AppConfig): The application configuration.
             user_data (UserData): The user data.
             translator_service (TranslatorService): The translator service.
+            provider (TranslationProvider): The translation provider.
             user_data_path (Path): The path to the user data directory.
             dictionary_path (Path): The folder with the Hunspell dictionaries.
         """
@@ -113,6 +132,7 @@ class EditorTab(QWidget):
         self.__translation = translation
         self.__user_data = user_data
         self.__translator_service = translator_service
+        self.__provider = provider
 
         self.__editor = Editor(
             translation=translation,
@@ -134,7 +154,9 @@ class EditorTab(QWidget):
         self.__init_dialog()
 
         self.__tool_bar.filter_changed.connect(self.__on_state_filter_changed)
-        self.__tool_bar.apply_database_requested.connect(self.__apply_database)
+        self.__tool_bar.download_translation_requested.connect(
+            self.__download_translation
+        )
         self.__tool_bar.search_and_replace_requested.connect(self.__search_and_replace)
         self.__tool_bar.api_translation_requested.connect(
             lambda: self.__translate_with_api()
@@ -467,23 +489,260 @@ class EditorTab(QWidget):
         self.__update_metadata()
         self.changed_signal.emit()
 
-    def __apply_database(self) -> None:
-        """
-        Applies database to untranslated strings.
-        """
+    def __download_translation(self) -> None:
+        """Download or load a translation archive and apply it to this editor."""
 
-        modified_strings: int = self.__editor.apply_database(self.__editor.all_strings)
-
-        messagebox = QMessageBox(QApplication.activeModalWidget())
-        messagebox.setWindowTitle(self.tr("Success!"))
-        messagebox.setText(
-            self.tr(
-                "Translated %n string from database.",
-                "Translated %n strings from database.",
-                modified_strings,
+        detected_id = ""
+        detected_source = self.__translation.source
+        installed_mod = None
+        if self.__translation.mod_id is not None:
+            detected_id = str(
+                self.__translation.mod_id.nm_mod_id
+                if isinstance(self.__translation.mod_id, CdtModId)
+                else self.__translation.mod_id.mod_id
             )
+            detected_source = self.__translation.mod_id.source
+        for mod in self.__user_data.mod_instance.mods:
+            if any(
+                modfile.path in self.__translation.strings
+                for modfile in mod.modfiles
+            ):
+                installed_mod = mod
+                if mod.mod_id is not None and (
+                    not detected_id
+                    or isinstance(self.__translation.mod_id, NxmModId)
+                ):
+                    detected_id = str(mod.mod_id.mod_id)
+                    if detected_source == Source.Local:
+                        detected_source = Source.NexusMods
+                break
+        if detected_source == Source.Local:
+            detected_source = Source.Confrerie
+
+        dialog = DownloadTranslationDialog(
+            translation=self.__translation,
+            default_source=detected_source,
+            mod_id=detected_id,
+            parent=self,
         )
-        messagebox.exec()
+        if dialog.exec() != QDialog.DialogCode.Accepted:
+            return
+
+        def process(
+            pdisplay: ProgressDisplay,
+        ) -> tuple[Path, dict[Path, StringList], dict[str, Any]]:
+            archive_path = dialog.translation_archive
+            details: Optional[ModDetails] = None
+            source_mod_id = 0
+            if archive_path is None:
+                pdisplay.updateMainProgress(
+                    ProgressUpdate(
+                        status_text=self.tr("Searching for translation..."),
+                        maximum=0,
+                    )
+                )
+                selected_provider = self.__provider.get_provider_by_source(
+                    dialog.source
+                )
+                match = re.search(r"\d+", dialog.mod_id)
+                if match is None:
+                    raise ValueError(self.tr("Enter a valid mod ID or URL."))
+                original_mod_id = NxmModId(mod_id=int(match.group()))
+                candidates: list[ModId] = []
+                for modfile_path in self.__editor.strings:
+                    available = selected_provider.get_translations(
+                        original_mod_id,
+                        modfile_path.name,
+                        self.__user_data.user_config.language.name,
+                    )
+                    candidates.extend(available)
+                    if candidates:
+                        break
+                if not candidates:
+                    raise ValueError(self.tr("No translation was found for this mod."))
+
+                details = selected_provider.get_mod_details(candidates[0])
+                source_mod_id = (
+                    candidates[0].nm_mod_id
+                    if isinstance(candidates[0], CdtModId)
+                    else int(match.group())
+                )
+                pdisplay.updateMainProgress(
+                    ProgressUpdate(
+                        status_text=self.tr("Downloading translation archive ({0})...").format(
+                            Path(details.file_name).name
+                        ),
+                        maximum=0,
+                    )
+                )
+                self.__open_nexus_download_if_needed(candidates[0], dialog.source)
+                download_url = selected_provider.request_download(candidates[0])
+                archive_path = (
+                    Path(gettempdir()) / "sse-at" / Path(details.file_name).name
+                )
+                TranslationBridge.download_archive(download_url, archive_path)
+
+            original_archive = dialog.original_archive
+            if dialog.bridge and original_archive is None:
+                version = (
+                    details.version
+                    if details is not None
+                    else (
+                        self.__translation.version
+                        or (installed_mod.version if installed_mod is not None else "")
+                    )
+                )
+                if not source_mod_id:
+                    entered_id = re.search(r"\d+", dialog.mod_id)
+                    source_mod_id = int(entered_id.group()) if entered_id else 0
+                if source_mod_id:
+                    pdisplay.updateMainProgress(
+                        ProgressUpdate(
+                            status_text=self.tr(
+                                "Searching for matching original archive on Nexus..."
+                            ),
+                            maximum=0,
+                        )
+                    )
+                    self.__provider.get_provider_by_source(Source.NexusMods)
+                    nexus = self.__provider.get_provider(NexusModsApi)
+                    files = nexus.get_mod_files("skyrimspecialedition", source_mod_id)
+                    if not files.files:
+                        raise ValueError(
+                            self.tr(
+                                "No Nexus original archive was found for mod {0}."
+                            ).format(source_mod_id)
+                        )
+                    original_file = TranslationBridge.select_nexus_original_file(
+                        files=list(files.files),
+                        version=version,
+                        modfile_paths=list(self.__editor.strings.keys()),
+                        installed_mod=installed_mod,
+                    )
+                    original_id = NxmModId(
+                        mod_id=source_mod_id, file_id=original_file.file_id
+                    )
+                    pdisplay.updateMainProgress(
+                        ProgressUpdate(
+                            status_text=self.tr(
+                                "Downloading original archive ({0})..."
+                            ).format(Path(original_file.file_name).name),
+                            maximum=0,
+                        )
+                    )
+                    self.__open_nexus_download_if_needed(
+                        original_id, Source.NexusMods
+                    )
+                    original_url = self.__provider.request_download(
+                        original_id, Source.NexusMods
+                    )
+                    original_archive = (
+                        Path(gettempdir())
+                        / "sse-at"
+                        / Path(original_file.file_name).name
+                    )
+                    TranslationBridge.download_archive(original_url, original_archive)
+
+            imported: dict[Path, StringList] = {}
+            bridge_data: dict[str, Any] = {}
+            if dialog.bridge:
+                pdisplay.updateMainProgress(
+                    ProgressUpdate(
+                        status_text=self.tr(
+                            "Building translation bridge ({0})..."
+                        ).format(
+                            original_archive.name
+                            if original_archive is not None
+                            else archive_path.name
+                        ),
+                        maximum=0,
+                    )
+                )
+                bridge_data = TranslationBridge.build_bridge(
+                    translated_source=archive_path,
+                    original_source=original_archive,
+                    language=self.__user_data.user_config.language.name,
+                    target_plugin_names=[path.name for path in self.__editor.strings],
+                )
+                if (
+                    original_archive is None
+                    and bridge_data.get("pair_count", 0) == 0
+                    and bridge_data.get("identical_count", 0) == 0
+                ):
+                    raise ValueError(
+                        self.tr(
+                            "Enter a Nexus mod ID or select an original source for bridge mode."
+                        )
+                    )
+            else:
+                pdisplay.updateMainProgress(
+                    ProgressUpdate(
+                        status_text=self.tr("Extracting strings from archive ({0})...").format(
+                            archive_path.name
+                        ),
+                        maximum=0,
+                    )
+                )
+                imported = StringExtractor().extract_strings(
+                    input=archive_path,
+                    mod_instance=self.__user_data.mod_instance,
+                    language=self.__user_data.user_config.language,
+                    max_workers=4,
+                )
+            return archive_path, imported, bridge_data
+
+        try:
+            archive_path, imported, bridge_data = ProgressDialog(process, self).run()
+            if dialog.bridge:
+                applied = self.__editor.apply_bridge(bridge_data, dialog.missing_only)
+                stats: dict[str, int] = bridge_data.get("stats", {})
+                detail = self.tr(
+                    "Bridge pairs: {0} (FormID: {1}, Text: {2}, EDID: {3}, Identical: {4})"
+                ).format(
+                    bridge_data.get("pair_count", 0),
+                    stats.get("formid", 0),
+                    stats.get("text", 0),
+                    stats.get("edid", 0),
+                    stats.get("identical", 0),
+                )
+            else:
+                applied = self.__editor.apply_imported_strings(
+                    imported, dialog.missing_only
+                )
+                detail = self.tr("Extracted files: {0}").format(len(imported))
+
+            QMessageBox.information(
+                self,
+                self.tr("Download complete"),
+                self.tr("Archive: {0}\n{1}\nStrings applied: {2}").format(
+                    archive_path.name, detail, applied
+                ),
+            )
+        except Exception as ex:
+            logging.getLogger("EditorTab").exception(
+                "Failed to download and apply translation."
+            )
+            QMessageBox.critical(
+                self,
+                self.tr("Download failed"),
+                self.tr("Could not apply the translation: {0}").format(ex),
+            )
+
+    def __open_nexus_download_if_needed(self, mod_id: ModId, source: Source) -> None:
+        """Open the Nexus mod-manager link before waiting for a free download."""
+
+        if source == Source.NexusMods and not self.__provider.direct_downloads_possible(
+            source
+        ):
+            assert isinstance(mod_id, NxmModId) and mod_id.file_id is not None
+            webbrowser.open(
+                NexusModsApi.create_nexus_mods_url(
+                    game_id=mod_id.nm_game_id,
+                    mod_id=mod_id.mod_id,
+                    file_id=mod_id.file_id,
+                    mod_manager=True,
+                )
+            )
 
     def __search_and_replace(self) -> None:
         """
