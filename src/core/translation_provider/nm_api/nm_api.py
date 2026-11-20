@@ -19,13 +19,16 @@ import jstyleson as json
 import requests as req
 import websocket
 from curl_cffi import requests as curl_requests
+from cutleast_core_lib.core.archive_legacy.archive import Archive
 from cutleast_core_lib.core.cache.cache import Cache
+from cutleast_core_lib.core.downloader import Downloader
 from cutleast_core_lib.core.filesystem.utils import norm
 from pydantic import BaseModel, ValidationError
 
 from core.translation_provider.nm_api.models.file_manifest import FileManifest
 from core.translation_provider.nm_api.nxm_id import NxmModId
 from core.utilities.filesystem import extract_file_paths
+from core.utilities.temp_folder_provider import TempFolderProvider
 from core.utilities.web_utils import get_url_identifier
 
 from ..exceptions import (
@@ -608,6 +611,93 @@ class NexusModsApi(ProviderApi):
             self.log.debug(f"Request URL: {url}")
             return None
 
+    @staticmethod
+    def __matches_file_name(content: list[str], file_name: str) -> bool:
+        target: str = file_name.lower().strip()
+        dsd_target: str = f"skse/plugins/dynamicstringdistributor/{target}"
+        return any(
+            file.lower().strip().endswith(target) or dsd_target in file.lower()
+            for file in content
+        )
+
+    @staticmethod
+    def __score_file_name_match(target_file_name: str, nm_file: NmFile) -> int:
+        ignored_tokens: set[str] = {
+            "esp",
+            "esl",
+            "esm",
+            "patch",
+            "mod",
+            "se",
+            "ae",
+            "sse",
+            "the",
+            "and",
+            "of",
+            "for",
+            "with",
+            "fr",
+            "vostfr",
+            "french",
+            "trad",
+            "translation",
+        }
+        target_stem: str = Path(target_file_name).stem.lower()
+        target_tokens: set[str] = {
+            tok
+            for tok in re.findall(r"[a-z0-9]+", target_stem)
+            if tok not in ignored_tokens and len(tok) > 1
+        }
+        if not target_tokens:
+            return 0
+
+        candidate_text: str = f"{nm_file.name} {nm_file.file_name}".lower()
+        candidate_tokens: set[str] = set(re.findall(r"[a-z0-9]+", candidate_text))
+        score: int = len(target_tokens & candidate_tokens)
+        if target_stem in candidate_text:
+            score += len(target_tokens)
+        return score
+
+    def __inspect_unpreviewed_file(
+        self, game_id: str, mod_id: int, mod_file: NmFile
+    ) -> Optional[list[str]]:
+        cache_path: Path = (
+            ProviderApi.CACHE_FOLDER
+            / f"nm_archive_contents_{game_id}_{mod_id}_{mod_file.file_id}.cache"
+        )
+        cached: Optional[list[str]] = Cache.get_from_cache(cache_path, default=None)
+        if cached is not None:
+            return cached
+
+        max_inspect_bytes: int = 50 * 1024 * 1024
+        if (
+            not self.__premium
+            or mod_file.size is None
+            or mod_file.size > max_inspect_bytes
+        ):
+            return None
+
+        try:
+            url: str = self.__get_premium_download_url(game_id, mod_id, mod_file.file_id)
+            inspect_dir: Path = (
+                TempFolderProvider.get().get_temp_folder() / "nm_preview_cache"
+            )
+            inspect_dir.mkdir(parents=True, exist_ok=True)
+            archive_name: str = Path(mod_file.file_name).name
+            archive_path: Path = inspect_dir / archive_name
+            if not archive_path.is_file():
+                Downloader(self.user_agent).download(url, inspect_dir, archive_name)
+            files: list[str] = [
+                norm(f) for f in Archive.load_archive(archive_path).get_files()
+            ]
+            Cache.save_to_cache(cache_path, files)
+            return files
+        except Exception as ex:  # noqa: BLE001
+            self.log.debug(
+                f"Failed to inspect unpreviewed archive '{mod_file.file_name}': {ex}"
+            )
+            return None
+
     def __scan_mod_for_filename(
         self, game_id: str, mod_id: int, file_name: str
     ) -> list[int]:
@@ -647,18 +737,11 @@ class NexusModsApi(ProviderApi):
                         f"Failed to get file contents of '{mod_file.file_name}'!"
                     )
 
-        matches: list[int] = []
-        for mod_file, content in file_contents.items():
-            if any(
-                file.lower().strip().endswith(file_name.lower().strip())
-                or (
-                    f"skse/plugins/dynamicstringdistributor/{file_name.lower().strip()}"
-                    in file.lower()
-                )
-                for file in content
-            ):
-                self.log.debug(f"Found '{file_name}' in file '{mod_file.file_name}'.")
-                matches.append(mod_file.file_id)
+        matches: list[int] = [
+            mod_file.file_id
+            for mod_file, content in file_contents.items()
+            if self.__matches_file_name(content, file_name)
+        ]
 
         matches.reverse()
 
@@ -678,10 +761,36 @@ class NexusModsApi(ProviderApi):
             }
             unpreviewed_files.sort(
                 key=lambda f: (
+                    -self.__score_file_name_match(file_name, f),
                     category_order.get((f.category_name or "").upper(), 5),
                     -f.file_id,
                 )
             )
+
+            inspect_candidates: list[NmFile] = [
+                f
+                for f in unpreviewed_files
+                if (f.category_name or "").upper() != "OLD_VERSION"
+                and (
+                    self.__score_file_name_match(file_name, f) > 0
+                    or len(unpreviewed_files) <= 3
+                )
+            ][:5]
+            for mod_file in inspect_candidates:
+                inspected: Optional[list[str]] = self.__inspect_unpreviewed_file(
+                    game_id, mod_id, mod_file
+                )
+                if inspected is not None and self.__matches_file_name(
+                    inspected, file_name
+                ):
+                    matches.append(mod_file.file_id)
+
+            if matches:
+                with self.__unverified_files_lock:
+                    for file_id in matches:
+                        self.__unverified_files.discard((mod_id, file_id))
+                return matches
+
             fallback_ids: list[int] = [f.file_id for f in unpreviewed_files]
             with self.__unverified_files_lock:
                 for file_id in fallback_ids:
