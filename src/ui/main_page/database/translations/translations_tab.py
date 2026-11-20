@@ -27,6 +27,7 @@ from PySide6.QtWidgets import (
 
 from core.config.app_config import AppConfig
 from core.database.database import TranslationDatabase
+from core.database.database_import_result import DatabaseImportResult
 from core.database.database_reload_result import DatabaseReloadResult
 from core.database.database_service import DatabaseService
 from core.database.database_updater import DatabaseUpdater
@@ -122,6 +123,9 @@ class TranslationsTab(QWidget):
         self.__toolbar.search_database_requested.connect(self.__search_database)
         self.__toolbar.reload_database_requested.connect(self.__reload_database)
         self.__toolbar.local_import_requested.connect(self.__import_local_translation)
+        self.__toolbar.database_import_requested.connect(
+            lambda: self.__import_database_folders()
+        )
         self.__toolbar.update_translations_requested.connect(self.__update_translations)
 
         self.__translations_widget.edit_translation_requested.connect(
@@ -322,9 +326,15 @@ class TranslationsTab(QWidget):
 
             files = [Path(file) for file in fdialog.selectedFiles()]
 
+        folders: list[Path] = [file for file in files if file.is_dir()]
+        if folders:
+            self.__import_database_folders(folders)
+
+        file_paths: list[Path] = [file for file in files if file.is_file()]
+
         translation: Translation
         strings: dict[Path, StringList]
-        for file in files:
+        for file in file_paths:
             if file.suffix.lower() in SUPPORTED_ARCHIVE_TYPES:
                 strings = ProgressDialog(
                     lambda pdisplay, f=file: StringExtractor().extract_strings(
@@ -374,6 +384,57 @@ class TranslationsTab(QWidget):
 
                 else:
                     raise NoOriginalModFound
+
+    def __import_database_folders(self, folders: Optional[list[Path]] = None) -> None:
+        """
+        Imports translations from one or more legacy database folders or translation
+        folders. Shows a directory dialog if no folders are specified.
+
+        Args:
+            folders (Optional[list[Path]], optional):
+                The folders to import from. Defaults to None.
+        """
+
+        if folders is None:
+            fdialog = QFileDialog(QApplication.activeModalWidget())
+            fdialog.setFileMode(QFileDialog.FileMode.Directory)
+            fdialog.setWindowTitle(self.tr("Import Database Folder..."))
+
+            if fdialog.exec() == QDialog.DialogCode.Rejected:
+                return
+
+            folders = [Path(folder) for folder in fdialog.selectedFiles()]
+
+        result: DatabaseImportResult = ProgressDialog(
+            lambda pdisplay: DatabaseService.import_database_folders(
+                folders, self.__database, pdisplay
+            )
+        ).run()
+
+        message: str = self.tr(
+            "Successfully imported {imported} new translation(s) ({skipped} existing "
+            "or empty folder(s) skipped)."
+        ).format(imported=result.imported, skipped=result.skipped)
+
+        if result.failed:
+            message += "\n" + self.tr(
+                "{num} translation folder(s) could not be imported. Check the alerts "
+                "for details."
+            ).format(num=result.failed)
+
+            QMessageBox.warning(
+                QApplication.activeModalWidget(),
+                self.tr("Database import completed with errors"),
+                message,
+                buttons=QMessageBox.StandardButton.Ok,
+            )
+        else:
+            QMessageBox.information(
+                QApplication.activeModalWidget(),
+                self.tr("Database import complete"),
+                message,
+                buttons=QMessageBox.StandardButton.Ok,
+            )
 
     def __update_translations(
         self, translations: Optional[list[Translation]] = None

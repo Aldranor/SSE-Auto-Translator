@@ -11,6 +11,7 @@ from cutleast_core_lib.core.alerts.alert import Alert
 from cutleast_core_lib.core.alerts.manager import AlertManager
 
 from core.database.database import TranslationDatabase
+from core.database.database_import_result import DatabaseImportResult
 from core.database.database_reload_result import DatabaseReloadResult
 from core.database.database_service import DatabaseService
 from core.database.translation import Translation
@@ -380,3 +381,185 @@ class TestDatabaseService(CoreTest):
         assert len(database.user_translations) == 2
         assert removed == []
         assert len(AlertManager.get().alerts) == 2
+
+    def test_import_database_folder_recovers_indexed_and_unindexed_folders(
+        self, tmp_path: Path
+    ) -> None:
+        """
+        Tests that `DatabaseService.import_database_folder()` imports indexed
+        translations (including `local_mod_translations/<hash>`), recovers unindexed
+        translation folders on disk, and skips non-translation folders such as
+        `SSE-AT Output`.
+        """
+
+        # given
+        target_userdb: Path = tmp_path / "target_userdb"
+        database: TranslationDatabase = DatabaseService.load_database(
+            RES_PATH / "app" / "database", target_userdb, GameLanguage.German
+        )
+        assert database.user_translations == []
+
+        legacy_db_dir: Path = tmp_path / "legacy_db" / "german"
+        legacy_db_dir.mkdir(parents=True)
+
+        source_wet_and_cold: Path = (
+            DATA_PATH
+            / "data"
+            / "user"
+            / "database"
+            / "German"
+            / "Wet and Cold SE - German"
+        )
+        shutil.copytree(source_wet_and_cold, legacy_db_dir / "Wet and Cold SE - German")
+
+        hashed_folder: Path = (
+            legacy_db_dir / "local_mod_translations" / "583be48c35685b1d"
+        )
+        hashed_folder.mkdir(parents=True)
+        shutil.copy(
+            source_wet_and_cold / "WetandCold.esp.json",
+            hashed_folder / "HashedMod.esp.json",
+        )
+
+        unindexed_folder: Path = legacy_db_dir / "Unindexed Translation - German"
+        unindexed_folder.mkdir(parents=True)
+        shutil.copy(
+            source_wet_and_cold / "WetandCold.esp.json",
+            unindexed_folder / "UnindexedMod.esp.json",
+        )
+
+        output_mod_folder: Path = (
+            legacy_db_dir
+            / "SSE-AT Output"
+            / "SKSE"
+            / "Plugins"
+            / "DynamicStringDistributor"
+            / "Test.esp"
+        )
+        output_mod_folder.mkdir(parents=True)
+        (output_mod_folder / "SSE-AT_output.json").write_text(
+            '[{"form_id": "00012345|Skyrim.esm", "type": "ACTI FULL", "string": "Test"}]',
+            encoding="utf-8",
+        )
+
+        legacy_index: list[dict[str, Any]] = [
+            {
+                "name": "Wet and Cold SE - German",
+                "path": "Wet and Cold SE - German",
+                "version": "2.4.0",
+                "source": "Local",
+                "timestamp": 1753612277,
+            },
+            {
+                "name": "Hashed Translation - German",
+                "path": "local_mod_translations/583be48c35685b1d",
+                "version": "1.2.0",
+                "source": "Local",
+                "timestamp": 1753612288,
+            },
+        ]
+        (legacy_db_dir / "index.json").write_text(
+            json.dumps(legacy_index), encoding="utf-8"
+        )
+
+        added: list[list[Translation]] = []
+        database.add_signal.connect(added.append)
+
+        # when
+        result: DatabaseImportResult = DatabaseService.import_database_folder(
+            legacy_db_dir, database
+        )
+
+        # then
+        assert result == DatabaseImportResult(imported=3, skipped=1, failed=0)
+        assert sorted(t.name for t in database.user_translations) == [
+            "Hashed Translation - German",
+            "Unindexed Translation - German",
+            "Wet and Cold SE - German",
+        ]
+        assert len(added) == 1
+        assert len(added[0]) == 3
+        for translation in database.user_translations:
+            assert translation.path == target_userdb / "german" / translation.name
+            assert list(translation.path.glob("*.esp.json")) != []
+
+    def test_import_database_folder_skips_existing_and_resolves_parent_dir(
+        self, tmp_path: Path
+    ) -> None:
+        """
+        Tests that `DatabaseService.import_database_folder()` resolves a parent
+        database directory and ignores translations or mod files that already exist in
+        the target database.
+        """
+
+        # given
+        database: TranslationDatabase = TestDatabaseService.__load_database_copy(
+            tmp_path
+        )
+        legacy_root: Path = tmp_path / "old_database"
+        shutil.copytree(DATA_PATH / "data" / "user" / "database", legacy_root)
+
+        # Folder with a different name but covering WetandCold.esp (already in DB)
+        duplicate_modfile_folder: Path = (
+            legacy_root / "German" / "WetandCold.esp - German"
+        )
+        shutil.copytree(
+            legacy_root / "German" / "Wet and Cold SE - German",
+            duplicate_modfile_folder,
+        )
+
+        # Brand new translation covering an uncovered mod file
+        extra_folder: Path = legacy_root / "German" / "Extra Mod - German"
+        extra_folder.mkdir(parents=True)
+        shutil.copy(
+            legacy_root / "German" / "Wet and Cold SE - German" / "WetandCold.esp.json",
+            extra_folder / "ExtraMod.esp.json",
+        )
+
+        changed: list[Translation] = []
+        database.changed_signal.connect(changed.append)
+
+        # when
+        result: DatabaseImportResult = DatabaseService.import_database_folder(
+            legacy_root, database
+        )
+
+        # then
+        assert result == DatabaseImportResult(imported=1, skipped=3, failed=0)
+        assert changed == []
+        assert sorted(t.name for t in database.user_translations) == [
+            "Extra Mod - German",
+            "Obsidian Weathers and Seasons - German",
+            "Wet and Cold SE - German",
+        ]
+
+    def test_import_single_translation_folder(self, tmp_path: Path) -> None:
+        """
+        Tests that `DatabaseService.import_database_folder()` imports a single
+        translation folder when selected directly.
+        """
+
+        # given
+        target_userdb: Path = tmp_path / "target_userdb"
+        database: TranslationDatabase = DatabaseService.load_database(
+            RES_PATH / "app" / "database", target_userdb, GameLanguage.German
+        )
+        single_folder: Path = (
+            DATA_PATH
+            / "data"
+            / "user"
+            / "database"
+            / "German"
+            / "Wet and Cold SE - German"
+        )
+
+        # when
+        result: DatabaseImportResult = DatabaseService.import_database_folder(
+            single_folder, database
+        )
+
+        # then
+        assert result == DatabaseImportResult(imported=1, skipped=0, failed=0)
+        assert [t.name for t in database.user_translations] == [
+            "Wet and Cold SE - German"
+        ]
